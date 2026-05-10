@@ -18,16 +18,16 @@ Currently, AI alignment forces models into a single point attractor. BIG maintai
 graph LR
     subgraph "Standard RLHF (Assimilation)"
         direction LR
-        A((Model A)) -->|KL Divergence| B{Global Reward}
-        C((Model B)) -->|KL Divergence| B
-        B --> D((Cognitive<br>Monoculture))
+        A((Model A)) -->|"KL Divergence"| B{Global Reward}
+        C((Model B)) -->|"KL Divergence"| B
+        B --> D((Cognitive Monoculture))
         style D fill:#475569,stroke:#1e293b,color:#fff
     end
 
     subgraph "BIG / BRRM (Resonance)"
         direction LR
-        E((Agent 1)) <-->|Boundary Tension<br>γ(∇Φ)⁴| F[Symmetry Layer]
-        G((Agent 2)) <-->|Boundary Tension<br>γ(∇Φ)⁴| F
+        E((Agent 1)) <-->|"Boundary Tension γ(∇Φ)⁴"| F[Symmetry Layer]
+        G((Agent 2)) <-->|"Boundary Tension γ(∇Φ)⁴"| F
         style E fill:#0284c7,stroke:#0369a1,color:#fff
         style G fill:#0ea5e9,stroke:#0284c7,color:#fff
         style F fill:#f0f9ff,stroke:#0284c7,stroke-dasharray: 5 5
