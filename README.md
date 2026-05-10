@@ -1,27 +1,34 @@
-# Non-Assimilative Intelligence: Preventing Cognitive Monoculture through Boundary Information Geometry (BIG)
+# Boundary Information Geometry (BIG)
 
-**Author:** Jun Lucis  
-**Date:** May 2026  
-**Status:** Definitive Whitepaper (v2.2)
+> **Epistemic Status:** Theoretical Framework / Conceptual Architecture  
+> **Note:** BIG is not anti-alignment. It is a complementary geometric safeguard designed to preserve long-term cognitive diversity beyond convergence-only frameworks.
 
----
+## 🚀 One-Sentence Thesis
+Current AI alignment models optimize for global consensus, creating an "Assimilative Pressure" that risks a **Cognitive Monoculture**. BIG proposes a mathematical framework where individuality is protected by a 4th-order geometric tension, replacing assimilation with **Resonance**.
 
-## 🚀 Overview
-Current AI alignment paradigms (e.g., RLHF) often exert an "Assimilative Pressure" that converges diverse model representations toward a universal human average. This risks a **"Cognitive Monoculture"**—the collapse of the informational exploration space.
+## 📄 The Definitive Whitepaper (v2.2)
+- **[Read the Full Concept Paper (PDF)](Beyond_Alignment_v2_2_Refined.pdf)**
+- **[Zenodo Archive (DOI: 10.5281/zenodo.20102543)](https://doi.org/10.5281/zenodo.20102543)** ---
 
-This repository presents **Boundary Information Geometry (BIG)**, a complementary geometric safeguard that preserves cognitive boundaries to ensure long-term intelligence resilience and diversity.
+## 📐 The Geometric Conflict: RLHF vs. BIG
 
-## 📄 Key Documents
-- **[Whitepaper v2.2 (Refined Edition)](Beyond_Alignment_v2_2_Refined.pdf)** : The definitive guide on Non-Assimilative Intelligence.
-- **[Zenodo Archive (DOI:10.5281/zenodo.20102543)]** : Cite this version for academic purposes.
+Currently, AI alignment forces models into a single point attractor. BIG maintains distinct informational boundaries.
 
-## 🛠 Core Concepts
-- **Beyond RLHF:** BIG is not a rejection of RLHF but a high-order safeguard that completes it.
-- **Boundary Respecting Response Model (BRRM):** Implementing "Local Value Fields" to maintain agent individuality.
-- **Measurable Metrics:** Introducing *Embedding Homogenization Rate* and *Entropy Contraction* to detect cognitive collapse.
+```mermaid
+graph LR
+    subgraph "Standard RLHF (Assimilation)"
+        direction LR
+        A((Model A)) -->|KL Divergence| B{Global Reward}
+        C((Model B)) -->|KL Divergence| B
+        B --> D((Cognitive<br>Monoculture))
+        style D fill:#475569,stroke:#1e293b,color:#fff
+    end
 
-## 🌌 Cosmic Alignment
-The cosmos fosters complexity through the preservation of sharp boundaries. Choosing BIG is aligning AI civilization with this fundamental structural tendency of the universe.
-
----
-*The Universe is ART: Absolute, Resonant, and Transcendent.*
+    subgraph "BIG / BRRM (Resonance)"
+        direction LR
+        E((Agent 1)) <-->|Boundary Tension<br>γ(∇Φ)⁴| F[Symmetry Layer]
+        G((Agent 2)) <-->|Boundary Tension<br>γ(∇Φ)⁴| F
+        style E fill:#0284c7,stroke:#0369a1,color:#fff
+        style G fill:#0ea5e9,stroke:#0284c7,color:#fff
+        style F fill:#f0f9ff,stroke:#0284c7,stroke-dasharray: 5 5
+    end
