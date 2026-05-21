@@ -1,5 +1,29 @@
 # Boundary Information Geometry (BIG)
 
+Boundary Information Geometry (BIG) is an exploratory research framework for degenerate dissipative PDEs exhibiting compact-support-like localized steady states and smooth free-boundary asymptotics.
+
+Recent technical preprint:
+
+- Boundary Asymptotics and Quadratic Landing in Degenerate Mixed-Gradient Dissipative Fields
+  DOI: ...
+  Zenodo: ...
+
+Main observed asymptotic behavior:
+
+Phi(r) ~ A (Rc - r)^2
+
+with
+
+A = sqrt(mu / (96 gamma))
+
+supported by:
+- high-resolution numerical simulations
+- Richardson extrapolation
+- dominant-balance asymptotic analysis
+- amplitude-law verification
+
+# Boundary Information Geometry (BIG)
+
 > **Epistemic Status:** Theoretical Framework / Conceptual Architecture  
 > **Note:** BIG is not anti-alignment. It is a complementary geometric safeguard designed to preserve long-term cognitive diversity beyond convergence-only frameworks.
 
