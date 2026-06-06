@@ -1,6 +1,6 @@
 # Boundary Information Geometry (BIG)
 
-![State Map](figures/B4_3/state_map.png)
+![State Map](figures/B4_3/B4_3_state_map.png)
 
 Boundary Information Geometry (BIG) investigates
 boundary formation, compact-support structures,
