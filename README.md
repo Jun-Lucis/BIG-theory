@@ -1,58 +1,185 @@
 # Boundary Information Geometry (BIG)
 
-Boundary Information Geometry (BIG) is an exploratory research framework for degenerate dissipative PDEs exhibiting compact-support-like localized steady states and smooth free-boundary asymptotics.
+Boundary Information Geometry (BIG) is an exploratory research program investigating how stable structures emerge through boundary formation, nonlinear gradients, and information-preserving interfaces.
 
-Recent technical preprint:
+The current numerical work focuses on quadratic boundary universality in degenerate mixed-gradient dissipative fields.
 
-- Boundary Asymptotics and Quadratic Landing in Degenerate Mixed-Gradient Dissipative Fields
-  DOI: ...
-  Zenodo: ...
+---
 
-Main observed asymptotic behavior:
+## Current Status
 
-Phi(r) ~ A (Rc - r)^2
+### Mathematical Results
 
-with
+* Boundary asymptotics established
+* Quadratic landing behavior identified
+* Compact-support boundary structures observed
+* Robust boundary exponent:
 
-A = sqrt(mu / (96 gamma))
+[
+\nu \approx 2
+]
 
-supported by:
-- high-resolution numerical simulations
-- Richardson extrapolation
-- dominant-balance asymptotic analysis
-- amplitude-law verification
+across a wide parameter range.
 
-# Boundary Information Geometry (BIG)
+### Numerical Reports
 
-> **Epistemic Status:** Theoretical Framework / Conceptual Architecture  
-> **Note:** BIG is not anti-alignment. It is a complementary geometric safeguard designed to preserve long-term cognitive diversity beyond convergence-only frameworks.
+| Report   | Topic                                                                     |
+| -------- | ------------------------------------------------------------------------- |
+| BIG-B3.1 | Boundary-layer scaling and quadratic landing                              |
+| BIG-B4.1 | Universality of quadratic boundary layers                                 |
+| BIG-B4.3 | Stability, compression, and recovery under joint ((\mu,\gamma)) variation |
 
-## 🚀 One-Sentence Thesis
-Current AI alignment models optimize for global consensus, creating an "Assimilative Pressure" that risks a **Cognitive Monoculture**. BIG proposes a mathematical framework where individuality is protected by a 4th-order geometric tension, replacing assimilation with **Resonance**.
+---
 
-## 📄 The Definitive Whitepaper (v2.2)
-- **[Read the Full Concept Paper (PDF)](Beyond_Alignment_v2_2_Refined.pdf)**
-- **[Zenodo Archive (DOI: 10.5281/zenodo.20102543)](https://doi.org/10.5281/zenodo.20102543)** ---
+## Key Observation
 
-## 📐 The Geometric Conflict: RLHF vs. BIG
+The most robust numerical observation obtained so far is:
 
-Currently, AI alignment forces models into a single point attractor. BIG maintains distinct informational boundaries.
+[
+\phi(s)
+\sim
+A s^2
+]
 
-```mermaid
-graph LR
-    subgraph "Standard RLHF (Assimilation)"
-        direction LR
-        A((Model A)) -->|"KL Divergence"| B{Global Reward}
-        C((Model B)) -->|"KL Divergence"| B
-        B --> D((Cognitive Monoculture))
-        style D fill:#475569,stroke:#1e293b,color:#fff
-    end
+near detected free boundaries.
 
-    subgraph "BIG / BRRM (Resonance)"
-        direction LR
-        E((Agent 1)) <-->|"Boundary Tension γ(∇Φ)⁴"| F[Symmetry Layer]
-        G((Agent 2)) <-->|"Boundary Tension γ(∇Φ)⁴"| F
-        style E fill:#0284c7,stroke:#0369a1,color:#fff
-        style G fill:#0ea5e9,stroke:#0284c7,color:#fff
-        style F fill:#f0f9ff,stroke:#0284c7,stroke-dasharray: 5 5
-    end
+The exponent
+
+[
+\nu \approx 2
+]
+
+appears remarkably stable under variations of dissipation strength, initial conditions, and quartic-gradient stiffness.
+
+---
+
+## Numerical Model
+
+The primary evolution equation studied is
+
+[
+\partial_t \phi
+===============
+
+## \nabla \cdot (\phi^2 \nabla \phi)
+
+## \mu \phi
+
+\gamma
+\nabla \cdot
+\left(
+|\nabla\phi|^2
+\nabla\phi
+\right)
++
+S(x)
+]
+
+where
+
+* (\phi) : scalar information field
+* (\mu) : dissipation parameter
+* (\gamma) : quartic-gradient stiffness
+* (S(x)) : localized source
+
+---
+
+## Repository Structure
+
+```text
+BIG-theory/
+
+├── papers/
+│   ├── BIG-B3.1
+│   ├── BIG-B4.1
+│   ├── BIG-B4.3
+│   └── archive/
+
+├── simulations/
+│   ├── B4_1/
+│   ├── B4_3/
+│   └── utilities/
+
+├── figures/
+│   ├── B4_1/
+│   ├── B4_3/
+│   └── summary/
+
+└── docs/
+    ├── overview/
+    ├── roadmap/
+    └── terminology/
+```
+
+---
+
+## Latest Zenodo Reports
+
+Add DOI links below.
+
+### BIG-B4.3
+
+Boundary-Layer Stability and Compression under Joint Parameter Variation in Degenerate Mixed-Gradient Dissipative Fields
+
+DOI:
+(Insert DOI)
+
+---
+
+### BIG-B4.1
+
+Quadratic Boundary Universality Scan
+
+DOI:
+(Insert DOI)
+
+---
+
+### BIG-B3.1
+
+Boundary-Layer Scaling and Quadratic Landing
+
+DOI:
+(Insert DOI)
+
+---
+
+## Research Roadmap
+
+### Completed
+
+* Boundary asymptotics
+* Quadratic landing
+* Universality scans
+* Boundary compression mapping
+
+### Ongoing
+
+* Width scaling laws
+* Multi-boundary interaction
+* Critical scaling analysis
+
+### Future
+
+* Higher-dimensional boundary dynamics
+* Hierarchical boundary structures
+* Generalized boundary geometry
+
+---
+
+## Disclaimer
+
+Boundary Information Geometry is an independent exploratory research program.
+
+The numerical reports focus on observable mathematical behavior of nonlinear dissipative systems. Broader interpretations remain speculative and are clearly separated from established numerical results.
+
+---
+
+## Author
+
+Jun Lucis
+
+Independent Research
+
+GitHub:
+https://github.com/Jun-Lucis/BIG-theory
