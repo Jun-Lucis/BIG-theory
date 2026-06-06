@@ -48,3 +48,7 @@ Completed numerical report.
 
 - BIG-B3.1 — Boundary-Layer Scaling and Quadratic Landing
 - BIG-B4.1 — Quadratic Boundary Universality Scan
+
+### Representative Figure
+
+![B4.3 State Map](../../figures/B4_3/B4_3_state_map.png)
