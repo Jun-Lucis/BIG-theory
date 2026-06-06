@@ -1,23 +1,27 @@
 ## Representative Numerical Results
 
+Boundary Information Geometry (BIG) investigates
+boundary formation, compact-support structures,
+and quadratic boundary universality in nonlinear
+dissipative systems.
+
 # BIG-B3.1 Quadratic Layer Discovery
 
 ![Quadratic Layer](figures/B3_1/B3_1_quadratic_layer.png)
 
 Discovery of a finite self-organized quadratic boundary layer characterized by a persistent local exponent ν ≈ 2.
 
-### BIG-B4.3 State Map
-
-![State Map](figures/B4_3/B4_3_state_map.png)
-
 ### BIG-B4.1 Universality Scan
 
 ![Universality Scan](figures/B4_1/B4_1_universality_scan.png)
 
-Boundary Information Geometry (BIG) investigates
-boundary formation, compact-support structures,
-and quadratic boundary universality in nonlinear
-dissipative systems.
+Universality of the quadratic boundary exponent across μ.
+
+### BIG-B4.3 State Map
+
+![State Map](figures/B4_3/B4_3_state_map.png)
+
+State classification in the joint (μ,γ) parameter space.
 
 ## Main Numerical Result
 
