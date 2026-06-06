@@ -122,7 +122,7 @@ Add DOI links below.
 Boundary-Layer Stability and Compression under Joint Parameter Variation in Degenerate Mixed-Gradient Dissipative Fields
 
 DOI:
-(Insert DOI)
+https://doi.org/10.5281/zenodo.20465842
 
 ---
 
@@ -140,7 +140,7 @@ DOI:
 Boundary-Layer Scaling and Quadratic Landing
 
 DOI:
-(Insert DOI)
+https://doi.org/10.5281/zenodo.20465842
 
 ---
 
