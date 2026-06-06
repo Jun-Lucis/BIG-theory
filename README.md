@@ -1,5 +1,21 @@
 # Boundary Information Geometry (BIG)
 
+![State Map](figures/B4_3/state_map.png)
+
+Boundary Information Geometry (BIG) investigates
+boundary formation, compact-support structures,
+and quadratic boundary universality in nonlinear
+dissipative systems.
+
+## Main Numerical Result
+
+ν ≈ 2
+
+across a broad parameter range.
+
+
+# Boundary Information Geometry (BIG)
+
 Boundary Information Geometry (BIG) is an exploratory research program investigating how stable boundary structures emerge through nonlinear gradients, degenerate diffusion, and information-preserving interfaces.
 
 The current numerical work focuses on **quadratic boundary universality** in degenerate mixed-gradient dissipative fields.
