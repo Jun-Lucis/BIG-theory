@@ -1,5 +1,11 @@
 ## Representative Numerical Results
 
+# BIG-B3.1 Quadratic Layer Discovery
+
+![Quadratic Layer](figures/B3_1/B3_1_quadratic_layer.png)
+
+Discovery of a finite self-organized quadratic boundary layer characterized by a persistent local exponent ν ≈ 2.
+
 ### BIG-B4.3 State Map
 
 ![State Map](figures/B4_3/B4_3_state_map.png)
