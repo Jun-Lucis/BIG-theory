@@ -123,34 +123,6 @@ DOI:
 
 ---
 
-## Repository Structure
-
-```text
-BIG-theory/
-
-├── papers/
-│   ├── BIG-B3.1/
-│   ├── BIG-B4.1/
-│   └── BIG-B4.3/
-│
-├── simulations/
-│   ├── B4_1/
-│   ├── B4_3/
-│   └── utilities/
-│
-├── figures/
-│   ├── B4_1/
-│   ├── B4_3/
-│   └── summary/
-│
-└── docs/
-    ├── overview/
-    ├── roadmap/
-    └── terminology/
-```
-
----
-
 ## Research Roadmap
 
 ### Completed
