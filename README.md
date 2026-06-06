@@ -1,6 +1,12 @@
-# Boundary Information Geometry (BIG)
+## Representative Numerical Results
+
+### BIG-B4.3 State Map
 
 ![State Map](figures/B4_3/B4_3_state_map.png)
+
+### BIG-B4.1 Universality Scan
+
+![Universality Scan](figures/B4_1/B4_1_universality_scan.png)
 
 Boundary Information Geometry (BIG) investigates
 boundary formation, compact-support structures,
