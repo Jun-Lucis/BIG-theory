@@ -4,7 +4,7 @@
 
 The central idea is simple:
 
-> Stable individuality is not only a property of the bulk interior.
+> Stable individuality is not only a property of the bulk interior.  
 > It is organized by boundaries that separate, preserve, and mediate information.
 
 This repository collects papers, figures, numerical reports, and project notes related to BIG.
@@ -19,11 +19,9 @@ The BIG numerical series has progressed through three main stages.
 
 ### 1. B3-B4: Quadratic boundary-layer universality
 
-Compact-support structures form smooth free boundaries with a robust local landing exponent close to
+Compact-support structures form smooth free boundaries with a robust local landing exponent close to:
 
-$$
-\nu \approx 2.
-$$
+**nu approx 2**
 
 This suggests that the boundary is not a sharp cutoff, but a self-organized layer where the field smoothly lands to zero.
 
@@ -33,8 +31,9 @@ Near a critical parameter region, the local boundary profile can remain regular 
 
 This distinction is important:
 
-* the local boundary layer may remain structured,
-* while the global field dynamics may cross into a different fate.
+- The local boundary layer may remain structured.
+- The global field dynamics may still cross into a different fate.
+- Runaway is therefore not simply local boundary collapse.
 
 ### 3. B8: Finite-amplitude separatrix and boundary anisotropy
 
@@ -44,7 +43,7 @@ In particular, elliptical initial boundaries with stronger anisotropy have lower
 
 The current strongest numerical statement is:
 
-> Boundary anisotropy shifts the finite-time separatrix.
+> Boundary anisotropy shifts the finite-time separatrix.  
 > More elongated boundaries become unstable at smaller amplitudes, while more circular boundaries tolerate larger amplitudes.
 
 This should be interpreted as **finite-time numerical evidence**, not as an asymptotic stability theorem.
@@ -53,24 +52,20 @@ This should be interpreted as **finite-time numerical evidence**, not as an asym
 
 ## Main model
 
-A representative field equation studied in the current BIG numerical series is
+A representative field equation studied in the current BIG numerical series is:
 
-$$
-\partial_t \phi =
-\nabla \cdot (\phi^m \nabla \phi)
-- \mu \phi
-- \gamma \nabla \cdot (|\nabla \phi|^2 \nabla \phi).
-$$
+**d phi / dt = div(phi^m grad phi) - mu phi - gamma div(|grad phi|^2 grad phi)**
 
 Here:
 
-- $\phi$ is a scalar information-like field.
-- $m$ controls degenerate mobility.
-- $\mu$ is a linear dissipation parameter.
-- $\gamma$ controls quartic-gradient stiffness.
+- **phi** is a scalar information-like field.
+- **m** controls degenerate mobility.
+- **mu** is a linear dissipation parameter.
+- **gamma** controls quartic-gradient stiffness.
 - The quartic-gradient term emphasizes strong boundary layers.
 
-Earlier versions also studied localized source terms $S(x)$.  
+Earlier versions also studied localized source terms such as **S(x)**.
+
 The present B8 separatrix analysis focuses on compact initial data without source forcing.
 
 ---
@@ -81,13 +76,14 @@ BIG starts from the idea that boundaries are not secondary surfaces around a bul
 
 Instead, boundaries can be interpreted as active structures that:
 
-* separate inside from outside,
-* preserve individuality,
-* mediate interaction,
-* store gradient information,
-* control stability and failure.
+- separate inside from outside,
+- preserve individuality,
+- mediate interaction,
+- store gradient information,
+- control stability and failure.
 
 In this view, a stable individual structure is not simply a dense interior.
+
 It is a field configuration whose boundary prevents complete assimilation while still allowing interaction.
 
 A short conceptual summary is:
@@ -98,77 +94,59 @@ A short conceptual summary is:
 
 ## Key numerical findings
 
-## 1. Quadratic boundary landing
+### 1. Quadratic boundary landing
 
-Across the B3-B4 series, compact-support structures exhibit a smooth boundary landing of the form
+Across the B3-B4 series, compact-support structures exhibit a smooth boundary landing of the form:
 
-$$
-\phi(s) \sim A s^\nu,
-$$
+**phi(s) approx A s^nu**
 
-with
+where **s** is the distance from the detected free boundary.
 
-$$
-\nu \approx 2,
-$$
+The measured exponent is close to:
 
-where $s$ is the distance from the detected free boundary.
+**nu approx 2**
 
 This suggests that the boundary is not a discontinuous edge but a smooth self-organized layer.
 
 ---
 
-## 2. Finite-time runaway threshold
+### 2. Finite-time runaway threshold
 
-In the B8 series, the initial amplitude $A$ is varied to locate a finite-time threshold $A_c$.
+In the B8 series, the initial amplitude **A** is varied to locate a finite-time threshold **A_c**.
 
-For a fixed observation time $T=0.4$, initial conditions below $A_c$ survive up to $T$, while those above $A_c$ enter runaway according to the numerical criterion.
+For a fixed observation time **T = 0.4**, initial conditions below **A_c** survive up to **T**, while those above **A_c** enter runaway according to the numerical criterion.
 
 This threshold is a finite-time separatrix indicator:
 
-$$
-A < A_c \quad \Rightarrow \quad \text{survival},
-$$
+**A < A_c means survival**
 
-$$
-A > A_c \quad \Rightarrow \quad \text{runaway}.
-$$
+**A > A_c means runaway**
 
 It should not be read as an infinite-time stability threshold.
 
 ---
 
-## 3. Boundary anisotropy controls the threshold
+### 3. Boundary anisotropy controls the threshold
 
-For elliptical compact initial conditions,
+For elliptical compact initial conditions, the initial profile is:
 
-$$
-\phi_0(x,y)
-===========
+**phi0(x,y) = A(1 - x^2/a^2 - y^2/b^2)_+^2**
 
-A
-\left(
-1-\frac{x^2}{a^2}-\frac{y^2}{b^2}
-\right)_+^2,
-$$
+The ellipse ratio **b/a** controls the threshold.
 
-the ellipse ratio $b/a$ controls the threshold.
+At **N = 96**, the eccentricity scan gave approximately:
 
-At $N=96$, the eccentricity scan gave approximately:
-
-| ellipse ratio $b/a$ | critical amplitude $A_c$ |
-| ------------------: | -----------------------: |
-|                0.40 |                    0.113 |
-|                0.55 |                    0.166 |
-|                0.70 |                    0.230 |
-|                0.85 |                    0.296 |
-|                1.00 |                    0.346 |
+| ellipse ratio b/a | critical amplitude A_c |
+|---:|---:|
+| 0.40 | 0.113 |
+| 0.55 | 0.166 |
+| 0.70 | 0.230 |
+| 0.85 | 0.296 |
+| 1.00 | 0.346 |
 
 The relationship is nearly linear:
 
-$$
-A_c \approx -0.0473 + 0.3966(b/a).
-$$
+**A_c approx -0.0473 + 0.3966(b/a)**
 
 Thus, circular boundaries tolerate larger amplitudes, while elongated boundaries become unstable at smaller amplitudes.
 
@@ -176,65 +154,55 @@ This is the current central B8 result.
 
 ---
 
-## 4. Boundary-energy reparameterization
+### 4. Boundary-energy reparameterization
 
-The critical points can also be re-expressed using the boundary-gradient energy
+The critical points can also be re-expressed using the boundary-gradient energy:
 
-$$
-E_{24,c}=E_{2,c}+E_{4,c}.
-$$
+**E24_c = E2_c + E4_c**
 
-Numerically, the critical amplitude approximately follows
+Numerically, the critical amplitude approximately follows:
 
-$$
-A_c \sim E_{24,c}^{0.575},
-$$
+**A_c ~ E24_c^0.575**
 
-which is close to a square-root scaling,
+This is close to a square-root scaling:
 
-$$
-A_c \sim E_{24,c}^{1/2}.
-$$
+**A_c ~ sqrt(E24_c)**
 
 This is best interpreted as a useful reparameterization of the critical points, not as an independent causal law.
 
 ---
 
-## 5. Resolution validation
+### 5. Resolution validation
 
-A three-point $N=120$ validation was performed for
+A three-point **N = 120** validation was performed for:
 
-$$
-b/a=0.40,\quad 0.70,\quad 1.00.
-$$
+- **b/a = 0.40**
+- **b/a = 0.70**
+- **b/a = 1.00**
 
-The absolute thresholds decreased under refinement from $N=96$ to $N=120$, but the ordering remained robust:
+The absolute thresholds decreased under refinement from **N = 96** to **N = 120**, but the ordering remained robust:
 
-$$
-A_c(0.40)<A_c(0.70)<A_c(1.00).
-$$
+**A_c(0.40) < A_c(0.70) < A_c(1.00)**
 
 This indicates that the geometry-dependent separatrix shift is not merely a coarse-grid artifact, although the numerical location of the threshold remains resolution-dependent.
 
 The most conservative conclusion is:
 
-> The absolute finite-time coarse-grid artifact, although the numerical location of the threshold remains resolution-dependent.
-
-The most conservative conclusion threshold is resolution-dependent, but the monotone dependence on boundary anisotropy is structurally robust under the current validation.
+> The absolute finite-time threshold is resolution-dependent, but the monotone dependence on boundary anisotropy is structurally robust under the current validation.
 
 ---
 
 ## Numerical series overview
 
-| Series | Main focus                            | Status    |
-| ------ | ------------------------------------- | --------- |
-| B3.1   | Quadratic boundary-layer discovery    | Completed |
-| B4.1   | Universality scan across parameters   | Completed |
-| B4.3   | State map in $(\mu,\gamma)$ space     | Completed |
-| B7     | Critical transition and runaway onset | Completed |
-| B8.6   | Finite-amplitude threshold detection  | Completed |
-| B8.8   | Boundary anisotropy scan              | Completed |
-| B8.8d  | $N=120$ resolution validation         | Completed |
+| Series | Main focus | Status |
+|---|---|---|
+| B3.1 | Quadratic boundary-layer discovery | Completed |
+| B4.1 | Universality scan across parameters | Completed |
+| B4.3 | State map in the mu-gamma parameter space | Completed |
+| B7 | Critical transition and runaway onset | Completed |
+| B8.6 | Finite-amplitude threshold detection | Completed |
+| B8.8 | Boundary anisotropy scan | Completed |
+| B8.8d | N=120 resolution validation | Completed |
 
 ---
 
@@ -244,7 +212,7 @@ The BIG results suggest the following distinction.
 
 ### Local boundary geometry
 
-Local boundary geometry is measured by boundary landing exponents such as $\nu$.
+Local boundary geometry is measured by boundary landing exponents such as **nu**.
 
 This describes how the field approaches zero near the detected free boundary.
 
@@ -265,6 +233,7 @@ This describes whether the entire field configuration remains within a stable ba
 The separatrix position is controlled by amplitude and boundary geometry.
 
 The B8 results suggest that boundary shape is not merely an initial condition.
+
 It can act as a structural control parameter for nonlinear fate.
 
 ---
@@ -273,30 +242,23 @@ It can act as a structural control parameter for nonlinear fate.
 
 Current structure:
 
-```text
-BIG-theory/
-  README.md
-  figures/
-  papers/
-  BIG_Theory_Full_Paper.pdf
-  Beyond_Alignment_v2_2_Refined.pdf
-```
+- **README.md**
+- **figures/**
+- **papers/**
+- **BIG_Theory_Full_Paper.pdf**
+- **Beyond_Alignment_v2_2_Refined.pdf**
 
 Planned organization:
 
-```text
-docs/
-  BIG_overview_JP.md
-  BIG_overview_EN.md
-  B7_to_B8_summary.md
-
-papers/
-  BIG_third_party_paper_JP_no_wet_etching.pdf
-  BIG_B8_one_page_paper_JP.pdf
-
-zenodo/
-  records.md
-```
+- **docs/**
+  - **BIG_overview_JP.md**
+  - **BIG_overview_EN.md**
+  - **B7_to_B8_summary.md**
+- **papers/**
+  - **BIG_third_party_paper_JP_no_wet_etching.pdf**
+  - **BIG_B8_one_page_paper_JP.pdf**
+- **zenodo/**
+  - **records.md**
 
 Heavy numerical fields and ZIP archives should be stored on Zenodo rather than directly in this GitHub repository.
 
@@ -307,11 +269,12 @@ Heavy numerical fields and ZIP archives should be stored on Zenodo rather than d
 The numerical reports and data packages are archived on Zenodo.
 
 GitHub is used as an entry point and project map.
+
 Zenodo is used for preservation and citation.
 
 Current B8 package:
 
-* Zenodo record: https://zenodo.org/records/20645317
+- Zenodo record: https://zenodo.org/records/20645317
 
 Recommended wording for the current B8 package:
 
@@ -323,17 +286,15 @@ Recommended wording for the current B8 package:
 
 This repository contains or links to the following types of documents:
 
-* conceptual BIG overview papers,
-* numerical reports on compact-support boundary layers,
-* B-series reports on quadratic boundary landing,
-* B7-B8 reports on finite-time separatrix behavior,
-* third-party-oriented summaries for readers new to BIG.
+- conceptual BIG overview papers,
+- numerical reports on compact-support boundary layers,
+- B-series reports on quadratic boundary landing,
+- B7-B8 reports on finite-time separatrix behavior,
+- third-party-oriented summaries for readers new to BIG.
 
 The current preferred introductory document is:
 
-```text
-BIG_third_party_paper_JP_no_wet_etching.pdf
-```
+**BIG_third_party_paper_JP_no_wet_etching.pdf**
 
 This document explains BIG from the beginning and summarizes the B3-B8 numerical flow for general readers.
 
@@ -347,14 +308,14 @@ However, its boundary-centered language may be useful for thinking about systems
 
 Possible long-term areas of relevance include:
 
-* nonlinear field dynamics,
-* free-boundary problems,
-* dissipative pattern formation,
-* compact-support structures,
-* interface stability,
-* biological boundary metaphors,
-* information geometry,
-* AI state-space robustness.
+- nonlinear field dynamics,
+- free-boundary problems,
+- dissipative pattern formation,
+- compact-support structures,
+- interface stability,
+- biological boundary metaphors,
+- information geometry,
+- AI state-space robustness.
 
 These broader interpretations should be treated as conceptual extensions unless independently modeled.
 
@@ -366,12 +327,12 @@ This project is exploratory.
 
 The current numerical results should be interpreted with the following cautions:
 
-* The thresholds are finite-time thresholds at $T=0.4$.
-* The absolute threshold values are resolution-dependent.
-* The model is a simplified nonlinear dissipative field system.
-* The reported trends are numerical evidence, not rigorous mathematical proofs.
-* Broader interpretations involving life, cognition, civilization, or AI remain speculative unless separately modeled.
-* The term "information" in BIG is used as a structural and geometric concept, not as a fully formalized Shannon-information theory in the current numerical work.
+- The thresholds are finite-time thresholds at **T = 0.4**.
+- The absolute threshold values are resolution-dependent.
+- The model is a simplified nonlinear dissipative field system.
+- The reported trends are numerical evidence, not rigorous mathematical proofs.
+- Broader interpretations involving life, cognition, civilization, or AI remain speculative unless separately modeled.
+- The term "information" in BIG is used as a structural and geometric concept, not as a fully formalized Shannon-information theory in the current numerical work.
 
 ---
 
@@ -383,14 +344,14 @@ The strongest current BIG numerical conclusion is:
 
 In simpler words:
 
-> Boundaries are not passive edges.
+> Boundaries are not passive edges.  
 > Their shape can influence whether a structure persists or fails.
 
 ---
 
 ## Author
 
-**Jun Lucis**
+**Jun Lucis**  
 Independent research
 
 ---
