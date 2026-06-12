@@ -1,180 +1,290 @@
-## Representative Numerical Results
-
-Boundary Information Geometry (BIG) investigates
-boundary formation, compact-support structures,
-and quadratic boundary universality in nonlinear
-dissipative systems.
-
-# BIG-B3.1 Quadratic Layer Discovery
-
-![Quadratic Layer](figures/B3_1/B3_1_quadratic_layer.png)
-
-Discovery of a finite self-organized quadratic boundary layer characterized by a persistent local exponent ν ≈ 2.
-
-### BIG-B4.1 Universality Scan
-
-![Universality Scan](figures/B4_1/B4_1_universality_scan.png)
-
-Universality of the quadratic boundary exponent across μ.
-
-### BIG-B4.3 State Map
-
-![State Map](figures/B4_3/B4_3_state_map.png)
-
-State classification in the joint (μ,γ) parameter space.
-
-## Main Numerical Result
-
-ν ≈ 2
-
-across a broad parameter range.
-
-
 # Boundary Information Geometry (BIG)
 
-Boundary Information Geometry (BIG) is an exploratory research program investigating how stable boundary structures emerge through nonlinear gradients, degenerate diffusion, and information-preserving interfaces.
+**Boundary Information Geometry (BIG)** is an independent exploratory research program that studies boundaries as information-carrying structures.
 
-The current numerical work focuses on **quadratic boundary universality** in degenerate mixed-gradient dissipative fields.
+The central idea is simple:
+
+> Stable individuality is not only a property of the bulk interior.  
+> It is organized by boundaries that separate, preserve, and mediate information.
+
+This repository contains numerical reports, figures, and papers on nonlinear dissipative field models in which compact-support structures, quadratic boundary layers, and finite-time runaway thresholds emerge.
 
 ---
 
-## Key Numerical Findings
+## Current status
 
-The most robust observation obtained so far is:
+The BIG numerical series has progressed through three main stages.
 
-```text
-φ(s) ~ A s^ν
-```
+### 1. B3–B4: Quadratic boundary-layer universality
+
+Compact-support structures form smooth free boundaries, with a robust local landing exponent close to
+
+\[
+\nu \approx 2.
+\]
+
+### 2. B7: Critical transition and runaway onset
+
+Near a critical parameter region, the local boundary profile remains regular while the global dynamics may transition toward runaway behavior.
+
+### 3. B8: Finite-amplitude separatrix and boundary anisotropy
+
+Recent B8 results show that finite-time runaway thresholds are controlled by boundary geometry.
+
+In particular, elliptical initial boundaries with stronger anisotropy have lower critical amplitudes.
+
+The current strongest numerical statement is:
+
+> Boundary anisotropy shifts the finite-time separatrix.  
+> More elongated boundaries become unstable at smaller amplitudes, while more circular boundaries tolerate larger amplitudes.
+
+This should be interpreted as **finite-time numerical evidence**, not as an asymptotic stability theorem.
+
+---
+
+## Main model
+
+A representative field equation studied in the current BIG numerical series is
+
+\[
+\partial_t \phi
+=
+\nabla\cdot(\phi^m\nabla\phi)
+-
+\mu\phi
+-
+\gamma\nabla\cdot(|\nabla\phi|^2\nabla\phi).
+\]
+
+Here:
+
+- \(\phi\) is a scalar information-like field.
+- \(m\) controls degenerate mobility.
+- \(\mu\) is a linear dissipation parameter.
+- \(\gamma\) controls quartic-gradient stiffness.
+- The quartic-gradient term emphasizes strong boundary layers.
+
+Earlier versions also studied localized source terms \(S(x)\).  
+The present B8 separatrix analysis focuses on compact initial data without source forcing.
+
+---
+
+## Key numerical findings
+
+## 1. Quadratic boundary landing
+
+Across the B3–B4 series, compact-support structures exhibit a smooth boundary landing of the form
+
+\[
+\phi(s) \sim A s^\nu,
+\]
 
 with
 
+\[
+\nu \approx 2,
+\]
+
+where \(s\) is the distance from the detected free boundary.
+
+This suggests that the boundary is not a sharp cutoff but a self-organized layer.
+
+---
+
+## 2. Finite-time runaway threshold
+
+In the B8 series, the initial amplitude \(A\) is varied to locate a finite-time threshold \(A_c\).
+
+For a fixed observation time \(T=0.4\), initial conditions below \(A_c\) survive up to \(T\), while those above \(A_c\) enter runaway according to the numerical criterion.
+
+This threshold is a finite-time separatrix indicator:
+
+\[
+A < A_c \quad \Rightarrow \quad survival,
+\]
+
+\[
+A > A_c \quad \Rightarrow \quad runaway.
+\]
+
+It should not be read as an infinite-time stability threshold.
+
+---
+
+## 3. Boundary anisotropy controls the threshold
+
+For elliptical compact initial conditions,
+
+\[
+\phi_0(x,y)
+=
+A
+\left(
+1-\frac{x^2}{a^2}-\frac{y^2}{b^2}
+\right)_+^2,
+\]
+
+the ellipse ratio \(b/a\) controls the threshold.
+
+At \(N=96\), the eccentricity scan gave approximately:
+
+| ellipse ratio \(b/a\) | critical amplitude \(A_c\) |
+|---:|---:|
+| 0.40 | 0.113 |
+| 0.55 | 0.166 |
+| 0.70 | 0.230 |
+| 0.85 | 0.296 |
+| 1.00 | 0.346 |
+
+The relationship is nearly linear:
+
+\[
+A_c \approx -0.0473 + 0.3966(b/a).
+\]
+
+Thus, circular boundaries tolerate larger amplitudes, while elongated boundaries become unstable at smaller amplitudes.
+
+---
+
+## 4. Boundary-energy reparameterization
+
+The critical points can also be re-expressed using the boundary-gradient energy
+
+\[
+E_{24,c}=E_{2,c}+E_{4,c}.
+\]
+
+Numerically, the critical amplitude approximately follows
+
+\[
+A_c \sim E_{24,c}^{0.575},
+\]
+
+which is close to a square-root scaling,
+
+\[
+A_c \sim E_{24,c}^{1/2}.
+\]
+
+This is best interpreted as a useful reparameterization of the critical points, not as an independent causal law.
+
+---
+
+## 5. Resolution validation
+
+A three-point \(N=120\) validation was performed for
+
+\[
+b/a=0.40,\quad 0.70,\quad 1.00.
+\]
+
+The absolute thresholds decreased under refinement, but the ordering remained robust:
+
+\[
+A_c(0.40)<A_c(0.70)<A_c(1.00).
+\]
+
+This indicates that the geometry-dependent separatrix shift is not merely a coarse-grid artifact, although the numerical location of the threshold remains resolution-dependent.
+
+---
+
+## Numerical series overview
+
+| Series | Main focus | Status |
+|---|---|---|
+| B3.1 | Quadratic boundary-layer discovery | Completed |
+| B4.1 | Universality scan across parameters | Completed |
+| B4.3 | State map in \((\mu,\gamma)\) space | Completed |
+| B7 | Critical transition and runaway onset | Completed |
+| B8.6 | Finite-amplitude threshold detection | Completed |
+| B8.8 | Boundary anisotropy scan | Completed |
+| B8.8d | N=120 resolution validation | Completed |
+
+---
+
+## Repository structure
+
+Current structure:
+
 ```text
-ν ≈ 2
+BIG-theory/
+  README.md
+  figures/
+  papers/
+  BIG_Theory_Full_Paper.pdf
+  Beyond_Alignment_v2_2_Refined.pdf
 ```
 
-near detected free boundaries.
-
-Across the BIG-B4 series, the exponent ν remains highly stable, while the boundary-layer width and amplitude consistency vary with model parameters.
-
-Main findings:
-
-* ν ≈ 2 remains robust across tested parameter ranges.
-* Boundary-layer width changes significantly with μ and γ.
-* Increasing γ improves amplitude consistency.
-* Stable / Compressed / Residual regimes emerge in the B4.3 parameter map.
-
----
-
-## Numerical Model
-
-The primary evolution equation studied is:
+Planned organization:
 
 ```text
-∂tφ = ∇·(φ²∇φ)
-      − μφ
-      − γ∇·(|∇φ|²∇φ)
-      + S(x)
+docs/
+  BIG_overview_JP.md
+  BIG_overview_EN.md
+  B7_to_B8_summary.md
+
+papers/
+  BIG_third_party_paper_JP_no_wet_etching.pdf
+  BIG_B8_one_page_paper_JP.pdf
+
+zenodo/
+  records.md
 ```
 
-where:
-
-* φ : scalar information field
-* μ : dissipation parameter
-* γ : quartic-gradient stiffness
-* S(x) : localized source
+Heavy numerical fields and ZIP archives should be stored on Zenodo rather than directly in this GitHub repository.
 
 ---
 
-## Latest Reports
+## Zenodo records
 
-### BIG-B4.3
+The numerical reports and data packages are archived on Zenodo.
 
-**Boundary-Layer Stability and Compression under Joint Parameter Variation in Degenerate Mixed-Gradient Dissipative Fields**
+GitHub is used as an entry point and project map.  
+Zenodo is used for preservation and citation.
 
-Project page: [papers/BIG-B4.3](./papers/BIG-B4.3)
+Recommended wording for the current B8 package:
 
-DOI:
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20564435.svg)](https://doi.org/10.5281/zenodo.20564435)
-
----
-
-### BIG-B4.1
-
-**Quadratic Boundary Universality Scan**
-
-Project page: [papers/BIG-B4.1](./papers/BIG-B4.1)
-
-DOI:
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20541748.svg)](https://doi.org/10.5281/zenodo.20541748)
-
----
-
-### BIG-B3.1
-
-**Boundary-Layer Scaling and Quadratic Landing**
-
-Project page: [papers/BIG-B3.1](./papers/BIG-B3.1)
-
-DOI:
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20465842.svg)](https://doi.org/10.5281/zenodo.20465842)
-
----
-
-## Research Roadmap
-
-### Completed
-
-* Boundary-layer asymptotics
-* Quadratic landing behavior
-* Reproducibility scans
-* μ-direction universality test
-* Joint (μ, γ) boundary-compression map
-
-### Ongoing
-
-* Boundary-layer width scaling
-* Amplitude consistency analysis
-* Multi-boundary interaction studies
-
-### Future
-
-* Critical scaling analysis
-* Higher-dimensional boundary dynamics
-* Hierarchical boundary structures
+> Numerical evidence for boundary-anisotropy-controlled finite-time separatrix thresholds in a degenerate mixed-gradient dissipative field.
 
 ---
 
 ## Interpretation
 
-The current numerical results suggest a distinction between:
+The BIG results suggest the following distinction:
 
-* **boundary geometry**
-  measured by the exponent ν
+- **Local boundary geometry**: measured by boundary landing exponents such as \(\nu\).
+- **Boundary-layer state**: measured by width, amplitude consistency, and compression.
+- **Global dynamical fate**: measured by finite-time survival or runaway.
+- **Separatrix position**: controlled by amplitude and boundary geometry.
 
-* **boundary-layer state**
-  measured by layer width and amplitude consistency
+The key conceptual lesson is:
 
-The exponent ν ≈ 2 appears highly robust, while the observable boundary layer can be stable, compressed, or residual depending on parameters.
+> Boundary shape is not merely an initial condition.  
+> It can act as a structural control parameter for nonlinear fate.
 
 ---
 
-## Disclaimer
+## Limitations
 
-Boundary Information Geometry is an independent exploratory research program.
+This project is exploratory.
 
-The numerical reports focus on observable mathematical behavior of nonlinear dissipative systems. Broader interpretations remain speculative and are separated from established numerical results.
+The current numerical results should be interpreted with the following cautions:
+
+- The thresholds are finite-time thresholds at \(T=0.4\).
+- The absolute threshold values are resolution-dependent.
+- The model is a simplified nonlinear dissipative field system.
+- Broader interpretations involving life, cognition, civilization, or AI remain speculative unless separately modeled.
+- The results are numerical evidence, not rigorous mathematical proofs.
 
 ---
 
 ## Author
 
-Jun Lucis
+**Jun Lucis**  
+Independent research
 
-Independent Research
+---
 
-Repository:
+## Short description
 
-https://github.com/Jun-Lucis/BIG-theory
+Boundary Information Geometry studies how stable boundary structures emerge, persist, deform, and fail in nonlinear dissipative systems.
