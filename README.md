@@ -363,27 +363,3 @@ In simpler words:
 Independent research
 
 ---
-
-cff-version: 1.2.0
-title: "Boundary Information Geometry (BIG)"
-message: "If you use this repository, please cite the associated Zenodo records."
-type: software
-authors:
-  - family-names: Lucis
-    given-names: Jun
-repository-code: "https://github.com/Jun-Lucis/BIG-theory"
-url: "https://github.com/Jun-Lucis/BIG-theory"
-abstract: "Boundary Information Geometry (BIG) is an exploratory research program studying boundaries as information-carrying structures in nonlinear dissipative field models."
-keywords:
-  - Boundary Information Geometry
-  - nonlinear dissipative systems
-  - boundary layers
-  - compact support
-  - separatrix
-  - finite-time threshold
-  - boundary anisotropy
-license: "CC-BY-4.0"
-
-## Short description
-
-Boundary Information Geometry studies how stable boundary structures emerge, persist, deform, and fail in nonlinear dissipative systems.
