@@ -1,290 +1,542 @@
-# Boundary Information Geometry (BIG)
+# 境界情報幾何学（BIG）概説
 
-**Boundary Information Geometry (BIG)** is an independent exploratory research program that studies boundaries as information-carrying structures.
+**境界情報幾何学**、Boundary Information Geometry、略して **BIG** は、境界を情報構造の中心として扱うための探索的研究です。
 
-The central idea is simple:
+通常、私たちは物事を「中身」から理解しようとします。
+物質なら内部構造、生命なら細胞や遺伝子、AIならモデル内部、社会なら構成員に注目します。
 
-> Stable individuality is not only a property of the bulk interior.  
-> It is organized by boundaries that separate, preserve, and mediate information.
+BIGでは、そこに少し違う視点を加えます。
 
-This repository contains numerical reports, figures, and papers on nonlinear dissipative field models in which compact-support structures, quadratic boundary layers, and finite-time runaway thresholds emerge.
+> 個体や構造を成り立たせているのは、内部だけではない。
+> 内と外を分け、同時に関係を可能にする境界こそが、安定性と個体性の中心にある。
 
----
-
-## Current status
-
-The BIG numerical series has progressed through three main stages.
-
-### 1. B3–B4: Quadratic boundary-layer universality
-
-Compact-support structures form smooth free boundaries, with a robust local landing exponent close to
-
-$$
-\nu \approx 2.
-$$
-
-### 2. B7: Critical transition and runaway onset
-
-Near a critical parameter region, the local boundary profile remains regular while the global dynamics may transition toward runaway behavior.
-
-### 3. B8: Finite-amplitude separatrix and boundary anisotropy
-
-Recent B8 results show that finite-time runaway thresholds are controlled by boundary geometry.
-
-In particular, elliptical initial boundaries with stronger anisotropy have lower critical amplitudes.
-
-The current strongest numerical statement is:
-
-> Boundary anisotropy shifts the finite-time separatrix.  
-> More elongated boundaries become unstable at smaller amplitudes, while more circular boundaries tolerate larger amplitudes.
-
-This should be interpreted as **finite-time numerical evidence**, not as an asymptotic stability theorem.
+この考えを、単なる比喩ではなく、数理モデルと数値解析によって調べようとしているのがBIGです。
 
 ---
 
-## Main model
+## 1. BIGの基本的な考え方
 
-A representative field equation studied in the current BIG numerical series is
+BIGの中心にあるのは、次の考えです。
+
+> 個とは、完全に孤立した中身ではない。
+> 個とは、境界を保ちつつ、境界越しに外と関係する構造である。
+
+完全に混ざってしまえば、個体も区別も失われます。
+しかし、完全に閉じてしまえば、外との関係も共鳴も失われます。
+
+したがって、重要なのは「完全な同化」でも「完全な孤立」でもなく、
+
+> 境界を保ったまま関係すること
+
+です。
+
+BIGでは、この「境界を保つ力」や「境界が持つ情報」を、場の勾配や境界エネルギーとして表現します。
+
+---
+
+## 2. 境界を数式で表す
+
+BIGでは、ある場を
+
+$$
+\phi(x,t)
+$$
+
+として考えます。
+
+この $\phi$ は、濃度、秩序、情報密度、構造の強さなどを表す抽象的な量です。
+
+重要なのは、$\phi$ そのものだけではありません。
+むしろ、$\phi$ がどこで急に変化するかが重要です。
+
+急な変化がある場所には、境界があります。
+
+場の変化の強さは、勾配
+
+$$
+\nabla \phi
+$$
+
+で表されます。
+
+通常の勾配エネルギーは、
+
+$$
+|\nabla \phi|^2
+$$
+
+のような形で表されます。
+
+BIGではさらに、強い境界層を扱うために、
+
+$$
+|\nabla \phi|^4
+$$
+
+のような4乗勾配項を重視します。
+
+直感的には、この項は
+
+> 境界が強く立ち上がる場所に蓄えられる非線形な境界エネルギー
+
+を表します。
+
+---
+
+## 3. 代表的なモデル方程式
+
+現在のBIG数値系列で中心的に扱っている代表モデルは、次のような非線形散逸場です。
 
 $$
 \partial_t \phi
-=
-\nabla\cdot(\phi^m\nabla\phi)
--
-\mu\phi
--
+===============
+
+## \nabla\cdot(\phi^m\nabla\phi)
+
+## \mu\phi
+
 \gamma\nabla\cdot(|\nabla\phi|^2\nabla\phi).
 $$
 
-Here:
+ここで、
 
-- $\phi$ is a scalar information-like field.
-- $m$ controls degenerate mobility.
-- $\mu$ is a linear dissipation parameter.
-- $\gamma$ controls quartic-gradient stiffness.
-- The quartic-gradient term emphasizes strong boundary layers.
+* $\phi$ は情報的・構造的な場
+* $m$ は退化移動度の指数
+* $\mu$ は線形減衰
+* $\gamma$ は4乗勾配項の強さ
+* $|\nabla\phi|^2\nabla\phi$ は強い境界層に関わる非線形項
 
-Earlier versions also studied localized source terms $S(x)$.  
-The present B8 separatrix analysis focuses on compact initial data without source forcing.
+です。
 
----
-
-## Key numerical findings
-
-### 1. Quadratic boundary landing
-
-Across the B3–B4 series, compact-support structures exhibit a smooth boundary landing of the form
-
-$$
-\phi(s) \sim A s^\nu,
-$$
-
-with
-
-$$
-\nu \approx 2,
-$$
-
-where $s$ is the distance from the detected free boundary.
-
-This suggests that the boundary is not a sharp cutoff but a self-organized layer.
+この方程式は、BIGそのものの全体を表す唯一の式ではありません。
+しかし、境界が形成され、保たれ、壊れる様子を見るための有効なモデルとして使っています。
 
 ---
 
-### 2. Finite-time runaway threshold
+## 4. B3系列：境界はなめらかに着地する
 
-In the B8 series, the initial amplitude $A$ is varied to locate a finite-time threshold $A_c$.
+B3系列で重要だったのは、境界の近くで場がどのようにゼロへ向かうかでした。
 
-For a fixed observation time $T=0.4$, initial conditions below $A_c$ survive up to $T$, while those above $A_c$ enter runaway according to the numerical criterion.
+通常の拡散では、場がなだらかに広がっていくことがあります。
+しかしBIG型のモデルでは、場が有限の範囲にまとまり、その外側ではほぼゼロになる構造が現れます。
 
-This threshold is a finite-time separatrix indicator:
+つまり、コンパクトな支持を持つ構造が生まれます。
+
+境界の近くでの場の形は、
 
 $$
-A < A_c \quad \Rightarrow \quad \text{survival},
+\phi(s) \sim A s^\nu
 $$
 
+のように表されます。
+
+ここで $s$ は境界からの距離です。
+
+数値解析では、この指数が
+
 $$
-A > A_c \quad \Rightarrow \quad \text{runaway}.
+\nu \approx 2
 $$
 
-It should not be read as an infinite-time stability threshold.
+に近い値を示しました。
+
+これは、境界で場が乱暴に切れるのではなく、二次関数的になめらかにゼロへ着地していることを意味します。
+
+この性質は、**quadratic landing** と呼べるものです。
+
+BIGにとって、これは重要です。
+境界は単なる切れ目ではなく、構造化された層として現れているからです。
 
 ---
 
-### 3. Boundary anisotropy controls the threshold
+## 5. B4系列：二次境界層の普遍性
 
-For elliptical compact initial conditions,
+B4系列では、パラメータを変えながら、同じような二次的境界着地がどこまで残るかを調べました。
+
+その結果、一定の範囲では
+
+$$
+\nu \approx 2
+$$
+
+に近い境界指数がかなり安定して現れることが確認されました。
+
+これは、BIG型モデルにおける境界が、偶然の数値形状ではなく、ある程度再現性のある構造として形成される可能性を示しています。
+
+B4の段階で見えていたことは、次のようにまとめられます。
+
+* 場は有限支持を持つ構造を作る
+* 境界はなめらかにゼロへ着地する
+* その着地指数はおおむね $\nu \approx 2$ に近い
+* 境界は単なる数値的切断ではなく、自己組織化された層として現れる
+
+この段階で、BIGは「境界が重要である」という思想から、「境界が数値的に安定した構造として見える」という段階へ進みました。
+
+---
+
+## 6. B5系列：境界の形と異方性
+
+B5系列では、境界が丸い場合だけではなく、歪んだ場合や異方的な場合に注目しました。
+
+現実の境界は、多くの場合、完全な円ではありません。
+生命の膜、物質の界面、情報構造、社会的境界などは、多かれ少なかれ歪みを持っています。
+
+そこで、楕円的な形や曲率の違いを持つ境界を調べると、境界の場所によって局所的な性質が変わることが見えてきました。
+
+曲率が大きい場所、細くなっている場所、伸びている場所では、境界の局所的な振る舞いが異なります。
+
+この段階で、BIGの関心は次の方向へ進みました。
+
+> 境界は存在するだけではなく、形を持つ。
+> そして、その形が安定性に影響する。
+
+これは、後のB8系列につながる重要な流れです。
+
+---
+
+## 7. B7系列：局所境界は保たれても、全体は暴走しうる
+
+B7系列では、パラメータを変えたときに、構造が保たれるか、それとも暴走的な状態へ向かうかを調べました。
+
+ここで重要だったのは、暴走に近い状態でも、局所的な境界形状がすぐに崩れるわけではないということです。
+
+境界近くの指数や局所構造は、比較的規則的に残る。
+しかし、全体の力学は runaway、つまり暴走側へ進むことがある。
+
+これは、BIGにとって重要な区別です。
+
+境界の局所構造と、系全体の運命は同じではありません。
+
+局所的には境界が保たれていても、全体としては別の力学的領域へ入っていくことがある。
+
+このとき、安定側と暴走側を分ける面を
+
+$$
+\text{separatrix}
+$$
+
+と呼びます。
+
+B7では、BIGの焦点が「境界の局所構造」から「境界を持つ系全体の運命」へ広がりました。
+
+---
+
+## 8. B8系列：有限振幅しきい値
+
+B8系列では、初期状態の振幅を変えながら、どこまでなら構造が保たれ、どこから暴走するかを調べました。
+
+ここで導入された重要な量が
+
+$$
+A_c
+$$
+
+です。
+
+これは、有限時間の観測において、survival と runaway を分ける臨界振幅です。
+
+観測時間を
+
+$$
+T=0.4
+$$
+
+としたとき、
+
+$$
+A < A_c
+$$
+
+なら、その時間までは構造が保たれる。
+
+一方、
+
+$$
+A > A_c
+$$
+
+なら、途中で runaway に入る。
+
+このように、BIGでは境界構造の安定性を
+
+> どれくらいの振幅まで耐えられるか
+
+として測れるようになりました。
+
+これは非常に重要です。
+「境界があるかどうか」だけではなく、「境界がどれくらいの刺激に耐えられるか」を数値的に測れるからです。
+
+---
+
+## 9. B8.8：境界異方性がしきい値を動かす
+
+B8.8では、楕円形の初期境界を使って、境界形状が臨界振幅にどう影響するかを調べました。
+
+初期条件は大まかに次の形です。
 
 $$
 \phi_0(x,y)
-=
+===========
+
 A
 \left(
-1-\frac{x^2}{a^2}-\frac{y^2}{b^2}
-\right)_+^2,
+1-\frac{x^2}{a^2}
+-\frac{y^2}{b^2}
+\right)_+^2.
 $$
 
-the ellipse ratio $b/a$ controls the threshold.
-
-At $N=96$, the eccentricity scan gave approximately:
-
-| ellipse ratio b/a | critical amplitude A_c |
-|---:|---:|
-| 0.40 | 0.113 |
-| 0.55 | 0.166 |
-| 0.70 | 0.230 |
-| 0.85 | 0.296 |
-| 1.00 | 0.346 |
-
-The relationship is nearly linear:
+ここで、
 
 $$
-A_c \approx -0.0473 + 0.3966(b/a).
+b/a
 $$
 
-Thus, circular boundaries tolerate larger amplitudes, while elongated boundaries become unstable at smaller amplitudes.
+が楕円比です。
 
----
+* $b/a=1.00$ は円形
+* $b/a=0.70$ はやや細長い楕円
+* $b/a=0.40$ はかなり細長い楕円
 
-### 4. Boundary-energy reparameterization
+です。
 
-The critical points can also be re-expressed using the boundary-gradient energy
-
-$$
-E_{24,c}=E_{2,c}+E_{4,c}.
-$$
-
-Numerically, the critical amplitude approximately follows
-
-$$
-A_c \sim E_{24,c}^{0.575},
-$$
-
-which is close to a square-root scaling,
-
-$$
-A_c \sim E_{24,c}^{1/2}.
-$$
-
-This is best interpreted as a useful reparameterization of the critical points, not as an independent causal law.
-
----
-
-### 5. Resolution validation
-
-A three-point $N=120$ validation was performed for
-
-$$
-b/a=0.40,\quad 0.70,\quad 1.00.
-$$
-
-The absolute thresholds decreased under refinement, but the ordering remained robust:
+数値解析の結果、次の傾向が見えました。
 
 $$
 A_c(0.40)<A_c(0.70)<A_c(1.00).
 $$
 
-This indicates that the geometry-dependent separatrix shift is not merely a coarse-grid artifact, although the numerical location of the threshold remains resolution-dependent.
+つまり、
+
+> 細長い境界ほど、小さな振幅で暴走しやすい。
+> 円形に近い境界ほど、より大きな振幅に耐えられる。
+
+ということです。
+
+N=96での代表値は次の通りです。
+
+| ellipse ratio $b/a$ | critical amplitude $A_c$ |
+| ------------------: | -----------------------: |
+|                0.40 |                    0.113 |
+|                0.55 |                    0.166 |
+|                0.70 |                    0.230 |
+|                0.85 |                    0.296 |
+|                1.00 |                    0.346 |
+
+さらに、これらはほぼ線形に並びました。
+
+$$
+A_c \approx -0.0473 + 0.3966(b/a).
+$$
+
+これは、BIGにとって非常に大きな意味を持ちます。
+
+境界形状は、単なる初期条件ではありません。
+境界形状そのものが、安定側と暴走側を分ける separatrix の位置を動かしている可能性があるからです。
 
 ---
 
-## Numerical series overview
+## 10. 境界エネルギーによる再表現
 
-| Series | Main focus | Status |
-|---|---|---|
-| B3.1 | Quadratic boundary-layer discovery | Completed |
-| B4.1 | Universality scan across parameters | Completed |
-| B4.3 | State map in (mu, gamma) space | Completed |
-| B7 | Critical transition and runaway onset | Completed |
-| B8.6 | Finite-amplitude threshold detection | Completed |
-| B8.8 | Boundary anisotropy scan | Completed |
-| B8.8d | N=120 resolution validation | Completed |
+B8.8では、臨界点における境界勾配エネルギーも調べました。
 
----
+ここで使った量は、
 
-## Repository structure
+$$
+E_{24,c}=E_{2,c}+E_{4,c}.
+$$
 
-Current structure:
+これは、臨界状態において境界に蓄えられている勾配エネルギーを表す量です。
 
-```text
-BIG-theory/
-  README.md
-  figures/
-  papers/
-  BIG_Theory_Full_Paper.pdf
-  Beyond_Alignment_v2_2_Refined.pdf
-```
+解析では、
 
-Planned organization:
+$$
+A_c \sim E_{24,c}^{0.575}
+$$
 
-```text
-docs/
-  BIG_overview_JP.md
-  BIG_overview_EN.md
-  B7_to_B8_summary.md
+に近い関係が見えました。
 
-papers/
-  BIG_third_party_paper_JP_no_wet_etching.pdf
-  BIG_B8_one_page_paper_JP.pdf
+この指数 $0.575$ は、
 
-zenodo/
-  records.md
-```
+$$
+1/2
+$$
 
-Heavy numerical fields and ZIP archives should be stored on Zenodo rather than directly in this GitHub repository.
+に近いため、直感的には
 
----
+$$
+A_c \sim E_{24,c}^{1/2}
+$$
 
-## Zenodo records
+に近いスケーリングと見ることができます。
 
-The numerical reports and data packages are archived on Zenodo.
+これは物理的には自然です。
+多くの場合、エネルギーは振幅の二乗に近い量として現れるため、振幅がエネルギーの平方根に近くなることは理解しやすいからです。
 
-GitHub is used as an entry point and project map.  
-Zenodo is used for preservation and citation.
+ただし、ここは慎重に見る必要があります。
 
-Recommended wording for the current B8 package:
+$E_{24,c}$ は、臨界振幅 $A_c$ で作った初期場から計算される量です。
+したがって、完全に独立した原因というより、
 
-> Numerical evidence for boundary-anisotropy-controlled finite-time separatrix thresholds in a degenerate mixed-gradient dissipative field.
+> 臨界点を境界エネルギーで再表現すると、かなりきれいなスケーリングが見える
+
+と読むのが正確です。
 
 ---
 
-## Interpretation
+## 11. N=120検証：値は変わるが構造は残る
 
-The BIG results suggest the following distinction:
+B8.8の結果が、粗い格子だけの偶然ではないかを確認するために、解像度を上げた検証も行いました。
 
-- **Local boundary geometry**: measured by boundary landing exponents such as $\nu$.
-- **Boundary-layer state**: measured by width, amplitude consistency, and compression.
-- **Global dynamical fate**: measured by finite-time survival or runaway.
-- **Separatrix position**: controlled by amplitude and boundary geometry.
+N=96からN=120に上げると、臨界振幅の絶対値は全体に下がりました。
 
-The key conceptual lesson is:
+これは自然な結果です。
+解像度を上げると、粗い格子では見えなかった細かい不安定性を拾うため、構造が少し壊れやすく見えるからです。
 
-> Boundary shape is not merely an initial condition.  
-> It can act as a structural control parameter for nonlinear fate.
+しかし、重要な順序は保たれました。
 
----
+$$
+A_c(0.40)<A_c(0.70)<A_c(1.00).
+$$
 
-## Limitations
+つまり、解像度を上げても、
 
-This project is exploratory.
+> 細長い境界ほど壊れやすく、円形に近い境界ほど耐えやすい
 
-The current numerical results should be interpreted with the following cautions:
+という構造は残りました。
 
-- The thresholds are finite-time thresholds at $T=0.4$.
-- The absolute threshold values are resolution-dependent.
-- The model is a simplified nonlinear dissipative field system.
-- Broader interpretations involving life, cognition, civilization, or AI remain speculative unless separately modeled.
-- The results are numerical evidence, not rigorous mathematical proofs.
+これは、B8.8の結論を強めます。
 
----
+絶対値には解像度依存がある。
+しかし、境界異方性がしきい値を下げるという構造は保存される。
 
-## Author
-
-**Jun Lucis**  
-Independent research
+この区別が、現在のBIGにおいて非常に重要です。
 
 ---
 
-## Short description
+## 12. BIGの現在の到達点
 
-Boundary Information Geometry studies how stable boundary structures emerge, persist, deform, and fail in nonlinear dissipative systems.
+B3からB8.8dまでの流れをまとめると、次のようになります。
+
+1. 境界は情報勾配の集中として表現できる。
+2. BIG型モデルでは、有限支持を持つ構造が形成される。
+3. その境界は、$\nu \approx 2$ に近い二次的な着地を示す。
+4. 境界の局所構造と、系全体の運命は区別される。
+5. 有限時間において、survival と runaway を分けるしきい値 $A_c$ が存在する。
+6. そのしきい値は、境界形状、とくに異方性によって動く。
+7. 解像度を上げても、異方性が強いほどしきい値が下がるという構造は残る。
+
+したがって、現在のBIGの最も堅い主張は次のように言えます。
+
+> 境界異方性は、有限時間における非線形運命を制御する構造変数である可能性がある。
+
+より簡単に言えば、
+
+> 境界の形は、構造がどれくらい壊れにくいかを決める。
+
+ということです。
+
+---
+
+## 13. 学術的な意味
+
+学術的には、BIGは次のような領域と関係します。
+
+* 非線形散逸系
+* 自由境界問題
+* コンパクト支持構造
+* 勾配流
+* パターン形成
+* 界面力学
+* 有限振幅安定性
+* separatrix 解析
+
+特にB8系列の意義は、単に「ある構造ができた」という観測ではなく、
+
+> 境界形状が finite-time separatrix を系統的に動かす
+
+という構造が見えた点にあります。
+
+これは、線形安定性解析だけでは見えにくい非線形 basin 構造に関わる結果です。
+
+---
+
+## 14. 実学的な意味
+
+BIGの現在の結果は、すぐに特定の工学問題を解くものではありません。
+
+しかし、次のような実学的な見方につながる可能性があります。
+
+* 境界が歪むと、構造は小さな刺激で壊れやすくなる。
+* 境界の形を整えることは、安定性を上げる設計原理になり得る。
+* 境界エネルギーを測れば、構造の耐性を評価できる可能性がある。
+* 形状、異方性、しきい値を結びつけることで、複雑な界面現象を整理できる可能性がある。
+
+物質、膜、パターン、情報構造、AIの状態空間などに直接適用するには、個別のモデル化が必要です。
+
+しかし、BIGはそれらを考えるための抽象的な言語を提供します。
+
+---
+
+## 15. 限界
+
+BIGはまだ探索的な研究です。
+現在の結果には、次の限界があります。
+
+* 数値結果であり、厳密な数学的証明ではない。
+* $A_c$ は有限時間 $T=0.4$ におけるしきい値であり、無限時間安定性を意味しない。
+* 絶対的なしきい値の値には解像度依存がある。
+* 現実の物理・生命・AIへの応用は、別途モデル化が必要である。
+* BIGの哲学的解釈と数理結果は、区別して扱う必要がある。
+
+したがって、現在の最も安全な表現は、
+
+> BIG型の非線形散逸場において、境界異方性が有限時間しきい値を系統的に動かす数値的証拠が得られた。
+
+です。
+
+---
+
+## 16. 一般向けのまとめ
+
+BIGを一般向けに一言で言えば、
+
+> 世界は中身だけでできているのではなく、境界によって形を持ち、境界によって安定性を得る。
+
+という考え方です。
+
+B3からB8.8dまでの解析で見えてきたことは、さらに具体的です。
+
+> 境界はなめらかに形成される。
+> 境界はエネルギーを持つ。
+> 境界は形によって強さが変わる。
+> 境界の歪みは、構造が暴走へ入るしきい値を下げる。
+
+つまり、BIGの中心的な直感はこうです。
+
+> 丸い境界は強い。
+> 歪んだ境界は弱い。
+> 境界の形は、構造の未来を左右する。
+
+これは、物質だけでなく、生命、情報、AI、社会を考えるための比喩的な言語にもなり得ます。
+
+ただし、現段階では慎重さが必要です。
+BIGは万能理論ではありません。
+特定の数理モデルから始まり、少しずつ適用範囲を広げている途中の研究です。
+
+それでも、現在の数値結果は、BIGの中心主張に明確な支えを与えています。
+
+> 境界は、単なる端ではない。
+> 境界は、構造の安定性と運命を決める情報幾何である。
+
+---
+
+## Recommended next pages
+
+* `B7_to_B8_summary.md`
+  A concise technical summary of the transition from boundary-layer scaling to finite-time separatrix analysis.
+
+* `B8_anisotropic_separatrix_summary.md`
+  A focused summary of the B8.8 eccentricity scan and N=120 validation.
+
+* `zenodo/records.md`
+  A list of Zenodo records, DOIs, and recommended citation descriptions.
