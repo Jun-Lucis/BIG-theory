@@ -347,6 +347,14 @@ In simpler words:
 > Boundaries are not passive edges.  
 > Their shape can influence whether a structure persists or fails.
 
+## Documentation
+
+- [BIG overview in Japanese](docs/BIG_overview_JP.md)
+- [BIG overview in English](docs/BIG_overview_EN.md)
+- [B7 to B8 technical summary](docs/B7_to_B8_summary.md)
+- [B8 anisotropic separatrix summary](docs/B8_anisotropic_separatrix_summary.md)
+- [Zenodo records](zenodo/records.md)
+
 ---
 
 ## Author
