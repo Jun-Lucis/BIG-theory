@@ -54,7 +54,7 @@ This should be interpreted as **finite-time numerical evidence**, not as an asym
 
 ### Boundary anisotropy controls the finite-time threshold
 
-![B8.8 Ac vs ellipse ratio](figures/selected/B8_8_Ac_vs_ratio.png)
+![B8.8 Ac vs ellipse ratio](figures/selected/figures-B8_8_Ac_vs_ratio.png)
 
 The critical amplitude A_c increases almost linearly with the ellipse ratio b/a. More elongated boundaries have lower finite-time runaway thresholds.
 
@@ -62,7 +62,7 @@ The critical amplitude A_c increases almost linearly with the ellipse ratio b/a.
 
 ### Boundary-energy reparameterization
 
-![B8.8 Ac vs E24](figures/selected/B8_8_Ac_vs_E24_power.png)
+![B8.8 Ac vs E24](figures/selected/figures-B8_8_Ac_vs_E24_power.png)
 
 The critical points collapse smoothly when re-expressed by the critical boundary-gradient energy E24_c.
 
@@ -70,7 +70,7 @@ The critical points collapse smoothly when re-expressed by the critical boundary
 
 ### Resolution validation
 
-![B8.8d N96 vs N120](figures/selected/B8_8d_N96_vs_N120_Ac.png)
+![B8.8d N96 vs N120](figures/selected/figures-B8_8d_N96_vs_N120_Ac.png)
 
 The N=120 validation preserves the monotone ordering with respect to b/a, although the absolute thresholds decrease under refinement.
 ---
