@@ -54,7 +54,7 @@ This should be interpreted as **finite-time numerical evidence**, not as an asym
 
 ### Boundary anisotropy controls the finite-time threshold
 
-![B8.8 Ac vs ellipse ratio](figures/B8_8_Ac_vs_ratio.png)
+![B8.8 Ac vs ellipse ratio](figures/selected/B8_8_Ac_vs_ratio.png)
 
 The critical amplitude A_c increases almost linearly with the ellipse ratio b/a. More elongated boundaries have lower finite-time runaway thresholds.
 
@@ -62,7 +62,7 @@ The critical amplitude A_c increases almost linearly with the ellipse ratio b/a.
 
 ### Boundary-energy reparameterization
 
-![B8.8 Ac vs E24](figures/B8_8_Ac_vs_E24_power.png)
+![B8.8 Ac vs E24](figures/selected/B8_8_Ac_vs_E24_power.png)
 
 The critical points collapse smoothly when re-expressed by the critical boundary-gradient energy E24_c.
 
@@ -70,50 +70,9 @@ The critical points collapse smoothly when re-expressed by the critical boundary
 
 ### Resolution validation
 
-![B8.8d N96 vs N120](figures/B8_8d_N96_vs_N120_Ac.png)
+![B8.8d N96 vs N120](figures/selected/B8_8d_N96_vs_N120_Ac.png)
 
 The N=120 validation preserves the monotone ordering with respect to b/a, although the absolute thresholds decrease under refinement.
-
-## Main model
-
-A representative field equation studied in the current BIG numerical series is:
-
-**d phi / dt = div(phi^m grad phi) - mu phi - gamma div(|grad phi|^2 grad phi)**
-
-Here:
-
-- **phi** is a scalar information-like field.
-- **m** controls degenerate mobility.
-- **mu** is a linear dissipation parameter.
-- **gamma** controls quartic-gradient stiffness.
-- The quartic-gradient term emphasizes strong boundary layers.
-
-Earlier versions also studied localized source terms such as **S(x)**.
-
-The present B8 separatrix analysis focuses on compact initial data without source forcing.
-
----
-
-## Conceptual motivation
-
-BIG starts from the idea that boundaries are not secondary surfaces around a bulk object.
-
-Instead, boundaries can be interpreted as active structures that:
-
-- separate inside from outside,
-- preserve individuality,
-- mediate interaction,
-- store gradient information,
-- control stability and failure.
-
-In this view, a stable individual structure is not simply a dense interior.
-
-It is a field configuration whose boundary prevents complete assimilation while still allowing interaction.
-
-A short conceptual summary is:
-
-> A structure becomes individual not by being isolated, but by maintaining a boundary through which it can resonate without being absorbed.
-
 ---
 
 ## Key numerical findings
