@@ -48,6 +48,14 @@ The current strongest numerical statement is:
 
 This should be interpreted as **finite-time numerical evidence**, not as an asymptotic stability theorem.
 
+## Representative figures
+### Boundary anisotropy controls the finite-time threshold
+The critical amplitude A_c increases almost linearly with the ellipse ratio b/a.More elongated boundaries have lower finite-time runaway thresholds.
+### Boundary-energy reparameterization
+The same critical points collapse smoothly when re-expressed by the critical boundary-gradient energy E_{24,c}=E_{2,c}+E_{4,c}.The observed scaling is close to A_c\sim E_{24,c}^{1/2}.
+### Resolution validation
+A three-point N=120 validation shows that the absolute thresholds decrease under refinement, but the monotone ordering with respect to b/a is preserved.
+
 ---
 
 ## Main model
