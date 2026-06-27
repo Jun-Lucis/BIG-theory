@@ -65,11 +65,13 @@ $$
 
 where (P(\Omega)) is a boundary cost and (C(\Omega)) is a Coulomb-like nonlocal repulsion term.
 
-The model can generate a fission-like metastable energy landscape.
+The model can generate a fission-like metastable energy landscape. In the empirical structural-comparison note, representative actinides such as Th-232, U-236, U-238, Pu-240, Cm-244, and Cf-252 are used to compare BIG-B9 with macroscopic fission-related indicators at a qualitative structural level.
 
-However, BIG-B9 is **not** a quantitative model of nuclear fission. It does not include shell corrections, pairing effects, quantum tunneling, excitation-energy dependence, fragment yields, cross-section normalization, or calibration to nuclear observables.
+However, BIG-B9 is **not** a quantitative model of nuclear fission. It does not explicitly resolve shell corrections, pairing effects, quantum tunneling, excitation-energy dependence, fragment yields, cross-section normalization, or calibration to nuclear observables within the present minimal model.
 
-The comparison with nuclear fission should be read as a structural and macroscopic analogy.
+This should not be interpreted as implying that such effects are fundamentally incompatible with the BIG framework. In possible future extensions, microscopic nuclear effects may be represented through effective boundary corrections, state-dependent coefficients, hidden-depth mode contributions, barrier-crossing dynamics, or other higher-level structures built upon the B9 energy landscape.
+
+The comparison with nuclear fission should therefore be read as a macroscopic structural comparison, not as a quantitative nuclear calculation.
 
 ---
 
