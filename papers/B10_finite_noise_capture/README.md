@@ -1,20 +1,26 @@
 # BIG-B10: Finite-Noise Capture and Stochastic-Resonance-Like Boundary Locking
 
-This folder collects materials related to **BIG-B10**, a reduced dynamic boundary model for finite-noise sustained capture.
+**BIG-B10** studies finite-noise sustained capture in a reduced dynamic boundary model.
 
-BIG-B10 studies whether two boundary-supported systems can enter a sustained coupled state under noise. The central observation is that noise can be both constructive and destructive: too little noise may fail to activate the capture channel, intermediate noise can enable sustained capture, and excessive noise can destroy sustained locking.
+This folder is the main explanatory entry point for BIG-B10.
+
+Representative figures are stored in:
+
+```text
+../../figures/B10/
+```
 
 ---
 
-## Core question
+## Core idea
 
-The guiding question of B10 is:
+BIG-B10 asks:
 
 > Can boundary-supported systems achieve sustained capture only within a finite-noise window?
 
-This question follows naturally from the BIG programme.
+This question follows naturally from BIG-B9.
 
-If B9 studies separation and fission-like branching, then B10 studies the opposite direction:
+If B9 studies separation and fission-like branching, B10 studies the reverse direction:
 
 ```text
 separated boundary-supported systems
@@ -23,17 +29,32 @@ separated boundary-supported systems
     -> sustained capture
 ```
 
+The central result is that noise can be both constructive and destructive.
+
+```text
+low noise
+    -> capture channel rarely activates
+
+intermediate noise
+    -> sustained capture becomes likely
+
+high noise
+    -> first contact may occur, but sustained capture is disrupted
+```
+
+This is why the behavior is described as **stochastic-resonance-like**.
+
 ---
 
 ## First hit is not sustained capture
 
-A central distinction in B10 is:
+A central B10 distinction is:
 
 ```text
 first hit != sustained capture
 ```
 
-A trajectory may reach contact or near-contact once, but that does not mean it has entered a stable coupled state.
+A trajectory may reach contact or near-contact once without entering a persistent coupled state.
 
 B10 therefore distinguishes:
 
@@ -46,57 +67,23 @@ This distinction is essential because high-noise trajectories may still show fre
 
 ---
 
-## Reduced dynamic structure
+## Representative figure
 
-A simplified B10-type model contains:
+![BIG-B10 first hit versus sustained capture](../../figures/B10/figure_01_first_hit_vs_sustained_capture.png)
 
-* a boundary distance or proximity variable,
-* internal activation variables,
-* a dynamic channel gate,
-* stochastic forcing,
-* and event definitions for first hit, sustained capture, escape, and timeout.
+**Figure:** B10 separates first hit from sustained capture. Sustained capture peaks around an intermediate noise level, while at high noise first-hit probability can remain high even as sustained capture collapses.
 
-In B10.2-style scans, the dynamic channel may depend on internal variables such as resonance-like and gate-like modes. A representative shorthand is:
+More figures are available here:
 
-```text
-dynamic_Rq gate
-```
-
-where the capture channel opens only when the relevant internal conditions are sufficiently activated.
+[../../figures/B10](../../figures/B10)
 
 ---
 
 ## Main result
 
-The main B10 result is a finite-noise capture window.
+The main B10 result is a finite-noise sustained-capture window.
 
-Qualitatively:
-
-```text
-low noise
-    -> channel rarely activates
-    -> sustained capture is unlikely
-
-intermediate noise
-    -> channel activates and remains coherent
-    -> sustained capture becomes likely
-
-high noise
-    -> approach or first hit may still occur
-    -> sustained capture is disrupted
-```
-
-This is described as **stochastic-resonance-like** behavior.
-
-The term means that noise can help access a dynamical channel, but only within a finite range.
-
----
-
-## Representative B10.2 diagnostic
-
-In the B10.2 canonical dynamic-gate scan, the dynamic_Rq mode shows a finite-noise sustained-capture window.
-
-A representative summary is:
+A representative model-level summary is:
 
 ```text
 control mode: dynamic_Rq
@@ -105,9 +92,48 @@ peak sustained-capture probability: approximately 0.91--0.92
 high-noise sustained capture: collapses toward zero
 ```
 
-This should be read as a model-level numerical result under the specified equations, parameters, scan range, and event definitions.
+These values are not universal constants.
 
-The exact values are not universal constants.
+They are numerical results within the specified reduced model, parameter scan, and event definitions.
+
+The important point is not the exact numerical value of the peak, but the existence of a finite-noise window:
+
+```text
+too little noise
+    -> insufficient activation
+
+intermediate noise
+    -> sustained capture
+
+too much noise
+    -> disruption of sustained capture
+```
+
+---
+
+## Additional representative figures
+
+### Canonical gate controls
+
+![Canonical gate controls](../../figures/B10/figure_02_canonical_gate_controls.png)
+
+**Figure:** Canonical gate-control results. Closed-channel control suppresses sustained capture, while dynamic and open-channel controls retain finite-noise windows.
+
+---
+
+### L2 versus I2 consistency audit
+
+![L2 versus I2 consistency audit](../../figures/B10/figure_03_L2_vs_I2_consistency_audit.png)
+
+**Figure:** Consistency audit comparing the canonical dynamic_Rq implementation with the I2 dynamic_Rq result.
+
+---
+
+### Distance gating window
+
+![Distance gating window](../../figures/B10/figure_04_distance_gating_window.png)
+
+**Figure:** Distance-gating result. As initial distance increases, the finite-noise capture window contracts and the peak sustained-capture probability declines.
 
 ---
 
@@ -115,15 +141,15 @@ The exact values are not universal constants.
 
 B10 suggests that boundary capture is not simply a matter of distance.
 
-A successful capture event requires at least three ingredients:
+A successful capture event requires at least three components:
 
-1. **approach**
+1. **Approach**
    The systems must come close enough.
 
-2. **channel activation**
+2. **Channel activation**
    Internal degrees of freedom must open the capture channel.
 
-3. **sustained locking**
+3. **Sustained locking**
    The coupled state must persist long enough to count as capture.
 
 This gives B10 its role within BIG:
@@ -134,11 +160,36 @@ boundary approach
     -> sustained capture
 ```
 
+In this reduced model, capture is therefore not treated as a single instantaneous event.
+It is treated as a dynamical process with an activation channel and a persistence condition.
+
+---
+
+## Relation to stochastic resonance
+
+B10 is described as stochastic-resonance-like because noise has a non-monotonic effect.
+
+Noise is not merely destructive.
+
+At low noise, the system may fail to activate the capture channel.
+At intermediate noise, activation and sustained locking become more likely.
+At high noise, trajectories may still reach first contact, but sustained capture becomes unstable.
+
+The resulting pattern is:
+
+```text
+low noise       -> low sustained capture
+intermediate    -> high sustained capture
+high noise      -> low sustained capture
+```
+
+This is a structural analogy to stochastic resonance, not a claim that the model reproduces a specific physical stochastic-resonance system.
+
 ---
 
 ## Important limitations
 
-BIG-B10 is **not** a quantitative model of nuclear fusion.
+BIG-B10 is **not** a quantitative theory of nuclear fusion.
 
 It does not model:
 
@@ -162,18 +213,18 @@ Within BIG, B10 plays the role of the **capture / fusion-like branch**.
 
 It connects naturally to:
 
-* **B9**, which studies fission-like separation from boundary cost and nonlocal repulsion;
-* **B11**, which studies what happens after capture: assimilation or hidden-depth inheritance;
-* **B12**, which integrates boundary approach, finite-noise resonance locking, and hidden-depth inheritance in a unified reduced model.
-
-The conceptual sequence is:
-
 ```text
-B9: separation / fission-like branching
-B10: finite-noise capture / fusion-like locking
-B11: post-capture inheritance versus assimilation
-B12: unified boundary dynamics
+B9  -> separation / fission-like metastability
+B10 -> finite-noise capture / fusion-like locking
+B11 -> post-capture inheritance versus assimilation
+B12 -> unified boundary dynamics
 ```
+
+B10 moves the programme from separation to capture.
+
+B9 asks how a compact state can become metastable relative to separation.
+B10 asks how separated boundary-supported systems can re-enter sustained coupling.
+B11 then asks what kind of state survives after capture.
 
 ---
 
@@ -189,7 +240,7 @@ Preferred:
 
 Preferred:
 
-> B10 provides model-level numerical evidence for a finite-noise sustained-capture window.
+> Sustained capture appears within a finite-noise window.
 
 Avoid unless carefully qualified:
 
@@ -197,9 +248,9 @@ Avoid unless carefully qualified:
 
 > BIG-B10 predicts fusion rates.
 
-> BIG-B10 is a nuclear fusion model.
-
 > First hit means fusion.
+
+> B10 models real fusion energy release.
 
 ---
 
@@ -208,22 +259,3 @@ Avoid unless carefully qualified:
 Primary BIG-B10 record:
 
 https://doi.org/10.5281/zenodo.20819427
-
-Additional B10.2 diagnostic and robustness records may be listed here as they are finalized.
-
----
-
-## Folder contents
-
-Suggested future contents:
-
-```text
-papers/B10_finite_noise_capture/
-├── README.md
-├── figures/
-├── data_summaries/
-├── scripts/
-└── notes/
-```
-
-Large raw datasets should remain archived on Zenodo. This repository should contain lightweight summaries, representative figures, and reproducibility notes.
