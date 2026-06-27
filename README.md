@@ -3,8 +3,20 @@
 > 🇯🇵 **日本語概要 / Japanese overview**  
 > 境界情報幾何学（BIG）の日本語での概要は、こちらにあります：  
 > [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
->
-> 境界情報幾何学（BIG）は、「境界」を個体性・安定性・非同化・共鳴・継承の中心に置く、発展中の数理・数値研究プログラムです.
+
+## Documentation
+
+Key overview and reference documents:
+
+- 🇯🇵 **Japanese overview:** [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
+- **Publication map:** [docs/publication_map.md](docs/publication_map.md)
+- **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
+- **Terminology:** [docs/terminology.md](docs/terminology.md)
+
+Additional summary notes:
+
+- **B7 to B8 summary:** [docs/B7_to_B8_summary.md](docs/B7_to_B8_summary.md)
+- **B8 anisotropic separatrix summary:** [docs/B8_anisotropic_separatrix_summary.md](docs/B8_anisotropic_separatrix_summary.md)
 
 **Boundary Information Geometry (BIG)** is a boundary-centered research programme developed by **Jun Lucis**.
 
