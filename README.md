@@ -188,12 +188,12 @@ Current and planned entries include:
 
 | Series | Title                                                                                              | DOI / record                            |
 | ------ | -------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| B7     | Persistence of the Free-Boundary Exponent Across a Runaway Transition                              | to be listed                            |
+| B7     | Persistence of the Free-Boundary Exponent Across a Runaway Transition                              | https://doi.org/10.5281/zenodo.20603601                        |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds                                          | https://zenodo.org/records/20645317     |
 | B9     | Minimal boundary-energy model for fission-like metastability                                       | https://doi.org/10.5281/zenodo.20799131 |
 | B10    | Stochastic-Resonance-Like Fusion Capture in a Dynamic Boundary Model                               | https://doi.org/10.5281/zenodo.20819427 |
 | B11    | Post-Fusion Boundary Inheritance and Non-Assimilative Stabilization                                | https://doi.org/10.5281/zenodo.20828439 |
-| B12    | Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance | DOI to be added                         |
+| B12    | Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance | https://doi.org/10.5281/zenodo.20872005                        |
 
 ---
 
