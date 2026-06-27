@@ -1,14 +1,24 @@
 # BIG-B9: Fission-like Metastability from Boundary Cost and Nonlocal Repulsion
 
-This folder collects materials related to **BIG-B9**, a reduced boundary-energy model for fission-like metastability.
+**BIG-B9** studies a reduced boundary-energy model in which boundary cost competes with nonlocal repulsion.
 
-BIG-B9 studies how a simple competition between boundary cost and nonlocal repulsion can generate a metastable energy landscape with a compact branch, a finite pinch/scission barrier, and a separated branch.
+This folder is the main explanatory entry point for BIG-B9.
+
+Representative figures are stored in:
+
+```text
+../../figures/B9/
+```
 
 ---
 
-## Core model
+## Core idea
 
-The minimal B9 energy is
+BIG-B9 asks:
+
+> Can a minimal competition between boundary cost and nonlocal repulsion generate a fission-like metastable landscape?
+
+The reduced energy is
 
 $$
 E(\Omega;\lambda)=\sigma P(\Omega)+\lambda C(\Omega),
@@ -16,38 +26,72 @@ $$
 
 where:
 
-* (P(\Omega)) is a perimeter-like boundary cost,
-* (C(\Omega)) is a Coulomb-like nonlocal repulsion term,
-* (\sigma) controls boundary cost,
-* (\lambda) controls nonlocal repulsion strength.
+- \(P(\Omega)\) is a perimeter-like boundary cost,
+- \(C(\Omega)\) is a Coulomb-like nonlocal repulsion term,
+- \(\sigma\) controls boundary cost,
+- \(\lambda\) controls nonlocal repulsion strength.
 
-The central idea is that boundary cost favors compactness, while nonlocal repulsion favors separation.
+The boundary cost favors compactness.  
+The nonlocal repulsion favors separation.
+
+Their competition can produce a reduced fission-like sequence:
+
+```text
+compact state
+    -> deformation / finite pinch barrier
+    -> separated branch
+```
+
+---
+
+## Representative figure
+
+![BIG-B9 empirical structural correspondence](../../figures/B9/figure_06_empirical_structural_correspondence.png)
+
+**Figure:** Structural correspondence between macroscopic liquid-drop fission intuition and BIG-B9. Surface energy corresponds to boundary cost, Coulomb repulsion corresponds to nonlocal repulsion, and the fission barrier corresponds to a finite pinch barrier. The comparison is structural, not quantitative.
+
+More figures are available here:
+
+[../../figures/B9](../../figures/B9)
 
 ---
 
 ## Main structural result
 
-The reduced B9 model produces a fission-like metastable landscape:
+The B9 model shows that a fission-like metastable structure can arise from two generic geometric ingredients:
 
-```text id="5lyru7"
-compact state
-    -> deformation / pinch barrier
-    -> separated two-fragment branch
-```
+1. **Boundary cost**  
+   Maintaining a long or highly deformed boundary has an effective cost.
 
-This resembles the classical macroscopic intuition in nuclear fission, where surface energy and Coulomb repulsion compete.
+2. **Nonlocal repulsion**  
+   A Coulomb-like global repulsion can favor separated configurations.
 
-However, the correspondence is structural and qualitative, not quantitative.
+When nonlocal repulsion becomes sufficiently strong relative to boundary cost, the compact state can become metastable relative to a separated branch.
+
+This is not a claim that BIG-B9 reproduces nuclear fission quantitatively.  
+The result is a reduced-model structural mechanism.
 
 ---
 
-## Structural comparison with empirical fission indicators
+## Empirical structural comparison
 
-A follow-up empirical structural-comparison note compares B9 with macroscopic fission-related indicators.
+B9 was not originally built as a nuclear-fission model.
 
-Representative actinides include:
+However, after the reduced model was developed, its energy structure showed a qualitative resemblance to classical liquid-drop fission intuition.
 
-```text id="7o2hxr"
+The structural comparison can be summarized as:
+
+| Macroscopic fission intuition | BIG-B9 reduced model |
+|---|---|
+| surface energy | boundary cost \(\sigma P(\Omega)\) |
+| Coulomb repulsion | nonlocal repulsion \(\lambda C(\Omega)\) |
+| fissility | ratio-like control \(\lambda/\sigma\) |
+| fission barrier | finite pinch barrier |
+| separated fragments | two-disk or separated branch |
+
+Representative actinides used in the structural comparison include:
+
+```text
 Th-232
 U-236
 U-238
@@ -56,57 +100,101 @@ Cm-244
 Cf-252
 ```
 
-The comparison uses coarse fissility-related indicators such as (Z^2/A) and a proxy quantity,
+The fissility-related proxy
 
 $$
-x_{\mathrm{proxy}}=\frac{Z^2}{50A}.
+x_{\mathrm{proxy}}=\frac{Z^2}{50A}
 $$
 
-This proxy is used only for qualitative structural comparison. It is not intended as a calibrated liquid-drop fissility parameter.
+is used only as a coarse structural indicator.
+
+It is not a calibrated liquid-drop fissility parameter.
 
 ---
 
-## Interpretation
+## Additional representative figures
 
-The B9 correspondence may be summarized as:
+### Energy landscape
 
-| Liquid-drop fission intuition | BIG-B9 reduced model                   |
-| ----------------------------- | -------------------------------------- |
-| surface energy                | boundary cost (\sigma P(\Omega))       |
-| Coulomb repulsion             | nonlocal repulsion (\lambda C(\Omega)) |
-| fissility                     | ratio-like control (\lambda/\sigma)    |
-| fission barrier               | finite pinch barrier                   |
-| separated fragments           | two-disk / separated branch            |
+![Reduced B9 energy landscape](../../figures/B9/figure_01_energy_landscape.png)
 
-No quantitative mapping between (\lambda) and MeV is assumed.
+**Figure:** Reduced B9 energy landscape generated by boundary cost and nonlocal repulsion.
+
+---
+
+### Lambda threshold scan
+
+![Lambda threshold scan](../../figures/B9/figure_02_lambda_threshold_scan.png)
+
+**Figure:** Threshold scan showing where separated or fission-like branches become energetically favored.
+
+---
+
+### Minimum relative energy versus lambda
+
+![Minimum relative energy versus lambda](../../figures/B9/figure_03_min_relative_energy_vs_lambda.png)
+
+**Figure:** Minimum relative energy as a function of the control parameter \(\lambda\). This figure summarizes how the energetically favored configuration changes as nonlocal repulsion increases relative to boundary cost.
+
+---
+
+### Perimeter versus separation distance
+
+![Perimeter versus separation distance](../../figures/B9/figure_04_perimeter_vs_d.png)
+
+**Figure:** Perimeter-like boundary cost along the separation or two-branch scan. The figure illustrates how the boundary-cost contribution changes as the configuration deforms toward separated states.
+
+---
+
+### Nonlocal energy versus separation distance
+
+![Nonlocal energy versus separation distance](../../figures/B9/figure_05_nonlocal_energy_vs_d.png)
+
+**Figure:** Coulomb-like nonlocal repulsion term along the separation or two-branch scan. The figure illustrates how nonlocal repulsion changes with separation geometry.
+
+---
+
+### Representative actinides
+
+![Representative actinides](../../figures/B9/figure_07_representative_actinides.png)
+
+**Figure:** Representative actinides used for qualitative structural comparison. The selected nuclei span increasing fissility-related indicators and spontaneous-fission tendencies across the actinide region.
+
+---
+
+### Barrier comparison
+
+![Barrier comparison](../../figures/B9/figure_08_barrier_comparison.png)
+
+**Figure:** Representative \(Z^2/A\) values and benchmark fission-barrier indicators used for qualitative comparison. Barrier values should be interpreted as representative macroscopic indicators, not unique isotope constants or calibrated BIG-B9 predictions.
 
 ---
 
 ## Important limitations
 
-BIG-B9 is **not** a quantitative model of nuclear fission.
+BIG-B9 is **not** a quantitative nuclear-fission model.
 
 The current minimal B9 model does not explicitly resolve:
 
-* shell corrections,
-* pairing effects,
-* quantum tunneling,
-* excitation-energy dependence,
-* fragment yields,
-* cross-section normalization,
-* or calibration to nuclear observables.
+- shell corrections,
+- pairing effects,
+- quantum tunneling,
+- excitation-energy dependence,
+- fragment yields,
+- cross-section normalization,
+- or calibration to nuclear observables.
 
 This limitation should not be interpreted as saying that such effects are fundamentally incompatible with BIG.
 
 Possible future extensions may represent microscopic nuclear effects through:
 
-* effective boundary corrections,
-* state-dependent coefficients,
-* hidden-depth mode contributions,
-* barrier-crossing dynamics,
-* or higher-level structures built on the B9 energy landscape.
+- effective boundary corrections,
+- state-dependent coefficients,
+- hidden-depth mode contributions,
+- barrier-crossing dynamics,
+- or higher-level structures built upon the B9 energy landscape.
 
-Thus, B9 should be read as a macroscopic structural comparison and reduced mathematical model, not as a quantitative nuclear calculation.
+Thus, B9 should be read as a **macroscopic structural comparison** and a **reduced mathematical model**, not as a quantitative nuclear calculation.
 
 ---
 
@@ -114,15 +202,18 @@ Thus, B9 should be read as a macroscopic structural comparison and reduced mathe
 
 Within BIG, B9 plays the role of the **separation / fission-like branch**.
 
-It follows naturally from the boundary-centered question:
+It connects naturally to:
 
-> What happens when maintaining a boundary is costly, but nonlocal repulsion favors separation?
+```text
+B9  -> separation / fission-like metastability
+B10 -> finite-noise capture
+B11 -> post-capture hidden-depth inheritance
+B12 -> unified boundary dynamics
+```
 
-This later connects to:
+B9 asks what happens when nonlocal repulsion overcomes boundary cost.
 
-* **B10**, which studies finite-noise capture;
-* **B11**, which studies post-capture hidden-depth inheritance;
-* **B12**, which integrates approach, R-lock, and inheritance in one reduced model.
+B10 then asks whether separated boundary-supported systems can be captured again under finite noise.
 
 ---
 
@@ -135,6 +226,10 @@ Preferred:
 Preferred:
 
 > B9 provides a macroscopic structural comparison with empirical fission indicators.
+
+Preferred:
+
+> B9 is a reduced boundary-energy model, not a calibrated nuclear-fission calculation.
 
 Avoid unless carefully qualified:
 
@@ -152,21 +247,4 @@ Primary BIG-B9 record:
 
 https://doi.org/10.5281/zenodo.20799131
 
-Additional B9-related records and empirical comparison notes may be listed here as they are finalized.
-
----
-
-## Folder contents
-
-Suggested future contents:
-
-```text id="e0e045"
-papers/B9_fission_like_metastability/
-├── README.md
-├── figures/
-├── data_summaries/
-├── scripts/
-└── notes/
-```
-
-Large raw datasets should remain archived on Zenodo. This repository should contain lightweight summaries, representative figures, and reproducibility notes.
+Additional B9 empirical structural-comparison records may be listed here when finalized.
