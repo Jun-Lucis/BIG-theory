@@ -31,7 +31,7 @@ The current BIG programme supports limited, model-level claims such as:
 * boundary anisotropy can shift finite-time survival/runaway thresholds in a specified numerical model;
 * boundary cost versus nonlocal repulsion can generate a fission-like metastable landscape in a reduced geometric model;
 * finite noise can enable and then destabilize sustained capture in a reduced dynamic boundary model;
-* post-capture hidden-depth dynamics can preserve multiple parent memories in a stochastic reduced model;
+* post-capture hidden-depth dynamics can preserve multiple parent-like memories in a stochastic reduced model;
 * boundary approach, resonance locking, and hidden-depth inheritance can coexist in a unified reduced B12 model.
 
 These are structural and numerical claims within specified models.
@@ -49,7 +49,8 @@ BIG does **not** currently claim to be:
 * a quantitative theory of biological inheritance;
 * a quantitative model of consciousness or subjective qualia;
 * a calibrated theory of cosmology or dark matter;
-* a validated engineering model for materials, membranes, or interface failure.
+* a validated engineering model for materials, membranes, or interface failure;
+* a theory of AI identity, agency, or consciousness.
 
 Some BIG models may show structural analogies with these fields, but such analogies are not the same as calibrated physical equivalence.
 
@@ -67,11 +68,23 @@ where (P(\Omega)) is a boundary cost and (C(\Omega)) is a Coulomb-like nonlocal 
 
 The model can generate a fission-like metastable energy landscape. In the empirical structural-comparison note, representative actinides such as Th-232, U-236, U-238, Pu-240, Cm-244, and Cf-252 are used to compare BIG-B9 with macroscopic fission-related indicators at a qualitative structural level.
 
-However, BIG-B9 is **not** a quantitative model of nuclear fission. It does not explicitly resolve shell corrections, pairing effects, quantum tunneling, excitation-energy dependence, fragment yields, cross-section normalization, or calibration to nuclear observables within the present minimal model.
+However, BIG-B9 is **not** a quantitative model of nuclear fission.
+
+It does not explicitly resolve:
+
+* shell corrections,
+* pairing effects,
+* quantum tunneling,
+* excitation-energy dependence,
+* fragment yields,
+* cross-section normalization,
+* or calibration to nuclear observables
+
+within the present minimal model.
 
 This should not be interpreted as implying that such effects are fundamentally incompatible with the BIG framework. In possible future extensions, microscopic nuclear effects may be represented through effective boundary corrections, state-dependent coefficients, hidden-depth mode contributions, barrier-crossing dynamics, or other higher-level structures built upon the B9 energy landscape.
 
-The comparison with nuclear fission should therefore be read as a macroscopic structural comparison, not as a quantitative nuclear calculation.
+The comparison with nuclear fission should therefore be read as a **macroscopic structural comparison**, not as a quantitative nuclear calculation.
 
 ---
 
@@ -79,9 +92,29 @@ The comparison with nuclear fission should therefore be read as a macroscopic st
 
 BIG-B10 studies finite-noise sustained capture in a reduced dynamic boundary model.
 
-It is not a quantitative model of nuclear fusion. It does not model Coulomb-barrier penetration, quantum tunneling, nuclear potentials, reaction cross sections, plasma kinetics, or real fusion energy release.
+It is not a quantitative model of nuclear fusion.
+
+It does not model:
+
+* Coulomb-barrier penetration,
+* quantum tunneling,
+* nuclear potentials,
+* reaction cross sections,
+* plasma kinetics,
+* thermodynamic fusion yield,
+* or real fusion energy release.
 
 The term “fusion-like” refers to a structural sequence of approach, activation, capture, and sustained locking in the reduced model.
+
+The distinction
+
+```text
+first hit != sustained capture
+```
+
+is central to B10. A trajectory may reach contact or near-contact without entering a sustained captured state.
+
+B10 should therefore be read as a reduced dynamical model of boundary capture, not as a physical theory of nuclear fusion.
 
 ---
 
@@ -89,21 +122,55 @@ The term “fusion-like” refers to a structural sequence of approach, activati
 
 BIG-B11 studies post-capture hidden-depth inheritance versus assimilation in a stochastic reduced landscape.
 
-It is not a quantitative theory of biological inheritance, nuclear fusion, or real energy release.
+It is not a quantitative theory of:
 
-Energy drops reported in B11 are model-defined effective decreases in the post-fusion hidden-depth potential landscape.
+* biological inheritance,
+* nuclear fusion,
+* real thermodynamic energy release,
+* genetics,
+* embryology,
+* material memory,
+* or biological reproduction.
+
+The hidden-depth state
+
+$$
+h=(h_A,h_B)
+$$
+
+is a reduced model variable. It should not be interpreted as genes, biological memory, or calibrated physical structure without additional domain-specific modeling.
+
+Energy drops reported in B11 are model-defined effective decreases in the post-capture hidden-depth potential landscape. They are not claims of real thermodynamic, biochemical, or nuclear energy release.
+
+B11 should therefore be read as a reduced model of non-assimilative memory retention after capture.
 
 ---
 
 ## 7. B12 scope
 
-BIG-B12 connects B9, B10, and B11 into a reduced unified model with three sectors:
+BIG-B12 connects B9, B10, and B11 into a reduced unified boundary-dynamical model with three sectors:
 
 * boundary distance,
 * internal resonance,
 * hidden-depth inheritance.
 
+A minimal B12-type structure can be summarized as:
+
+```text
+d(t): boundary distance / proximity
+R(t): internal resonance vector or resonance sector
+h(t): hidden-depth inheritance state
+```
+
 The main result is a model-level finite-noise R-lock window with post-lock inheritance.
+
+A strict full-success event requires:
+
+```text
+full success = strict R-lock AND hidden-depth inheritance
+```
+
+This distinction matters because a final state may appear inheritance-like without satisfying the stricter sustained-lock criterion.
 
 BIG-B12 is not a completed physical unification theory. It is a reduced variational-stochastic model showing that boundary approach, noise-assisted resonance locking, and hidden-depth inheritance can coexist within one mathematical framework.
 
@@ -118,13 +185,37 @@ For example:
 * B9 resembles surface-versus-repulsion competition in macroscopic fission intuition;
 * B10 resembles stochastic-resonance-like capture;
 * B11 resembles inheritance-versus-assimilation competition;
+* B12 combines separation, capture, resonance locking, and hidden-depth inheritance in one reduced model;
 * B8 resembles geometry-controlled finite-time threshold behavior.
 
 These should be described as **structural correspondences** or **model-level analogies**, not as quantitative predictions.
 
+A structural correspondence means that two systems share an abstract pattern, mechanism, or reduced mathematical shape.
+
+It does not mean that:
+
+* the same physical equations have been derived,
+* parameters have been calibrated,
+* units have been matched,
+* empirical prediction has been validated,
+* or the domain-specific literature has been replaced.
+
 ---
 
-## 9. Future adaptation
+## 9. Repository navigation and evidential status
+
+In this repository:
+
+* `papers/` contains the main explanatory entry points for each B-series;
+* `figures/` stores representative visual assets used by README files and documentation;
+* `docs/` contains overview, terminology, limitations, and publication maps;
+* Zenodo remains the archive for PDFs, raw datasets, full-resolution figures, and reproducibility packages.
+
+The presence of a figure in GitHub should not be read as an independent empirical claim. Figures are visual summaries of reduced-model outputs or structural comparisons. Specific numerical claims should be read together with the relevant paper folder, Zenodo record, equations, parameter choices, and event definitions.
+
+---
+
+## 10. Future adaptation
 
 BIG may be useful as a boundary-centered language for exploring other domains where the following are central:
 
@@ -140,9 +231,11 @@ BIG may be useful as a boundary-centered language for exploring other domains wh
 
 However, each domain requires its own equations, parameters, validation standards, and comparison with existing literature.
 
+Possible future adaptations should therefore be framed as research directions, not as established applications.
+
 ---
 
-## 10. Recommended cautious wording
+## 11. Recommended cautious wording
 
 When describing BIG publicly, the following wording is recommended:
 
@@ -163,3 +256,24 @@ For B11:
 For B12:
 
 > BIG-B12 shows that boundary approach, finite-noise resonance locking, and hidden-depth inheritance can coexist in a unified reduced model.
+
+For the repository as a whole:
+
+> The `papers/` folders are the main explanatory entry points. The `figures/` folders provide visual assets and representative summaries.
+
+---
+
+## 12. Summary
+
+BIG should currently be read as:
+
+```text
+a boundary-centered research programme
+    -> built from reduced mathematical and numerical models
+    -> producing structural correspondences
+    -> requiring domain-specific extension before quantitative application
+```
+
+Its present strength is not that it replaces existing physics, biology, cognition science, or engineering.
+
+Its present strength is that it offers a unified boundary-centered language for studying stability, separation, capture, memory, non-assimilation, and structural persistence across reduced models.
