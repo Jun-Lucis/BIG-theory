@@ -1,18 +1,24 @@
 # BIG-B11: Hidden-Depth Inheritance and Non-Assimilative Post-Capture Stabilization
 
-This folder collects materials related to **BIG-B11**, a reduced stochastic model for post-capture hidden-depth inheritance.
+**BIG-B11** studies what happens after capture in a reduced hidden-depth model.
 
-BIG-B11 studies what happens after a capture or fusion-like event. The central question is whether the post-capture state collapses into assimilation, or whether it can preserve more than one parent-like memory through hidden-depth structure.
+This folder is the main explanatory entry point for BIG-B11.
+
+Representative figures are stored in:
+
+```text
+../../figures/B11/
+```
 
 ---
 
-## Core question
+## Core idea
 
-The guiding question of B11 is:
+BIG-B11 asks:
 
-> After capture, does the fused state collapse into one parent state, or can it preserve multiple parent memories without total assimilation?
+> After capture, does the fused state collapse into one parent-like attractor, or can it preserve multiple parent-like memories without total assimilation?
 
-This follows naturally from the BIG principle of non-assimilation.
+This follows directly from the BIG principle of non-assimilation.
 
 B10 asks whether sustained capture can occur.
 B11 asks what kind of state exists after capture.
@@ -37,15 +43,27 @@ where:
 * (h_A) represents memory or attraction toward parent-like state A,
 * (h_B) represents memory or attraction toward parent-like state B.
 
-The word “memory” here should be read in a reduced-model sense. It does not mean biological memory, genetic inheritance, or physical nuclear structure unless a domain-specific model is added.
+The word “memory” is used in a reduced-model sense.
+
+It does not mean biological memory, genetic inheritance, nuclear structure, or physical material memory unless a domain-specific model is added.
+
+---
+
+## Representative figure
+
+![BIG-B11 hidden-depth model schematic](../../figures/B11/figure_01_hidden_depth_model_schematic.png)
+
+**Figure:** Conceptual structure of the B11 hidden-depth model. A post-capture hidden-depth state may fall into parent assimilation or into non-assimilative inheritance if hidden-depth coupling is strong enough.
+
+More figures are available here:
+
+[../../figures/B11](../../figures/B11)
 
 ---
 
 ## Assimilation versus inheritance
 
-In B11, the post-capture state can fall into different outcome classes.
-
-Typical outcome types include:
+In B11, the post-capture state can fall into different outcome classes:
 
 ```text
 A-assimilation
@@ -55,7 +73,7 @@ annihilation-like collapse
 emergent or mixed states
 ```
 
-The central distinction is between:
+The central distinction is:
 
 ```text
 assimilation
@@ -67,26 +85,7 @@ hidden-depth inheritance
 
 This is the non-assimilative core of B11.
 
----
-
-## Reduced stochastic landscape
-
-B11 can be understood as a stochastic gradient dynamics on a hidden-depth landscape.
-
-Schematically:
-
-$$
-dh = -\nabla U(h),dt + \text{noise}.
-$$
-
-The landscape contains competing tendencies:
-
-* attraction toward parent A,
-* attraction toward parent B,
-* inheritance coupling that can stabilize a two-parent state,
-* noise that can help transitions or destabilize retention.
-
-The exact form of (U(h)), the parameters, and the classification rules belong to the specific B11 numerical setup.
+The model asks whether capture must destroy distinction, or whether a post-capture state can retain distinguishable hidden-depth structure.
 
 ---
 
@@ -107,9 +106,61 @@ higher noise
     -> robust inheritance generally requires stronger stabilization
 ```
 
-Parent similarity can also affect the inheritance threshold. When the two parent-like states are more compatible, hidden-depth inheritance can become easier to stabilize.
+Parent similarity also affects the inheritance threshold.
+
+When the two parent-like states are more compatible, hidden-depth inheritance can become easier to stabilize.
 
 These are reduced-model results, not universal constants.
+
+---
+
+## Additional representative figures
+
+### Critical inheritance threshold at P = 0.5
+
+![Critical inheritance threshold at P = 0.5](../../figures/B11/figure_02_critical_inheritance_threshold_P05.png)
+
+**Figure:** Critical inheritance coupling for reaching approximately 50% inheritance probability.
+
+---
+
+### Critical inheritance threshold at P = 0.9
+
+![Critical inheritance threshold at P = 0.9](../../figures/B11/figure_03_critical_inheritance_threshold_P09.png)
+
+**Figure:** Critical inheritance coupling for robust inheritance probability.
+
+---
+
+### Threshold heatmap at P = 0.5
+
+![Threshold heatmap at P = 0.5](../../figures/B11/figure_04_threshold_heatmap_P05.png)
+
+**Figure:** Heatmap of the estimated inheritance threshold for the 50% inheritance criterion.
+
+---
+
+### Threshold heatmap at P = 0.9
+
+![Threshold heatmap at P = 0.9](../../figures/B11/figure_05_threshold_heatmap_P09.png)
+
+**Figure:** Heatmap of the estimated inheritance threshold for the 90% inheritance criterion.
+
+---
+
+### Reorganization energy drop
+
+![Reorganization energy drop near threshold](../../figures/B11/figure_06_reorganization_energy_drop_threshold.png)
+
+**Figure:** Model-defined reorganization energy drop near the inheritance transition. This is a reduced-model diagnostic, not a claim of real thermodynamic or nuclear energy release.
+
+---
+
+### Folding-conflict drop
+
+![Folding-conflict drop near threshold](../../figures/B11/figure_07_folding_conflict_drop_threshold.png)
+
+**Figure:** Folding-conflict drop near the inheritance transition. This figure illustrates how model-defined conflict may decrease when hidden-depth inheritance stabilizes.
 
 ---
 
@@ -119,9 +170,7 @@ B11 adds a key layer to BIG:
 
 > Fusion-like capture does not necessarily imply total assimilation.
 
-This matters because BIG treats individuality as boundary-supported and non-assimilative.
-
-A capture event may therefore have several possible meanings:
+A capture event may lead to:
 
 1. **Assimilation**
    The fused state collapses into one parent-like identity.
@@ -134,15 +183,46 @@ A capture event may therefore have several possible meanings:
 
 In this sense, B11 explores whether post-capture transformation can preserve difference.
 
+This is important for BIG because non-assimilation is not only a pre-capture boundary condition.
+It may also be a post-capture stabilization principle.
+
+---
+
+## Relation to B10
+
+B10 studies the conditions for sustained capture.
+
+B11 starts after capture and asks what survives.
+
+```text
+B10:
+    Can two boundary-supported systems enter sustained capture?
+
+B11:
+    After capture, does the resulting state assimilate, collapse, or inherit?
+```
+
+This distinction is essential.
+
+A successful B10 capture event does not automatically imply B11 inheritance.
+
 ---
 
 ## Important limitations
 
 BIG-B11 is **not** a quantitative theory of biological inheritance.
 
-It is also **not** a quantitative theory of nuclear fusion, nuclear energy release, genetic recombination, embryology, or thermodynamic energy production.
+It is also **not** a quantitative theory of:
 
-The terms “inheritance,” “parent,” and “fusion” are used structurally within a reduced hidden-state model.
+* nuclear fusion,
+* nuclear energy release,
+* genetic recombination,
+* embryology,
+* thermodynamic energy production,
+* material memory,
+* or biological reproduction.
+
+The terms “inheritance,” “parent,” “fusion,” and “memory” are used structurally within a reduced hidden-state model.
 
 In particular:
 
@@ -161,20 +241,24 @@ Within BIG, B11 plays the role of the **post-capture inheritance branch**.
 
 It connects naturally to:
 
-* **B9**, which studies separation and fission-like branching;
-* **B10**, which studies finite-noise capture and sustained locking;
-* **B12**, which integrates boundary approach, R-lock, and hidden-depth inheritance in one reduced model.
-
-The conceptual sequence is:
-
 ```text
-B9: separation / fission-like metastability
-B10: finite-noise capture / fusion-like locking
-B11: post-capture inheritance versus assimilation
-B12: unified boundary dynamics
+B9  -> separation / fission-like metastability
+B10 -> finite-noise capture / fusion-like locking
+B11 -> post-capture inheritance versus assimilation
+B12 -> unified boundary dynamics
 ```
 
-B11 is therefore the point where BIG moves from “Can capture occur?” to “What kind of identity survives after capture?”
+B11 moves the programme from:
+
+```text
+Can capture occur?
+```
+
+to:
+
+```text
+What kind of identity survives after capture?
+```
 
 ---
 
@@ -190,7 +274,7 @@ Preferred:
 
 Preferred:
 
-> B11 treats inheritance structurally, not as biological genetics.
+> B11 distinguishes capture from inheritance.
 
 Avoid unless carefully qualified:
 
@@ -200,7 +284,7 @@ Avoid unless carefully qualified:
 
 > BIG-B11 predicts real energy release.
 
-> BIG-B11 is a theory of reproduction.
+> B11 is a theory of genetics.
 
 ---
 
@@ -209,22 +293,3 @@ Avoid unless carefully qualified:
 Primary BIG-B11 record:
 
 https://doi.org/10.5281/zenodo.20828439
-
-Additional B11-related records may be listed here as they are finalized.
-
----
-
-## Folder contents
-
-Suggested future contents:
-
-```text
-papers/B11_hidden_depth_inheritance/
-├── README.md
-├── figures/
-├── data_summaries/
-├── scripts/
-└── notes/
-```
-
-Large raw datasets should remain archived on Zenodo. This repository should contain lightweight summaries, representative figures, and reproducibility notes.
