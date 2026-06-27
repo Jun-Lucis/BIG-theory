@@ -126,7 +126,28 @@ BIGの現在の展開は、次のような系列として整理できます。
 B9以降のモデルは、もともと特定の物理現象を再現するために作られたものではありません。
 
 たとえば、B9は核分裂を説明するために設計されたものではなく、境界コストと非局所反発というBIG内部の自然な問いから生まれました。
-その後、結果として、古典的な液滴模型における surface-versus-Coulomb competition とよく似た構造が現れました。
+
+B9で扱う最小エネルギーは、
+
+$$
+E(\Omega;\lambda)=\sigma P(\Omega)+\lambda C(\Omega)
+$$
+
+です。ここで (P(\Omega)) は境界コスト、(C(\Omega)) は非局所反発項です。
+
+この単純な構造から、コンパクト状態、有限ピンチ障壁、分離枝を持つ fission-like なメタ安定構造が現れます。
+
+その後、結果として、この構造が古典的な液滴模型における surface-versus-Coulomb competition とよく似ていることが見えてきました。
+また、B9の経験的構造比較では、Th-232, U-236, U-238, Pu-240, Cm-244, Cf-252 などの代表的なアクチノイドを用いて、fissility に関連する巨視的指標との対応を定性的に比較しています。
+
+ただし、これは定量的な核分裂理論ではありません。
+現時点のBIG-B9最小モデルは、shell corrections、pairing effects、quantum tunneling、excitation-energy dependence、fragment yields、cross-section normalization などの微視的核構造効果を、較正された自由度として明示的に解いてはいません。
+
+しかし、これはそれらの効果がBIG frameworkと根本的に非互換である、という意味ではありません。
+将来の拡張では、それらは effective boundary corrections、state-dependent coefficients、hidden-depth mode contributions、barrier-crossing dynamics などとして、B9のエネルギー地形の上に組み込める可能性があります。
+
+したがって、B9の核分裂との対応は、現段階では **巨視的・構造的比較** として読むべきです。
+定量的な核計算として主張しているわけではありません。
 
 同様に、B10は核融合の定量理論ではなく、境界系が有限ノイズ下で捕獲されるかを調べた縮約モデルです。
 B11は生物学的継承の理論ではなく、捕獲後の hidden-depth landscape における assimilation と inheritance の競合を調べたモデルです。
