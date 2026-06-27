@@ -1,8 +1,14 @@
 # BIG-B12: Unified Boundary Dynamics with Finite-Noise R-Lock and Hidden-Depth Inheritance
 
-This folder collects materials related to **BIG-B12**, a reduced unified model connecting the main motifs of BIG-B9, BIG-B10, and BIG-B11.
+**BIG-B12** connects the main motifs of BIG-B9, BIG-B10, and BIG-B11 in one reduced boundary-dynamical framework.
 
-BIG-B12 studies how boundary approach, internal resonance locking, and hidden-depth inheritance can coexist within a single reduced boundary-dynamical framework.
+This folder is the main explanatory entry point for BIG-B12.
+
+Representative figures are stored in:
+
+```text
+../../figures/B12/
+```
 
 ---
 
@@ -24,7 +30,9 @@ boundary approach
     -> hidden-depth inheritance
 ```
 
-This is a reduced mathematical and numerical model. It is not a completed physical unification theory.
+This is a reduced mathematical and numerical model.
+
+It is not a completed physical unification theory.
 
 ---
 
@@ -44,11 +52,23 @@ Their roles are:
 * (R(t)): describes whether an internal resonance channel ignites and remains locked;
 * (h(t)): describes whether the post-lock hidden-depth state collapses into assimilation or preserves inheritance.
 
-The model is designed to ask whether these sectors can form one coherent dynamical chain.
+The model therefore connects geometry, resonance, and hidden-depth memory in a single reduced event chain.
 
 ---
 
-## Core dynamical sequence
+## Representative figure
+
+![BIG-B12 full success versus noise](../../figures/B12/figure_03_full_success_vs_noise.png)
+
+**Figure:** Approximate full-success probability across resonance-noise values in the B12.1d refined scan. Full success is stricter than final-state similarity because it requires strict R-lock together with hidden-depth inheritance.
+
+More figures are available here:
+
+[../../figures/B12](../../figures/B12)
+
+---
+
+## Core event sequence
 
 The intended B12 event chain is:
 
@@ -60,9 +80,7 @@ approach
     -> hidden-depth inheritance
 ```
 
-The main point is that final inheritance alone is not enough.
-
-A strict successful event should satisfy both:
+A strict successful event must satisfy both:
 
 ```text
 strict R-lock
@@ -70,53 +88,21 @@ AND
 hidden-depth inheritance
 ```
 
-Therefore, B12 distinguishes:
-
-```text
-transient approach
-first lock event
-sustained lock
-inheritance during lock
-full success
-assimilation-dominated locked state
-escape
-```
-
-This distinction is important because a trajectory may show late inheritance-like behavior without satisfying sustained lock.
-
----
-
-## Full success
-
-In B12, **full success** is stricter than ordinary contact or final-state appearance.
-
-A useful summary is:
+A useful shorthand is:
 
 ```text
 full success = strict R-lock AND hidden-depth inheritance
 ```
 
-This prevents overcounting trajectories that appear inheritance-like only after the locking condition has failed.
+This distinction is important.
 
-This distinction is inherited from the B10 principle:
-
-```text
-first hit != sustained capture
-```
-
-and extended through the B11 principle:
-
-```text
-fusion-like capture != total assimilation
-```
+A trajectory may show contact, partial resonance, or late inheritance-like behavior without satisfying the stricter full-success condition.
 
 ---
 
 ## Ignition barrier and finite-noise R-lock window
 
 A key B12 refinement is the introduction of an ignition barrier in the R-sector.
-
-Without an effective ignition barrier, the resonance sector can become too easily activated, making the model less informative as a finite-noise test.
 
 With an ignition barrier, B12 restores a finite-noise R-lock window:
 
@@ -135,6 +121,10 @@ high resonance noise
 ```
 
 This is a stochastic-resonance-like structure, but it remains a reduced-model result.
+
+The point is not that noise is always beneficial.
+
+The point is that a finite intermediate noise range may allow activation without destroying sustained coherence.
 
 ---
 
@@ -157,6 +147,48 @@ They are not universal constants.
 
 ---
 
+## Additional representative figures
+
+### Unified boundary architecture
+
+![Unified boundary architecture](../../figures/B12/figure_01_unified_boundary_architecture.png)
+
+**Figure:** Conceptual architecture of the reduced BIG-B12 system. The model connects boundary distance, resonance-sector locking, and hidden-depth inheritance.
+
+---
+
+### Finite-noise R-lock window
+
+![Finite-noise R-lock window](../../figures/B12/figure_02_finite_noise_R_lock_window.png)
+
+**Figure:** B12.1d refined finite-noise window. Low noise fails to ignite the resonance sector; intermediate noise produces sustained R-lock and full success; higher noise disrupts sustained locking.
+
+---
+
+### Full success versus noise
+
+![Full success versus noise](../../figures/B12/figure_03_full_success_vs_noise.png)
+
+**Figure:** Full-success probability across resonance-noise values. Full success requires both strict R-lock and hidden-depth inheritance.
+
+---
+
+### Hit, lock, and full-success comparison
+
+![Hit, lock, and full-success comparison](../../figures/B12/figure_04_hit_lock_full_success_comparison.png)
+
+**Figure:** Comparison of approximate hit, lock, and full-success probabilities across resonance-noise values. This figure emphasizes that contact-like events, R-lock, and full success are distinct event classes.
+
+---
+
+### Refined window metrics summary
+
+![Refined window metrics summary](../../figures/B12/figure_05_refined_window_metrics_summary.png)
+
+**Figure:** Summary of reported B12.1d refined finite-noise window metrics.
+
+---
+
 ## Interpretation
 
 B12 suggests that a boundary-mediated transformation may require three conditions:
@@ -170,49 +202,59 @@ B12 suggests that a boundary-mediated transformation may require three condition
 3. **Hidden-depth inheritance**
    The post-lock state must preserve non-assimilative hidden-depth structure rather than collapse into a single parent-like attractor.
 
-In this sense, B12 is not merely a “fusion-like” model. It is a model of boundary transformation with non-assimilative post-capture memory.
+B12 is therefore not merely a “fusion-like” model.
+
+It is a reduced model of boundary transformation with non-assimilative post-capture memory.
 
 ---
 
 ## Relation to B9, B10, and B11
 
-B12 connects the earlier B-series as follows.
-
-### From B9
-
-B9 studies how boundary cost and nonlocal repulsion can create fission-like metastability:
+B12 unifies the B9--B11 sequence.
 
 ```text
-compact state
-    -> pinch barrier
-    -> separated branch
+B9:
+    Boundary cost versus nonlocal repulsion
+    -> separation / fission-like metastability
+
+B10:
+    Boundary approach plus finite noise
+    -> sustained capture / fusion-like locking
+
+B11:
+    Post-capture hidden-depth state
+    -> inheritance versus assimilation
+
+B12:
+    Boundary approach + R-lock + hidden-depth inheritance
+    -> unified reduced boundary dynamics
 ```
 
-B12 uses this as the separation-side counterpart to later capture and inheritance dynamics.
+This makes B12 the current integration point of the BIG boundary-dynamics branch.
 
-### From B10
+---
 
-B10 studies finite-noise sustained capture and distinguishes first hit from sustained capture:
+## Why full success is stricter than final similarity
+
+In some reduced models, a final state may appear close to an inherited or stable state even if the trajectory did not pass through a sustained resonance-locking phase.
+
+B12 separates these ideas.
 
 ```text
-approach
-    -> channel activation
-    -> sustained capture
+final similarity:
+    the end state resembles a target or inherited state
+
+strict R-lock:
+    the resonance sector remains locked according to a defined criterion
+
+hidden-depth inheritance:
+    the hidden-depth state preserves non-assimilative inherited structure
+
+full success:
+    strict R-lock AND hidden-depth inheritance
 ```
 
-B12 extends this into an R-sector locking condition.
-
-### From B11
-
-B11 studies what happens after capture:
-
-```text
-assimilation
-or
-hidden-depth inheritance
-```
-
-B12 embeds this post-capture question into the same dynamical chain as approach and lock.
+This prevents the model from overcounting trajectories that look successful only at the endpoint.
 
 ---
 
@@ -236,7 +278,7 @@ The terms “approach,” “fusion-like,” “R-lock,” and “inheritance”
 In particular:
 
 * (d(t)) is a reduced boundary-distance variable, not a full physical coordinate system;
-* (R(t)) is a reduced resonance sector, not a calibrated nuclear or material mode;
+* (R(t)) is a reduced resonance sector, not a calibrated nuclear, material, biological, or cognitive mode;
 * (h(t)) is a hidden-depth state, not biological genetics;
 * full success is a model-defined event criterion;
 * energy-like drops are model-level quantities, not real energy release.
@@ -245,32 +287,29 @@ B12 should therefore be read as a reduced boundary-dynamical experiment.
 
 ---
 
-## What B12 currently claims
+## Relation to the BIG programme
 
-B12 supports cautious model-level claims such as:
+Within BIG, B12 plays the role of the **unified boundary-dynamics branch**.
 
-* boundary approach, R-lock, and hidden-depth inheritance can be coupled in one reduced framework;
-* strict success should distinguish transient contact from sustained lock;
-* hidden-depth inheritance should be evaluated together with lock conditions, not only final-state appearance;
-* introducing an ignition barrier can restore a finite-noise R-lock window;
-* intermediate noise can enable lock, while excessive noise can disrupt it.
+It connects:
 
-These are claims about the reduced B12 model, not direct physical predictions.
+```text
+separation
+    -> capture
+    -> resonance locking
+    -> hidden-depth inheritance
+```
 
----
+More specifically:
 
-## What B12 does not claim
+```text
+B9:  separation / fission-like metastability
+B10: finite-noise capture / fusion-like locking
+B11: post-capture inheritance versus assimilation
+B12: unified boundary approach, R-lock, and hidden-depth inheritance
+```
 
-B12 does not claim that:
-
-* real nuclear fusion follows this model;
-* real biological inheritance follows this model;
-* real energy release is predicted;
-* existing physics is replaced;
-* the model is quantitatively calibrated to laboratory systems;
-* the numerical thresholds are universal constants.
-
-Any application to physical, biological, material, cognitive, or AI systems would require domain-specific equations, parameters, validation, and comparison with existing literature.
+B12 is the point where the B9--B11 sequence becomes one reduced event chain.
 
 ---
 
@@ -288,6 +327,10 @@ Preferred:
 
 > Full success in B12 requires both strict R-lock and hidden-depth inheritance.
 
+Preferred:
+
+> B12 is a reduced integration of the B9--B11 boundary-dynamics sequence.
+
 Avoid unless carefully qualified:
 
 > BIG-B12 explains nuclear fusion.
@@ -298,7 +341,7 @@ Avoid unless carefully qualified:
 
 > B12 predicts real energy release.
 
-> Final inheritance alone means full success.
+> B12 is a theory of consciousness or AI identity.
 
 ---
 
@@ -310,8 +353,6 @@ Primary BIG-B12 record:
 DOI to be added
 ```
 
-Once the Zenodo DOI is finalized, add it here.
-
 Related records:
 
 ```text
@@ -319,20 +360,3 @@ BIG-B9:  https://doi.org/10.5281/zenodo.20799131
 BIG-B10: https://doi.org/10.5281/zenodo.20819427
 BIG-B11: https://doi.org/10.5281/zenodo.20828439
 ```
-
----
-
-## Folder contents
-
-Suggested future contents:
-
-```text
-papers/B12_unified_boundary_dynamics/
-├── README.md
-├── figures/
-├── data_summaries/
-├── scripts/
-└── notes/
-```
-
-Large raw datasets should remain archived on Zenodo. This repository should contain lightweight summaries, representative figures, reproducibility scripts, and links to DOI records.
