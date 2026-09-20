@@ -8,6 +8,16 @@ Hidden-depth states can be embedded in a real two-dimensional Hilbert-like repre
 
 The update maps are classified as linear, affine, nonlinear, or state-dependent.
 
+## Representative figures
+
+![Boundary-history density response curves](../../figures/B15/B15_3_boundary_history_density_response_curves.png)
+
+*Response curves in the density-like boundary-history representation.*
+
+![Boundary-history density purity](../../figures/B15/B15_3_boundary_history_density_purity.png)
+
+*Purity diagnostic for finite hidden-depth state clouds. The density-like representation is mathematical bookkeeping, not a claim of a physical quantum state.*
+
 ## Scope
 
 The Hilbert-like and density-like notation is representational. B15 does not derive quantum mechanics, the Born rule, biological memory, heredity, or physical quantum channels.
