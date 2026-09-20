@@ -10,9 +10,11 @@ BIG-B17 sharpens the B16 result:
 
 > stored history is not automatically readable history.
 
-A retained history field affects later response only when the relevant component remains locally sampleable in the current moving-boundary frame.
+Using reduced write/read protocols, B17 separates the writing of boundary history from its later feedback-mediated readout. The numerical program proceeds through four connected stages: write/read separation, moving-frame decomposition of the write-count effect, boundary-anchored writing with advected-memory controls, and full-PDE consistency checks.
 
-Boundary-anchored writing, laboratory-fixed writing, and controls on history transport test this distinction.
+The central result is that later adaptive response is not controlled primarily by global retained history mass. Instead, it is organized by the effective locally sampled retained-history load, approximately $\eta_S\,m_{\mathrm{local}}$, available to the read probe in the current moving-boundary frame. Controls with $\eta_S=0$ vanish, confirming that retained history does not affect later response without feedback coupling.
+
+Boundary-anchored writing preserves local readability and produces stronger adaptive response. Laboratory-fixed writing can leave written traces deeper inside the moving-boundary frame and weaken readout. Artificial memory advection partially stabilizes readout, but does not fully reproduce the amplification obtained by genuine boundary-anchored writing.
 
 ## Representative figure
 
@@ -22,7 +24,7 @@ Boundary-anchored writing, laboratory-fixed writing, and controls on history tra
 
 ## Scope
 
-The result is model-level and concerns a reduced moving-boundary system. It is not a general theory of biological or cognitive memory.
+The result is a reduced structural test of how moving free boundaries can write, retain, and selectively read boundary history. It does not derive biological learning, neural memory, wound healing, immune adaptation, consciousness, or quantum measurement.
 
 ## Publication
 
