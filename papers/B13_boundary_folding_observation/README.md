@@ -21,6 +21,16 @@ $$
 
 The numerical experiments examine basin selection, observer directionality, finite noise, and self-observation.
 
+## Representative figures
+
+![Baseline binary selection versus Born-like reference](../../figures/B13/figure_02_baseline_binary_selection_vs_born_like.png)
+
+*Baseline binary-selection diagnostic compared with the Born-like reference used in B13. The comparison is empirical and does not constitute a derivation of the Born rule.*
+
+![Finite-noise Born-like robustness](../../figures/B13/figure_04_finite_noise_born_like_robustness.png)
+
+*Finite-noise robustness diagnostic for the reduced selection model.*
+
 ## Scope
 
 The Born-like curves used in B13 are reference comparisons. B13 does **not** derive quantum measurement, the Born rule, the uncertainty principle, consciousness, or AI perception.
