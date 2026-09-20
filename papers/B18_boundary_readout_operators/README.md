@@ -21,7 +21,7 @@ $$
 \int m(x,t)W(x;R(t))G_\Sigma[\Phi](x,t)\,dx\,dt.
 $$
 
-Across the B18 diagnostics, path-integrated threshold/interface-core exposure organizes later front response better than global trace mass or read-start local load alone.
+In the B17 positive-feedback regime, this readout reduces approximately to a read-start local load. In the B18 reaction-diffusion-inspired inhibitory front model, later front suppression is better organized by path-integrated interface-core / threshold-gated trace exposure than by read-start local trace or global trace mass.
 
 The resulting operator-level statement is:
 
@@ -35,7 +35,7 @@ The resulting operator-level statement is:
 
 ## Scope
 
-The front-and-trace model is reduced and exploratory. It is not calibrated to a particular chemical, biological, neural, or material system.
+The front-and-trace model is a reduced numerical and operator-level study. It does not claim to derive reaction-diffusion chemistry, material interface physics, biological adaptation, wound healing, immune memory, neural memory, learning, consciousness, or quantum measurement. The reaction-diffusion front is used as a physically recognizable reduced test bed for the stored-history versus readable-history distinction.
 
 ## Publication
 
