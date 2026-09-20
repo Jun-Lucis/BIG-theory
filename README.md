@@ -70,7 +70,7 @@ A boundary must be strong enough to preserve distinction, but not so closed that
 * reorganize under stress,
 * and sometimes preserve memory through transformation.
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, and hidden-depth inheritance.
+This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, and finite-time response geometry.
 
 ---
 
@@ -122,15 +122,24 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 
 ## B-series overview
 
-| Series | Main role                                                               | Main entry                                                                   |
-| ------ | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| B3--B4 | Compact-support-like boundary layers and quadratic landing              | [papers/BIG-B3](papers/BIG-B3)                                |
-| B7     | Persistence of free-boundary exponent near runaway transition           | [papers/B7_boundary_exponent](papers/B7_boundary_exponent)                   |
-| B8     | Boundary anisotropy and finite-time separatrix thresholds               | [papers/B8_finite_time_separatrix](papers/B8_finite_time_separatrix)         |
-| B9     | Fission-like metastability from boundary cost versus nonlocal repulsion | [papers/B9_fission_like_metastability](papers/B9_fission_like_metastability) |
-| B10    | Stochastic-resonance-like finite-noise sustained capture                | [papers/B10_finite_noise_capture](papers/B10_finite_noise_capture)           |
-| B11    | Post-capture hidden-depth inheritance versus assimilation               | [papers/B11_hidden_depth_inheritance](papers/B11_hidden_depth_inheritance)   |
-| B12    | Unified boundary dynamics connecting B9, B10, and B11                   | [papers/B12_unified_boundary_dynamics](papers/B12_unified_boundary_dynamics) |
+| Series | Main role | Main entry |
+| --- | --- | --- |
+| B3--B4 | Compact-support-like boundary layers and quadratic landing | [papers/BIG-B3](papers/BIG-B3) |
+| B7 | Persistence of free-boundary exponent near runaway transition | [papers/B7_boundary_exponent](papers/B7_boundary_exponent) |
+| B8 | Boundary anisotropy and finite-time separatrix thresholds | [papers/B8_finite_time_separatrix](papers/B8_finite_time_separatrix) |
+| B9 | Fission-like metastability from boundary cost versus nonlocal repulsion | [papers/B9_fission_like_metastability](papers/B9_fission_like_metastability) |
+| B10 | Stochastic-resonance-like finite-noise sustained capture | [papers/B10_finite_noise_capture](papers/B10_finite_noise_capture) |
+| B11 | Post-capture hidden-depth inheritance versus assimilation | [papers/B11_hidden_depth_inheritance](papers/B11_hidden_depth_inheritance) |
+| B12 | Unified boundary dynamics connecting B9, B10, and B11 | [papers/B12_unified_boundary_dynamics](papers/B12_unified_boundary_dynamics) |
+| B13 | Boundary folding and observation-like state selection | [papers/B13_boundary_folding_observation](papers/B13_boundary_folding_observation) |
+| B13.1 | Rotated-basis observation and empirical selection kernel | [papers/B13_1_rotated_basis_observation](papers/B13_1_rotated_basis_observation) |
+| B14 | Boundary history and lineage-level trace persistence | [papers/B14_boundary_history](papers/B14_boundary_history) |
+| B15 | Operator representation of observation traces and history | [papers/B15_operator_representation](papers/B15_operator_representation) |
+| B16 | Memory-bearing moving free boundaries | [papers/B16_memory_bearing_free_boundaries](papers/B16_memory_bearing_free_boundaries) |
+| B17 | Stored history versus locally readable history | [papers/B17_readable_history](papers/B17_readable_history) |
+| B18 | Boundary-dependent readout and interface-core path exposure | [papers/B18_boundary_readout_operators](papers/B18_boundary_readout_operators) |
+| B19 | Direction-dependent boundary-core channel diagnostics | [papers/B19_boundary_core_channels](papers/B19_boundary_core_channels) |
+| B20 | Operator-generated finite-window response boundaries | [papers/B20_response_boundaries](papers/B20_response_boundaries) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -246,6 +255,74 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 
 ---
 
+
+# Visual guide to B13--B20
+
+The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
+
+---
+
+## BIG-B13: Observation-like state selection
+
+![BIG-B13 finite-noise robustness](figures/B13/figure_04_finite_noise_born_like_robustness.png)
+
+**Main idea:** Boundary-mediated coupling can bias hidden-depth basin selection in the reduced B13 model. Born-like curves are used only as empirical references; B13 does not derive quantum measurement or the Born rule.
+
+**Main entry:** [papers/B13_boundary_folding_observation](papers/B13_boundary_folding_observation)
+
+---
+
+## BIG-B14--B15: Boundary history and operator representation
+
+![BIG-B14 boundary-history profiles](figures/B14/B14_0_memory_profiles.png)
+
+![BIG-B15 boundary-history density response](figures/B15/B15_3_boundary_history_density_response_curves.png)
+
+**Main idea:** History becomes an explicit state variable that can be written, relaxed, partitioned, propagated, and represented through reduced state-update operators.
+
+**Main entries:** [B14](papers/B14_boundary_history) · [B15](papers/B15_operator_representation)
+
+---
+
+## BIG-B16--B18: From retained history to readable history
+
+![BIG-B16 response versus retained load](figures/B16/B16_5_response_vs_retained_load_robustness.png)
+
+![BIG-B17 read branches](figures/B17/B17_4_read_branches_advected_memory_n5.png)
+
+![BIG-B18 stored-to-readable history flow](figures/B18/B18_4_stored_to_readable_history_flow.png)
+
+**Main idea:** Retaining a history field is not sufficient for later response. B17 separates stored from locally readable history, and B18 extends this to boundary-dependent, path-integrated interface/core exposure.
+
+```text
+stored history
+    -> locally readable history
+    -> path / interface-core exposure
+    -> later response
+```
+
+**Main entries:** [B16](papers/B16_memory_bearing_free_boundaries) · [B17](papers/B17_readable_history) · [B18](papers/B18_boundary_readout_operators)
+
+---
+
+## BIG-B19--B20: Boundary-core channels and response geometry
+
+![BIG-B19 channel-class retention](figures/B19/B19_16_class_retention_fraction.png)
+
+**Main idea:** B19 finds direction-dependent boundary-core channel organization in finite synthetic divergence-free vorticity families. B20 then defines a finite-window response function
+
+$
+F_T(P)=Z[U_T(P)]-Z[P]
+$
+
+and studies its zero set $\mathcal{B}_T$ as an operator-generated response boundary in parameter space.
+
+B20.6 prospectively scanned frozen parameter-space trajectories. In the archived scan, one trajectory (d03) produced a sign-changing bracket over $s\in[1.875,2.0]$, which was subsequently refined by a frozen bisection procedure. This is evidence for a crossing in that tested trajectory, not evidence for a universal separatrix or a Navier--Stokes singularity criterion.
+
+**Main entries:** [B19](papers/B19_boundary_core_channels) · [B20](papers/B20_response_boundaries)
+
+---
+
 ## Development path
 
 The current BIG development can be read as a sequence of increasingly coupled boundary questions:
@@ -258,6 +335,12 @@ boundary formation
     -> finite-noise capture
     -> post-capture inheritance
     -> unified boundary dynamics
+    -> observation-like boundary folding
+    -> boundary history and operator representation
+    -> memory-bearing moving boundaries
+    -> boundary-dependent readout
+    -> boundary-core channel families
+    -> operator-generated finite-time response boundaries
 ```
 
 This path is not a claim that all domains share the same physics.
@@ -275,6 +358,9 @@ In particular:
 * BIG-B10 is not a quantitative theory of nuclear fusion.
 * BIG-B11 is not a quantitative theory of biological inheritance, nuclear fusion, or real energy release.
 * BIG-B12 is not a completed physical unification theory.
+* BIG-B13--B15 do not derive quantum mechanics, the Born rule, consciousness, or biological heredity.
+* BIG-B16--B18 are reduced history/readout models, not calibrated models of biological, neural, chemical, or material memory.
+* BIG-B19--B20 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -316,16 +402,27 @@ A more detailed publication map is maintained here:
 
 [docs/publication_map.md](docs/publication_map.md)
 
-Current and planned entries include:
+Current entries include:
 
-| Series | Title                                                                                              | DOI / record                            |
-| ------ | -------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| B7     | Persistence of the Free-Boundary Exponent Across a Runaway Transition                              | https://doi.org/10.5281/zenodo.20603601                           |
-| B8     | Boundary anisotropy and finite-time separatrix thresholds                                          | https://zenodo.org/records/20645317     |
-| B9     | Minimal boundary-energy model for fission-like metastability                                       | https://doi.org/10.5281/zenodo.20799131 |
-| B10    | Stochastic-Resonance-Like Fusion Capture in a Dynamic Boundary Model                               | https://doi.org/10.5281/zenodo.20819427 |
-| B11    | Post-Fusion Boundary Inheritance and Non-Assimilative Stabilization                                | https://doi.org/10.5281/zenodo.20828439 |
-| B12    | Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance | https://doi.org/10.5281/zenodo.20872005                         |
+| Series | Theme | DOI / record |
+| --- | --- | --- |
+| B7 | Free-boundary exponent across runaway transition | https://doi.org/10.5281/zenodo.20603601 |
+| B8 | Boundary anisotropy and finite-time separatrix thresholds | https://zenodo.org/records/20645317 |
+| B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
+| B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.20819427 |
+| B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.20828439 |
+| B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
+| B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.21072783 |
+| B13.1 | Rotated-basis observation and empirical selection kernel | https://doi.org/10.5281/zenodo.21108338 |
+| B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.21144373 |
+| B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.21173333 |
+| Layered framework | Layered mathematical consolidation through B15 | https://zenodo.org/records/22161614 |
+| B16 | Memory-bearing free boundaries | https://zenodo.org/records/22660005 |
+| B17 | Stored versus readable history | https://zenodo.org/records/22677581 |
+| B18 | Boundary readout operators | https://zenodo.org/records/22690970 |
+| B19 | Boundary-core channel diagnostics | https://zenodo.org/records/22726848 |
+| B19 follow-up | Finite-time response-boundary diagnostics | https://zenodo.org/records/22769513 |
+| B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
 
 ---
 
@@ -347,12 +444,28 @@ BIG-theory/
 │   ├── B9_fission_like_metastability/
 │   ├── B10_finite_noise_capture/
 │   ├── B11_hidden_depth_inheritance/
-│   └── B12_unified_boundary_dynamics/
+│   ├── B12_unified_boundary_dynamics/
+│   ├── B13_boundary_folding_observation/
+│   ├── B13_1_rotated_basis_observation/
+│   ├── B14_boundary_history/
+│   ├── B15_operator_representation/
+│   ├── B16_memory_bearing_free_boundaries/
+│   ├── B17_readable_history/
+│   ├── B18_boundary_readout_operators/
+│   ├── B19_boundary_core_channels/
+│   └── B20_response_boundaries/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
 │   ├── B11/
-│   └── B12/
+│   ├── B12/
+│   ├── B13/
+│   ├── B14/
+│   ├── B15/
+│   ├── B16/
+│   ├── B17/
+│   ├── B18/
+│   └── B19/
 ├── data/
 └── code/
 ```
