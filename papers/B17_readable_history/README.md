@@ -14,6 +14,8 @@ Using reduced write/read protocols, B17 separates the writing of boundary histor
 
 The central result is that later adaptive response is not controlled primarily by global retained history mass. Instead, it is organized by the effective locally sampled retained-history load, approximately $\eta_S\,m_{\mathrm{local}}$, available to the read probe in the current moving-boundary frame. Controls with $\eta_S=0$ vanish, confirming that retained history does not affect later response without feedback coupling.
 
+Quantitatively, across nonzero-feedback B17.1 cases the kept-minus-erased adaptive response is well organized by the effective load $\eta_S m_{\mathrm{local}}$ ($R^2\approx0.9940$, correlation $\approx0.9970$). In the $\eta_S=8$ moving-frame branch, $m_{\mathrm{local}}$ alone gives $R^2\approx0.9929$, compared with $R^2\approx0.8923$ for global history mass and $R^2\approx0.9002$ for global history peak; write depth alone is much weaker ($R^2\approx0.3765$). These comparisons support local readability rather than global storage as the operative readout variable.
+
 Boundary-anchored writing preserves local readability and produces stronger adaptive response. Laboratory-fixed writing can leave written traces deeper inside the moving-boundary frame and weaken readout. Artificial memory advection partially stabilizes readout, but does not fully reproduce the amplification obtained by genuine boundary-anchored writing.
 
 ## Representative figure
