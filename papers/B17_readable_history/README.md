@@ -10,6 +10,12 @@ A retained history field affects later response only when the relevant component
 
 Boundary-anchored writing, laboratory-fixed writing, and controls on history transport test this distinction.
 
+## Representative figure
+
+![Read branches with advected memory](../../figures/B17/B17_4_read_branches_advected_memory_n5.png)
+
+*Representative read-branch diagnostic used to test whether retained history remains dynamically readable in the moving-boundary frame.*
+
 ## Scope
 
 The result is model-level and concerns a reduced moving-boundary system. It is not a general theory of biological or cognitive memory.
