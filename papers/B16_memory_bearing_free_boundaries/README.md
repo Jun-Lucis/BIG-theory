@@ -8,7 +8,11 @@
 
 BIG-B16 couples a moving free-boundary field to a history field.
 
-The structural test is whether a past localized stimulus can be retained and alter a later local response when feedback coupling is present. Kept/erased interventions and moving-boundary diagnostics separate simple retention from dynamically effective history.
+The reduced one-dimensional model couples a BIG-type free-boundary field $\phi(x,t)$ to a boundary-history field $m(x,t)$. Localized stimulation writes $m$ near a moving threshold boundary; retained history then decays, diffuses, and feeds back into later local boundary response.
+
+The numerical program consists of six connected stages: core experiments, $\alpha$--$\eta_S$ parameter scans, kept/erased intervention tests, shifted-stimulus locality tests, moving-boundary-frame analysis, and robustness checks. The central diagnostic is the kept-minus-erased response, which isolates the contribution of retained boundary history from ordinary free-boundary drift.
+
+Across the reduced simulations, adaptive response is controlled by history retention, feedback strength, and locally sampled retained-history load. In this model, boundary history therefore functions as an internal state variable for later local boundary response.
 
 ## Representative figure
 
@@ -18,7 +22,7 @@ The structural test is whether a past localized stimulus can be retained and alt
 
 ## Scope
 
-This is a minimal reduced numerical model. It is not a calibrated theory of biological memory, neural memory, or a specific material system.
+This is a minimal reduced structural test showing that a moving free boundary can carry a retained local history field and reuse it through feedback coupling. It does not derive biological memory, learning, wound healing, neural adaptation, consciousness, or quantum measurement.
 
 ## Publication
 
