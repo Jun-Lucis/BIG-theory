@@ -2,7 +2,7 @@
 
 
 > 🇯🇵 **日本語要約**  
-> B20では、有限時間発展 $U_T$ と読み出し $Z$ から応答関数 $F_T(P)=Z[U_T(P)]-Z[P]$ を定義し、その符号が切り替わるゼロ集合を「応答境界」として調べます。B20.5では、事前に固定した4次元部分空間で局所応答勾配を検査し、主要なprospective testで方向微分の符号が24/24ケースで一致しました。B20.6ではさらに、局所情報から有限距離先のゼロ交差を予測できるかを凍結した手順で検査し、探索したd01--d06のうちd03で実際の符号反転を検出して二分探索で精密化しました。これによりBIGの「境界」は、物理空間の輪郭だけでなく、有限時間発展とreadoutによってパラメータ空間に生成される応答境界へ拡張されます。ただし、この結果は有限の合成渦度族と有限時間窓についてのもので、普遍的separatrixやNavier--Stokes特異点の証明ではありません。
+> B20では、有限時間発展 $U_T$ と読み出し $Z$ から応答関数 $F_T(P)=Z[U_T(P)]-Z[P]$ を定義し、その符号が切り替わるゼロ集合を「応答境界」として調べます。B20.5では、事前に固定した4次元部分空間で局所応答勾配を検査し、主要なprospective testで方向微分の符号が24/24ケースで一致しました。B20.6ではさらに、局所情報から有限距離先のゼロ交差を予測できるかを凍結した手順で検査しました。6本の独立なパラメータ空間軌道のうち、事前に定めた探索範囲内でinformative crossingが得られたのはd03の1本で、交差方向は予測と一致しました。凍結した予測位置は $\hat{s}=1.960017$、精密化したzero-crossing bracketは $[1.9921875,1.994140625]$、midpointは $1.9931641$ で、位置差はmidpointに対して約1.66%でした。事前基準では独立な交差が1件に留まったため、B20.6全体の判定は **INCONCLUSIVE** としています。これによりBIGの「境界」は、物理空間の輪郭だけでなく、有限時間発展とreadoutによってパラメータ空間に生成される応答境界へ拡張されます。ただし、この結果は有限の合成渦度族と有限時間窓についてのもので、普遍的separatrixやNavier--Stokes特異点の証明ではありません。
 
 ## Purpose
 
@@ -32,15 +32,23 @@ This result is local and finite-window. It is not a physical-space normal, a ful
 
 B20.6 moves from unseen local directional derivatives to finite-distance zero-crossing prediction under a frozen prospective protocol.
 
-In the archived coarse scan, trajectory `d03` is the only trajectory among the displayed d01--d06 scan set to show a sign change inside the frozen scan interval, with
+Among six independent parameter-space trajectories, only `d03` produces an informative crossing inside the predeclared frozen scan domain. Its crossing orientation is predicted correctly. The frozen linear crossing estimate is
 
 $
-F(1.875)=0.0155945,\qquad F(2.0)=-0.000831606.
+\hat{s}=1.960017,
 $
 
-The frozen refinement then narrows this crossing bracket through six bisection iterations; the final displayed refinement step evaluates $s=1.994140625$ with $F\approx-6.21\times10^{-5}$. These numbers document one tested finite-distance crossing. They do not by themselves establish a general crossing law or universal separatrix.
+while bracket refinement gives
 
-The integrated Zenodo publication remains the canonical source for the final evidential interpretation of B20.6.
+$
+s\in[1.9921875,1.994140625],
+$
+
+with midpoint $s=1.9931641$. The location difference is approximately **1.66% of the refined midpoint**.
+
+Because the predeclared B20.6 criterion required more than a single informative crossing to support a broader prospective crossing claim, the final B20.6 verdict is **INCONCLUSIVE**. The observed `d03` crossing is nevertheless a successful finite-distance directional/location test within that one informative case; it is not evidence for a general crossing law or universal separatrix.
+
+The integrated Zenodo publication is the canonical source for this final evidential interpretation.
 
 ## Scope
 
