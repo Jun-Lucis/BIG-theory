@@ -10,7 +10,12 @@ BIG-B19 studies synthetic divergence-free three-dimensional vorticity fields usi
 
 The integrated result does not support a single ray-independent scalar threshold. Instead, the diagnostics identify direction-dependent upstream boundary-core channel families that feed a common downstream production-versus-dissipation / total-balance organization.
 
-Later B19 work also shows that the finite-time response zero contour depends on the observation window, so it should not be treated as a fixed universal separator.
+The B19 follow-up studies the finite-window response surface
+`F_ray(T,epsilon)=Delta Z(T,epsilon;ray)` and treats the growth/decay boundary as its derived zero set.
+
+The original `T=0.010` brackets do not persist as fixed sign-separating boundaries when the observation horizon is extended. In the sampled continuation family, `p01` and `p02` show outward-moving detected zero contours while retaining a decreasing transverse epsilon-response. The `p03` direction behaves differently: its detected zero contour moves rapidly outward and leaves the sampled epsilon-domain, after which the response changes from globally decreasing to mixed and then globally increasing. Deterministic epsilon- and time-thinning controls preserve this p03 orientation-reversal ordering in all tested variants, while p01/p02 remain non-reversing.
+
+A predeclared cone-inspired coordinate motivated by the 2026 OpenAI forced Navier--Stokes construction does not collapse the three B19 directions. This comparison is structural only.
 
 ## Representative figure
 
@@ -20,7 +25,7 @@ Later B19 work also shows that the finite-time response zero contour depends on 
 
 ## Scope
 
-B19 is a reduced numerical diagnostic on synthetic divergence-free vorticity fields. It does **not** prove Navier--Stokes blow-up or regularity.
+B19 is a reduced numerical diagnostic on finite synthetic divergence-free vorticity fields. It does **not** establish Navier--Stokes finite-time blow-up, a regularity or singularity criterion, a universal invariant manifold, a universal separatrix, or reproduction/validation of the OpenAI theorem.
 
 ## Publications
 
