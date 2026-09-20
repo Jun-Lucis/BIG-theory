@@ -255,6 +255,74 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 
 ---
 
+
+# Visual guide to B13--B20
+
+The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
+
+---
+
+## BIG-B13: Observation-like state selection
+
+![BIG-B13 finite-noise robustness](figures/B13/figure_04_finite_noise_born_like_robustness.png)
+
+**Main idea:** Boundary-mediated coupling can bias hidden-depth basin selection in the reduced B13 model. Born-like curves are used only as empirical references; B13 does not derive quantum measurement or the Born rule.
+
+**Main entry:** [papers/B13_boundary_folding_observation](papers/B13_boundary_folding_observation)
+
+---
+
+## BIG-B14--B15: Boundary history and operator representation
+
+![BIG-B14 boundary-history profiles](figures/B14/B14_0_memory_profiles.png)
+
+![BIG-B15 boundary-history density response](figures/B15/B15_3_boundary_history_density_response_curves.png)
+
+**Main idea:** History becomes an explicit state variable that can be written, relaxed, partitioned, propagated, and represented through reduced state-update operators.
+
+**Main entries:** [B14](papers/B14_boundary_history) · [B15](papers/B15_operator_representation)
+
+---
+
+## BIG-B16--B18: From retained history to readable history
+
+![BIG-B16 response versus retained load](figures/B16/B16_5_response_vs_retained_load_robustness.png)
+
+![BIG-B17 read branches](figures/B17/B17_4_read_branches_advected_memory_n5.png)
+
+![BIG-B18 stored-to-readable history flow](figures/B18/B18_4_stored_to_readable_history_flow.png)
+
+**Main idea:** Retaining a history field is not sufficient for later response. B17 separates stored from locally readable history, and B18 extends this to boundary-dependent, path-integrated interface/core exposure.
+
+```text
+stored history
+    -> locally readable history
+    -> path / interface-core exposure
+    -> later response
+```
+
+**Main entries:** [B16](papers/B16_memory_bearing_free_boundaries) · [B17](papers/B17_readable_history) · [B18](papers/B18_boundary_readout_operators)
+
+---
+
+## BIG-B19--B20: Boundary-core channels and response geometry
+
+![BIG-B19 channel-class retention](figures/B19/B19_16_class_retention_fraction.png)
+
+**Main idea:** B19 finds direction-dependent boundary-core channel organization in finite synthetic divergence-free vorticity families. B20 then defines a finite-window response function
+
+$
+F_T(P)=Z[U_T(P)]-Z[P]
+$
+
+and studies its zero set $\mathcal{B}_T$ as an operator-generated response boundary in parameter space.
+
+B20.6 prospectively scanned frozen parameter-space trajectories. In the archived scan, one trajectory (d03) produced a sign-changing bracket over $s\in[1.875,2.0]$, which was subsequently refined by a frozen bisection procedure. This is evidence for a crossing in that tested trajectory, not evidence for a universal separatrix or a Navier--Stokes singularity criterion.
+
+**Main entries:** [B19](papers/B19_boundary_core_channels) · [B20](papers/B20_response_boundaries)
+
+---
+
 ## Development path
 
 The current BIG development can be read as a sequence of increasingly coupled boundary questions:
