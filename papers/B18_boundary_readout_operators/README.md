@@ -23,6 +23,12 @@ The resulting operator-level statement is:
 
 > Retained history becomes dynamically effective after projection through a boundary-dependent readout operator.
 
+## Representative figure
+
+![Stored to readable history flow](../../figures/B18/B18_4_stored_to_readable_history_flow.png)
+
+*B18 summary diagnostic: stored history becomes dynamically effective only after boundary-dependent readout, motivating the progression from retained trace to readable/path-exposed history.*
+
 ## Scope
 
 The front-and-trace model is reduced and exploratory. It is not calibrated to a particular chemical, biological, neural, or material system.
