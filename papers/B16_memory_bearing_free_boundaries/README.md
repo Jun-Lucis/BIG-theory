@@ -1,5 +1,9 @@
 # BIG-B16 — Memory-Bearing Free Boundaries
 
+
+> 🇯🇵 **日本語要約**  
+> B16では、履歴場 $m(x,t)$ を動く自由境界に直接結合し、「過去の局在刺激が後の境界応答を変えられるか」を数値的に検査します。履歴を保持する条件と消去する条件、刺激位置、境界移動、フィードバックの有無を比較し、保持された履歴が後の局所応答に影響する構造を確認しました。これにより履歴は単なる記録ではなく、後の境界運動へ戻る内部状態変数になります。
+
 ## Purpose
 
 BIG-B16 couples a moving free-boundary field to a history field.
