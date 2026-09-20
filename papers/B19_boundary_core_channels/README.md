@@ -8,6 +8,12 @@ The integrated result does not support a single ray-independent scalar threshold
 
 Later B19 work also shows that the finite-time response zero contour depends on the observation window, so it should not be treated as a fixed universal separator.
 
+## Representative figure
+
+![Boundary-core channel class retention](../../figures/B19/B19_16_class_retention_fraction.png)
+
+*Local-neighborhood robustness diagnostic for the B19 boundary-core channel classes. Class retention is a finite synthetic-family result, not a universal Navier--Stokes classification.*
+
 ## Scope
 
 B19 is a reduced numerical diagnostic on synthetic divergence-free vorticity fields. It does **not** prove Navier--Stokes blow-up or regularity.
