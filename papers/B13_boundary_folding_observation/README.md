@@ -1,5 +1,9 @@
 # BIG-B13 — Boundary Folding as a Reduced Model of Observation and Self-Measurement
 
+
+> 🇯🇵 **日本語要約**  
+> B13では、境界を介した観測者との結合が hidden-depth 状態の選択にどう影響するかを縮約モデルで調べます。基準モデルではBorn-like参照曲線との差が大きい一方、有限ノイズや観測者結合を含む条件では参照曲線に近づく領域が確認され、状態選択が境界結合・ノイズ・内部状態に依存して変化することを示しました。これは量子測定やBorn則の導出ではなく、境界を介した状態選択機構のモデルレベル検査です。
+
 ## Purpose
 
 BIG-B13 introduces a reduced observer--system interaction in which boundary overlap couples hidden-depth states and changes state selection.
