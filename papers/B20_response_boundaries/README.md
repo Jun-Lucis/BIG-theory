@@ -26,7 +26,17 @@ This result is local and finite-window. It is not a physical-space normal, a ful
 
 ## Prospective crossing geometry
 
-B20.6 moves from unseen local directional derivatives to finite-distance zero-crossing prediction under a frozen prospective protocol. The integrated Zenodo publication should be used as the canonical source for the final evidential interpretation of that stage.
+B20.6 moves from unseen local directional derivatives to finite-distance zero-crossing prediction under a frozen prospective protocol.
+
+In the archived coarse scan, trajectory `d03` is the only trajectory among the displayed d01--d06 scan set to show a sign change inside the frozen scan interval, with
+
+$
+F(1.875)=0.0155945,\qquad F(2.0)=-0.000831606.
+$
+
+The frozen refinement then narrows this crossing bracket through six bisection iterations; the final displayed refinement step evaluates $s=1.994140625$ with $F\approx-6.21\times10^{-5}$. These numbers document one tested finite-distance crossing. They do not by themselves establish a general crossing law or universal separatrix.
+
+The integrated Zenodo publication remains the canonical source for the final evidential interpretation of B20.6.
 
 ## Scope
 
