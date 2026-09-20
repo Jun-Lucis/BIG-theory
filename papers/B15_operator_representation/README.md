@@ -1,5 +1,9 @@
 # BIG-B15 — Observation Traces and Boundary History
 
+
+> 🇯🇵 **日本語要約**  
+> B15では、B13/B13.1の状態選択とB14の境界履歴を、共通の演算子表現で接続します。hidden-depth の有限な状態群を density-like mixture として表し、履歴の絶対量と正規化された状態構成を分離して扱うことで、線形・アフィン・非線形・状態依存の更新写像を同じ枠組みで比較できるようにしました。これは量子状態そのものを主張するものではなく、観測痕跡と履歴更新を整理する数学的表現です。
+
 ## Purpose
 
 BIG-B15 provides a reduced operator representation connecting B13/B13.1 observation traces with B14 boundary history.
