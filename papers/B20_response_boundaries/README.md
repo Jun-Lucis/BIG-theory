@@ -22,9 +22,13 @@ $$
 
 Here the boundary is a zero set in parameter space. It is generated jointly by the finite-time evolution operator $U_T$ and the readout $Z$.
 
+## Boundary accessibility
+
+B20.4 uses frozen Family C over four parameter-space rays and six observation horizons. Stage A contains 408 response rows across 24 ray-horizon cells, and 19 strict brackets are refined under one frozen rule. The predeclared family-specific audit is **PASS**: accessibility is direction-dependent, gap-to-zero alone does not determine acquisition of the zero set inside the tested path domain, and multiple crossings in some cells prevent a general single-valued representation $\epsilon_B(T)$.
+
 ## Local response geometry
 
-B20.5 reconstructs local response gradients within a predeclared normalized four-dimensional Family-C subspace. In the primary prospective test, directional-derivative signs agreed in 24/24 cases, with no sign contradictions.
+B20.5 reconstructs local response gradients within a predeclared normalized four-dimensional Family-C subspace. At four zero-bracket midpoints, gradients reconstructed at $h=1/32$ and $h=1/64$ have cross-scale normal angles of approximately $0.0018$--$0.0027$ degrees and gradient-norm ratios essentially equal to one. In the primary prospective test, directional-derivative signs agree in 24/24 comparisons; the median relative derivative error is about $2.79\times10^{-5}$ and the maximum about $1.90\times10^{-4}$. A secondary raw-$F$ sign test agrees in 47/48 points, with the lone disagreement near zero while its primary directional-derivative prediction remains correct. Under the frozen qualitative rule, B20.5 is **PASS**.
 
 This result is local and finite-window. It is not a physical-space normal, a full seven-dimensional intrinsic gradient, an invariant manifold, or a universal Navier--Stokes separatrix.
 
