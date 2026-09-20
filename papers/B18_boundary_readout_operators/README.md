@@ -23,6 +23,12 @@ $$
 
 In the B17 positive-feedback regime, this readout reduces approximately to a read-start local load. In the B18 reaction-diffusion-inspired inhibitory front model, later front suppression is better organized by path-integrated interface-core / threshold-gated trace exposure than by read-start local trace or global trace mass.
 
+The B18 diagnostics therefore suggest the operational hierarchy
+
+> stored history → local readable history → path readable history → interface-core path exposure.
+
+For a representative condition ($\alpha=0.01$, $\kappa=6$, rest delay $=1$, read width $=0.35$, read duration $=3.2$), the raw threshold-gated path exposure and suppression response increase together across the reported protocols; for example, front-anchored writing changes from $(E_{\mathrm{path}}^{G0.15},\Delta R_{\mathrm{supp}})=(1.119,0.909)$ at one write to $(1.755,1.325)$ at three writes. These are representative model values rather than universal coefficients.
+
 The resulting operator-level statement is:
 
 > Retained history becomes dynamically effective after projection through a boundary-dependent readout operator.
