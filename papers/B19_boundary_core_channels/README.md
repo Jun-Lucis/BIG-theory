@@ -8,7 +8,13 @@
 
 BIG-B19 studies synthetic divergence-free three-dimensional vorticity fields using boundary-core concentration, Biot--Savart strain, signed strain alignment, finite-window dynamics, and enstrophy-balance diagnostics.
 
-The integrated result does not support a single ray-independent scalar threshold. Instead, the diagnostics identify direction-dependent upstream boundary-core channel families that feed a common downstream production-versus-dissipation / total-balance organization.
+The integrated B19 study combines a reduced shrinking-core scaling model with synthetic divergence-free vorticity fields, periodic Biot--Savart strain readout, signed strain--vorticity alignment, high-vorticity gates, short-time viscous evolution, numerical robustness controls, local perturbations, and directional continuation.
+
+Under the stated stretching-versus-leakage assumptions, the reduced scaling model identifies an energy-compatible concentration window with a critical thickness exponent $s^*=5/4$. In the dynamical experiments, local positive stretching and coherent signed gate-local openness are insufficient by themselves for positive finite-window enstrophy growth. Growth and decay are instead organized by the evolving competition between stretching production and viscous dissipation, including delayed activation.
+
+Local-neighborhood tests show heterogeneous robustness across boundary-core channel classes. Controlled continuation around a fragile late-delayed channel resolves three directional local growth--decay boundaries. Reduction tests using 21 single observables and eight predeclared two-coordinate portraits do not yield a robust ray-independent upstream reduction. Mechanism comparison instead supports a channel-family interpretation: distinct direction-dependent upstream boundary-core pathways can feed into a common downstream finite-window production-versus-dissipation organization.
+
+The principal integrated result is therefore not a universal boundary threshold, but a reproducible boundary-core channel-family structure within the tested numerical construction.
 
 The B19 follow-up studies the finite-window response surface
 `F_ray(T,epsilon)=Delta Z(T,epsilon;ray)` and treats the growth/decay boundary as its derived zero set.
@@ -25,7 +31,7 @@ A predeclared cone-inspired coordinate motivated by the 2026 OpenAI forced Navie
 
 ## Scope
 
-B19 is a reduced numerical diagnostic on finite synthetic divergence-free vorticity fields. It does **not** establish Navier--Stokes finite-time blow-up, a regularity or singularity criterion, a universal invariant manifold, a universal separatrix, or reproduction/validation of the OpenAI theorem.
+B19 is limited to the stated reduced model and constructed synthetic divergence-free vorticity families. It does **not** establish finite-time Navier--Stokes blow-up, a singularity criterion, a regularity criterion, a global invariant separatrix, a universal invariant manifold, a universal separatrix, or reproduction/validation of the OpenAI theorem.
 
 ## Publications
 
