@@ -1,5 +1,9 @@
 # BIG-B19 — Boundary-Core Channel Diagnostics
 
+
+> 🇯🇵 **日本語要約**  
+> B19では、合成した発散ゼロ3次元渦度場について、boundary-core量、Biot--Savart strain、符号付きstrain alignment、production/dissipation balanceを同時に調べます。単一のray-independentなスカラーしきい値への崩壊は得られず、代わりに方向依存の上流boundary-core channel群が、下流のproduction-versus-dissipation / total-balance構造へ接続するという整理が得られました。これは有限の合成場に対する診断結果であり、Navier--Stokes正則性問題の証明ではありません。
+
 ## Purpose
 
 BIG-B19 studies synthetic divergence-free three-dimensional vorticity fields using boundary-core concentration, Biot--Savart strain, signed strain alignment, finite-window dynamics, and enstrophy-balance diagnostics.
