@@ -17,6 +17,15 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B10    | Finite-noise sustained capture                            | Stochastic-resonance-like boundary capture         |
 | B11    | Post-capture hidden-depth inheritance                     | Non-assimilative post-fusion memory retention      |
 | B12    | Unified boundary dynamics                                 | Reduced integration of B9, B10, and B11            |
+| B13    | Boundary folding and observation-like state selection      | Reduced observation / self-measurement model        |
+| B13.1  | Rotated-basis observation and empirical selection kernel   | Basis-dependent selection diagnostics               |
+| B14    | Boundary history and lineage-level persistence              | Writing, fusion, division, and trace retention      |
+| B15    | Observation traces and boundary history                     | Operator representation of history-dependent update |
+| B16    | Memory-bearing free boundaries                              | History as an internal state affecting later response |
+| B17    | Stored history versus readable history                      | Moving-boundary-frame readability                   |
+| B18    | Boundary readout operators                                  | Interface-core path exposure                        |
+| B19    | Boundary-core channel diagnostics                           | Direction-dependent upstream channel families       |
+| B20    | Finite-window response boundaries                           | Operator-generated response geometry in parameter space |
 
 ---
 
@@ -32,6 +41,12 @@ boundary formation
     -> finite-noise capture
     -> post-capture inheritance
     -> unified cross-sector boundary dynamics
+    -> observation-like boundary folding
+    -> boundary history and operator representation
+    -> memory-bearing moving boundaries
+    -> boundary-dependent readout
+    -> boundary-core channel families
+    -> operator-generated finite-time response boundaries
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -265,7 +280,141 @@ BIG-B12 is a reduced variational-stochastic model. It is not a completed physica
 B12 integrates the B9/B10/B11 motifs into a single reduced boundary-dynamical language.
 
 **Record / DOI:**
-DOI to be added after Zenodo publication.
+https://doi.org/10.5281/zenodo.20872005
+
+
+---
+
+### B13: Boundary folding as a reduced model of observation and self-measurement
+
+**Theme:** Observation-like interaction as boundary folding and hidden-depth state selection.
+
+B13 studies a reduced observer--system interaction in which boundary overlap couples hidden-depth states and changes basin selection. The numerical comparison includes Born-like reference curves, but the model does **not** derive quantum measurement, the Born rule, uncertainty, consciousness, or AI perception.
+
+**Record / DOI:**  
+https://doi.org/10.5281/zenodo.21072783
+
+---
+
+### B13.1: Rotated-basis observation and the empirical BIG selection kernel
+
+**Theme:** Extension of B13 to rotated-basis observation and an empirical state-selection kernel.
+
+**Record / DOI:**  
+https://doi.org/10.5281/zenodo.21108338
+
+---
+
+### B14: Boundary history and lineage-level persistence
+
+**Theme:** Explicit boundary-history fields and reduced operators for writing, forgetting, fusion, division, and multi-generation trace retention.
+
+B14 introduces an explicit history field on the boundary and tests whether localized traces can survive transformation at a lineage level. It is a reduced operator model, not a quantitative model of biological heredity, fertilization, or cell division.
+
+**Record / DOI:**  
+https://doi.org/10.5281/zenodo.21144373
+
+---
+
+### B15: Observation traces and boundary history
+
+**Theme:** A reduced operator representation connecting B13/B13.1 observation traces with B14 boundary history.
+
+B15 distinguishes normalized density-like history representation from absolute history amplitude and classifies update maps as linear, affine, nonlinear, or state-dependent. The Hilbert-like notation is representational; it is not a derivation of quantum mechanics.
+
+**Record / DOI:**  
+https://doi.org/10.5281/zenodo.21173333
+
+---
+
+### Layered Mathematical Framework
+
+A consolidation paper organizes BIG as a **layered family of models**, rather than one universal equation. It connects boundary formation, landing, global stability, shape/topology transition, capture, state selection, and boundary history while auditing results through B15.
+
+**Zenodo record:**  
+https://zenodo.org/records/22161614
+
+---
+
+### B16: Memory-bearing free boundaries
+
+**Theme:** Coupling a moving free-boundary field to an internal history field.
+
+The key structural test is whether a past localized stimulus can be retained and alter a later local response when feedback coupling is present. The model is reduced and exploratory, not a calibrated biological-memory model.
+
+**Zenodo record:**  
+https://zenodo.org/records/22660005
+
+---
+
+### B17: Stored history versus readable history
+
+**Theme:** Retention alone is not sufficient; history must remain readable from the current moving-boundary frame.
+
+B17 distinguishes global stored history from the locally sampleable history that can affect a later response. Boundary-anchored and laboratory-fixed writing provide controls for this distinction.
+
+**Zenodo record:**  
+https://zenodo.org/records/22677581
+
+---
+
+### B18: Boundary readout operators in Boundary Information Geometry
+
+**Theme:** From read-start local history to interface-core path exposure.
+
+A representative readout has the form
+
+$
+\mathcal{L}_{\mathrm{read}}
+=
+\int_{t_0}^{t_1}\lambda(t)
+\int m(x,t)W(x;R(t))G_\Sigma[\Phi](x,t)\,dx\,dt.
+$
+
+Across the reduced front-and-trace diagnostics, path-integrated threshold/interface-core exposure organizes later response better than global trace mass or read-start local load alone. The result is an operator-level statement: retained history becomes dynamically effective after projection through a boundary-dependent readout operator.
+
+**Zenodo record:**  
+https://zenodo.org/records/22690970
+
+---
+
+### B19: Boundary-core channel diagnostics
+
+**Theme:** Boundary-core, Biot--Savart strain, signed alignment, and finite-window enstrophy-balance diagnostics in synthetic divergence-free 3D vorticity fields.
+
+The integrated B19 result does not support a single ray-independent scalar threshold. Instead, the numerical diagnostics identify direction-dependent upstream boundary-core channel families feeding a common downstream production-versus-dissipation / total-balance organization.
+
+This is a reduced finite-window numerical diagnostic. It does **not** prove Navier--Stokes blow-up or regularity.
+
+**Integrated Zenodo record:**  
+https://zenodo.org/records/22726848
+
+**Finite-time response follow-up:**  
+https://zenodo.org/records/22769513
+
+---
+
+### B20: Operator-generated finite-window response boundaries
+
+**Theme:** Response boundaries generated by finite-time evolution and a chosen readout.
+
+B20 uses
+
+$
+F_T(P)=Z[U_T(P)]-Z[P],
+\qquad
+\mathcal{B}_T=\{P:F_T(P)=0\},
+$
+
+so the relevant boundary need not be a physical membrane or free boundary: it can be a zero set in parameter space generated by the evolution operator and readout.
+
+B20.5 reconstructed local response gradients within a predeclared normalized four-dimensional subspace. The primary prospective directional-derivative test gave 24/24 sign agreement in the tested finite synthetic family. This is a local finite-window result, not a full parameter-space gradient, invariant manifold, universal Navier--Stokes separatrix, or regularity/singularity theorem.
+
+B20.6 then moved to prospective finite-distance crossing prediction under a frozen protocol. Its evidential status should be kept separate from the B20.5 local-gradient result; the integrated publication record is the canonical source for the final interpretation.
+
+**Zenodo record:**  
+https://zenodo.org/records/22846729
+
 
 ---
 
@@ -286,7 +435,7 @@ Examples:
 BIG-B9  -> cite the B9 Zenodo DOI
 BIG-B10 -> cite the B10 Zenodo DOI
 BIG-B11 -> cite the B11 Zenodo DOI
-BIG-B12 -> cite the B12 Zenodo DOI once assigned
+BIG-B12 -> cite the B12 Zenodo DOI
 ```
 
 ---
@@ -309,11 +458,9 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 ## Future updates
 
-Planned updates include:
+Planned repository work now focuses on:
 
-* adding final DOI information for B12,
-* adding direct links to Zenodo records,
-* adding lightweight summary CSVs,
-* separating raw data archives from GitHub-hosted summaries,
-* adding per-series README files,
-* and clarifying which materials are conceptual, numerical, or speculative.
+* lightweight per-series landing pages for B13--B20,
+* representative figures and compact summary data where useful,
+* reproducibility links to the corresponding Zenodo archives,
+* and continued separation of model-level results from domain-specific interpretation.
