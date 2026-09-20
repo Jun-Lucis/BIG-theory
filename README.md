@@ -376,12 +376,28 @@ BIG-theory/
 │   ├── B9_fission_like_metastability/
 │   ├── B10_finite_noise_capture/
 │   ├── B11_hidden_depth_inheritance/
-│   └── B12_unified_boundary_dynamics/
+│   ├── B12_unified_boundary_dynamics/
+│   ├── B13_boundary_folding_observation/
+│   ├── B13_1_rotated_basis_observation/
+│   ├── B14_boundary_history/
+│   ├── B15_operator_representation/
+│   ├── B16_memory_bearing_free_boundaries/
+│   ├── B17_readable_history/
+│   ├── B18_boundary_readout_operators/
+│   ├── B19_boundary_core_channels/
+│   └── B20_response_boundaries/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
 │   ├── B11/
-│   └── B12/
+│   ├── B12/
+│   ├── B13/
+│   ├── B14/
+│   ├── B15/
+│   ├── B16/
+│   ├── B17/
+│   ├── B18/
+│   └── B19/
 ├── data/
 └── code/
 ```
