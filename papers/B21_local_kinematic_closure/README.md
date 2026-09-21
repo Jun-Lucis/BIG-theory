@@ -27,13 +27,9 @@ $$
 
 and tests, along a tracked boundary point $P_B(T)$,
 
-$$
-\frac{Dg}{dT}
-=
-\partial_T g
-+
-H_S\dot P_B,
-$$
+$
+\frac{Dg}{dT}=\partial_T g+H_S\dot P_B.
+$
 
 where $H_S$ is the subspace Hessian of $F_T$.
 
