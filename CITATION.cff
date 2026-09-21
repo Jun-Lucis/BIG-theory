@@ -1,14 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this repository, please cite it as below and cite the relevant Zenodo record for specific B-series results."
+title: "Boundary Information Geometry (BIG)"
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "BIG-theory"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2026-06-12
+  - family-names: "Lucis"
+    given-names: "Jun"
+repository-code: "https://github.com/Jun-Lucis/BIG-theory"
 url: "https://github.com/Jun-Lucis/BIG-theory"
