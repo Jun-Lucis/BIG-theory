@@ -124,7 +124,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 
 | Series | Main role | Main entry |
 | --- | --- | --- |
-| B3--B4 | Compact-support-like boundary layers and quadratic landing | [papers/BIG-B3](papers/BIG-B3) |
+| B3--B4 | Compact-support-like boundary layers and quadratic landing | [B3.1](papers/BIG-B3.1) · [B4.1](papers/BIG-B4.1) · [B4.3](papers/BIG-B4.3) |
 | B7 | Persistence of free-boundary exponent near runaway transition | [papers/B7_boundary_exponent](papers/B7_boundary_exponent) |
 | B8 | Boundary anisotropy and finite-time separatrix thresholds | [papers/B8_finite_time_separatrix](papers/B8_finite_time_separatrix) |
 | B9 | Fission-like metastability from boundary cost versus nonlocal repulsion | [papers/B9_fission_like_metastability](papers/B9_fission_like_metastability) |
@@ -428,7 +428,7 @@ Current entries include:
 
 ## Repository structure
 
-Current intended organization:
+Target organization:
 
 ```text
 BIG-theory/
