@@ -120,6 +120,18 @@ Recommended figures:
 
 ---
 
+### B21
+
+Representative figures:
+
+1. `figure_02_boundary_track.png` — tracked local response-boundary branch
+2. `figure_04_residual_audit.png` — residual and uncertainty audit
+3. `figure_05_e12_closure.png` — frozen prospective E12 closure test
+
+These are orientation figures only. The full-resolution set, numerical tables, and reproducibility package are archived at https://doi.org/10.5281/zenodo.22876813.
+
+---
+
 ## Captions
 
 Each figure should ideally have a caption in the corresponding paper-folder README.

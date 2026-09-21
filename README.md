@@ -70,7 +70,7 @@ A boundary must be strong enough to preserve distinction, but not so closed that
 * reorganize under stress,
 * and sometimes preserve memory through transformation.
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, and finite-time response geometry.
+This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, and local kinematic closure of moving response boundaries.
 
 ---
 
@@ -140,6 +140,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B18 | Boundary-dependent readout and interface-core path exposure | [papers/B18_boundary_readout_operators](papers/B18_boundary_readout_operators) |
 | B19 | Direction-dependent boundary-core channel diagnostics | [papers/B19_boundary_core_channels](papers/B19_boundary_core_channels) |
 | B20 | Operator-generated finite-window response boundaries | [papers/B20_response_boundaries](papers/B20_response_boundaries) |
+| B21 | Local kinematic closure of moving response boundaries | [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -256,7 +257,7 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 ---
 
 
-# Visual guide to B13--B20
+# Visual guide to B13--B21
 
 The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
 
@@ -323,6 +324,26 @@ B20.6 prospectively scanned frozen parameter-space trajectories. In the archived
 
 ---
 
+## BIG-B21: Local kinematic closure
+
+![BIG-B21 frozen E12 closure audit](figures/B21/figure_05_e12_closure.png)
+
+**Main idea:** B21 follows the motion of the B20 response boundary in the exact normalized four-dimensional B20.5 subspace. For the subspace response gradient $g=\nabla_S F_T$, it tests the local kinematic identity
+
+$
+\frac{Dg}{dT}=\partial_T g+H_S\dot P_B.
+$
+
+In the frozen terminal E12 test on the synthetic Family-C `r10` branch, the closure residual is **0.1242154%**, below the first-order root-bracket bound of **0.2174844%**, and the prediction--observation angle is **0.0698935 degrees**. No reproducible residual requiring an additional effective boundary-dynamical term was resolved.
+
+B21 does not repair or upgrade the B20.6 finite-distance result: B20.6 remains **INCONCLUSIVE** because only one informative crossing was available.
+
+**Main entry:** [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure)
+
+**Scope:** This is a local numerical closure test in one exact normalized synthetic subspace. It is not a new equation of motion, a continuum Hessian-existence theorem, an invariant-manifold result, a physical-space boundary law, a universal separatrix, or a Navier--Stokes blow-up/regularity claim.
+
+---
+
 ## Development path
 
 The current BIG development can be read as a sequence of increasingly coupled boundary questions:
@@ -341,6 +362,7 @@ boundary formation
     -> boundary-dependent readout
     -> boundary-core channel families
     -> operator-generated finite-time response boundaries
+    -> local kinematic closure of moving response geometry
 ```
 
 This path is not a claim that all domains share the same physics.
@@ -360,7 +382,8 @@ In particular:
 * BIG-B12 is not a completed physical unification theory.
 * BIG-B13--B15 do not derive quantum mechanics, the Born rule, consciousness, or biological heredity.
 * BIG-B16--B18 are reduced history/readout models, not calibrated models of biological, neural, chemical, or material memory.
-* BIG-B19--B20 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
+* BIG-B19--B21 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
+* BIG-B21 tests a local finite-dimensional kinematic identity; it does not establish continuum Hessian existence, an invariant manifold, a physical-space boundary law, or a new equation of motion.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -423,6 +446,7 @@ Current entries include:
 | B19 | Boundary-core channel diagnostics | https://zenodo.org/records/22726848 |
 | B19 follow-up | Finite-time response-boundary diagnostics | https://zenodo.org/records/22769513 |
 | B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
+| B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 
 ---
 
@@ -453,7 +477,8 @@ BIG-theory/
 │   ├── B17_readable_history/
 │   ├── B18_boundary_readout_operators/
 │   ├── B19_boundary_core_channels/
-│   └── B20_response_boundaries/
+│   ├── B20_response_boundaries/
+│   └── B21_local_kinematic_closure/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
@@ -465,7 +490,8 @@ BIG-theory/
 │   ├── B16/
 │   ├── B17/
 │   ├── B18/
-│   └── B19/
+│   ├── B19/
+│   └── B21/
 ├── data/
 └── code/
 ```

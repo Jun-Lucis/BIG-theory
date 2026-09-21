@@ -421,6 +421,42 @@ B20 uses this idea to extend the BIG vocabulary from boundaries represented dire
 
 ---
 
+## Response gradient
+
+The **response gradient** in B21 is
+
+$
+g(T,P)=\nabla_S F_T(P),
+$
+
+where the gradient is taken only in the exact normalized four-dimensional B20.5 subspace $S$. It is not a full intrinsic gradient in the unrestricted parameter space.
+
+---
+
+## Hessian-vector transport
+
+**Hessian-vector transport** refers to the term $H_S\dot P_B$, which describes the change in the local response gradient caused by motion of the boundary point through parameter space. Here $H_S$ is the finite-dimensional subspace Hessian.
+
+---
+
+## Local kinematic closure
+
+**Local kinematic closure** means that the observed transport of the response gradient along a tracked boundary branch is explained, within numerical uncertainty, by
+
+$
+\frac{Dg}{dT}=\partial_T g+H_S\dot P_B.
+$
+
+In B21 this is a tested local identity in one finite synthetic family and one exact normalized subspace. It is not a new equation of motion or a continuum existence theorem.
+
+---
+
+## Frozen prospective test
+
+A **frozen prospective test** fixes its branch, time points, differencing/refinement choices, pass criteria, and stopping rule before evaluating the terminal result. B21 uses this separation to distinguish the exploratory E1--E11 diagnostics from the terminal E12 closure test.
+
+---
+
 ## Recommended usage
 
 Preferred wording:
@@ -491,3 +527,7 @@ Wording to avoid unless explicitly qualified:
 | finite-window response function | 有限時間窓応答関数 |
 | response boundary | 応答境界 |
 | operator-generated boundary | 演算子生成境界 |
+| response gradient | 応答勾配 |
+| Hessian-vector transport | Hessian–ベクトル輸送 |
+| local kinematic closure | 局所運動学的閉包 |
+| frozen prospective test | 凍結した前向き試験 |

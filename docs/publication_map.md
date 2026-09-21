@@ -26,6 +26,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B18    | Boundary readout operators                                  | Interface-core path exposure                        |
 | B19    | Boundary-core channel diagnostics                           | Direction-dependent upstream channel families       |
 | B20    | Finite-window response boundaries                           | Operator-generated response geometry in parameter space |
+| B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
 
 ---
 
@@ -47,6 +48,7 @@ boundary formation
     -> boundary-dependent readout
     -> boundary-core channel families
     -> operator-generated finite-time response boundaries
+    -> local kinematic closure of moving response geometry
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -418,6 +420,27 @@ https://zenodo.org/records/22846729
 
 ---
 
+### B21: Local kinematic closure of operator-generated response boundaries
+
+**Theme:** Direct Hessian transport and prospective time refinement along a resolved moving response-boundary branch.
+
+B21 remains in the exact normalized four-dimensional B20.5 subspace and follows the synthetic Family-C `r10` branch. For $g=\nabla_S F_T$, it tests the local identity
+
+$
+\frac{Dg}{dT}=\partial_T g+H_S\dot P_B.
+$
+
+In the prospectively frozen E12 test, the closure residual is **0.1242154%**, below the first-order root-bracket bound of **0.2174844%**; the prediction--observation angle is **0.0698935 degrees**. At the tested resolution, no reproducible residual requiring an additional effective boundary-dynamical term was resolved.
+
+This is a local finite-dimensional numerical closure result. It is not a new equation of motion, a continuum Hessian-existence theorem, an invariant manifold, a physical-space boundary law, a universal separatrix, or a Navier--Stokes blow-up/regularity result. B20.6 remains **INCONCLUSIVE** and is not upgraded by B21.
+
+**Zenodo record and DOI:**  
+https://doi.org/10.5281/zenodo.22876813
+
+The English preprint is authoritative; the same record includes a Japanese reference translation.
+
+---
+
 ## Suggested citation policy
 
 For general discussion of the BIG research programme, cite the GitHub repository:
@@ -460,7 +483,7 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 Planned repository work now focuses on:
 
-* lightweight per-series landing pages for B13--B20,
+* lightweight per-series landing pages for B13--B21,
 * representative figures and compact summary data where useful,
 * reproducibility links to the corresponding Zenodo archives,
 * and continued separation of model-level results from domain-specific interpretation.
