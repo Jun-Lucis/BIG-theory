@@ -206,9 +206,9 @@ These models are not calibrated theories of biological, neural, chemical, or mat
 
 ---
 
-## 7C. B19--B21 scope: synthetic vorticity and response geometry
+## 7C. B19--B22 scope: synthetic vorticity and response geometry
 
-B19, B20, and B21 use finite synthetic divergence-free three-dimensional vorticity families and finite observation windows.
+B19, B20, B21, and B22 use finite synthetic divergence-free three-dimensional vorticity families and finite observation windows.
 
 B19's boundary-core diagnostics, signed strain-alignment gates, and total-balance channels do not constitute a Navier--Stokes blow-up criterion or regularity proof.
 
@@ -230,7 +230,9 @@ B20.5's reconstructed response-boundary normal is restricted to the tested norma
 
 B21 tests the local kinematic identity $Dg/dT=\partial_Tg+H_S\dot P_B$ on one resolved Family-C branch in that exact normalized subspace. Numerical agreement does not establish continuum Hessian existence, a new equation of motion, an invariant manifold, a physical-space boundary law, or a universal separatrix. B21 does not repair the B20.6 evidence count; B20.6 remains **INCONCLUSIVE**.
 
-None of B19--B21 proves Navier--Stokes blow-up, regularity, or singularity formation.
+B22 measures finite-resolution Hessians, shape-operator curvatures, normal rotation, and principal directions in the same normalized subspace. Its E3 and E5 tests freeze predictions before the corresponding future PDE evaluations, but they remain branch-specific finite-resolution numerical tests. E5 begins from the observed T1 state; it is not a T0-only two-step-ahead forecast. Cross-scale agreement does not establish continuum differentiability, a curvature theorem, coordinate-invariant physical geometry, an invariant manifold, or a universal boundary-evolution law. B20.6 remains **INCONCLUSIVE**.
+
+None of B19--B22 proves Navier--Stokes blow-up, regularity, or singularity formation.
 
 ---
 
@@ -318,6 +320,10 @@ For B12:
 For B21:
 
 > BIG-B21 reports local numerical kinematic closure along one resolved synthetic response-boundary branch; it does not derive a new boundary dynamics or a continuum Navier--Stokes theorem.
+
+For B22:
+
+> BIG-B22 reports finite-resolution local geometry and two sequential held-out forecasts on tested synthetic response-boundary branches; it does not establish a universal boundary law, continuum curvature theorem, or Navier--Stokes result.
 
 For the repository as a whole:
 

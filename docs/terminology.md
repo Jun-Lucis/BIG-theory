@@ -453,7 +453,25 @@ In B21 this is a tested local identity in one finite synthetic family and one ex
 
 ## Frozen prospective test
 
-A **frozen prospective test** fixes its branch, time points, differencing/refinement choices, pass criteria, and stopping rule before evaluating the terminal result. B21 uses this separation to distinguish the exploratory E1--E11 diagnostics from the terminal E12 closure test.
+A **frozen prospective test** fixes its branch, time points, differencing/refinement choices, pass criteria, and stopping rule before evaluating the terminal result. B21 uses this separation to distinguish the exploratory E1--E11 diagnostics from the terminal E12 closure test. B22 applies the same principle to the `r09` E3 and E5 stages, freezing each forecast before the corresponding future PDE evaluation.
+
+---
+
+## Finite-resolution local geometry
+
+**Finite-resolution local geometry** means curvature, normal rotation, Hessian, and principal-direction descriptors reconstructed at explicitly tested finite-difference scales in normalized parameter coordinates. Cross-scale agreement supports numerical stability at those scales; it does not prove continuum differentiability or coordinate-invariant physical geometry.
+
+---
+
+## Shape operator and principal modes
+
+For a regular level set with unit normal $n=g/\lVert g\rVert$, B22 projects the normalized Hessian onto the tangent space to obtain a finite-dimensional **shape operator**. Its resolved eigenvalues and eigenvectors are reported as signed principal curvatures and principal directions. Near-degenerate directions are treated as subspace-degenerate rather than individually identified.
+
+---
+
+## Sequential prospective stage
+
+A **sequential prospective stage** makes a new frozen forecast from the latest observed state. B22 E5 predicts T2 from the observed T1 geometry. It is therefore prospective with respect to T2, but it is not a T0-only two-step-ahead forecast.
 
 ---
 
@@ -531,3 +549,7 @@ Wording to avoid unless explicitly qualified:
 | Hessian-vector transport | Hessian–ベクトル輸送 |
 | local kinematic closure | 局所運動学的閉包 |
 | frozen prospective test | 凍結した前向き試験 |
+| finite-resolution local geometry | 有限解像度局所幾何 |
+| shape operator | 形状作用素 |
+| principal curvature / direction | 主曲率 / 主方向 |
+| sequential prospective stage | 逐次前向き段階 |

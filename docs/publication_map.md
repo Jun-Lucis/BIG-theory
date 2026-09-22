@@ -27,6 +27,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B19    | Boundary-core channel diagnostics                           | Direction-dependent upstream channel families       |
 | B20    | Finite-window response boundaries                           | Operator-generated response geometry in parameter space |
 | B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
+| B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
 
 ---
 
@@ -49,6 +50,7 @@ boundary formation
     -> boundary-core channel families
     -> operator-generated finite-time response boundaries
     -> local kinematic closure of moving response geometry
+    -> prospective finite-resolution curvature and normal rotation
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -441,6 +443,23 @@ The English preprint is authoritative; the same record includes a Japanese refer
 
 ---
 
+### B22: Prospective local geometry of operator-generated response boundaries
+
+**Theme:** Finite-resolution Hessian geometry and sequential prospective tests on resolved response-boundary branches.
+
+B22 uses the exact normalized four-dimensional Family-C subspace inherited from B20.5/B21. E1--E2 audit full-Hessian reconstruction, principal curvatures, principal directions, and retrospective normal rotation on `r10`. E3 then freezes the first `r09` root and normal forecast before the held-out T1 PDE calculation. After measuring the observed T1 geometry in E4, E5 freezes a second forecast before the T2 PDE calculation.
+
+The E3 `hess_h2` root error is **0.00488281** and the normal-angle error is **0.21068 degrees**. In E5, the root error is **0.00878906**, the `hess_h2` normal-angle error is **0.37444 degrees**, the Hessian relative error is **0.0085910**, and the maximum resolved principal-direction error is **0.37895 degrees**. All frozen gates passed and the declared stop rule was reached.
+
+These results are finite-resolution and branch-specific. E5 is an observed-T1-to-T2 sequential forecast, not a T0-only two-step-ahead forecast. B22 does not establish a continuum curvature theorem, universal boundary law, invariant manifold, physical-space normal, or Navier--Stokes blow-up/regularity result. B20.6 remains **INCONCLUSIVE**.
+
+**Zenodo record and DOI:**  
+https://doi.org/10.5281/zenodo.22893912
+
+The English preprint is authoritative; the same record includes a Japanese reference translation and the E1--E5 reproducibility release.
+
+---
+
 ## Suggested citation policy
 
 For general discussion of the BIG research programme, cite the GitHub repository:
@@ -459,6 +478,8 @@ BIG-B9  -> cite the B9 Zenodo DOI
 BIG-B10 -> cite the B10 Zenodo DOI
 BIG-B11 -> cite the B11 Zenodo DOI
 BIG-B12 -> cite the B12 Zenodo DOI
+BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
+BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
 ```
 
 ---
@@ -483,7 +504,7 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 Planned repository work now focuses on:
 
-* lightweight per-series landing pages for B13--B21,
+* lightweight per-series landing pages for B13--B22,
 * representative figures and compact summary data where useful,
 * reproducibility links to the corresponding Zenodo archives,
 * and continued separation of model-level results from domain-specific interpretation.

@@ -132,6 +132,18 @@ These are orientation figures only. The full-resolution set, numerical tables, a
 
 ---
 
+### B22
+
+Representative figures:
+
+1. `figure_01_full_hessian_cross_scale.png` — full response-Hessian reconstruction at two finite-difference scales
+2. `figure_02_first_prospective_root.png` — first held-out root prediction and observed T1 root
+3. `figure_03_second_stage_curvature.png` — second-stage predicted and observed principal curvatures
+
+These are orientation figures only. The authoritative English preprint, Japanese reference translation, full-resolution figures, numerical tables, and E1--E5 reproducibility release are archived at https://doi.org/10.5281/zenodo.22893912.
+
+---
+
 ## Captions
 
 Each figure should ideally have a caption in the corresponding paper-folder README.

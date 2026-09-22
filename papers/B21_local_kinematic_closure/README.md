@@ -88,6 +88,10 @@ It does **not** provide:
 
 No B22 claim or experiment is part of B21.
 
+## Next in the series
+
+[BIG-B22](../B22_prospective_local_geometry) separately extends the programme to finite-resolution curvature, normal rotation, principal directions, and sequential held-out forecasts. Its results and DOI are not part of the B21 evidential record.
+
 ## Publication
 
 **Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22876813

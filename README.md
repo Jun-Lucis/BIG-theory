@@ -70,7 +70,7 @@ A boundary must be strong enough to preserve distinction, but not so closed that
 * reorganize under stress,
 * and sometimes preserve memory through transformation.
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, and local kinematic closure of moving response boundaries.
+This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, and prospective finite-resolution geometry of moving response boundaries.
 
 ---
 
@@ -141,6 +141,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B19 | Direction-dependent boundary-core channel diagnostics | [papers/B19_boundary_core_channels](papers/B19_boundary_core_channels) |
 | B20 | Operator-generated finite-window response boundaries | [papers/B20_response_boundaries](papers/B20_response_boundaries) |
 | B21 | Local kinematic closure of moving response boundaries | [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure) |
+| B22 | Prospective finite-resolution geometry of response boundaries | [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -257,7 +258,7 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 ---
 
 
-# Visual guide to B13--B21
+# Visual guide to B13--B22
 
 The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
 
@@ -344,6 +345,20 @@ B21 does not repair or upgrade the B20.6 finite-distance result: B20.6 remains *
 
 ---
 
+## BIG-B22: Prospective local geometry
+
+![BIG-B22 second-stage curvature forecast](figures/B22/figure_03_second_stage_curvature.png)
+
+**Main idea:** B22 extends B21 from first-order local kinematic closure to finite-resolution Hessian, curvature, normal-rotation, and principal-direction measurements. After descriptive calibration on `r10`, two sequential forecasts on the reserved `r09` branch were frozen before the corresponding future PDE evaluations.
+
+The first held-out stage obtained an `hess_h2` root error of **0.00488281** and a normal-angle error of **0.21068 degrees**. The second stage, initialized from the observed T1 state, obtained a root error of **0.00878906**, an `hess_h2` normal-angle error of **0.37444 degrees**, a Hessian relative error of **0.0085910**, and a maximum resolved principal-direction error of **0.37895 degrees**. All frozen gates passed and the declared stop rule was reached.
+
+**Main entry:** [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry)
+
+**Scope:** These are finite-resolution results in tested synthetic branches. E5 is a sequential observed-T1-to-T2 forecast, not a T0-only two-step-ahead forecast. B22 establishes no continuum curvature theorem, universal boundary law, invariant manifold, physical-space normal, or Navier--Stokes blow-up/regularity result. B20.6 remains **INCONCLUSIVE**.
+
+---
+
 ## Development path
 
 The current BIG development can be read as a sequence of increasingly coupled boundary questions:
@@ -363,6 +378,7 @@ boundary formation
     -> boundary-core channel families
     -> operator-generated finite-time response boundaries
     -> local kinematic closure of moving response geometry
+    -> prospective finite-resolution curvature and normal rotation
 ```
 
 This path is not a claim that all domains share the same physics.
@@ -382,8 +398,9 @@ In particular:
 * BIG-B12 is not a completed physical unification theory.
 * BIG-B13--B15 do not derive quantum mechanics, the Born rule, consciousness, or biological heredity.
 * BIG-B16--B18 are reduced history/readout models, not calibrated models of biological, neural, chemical, or material memory.
-* BIG-B19--B21 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
+* BIG-B19--B22 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
 * BIG-B21 tests a local finite-dimensional kinematic identity; it does not establish continuum Hessian existence, an invariant manifold, a physical-space boundary law, or a new equation of motion.
+* BIG-B22 tests finite-resolution local geometry and sequential held-out forecasts; it does not establish a continuum curvature theorem, a universal boundary-evolution law, or a T0-only two-step forecast.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -447,6 +464,7 @@ Current entries include:
 | B19 follow-up | Finite-time response-boundary diagnostics | https://zenodo.org/records/22769513 |
 | B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
+| B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 
 ---
 
@@ -478,7 +496,8 @@ BIG-theory/
 │   ├── B18_boundary_readout_operators/
 │   ├── B19_boundary_core_channels/
 │   ├── B20_response_boundaries/
-│   └── B21_local_kinematic_closure/
+│   ├── B21_local_kinematic_closure/
+│   └── B22_prospective_local_geometry/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
@@ -491,7 +510,8 @@ BIG-theory/
 │   ├── B17/
 │   ├── B18/
 │   ├── B19/
-│   └── B21/
+│   ├── B21/
+│   └── B22/
 ├── data/
 └── code/
 ```
