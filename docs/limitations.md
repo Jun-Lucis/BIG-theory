@@ -206,9 +206,9 @@ These models are not calibrated theories of biological, neural, chemical, or mat
 
 ---
 
-## 7C. B19--B22 scope: synthetic vorticity and response geometry
+## 7C. B19--B23 scope: synthetic vorticity and response geometry
 
-B19, B20, B21, and B22 use finite synthetic divergence-free three-dimensional vorticity families and finite observation windows.
+B19, B20, B21, B22, and B23 use finite synthetic divergence-free three-dimensional vorticity families and finite observation windows.
 
 B19's boundary-core diagnostics, signed strain-alignment gates, and total-balance channels do not constitute a Navier--Stokes blow-up criterion or regularity proof.
 
@@ -232,7 +232,9 @@ B21 tests the local kinematic identity $Dg/dT=\partial_Tg+H_S\dot P_B$ on one re
 
 B22 measures finite-resolution Hessians, shape-operator curvatures, normal rotation, and principal directions in the same normalized subspace. Its E3 and E5 tests freeze predictions before the corresponding future PDE evaluations, but they remain branch-specific finite-resolution numerical tests. E5 begins from the observed T1 state; it is not a T0-only two-step-ahead forecast. Cross-scale agreement does not establish continuum differentiability, a curvature theorem, coordinate-invariant physical geometry, an invariant manifold, or a universal boundary-evolution law. B20.6 remains **INCONCLUSIVE**.
 
-None of B19--B22 proves Navier--Stokes blow-up, regularity, or singularity formation.
+B23 tests whether the B22 short-horizon local geometric construction transfers across four predeclared zero-set branches over three Family-C ray directions. The original aggregate plan remains **INCONCLUSIVE** because its symmetric search-window rule was not executable for two endpoint-near targets. Repaired and corrective runs are reported separately as supplementary evidence and are not retroactively counted as original-plan successes. Favorable finite-resolution root, normal, Hessian, curvature, and principal-direction errors therefore support only short-horizon transfer under the tested conditions; they do not establish a universal evolution law or full-space geometry.
+
+None of B19--B23 proves Navier--Stokes blow-up, regularity, or singularity formation.
 
 ---
 
@@ -324,6 +326,10 @@ For B21:
 For B22:
 
 > BIG-B22 reports finite-resolution local geometry and two sequential held-out forecasts on tested synthetic response-boundary branches; it does not establish a universal boundary law, continuum curvature theorem, or Navier--Stokes result.
+
+For B23:
+
+> BIG-B23 reports short-horizon cross-branch transfer tests of finite-resolution response geometry. Its original aggregate plan remains INCONCLUSIVE, and repaired or corrective runs are reported as supplementary rather than retroactive original-plan successes.
 
 For the repository as a whole:
 

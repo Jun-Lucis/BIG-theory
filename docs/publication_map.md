@@ -28,6 +28,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B20    | Finite-window response boundaries                           | Operator-generated response geometry in parameter space |
 | B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
 | B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
+| B23    | Cross-branch short-horizon geometric prediction               | Transfer of local response geometry across predeclared branches |
 
 ---
 
@@ -51,6 +52,7 @@ boundary formation
     -> operator-generated finite-time response boundaries
     -> local kinematic closure of moving response geometry
     -> prospective finite-resolution curvature and normal rotation
+    -> cross-branch short-horizon geometric prediction
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -460,6 +462,25 @@ The English preprint is authoritative; the same record includes a Japanese refer
 
 ---
 
+### B23: Cross-branch short-horizon geometric prediction of operator-generated response boundaries
+
+**Theme:** Transfer of short-horizon position, normal, Hessian, curvature, and principal-direction prediction across multiple predeclared response-boundary branches.
+
+B23 retains the exact normalized four-dimensional Family-C subspace used in B20.5--B22. Four branches over three ray directions were predeclared for first-stage root/normal transfer. The `r11_high` and `r12_low` branches were also designated as later full-geometry sentinels.
+
+At the primary `hess_h2` scale, the validly evaluated first-stage records had root-midpoint errors between **0.00033604** and **0.00135840**, with normal-angle errors between **0.02484 degrees** and **0.56706 degrees**. The later `r11_high` and `r12_low` tests gave Hessian relative errors of **0.62884%** and **0.36319%**. Their largest assessable principal-curvature relative errors were **0.98327%** and **2.42220%**, respectively.
+
+The original aggregate plan remains **INCONCLUSIVE** because its symmetric prediction-centered search window could not be placed inside the admissible family domain for two endpoint-near targets. The repaired `r12_low` validation and the corrected `r09_high` replication are retained as supplementary evidence and are not retroactively counted as original-plan successes. An earlier `r09_high` repair run was invalidated after a wrong-ray input-generator reference was identified.
+
+B23 is therefore evidence for short-horizon cross-branch transfer under the tested finite conditions, not a universal boundary-motion law. It does not establish continuum convergence, full-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
+
+**Reserved Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22936794
+
+The English preprint is authoritative; the Zenodo release also contains a Japanese reference translation and a compact reproducibility package.
+
+---
+
 ## Suggested citation policy
 
 For general discussion of the BIG research programme, cite the GitHub repository:
@@ -480,6 +501,7 @@ BIG-B11 -> cite the B11 Zenodo DOI
 BIG-B12 -> cite the B12 Zenodo DOI
 BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
 BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
+BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
 ```
 
 ---
@@ -504,7 +526,7 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 Planned repository work now focuses on:
 
-* lightweight per-series landing pages for B13--B22,
+* lightweight per-series landing pages for B13--B23,
 * representative figures and compact summary data where useful,
 * reproducibility links to the corresponding Zenodo archives,
 * and continued separation of model-level results from domain-specific interpretation.

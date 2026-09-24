@@ -70,7 +70,7 @@ A boundary must be strong enough to preserve distinction, but not so closed that
 * reorganize under stress,
 * and sometimes preserve memory through transformation.
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, and prospective finite-resolution geometry of moving response boundaries.
+This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, prospective finite-resolution geometry of moving response boundaries, and cross-branch short-horizon geometric prediction.
 
 ---
 
@@ -142,6 +142,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B20 | Operator-generated finite-window response boundaries | [papers/B20_response_boundaries](papers/B20_response_boundaries) |
 | B21 | Local kinematic closure of moving response boundaries | [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure) |
 | B22 | Prospective finite-resolution geometry of response boundaries | [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry) |
+| B23 | Cross-branch short-horizon geometric prediction | [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -258,7 +259,7 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 ---
 
 
-# Visual guide to B13--B22
+# Visual guide to B13--B23
 
 The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
 
@@ -359,6 +360,22 @@ The first held-out stage obtained an `hess_h2` root error of **0.00488281** and 
 
 ---
 
+## BIG-B23: Cross-branch short-horizon geometric prediction
+
+**Main idea:** B23 tests whether the B22 local geometric forecast transfers to other predeclared zero-set branches within the same exact normalized four-dimensional Family-C subspace. Four branches over three ray directions were examined for short-horizon position and normal prediction; two designated sentinel branches were also tested for next-step Hessian, principal-curvature, and principal-direction prediction.
+
+At the primary `hess_h2` scale, the four validly evaluated first-stage records had root-midpoint errors from **0.00033604** to **0.00135840** and normal-angle errors from **0.02484** to **0.56706 degrees**. In the later full-geometry tests, `r11_high` had Hessian relative error **0.62884%** and `r12_low` had **0.36319%**; the largest assessable principal-curvature relative errors were **0.98327%** and **2.42220%**, respectively.
+
+The original aggregate plan remains **INCONCLUSIVE** because the symmetric prediction-centered search window was not executable for two endpoint-near branches. The repaired `r12_low` test and the corrected `r09_high` replication are reported as supplementary evidence and are not retroactively counted as original-plan successes.
+
+**Main entry:** [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction)
+
+**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22936794
+
+**Scope:** B23 is a finite synthetic, finite-resolution, short-horizon transfer study. It does not establish a universal boundary-motion law, continuum convergence, full-parameter-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
+
+---
+
 ## Development path
 
 The current BIG development can be read as a sequence of increasingly coupled boundary questions:
@@ -379,6 +396,7 @@ boundary formation
     -> operator-generated finite-time response boundaries
     -> local kinematic closure of moving response geometry
     -> prospective finite-resolution curvature and normal rotation
+    -> cross-branch short-horizon geometric prediction
 ```
 
 This path is not a claim that all domains share the same physics.
@@ -398,9 +416,10 @@ In particular:
 * BIG-B12 is not a completed physical unification theory.
 * BIG-B13--B15 do not derive quantum mechanics, the Born rule, consciousness, or biological heredity.
 * BIG-B16--B18 are reduced history/readout models, not calibrated models of biological, neural, chemical, or material memory.
-* BIG-B19--B22 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
+* BIG-B19--B23 use finite synthetic vorticity families and finite observation windows; they do not prove Navier--Stokes blow-up or regularity.
 * BIG-B21 tests a local finite-dimensional kinematic identity; it does not establish continuum Hessian existence, an invariant manifold, a physical-space boundary law, or a new equation of motion.
 * BIG-B22 tests finite-resolution local geometry and sequential held-out forecasts; it does not establish a continuum curvature theorem, a universal boundary-evolution law, or a T0-only two-step forecast.
+* BIG-B23 tests cross-branch short-horizon transfer of finite-resolution response geometry; its original aggregate plan remains INCONCLUSIVE and supplementary repaired/corrected runs are not counted as original-plan successes.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -465,6 +484,7 @@ Current entries include:
 | B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
+| B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
 
 ---
 
@@ -497,7 +517,8 @@ BIG-theory/
 │   ├── B19_boundary_core_channels/
 │   ├── B20_response_boundaries/
 │   ├── B21_local_kinematic_closure/
-│   └── B22_prospective_local_geometry/
+│   ├── B22_prospective_local_geometry/
+│   └── B23_cross_branch_geometric_prediction/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
