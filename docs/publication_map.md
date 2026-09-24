@@ -481,6 +481,19 @@ The English preprint is authoritative; the Zenodo release also contains a Japane
 
 ---
 
+### Programme-level research status after B23
+
+**Title:** *Boundary Information Geometry after B23: Established Model-Level Results, Open Questions, and the Search for a Common Mathematical Core*
+
+This report does not introduce a new simulation dataset. It consolidates B3--B23 into an evidential map that separates results established within tested reduced models from open questions, including the possible existence of a common mathematical universality class and the external validity of BIG structures.
+
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22939024
+
+The English report is authoritative; a Japanese reference translation is deposited in the same record.
+
+---
+
 ## Suggested citation policy
 
 For general discussion of the BIG research programme, cite the GitHub repository:

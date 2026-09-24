@@ -4,6 +4,8 @@
 
 This document is a compact evidential map of the Boundary Information Geometry (BIG) programme through **B23**.
 
+A formal programme-level status note based on this map is archived at **Zenodo DOI: https://doi.org/10.5281/zenodo.22939024**.
+
 The word **established** is used here in a deliberately limited sense. It means that a mathematical construction, numerical pattern, or prospective test has been demonstrated **within the stated reduced model, parameter family, finite resolution, and observation protocol**. It does **not** mean that the same statement has been proved as a universal theorem or validated as a quantitative law of an external physical, biological, cognitive, or technological system.
 
 The central distinction is therefore:

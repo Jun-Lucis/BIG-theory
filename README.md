@@ -67,6 +67,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
 - [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
 
+**Formal status-note DOI:** https://doi.org/10.5281/zenodo.22939024
+
 Current one-sentence status:
 
 > **BIG has established a sequence of reproducible boundary-centered structures in reduced mathematical and numerical models; what remains open is whether these structures belong to a common mathematical universality class, and whether any of them survive as quantitatively valid descriptions of external systems.**
