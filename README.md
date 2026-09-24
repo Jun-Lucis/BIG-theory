@@ -48,6 +48,8 @@ Key overview and reference documents:
 
 * 🇯🇵 **Japanese overview:** [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
 * **Publication map:** [docs/publication_map.md](docs/publication_map.md)
+* **Research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
+* 🇯🇵 **研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
 
@@ -55,6 +57,19 @@ Additional summary notes:
 
 * **B7 to B8 summary:** [docs/B7_to_B8_summary.md](docs/B7_to_B8_summary.md)
 * **B8 anisotropic separatrix summary:** [docs/B8_anisotropic_separatrix_summary.md](docs/B8_anisotropic_separatrix_summary.md)
+
+---
+
+## Current research status
+
+A compact evidence map separating **model-level results** from **open hypotheses** is available here:
+
+- [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
+- [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
+
+Current one-sentence status:
+
+> **BIG has established a sequence of reproducible boundary-centered structures in reduced mathematical and numerical models; what remains open is whether these structures belong to a common mathematical universality class, and whether any of them survive as quantitatively valid descriptions of external systems.**
 
 ---
 
