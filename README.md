@@ -370,7 +370,7 @@ The original aggregate plan remains **INCONCLUSIVE** because the symmetric predi
 
 **Main entry:** [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction)
 
-**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22936794
+**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22936794
 
 **Scope:** B23 is a finite synthetic, finite-resolution, short-horizon transfer study. It does not establish a universal boundary-motion law, continuum convergence, full-parameter-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
 

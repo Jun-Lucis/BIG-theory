@@ -95,7 +95,7 @@ It does **not** establish:
 
 ## Publication
 
-**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22936794
+**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22936794
 
 The English preprint is the authoritative version. The Zenodo release also includes a Japanese reference translation and a compact reproducibility package.
 

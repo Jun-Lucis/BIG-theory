@@ -474,7 +474,7 @@ The original aggregate plan remains **INCONCLUSIVE** because its symmetric predi
 
 B23 is therefore evidence for short-horizon cross-branch transfer under the tested finite conditions, not a universal boundary-motion law. It does not establish continuum convergence, full-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
 
-**Reserved Zenodo DOI:**  
+**Zenodo record and DOI:**  
 https://doi.org/10.5281/zenodo.22936794
 
 The English preprint is authoritative; the Zenodo release also contains a Japanese reference translation and a compact reproducibility package.
