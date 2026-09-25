@@ -238,6 +238,46 @@ None of B19--B23 proves Navier--Stokes blow-up, regularity, or singularity forma
 
 ---
 
+## 7D. B24–B25 scope: cross-sector audit and predictive boundary-functional transfer
+
+B24 tests whether previously developed BIG sectors already share a nontrivial operation-preserving common mathematical core. The B24.2 audit retains the verdict **MULTIPLE_BOUNDARY_CLASSES_INDICATED**. Generic boundary notation, chain-rule identities, and the standard coarea formula are not counted as BIG-specific unifying laws.
+
+B25 begins a new post-audit construction programme rather than regrading B24.2. The first constant-density A-to-B bridge,
+
+$
+J_{\mathrm{pred}}=\sigma_{1D}P_{\mathrm{rep}},
+$
+
+failed its frozen quantitative criteria and remains **AB_CONSTANT_DENSITY_FAIL**.
+
+A retrospective decomposition of the archived B25.1 profiles motivated a level-resolved replacement relation,
+
+$
+J_{\mathrm{LR,pred}}
+=
+\kappa_p\phi_{\max}^{(2D)}
+\int P(r)g_{1D}(r)^{p-1}\,dr.
+$
+
+That relation was frozen before new B25.1b trajectories and prospectively tested on nine new shape/resolution combinations. All nine cases were valid; the maximum relative error was 17.76%, the median relative error was 9.49%, the median error improved by 68.15% relative to the old constant-density comparator, and the frozen fine-resolution stability gates passed. The formal B25.1b verdict is **AB_LEVEL_RESOLVED_BRIDGE_PASS**.
+
+The B25.1b result has an important scope limitation: the held-out two-dimensional target state supplies its measured level-set perimeter family $P(r)$ and peak amplitude $\phi_{\max}$. The transferred quantity is the archived one-dimensional relative-level normal-gradient profile $g_{1D}(r)$. The experiment therefore tests a held-out cross-dimensional constitutive/factorization relation; it does not predict the entire target field from its initial data.
+
+B24–B25 Phase I does **not** establish:
+
+* one universal BIG operator;
+* a programme-wide universality class;
+* continuum convergence or a thin-layer theorem;
+* reduction to a single $\sigma P$ term;
+* derivation of the full B9 model;
+* arbitrary-$p$, arbitrary-source, or multidimensional universality;
+* external physical validity.
+
+Earlier negative and inconclusive verdicts remain unchanged.
+
+
+---
+
 ## 8. Structural comparison versus quantitative prediction
 
 A recurring theme in BIG is that reduced boundary models sometimes resemble known structures in other fields.
@@ -330,6 +370,10 @@ For B22:
 For B23:
 
 > BIG-B23 reports short-horizon cross-branch transfer tests of finite-resolution response geometry. Its original aggregate plan remains INCONCLUSIVE, and repaired or corrective runs are reported as supplementary rather than retroactive original-plan successes.
+
+For B24–B25 Phase I:
+
+> BIG-B24 does not identify one pre-existing universal operator across the audited sectors. BIG-B25 Phase I instead constructs and prospectively tests a level-resolved transfer functional in one canonical p=4 setting; the result does not derive a universal BIG law or the full B9 model.
 
 For the repository as a whole:
 
