@@ -30,6 +30,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
 | B23    | Cross-branch short-horizon geometric prediction               | Transfer of local response geometry across predeclared branches |
 | B24–B25 | Cross-sector audit and boundary-functional transfer            | Failure-guided construction of a prospective transfer map |
+| B25 Phase II | Fixed-coefficient perimeter closure and geometry transfer | Prospective reduction to a fixed perimeter coefficient; geometry-transfer boundary test |
 
 ---
 
@@ -608,4 +609,46 @@ This result does not establish a universal BIG operator, a program-wide universa
 [papers/B24_B25_predictive_boundary_functional_transfer](../papers/B24_B25_predictive_boundary_functional_transfer)
 
 **Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22956894
+
+
+---
+
+### B25 Phase II: Fixed-coefficient perimeter closure and geometry-transfer boundary
+
+**Theme:** Prospective reduction of the Phase-I level-resolved transfer relation to a fixed perimeter coefficient, followed by a frozen geometry-family transfer attempt.
+
+The Phase-II evidence sequence is:
+
+```text
+B25.1c -> AB_PARALLEL_CURVE_REDUCTION_PASS
+B25.1d -> AB_NESTED_BAND_SINGLE_PERIMETER_PASS
+B25.1e -> AB_FIXED_COEFFICIENT_PERIMETER_PASS
+B25.2  -> IMPLEMENTATION_INVALID
+```
+
+B25.1e fixed one coefficient from a predeclared circular calibration state,
+
+[
+sigma_{m cal}=9.434181431178162	imes10^{-8},
+]
+
+and then used only target representative perimeter in the six held-out primary predictions,
+
+[
+J_{m pred}=sigma_{m cal}P_{m rep}.
+]
+
+All six held-out ellipse cases were valid; the median relative error was **4.65%**, the maximum relative error was **14.30%**, and the frozen fine-resolution stability gates passed.
+
+B25.2 then kept the same coefficient frozen and attempted transfer to an equal-injection two-center family intended to span connected and disconnected representative contours. The formal result is **IMPLEMENTATION_INVALID**, not a transfer FAIL: three coarse-resolution cases fell below the frozen three-grid-cell claim-band threshold, and the required topology span was not realized at fine resolution.
+
+**Supported Phase-II statement:** fixed-coefficient perimeter closure is supported within the tested canonical (p=4) finite-resolution ellipse family. Geometry-family and topology transfer remain unresolved.
+
+**Not established:** a continuum perimeter theorem, a universal or source-independent (sigma P) law, a coefficient derived from one-dimensional information alone, the B9 nonlocal term (C(Omega)), the complete B9 energy (E=sigma P+lambda C), or external physical validity.
+
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22967474
+
+**Related Phase-I DOI:**  
 https://doi.org/10.5281/zenodo.22956894
