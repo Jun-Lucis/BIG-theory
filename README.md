@@ -67,7 +67,9 @@ Additional summary notes:
 A compact evidence map separating **model-level results** from **open hypotheses** is available here:
 
 - [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
+- [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
 - [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
+- [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
 
@@ -91,7 +93,7 @@ A boundary must be strong enough to preserve distinction, but not so closed that
 * reorganize under stress,
 * and sometimes preserve memory through transformation.
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, prospective finite-resolution geometry of moving response boundaries, and cross-branch short-horizon geometric prediction.
+This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, prospective finite-resolution geometry of moving response boundaries, cross-branch short-horizon geometric prediction, cross-sector source auditing, and predictive boundary-functional transfer.
 
 ---
 
