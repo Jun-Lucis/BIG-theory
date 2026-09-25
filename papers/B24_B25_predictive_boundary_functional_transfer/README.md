@@ -153,3 +153,65 @@ Lucis, J. (2026). *From Distinct Boundary Classes to Predictive Boundary-Functio
 https://doi.org/10.5281/zenodo.22956894
 
 The English manuscript is the authoritative academic version. A Japanese reference translation is included for accessibility.
+
+
+---
+
+## Phase II: fixed-coefficient perimeter closure and its geometry-transfer boundary
+
+**Phase-II title:** *Fixed-Coefficient Perimeter Closure and Its Geometry-Transfer Boundary: Prospective Phase-II Tests in Boundary Information Geometry*  
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22967474  
+**Status:** English preprint v1.0 published; Japanese reference translation included in the release.
+
+Phase II continues the Phase-I transfer relation without reclassifying any earlier verdict.
+
+```text
+B25.1c -> AB_PARALLEL_CURVE_REDUCTION_PASS
+B25.1d -> AB_NESTED_BAND_SINGLE_PERIMETER_PASS
+B25.1e -> AB_FIXED_COEFFICIENT_PERIMETER_PASS
+B25.2  -> IMPLEMENTATION_INVALID
+```
+
+### B25.1c
+
+The full target level-set perimeter family was prospectively replaced by one measured representative perimeter plus a fixed no-fit parallel-curve correction generated from the archived one-dimensional relative-level gradient profile.
+
+### B25.1d
+
+Under a frozen nested-band reduction, the explicit finite-thickness correction decreased and an amplitude-aware single-perimeter predictor remained within the predeclared gates.
+
+### B25.1e
+
+One predeclared circular calibration state fixed
+
+[
+sigma_{m cal}=9.434181431178162	imes10^{-8}.
+]
+
+The six new held-out primary predictions used only
+
+[
+J_{m pred}=sigma_{m cal}P_{m rep,target}.
+]
+
+All six held-out ellipse cases were valid. The median relative error was **4.65%**, the maximum relative error was **14.30%**, and all frozen fine-resolution pair gates passed.
+
+**Formal verdict:** `AB_FIXED_COEFFICIENT_PERIMETER_PASS`.
+
+### B25.2
+
+The B25.1e coefficient was kept frozen and transferred to an equal-injection two-center source family intended to span connected and disconnected representative contours.
+
+The predeclared test was not validly realized. Three coarse-resolution cases fell below the frozen three-grid-cell claim-band threshold, and all fine-resolution cases still had one primary representative contour.
+
+**Formal verdict:** `IMPLEMENTATION_INVALID`.
+
+The descriptive errors from this invalid test are retained in the archive but are not reclassified as a formal transfer FAIL.
+
+### Strongest supported Phase-II statement
+
+> In the tested canonical p=4 finite-resolution ellipse family, a perimeter coefficient fixed once from a predeclared circular calibration state prospectively transfers to held-out ellipse targets using representative perimeter alone.
+
+Geometry-family and topology transfer remain unresolved.
+
+Phase II does not derive a continuum perimeter theorem, a universal or source-independent (sigma P) law, the B9 nonlocal term, the complete B9 energy, or external physical validity.
