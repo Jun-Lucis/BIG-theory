@@ -50,8 +50,10 @@ Key overview and reference documents:
 * **Publication map:** [docs/publication_map.md](docs/publication_map.md)
 * **Research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
+* **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
 * 🇯🇵 **研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * 🇯🇵 **B24–B25 Phase-I 研究状況更新:** [docs/research_status_update_B24_B25_ja.md](docs/research_status_update_B24_B25_ja.md)
+* 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
 
@@ -68,16 +70,20 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 - [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
 - [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
+- [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
+- [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
 
 **B24–B25 Phase-I preprint DOI:** https://doi.org/10.5281/zenodo.22956894
 
+**B25 Phase-II preprint DOI:** https://doi.org/10.5281/zenodo.22967474
+
 Current one-sentence status:
 
-> **A source-audited B24 cross-sector test did not support one already-existing substantive common operator across the tested BIG sectors; B25 then constructed a new level-resolved transfer functional that prospectively passed nine held-out shape/resolution tests in the canonical p=4 model, while earlier negative and inconclusive verdicts remain unchanged.**
+> **B24 retained multiple native boundary classes rather than one pre-existing common operator. B25 then built a prospective transfer hierarchy: a level-resolved bridge passed, successive reductions reached a fixed-coefficient perimeter law on held-out ellipse targets, and the first B9-like two-center geometry-transfer attempt remained unresolved because its frozen validity/topology requirements were not realized.**
 
 ---
 
@@ -425,9 +431,13 @@ On nine new resolution/shape combinations, all nine cases were valid; the maximu
 
 **Main entry:** [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer)
 
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.22956894
+**Phase-I Zenodo DOI:** https://doi.org/10.5281/zenodo.22956894
 
-**Scope:** This is a finite-resolution held-out boundary-functional transfer relation in the tested canonical p=4 model. It is not a universal BIG operator, a continuum or thin-layer theorem, a derivation of the full B9 model, or external physical validation. The held-out target state supplies its measured level-set perimeter family and peak amplitude; the transferred object is the archived one-dimensional relative-level normal-gradient profile.
+**Phase-II Zenodo DOI:** https://doi.org/10.5281/zenodo.22967474
+
+Phase II prospectively reduced the Phase-I relation through a parallel-curve form, a narrow-band single-perimeter form, and finally a fixed coefficient calibrated once on a predeclared circular state. The B25.1e primary held-out predictor used only target representative perimeter and passed six new ellipse shape/resolution cases. The subsequent B25.2 two-center geometry-transfer protocol was `IMPLEMENTATION_INVALID`: three coarse cases violated the frozen band-resolution gate and the required connected/disconnected topology span was not realized at fine resolution.
+
+**Scope:** The successful fixed-coefficient result is limited to the tested canonical p=4 finite-resolution ellipse family. Geometry-family and topology transfer remain unresolved. B25 does not establish a universal BIG operator, a continuum theorem, a source-independent sigma P law, the B9 nonlocal term, the complete B9 energy, or external physical validation.
 
 
 ---
@@ -479,7 +489,7 @@ In particular:
 * BIG-B22 tests finite-resolution local geometry and sequential held-out forecasts; it does not establish a continuum curvature theorem, a universal boundary-evolution law, or a T0-only two-step forecast.
 * BIG-B23 tests cross-branch short-horizon transfer of finite-resolution response geometry; its original aggregate plan remains INCONCLUSIVE and supplementary repaired/corrected runs are not counted as original-plan successes.
 * BIG-B24 does not establish one universal common operator across the audited sectors; its frozen cross-sector verdict is **MULTIPLE_BOUNDARY_CLASSES_INDICATED**.
-* BIG-B25 Phase I supports a prospective level-resolved transfer relation only in the tested canonical p=4 model. It does not retroactively change the B24.2 audit, the B25.1 constant-density FAIL, or earlier B-series verdicts.
+* BIG-B25 Phase I supports a prospective level-resolved transfer relation in the tested canonical p=4 model. Phase II further supports fixed-coefficient perimeter closure within the tested finite-resolution ellipse family, while the first two-center B9-like geometry-transfer protocol is `IMPLEMENTATION_INVALID` and does not establish geometry-family or topology transfer. Earlier negative and inconclusive verdicts remain unchanged.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -546,6 +556,7 @@ Current entries include:
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
+| B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 
 ---
 
