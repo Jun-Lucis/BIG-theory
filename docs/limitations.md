@@ -276,6 +276,33 @@ B24–B25 Phase I does **not** establish:
 Earlier negative and inconclusive verdicts remain unchanged.
 
 
+### B25 Phase II: fixed-coefficient perimeter closure
+
+B25 Phase II prospectively reduces the Phase-I boundary-functional transfer through three successful stages and one implementation-invalid geometry-transfer attempt.
+
+B25.1c replaces the full held-out level-set perimeter family by one representative perimeter plus a fixed no-fit parallel-curve correction. B25.1d narrows the relative-level band until an amplitude-aware single-perimeter predictor passes the frozen accuracy and stability gates. B25.1e then fixes one perimeter coefficient from a predeclared circular calibration state and uses only target representative perimeter in the primary held-out prediction,
+
+[
+J_{m pred}=sigma_{m cal}P_{m rep}.
+]
+
+In the tested canonical (p=4) finite-resolution ellipse family, all six B25.1e held-out cases were valid, with median relative error 4.65% and maximum relative error 14.30%. This supports a fixed-coefficient perimeter closure only within that tested family.
+
+B25.2 does not establish geometry-family or topology transfer. Its predeclared two-center test is recorded as **IMPLEMENTATION_INVALID** because three coarse-resolution cases violated the frozen minimum band-resolution gate and the required connected/disconnected topology span was not realized at fine resolution. Descriptive errors from B25.2 are not promoted to a formal transfer FAIL.
+
+B25 Phase II therefore does **not** establish:
+
+* a continuum perimeter theorem;
+* a universal, source-independent, or (p)-independent (sigma P) law;
+* a perimeter coefficient derived from one-dimensional information alone;
+* geometry-family or topology invariance;
+* the B9 nonlocal term (C(Omega));
+* the full B9 energy (E=sigma P+lambda C);
+* external physical validity.
+
+**Phase-II DOI:** https://doi.org/10.5281/zenodo.22967474
+
+
 ---
 
 ## 8. Structural comparison versus quantitative prediction
