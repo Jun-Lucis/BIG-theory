@@ -29,6 +29,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
 | B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
 | B23    | Cross-branch short-horizon geometric prediction               | Transfer of local response geometry across predeclared branches |
+| B24–B25 | Cross-sector audit and boundary-functional transfer            | Failure-guided construction of a prospective transfer map |
 
 ---
 
@@ -53,6 +54,8 @@ boundary formation
     -> local kinematic closure of moving response geometry
     -> prospective finite-resolution curvature and normal rotation
     -> cross-branch short-horizon geometric prediction
+    -> cross-sector common-core audit
+    -> predictive boundary-functional transfer
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -543,3 +546,66 @@ Planned repository work now focuses on:
 * representative figures and compact summary data where useful,
 * reproducibility links to the corresponding Zenodo archives,
 * and continued separation of model-level results from domain-specific interpretation.
+
+
+---
+
+### B24–B25: Cross-sector audit and predictive boundary-functional transfer
+
+**Theme:** Testing whether earlier BIG sectors already share one substantive common operator, then constructing a new predictive transfer map after the audit did not support that hypothesis.
+
+B24.2 used a source-audited mapping across four frozen sectors. Generic boundary notation and chain-rule/coarea identities were not counted as BIG-specific laws. Under the frozen equivalence and recurrence rules, no substantive exact or coordinate-equivalent structure spanned the required sectors.
+
+**Frozen B24.2 verdict:**
+
+```text
+MULTIPLE_BOUNDARY_CLASSES_INDICATED
+```
+
+B25 introduced a new typed-composition hypothesis instead of retroactively weakening the B24.2 criteria. The first A-to-B constant-density bridge used an independently measured one-dimensional coefficient:
+
+$$
+J_{\mathrm{pred}}=\sigma_{1D}P_{\mathrm{rep}}.
+$$
+
+All nine B25.1 cases were numerically valid, but the frozen quantitative gates were not met.
+
+**Frozen B25.1 verdict:**
+
+```text
+AB_CONSTANT_DENSITY_FAIL
+```
+
+A retrospective coarea decomposition using only archived B25.1 profiles then motivated a level-resolved replacement predictor,
+
+$$
+J_{\mathrm{LR,pred}}
+=
+\kappa_p\phi_{\max}^{(2D)}
+\int_{r_{\min}}^{r_{\max}}
+P(r)g_{1D}(r)^{p-1}\,dr.
+$$
+
+This predictor was frozen before new two-dimensional trajectories were generated. B25.1b used new resolutions $N\in\{192,256,320\}$ and new aspect ratios $b/a\in\{0.88,0.70,0.54\}$. All nine cases were valid.
+
+**Prospective B25.1b result:**
+
+```text
+maximum relative error:          17.76%
+median relative error:            9.49%
+old comparator median error:     29.79%
+median-error improvement:         68.15%
+fine-resolution stability:        PASS
+formal verdict:                   AB_LEVEL_RESOLVED_BRIDGE_PASS
+```
+
+The transferred object is the archived one-dimensional relative-level normal-gradient profile. The held-out two-dimensional state supplies its measured level-set perimeter family and peak amplitude. The experiment therefore tests a cross-dimensional constitutive/factorization relation, not a forward surrogate for the full PDE.
+
+**Important limitations:**  
+This result does not establish a universal BIG operator, a program-wide universality class, a continuum or thin-layer theorem, reduction to a single $\sigma P$ term, derivation of the full B9 energy, arbitrary-$p$/source/dimension universality, or external physical validity. B24.2 and B25.1 retain their original negative verdicts.
+
+**Main repository entry:**  
+[papers/B24_B25_predictive_boundary_functional_transfer](../papers/B24_B25_predictive_boundary_functional_transfer)
+
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22956894
