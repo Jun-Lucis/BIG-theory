@@ -1,0 +1,74 @@
+{
+  "protocol_id": "BIG_B26_TWO_CENTER_TOPOLOGY_REALIZED_FIXED_SIGMA_TRANSFER_v1_0",
+  "status": "FROZEN_BEFORE_NEW_B26_TRAJECTORIES",
+  "date_frozen": "2026-09-26",
+  "basis": "B26R retrospective topology-realization diagnostic; no B26 outcomes observed",
+  "p": 4,
+  "mu": 0.3,
+  "kappa_p": 4,
+  "source_amplitude": 0.08,
+  "domain": [
+    -8,
+    8
+  ],
+  "t_max": 30,
+  "cfl_2d": 0.15,
+  "dt_cap": 0.01,
+  "claim_band": [
+    0.0003,
+    0.02
+  ],
+  "n_levels": 121,
+  "sigma_cal_frozen_from_B25_1e": 9.434181431178162e-8,
+  "source_family": "equal-injection two-center max-union of compact polynomial disk profiles",
+  "source_profile_definition": "S=A*max((1-r1^2/R^2)_+^2,(1-r2^2/R^2)_+^2), with d/R=delta and R chosen pre-run so integral(S/A)=pi/3",
+  "dimensionless_center_separations": [
+    4.4,
+    5.4,
+    6.2
+  ],
+  "heldout_resolutions": [
+    384,
+    448
+  ],
+  "total_cases": 6,
+  "representative_level_rule": "sqrt(r_min*r_max)",
+  "perimeter_rule": "sum contour perimeters whose perimeter is at least 10% of the largest contour perimeter at that level",
+  "primary_predictor": "J_pred = sigma_cal_frozen_from_B25_1e * P_total_rep_target",
+  "target_inputs_allowed_primary": [
+    "P_total_rep_target"
+  ],
+  "target_inputs_forbidden_primary": [
+    "phi_max_target",
+    "full_P_of_r_target",
+    "J_obs_target",
+    "coefficient_refit"
+  ],
+  "secondary_comparator": "amplitude-aware J_SP = kappa_p*phi_max_target*W_1D*P_total_rep_target",
+  "max_clipping_mass": 1e-10,
+  "max_rhs_norm": 0.0001,
+  "minimum_predicted_claim_band_cells": 3,
+  "require_all_levels_have_primary_contour": true,
+  "topology_gate_fine_resolution": {
+    "N": 448,
+    "delta_4p4_required_primary_count": 1,
+    "delta_6p2_required_min_primary_count": 2,
+    "delta_5p4_recorded_but_not_individually_gated": true
+  },
+  "pass_median_relative_error": 0.1,
+  "pass_max_relative_error": 0.2,
+  "pass_fine_pair_q_diff": 0.08,
+  "pass_median_error_excess_vs_ampaware": 0.08,
+  "partial_median_relative_error": 0.16,
+  "partial_max_relative_error": 0.3,
+  "partial_fine_pair_q_diff": 0.12,
+  "verdict_logic": {
+    "invalid": "any numerical validity gate fails -> IMPLEMENTATION_INVALID",
+    "topology_not_realized": "all numerical cases valid but fine topology gate fails -> TOPOLOGY_SPAN_NOT_REALIZED",
+    "pass": "all valid + topology gate + all PASS error/stability gates -> AB_TWO_CENTER_FIXED_COEFFICIENT_TRANSFER_PASS",
+    "partial": "all valid + topology gate + PARTIAL gates -> AB_TWO_CENTER_FIXED_COEFFICIENT_TRANSFER_PARTIAL",
+    "fail": "all valid + topology gate but neither PASS nor PARTIAL -> AB_TWO_CENTER_FIXED_COEFFICIENT_TRANSFER_FAIL"
+  },
+  "no_fit_rule": "The B25.1e sigma_cal is immutable. No B26 target outcome, amplitude, topology, or geometry may modify it.",
+  "claim_boundary": "A PASS or FAIL applies only to this frozen canonical two-center family and finite resolutions; it is not a universal source/topology theorem."
+}
