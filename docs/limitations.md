@@ -303,6 +303,34 @@ B25 Phase II therefore does **not** establish:
 **Phase-II DOI:** https://doi.org/10.5281/zenodo.22967474
 
 
+### B26: geometry-transfer boundary of the fixed-coefficient closure
+
+B26 tests the B25.1e fixed perimeter coefficient on a canonical equal-injection two-center family.
+
+The first B26 stage is **TOPOLOGY_SPAN_NOT_REALIZED**, not a transfer FAIL: all six cases were numerically valid, but all fine-resolution targets were already on the two-contour side.
+
+B26.1 is a topology-only locator. It does not inspect fixed-coefficient action error during adaptive refinement. Its four valid trajectories localize the representative-level transition at (N=384) to
+
+[
+4.175<\delta_*<4.250.
+]
+
+B26.2 then freezes new held-out targets on both sides of that independently localized bracket. All six terminal cases are numerically valid and the fine-resolution topology gate is realized, but the fixed coefficient gives median relative error **42.91%** and maximum relative error **44.79%**. Its formal verdict is **AB_TOPOLOGY_STRADDLING_FIXED_COEFFICIENT_TRANSFER_FAIL**.
+
+This supports a finite-resolution **geometry-transfer boundary** for the tested fixed-coefficient perimeter closure. It does **not** establish that topology change itself is the unique cause of failure: substantial error is already present on the connected side.
+
+B26 does **not** establish:
+
+* a continuum theorem;
+* a universal, source-independent, or (p)-independent perimeter law;
+* topology change as the unique causal mechanism of transfer failure;
+* the B9 nonlocal term (C(\Omega));
+* the complete B9 energy (E=\sigma P+\lambda C);
+* external physical validity.
+
+**B26 DOI:** https://doi.org/10.5281/zenodo.22972985
+
+
 ---
 
 ## 8. Structural comparison versus quantitative prediction
@@ -401,6 +429,10 @@ For B23:
 For B24–B25 Phase I:
 
 > BIG-B24 does not identify one pre-existing universal operator across the audited sectors. BIG-B25 Phase I instead constructs and prospectively tests a level-resolved transfer functional in one canonical p=4 setting; the result does not derive a universal BIG law or the full B9 model.
+
+For B26:
+
+> BIG-B26 prospectively tests a fixed perimeter coefficient on an independently topology-localized two-center family. The terminal held-out test realizes the topology gate but fails the frozen accuracy criteria, supporting a finite-resolution geometry-transfer boundary rather than a universal perimeter law.
 
 For the repository as a whole:
 
