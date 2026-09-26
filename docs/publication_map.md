@@ -31,6 +31,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B23    | Cross-branch short-horizon geometric prediction               | Transfer of local response geometry across predeclared branches |
 | B24–B25 | Cross-sector audit and boundary-functional transfer            | Failure-guided construction of a prospective transfer map |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry transfer | Prospective reduction to a fixed perimeter coefficient; geometry-transfer boundary test |
+| B26 | Topology localization and two-center geometry transfer | Terminal prospective test of fixed-coefficient transfer across a localized topology transition |
 
 ---
 
@@ -57,6 +58,7 @@ boundary formation
     -> cross-branch short-horizon geometric prediction
     -> cross-sector common-core audit
     -> predictive boundary-functional transfer
+    -> topology-localized two-center geometry-transfer test
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -652,3 +654,44 @@ https://doi.org/10.5281/zenodo.22967474
 
 **Related Phase-I DOI:**  
 https://doi.org/10.5281/zenodo.22956894
+
+---
+
+### B26: Geometry-transfer boundary of fixed-coefficient perimeter closure
+
+**Theme:**  
+Prospective transfer of the B25.1e fixed perimeter coefficient from held-out ellipse geometry to a canonical equal-injection two-center family, with independent topology localization before the terminal test.
+
+The fixed coefficient remained
+
+[
+\sigma_{\rm cal}=9.434181431178162\times10^{-8},
+]
+
+and the primary target-side predictor remained
+
+[
+J_{\rm pred}=\sigma_{\rm cal}P_{\rm total,rep}.
+]
+
+The first B26 stage completed six valid trajectories but did not realize the frozen topology span, giving **TOPOLOGY_SPAN_NOT_REALIZED** rather than a transfer PASS/FAIL.
+
+B26.1 then used a topology-only adaptive refinement at (N=384), without inspecting fixed-coefficient action error, and localized the representative-level transition to
+
+[
+4.175<\delta_*<4.250.
+]
+
+Its formal verdict is **TOPOLOGY_BRACKET_REFINED**.
+
+B26.2 froze three new, previously uncomputed separations, (delta=3.95,4.2125,4.35), at (N=384,448). All six cases were valid. At (N=448), the primary representative-contour counts were (1,1,2), so the topology gate was realized. The frozen fixed-coefficient predictor then had median relative error **42.91%** and maximum relative error **44.79%**. Resolution-pair (|\Delta q|) values remained within the frozen stability gate.
+
+**Terminal formal verdict:** AB_TOPOLOGY_STRADDLING_FIXED_COEFFICIENT_TRANSFER_FAIL.
+
+B26 therefore resolves a finite-resolution **geometry-transfer boundary** of the fixed-coefficient perimeter closure. It does not establish that topology change itself is the unique cause of the failure.
+
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22972985
+
+**Related B25 Phase-II DOI:**  
+https://doi.org/10.5281/zenodo.22967474
