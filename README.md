@@ -51,9 +51,11 @@ Key overview and reference documents:
 * **Research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
 * **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
+* **B26 terminal status update:** [docs/research_status_update_B26.md](docs/research_status_update_B26.md)
 * 🇯🇵 **研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * 🇯🇵 **B24–B25 Phase-I 研究状況更新:** [docs/research_status_update_B24_B25_ja.md](docs/research_status_update_B24_B25_ja.md)
 * 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
+* 🇯🇵 **B26 研究状況更新:** [docs/research_status_update_B26_ja.md](docs/research_status_update_B26_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
 
@@ -71,9 +73,11 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
 - [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
+- [B26 terminal status update](docs/research_status_update_B26.md)
 - [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
 - [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
+- [B26 日本語更新](docs/research_status_update_B26_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
 
@@ -81,9 +85,11 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B25 Phase-II preprint DOI:** https://doi.org/10.5281/zenodo.22967474
 
+**B26 preprint DOI:** https://doi.org/10.5281/zenodo.22972985
+
 Current one-sentence status:
 
-> **B24 retained multiple native boundary classes rather than one pre-existing common operator. B25 then built a prospective transfer hierarchy: a level-resolved bridge passed, successive reductions reached a fixed-coefficient perimeter law on held-out ellipse targets, and the first B9-like two-center geometry-transfer attempt remained unresolved because its frozen validity/topology requirements were not realized.**
+> **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
 
 ---
 
@@ -173,6 +179,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B22 | Prospective finite-resolution geometry of response boundaries | [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry) |
 | B23 | Cross-branch short-horizon geometric prediction | [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction) |
 | B24–B25 | Cross-sector audit and predictive boundary-functional transfer | [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer) |
+| B26 | Geometry-transfer boundary of fixed-coefficient perimeter closure | [papers/B26_topology_realized_fixed_sigma_transfer](papers/B26_topology_realized_fixed_sigma_transfer) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -557,6 +564,7 @@ Current entries include:
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
+| B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |
 
 ---
 
