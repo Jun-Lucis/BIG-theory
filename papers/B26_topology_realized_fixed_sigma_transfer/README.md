@@ -1,7 +1,7 @@
 # BIG-B26: Prospective Topology-Realized Fixed-Sigma Transfer
 
 **Author:** Jun Lucis  
-**Status:** FROZEN BEFORE NEW B26 TRAJECTORIES  
+**Status:** CLOSED — terminal B26.2 test completed  
 **Date frozen:** 2026-09-26  
 **Protocol ID:** `BIG_B26_TWO_CENTER_TOPOLOGY_REALIZED_FIXED_SIGMA_TRANSFER_v1_0`  
 **Canonical semantic configuration SHA-256:** `e40b26c7dae79a31da8f02071d1d29ff39a5fa197d623d17ce29b8953ebb34e2`
@@ -185,3 +185,35 @@ B26 closes after B26.2 regardless of outcome, provided the protocol is executabl
 
 **B26.2 canonical semantic SHA-256:**  
 `21617eac41537c9d5baa0aa9c149c35d8fb6929a7b657ae26bd5e1f0bb510c9c`
+
+
+---
+
+## B26.2 terminal result
+
+B26.2 completed all six frozen held-out trajectories. All six passed the numerical validity gates, and the frozen fine-resolution topology gate was realized:
+
+    N=448
+    delta=3.95   -> 1 primary representative contour
+    delta=4.2125 -> 1
+    delta=4.35   -> 2
+
+The immutable B25.1e coefficient therefore received a valid topology-straddling transfer test.
+
+The primary fixed-coefficient errors were:
+
+    median relative error = 42.91%
+    maximum relative error = 44.79%
+
+The frozen resolution-pair |Delta q| values were 0.0271, 0.0212, and 0.0142; all remained within the predeclared stability gate.
+
+**Formal verdict:** AB_TOPOLOGY_STRADDLING_FIXED_COEFFICIENT_TRANSFER_FAIL.
+
+The result resolves a finite-resolution geometry-transfer boundary of the fixed-coefficient perimeter closure. It does not establish that topology change itself is the unique cause of failure, because substantial error is already present on the connected side.
+
+The terminal B26 stop rule is triggered. No further delta tuning is permitted within B26.
+
+**B26 Zenodo DOI:** https://doi.org/10.5281/zenodo.22972985
+
+**Authoritative publication title:**  
+*Resolving the Geometry-Transfer Boundary of a Fixed-Coefficient Perimeter Closure: Topology Localization and Prospective Two-Center Tests in Boundary Information Geometry*
