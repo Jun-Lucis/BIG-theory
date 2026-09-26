@@ -1,0 +1,70 @@
+{
+  "protocol_id": "BIG_B26_2_TOPOLOGY_STRADDLING_FIXED_SIGMA_TRANSFER_v1_0",
+  "status": "FROZEN_BEFORE_NEW_B26_2_TRAJECTORIES",
+  "date_frozen": "2026-09-26",
+  "basis": {
+    "B26_verdict": "TOPOLOGY_SPAN_NOT_REALIZED",
+    "B26_1_verdict": "TOPOLOGY_BRACKET_REFINED",
+    "B26_1_final_connected_lower_delta": 4.175,
+    "B26_1_final_disconnected_upper_delta": 4.25,
+    "selection_firewall": "B26.1 used topology only and did not calculate fixed-sigma action errors. All B26.2 delta values are new and were not simulated in B25.2, B26, or B26.1."
+  },
+  "p": 4,
+  "mu": 0.3,
+  "kappa_p": 4,
+  "source_amplitude": 0.08,
+  "domain": [
+    -8,
+    8
+  ],
+  "t_max": 30,
+  "cfl_2d": 0.15,
+  "dt_cap": 0.01,
+  "claim_band": [
+    0.0003,
+    0.02
+  ],
+  "n_levels": 121,
+  "sigma_cal_frozen_from_B25_1e": 9.434181431178162e-8,
+  "source_family": "equal-injection two-center max-union of compact polynomial disk profiles",
+  "dimensionless_center_separations": [
+    3.95,
+    4.2125,
+    4.35
+  ],
+  "heldout_resolutions": [
+    384,
+    448
+  ],
+  "total_cases": 6,
+  "representative_level_rule": "sqrt(r_min*r_max)",
+  "primary_predictor": "J_pred = sigma_cal_frozen_from_B25_1e * P_total_rep_target",
+  "target_inputs_allowed_primary": [
+    "P_total_rep_target"
+  ],
+  "target_inputs_forbidden_primary": [
+    "phi_max_target",
+    "full_P_of_r_target",
+    "J_obs_target",
+    "coefficient_refit"
+  ],
+  "max_clipping_mass": 1e-10,
+  "max_rhs_norm": 0.0001,
+  "minimum_predicted_claim_band_cells": 3,
+  "require_all_levels_have_primary_contour": true,
+  "topology_gate_fine_resolution": {
+    "N": 448,
+    "delta_3p95_required_primary_count": 1,
+    "delta_4p35_required_min_primary_count": 2,
+    "delta_4p2125_recorded_but_not_individually_gated": true
+  },
+  "pass_median_relative_error": 0.1,
+  "pass_max_relative_error": 0.2,
+  "pass_fine_pair_q_diff": 0.08,
+  "pass_median_error_excess_vs_ampaware": 0.08,
+  "partial_median_relative_error": 0.16,
+  "partial_max_relative_error": 0.3,
+  "partial_fine_pair_q_diff": 0.12,
+  "terminal_stop_rule": "B26 closes after B26.2 regardless of outcome, provided executable. No further delta tuning is permitted within B26.",
+  "canonical_semantic_sha256": "21617eac41537c9d5baa0aa9c149c35d8fb6929a7b657ae26bd5e1f0bb510c9c"
+}
