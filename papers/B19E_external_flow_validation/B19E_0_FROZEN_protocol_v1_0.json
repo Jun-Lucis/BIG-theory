@@ -1,0 +1,78 @@
+{
+  "protocol_id": "BIG_B19E_0_EXTERNAL_DATASET_AUDIT_v1_0",
+  "status": "FROZEN_BEFORE_JHTDB_FIELD_QUERY",
+  "date_frozen": "2026-09-26",
+  "branch": "B19E",
+  "dataset": {
+    "provider": "Johns Hopkins Turbulence Database (JHTDB)",
+    "dataset_name": "isotropic1024coarse",
+    "dataset_doi": "10.7281/T1KK98XB",
+    "flow": "forced homogeneous isotropic turbulence",
+    "domain": "[0,2*pi)^3",
+    "grid": [1024, 1024, 1024],
+    "viscosity": 0.000185,
+    "stored_time_spacing": 0.002,
+    "dns_time_step": 0.0002,
+    "taylor_reynolds_approx": 433,
+    "kolmogorov_time_approx": 0.0446,
+    "integral_time_approx": 2.02
+  },
+  "access_contract": {
+    "preferred_production_interface": "JHTDB current REST/giverny interface on SciServer",
+    "local_or_colab_role": "small interface/preflight checks only unless performance proves adequate",
+    "legacy_soap_not_primary": true
+  },
+  "frozen_time_split": {
+    "development": [1.0, 1.5, 2.0],
+    "calibration": [3.5, 4.0],
+    "primary_holdout": [6.5, 7.0],
+    "replication_holdout": [9.0, 9.5],
+    "primary_horizon": 0.05,
+    "secondary_horizon": 0.10
+  },
+  "sampling": {
+    "candidate_points_per_anchor": 2048,
+    "sequence": "scrambled Sobol",
+    "seed": 19026,
+    "domain": "[0,2*pi)^3",
+    "macroblocks": [4, 4, 4]
+  },
+  "b19e0_allowed": {
+    "query_metadata": true,
+    "query_small_preflight_samples_only_from_development_times": true,
+    "audit_velocity_gradient_layout": true,
+    "audit_vorticity_and_strain_reconstruction": true,
+    "audit_finite_difference_divergence_error": true,
+    "audit_particle_tracking": true,
+    "audit_periodic_wrapping": true,
+    "audit_query_reproducibility": true
+  },
+  "b19e0_forbidden": {
+    "query_calibration_future_targets": true,
+    "query_primary_holdout_fields": true,
+    "query_replication_holdout_fields": true,
+    "fit_predictive_model": true,
+    "evaluate_big_vs_baseline_performance": true
+  },
+  "primary_future_target_reserved_for_later_stage": {
+    "definition": "log((|omega(X(t0+dt),t0+dt)|+eps)/(|omega(x0,t0)|+eps))",
+    "primary_dt": 0.05,
+    "secondary_dt": 0.10,
+    "particle_tracking": "JHTDB GetPosition/current equivalent"
+  },
+  "b19e0_pass_gates": [
+    "current JHTDB access works on a frozen development-time preflight sample",
+    "coordinate and component ordering are unambiguous",
+    "vorticity and strain reconstruction from returned velocity gradients is internally consistent",
+    "periodic wrapping is verified",
+    "particle tracking returns valid positions at dt=0.05 and dt=0.10",
+    "repeated identical queries agree to numerical precision",
+    "all audit outputs and environment information are archived before B19E.1"
+  ],
+  "formal_b19e0_verdicts": [
+    "EXTERNAL_INTERFACE_AUDIT_PASS",
+    "EXTERNAL_INTERFACE_AUDIT_PARTIAL",
+    "IMPLEMENTATION_INVALID"
+  ],
+  "claim_boundary": "B19E.0 is an interface and measurement audit only. It carries no evidence for predictive transfer or external physical validity."
+}
