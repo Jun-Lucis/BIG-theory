@@ -1,0 +1,65 @@
+{
+  "protocol_id": "BIG_B26_1_TOPOLOGY_BRACKET_REFINEMENT_v1_0",
+  "status": "FROZEN_BEFORE_NEW_B26_1_TRAJECTORIES",
+  "date_frozen": "2026-09-26",
+  "scientific_question": "Where is the representative-level one-contour to two-contour transition within the already established N=384 bracket 3.2<delta<4.4?",
+  "evidence_role": "topology-only locator; fixed-sigma action transfer is intentionally not evaluated",
+  "resolution": 384,
+  "archived_lower_anchor": {
+    "source": "B25.2",
+    "delta": 3.2,
+    "primary_contour_count": 1,
+    "case_valid": true
+  },
+  "archived_upper_anchor": {
+    "source": "B26",
+    "delta": 4.4,
+    "primary_contour_count": 2,
+    "case_valid": true
+  },
+  "initial_bracket": [
+    3.2,
+    4.4
+  ],
+  "max_bisection_iterations": 4,
+  "target_final_bracket_width": 0.0750000001,
+  "classification_rule": "connected if primary representative contour count == 1; disconnected if count >= 2",
+  "representative_level_rule": "sqrt(0.0003*0.02)",
+  "perimeter_primary_rule": "a contour is primary when its perimeter is at least 10% of the largest contour perimeter at that level",
+  "p": 4,
+  "mu": 0.3,
+  "kappa_p": 4,
+  "source_amplitude": 0.08,
+  "domain": [
+    -8,
+    8
+  ],
+  "t_max": 30,
+  "cfl_2d": 0.15,
+  "dt_cap": 0.01,
+  "claim_band": [
+    0.0003,
+    0.02
+  ],
+  "n_levels": 121,
+  "source_family": "equal-injection two-center max-union of compact polynomial disk profiles",
+  "source_profile_definition": "S=A*max((1-r1^2/R^2)_+^2,(1-r2^2/R^2)_+^2), with d/R=delta and R chosen pre-run so integral(S/A)=pi/3",
+  "max_clipping_mass": 1e-10,
+  "max_rhs_norm": 0.0001,
+  "minimum_predicted_claim_band_cells": 3,
+  "require_all_levels_have_primary_contour": true,
+  "forbidden_during_stage": [
+    "J_obs",
+    "q_sigmaP",
+    "relative_error_sigmaP",
+    "coefficient fitting",
+    "selection of bisection branch using any quantity other than topology classification"
+  ],
+  "formal_verdicts": {
+    "success": "TOPOLOGY_BRACKET_REFINED",
+    "invalid": "IMPLEMENTATION_INVALID",
+    "anchor_failure": "ARCHIVED_BRACKET_NOT_VALID"
+  },
+  "stop_rule": "Run exactly four adaptive bisection trajectories unless a numerical validity failure occurs. Do not add points after seeing results.",
+  "next_stage_rule": "Only after B26.1 is closed may a new, non-overlapping held-out B26.2 fixed-sigma transfer protocol be frozen from the refined topology bracket."
+}
