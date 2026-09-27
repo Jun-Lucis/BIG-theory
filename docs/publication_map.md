@@ -2,8 +2,10 @@
 
 This page summarizes the current publication and record structure of **Boundary Information Geometry (BIG)**.
 
-For the current evidence-level synthesis across the programme, see:
+For a fast technical orientation and the current evidence-level synthesis across the programme, see:
 
+- [One-page technical summary](technical_summary.md)
+- [1ページ技術サマリー](technical_summary_ja.md)
 - [Integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
 - [日本語版 — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
