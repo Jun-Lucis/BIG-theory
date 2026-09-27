@@ -48,12 +48,14 @@ Key overview and reference documents:
 
 * 🇯🇵 **Japanese overview:** [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
 * **Publication map:** [docs/publication_map.md](docs/publication_map.md)
-* **Research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
+* **Current integrated research status map — B3 through B26 + B23A:** [docs/research_status_map_B3_B26.md](docs/research_status_map_B3_B26.md)
+* **Historical research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
 * **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
 * **B26 terminal status update:** [docs/research_status_update_B26.md](docs/research_status_update_B26.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
-* 🇯🇵 **研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
+* 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
+* 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * 🇯🇵 **B24–B25 Phase-I 研究状況更新:** [docs/research_status_update_B24_B25_ja.md](docs/research_status_update_B24_B25_ja.md)
 * 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
 * 🇯🇵 **B26 研究状況更新:** [docs/research_status_update_B26_ja.md](docs/research_status_update_B26_ja.md)
@@ -72,12 +74,14 @@ Additional summary notes:
 
 A compact evidence map separating **model-level results** from **open hypotheses** is available here:
 
-- [BIG Research Status Map — B3 to B23](docs/research_status_map_B3_B23.md)
+- [Current integrated status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)
+- [Historical status map — B3 to B23](docs/research_status_map_B3_B23.md)
 - [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [B26 terminal status update](docs/research_status_update_B26.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
-- [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
+- [日本語版 — 現在の統合研究状況マップ B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)
+- [旧日本語版 — B3からB23まで](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
 - [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
 - [B26 日本語更新](docs/research_status_update_B26_ja.md)
