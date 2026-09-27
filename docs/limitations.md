@@ -238,6 +238,28 @@ None of B19--B23 proves Navier--Stokes blow-up, regularity, or singularity forma
 
 ---
 
+## 7C-A. B23A scope: structural universality audit
+
+B23A is a later universality-audit branch rooted in B20–B23 response geometry together with B9 and reduced free-boundary reconfiguration tests.
+
+Its purpose is not to regrade earlier local successes. It asks whether the same low-dimensional geometric quantities remain prospectively transferable after the family, topology, observable, or approach protocol is changed.
+
+The retained stage statuses are mixed and must remain separate:
+
+* P1: smooth-normal transfer to a new B9 reconfiguration family is **not supported**.
+* P2B: the connected/separated branch-orientation pattern is supported across three B9 families, but this is B9-internal and coordinate-orientation dependent.
+* P3: a piecewise/reset representation is supported for a topology-sensitive threshold-support geometry vector; this does not establish a universal non-topological outer-boundary reset law.
+* P4 and P5: stronger non-topological reset/locality hypotheses remain **INCONCLUSIVE_NUMERICAL_SENSITIVITY** because frozen resolution gates fail.
+* P6: the monotonic approach-rate ordering of the P5 locality contrast is **NOT_SUPPORTED** under the frozen prospective criterion; numerical integrity gates pass.
+
+B23A therefore does not establish one universal normal field, reset amplitude, locality contrast, critical rate, or cross-system quantitative law. Its strongest retained interpretation is formal/structural: branch identity and reconfiguration can be represented in a shared mathematical language while coefficients and predictive quantities remain system- or regime-dependent.
+
+The B23A P1–P6 branch is terminally closed. A later exploratory P7 would not retroactively alter these retained verdicts.
+
+**Reserved DOI:** https://doi.org/10.5281/zenodo.22994445
+
+---
+
 ## 7D. B24–B25 scope: cross-sector audit and predictive boundary-functional transfer
 
 B24 tests whether previously developed BIG sectors already share a nontrivial operation-preserving common mathematical core. The B24.2 audit retains the verdict **MULTIPLE_BOUNDARY_CLASSES_INDICATED**. Generic boundary notation, chain-rule identities, and the standard coarea formula are not counted as BIG-specific unifying laws.
