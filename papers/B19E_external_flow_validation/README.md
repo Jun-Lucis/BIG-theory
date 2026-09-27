@@ -252,4 +252,4 @@ Primary claim-bearing local artifacts:
 - `B19E_B_FINAL_BUDGET_SUMMARY_v1_0.json`
 - `B19E_B_FINAL_INDEPENDENT_AUDIT_v1_0.json`
 
-A separate formal B19E paper / Zenodo publication is still in preparation. This README records the final audited repository status and should not be mistaken for a completed external publication.
+A formal English preprint v1.0 and Japanese reference translation have now been prepared in a pre-deposition package. A Zenodo DOI has not yet been reserved or published. This README records the final audited repository status; the Zenodo record will become the canonical academic citation after deposition.
