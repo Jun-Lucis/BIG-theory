@@ -34,6 +34,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B17    | Stored history versus readable history                      | Moving-boundary-frame readability                   |
 | B18    | Boundary readout operators                                  | Interface-core path exposure                        |
 | B19    | Boundary-core channel diagnostics                           | Direction-dependent upstream channel families       |
+| B19E   | External flow validation and local-budget audit              | Frozen external incremental-information test and exact local-budget bookkeeping |
 | B20    | Finite-window response boundaries                           | Operator-generated response geometry in parameter space |
 | B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
 | B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
