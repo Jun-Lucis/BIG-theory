@@ -52,10 +52,12 @@ Key overview and reference documents:
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
 * **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
 * **B26 terminal status update:** [docs/research_status_update_B26.md](docs/research_status_update_B26.md)
+* **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * 🇯🇵 **B24–B25 Phase-I 研究状況更新:** [docs/research_status_update_B24_B25_ja.md](docs/research_status_update_B24_B25_ja.md)
 * 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
 * 🇯🇵 **B26 研究状況更新:** [docs/research_status_update_B26_ja.md](docs/research_status_update_B26_ja.md)
+* 🇯🇵 **B23A 構造的普遍性と限界:** [docs/research_status_update_B23A_ja.md](docs/research_status_update_B23A_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
 
@@ -74,10 +76,12 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [B26 terminal status update](docs/research_status_update_B26.md)
+- [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [日本語版 — B3からB23まで、何が成立し何がまだ仮説か](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
 - [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
 - [B26 日本語更新](docs/research_status_update_B26_ja.md)
+- [B23A 日本語更新](docs/research_status_update_B23A_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
 
@@ -87,9 +91,13 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B26 preprint DOI:** https://doi.org/10.5281/zenodo.22972985
 
+**B23A reserved DOI:** https://doi.org/10.5281/zenodo.22994445
+
 Current one-sentence status:
 
 > **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
+
+**B23A closes a separate universality-audit branch rooted in B20–B23 and B9/free-boundary reconfiguration tests.** Its prospective P1–P6 sequence does not support one transferable smooth normal, reset amplitude, locality contrast, or monotonic rate law. The retained interpretation is narrower: fixed-branch local geometry and piecewise branch/reconfiguration descriptions can remain useful while quantitative coefficients and predictors remain system- or regime-dependent.
 
 ---
 
@@ -178,6 +186,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B21 | Local kinematic closure of moving response boundaries | [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure) |
 | B22 | Prospective finite-resolution geometry of response boundaries | [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry) |
 | B23 | Cross-branch short-horizon geometric prediction | [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction) |
+| B23A | Structural universality audit and tested limits | [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits) |
 | B24–B25 | Cross-sector audit and predictive boundary-functional transfer | [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer) |
 | B26 | Geometry-transfer boundary of fixed-coefficient perimeter closure | [papers/B26_topology_realized_fixed_sigma_transfer](papers/B26_topology_realized_fixed_sigma_transfer) |
 
@@ -296,7 +305,7 @@ B12 is a reduced variational-stochastic model. It is not a completed physical un
 ---
 
 
-# Visual guide to B13--B23
+# Visual guide to B13--B26
 
 The later B-series shifts from state selection and history to moving-boundary readout and finite-window response geometry. The figures below are representative diagnostics; the Zenodo records remain the canonical source for complete results and reproducibility material.
 
@@ -413,6 +422,24 @@ The original aggregate plan remains **INCONCLUSIVE** because the symmetric predi
 
 ---
 
+## BIG-B23A: Structural universality and its limits
+
+**Main idea:** B23A asks how far the local response geometry and reconfiguration language can be transferred before the quantitative description breaks. It uses prospectively frozen tests across a new B9 reconfiguration family and reduced free-boundary merger protocols.
+
+The retained P1–P6 evidence is mixed by design: smooth-normal transfer is not supported in the new B9 family; a B9-internal branch-orientation pattern survives a third family; a topology-sensitive piecewise/reset representation is supported in P3; stronger non-topological reset/locality claims become numerically inconclusive in P4–P5; and the final held-out monotonic rate-ordering hypothesis is not supported in P6 with all integrity gates passing.
+
+The terminal synthesis is therefore:
+
+> **formal / structural comparability can survive even when one transferable quantitative boundary law does not.**
+
+**Main entry:** [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits)
+
+**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
+
+**Scope:** B23A does not establish a universal reset law, response-normal field, critical rate, cross-system quantitative universality, continuum theorem, physical-space interface law, or Navier--Stokes result. Earlier positive, inconclusive, and negative verdicts are retained without retrospective upgrading.
+
+---
+
 ## BIG-B24–B25: From cross-sector audit to predictive boundary-functional transfer
 
 **Main idea:** B24 asked whether the earlier BIG sectors already shared one substantive operation-preserving mathematical core. Under frozen source-audit and mapping rules, they did not; the retained verdict was `MULTIPLE_BOUNDARY_CLASSES_INDICATED`.
@@ -470,6 +497,7 @@ boundary formation
     -> local kinematic closure of moving response geometry
     -> prospective finite-resolution curvature and normal rotation
     -> cross-branch short-horizon geometric prediction
+    -> structural-universality audit and prospective transfer limits
     -> cross-sector common-core audit
     -> predictive boundary-functional transfer
 ```
@@ -495,6 +523,7 @@ In particular:
 * BIG-B21 tests a local finite-dimensional kinematic identity; it does not establish continuum Hessian existence, an invariant manifold, a physical-space boundary law, or a new equation of motion.
 * BIG-B22 tests finite-resolution local geometry and sequential held-out forecasts; it does not establish a continuum curvature theorem, a universal boundary-evolution law, or a T0-only two-step forecast.
 * BIG-B23 tests cross-branch short-horizon transfer of finite-resolution response geometry; its original aggregate plan remains INCONCLUSIVE and supplementary repaired/corrected runs are not counted as original-plan successes.
+* BIG-B23A prospectively audits structural versus quantitative universality across reconfiguration families. P3 supports a topology-sensitive piecewise/reset representation, P4–P5 remain numerically inconclusive for stronger reset/locality claims, and P6 does not support the frozen monotonic rate-ordering hypothesis. These outcomes do not establish one transferable quantitative BIG boundary law.
 * BIG-B24 does not establish one universal common operator across the audited sectors; its frozen cross-sector verdict is **MULTIPLE_BOUNDARY_CLASSES_INDICATED**.
 * BIG-B25 Phase I supports a prospective level-resolved transfer relation in the tested canonical p=4 model. Phase II further supports fixed-coefficient perimeter closure within the tested finite-resolution ellipse family, while the first two-center B9-like geometry-transfer protocol is `IMPLEMENTATION_INVALID` and does not establish geometry-family or topology transfer. Earlier negative and inconclusive verdicts remain unchanged.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
@@ -562,6 +591,7 @@ Current entries include:
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
+| B23A | Structural universality and its tested limits | reserved DOI: https://doi.org/10.5281/zenodo.22994445 |
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 | B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |
@@ -598,7 +628,8 @@ BIG-theory/
 │   ├── B20_response_boundaries/
 │   ├── B21_local_kinematic_closure/
 │   ├── B22_prospective_local_geometry/
-│   └── B23_cross_branch_geometric_prediction/
+│   ├── B23_cross_branch_geometric_prediction/
+│   └── B23A_structural_universality_limits/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
