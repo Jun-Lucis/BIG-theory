@@ -77,6 +77,8 @@ Key overview and reference documents:
 * **Citation policy:** [docs/citation_policy.md](docs/citation_policy.md)
 * 🇯🇵 **引用方針:** [docs/citation_policy_ja.md](docs/citation_policy_ja.md)
 * **GitHub release history / context:** [docs/release_history.md](docs/release_history.md)
+* **Programme synthesis v1.0:** [papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
+* **B19-B26 programme closeout:** [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
 
 Additional summary notes:
 
@@ -95,6 +97,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [B26 terminal status update](docs/research_status_update_B26.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
+- [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
+- [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
 - [日本語版 — 現在の統合研究状況マップ B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)
 - [旧日本語版 — B3からB23まで](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
@@ -612,6 +616,7 @@ Current entries include:
 | B18 | Boundary readout operators | https://zenodo.org/records/22690970 |
 | B19 | Boundary-core channel diagnostics | https://zenodo.org/records/22726848 |
 | B19 follow-up | Finite-time response-boundary diagnostics | https://zenodo.org/records/22769513 |
+| B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
 | B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
@@ -701,6 +706,8 @@ For claims about the evidential status of several B-series together, cite the re
 - B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
+- B19-B26 programme synthesis: [papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md) (standalone DOI pending)
+- B19-B26 closeout record: [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
 
 ### Specific numerical / structural claim
 
