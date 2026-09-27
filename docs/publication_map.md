@@ -2,6 +2,13 @@
 
 This page summarizes the current publication and record structure of **Boundary Information Geometry (BIG)**.
 
+For the current evidence-level synthesis across the programme, see:
+
+- [Integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
+- [日本語版 — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
+
+The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
+
 BIG is a developing boundary-centered research programme. The entries below should be read as a map of reduced models, numerical studies, and structural comparisons, not as a single completed physical theory.
 
 ---
