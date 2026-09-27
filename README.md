@@ -70,6 +70,8 @@ Key overview and reference documents:
 * 🇯🇵 **B23A 構造的普遍性と限界:** [docs/research_status_update_B23A_ja.md](docs/research_status_update_B23A_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
+* **Citation policy:** [docs/citation_policy.md](docs/citation_policy.md)
+* 🇯🇵 **引用方針:** [docs/citation_policy_ja.md](docs/citation_policy_ja.md)
 
 Additional summary notes:
 
@@ -669,14 +671,38 @@ Large raw datasets should preferably be archived on Zenodo. GitHub should contai
 
 ## Recommended citation
 
-For general discussion of the BIG research programme, cite the GitHub repository:
+BIG uses a three-level citation policy.
+
+### Repository / living documentation
+
+For the repository as a whole, current documentation, or the living integrated status map:
 
 ```text
 Lucis, J. Boundary Information Geometry (BIG). GitHub repository.
 https://github.com/Jun-Lucis/BIG-theory
 ```
 
-For specific numerical or structural claims, please cite the corresponding Zenodo DOI.
+For an exact repository state, include the Git commit SHA.
+
+### Programme-level synthesis
+
+For claims about the evidential status of several B-series together, cite the relevant archived status record. Examples include:
+
+- B3–B23 programme status: https://doi.org/10.5281/zenodo.22939024
+- B23A structural-universality audit: https://doi.org/10.5281/zenodo.22994445
+- B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
+- B25 Phase II: https://doi.org/10.5281/zenodo.22967474
+- B26: https://doi.org/10.5281/zenodo.22972985
+
+### Specific numerical / structural claim
+
+For a result tied to one B-series experiment, cite the **specific Zenodo paper that reports that result**, not only the repository or a broad status document.
+
+See:
+
+- [Citation policy](docs/citation_policy.md)
+- [日本語引用方針](docs/citation_policy_ja.md)
+- [Publication map / DOI index](docs/publication_map.md)
 
 ---
 
