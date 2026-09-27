@@ -43,6 +43,6 @@ This status update is deliberately terminal for the P1–P6 branch. No P7 rescue
 
 ## Publication
 
-**Reserved DOI:** https://doi.org/10.5281/zenodo.22994445
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
 
 The English preprint is authoritative; the same release includes a Japanese reference translation and reproducibility material.
