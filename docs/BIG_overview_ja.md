@@ -1,38 +1,37 @@
 # 境界情報幾何学（BIG）日本語概要
 
-**境界情報幾何学（Boundary Information Geometry; BIG）** は、Jun Lucis による境界中心の研究プログラムです。
+**境界情報幾何学（Boundary Information Geometry; BIG）** は、Jun Lucis による境界中心の数理・数値研究プログラムです。
 
-BIG の出発点は、次の直感です。
+BIGでは、境界を、動的な場、幾何コスト、履歴を持つinterface、readout構造、branch / reconfiguration geometry、あるいは作用素生成response zero setとして明示的にモデル化し、その局所構造と予測可能性を検査します。
 
-> 個体性や安定性は、系の「内部」だけで決まるのではない。
-> それは、系を分け、保ち、変形し、相互作用を媒介する「境界」によって形成される。
+現在のprogramme-levelの結論は限定的です。
 
-ここでいう境界は、単なる輪郭や外縁ではありません。
-BIGでは、境界を、個体性・安定性・情報保持・相互作用・分離・捕獲・継承を担う能動的な構造として扱います。
+> **BIGは、系固有の境界幾何・応答・履歴・branch structure・reconfigurationを比較するための共通形式言語を提供する。現時点の証拠は、programme全体に一つの普遍的定量境界則があることを確立していない。**
 
-BIGは、完成された物理理論として提示されるものではありません。
-現在のBIGは、境界形成、非同化、有限時間安定性、分離、捕獲、継承に加えて、観測様状態選択、境界履歴、移動境界での読み出し、境界コア・チャネル、有限時間応答境界、その局所運動学的閉包までを扱う、数理モデル・数値実験・構造比較からなる発展中の研究プログラムです。
+この結論には、positive resultだけでなく、negative、inconclusive、implementation-invalid、geometry-transfer failureも含まれます。局所またはfamily-restrictedな構造は複数のprospective testで保持されましたが、それをprogramme全体の定量的普遍則へ拡張する検査では限界も明確になっています。
+
+現在の統合研究状況は、[B3からB26＋B23Aの統合research status map](research_status_map_B3_B26_ja.md) にまとめています。
+
+BIGは、完成された物理理論として提示されるものではありません。物理・生物・認知・AI・宇宙論を一つの普遍則で説明することも、現段階では主張していません。
 
 ---
 
-## 1. 基本思想
+## 1. 概念的動機
 
-BIGの中心には、**非同化的境界** という考え方があります。
+BIGの出発点には、**非同化的境界** という考え方があります。
 
-個体が個体として存在するためには、他者や外部と完全に混ざり合ってしまってはいけません。
-一方で、完全に閉じてしまえば、相互作用も共鳴も起こりません。
+> 個体性や安定性は、系の「内部」だけで決まるのではない。
+> 系を分け、保ち、変形し、相互作用を媒介する境界も重要な役割を持ち得る。
 
-したがって、安定した個は、
+個が個として存在するには、外部と完全に同化しない一方、完全に閉鎖されてもいない構造が必要かもしれません。この直感を、BIGではそのまま自然法則として採用するのではなく、縮約された数理モデルへ落とし、個別に検査します。
 
-* 境界を保つ、
-* 完全同化に抵抗する、
-* 境界越しに相互作用する、
-* 外力や揺らぎの中で再編成される、
-* 場合によっては変形後も記憶を保持する、
+したがって「非同化的境界」はprogramme全体の証明済み命題ではなく、次のような検査可能な問いを作るための概念的動機です。
 
-という構造として理解できる可能性があります。
-
-この考えを、BIGでは縮約された数理モデルと数値実験によって調べています。
+* 境界はdistinctionを維持できるか。
+* interactionを許しながらtotal assimilationを避けられるか。
+* stressやtopology changeの下でreorganizationできるか。
+* historyを保持またはreadoutできるか。
+* branch-dependentなresponseを持つか。
 
 ---
 
@@ -127,6 +126,10 @@ BIGの現在の展開は、次のような系列として整理できます。
 | B20 | finite-window response boundary | 有限時間発展とreadoutからパラメータ空間の応答境界を定義 |
 | B21 | local kinematic closure | 移動する応答境界上で応答勾配の局所輸送を検査 |
 | B22 | prospective local geometry | 曲率・法線回転・主方向の有限解像度測定と逐次前向き検査 |
+| B23 | cross-branch geometric prediction | Family-C内でshort-horizon local geometryのbranch transferを検査 |
+| B23A | structural universality audit | smooth transfer、reset、locality、rate orderingのprospective限界を検査 |
+| B24–B25 | cross-sector transfer | native common operatorの監査からlevel-resolved / fixed-coefficient transferへ進む |
+| B26 | geometry-transfer boundary | fixed perimeter coefficientをnew two-center familyでprospectiveに検査しtransfer limitを確定 |
 
 ---
 

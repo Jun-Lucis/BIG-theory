@@ -4,20 +4,28 @@
 > 境界情報幾何学（BIG）の日本語での概要はこちら：
 > [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
 >
-> 境界情報幾何学（BIG）は、「境界」を個体性・安定性・非同化・共鳴・継承の中心に置く、発展中の数理・数値研究プログラムです。
+> 境界情報幾何学（BIG）は、境界・応答・履歴・分枝・再構成を、縮約数理モデルと前向き数値検査によって調べる研究プログラムです。現在の証拠は、系固有の境界幾何を比較する共通形式を支持しますが、programme全体に一つの普遍的定量境界則があることは確立していません。
 
 ---
 
-**Boundary Information Geometry (BIG)** is a boundary-centered research programme developed by **Jun Lucis**.
+**Boundary Information Geometry (BIG)** is a boundary-centered mathematical and numerical research programme developed by **Jun Lucis**.
 
-BIG starts from a simple organizing idea:
+BIG studies reduced systems in which boundaries are made explicit as dynamical fields, geometric costs, history-bearing interfaces, readout structures, branch/reconfiguration geometry, or operator-generated response zero sets.
 
-> Stable individuality is not only a property of what is inside a system.
-> It is also formed, maintained, and transformed by boundaries.
+The current programme-level conclusion is deliberately limited:
 
-In BIG, boundaries are not passive edges. They are active structures that separate, preserve, mediate, deform, reconnect, fail, or transmit memory-like structure across interaction.
+> **BIG provides a common formal language for comparing system-dependent boundary geometry, response, history, branch structure, and reconfiguration. Current evidence does not establish one universal numerical boundary law across the programme.**
 
-BIG is **not presented as a completed physical theory**. It is a developing framework of reduced mathematical models, numerical experiments, structural comparisons, and cautious exploratory extensions.
+This conclusion comes from both positive and limiting results. Local or family-restricted structures have repeatedly survived prospective tests, while stronger transfer claims have also produced retained negative, inconclusive, implementation-invalid, and geometry-transfer-failure outcomes.
+
+For the current evidence map, start here:
+
+- **[Integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
+- 🇯🇵 **[統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
+
+The original conceptual motivation remains important but should be distinguished from the evidential claims: BIG explores whether boundaries can help organize individuality, stability, non-assimilation, interaction, memory, separation, capture, and reconfiguration. These broader interpretations are motivations and structural comparisons unless a specific reduced model and test support a narrower statement.
+
+BIG is **not presented as a completed physical theory** and does not claim a universal law spanning physics, biology, cognition, AI, or cosmology.
 
 ---
 
@@ -105,19 +113,22 @@ Current one-sentence status:
 
 ---
 
-## Core idea
+## Conceptual motivation
 
-The central intuition of BIG is that individuality and persistence require **non-assimilative boundaries**.
+A recurring BIG motivation is that individuality and persistence may depend on **non-assimilative boundaries**: structures that preserve distinction while still allowing interaction.
 
-A boundary must be strong enough to preserve distinction, but not so closed that interaction becomes impossible. Stable systems may therefore be understood as structures that:
+This is a conceptual organizing principle, not a programme-wide theorem. In the mathematical and numerical work, it is operationalized only through specific reduced models whose claims are narrower and testable.
 
-* maintain a boundary,
-* resist total assimilation,
-* interact across the boundary,
-* reorganize under stress,
-* and sometimes preserve memory through transformation.
+Those models examine whether a boundary can:
 
-This idea is explored through reduced mathematical motifs such as compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, prospective finite-resolution geometry of moving response boundaries, cross-branch short-horizon geometric prediction, cross-sector source auditing, and predictive boundary-functional transfer.
+* maintain a distinguishable state,
+* resist complete assimilation,
+* mediate interaction,
+* reorganize under stress or topology change,
+* retain or expose history,
+* and support branch-dependent response.
+
+The corresponding mathematical motifs include compact boundary layers, quadratic landing, quartic-gradient stiffness, finite-time separatrix thresholds, boundary-energy competition, finite-noise capture, hidden-depth inheritance, observation-like state selection, boundary history, moving-boundary readout, boundary-core channels, finite-time response geometry, local kinematic closure, prospective finite-resolution geometry, cross-branch prediction, structural-universality auditing, and predictive boundary-functional transfer.
 
 ---
 
