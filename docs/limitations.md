@@ -256,7 +256,7 @@ B23A therefore does not establish one universal normal field, reset amplitude, l
 
 The B23A P1–P6 branch is terminally closed. A later exploratory P7 would not retroactively alter these retained verdicts.
 
-**Reserved DOI:** https://doi.org/10.5281/zenodo.22994445
+**B23A DOI:** https://doi.org/10.5281/zenodo.22994445
 
 ---
 
