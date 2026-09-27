@@ -11,6 +11,26 @@ For the current programme-wide evidence map, see:
 
 ---
 
+## status-2026-09 — 2026-09-27
+
+**Current GitHub status release:**  
+https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
+
+**Release title:**  
+`BIG Research Status — B3–B26 + B23A (September 2026)`
+
+This is the **current repository-level research-status snapshot**. It does not replace the individual Zenodo papers.
+
+The release records the current programme-level synthesis:
+
+> **BIG provides a common formal language for comparing system-dependent boundary geometry, response, history, branch structure, and reconfiguration. Current evidence does not establish one universal numerical boundary law across the programme.**
+
+It points readers to the one-page technical summary, the integrated B3–B26 + B23A evidence map, and the publication/DOI map.
+
+This release supersedes `v1.0` only as the **Latest Release / current status snapshot**. The earlier `v1.0` remains preserved as a historical record of the early B3/B4 numerical phase.
+
+---
+
 ## v1.0 — 2026-06-06
 
 **Tag:** `v1.0`  

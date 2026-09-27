@@ -112,6 +112,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B23A preprint DOI:** https://doi.org/10.5281/zenodo.22994445
 
+**Current GitHub status release:** https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
+
 Current one-sentence status:
 
 > **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
