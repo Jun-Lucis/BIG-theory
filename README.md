@@ -206,6 +206,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B17 | Stored history versus locally readable history | [papers/B17_readable_history](papers/B17_readable_history) |
 | B18 | Boundary-dependent readout and interface-core path exposure | [papers/B18_boundary_readout_operators](papers/B18_boundary_readout_operators) |
 | B19 | Direction-dependent boundary-core channel diagnostics | [papers/B19_boundary_core_channels](papers/B19_boundary_core_channels) |
+| B19E | Prospective external validation and exact local-budget audit | [papers/B19E_external_flow_validation](papers/B19E_external_flow_validation) |
 | B20 | Operator-generated finite-window response boundaries | [papers/B20_response_boundaries](papers/B20_response_boundaries) |
 | B21 | Local kinematic closure of moving response boundaries | [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure) |
 | B22 | Prospective finite-resolution geometry of response boundaries | [papers/B22_prospective_local_geometry](papers/B22_prospective_local_geometry) |

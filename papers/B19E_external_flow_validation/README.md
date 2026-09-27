@@ -1,85 +1,255 @@
-# BIG-B19E — External Flow Validation
+# BIG-B19E — External Flow Validation and Local-Budget Audit
 
 **Author:** Jun Lucis  
-**Status:** DESIGN ACTIVE; B19E.0 frozen before JHTDB field query  
-**Parent arc:** B19 boundary-core / vorticity diagnostics  
-**Primary external dataset:** JHTDB `isotropic1024coarse`  
-**B19E.0 semantic SHA-256:** `8fa8123f1346183d1032036d1195bad053752305e473c26842812bedd5d441a1`
+**Status:** CLOSED — primary external holdout and Stage-B local-budget audit completed  
+**Date:** 2026-09-27
+
+## Final executed external system
+
+The final frozen B19E execution used the independently maintained **TIDE** solver rather than the earlier JHTDB candidate described in preliminary design notes.
+
+**External solver:** TIDE  
+**Repository:** `Dyloong1/TIDE-dataset-benchmark`  
+**Frozen commit:** `464882a26e29afff2fd9c4520873407d47ceb830`  
+**Primary numerical grid:** (N=160), fp64
+
+The verified TIDE formulation is rotational-form incompressible Navier–Stokes with stochastic OU forcing and (2/3) dealiasing. The B19E source audit froze the relevant solver semantics before the final claim-bearing stages.
+
+---
 
 ## Purpose
 
-B19E asks whether boundary/core geometry developed independently within BIG carries prospective predictive information when transferred to an independently generated high-resolution Navier–Stokes DNS.
+B19E asks whether a small set of B19-derived boundary/core descriptors carries **prospective incremental predictive information** about finite-window Lagrangian vorticity amplification beyond a strong standard local-flow baseline.
 
-The primary question is deliberately stronger than a literal replay of one B19 scalar threshold:
+The primary comparison is deliberately not a replay of one synthetic B19 threshold. B19 itself did not support one robust ray-independent upstream scalar classifier.
 
-> Do BIG-style boundary/core geometric descriptors add held-out predictive information about future Lagrangian vorticity amplification beyond a strong classical local-flow baseline?
-
-The first target dataset is the Johns Hopkins Turbulence Database forced isotropic turbulence simulation, `isotropic1024coarse`.
-
-## Why B19E does not force a universal B19 threshold
-
-The B19 programme found direction-dependent channel families rather than a robust ray-independent upstream scalar reduction. Later finite-window studies also showed that detected growth/decay boundaries depend on observation horizon. B19E therefore treats horizon as part of the prediction problem and tests incremental external predictive information rather than demanding recovery of one synthetic-family threshold.
-
-## Frozen external time split
-
-The split is fixed before any B19E field-level performance study:
-
-- development: t0 = 1.0, 1.5, 2.0
-- calibration/model selection: t0 = 3.5, 4.0
-- primary holdout: t0 = 6.5, 7.0
-- replication holdout: t0 = 9.0, 9.5
-
-Primary horizon: Δt = 0.05  
-Secondary horizon: Δt = 0.10
-
-Primary/replication holdout fields and future outcomes must remain unopened until the B19E.2 predictor and evaluation rules are frozen.
-
-## Primary target
-
-For an initial point x0, B19E will use JHTDB particle tracking and define a Lagrangian vorticity-amplification target,
+The frozen primary models were:
 
 [
-Y_{Delta t}
-=
-log
-rac{|omega(X(t_0+Delta t),t_0+Delta t)|+epsilon}
-{|omega(x_0,t_0)|+epsilon}.
+M_2=
+{
+|omega|,|S|,Q,R,
+	ext{strain-eigenvector alignments},
+p_0=omegacdot Somega
+},
 ]
 
-The primary endpoint is continuous Y at Δt=0.05. Binary amplification sign and Δt=0.10 are secondary.
+and
 
-## Classical baseline
+[
+M_{m full}
+=
+M_2+
+{
+C_{m coh},
+Theta_{m signed},
+B_{m proxy}
+}.
+]
 
-The classical pointwise baseline is intentionally strong and may include:
+Here the B19 additions are the frozen gate/coherence/balance descriptors. No future-response quantity was used as a predictor.
 
-- vorticity magnitude;
-- normalized stretching (omega^T Somega/|omega|^2);
-- strain eigenvalues;
-- vorticity/strain-eigenvector alignments;
-- velocity-gradient invariants Q and R.
+---
 
-## BIG geometry layer
+## A1 — Frozen prospective external holdout
 
-A spatially spread subcohort will receive t0-only local neighborhood queries. Candidate geometry descriptors include connected relative-vorticity core volume, boundary-area proxy, compactness, anisotropy, centroid offset, boundary-thickness proxy, vorticity-direction coherence, signed-stretching fractions, and core-versus-boundary stretching contrast.
+### Holdout design
 
-Development may choose among a small predeclared set of neighborhood scales using development/calibration data only. The final representation must be frozen before holdout access.
+The final untouched holdout used:
 
-## Stage structure
+- flow realizations / seeds: **4 and 5**;
+- total rows: **1536**;
+- development training seeds: **0, 1, 2** only;
+- validation seed 3 excluded from final model fitting;
+- frozen ridge regularization: (alpha=10) for both models;
+- primary target: finite-window continuous Lagrangian response at the frozen (1	au_eta) horizon;
+- final uncertainty: hierarchical bootstrap over realization, anchor, and spatial block.
 
-- **B19E.0 — External Dataset Audit and Measurement Contract**  
-  Interface, metadata, component ordering, derivative reconstruction, periodic wrapping, particle tracking, repeatability. No predictive-transfer claim.
+No feature, gate, neighborhood, horizon, threshold, or model rescue was permitted after holdout access.
 
-- **B19E.1 — Development and Diagnostic Translation**  
-  Development/calibration blocks only. Build the strong classical baseline and select the frozen external boundary/core representation.
+### Primary result
 
-- **B19E.2 — Frozen Prospective External Validation**  
-  Untouched primary and replication holdouts. Formal external-transfer verdict.
+The frozen primary holdout produced
 
-- **B19E.3 — Cross-flow replication**  
-  Optional later replication in a second external flow family after B19E.2 is closed.
+[
+R^2(M_2)=0.3285226325,
+]
 
-## Claim boundary
+[
+R^2(M_{m full})=0.3256768635,
+]
 
-A positive B19E result would support only that the frozen BIG boundary/core geometry carries incremental prospective information in the tested external DNS beyond the chosen baseline.
+so that
 
-B19E does not establish a Navier–Stokes blow-up criterion, regularity theorem, universal turbulence law, laboratory validation, or universal BIG scalar threshold.
+[
+Delta R^2
+=
+R^2(M_{m full})-R^2(M_2)
+=
+-0.0028457690.
+]
+
+The frozen hierarchical bootstrap 95% interval was
+
+[
+[-0.0101698477,;0.0042158635].
+]
+
+The formal decision rule required:
+
+- positive support only if (Delta R^2>0) and the lower 95% bound (>0);
+- a negative verdict only if the upper 95% bound (<0);
+- otherwise null / inconclusive.
+
+Therefore the retained final A1 verdict is
+
+[
+oxed{	exttt{NULL_OR_INCONCLUSIVE}}.
+]
+
+The point estimate is slightly negative, but the interval crosses zero. B19E therefore does **not** establish incremental predictive information from the frozen B19 additions beyond (M_2), and it also does not support a stronger negative-universality conclusion.
+
+### Per-realization and sensitivity checks
+
+The per-seed primary increments were:
+
+[
+Delta R^2_{m seed,4}=-0.00402531,
+]
+
+[
+Delta R^2_{m seed,5}=-0.00151885.
+]
+
+A uniform-only sensitivity analysis gave
+
+[
+Delta R^2=-0.00465919.
+]
+
+Secondary frozen horizons produced small positive (Delta R^2) values, but they are secondary by design and do not replace or rescue the primary result.
+
+The saved audit explicitly records:
+
+[
+	exttt{no_rescue_performed=true}.
+]
+
+---
+
+## B — Exact finite-control-volume local budget
+
+Stage B was frozen after the A1 null/inconclusive result and was explicitly defined as **not an A1 rescue**.
+
+It used two new TIDE realizations, seeds **6 and 7**, and evaluated **4608** finite-control-volume rows.
+
+The resolved local enstrophy budget was
+
+[
+dot Z_Omega
+=
+P-D+A+V_b+F+C_{m filt},
+]
+
+where:
+
+- (P): stretching production;
+- (D): viscous volume loss;
+- (A): advective transport;
+- (V_b): viscous boundary transport;
+- (F): forcing contribution;
+- (C_{m filt}): resolved spectral filter/dealias commutator.
+
+The historical B19-style local proxy is only
+
+[
+B_{m proxy}=P-D.
+]
+
+### Closure result
+
+Across all 4608 rows:
+
+- minimum (k_{max}eta): **1.6301**;
+- median relative closure error: **4.87×10⁻¹⁷**;
+- maximum relative closure error: **8.44×10⁻¹⁶**.
+
+The frozen budget gate passed:
+
+[
+oxed{	exttt{BUDGET_CLOSURE_PASS}}.
+]
+
+This is an implementation/bookkeeping result: the resolved local operator budget closes to near machine precision.
+
+It is **not** independent evidence for B19 predictive universality.
+
+### Primary 16(eta) control-volume result
+
+At the primary side length (16eta):
+
+- proxy sign agreement: **0.5625**;
+- median proxy relative error: **0.85155**;
+- Spearman correlation (B_{m proxy}) vs. (dot Z_Omega): **0.15894**.
+
+The omitted correction was dominated by advective transport. The median absolute advective contribution was approximately **0.8043**, compared with approximately **0.0889** for viscous boundary transport, **0.0345** for forcing, and **0.0040** for the filter commutator.
+
+The proxy improves as control-volume size increases, but remains weak at the tested local scales.
+
+Thus:
+
+> exact local budget closure does not imply that (P-D) is a sufficient low-dimensional local predictor.
+
+The Stage-B audit explicitly preserves
+
+[
+	exttt{A1_rescue=false}.
+]
+
+---
+
+## Integrated interpretation
+
+The combined B19/B19E result is narrower than a universal boundary-core law.
+
+B19 found direction-dependent upstream channel families rather than one robust ray-independent scalar threshold.
+
+B19E then tested whether three frozen B19 additions supplied incremental external predictive information beyond a strong standard baseline. The primary held-out answer is **NULL_OR_INCONCLUSIVE**.
+
+The exact local-budget extension shows that part of the limitation is mechanistic: finite-volume local evolution contains transport and boundary terms that are omitted by the simple (P-D) proxy.
+
+The strongest retained interpretation is therefore:
+
+> **B19-style boundary/core structure remains a useful diagnostic language, but the tested frozen additions do not establish a transferable low-dimensional predictive law in the executed external TIDE validation.**
+
+---
+
+## What B19E does not establish
+
+B19E does **not** establish:
+
+- a Navier–Stokes blow-up or regularity criterion;
+- a universal turbulence law;
+- a universal BIG scalar threshold;
+- a universal invariant manifold;
+- a universal boundary/core predictor;
+- laboratory validation;
+- a negative theorem excluding all possible boundary/core information.
+
+The final A1 result is specifically a null/inconclusive incremental-information result for the frozen model, features, holdout protocol, and TIDE realization family.
+
+---
+
+## Provenance
+
+Primary claim-bearing local artifacts:
+
+- `B19E_A1_FINAL_HOLDOUT_FREEZE_v1_0.json`
+- `B19E_A1_FINAL_HOLDOUT_RESULT_v1_0.json`
+- `B19E_A1_FINAL_HOLDOUT_AUDIT_v1_0.json`
+- `B19E_B_TIDE_SOURCE_AUDIT_v1_0.json`
+- `B19E_B_FINITE_CONTROL_VOLUME_PREDECLARATION_v1_0.json`
+- `B19E_B_FINAL_BUDGET_SUMMARY_v1_0.json`
+- `B19E_B_FINAL_INDEPENDENT_AUDIT_v1_0.json`
+
+A separate formal B19E paper / Zenodo publication is still in preparation. This README records the final audited repository status and should not be mistaken for a completed external publication.

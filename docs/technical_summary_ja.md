@@ -43,6 +43,7 @@ uapprox2) が頑健に現れる。
 後半では、局所成功をより広い定量法則へ昇格できるかを意図的に検査しました。
 
 - **B19:** 検査したray-independent upstream scalar collapseは得られない。
+- **B19E:** frozen TIDE holdoutでは、3つのB19追加量はstrong baselineを越える追加予測情報を確立せず（\(\Delta R^2=-0.00285\)、95% CIは0を跨ぐ）、判定は **NULL_OR_INCONCLUSIVE**。別Stageのexact local budgetはほぼmachine precisionで閉じたが、primary predictive resultは救済しない。
 - **B20.6:** frozen finite-distance crossingはinformative caseが1件だけで **INCONCLUSIVE**。
 - **B23:** branch-transfer evidenceは良好だが、endpoint近傍2対象で凍結したsymmetric-window ruleが実行不能だったため、元のaggregate planは **INCONCLUSIVE**。
 - **B23A:** 新B9 familyへのsmooth-normal transferは支持されず、P3ではtopology-sensitiveなpiecewise/reset representationを支持。P4–P5の強いnon-topological reset/locality主張は数値的にinconclusive。新規held-out条件のP6ではmonotonic rate-ordering仮説は、numerical integrity gate通過後に **NOT SUPPORTED**。
