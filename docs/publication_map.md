@@ -573,6 +573,31 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 ---
 
+## B19E — external validation / local-budget audit
+
+**Status:** final audited repository result; formal standalone paper / Zenodo record still in preparation
+
+The final executed external-validation branch uses the independently maintained **TIDE** solver at commit `464882a26e29afff2fd9c4520873407d47ceb830`.
+
+Frozen A1 primary holdout result:
+
+```text
+holdout seeds: 4, 5
+rows: 1536
+Delta R^2: -0.00284577
+hierarchical 95% CI: [-0.01016985, 0.00421586]
+formal verdict: NULL_OR_INCONCLUSIVE
+```
+
+A separate frozen Stage-B audit on new seeds 6–7 closes the resolved finite-control-volume local enstrophy budget to near machine precision, but this does not rescue or modify the A1 predictive result.
+
+**Repository entry:**  
+[papers/B19E_external_flow_validation](../papers/B19E_external_flow_validation)
+
+No DOI is assigned yet.
+
+---
+
 ## Working programme-synthesis draft
 
 ### From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry
