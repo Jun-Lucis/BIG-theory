@@ -43,6 +43,7 @@ uapprox2) の二乗着地が頑健に現れる。 | 一般的universality class�
 | **B16** | moving free boundaryは履歴を保持し再利用できるか | retained historyがfeedbackを通じて後の局所応答を変えることをkept/erased・shifted-stimulus controlで分離。 | 高次元の一般memory lawや外部較正は未確立。 | **縮約PDEで成立** |
 | **B17–B18** | 保存された履歴の何が動的に読まれるか | global history massより、locally/path-readable historyが後の応答をよく整理し、B18ではinterface/core-gated readout operatorとして表現。 | 普遍的memory/readout operatorは未確立。 | **readout原理を数値的に支持** |
 | **B19** | finite-window増大/減衰を単一upstream scalarで整理できるか | 検査したsingle observable / two-coordinate screenではray-independent collapseが得られず、direction-dependent channel familyの方が適切。 | Navier–Stokesの普遍指数、global separatrix、blow-up/regularity criterionではない。 | **重要な否定結果＋構造結果** |
+| **B19E** | frozen B19 boundary/core追加量は独立maintained flow solverでprospectiveな追加情報を持つか。exact local budgetは閉じるか | TIDE holdout（seed 4–5、1536 rows）では strong baseline に対する追加予測情報は確立せず、\(\Delta R^2=-0.00285\)、hierarchical 95% CI \([-0.01017,0.00422]\)、判定 **NULL_OR_INCONCLUSIVE**。別のStage-B（seed 6–7）ではresolved local budgetがほぼmachine precisionで閉じたが、primary local scaleで単純な \(P-D\) proxy は弱い。 | universal turbulence predictorやnegative theoremではない。budget closureはbookkeeping/mechanism結果でありprimary predictive resultを救済しない。 | **external predictive null/inconclusive＋exact budget closure** |
 | **B20** | finite-window response zero setをoperator-generated boundaryとして扱えるか | (mathcal B_T={P:F_T(P)=0}) の到達可能性はdirection-dependent。frozen normalized 4D Family-Cではlocal normalが安定し、未知directional derivativeを前向き予測。B20.6はinformative crossingが1件だけで **INCONCLUSIVE**。 | global smoothness、invariant manifold、universal separatrixは未確立。 | **局所response geometry成立／finite-distance evidenceは未完** |
 | **B21** | response gradientの運動は局所kinematic transportで閉じるか | (Dg/dT=partial_Tg+H_Sdot P_B) と有限解像度で整合し、追加effective boundary-dynamical termを要求する再現可能残差は分離されない。 | 新しい運動方程式やcontinuum Hessian theoremではない。 | **局所kinematic closureを数値確認** |
 | **B22** | 二次局所幾何で未知の未来境界を予測できるか | restricted Hessian、曲率、法線回転、主方向が検査尺度で安定し、一つのreserved branchで2段のheld-out forecastが凍結gateを通過。 | continuum curvature theorem、普遍的boundary law、T0-only長期予測ではない。 | **一分枝でprospective finite-resolution geometry成立** |
@@ -70,7 +71,7 @@ B13–B18
 observation-like update、明示的history、readable history、boundary-dependent readout
 
 B19–B23
-finite-window channel構造とoperator-generated local response geometry
+finite-window channel構造、external validation、operator-generated local response geometry
 
 B23A
 そのgeometry / reconfiguration languageがどこまでtransferできるかのprospective audit
