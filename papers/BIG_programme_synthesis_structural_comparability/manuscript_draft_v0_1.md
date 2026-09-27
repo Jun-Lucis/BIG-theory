@@ -596,6 +596,7 @@ Key published programme records include:
 
 - B19 integrated record: https://zenodo.org/records/22726848
 - B19 finite-time response follow-up: https://zenodo.org/records/22769513
+- B19E external validation and local-budget audit: https://doi.org/10.5281/zenodo.22996961
 - B20: https://doi.org/10.5281/zenodo.22846729
 - B21: https://doi.org/10.5281/zenodo.22876813
 - B22: https://doi.org/10.5281/zenodo.22893912
@@ -605,4 +606,4 @@ Key published programme records include:
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 
-The B19E numerical values in Section 5 come from the audited final local artifacts dated 27 September 2026. A formal B19E preprint package has been prepared with reserved Zenodo DOI https://doi.org/10.5281/zenodo.22996961. The DOI is not treated as published until deposition is completed. This programme synthesis should not be treated as publication-ready until that B19E deposition/citation path is complete.
+The B19E numerical values in Section 5 are now anchored to the published Zenodo record https://doi.org/10.5281/zenodo.22996961. The B19E deposition/citation dependency is resolved. This programme synthesis remains a working manuscript and still requires its own editorial finalization before any publication-ready version is declared.
