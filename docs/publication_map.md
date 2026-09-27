@@ -596,34 +596,32 @@ A separate frozen Stage-B audit on new seeds 6–7 closes the resolved finite-co
 **Repository entry:**  
 [papers/B19E_external_flow_validation](../papers/B19E_external_flow_validation)
 
-No DOI is assigned yet.
+The Zenodo DOI above is the canonical academic citation for BIG-B19E v1.0.
 
 ---
 
-## Working programme-synthesis draft
+## Programme synthesis - preprint v1.0
 
 ### From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry
 
-**Status:** working manuscript draft; not a formal publication  
-**DOI:** none assigned
+**Status:** finalized preprint v1.0; standalone synthesis DOI not yet assigned  
+**DOI:** pending only if the synthesis is deposited as its own Zenodo record
 
-This draft synthesizes the later B19–B26 evidence around the distinction between structural/formal comparability and quantitative universality. It preserves null, inconclusive, implementation-invalid, and transfer-failure results rather than retrospectively regrading them.
+This synthesis integrates the later B19-B26 evidence around the distinction between structural/formal comparability and quantitative universality. It preserves positive, null, inconclusive, implementation-invalid, and transfer-failure outcomes without retrospective regrading.
 
-The B19E external-validation material is currently included as an audited programme result pending a separate formal publication path. The synthesis should therefore not be treated as publication-ready until the B19/B19E citation path is completed.
+The B19E publication dependency is resolved under DOI https://doi.org/10.5281/zenodo.22996961. The synthesis therefore closes the present evidential programme and hands any new claim-bearing work to a new B-series.
 
-**Draft entry:**  
-[papers/BIG_programme_synthesis_structural_comparability](../papers/BIG_programme_synthesis_structural_comparability)
+**Final manuscript:**  
+[papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](../papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
+
+**Programme closeout record:**  
+[docs/programme_closeout_B19_B26.md](programme_closeout_B19_B26.md)
 
 ---
 
 ## Future updates
 
-Planned repository work now focuses on:
-
-* lightweight per-series landing pages for B13--B23,
-* representative figures and compact summary data where useful,
-* reproducibility links to the corresponding Zenodo archives,
-* and continued separation of model-level results from domain-specific interpretation.
+Repository maintenance after closeout focuses on lightweight documentation, representative figures, reproducibility links, and preservation of claim boundaries. New claim-bearing computation is not treated as an extension of the closed B19-B26 programme; it begins under a new B-series identifier and a fresh predeclaration.
 
 
 ---
