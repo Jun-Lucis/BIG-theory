@@ -43,6 +43,7 @@ uapprox2).
 The later programme deliberately tested whether local successes could be promoted into broader quantitative laws.
 
 - **B19:** no robust tested ray-independent upstream scalar collapse.
+- **B19E:** in the frozen TIDE holdout, the three B19 additions did not establish incremental predictive information beyond the strong baseline (\(\Delta R^2=-0.00285\), 95% CI crossing zero; **NULL_OR_INCONCLUSIVE**). A separate exact local-budget stage closed to near machine precision but did not rescue the predictive result.
 - **B20.6:** only one informative frozen finite-distance crossing; verdict remains **INCONCLUSIVE**.
 - **B23:** favorable branch-transfer evidence, but the original aggregate protocol remains **INCONCLUSIVE** because two endpoint-near targets could not be evaluated under the frozen symmetric-window rule.
 - **B23A:** smooth-normal transfer to a new B9 family is not supported; topology-sensitive piecewise/reset structure is supported in P3; stronger non-topological reset/locality tests P4–P5 remain numerically inconclusive; the held-out P6 monotonic rate-ordering hypothesis is **NOT SUPPORTED** with numerical integrity gates passing.
