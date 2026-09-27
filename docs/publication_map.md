@@ -29,6 +29,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B21    | Local kinematic closure                                       | Hessian transport along a moving response boundary       |
 | B22    | Prospective local geometry                                    | Curvature, normal rotation, and sequential held-out forecasts |
 | B23    | Cross-branch short-horizon geometric prediction               | Transfer of local response geometry across predeclared branches |
+| B23A   | Structural universality audit and tested limits                 | Prospective boundary of quantitative transfer across reconfiguration tests |
 | B24–B25 | Cross-sector audit and boundary-functional transfer            | Failure-guided construction of a prospective transfer map |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry transfer | Prospective reduction to a fixed perimeter coefficient; geometry-transfer boundary test |
 | B26 | Topology localization and two-center geometry transfer | Terminal prospective test of fixed-coefficient transfer across a localized topology transition |
@@ -56,6 +57,7 @@ boundary formation
     -> local kinematic closure of moving response geometry
     -> prospective finite-resolution curvature and normal rotation
     -> cross-branch short-horizon geometric prediction
+    -> structural-universality audit and prospective transfer limits
     -> cross-sector common-core audit
     -> predictive boundary-functional transfer
     -> topology-localized two-center geometry-transfer test
@@ -484,6 +486,27 @@ B23 is therefore evidence for short-horizon cross-branch transfer under the test
 https://doi.org/10.5281/zenodo.22936794
 
 The English preprint is authoritative; the Zenodo release also contains a Japanese reference translation and a compact reproducibility package.
+
+---
+
+### B23A: Structural universality and its tested limits
+
+**Theme:** A terminal prospective audit of how far local response geometry and reconfiguration descriptions transfer across new families, observables, and merger protocols.
+
+B23A separates structural/formal universality from quantitative universality. P1 does not support smooth-normal transfer in a new B9 reconfiguration family. P2B retains a B9-internal connected/separated branch-orientation pattern in a third family. P3 supports a piecewise/reset representation for a topology-sensitive threshold-support geometry vector, but a post-hoc outer-boundary-only diagnostic does not support the stronger interpretation that non-topological outer geometry must reset.
+
+P4 and P5 then remove progressively more topology-sensitive targets but remain **INCONCLUSIVE_NUMERICAL_SENSITIVITY** under their frozen resolution gates. P6 prospectively tests the post-hoc P5 approach-rate trend on nine new midpoint speeds at both N=256 and N=320. All integrity gates pass, but the frozen primary monotonic-rate criterion does not pass at either resolution. The terminal verdict is **NOT_SUPPORTED_RATE_ORDERED_LOCAL_RESPONSE_RECONFIGURATION**.
+
+The retained programme-level interpretation is intentionally narrower:
+
+> **BIG may provide a common formal language for system-dependent boundary geometry without supplying one universal numerical boundary law.**
+
+Earlier B20–B23 local results are not revoked; B23A limits their extrapolation to wider quantitative universality.
+
+**Reserved Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.22994445
+
+The English preprint is authoritative; the same release includes a Japanese reference translation and reproducibility material.
 
 ---
 
