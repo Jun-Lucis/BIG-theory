@@ -573,6 +573,22 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 ---
 
+## Working programme-synthesis draft
+
+### From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry
+
+**Status:** working manuscript draft; not a formal publication  
+**DOI:** none assigned
+
+This draft synthesizes the later B19–B26 evidence around the distinction between structural/formal comparability and quantitative universality. It preserves null, inconclusive, implementation-invalid, and transfer-failure results rather than retrospectively regrading them.
+
+The B19E external-validation material is currently included as an audited programme result pending a separate formal publication path. The synthesis should therefore not be treated as publication-ready until the B19/B19E citation path is completed.
+
+**Draft entry:**  
+[papers/BIG_programme_synthesis_structural_comparability](../papers/BIG_programme_synthesis_structural_comparability)
+
+---
+
 ## Future updates
 
 Planned repository work now focuses on:
