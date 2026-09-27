@@ -575,7 +575,7 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 ## B19E — external validation / local-budget audit
 
-**Status:** final audited repository result; formal standalone paper / Zenodo record still in preparation
+**Status:** formal English preprint v1.0 + Japanese reference translation prepared; pre-deposition package ready; Zenodo DOI not yet reserved
 
 The final executed external-validation branch uses the independently maintained **TIDE** solver at commit `464882a26e29afff2fd9c4520873407d47ceb830`.
 
