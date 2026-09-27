@@ -45,6 +45,6 @@ P1–P6 系列はここで閉じます。P7 による事後的な救済探索は
 
 ## 公開
 
-**予約 DOI:** https://doi.org/10.5281/zenodo.22994445
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
 
 英語 preprint を正式版とし、同じ Zenodo release に日本語参考翻訳と再現性資料を含めます。
