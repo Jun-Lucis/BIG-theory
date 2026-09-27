@@ -24,6 +24,6 @@ The draft preserves negative, inconclusive, implementation-invalid, and geometry
 
 ## Publication dependency
 
-The B19E external-validation material is included here as an audited programme result with a formal preprint package now prepared under reserved Zenodo DOI https://doi.org/10.5281/zenodo.22996961. The DOI is not yet treated as published. The synthesis manuscript should not be treated as final until the B19E deposition/citation path is completed.
+The B19E external-validation material is now anchored to the published Zenodo record https://doi.org/10.5281/zenodo.22996961. The B19E deposition/citation dependency is therefore resolved. The synthesis manuscript remains a working draft pending its own editorial finalization and publication decision.
 
 No DOI has been assigned to this draft.
