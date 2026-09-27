@@ -91,7 +91,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B26 preprint DOI:** https://doi.org/10.5281/zenodo.22972985
 
-**B23A reserved DOI:** https://doi.org/10.5281/zenodo.22994445
+**B23A preprint DOI:** https://doi.org/10.5281/zenodo.22994445
 
 Current one-sentence status:
 
@@ -434,7 +434,7 @@ The terminal synthesis is therefore:
 
 **Main entry:** [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits)
 
-**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
 
 **Scope:** B23A does not establish a universal reset law, response-normal field, critical rate, cross-system quantitative universality, continuum theorem, physical-space interface law, or Navier--Stokes result. Earlier positive, inconclusive, and negative verdicts are retained without retrospective upgrading.
 
@@ -591,7 +591,7 @@ Current entries include:
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
-| B23A | Structural universality and its tested limits | reserved DOI: https://doi.org/10.5281/zenodo.22994445 |
+| B23A | Structural universality and its tested limits | https://doi.org/10.5281/zenodo.22994445 |
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 | B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |

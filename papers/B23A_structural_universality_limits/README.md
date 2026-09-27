@@ -92,7 +92,7 @@ Together, the two branches point in the same cautious direction: useful local or
 
 ## Publication
 
-**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22994445
 
 The English preprint is the authoritative version. A Japanese reference translation and reproducibility archive are included in the Zenodo publication package.
 

@@ -503,7 +503,7 @@ The retained programme-level interpretation is intentionally narrower:
 
 Earlier B20–B23 local results are not revoked; B23A limits their extrapolation to wider quantitative universality.
 
-**Reserved Zenodo DOI:**  
+**Zenodo DOI:**  
 https://doi.org/10.5281/zenodo.22994445
 
 The English preprint is authoritative; the same release includes a Japanese reference translation and reproducibility material.
