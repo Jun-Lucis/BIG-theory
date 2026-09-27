@@ -76,6 +76,7 @@ Key overview and reference documents:
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
 * **Citation policy:** [docs/citation_policy.md](docs/citation_policy.md)
 * 🇯🇵 **引用方針:** [docs/citation_policy_ja.md](docs/citation_policy_ja.md)
+* **GitHub release history / context:** [docs/release_history.md](docs/release_history.md)
 
 Additional summary notes:
 
