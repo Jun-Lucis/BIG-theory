@@ -18,8 +18,10 @@ The current programme-level conclusion is deliberately limited:
 
 This conclusion comes from both positive and limiting results. Local or family-restricted structures have repeatedly survived prospective tests, while stronger transfer claims have also produced retained negative, inconclusive, implementation-invalid, and geometry-transfer-failure outcomes.
 
-For the current evidence map, start here:
+For a fast technical orientation, start here:
 
+- **[One-page technical summary](docs/technical_summary.md)**
+- 🇯🇵 **[1ページ技術サマリー](docs/technical_summary_ja.md)**
 - **[Integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
 - 🇯🇵 **[統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
@@ -56,6 +58,8 @@ Key overview and reference documents:
 
 * 🇯🇵 **Japanese overview:** [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
 * **Publication map:** [docs/publication_map.md](docs/publication_map.md)
+* **One-page technical summary:** [docs/technical_summary.md](docs/technical_summary.md)
+* 🇯🇵 **1ページ技術サマリー:** [docs/technical_summary_ja.md](docs/technical_summary_ja.md)
 * **Current integrated research status map — B3 through B26 + B23A:** [docs/research_status_map_B3_B26.md](docs/research_status_map_B3_B26.md)
 * **Historical research status map — B3 to B23:** [docs/research_status_map_B3_B23.md](docs/research_status_map_B3_B23.md)
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
