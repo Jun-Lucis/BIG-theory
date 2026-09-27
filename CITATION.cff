@@ -1,8 +1,15 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite it as below and cite the relevant Zenodo record for specific B-series results."
+message: "For use of the repository as a whole, cite this repository. For programme-level synthesis, cite the relevant BIG status record; for a specific numerical or structural claim, cite the corresponding Zenodo paper. See docs/citation_policy.md."
 title: "Boundary Information Geometry (BIG)"
 authors:
   - family-names: "Lucis"
     given-names: "Jun"
 repository-code: "https://github.com/Jun-Lucis/BIG-theory"
 url: "https://github.com/Jun-Lucis/BIG-theory"
+keywords:
+  - "Boundary Information Geometry"
+  - "boundary geometry"
+  - "free boundary"
+  - "response geometry"
+  - "history"
+  - "reconfiguration"
