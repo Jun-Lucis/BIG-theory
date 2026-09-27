@@ -605,4 +605,4 @@ Key published programme records include:
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 
-The B19E numerical values in Section 5 come from the audited final local artifacts dated 27 September 2026. A separate formal B19E paper/record should be completed before this programme synthesis is treated as publication-ready.
+The B19E numerical values in Section 5 come from the audited final local artifacts dated 27 September 2026. A formal B19E preprint package has been prepared with reserved Zenodo DOI https://doi.org/10.5281/zenodo.22996961. The DOI is not treated as published until deposition is completed. This programme synthesis should not be treated as publication-ready until that B19E deposition/citation path is complete.
