@@ -124,6 +124,8 @@ Current one-sentence status:
 
 **B23A closes a separate universality-audit branch rooted in B20–B23 and B9/free-boundary reconfiguration tests.** Its prospective P1–P6 sequence does not support one transferable smooth normal, reset amplitude, locality contrast, or monotonic rate law. The retained interpretation is narrower: fixed-branch local geometry and piecewise branch/reconfiguration descriptions can remain useful while quantitative coefficients and predictors remain system- or regime-dependent.
 
+**Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here. New claim-bearing computation begins under a new B-series with a fresh predeclaration; archived verdicts are not retroactively upgraded.**
+
 ---
 
 ## Conceptual motivation
