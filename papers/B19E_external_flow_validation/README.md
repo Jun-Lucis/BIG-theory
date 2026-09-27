@@ -252,4 +252,8 @@ Primary claim-bearing local artifacts:
 - `B19E_B_FINAL_BUDGET_SUMMARY_v1_0.json`
 - `B19E_B_FINAL_INDEPENDENT_AUDIT_v1_0.json`
 
-A formal English preprint v1.0 and Japanese reference translation have now been prepared in a pre-deposition package. A Zenodo DOI has not yet been reserved or published. This README records the final audited repository status; the Zenodo record will become the canonical academic citation after deposition.
+A formal English preprint v1.0 and Japanese reference translation have now been prepared in a DOI-embedded pre-deposition package.
+
+**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22996961
+
+The DOI is reserved but should not be treated as a published Zenodo record until deposition is completed. DOI insertion changes no scientific result, protocol, verdict, or claim boundary. This README records the final audited repository status; the Zenodo record will become the canonical academic citation after deposition.

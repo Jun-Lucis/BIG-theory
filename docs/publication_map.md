@@ -575,7 +575,11 @@ Readers should not treat all statements as having the same evidential status. Nu
 
 ## B19E — external validation / local-budget audit
 
-**Status:** formal English preprint v1.0 + Japanese reference translation prepared; pre-deposition package ready; Zenodo DOI not yet reserved
+**Status:** formal English preprint v1.0 + Japanese reference translation prepared; DOI-embedded pre-deposition package ready
+
+**Reserved Zenodo DOI:** https://doi.org/10.5281/zenodo.22996961
+
+The DOI is reserved but the Zenodo record is not yet treated here as published.
 
 The final executed external-validation branch uses the independently maintained **TIDE** solver at commit `464882a26e29afff2fd9c4520873407d47ceb830`.
 
