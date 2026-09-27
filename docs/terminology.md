@@ -305,6 +305,34 @@ A structural correspondence is not the same as a quantitative physical predictio
 
 ---
 
+## Structural universality
+
+**Structural universality** means that different systems can share an abstract organization — for example boundary, response, branch, reconfiguration, and history — without sharing the same numerical coefficients or detailed geometry.
+
+In the B23A usage, structural universality is deliberately weaker than a universal law.
+
+---
+
+## Formal universality
+
+**Formal universality** means that the same mathematical language can be used to define comparable objects across systems, such as response zero sets, local normals, tangent geometry, branch identity, or piecewise reconfiguration maps.
+
+Formal universality does not require those objects to have the same numerical values or predictive coefficients in every system.
+
+A compact B23A formulation is:
+
+> a universal formalism for system-dependent boundary geometry
+
+---
+
+## Quantitative universality
+
+**Quantitative universality** would require a stronger transfer claim: the same small set of numerical predictors, coefficients, reset amplitudes, or rate laws would retain prospective predictive value across systems or realization families.
+
+B23A does **not** establish this stronger level. Its P1–P6 sequence instead identifies prospective limits on smooth-normal transfer, non-topological reset locality, and monotonic rate ordering.
+
+---
+
 ## Reduced model
 
 A **reduced model** is a simplified mathematical model designed to isolate a structural mechanism.
