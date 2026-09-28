@@ -2,7 +2,7 @@
 
 ## From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry
 
-**Status:** finalized preprint v1.0; reserved Zenodo DOI 10.5281/zenodo.23006170  
+**Status:** finalized preprint v1.0; Zenodo DOI 10.5281/zenodo.23006170  
 **Author:** Jun Lucis  
 **Scope:** programme-level synthesis centered on B19-B26, including B19E and B23A, with B3-B18 used as background context
 
@@ -24,7 +24,7 @@ The synthesis preserves positive, null, inconclusive, implementation-invalid, an
 
 The B19E publication dependency is resolved. BIG-B19E v1.0 is formally archived under DOI https://doi.org/10.5281/zenodo.22996961.
 
-The synthesis has reserved Zenodo DOI https://doi.org/10.5281/zenodo.23006170. The record is planned for deposit on 28 September 2026; until the Zenodo record is finalized, treat this as a reserved DOI rather than a published record.
+The synthesis is published on Zenodo at https://doi.org/10.5281/zenodo.23006170.
 
 ## Closure
 
