@@ -15,6 +15,7 @@ The synthesis preserves positive, null, inconclusive, implementation-invalid, an
 ## Files
 
 - [Final preprint v1.0](manuscript_v1_0.md)
+- [Japanese reference translation v1.0](manuscript_japanese_reference_v1_0.md)
 - [Historical working draft v0.1](manuscript_draft_v0_1.md)
 - [Zenodo metadata proposal](zenodo_metadata_v1_0.md)
 - [Programme closeout record](../../docs/programme_closeout_B19_B26.md)
