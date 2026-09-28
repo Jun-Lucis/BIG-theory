@@ -78,3 +78,13 @@ The P1 stage measures only the connected pre-reconfiguration anchor and freezes 
 - [B27.2-P1 machine-readable protocol](B27_2_P1_FROZEN_protocol_v1_0.json)
 
 No disconnected B27.2 post-target response had been evaluated when these files were frozen.
+
+
+## B27.2 status
+
+- [B27.2-P1 frozen training anchor](B27_2_P1_FROZEN_training_anchor_v1_0.md)
+- [B27.2-P1 result record](B27_2_P1_RESULT_RECORD_v1_0.md)
+- [B27.2-P1R frozen continuation anchor](B27_2_P1R_FROZEN_training_anchor_v1_0.md)
+- [B27.2-P1R machine-readable protocol](B27_2_P1R_FROZEN_protocol_v1_0.json)
+
+B27.2-P1 completed with `P1_ANCHOR_TOPOLOGY_GATE_FAIL`: direct initialization at delta=4.90 produced two threshold components at both claim resolutions, so its provisional covariance gate is not adopted. No post-reconfiguration target was run. P1R prospectively switches to a continuation-prepared connected anchor before any target evaluation.
