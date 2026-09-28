@@ -60,3 +60,21 @@ P0 is non-claim-bearing. It selected the converged primary readout and numerical
 - [B27.1 result record](B27_1_RESULT_RECORD_v1_0.md)
 
 **Formal B27.1 verdict:** `HISTORY_RESPONSE_GEOMETRY_PASS` (4/4 held-out angles passed the frozen structural gate at both resolutions; all numerical validity gates passed).
+
+
+## B27.2-P1 frozen training anchor
+
+B27.2 does not compare absolute response geometry directly. It isolates the history-induced response deformation
+
+[
+H_G = G_{\rm kept}-G_{\rm erased},
+qquad
+L_G = H_G/\|H_G\|_F.
+]
+
+The P1 stage measures only the connected pre-reconfiguration anchor and freezes the numerical covariance floor before any post-reconfiguration target is evaluated.
+
+- [B27.2-P1 frozen training-anchor protocol](B27_2_P1_FROZEN_training_anchor_v1_0.md)
+- [B27.2-P1 machine-readable protocol](B27_2_P1_FROZEN_protocol_v1_0.json)
+
+No disconnected B27.2 post-target response had been evaluated when these files were frozen.
