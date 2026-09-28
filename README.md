@@ -65,12 +65,14 @@ Key overview and reference documents:
 * **B24–B25 Phase-I status update:** [docs/research_status_update_B24_B25.md](docs/research_status_update_B24_B25.md)
 * **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
 * **B26 terminal status update:** [docs/research_status_update_B26.md](docs/research_status_update_B26.md)
+* **B27 history-response and reconfiguration closeout:** [docs/research_status_update_B27.md](docs/research_status_update_B27.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
 * 🇯🇵 **B24–B25 Phase-I 研究状況更新:** [docs/research_status_update_B24_B25_ja.md](docs/research_status_update_B24_B25_ja.md)
 * 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
 * 🇯🇵 **B26 研究状況更新:** [docs/research_status_update_B26_ja.md](docs/research_status_update_B26_ja.md)
+* 🇯🇵 **B27 研究状況更新:** [docs/research_status_update_B27_ja.md](docs/research_status_update_B27_ja.md)
 * 🇯🇵 **B23A 構造的普遍性と限界:** [docs/research_status_update_B23A_ja.md](docs/research_status_update_B23A_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
@@ -97,6 +99,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B24–B25 Phase-I status update](docs/research_status_update_B24_B25.md)
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [B26 terminal status update](docs/research_status_update_B26.md)
+- [B27 history-response and reconfiguration closeout](docs/research_status_update_B27.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
@@ -106,6 +109,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
 - [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
 - [B26 日本語更新](docs/research_status_update_B26_ja.md)
+- [B27 日本語更新](docs/research_status_update_B27_ja.md)
 - [B23A 日本語更新](docs/research_status_update_B23A_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
@@ -226,6 +230,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B23A | Structural universality audit and tested limits | [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits) |
 | B24–B25 | Cross-sector audit and predictive boundary-functional transfer | [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer) |
 | B26 | Geometry-transfer boundary of fixed-coefficient perimeter closure | [papers/B26_topology_realized_fixed_sigma_transfer](papers/B26_topology_realized_fixed_sigma_transfer) |
+| B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
