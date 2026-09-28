@@ -99,4 +99,13 @@ B27.2-P1 completed with `P1_ANCHOR_TOPOLOGY_GATE_FAIL`: direct initialization at
 - [B27.2 frozen prospective predeclaration](B27_2_FROZEN_predeclaration_v1_0.md)
 - [B27.2 frozen machine protocol](B27_2_FROZEN_protocol_v1_0.json)
 
-P1R reproduced a connected pre-anchor at both claim resolutions and froze the B27.2 covariance gate at **0.010** before any post-reconfiguration response. B27.2 v1.0 tests three new connected-to-disconnected targets with the topology-only map (A=I_5).
+P1R reproduced a connected pre-anchor at both claim resolutions and froze the B27.2 covariance gate at **0.010** before any post-reconfiguration response.
+
+B27.2 then completed all three frozen connected-to-disconnected targets. All three were numerically valid, but their frozen lineage defects were 0.1118248844, 0.1276381141, and 0.1450767448, all above the PASS threshold 0.010 and PARTIAL ceiling 0.030.
+
+**Formal B27.2 verdict:** `RECONFIGURATION_COVARIANCE_FAIL`.
+
+- [B27.2 terminal result record](B27_2_RESULT_RECORD_v1_0.md)
+- [B27 programme closeout](B27_CLOSEOUT_v1_0.md)
+
+Per the frozen stop rule, B27.3 is not run. B27 is closed: retained history prospectively changes local response geometry, but that normalized history-induced response geometry does not remain invariant across the tested topology reconfiguration. Any new transport/covariance mapping hypothesis belongs to B28 or later.
