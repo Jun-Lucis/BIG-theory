@@ -1,0 +1,65 @@
+{
+  "protocol_id": "BIG_B27_2_P1_PRE_RECONFIGURATION_LINEAGE_ANCHOR_v1_0",
+  "status": "FROZEN_BEFORE_B27_2_P1_TRAINING_ANCHOR_RUN",
+  "freeze_date": "2026-09-28",
+  "role": "training/calibration side only; no post-reconfiguration target",
+  "parent_B27_1_verdict": "HISTORY_RESPONSE_GEOMETRY_PASS",
+  "lineage_object": {
+    "H_G": "G_kept-G_erased",
+    "L_G": "H_G/||H_G||_F",
+    "purpose": "isolate history-induced response geometry from background current-shape response"
+  },
+  "pre_anchor": {
+    "delta": 4.9,
+    "orientation_deg": 0,
+    "baseline_T": 20,
+    "required_component_count": 1,
+    "resolutions": [
+      128,
+      160
+    ]
+  },
+  "history_write": {
+    "ray_angle_deg": 40,
+    "amplitude": 0.035,
+    "sigma": 0.35,
+    "duration": 0.8,
+    "rest_duration": 1,
+    "feedback_during_write": 0,
+    "eta_read": 10
+  },
+  "response_measurement": {
+    "read_T": 0.25,
+    "dt_by_resolution": {
+      "128": 0.003,
+      "160": 0.0025
+    },
+    "probe_h_primary": 0.001,
+    "probe_h_secondary": 0.002,
+    "probe_basis": [
+      "l0",
+      "l1_x",
+      "l1_y",
+      "l2_cos",
+      "l2_sin"
+    ],
+    "primary_readout": [
+      "A/A_anchor",
+      "cx/R_anchor",
+      "cy/R_anchor",
+      "q1",
+      "q2"
+    ]
+  },
+  "gate_freeze_rule": {
+    "epsilon_pre": "max(L_probe_defect_N128,L_probe_defect_N160,L_cross_resolution_defect,0.003)",
+    "epsilon_cov_resolved": "3*epsilon_pre rounded upward to next 0.001",
+    "must_freeze_before_post_targets": true
+  },
+  "forbidden": [
+    "post-target response in P1",
+    "post-target scalar fit",
+    "response-derived rotation",
+    "P0 topology promotion"
+  ]
+}
