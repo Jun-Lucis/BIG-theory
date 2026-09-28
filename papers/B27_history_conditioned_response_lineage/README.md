@@ -88,3 +88,15 @@ No disconnected B27.2 post-target response had been evaluated when these files w
 - [B27.2-P1R machine-readable protocol](B27_2_P1R_FROZEN_protocol_v1_0.json)
 
 B27.2-P1 completed with `P1_ANCHOR_TOPOLOGY_GATE_FAIL`: direct initialization at delta=4.90 produced two threshold components at both claim resolutions, so its provisional covariance gate is not adopted. No post-reconfiguration target was run. P1R prospectively switches to a continuation-prepared connected anchor before any target evaluation.
+
+
+## B27.2 topology-reconfiguration covariance
+
+- [B27.2-P1 failed-anchor result](B27_2_P1_RESULT_RECORD_v1_0.md)
+- [B27.2-P1R continuation-anchor predeclaration](B27_2_P1R_FROZEN_training_anchor_v1_0.md)
+- [B27.2-P1R machine protocol](B27_2_P1R_FROZEN_protocol_v1_0.json)
+- [B27.2-P1R valid-anchor result](B27_2_P1R_RESULT_RECORD_v1_0.md)
+- [B27.2 frozen prospective predeclaration](B27_2_FROZEN_predeclaration_v1_0.md)
+- [B27.2 frozen machine protocol](B27_2_FROZEN_protocol_v1_0.json)
+
+P1R reproduced a connected pre-anchor at both claim resolutions and froze the B27.2 covariance gate at **0.010** before any post-reconfiguration response. B27.2 v1.0 tests three new connected-to-disconnected targets with the topology-only map (A=I_5).
