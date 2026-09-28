@@ -17,14 +17,16 @@ A geometry-only split operator \(S_\Gamma\) maps the pre probe space into two ch
 ## Status
 
 - B28.0 architecture: frozen.
-- B28-P0: calibration-only firewall; no claim-bearing evidence yet.
+- B28-P0: calibration-only firewall frozen at v1.1; no claim-bearing evidence yet.
 - B28.1: not yet frozen.
 - B28.2: not yet frozen.
 
 ## Files
 
 - [B28.0 frozen architecture](B28_0_FROZEN_programme_architecture_v1_0.md)
-- [B28-P0 frozen calibration protocol](B28_P0_FROZEN_protocol_v1_0.json)
+- [B28-P0 frozen calibration predeclaration v1.1](B28_P0_FROZEN_predeclaration_v1_1.md)
+- [B28-P0 frozen calibration protocol v1.1](B28_P0_FROZEN_protocol_v1_1.json)
+- [B28-P0 superseded protocol v1.0](B28_P0_FROZEN_protocol_v1_0.json)
 - [Earlier non-frozen design draft](B28_0_DRAFT_architecture_v0_1.md)
 
 No B28 claim-bearing trajectory has been run at this point.
