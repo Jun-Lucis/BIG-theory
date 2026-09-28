@@ -24,11 +24,11 @@ Preprint / working paper
 ## License
 CC BY 4.0
 
-## Reserved DOI
+## DOI
 10.5281/zenodo.23006170
 
 ## DOI status
-Reserved for the planned Zenodo deposit. After the record is finalized, this DOI becomes the canonical citation for the programme synthesis.
+Published on Zenodo; this DOI is the canonical citation for the programme synthesis.
 
 ## Description
 This programme-level synthesis integrates the evidence from BIG-B19 through BIG-B26, including the B19E external-validation branch and the B23A structural-universality audit. The paper distinguishes structural, formal, and quantitative universality and preserves positive, null, inconclusive, implementation-invalid, and transfer-failure outcomes as part of the evidential record rather than retrospectively regrading them.
