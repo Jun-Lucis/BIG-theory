@@ -134,7 +134,7 @@ Current one-sentence status:
 
 **Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here; archived verdicts are not retroactively upgraded.**
 
-**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.
+**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 opened on 29 September 2026 under a new frozen architecture.** It does not assume response-lineage invariance. Instead, it tests whether a 1-to-2 topology split admits a geometry-conditioned, component-resolved transport from a five-mode pre probe space into two child-local five-mode post spaces. B28-P0 is calibration-only; no B28 claim-bearing trajectory has yet been run.
 
 ---
 
@@ -230,7 +230,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B23A | Structural universality audit and tested limits | [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits) |
 | B24–B25 | Cross-sector audit and predictive boundary-functional transfer | [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer) |
 | B26 | Geometry-transfer boundary of fixed-coefficient perimeter closure | [papers/B26_topology_realized_fixed_sigma_transfer](papers/B26_topology_realized_fixed_sigma_transfer) |
-| B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |
+| B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |\n| B28 | Geometry-conditioned component-resolved response-lineage transport | [papers/B28_geometry_conditioned_lineage_transport](papers/B28_geometry_conditioned_lineage_transport) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
