@@ -1,0 +1,58 @@
+{
+  "protocol_id": "BIG_B27_1_HISTORY_RESPONSE_GEOMETRY_v1_1",
+  "status": "FROZEN_BEFORE_FIRST_HELDOUT_B27_1_TRAJECTORY",
+  "freeze_date": "2026-09-28",
+  "supersedes": "BIG_B27_1_HISTORY_RESPONSE_GEOMETRY_v1_0",
+  "supersession_scope": "pre-run tightening of verdict/validity logic plus persistence only; no held-out trajectory had run",
+  "parent_calibration_status": "P0_EXECUTABILITY_PASS_NON_CLAIM_BEARING",
+  "heldout_angles_deg": [
+    30,
+    75,
+    165,
+    255
+  ],
+  "excluded_p0_angle_deg": 0,
+  "resolutions": [
+    128,
+    160
+  ],
+  "dt_by_resolution": {
+    "128": 0.003,
+    "160": 0.0025
+  },
+  "read_T": 0.25,
+  "eta_S": 10,
+  "probe_h_primary": 0.001,
+  "probe_h_secondary": 0.002,
+  "probe_basis": [
+    "l0",
+    "l1_x",
+    "l1_y",
+    "l2_cos",
+    "l2_sin"
+  ],
+  "primary_readout": [
+    "A/A_anchor",
+    "cx/R_anchor",
+    "cy/R_anchor",
+    "q1",
+    "q2"
+  ],
+  "G_num_floor": 0.003,
+  "G_resolved": 0.009,
+  "gain_num_floor": 0.005,
+  "gain_resolved": 0.015,
+  "max_probe_scale_G_defect": 0.001,
+  "max_cross_resolution_G_defect": 0.01,
+  "min_history_max": 0.0001,
+  "null_control_G_max": 0.003,
+  "null_control_gain_max": 0.005,
+  "angle_structural_rule": "Delta_G > 0.009 at both N=128 and N=160",
+  "angle_gain_only_rule": "Delta_gain > 0.015 at both resolutions and Delta_G <= 0.009 at both resolutions",
+  "verdict_logic": {
+    "invalid": "any mandatory validity gate fails -> INCONCLUSIVE",
+    "structural_pass": "at least 3 of 4 structural angles -> HISTORY_RESPONSE_GEOMETRY_PASS",
+    "gain_only": "otherwise at least 3 of 4 gain-only angles -> HISTORY_GAIN_ONLY",
+    "not_supported": "otherwise -> HISTORY_CONDITIONING_NOT_SUPPORTED"
+  }
+}
