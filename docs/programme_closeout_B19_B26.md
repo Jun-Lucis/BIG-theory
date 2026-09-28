@@ -2,7 +2,8 @@
 
 **Author:** Jun Lucis  
 **Date:** 27 September 2026  
-**Scope:** B19-B26, including the B19E external-validation branch and the B23A structural-universality audit branch
+**Scope:** B19-B26, including the B19E external-validation branch and the B23A structural-universality audit branch  
+**Programme synthesis reserved DOI:** 10.5281/zenodo.23006170
 
 ## Status
 
