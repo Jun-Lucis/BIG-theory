@@ -141,16 +141,27 @@ At the published B16 high-feedback endpoint \(\eta_S=10\), the pilot normalized-
 
 ## 6. P0 topology executability
 
-A normalized two-center source family with fixed total source integral was tested in lower-resolution calibration only.
+A normalized two-center source family with fixed total source integral was tested in the **final P0 run at the claim-resolution pair** \(N=128,160\), using a 20-unit source-reconfiguration relaxation.
 
-At both \(N=80\) and \(N=96\), after a 20-unit source-reconfiguration relaxation:
+At both resolutions:
 
-- \(\delta=5.25\) remained connected at the \(\phi=0.03\) threshold;
-- \(\delta=5.50\) was disconnected.
+- \(\delta=5.00\) produced one threshold component at \(\phi=0.03\);
+- \(\delta=5.25\) produced two threshold components;
+- \(\delta=5.50\) produced two threshold components.
 
-Thus the selected 2D core is capable of controlled threshold-topology reconfiguration. These P0 cases are permanently excluded from B27.2 evidence.
+The midpoint field values were, respectively, approximately \(0.03549,0.02976,0.02583\) at \(N=128\) and \(0.03535,0.02964,0.02574\) at \(N=160\).
 
-A separate B27.2 predeclaration will require topology realization again at its own frozen claim resolutions before any covariance verdict is allowed.
+Thus the final P0 run localized a finite-resolution topology change to the interval
+
+\[
+5.00 < \delta_* < 5.25
+\]
+
+for both tested resolutions.
+
+**Audit correction:** an earlier calibration note recorded lower-resolution exploratory topology values. The final P0 JSON run at \(N=128,160\) is canonical for B27 planning. This correction does not alter any claim-bearing B27.1 result because P0 is non-claim-bearing and all P0 topology cases remain excluded from B27.2 evidence.
+
+A separate B27.2 prospective protocol must realize topology again on new \(\delta\) values before any covariance verdict is allowed.
 
 ## 7. P0 outcome
 
