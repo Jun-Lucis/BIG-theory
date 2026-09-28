@@ -79,6 +79,7 @@ Key overview and reference documents:
 * **GitHub release history / context:** [docs/release_history.md](docs/release_history.md)
 * **Programme synthesis v1.0:** [papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 * **B19-B26 programme closeout:** [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
+* **B27 frozen programme architecture:** [papers/B27_history_conditioned_response_lineage/B27_0_FROZEN_programme_architecture_v1_0.md](papers/B27_history_conditioned_response_lineage/B27_0_FROZEN_programme_architecture_v1_0.md)
 
 Additional summary notes:
 
@@ -99,6 +100,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
+- [B27 frozen programme architecture](papers/B27_history_conditioned_response_lineage/B27_0_FROZEN_programme_architecture_v1_0.md)
 - [日本語版 — 現在の統合研究状況マップ B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)
 - [旧日本語版 — B3からB23まで](docs/research_status_map_B3_B23_ja.md)
 - [B24–B25 Phase-I 日本語更新](docs/research_status_update_B24_B25_ja.md)
@@ -118,7 +120,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Current GitHub status release:** https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
 
-**Programme synthesis reserved DOI:** https://doi.org/10.5281/zenodo.23006170
+**Programme synthesis DOI:** https://doi.org/10.5281/zenodo.23006170
 
 Current one-sentence status:
 
@@ -126,7 +128,9 @@ Current one-sentence status:
 
 **B23A closes a separate universality-audit branch rooted in B20–B23 and B9/free-boundary reconfiguration tests.** Its prospective P1–P6 sequence does not support one transferable smooth normal, reset amplitude, locality contrast, or monotonic rate law. The retained interpretation is narrower: fixed-branch local geometry and piecewise branch/reconfiguration descriptions can remain useful while quantitative coefficients and predictors remain system- or regime-dependent.
 
-**Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here. New claim-bearing computation begins under a new B-series with a fresh predeclaration; archived verdicts are not retroactively upgraded.**
+**Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here; archived verdicts are not retroactively upgraded.**
+
+**B27 opened on 28 September 2026 under a fresh frozen architecture.** It tests history-conditioned boundary response and reconfiguration covariance through a local response operator and normalized response pullback form. B27 begins with a calibration-only firewall before any claim-bearing trajectories.
 
 ---
 
