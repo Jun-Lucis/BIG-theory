@@ -1,0 +1,72 @@
+{
+  "protocol_id": "BIG_B27_2_P1R_CONTINUATION_ANCHOR_v1_0",
+  "status": "FROZEN_BEFORE_B27_2_P1R_RUN",
+  "freeze_date": "2026-09-28",
+  "parent_failed_stage": "BIG_B27_2_P1_PRE_RECONFIGURATION_LINEAGE_ANCHOR_v1_0",
+  "parent_failure": "P1_ANCHOR_TOPOLOGY_GATE_FAIL",
+  "post_targets_evaluated_before_freeze": 0,
+  "lineage_object": {
+    "H_G": "G_kept-G_erased",
+    "L_G": "H_G/||H_G||_F"
+  },
+  "preparation": {
+    "stage1": {
+      "source": "single_center_compact",
+      "duration": 20
+    },
+    "stage2": {
+      "source": "normalized_equal_two_center",
+      "delta": 4.75,
+      "orientation_deg": 0,
+      "duration": 20,
+      "eta": 0,
+      "history_write": false
+    }
+  },
+  "topology_required": {
+    "before_write": 1,
+    "at_anchor": 1,
+    "resolutions": [
+      128,
+      160
+    ]
+  },
+  "history_write": {
+    "ray_angle_deg": 55,
+    "amplitude": 0.035,
+    "sigma": 0.35,
+    "duration": 0.8,
+    "rest_duration": 1,
+    "eta_during_write": 0,
+    "eta_read": 10
+  },
+  "response": {
+    "read_T": 0.25,
+    "probe_h_primary": 0.001,
+    "probe_h_secondary": 0.002,
+    "probe_basis": [
+      "l0",
+      "l1_x",
+      "l1_y",
+      "l2_cos",
+      "l2_sin"
+    ],
+    "primary_readout": [
+      "A/A_anchor",
+      "cx/R_anchor",
+      "cy/R_anchor",
+      "q1",
+      "q2"
+    ]
+  },
+  "validity": {
+    "min_history_max": 0.0001,
+    "max_probe_scale_G_defect": 0.001,
+    "max_cross_resolution_G_defect": 0.01
+  },
+  "gate_freeze": {
+    "epsilon_pre": "max(L_probe_N128,L_probe_N160,L_cross_res,0.003)",
+    "epsilon_cov_resolved": "ceil_to_0.001(3*epsilon_pre)",
+    "freeze_before_post": true
+  }
+}
