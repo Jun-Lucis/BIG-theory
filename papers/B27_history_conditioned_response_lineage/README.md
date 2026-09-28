@@ -44,3 +44,18 @@ B27 does not test consciousness, subjective continuity, AI personhood, personal 
 ## Programme relation
 
 B27 begins after formal closure of B19-B26. It does not reopen or upgrade any archived verdict.
+
+
+## B27-P0 calibration
+
+- [P0 calibration record](B27_P0_CALIBRATION_RECORD_v1_0.md)
+- Colab notebook: `BIG_B27_P0_Calibration_v1_0.ipynb` (conversation artifact)
+
+P0 is non-claim-bearing. It selected the converged primary readout and numerical floors only.
+
+## B27.1 frozen test
+
+- [B27.1 frozen predeclaration](B27_1_FROZEN_predeclaration_v1_0.md)
+- [B27.1 machine-readable protocol](B27_1_FROZEN_protocol_v1_0.json)
+
+**No B27.1 claim-bearing trajectory had been evaluated when these files were frozen.**
