@@ -1,0 +1,143 @@
+{
+  "protocol_id": "BIG_B27_HISTORY_CONDITIONED_RESPONSE_LINEAGE_ARCHITECTURE_v1_0",
+  "status": "FROZEN_BEFORE_B27_PILOT_AND_CLAIM_BEARING_TRAJECTORIES",
+  "date_frozen": "2026-09-28",
+  "author": "Jun Lucis",
+  "parent_programme": "B19-B26 closed; programme synthesis DOI 10.5281/zenodo.23006170",
+  "programme_question": "Can a history-conditioned boundary response structure remain measurably related across branch/topology reconfiguration even when state, geometry, and absolute response change?",
+  "non_claim_bearing_philosophical_motivation": "Individuality as boundary-conditioned response lineage rather than unchanged content.",
+  "state": [
+    "phi_active_boundary_field",
+    "m_retained_history_field",
+    "q_branch_or_configuration_label"
+  ],
+  "admissible_model_class": {
+    "phi": "dphi/dt = F_BIG[phi] + S_base(x,t;q) + eta*m*W_Sigma[phi] + u_a(x,t)",
+    "history": "dm/dt = D_m Laplacian(m) - lambda_m*m + alpha*W_Sigma[phi]*Q_write(x,t)",
+    "exact_core_and_coefficients": "selected in B27-P0 for executability only, then frozen before B27.1",
+    "no_new_functional_term_after_P0": true
+  },
+  "probe_space": {
+    "dimension": 5,
+    "modes": [
+      "radial scalar l0",
+      "dipole x",
+      "dipole y",
+      "quadrupole cos2",
+      "quadrupole sin2"
+    ],
+    "frame": "normalized body-centered coordinates",
+    "rotation_map": "A(theta)=1 direct_sum R(theta) direct_sum R(2theta)",
+    "response_fitting_for_A_forbidden": true
+  },
+  "primary_readout_allowed": [
+    "enclosed_or_support_measure",
+    "total_representative_boundary_measure",
+    "normalized_centroid_vector",
+    "normalized_traceless_quadrupole_components"
+  ],
+  "primary_readout_forbidden": [
+    "retained_history_mass",
+    "local_history_load"
+  ],
+  "response_operator": {
+    "response": "R_T(X;a)=Z(U_T(X;a))-Z(U_T(X;0))",
+    "local_operator": "K=D_a R_T at a=0",
+    "estimator": "symmetric finite differences at frozen h and h/2",
+    "cross_scale_stability_required": true
+  },
+  "response_pullback": {
+    "formula": "G = (K^T W_Z K)/trace(K^T W_Z K)",
+    "primary_reason": "remove one global response-gain degree of freedom and output-coordinate dependence",
+    "gain_recorded_separately": "Frobenius norm of K"
+  },
+  "B27_1": {
+    "same_phi_intervention": true,
+    "kept": "(phi,m,q)",
+    "erased": "(phi,0,q)",
+    "zero_feedback_control": "(phi,m,q; eta=0 during read)",
+    "primary_metric": "Delta_G = ||G_kept-G_erased||_F/(||G_kept||_F+||G_erased||_F)",
+    "gain_metric": "abs(log(||K_kept||_F/||K_erased||_F))"
+  },
+  "B27_2": {
+    "reconfiguration": "q_minus -> q_plus under frozen classifier",
+    "primary_prediction": "G_plus_pred = A^T G_minus A",
+    "primary_defect": "epsilon_G = ||G_plus-A^T G_minus A||_F/(||G_plus||_F+||A^T G_minus A||_F)",
+    "target_response_may_modify_A": false,
+    "direct_operator_comparator_secondary": true
+  },
+  "B27_3": {
+    "purpose": "prospective held-out transfer to a new reconfiguration family",
+    "unchanged_construction_required": true
+  },
+  "calibration_firewall": {
+    "stage": "B27-P0",
+    "claim_bearing": false,
+    "allowed": [
+      "stable core realization",
+      "resolution pair",
+      "dt cap",
+      "history write window",
+      "feedback window",
+      "boundary rule",
+      "body-frame stability gate",
+      "probe amplitudes",
+      "output weights",
+      "numerical uncertainty floors",
+      "finite claim parameter set"
+    ],
+    "forbidden": [
+      "using P0 as positive claim evidence",
+      "choosing thresholds from claim-target effect sizes",
+      "promoting pilot cases to held-out evidence"
+    ]
+  },
+  "uncertainty_rule": "resolved effect > 3 * frozen numerical uncertainty",
+  "anti_rescue": [
+    "no new coupling term after first B27.1 claim trajectory",
+    "no replacement response basis",
+    "no new primary readout component",
+    "no change of history intervention",
+    "no target-dependent remapping",
+    "no held-out coefficient fit",
+    "no domain extension solely to acquire desired reconfiguration",
+    "no pilot-to-heldout relabeling"
+  ],
+  "semantic_verdicts": {
+    "B27_1": [
+      "HISTORY_RESPONSE_GEOMETRY_PASS",
+      "HISTORY_GAIN_ONLY",
+      "HISTORY_CONDITIONING_NOT_SUPPORTED",
+      "INCONCLUSIVE",
+      "IMPLEMENTATION_INVALID"
+    ],
+    "B27_2": [
+      "RECONFIGURATION_COVARIANCE_PASS",
+      "RECONFIGURATION_COVARIANCE_PARTIAL",
+      "RECONFIGURATION_COVARIANCE_FAIL",
+      "INCONCLUSIVE",
+      "IMPLEMENTATION_INVALID"
+    ],
+    "B27_3": [
+      "HELDOUT_RESPONSE_LINEAGE_TRANSFER_PASS",
+      "HELDOUT_RESPONSE_LINEAGE_TRANSFER_PARTIAL",
+      "HELDOUT_RESPONSE_LINEAGE_TRANSFER_FAIL",
+      "INCONCLUSIVE",
+      "IMPLEMENTATION_INVALID"
+    ]
+  },
+  "claim_boundary": [
+    "no personal identity claim",
+    "no subjective continuity claim",
+    "no consciousness claim",
+    "no AI personhood claim",
+    "no universal individuality law",
+    "no continuum topology theorem"
+  ],
+  "stop_rules": [
+    "If B27.1 validly finds no history conditioning, no history-lineage claim may be made from later stages.",
+    "If B27.2 validly fails, A may not be tuned on that failed family inside B27.2.",
+    "B27.3 ends after the frozen held-out family regardless of outcome.",
+    "No B27 result changes B19-B26 verdicts."
+  ]
+}
