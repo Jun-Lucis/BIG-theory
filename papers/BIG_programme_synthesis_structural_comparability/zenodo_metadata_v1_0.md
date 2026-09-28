@@ -28,7 +28,7 @@ CC BY 4.0
 Reserved for the planned Zenodo deposit. Mark as published after the record is finalized.
 
 ## Description
-This programme-level synthesis integrates the evidence from BIG-B19 through BIG-B26, including the B19E external-validation branch and the B23A structural-universality audit. The paper distinguishes structural, formal, and quantitative universality and preserves negative, inconclusive, implementation-invalid, and transfer-failure outcomes as claim-defining evidence. B19E found a null/inconclusive incremental external predictive result under a frozen holdout while a separate local-budget audit closed the resolved operator bookkeeping to numerical precision. B20-B22 established finite-resolution local response geometry and prospective local prediction in restricted synthetic branches; B23 retained an inconclusive original aggregate verdict despite favorable branch-level evidence; B23A bounded stronger quantitative transfer claims across reconfiguration settings. B24-B26 independently showed that multiple native boundary classes can still admit a constructed family-restricted transfer relation, while a fixed coefficient that succeeded within one ellipse family failed prospectively in a valid topology-straddling two-center test. The retained programme-level conclusion is that BIG is better supported as a common formal language for system-dependent boundary geometry than as one universal quantitative boundary law.
+This programme-level synthesis integrates the evidence from BIG-B19 through BIG-B26, including the B19E external-validation branch and the B23A structural-universality audit. The paper distinguishes structural, formal, and quantitative universality and preserves negative, inconclusive, implementation-invalid, and transfer-failure outcomes as claim-defining evidence. B19E found a null/inconclusive incremental external predictive result under a frozen holdout while a separate local-budget audit closed the resolved operator bookkeeping to numerical precision. B20-B22 established finite-resolution local response geometry and prospective local prediction in restricted synthetic branches; B23 retained an inconclusive original aggregate verdict despite favorable branch-level evidence; B23A bounded stronger quantitative transfer claims across reconfiguration settings. B24-B26 independently showed that multiple native boundary classes can still admit a constructed family-restricted transfer relation, while a fixed coefficient that succeeded within one ellipse family failed prospectively in a valid topology-straddling two-center test. The retained programme-level conclusion is that BIG is better supported as a common formal language for system-dependent boundary geometry than as one universal quantitative boundary law. The upload set also includes a Japanese reference translation in PDF, DOCX, and Markdown formats; the English preprint remains the authoritative version for citation, version control, numerical values, formal verdicts, and claim boundaries.
 
 ## Keywords
 Boundary Information Geometry; structural universality; formal universality; response boundary; branch geometry; prospective numerical test; transfer limit; reproducibility; predeclaration; model falsification
@@ -47,3 +47,15 @@ Boundary Information Geometry; structural universality; formal universality; res
 - 10.5281/zenodo.22972985 - B26
 
 Suggested relation: `References` for each source record. The synthesis is not a new version of any individual B-series record.
+
+
+## Suggested upload set
+- English preprint PDF
+- English preprint DOCX
+- English source Markdown
+- Japanese reference translation PDF
+- Japanese reference translation DOCX
+- Japanese reference translation Markdown
+- Programme closeout record
+- SHA-256 manifest
+- Zenodo metadata note
