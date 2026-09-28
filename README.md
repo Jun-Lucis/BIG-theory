@@ -118,6 +118,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Current GitHub status release:** https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
 
+**Programme synthesis reserved DOI:** https://doi.org/10.5281/zenodo.23006170
+
 Current one-sentence status:
 
 > **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
@@ -708,7 +710,7 @@ For claims about the evidential status of several B-series together, cite the re
 - B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
-- B19-B26 programme synthesis: [papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md) (standalone DOI pending)
+- B19-B26 programme synthesis: https://doi.org/10.5281/zenodo.23006170 (reserved; Zenodo deposit planned 28 September 2026)
 - B19-B26 closeout record: [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
 
 ### Specific numerical / structural claim
