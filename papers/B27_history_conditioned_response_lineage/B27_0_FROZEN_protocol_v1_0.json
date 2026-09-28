@@ -1,6 +1,6 @@
 {
   "protocol_id": "BIG_B27_HISTORY_CONDITIONED_RESPONSE_LINEAGE_ARCHITECTURE_v1_0",
-  "status": "FROZEN_BEFORE_B27_PILOT_AND_CLAIM_BEARING_TRAJECTORIES",
+  "status": "FROZEN_AFTER_B16_SOURCE_ALIGNMENT_BEFORE_B27_PILOT_AND_CLAIM_BEARING_TRAJECTORIES",
   "date_frozen": "2026-09-28",
   "author": "Jun Lucis",
   "parent_programme": "B19-B26 closed; programme synthesis DOI 10.5281/zenodo.23006170",
@@ -12,9 +12,13 @@
     "q_branch_or_configuration_label"
   ],
   "admissible_model_class": {
-    "phi": "dphi/dt = F_BIG[phi] + S_base(x,t;q) + eta*m*W_Sigma[phi] + u_a(x,t)",
-    "history": "dm/dt = D_m Laplacian(m) - lambda_m*m + alpha*W_Sigma[phi]*Q_write(x,t)",
-    "exact_core_and_coefficients": "selected in B27-P0 for executability only, then frozen before B27.1",
+    "phi": "dphi/dt = div(D(phi) grad(phi) + gamma |grad(phi)|^2 grad(phi)) - mu_eff(m) phi + S_base(x;q) + S_read(x,t;a)*(1+eta_S*m)",
+    "mobility": "D(phi)=D0*(phi^2/(phi^2+phi_c^2)+epsilon_D)",
+    "history": "dm/dt = -alpha*m + beta*B_Sigma(phi,grad(phi))*S_write(x,t) + D_m*Laplacian(m)",
+    "boundary_mask": "B_Sigma proportional to exp(-(phi-phi_thr)^2/(2 w_phi^2))*|grad(phi)|/(max|grad(phi)|+epsilon)",
+    "probe_window": "beta_read=0; probe may not write new history; retained m may undergo frozen decay/diffusion",
+    "feedback": "inherited B16 susceptibility factor (1+eta_S*m)",
+    "exact_coefficients": "selected in B27-P0 for executability only, then frozen before B27.1",
     "no_new_functional_term_after_P0": true
   },
   "probe_space": {
@@ -139,5 +143,6 @@
     "If B27.2 validly fails, A may not be tuned on that failed family inside B27.2.",
     "B27.3 ends after the frozen held-out family regardless of outcome.",
     "No B27 result changes B19-B26 verdicts."
-  ]
+  ],
+  "source_alignment_note": "Before any B27-P0 or claim-bearing trajectory, the admissible model class was aligned explicitly to the published B16 history-feedback equations; no B27 numerical outcome existed."
 }
