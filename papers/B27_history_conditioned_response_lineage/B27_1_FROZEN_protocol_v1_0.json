@@ -1,0 +1,120 @@
+{
+  "protocol_id": "BIG_B27_1_HISTORY_RESPONSE_GEOMETRY_v1_0",
+  "status": "FROZEN_BEFORE_ANY_B27_1_CLAIM_BEARING_TRAJECTORY",
+  "date_frozen": "2026-09-28",
+  "resolutions": [
+    {
+      "N": 128,
+      "dt": 0.003
+    },
+    {
+      "N": 160,
+      "dt": 0.0025
+    }
+  ],
+  "domain": [
+    -8,
+    8
+  ],
+  "inherited_parameters": {
+    "phi_thr": 0.03,
+    "D0": 0.12,
+    "phi_c": 0.1,
+    "eps_D": 0.01,
+    "gamma": 0.0004,
+    "mu0": 0.11,
+    "alpha": 0.01,
+    "beta": 3,
+    "D_m": 0.006,
+    "w_phi": 0.025,
+    "eta_S_read": 10
+  },
+  "base_source": {
+    "family": "compact polynomial disk",
+    "amplitude": 0.08,
+    "radius": 2
+  },
+  "baseline_time": 20,
+  "history_write": {
+    "amplitude": 0.035,
+    "sigma": 0.35,
+    "duration": 0.8,
+    "feedback_during_write": 0,
+    "rest_duration": 1,
+    "angles_deg": [
+      30,
+      75,
+      165,
+      255
+    ],
+    "P0_angle_forbidden": 0,
+    "same_phi_kept_erased": true
+  },
+  "read_phase": {
+    "beta_read": 0,
+    "T": 0.25
+  },
+  "probe": {
+    "dimension": 5,
+    "modes": [
+      "l0",
+      "l1x",
+      "l1y",
+      "l2cos",
+      "l2sin"
+    ],
+    "annular_sigma_r": 0.18,
+    "h_primary": 0.001,
+    "h_secondary": 0.002
+  },
+  "primary_readout": [
+    "A_over_A0",
+    "cx_over_R0",
+    "cy_over_R0",
+    "q1",
+    "q2"
+  ],
+  "secondary_only": [
+    "perimeter",
+    "history_mass",
+    "local_history_load"
+  ],
+  "smooth_threshold_eps": 0.004,
+  "response_form": "G=(K^T K)/trace(K^T K)",
+  "metrics": {
+    "Delta_G": "||G_kept-G_erased||_F/(||G_kept||_F+||G_erased||_F)",
+    "Delta_gain": "abs(log(||K_kept||_F/||K_erased||_F))"
+  },
+  "numerical_floors": {
+    "G": 0.003,
+    "gain_log": 0.005
+  },
+  "resolved_thresholds": {
+    "G": 0.009,
+    "gain_log": 0.015
+  },
+  "validity": {
+    "max_G_probe_scale_defect": 0.001,
+    "max_G_cross_resolution_defect_per_branch": 0.01,
+    "min_history_max": 0.0001,
+    "all_four_fine_angle_families_required": true,
+    "replacement_for_invalid_case": false
+  },
+  "verdicts": {
+    "HISTORY_RESPONSE_GEOMETRY_PASS": "at least 3 of 4 fine angles Delta_G>0.009; same angles directionally consistent at N128; all eta=0 controls <=0.009",
+    "HISTORY_GAIN_ONLY": "structural PASS not met; at least 3 of 4 fine angles Delta_gain>0.015; eta=0 gain controls <=0.015",
+    "HISTORY_CONDITIONING_NOT_SUPPORTED": "all four valid and neither structural nor gain-only criterion met",
+    "INCONCLUSIVE": "one or more required angle families invalid/noninformative without common implementation failure",
+    "IMPLEMENTATION_INVALID": "common implementation/numerical failure prevents stage evaluation"
+  },
+  "anti_rescue": [
+    "no write parameter changes after first held-out angle",
+    "no eta change",
+    "no angle replacement",
+    "no probe-basis replacement",
+    "no perimeter/history variable added to primary readout",
+    "no read-horizon change",
+    "no gate relaxation"
+  ],
+  "stop_rule": "B27.1 terminates after four frozen angle families."
+}
