@@ -1,0 +1,84 @@
+{
+  "protocol_id": "BIG_B27_2_TOPOLOGY_RECONFIGURATION_COVARIANCE_v1_0",
+  "status": "FROZEN_BEFORE_FIRST_POST_RECONFIGURATION_RESPONSE_TRAJECTORY",
+  "freeze_date": "2026-09-29",
+  "parent_anchor": "BIG_B27_2_P1R_CONTINUATION_ANCHOR_v1_0",
+  "pre_L_sha256_N160": "5e25d87279caa3b4f2a9b995375eb0db1bb68941e08d240c0a495cc7594a0eda",
+  "covariance_map": "I_5",
+  "epsilon_cov": 0.01,
+  "epsilon_partial": 0.03,
+  "pre_anchor": {
+    "delta": 4.75,
+    "orientation_deg": 0,
+    "write_ray_deg": 55
+  },
+  "targets": [
+    {
+      "id": "T1",
+      "delta_plus": 5.4,
+      "orientation_deg": 0,
+      "reconfiguration_T": 20
+    },
+    {
+      "id": "T2",
+      "delta_plus": 5.7,
+      "orientation_deg": 0,
+      "reconfiguration_T": 20
+    },
+    {
+      "id": "T3",
+      "delta_plus": 6,
+      "orientation_deg": 0,
+      "reconfiguration_T": 20
+    }
+  ],
+  "response": {
+    "resolutions": [
+      128,
+      160
+    ],
+    "dt_by_resolution": {
+      "128": 0.003,
+      "160": 0.0025
+    },
+    "read_T": 0.25,
+    "probe_h_primary": 0.001,
+    "probe_h_secondary": 0.002,
+    "probe_basis": [
+      "l0",
+      "l1_x",
+      "l1_y",
+      "l2_cos",
+      "l2_sin"
+    ],
+    "primary_readout": [
+      "A/A_anchor",
+      "cx/R_anchor",
+      "cy/R_anchor",
+      "q1",
+      "q2"
+    ]
+  },
+  "validity": {
+    "post_component_count": 2,
+    "edge_phi_max": 0.003,
+    "min_history_max": 0.0001,
+    "min_Delta_G": 0.009,
+    "max_probe_scale_G_defect": 0.001,
+    "max_zero_feedback_G_defect": 0.003,
+    "max_cross_resolution_G_defect": 0.01,
+    "max_cross_resolution_L_defect": 0.01
+  },
+  "per_target": {
+    "pass": "max(epsilon_L_N128,epsilon_L_N160) <= 0.010",
+    "partial": "0.010 < max(epsilon_L_N128,epsilon_L_N160) <= 0.030",
+    "fail": "max(epsilon_L_N128,epsilon_L_N160) > 0.030"
+  },
+  "aggregate": {
+    "invalid_scientific": "any target fails mandatory validity -> INCONCLUSIVE",
+    "implementation_invalid": "software/protocol execution defect -> IMPLEMENTATION_INVALID",
+    "pass": "all valid and >=2/3 target PASS -> RECONFIGURATION_COVARIANCE_PASS",
+    "partial": "all valid and >=2/3 target PASS-or-PARTIAL -> RECONFIGURATION_COVARIANCE_PARTIAL",
+    "fail": "all valid otherwise -> RECONFIGURATION_COVARIANCE_FAIL"
+  }
+}
