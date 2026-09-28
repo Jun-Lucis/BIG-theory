@@ -130,7 +130,7 @@ Current one-sentence status:
 
 **Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here; archived verdicts are not retroactively upgraded.**
 
-**B27 opened on 28 September 2026 under a fresh frozen architecture.** It tests history-conditioned boundary response and reconfiguration covariance through a local response operator and normalized response pullback form. B27 begins with a calibration-only firewall before any claim-bearing trajectories.
+**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.
 
 ---
 
