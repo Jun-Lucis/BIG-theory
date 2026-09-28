@@ -55,7 +55,8 @@ P0 is non-claim-bearing. It selected the converged primary readout and numerical
 
 ## B27.1 frozen test
 
-- [B27.1 frozen predeclaration](B27_1_FROZEN_predeclaration_v1_0.md)
-- [B27.1 machine-readable protocol](B27_1_FROZEN_protocol_v1_0.json)
+- [B27.1 final frozen predeclaration](B27_1_FROZEN_predeclaration_v1_1.md)
+- [B27.1 final machine-readable protocol](B27_1_FROZEN_protocol_v1_1.json)
+- [B27.1 result record](B27_1_RESULT_RECORD_v1_0.md)
 
-**No B27.1 claim-bearing trajectory had been evaluated when these files were frozen.**
+**Formal B27.1 verdict:** `HISTORY_RESPONSE_GEOMETRY_PASS` (4/4 held-out angles passed the frozen structural gate at both resolutions; all numerical validity gates passed).
