@@ -2,10 +2,12 @@
 
 ## History-Conditioned Boundary Response and Reconfiguration Covariance
 
-**Status:** FROZEN BEFORE B27 PILOT AND CLAIM-BEARING TRAJECTORIES  
+**Status:** FROZEN AFTER B16 SOURCE-ALIGNMENT, BEFORE B27 PILOT AND CLAIM-BEARING TRAJECTORIES  
 **Protocol ID:** BIG_B27_HISTORY_CONDITIONED_RESPONSE_LINEAGE_ARCHITECTURE_v1_0  
 **Date frozen:** 2026-09-28  
 **Author:** Jun Lucis
+
+**Source-alignment note:** Before any B27-P0 or claim-bearing trajectory was run, the model-class paragraph was aligned explicitly to the published B16 history-feedback equations. No numerical outcome existed at the time of this clarification.
 
 ---
 
@@ -56,31 +58,68 @@ where:
 
 A numerical boundary \(\Sigma[X_t]\) will be extracted by one frozen representative-level/support rule after the non-claim-bearing calibration stage and before any B27.1 claim-bearing run.
 
-The programme will use a two-dimensional extension of the B16-B18 history/readout architecture. The admissible model class is
+The programme will use a two-dimensional extension of the **published B16 history-feedback architecture**, rather than introducing a new history coupling. The admissible model class is
 
 \[
 \partial_t\phi
 =
-\mathcal F_{\rm BIG}[\phi]
+\nabla\!\cdot\!
+\left(
+D(\phi)\nabla\phi
 +
-S_{\rm base}(x,t;q)
+\gamma |\nabla\phi|^2\nabla\phi
+\right)
+-
+\mu_{\rm eff}(m)\phi
 +
-\eta\,m\,W_\Sigma[\phi]
+S_{\rm base}(x;q)
 +
-u_a(x,t),
+S_{\rm read}(x,t;a)\,[1+\eta_S m],
 \]
+
+with near-degenerate mobility
+
+\[
+D(\phi)
+=
+D_0
+\left(
+\frac{\phi^2}{\phi^2+\phi_c^2}
++\epsilon_D
+\right),
+\]
+
+and retained-history evolution
 
 \[
 \partial_t m
 =
-D_m\Delta m-\lambda_m m
+-\alpha m
 +
-\alpha\,W_\Sigma[\phi]\,Q_{\rm write}(x,t).
+\beta B_\Sigma(\phi,\nabla\phi)\,S_{\rm write}(x,t)
++
+D_m\Delta m.
 \]
 
-Here \(\mathcal F_{\rm BIG}\) is an inherited compact/free-boundary BIG-type evolution core, \(W_\Sigma\) localizes writing/readout near the numerical boundary, \(\eta\) is history-to-response feedback, and \(u_a\) is a small external probe.
+The boundary-writing mask is the direct multidimensional analogue of B16,
 
-The exact inherited core realization, numerical coefficients, grid, time step rule, representative boundary rule, and stable parameter window are **not claim-bearing in B27.0**. They may be selected only in the calibration-only stage B27-P0 under the firewall in Section 10, and must then be frozen before B27.1.
+\[
+B_\Sigma(\phi,\nabla\phi)
+\propto
+\exp\!\left[
+-\frac{(\phi-\phi_{\rm thr})^2}{2w_\phi^2}
+\right]
+\frac{|\nabla\phi|}
+{\max |\nabla\phi|+\varepsilon}.
+\]
+
+Thus B27 inherits the B16 distinction between a boundary-carrying field, retained local history, and history-dependent susceptibility. B17-B18 motivate the additional distinction between stored history and history that remains readable in the current boundary frame.
+
+During the response-operator probe window, **new history writing is disabled** (\(\beta_{\rm read}=0\)). The retained field may continue its predeclared decay/diffusion, but the probe itself may not write additional history. This prevents the measurement of \(K\) from becoming a new training/write episode.
+
+The probe enters through \(S_{\rm read}(x,t;a)\). History feedback therefore acts through the inherited B16 susceptibility factor \(1+\eta_S m\), not through a newly fitted B27 coupling.
+
+The exact numerical coefficients, grid, time-step rule, representative boundary rule, read horizon, and stable parameter window are **not claim-bearing in B27.0**. They may be selected only in the calibration-only stage B27-P0 under the firewall in Section 10, and must then be frozen before B27.1.
 
 No new functional coupling term may be introduced after B27-P0 solely because a claim-bearing result is unfavorable.
 
