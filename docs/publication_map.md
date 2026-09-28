@@ -605,12 +605,12 @@ The Zenodo DOI above is the canonical academic citation for BIG-B19E v1.0.
 
 ### From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry
 
-**Status:** finalized preprint v1.0; reserved for Zenodo deposit  
-**Reserved DOI:** https://doi.org/10.5281/zenodo.23006170
+**Status:** finalized preprint v1.0; published on Zenodo  
+**DOI:** https://doi.org/10.5281/zenodo.23006170
 
 This synthesis integrates the later B19-B26 evidence around the distinction between structural/formal comparability and quantitative universality. It preserves positive, null, inconclusive, implementation-invalid, and transfer-failure outcomes without retrospective regrading.
 
-The B19E publication dependency is resolved under DOI https://doi.org/10.5281/zenodo.22996961. The synthesis has reserved DOI https://doi.org/10.5281/zenodo.23006170 for the planned Zenodo deposit. The synthesis closes the present evidential programme and hands any new claim-bearing work to a new B-series.
+The B19E publication dependency is resolved under DOI https://doi.org/10.5281/zenodo.22996961. The synthesis has published DOI https://doi.org/10.5281/zenodo.23006170 as the published Zenodo record. The synthesis closes the present evidential programme and hands any new claim-bearing work to a new B-series.
 
 **Final manuscript:**  
 [papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md](../papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
