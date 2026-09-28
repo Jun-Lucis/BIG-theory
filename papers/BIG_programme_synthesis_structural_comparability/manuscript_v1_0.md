@@ -6,7 +6,7 @@
 Independent Researcher
 
 **Preprint v1.0 — 27 September 2026**  
-**Reserved Zenodo DOI: 10.5281/zenodo.23006170**
+**Zenodo DOI: 10.5281/zenodo.23006170**
 
 ---
 
