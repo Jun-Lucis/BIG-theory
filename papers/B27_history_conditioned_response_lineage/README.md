@@ -106,6 +106,8 @@ B27.2 then completed all three frozen connected-to-disconnected targets. All thr
 **Formal B27.2 verdict:** `RECONFIGURATION_COVARIANCE_FAIL`.
 
 - [B27.2 terminal result record](B27_2_RESULT_RECORD_v1_0.md)
+- [B27.2 secondary trend audit](B27_2_SECONDARY_TREND_AUDIT_v1_0.md)
 - [B27 programme closeout](B27_CLOSEOUT_v1_0.md)
+- [B28 non-frozen architecture draft](../B28_geometry_conditioned_lineage_transport/B28_0_DRAFT_architecture_v0_1.md)
 
 Per the frozen stop rule, B27.3 is not run. B27 is closed: retained history prospectively changes local response geometry, but that normalized history-induced response geometry does not remain invariant across the tested topology reconfiguration. Any new transport/covariance mapping hypothesis belongs to B28 or later.
