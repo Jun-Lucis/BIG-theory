@@ -1,0 +1,87 @@
+{
+  "protocol_id": "BIG_B28_P0_COMPONENT_RESOLVED_SPLIT_CALIBRATION_v1_1",
+  "status": "FROZEN_CALIBRATION_ONLY_BEFORE_B28_P0",
+  "freeze_date": "2026-09-29",
+  "supersedes": "BIG_B28_P0_COMPONENT_RESOLVED_SPLIT_CALIBRATION_v1_0",
+  "supersession_scope": "pre-run resolution-pair strengthening only; no B28-P0 trajectory had been evaluated",
+  "claim_bearing": false,
+  "parent_programme": "BIG_B28_GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_v1_0",
+  "inherited_model": {
+    "phi_thr": 0.03,
+    "D0": 0.12,
+    "phi_c": 0.1,
+    "eps_D": 0.01,
+    "gamma": 0.0004,
+    "mu0": 0.11,
+    "alpha": 0.01,
+    "beta": 3,
+    "D_m": 0.006,
+    "w_phi": 0.025,
+    "eta_read": 10
+  },
+  "fresh_geometry_family": {
+    "source": "normalized_equal_two_center_compact_polynomial",
+    "orientation_deg": 25,
+    "pre_delta": 4.6,
+    "topology_scan_deltas": [
+      5.15,
+      5.35,
+      5.55,
+      5.75,
+      5.95
+    ],
+    "baseline_single_T": 20,
+    "continuation_pre_T": 20,
+    "reconfiguration_T": 20
+  },
+  "history_write": {
+    "ray_relative_to_source_axis_deg": 95,
+    "absolute_ray_deg": 120,
+    "amplitude": 0.035,
+    "sigma": 0.35,
+    "duration": 0.8,
+    "rest_duration": 1,
+    "feedback_during_write": 0
+  },
+  "calibration_resolutions": [
+    {
+      "N": 128,
+      "dt": 0.003
+    },
+    {
+      "N": 160,
+      "dt": 0.0025
+    }
+  ],
+  "response_measurement": {
+    "read_T": 0.25,
+    "probe_h_primary": 0.001,
+    "probe_h_secondary": 0.002,
+    "pre_probe_dimension": 5,
+    "post_probe_dimension": 10,
+    "coordinate_frame": "source-axis-aligned"
+  },
+  "component_representation": {
+    "ordering": "centroid projection along frozen source axis",
+    "partition": "geometry-only soft radial partition from child centers and radii",
+    "post_readout_dimension": 10
+  },
+  "split_operator": {
+    "construction": "geometry_only_weighted_ridge_projection",
+    "response_values_forbidden": true,
+    "regularization_rule": "lambda_reg = max(1e-14, 1e-10 * trace(B^T W B)/10)"
+  },
+  "p0_may_select": [
+    "unused future connected/split target interval",
+    "soft child partition implementation if numerically equivalent to frozen geometry-only rule",
+    "numerical floors",
+    "geometry projection reconstruction ceiling"
+  ],
+  "p0_may_not": [
+    "count as positive evidence",
+    "reuse B27 T1-T3 as B28 evidence",
+    "fit split operator from K,G,H_G,L_G",
+    "choose claim thresholds from desired P0 effect size",
+    "promote calibration delta to held-out evidence"
+  ]
+}
