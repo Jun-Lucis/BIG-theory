@@ -10,7 +10,7 @@ BIGでは、境界を、動的な場、幾何コスト、履歴を持つinterfac
 
 この結論には、positive resultだけでなく、negative、inconclusive、implementation-invalid、geometry-transfer failureも含まれます。局所またはfamily-restrictedな構造は複数のprospective testで保持されましたが、それをprogramme全体の定量的普遍則へ拡張する検査では限界も明確になっています。
 
-現在の統合研究状況は、[B3からB26＋B23Aの統合research status map](research_status_map_B3_B26_ja.md) にまとめています。
+B3からB26＋B23Aまでの基礎統合状況は [統合research status map](research_status_map_B3_B26_ja.md) に、B27からB36までの後期状況は [B27–B36 後期研究状況](research_status_update_B27_B36_ja.md) にまとめています。
 
 BIGは、完成された物理理論として提示されるものではありません。物理・生物・認知・AI・宇宙論を一つの普遍則で説明することも、現段階では主張していません。
 
@@ -130,8 +130,24 @@ BIGの現在の展開は、次のような系列として整理できます。
 | B23A | structural universality audit | smooth transfer、reset、locality、rate orderingのprospective限界を検査 |
 | B24–B25 | cross-sector transfer | native common operatorの監査からlevel-resolved / fixed-coefficient transferへ進む |
 | B26 | geometry-transfer boundary | fixed perimeter coefficientをnew two-center familyでprospectiveに検査しtransfer limitを確定 |
+| B27 | history-conditioned response geometry | present stateが同じでもretained historyがresponse geometryを変える一方、simple reconfiguration covarianceはFAIL |
+| B28 | geometry-conditioned lineage transport | component-resolved split transportをprospectiveに検査しFAIL、B28.2はstop ruleで未実行 |
+| B29 | predictive-information training audit | training domainのreadability不足によりheld-out評価前にclose |
+| B30–B36 | responseからpulse timingへ | transverse suppression/parityからspatial transfer、pulse timing、fresh geometry/readout decompositionへ進む統合programme |
 
 ---
+
+## 3.1 B27–B36の後期展開
+
+B27以降では、history-conditioned responseがtopology changeやreadout samplingの下でどこまで予測可能に運ばれるかを、FAILを含めてprospectiveに検査しています。
+
+B27ではhistory-conditioned local response geometry自体は成立しましたが、simple reconfiguration covarianceはFAILしました。B28ではgeometry-only lineage transportへ進みましたが、これもfresh valid targetsでFAILしました。B29はheld-out prediction前のtraining-domain readabilityで停止しました。
+
+B30–B36では問いをangular response、complex harmonic transfer、single-pulse timing、geometry/readout decompositionへ段階的に変更しました。途中のB32.1、B35.1、B35.2、B36.1のformal FAILを保持したまま、最終B36.2ではfresh 3×4 geometry/sampling grid上のapproximate additive decompositionがPASSしています。
+
+統合preprint DOI: https://doi.org/10.5281/zenodo.23048197
+
+この後期結果から、physical propagation speed、ballistic transport、finite-speed propagation、wave propagation、wave equation、resonance、dispersion relationは主張していません。
 
 ## 4. B9以降について
 
