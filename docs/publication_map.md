@@ -6,8 +6,10 @@ For a fast technical orientation and the current evidence-level synthesis across
 
 - [One-page technical summary](technical_summary.md)
 - [1ページ技術サマリー](technical_summary_ja.md)
-- [Integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
-- [日本語版 — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
+- [Baseline integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
+- [Later-phase research status — B27 through B36](research_status_update_B27_B36.md)
+- [日本語版 — B27からB36 後期研究状況](research_status_update_B27_B36_ja.md)
+- [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
 The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
 
@@ -43,6 +45,59 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B24–B25 | Cross-sector audit and boundary-functional transfer            | Failure-guided construction of a prospective transfer map |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry transfer | Prospective reduction to a fixed perimeter coefficient; geometry-transfer boundary test |
 | B26 | Topology localization and two-center geometry transfer | Terminal prospective test of fixed-coefficient transfer across a localized topology transition |
+| B27 | History-conditioned response geometry and reconfiguration covariance | History changes local response geometry; simple reconfiguration covariance fails prospectively |
+| B28 | Geometry-conditioned response-lineage transport | Geometry-only component-resolved split transport fails prospectively under frozen tolerance |
+| B29 | Incremental predictive information beyond instantaneous geometry | Closed before held-out evaluation because the frozen training domain was not uniformly response-readable |
+| B30–B36 | Integrated response-to-pulse-timing programme | Transverse suppression/parity, dynamic FAIL, period lifting, spatial complex transfer, pulse timing limits, and fresh geometry/readout decomposition |
+
+---
+
+## Later-phase records — B27 through B36
+
+### B27 — history-conditioned response and reconfiguration
+
+B27 retained two separate formal outcomes:
+
+- `HISTORY_RESPONSE_GEOMETRY_PASS`
+- `RECONFIGURATION_COVARIANCE_FAIL`
+
+Retained readable history changed normalized local response geometry at identical present state, but the frozen identity covariance map failed after the tested topology reconfiguration.
+
+Repository entry: [papers/B27_history_conditioned_response_lineage](../papers/B27_history_conditioned_response_lineage)
+
+### B28 — geometry-conditioned lineage transport
+
+B28 replaced identity covariance with a geometry-only component-resolved split transport. B28.1 evaluated three fresh valid targets and retained:
+
+`GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`
+
+B28.2 was not opened under the frozen stop rule.
+
+Repository entry: [papers/B28_geometry_conditioned_lineage_transport](../papers/B28_geometry_conditioned_lineage_transport)
+
+### B29 — training-domain readability boundary
+
+B29 closed before any claim-bearing held-out B29.1 evaluation. Only 18/27 training cases passed the inherited readability/validity gates; no held-out prediction set was frozen and no M0/M1/M2 predictive verdict was issued.
+
+Repository entry: [papers/B29_incremental_predictive_information](../papers/B29_incremental_predictive_information)
+
+### B30–B36 — integrated response-to-pulse-timing preprint
+
+**DOI:** https://doi.org/10.5281/zenodo.23048197
+
+**Title:** *From History-Conditioned Boundary Response to Geometry-Conditioned Pulse Timing in a Finite Reduced Model*
+
+The integrated paper preserves all formal FAILs and successor PASSes. It progresses from transverse history-response suppression and reflection parity through dynamic complex response, period-dependent soft-node lifting, spatial complex transfer, localized pulse timing, and a fresh geometry-by-sampling decomposition.
+
+Terminal claim-bearing verdict:
+
+`ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS`
+
+The supported claim is limited to approximate additive decomposition of fitted peak-timing slope into geometry-conditioned and readout-sampling contributions on the tested fresh finite grid. It does not establish propagation speed, ballistic transport, finite-speed propagation, wave propagation, a wave equation, resonance, or dispersion.
+
+Repository entry: [papers/B30_B36_integrated_response_to_pulse_timing](../papers/B30_B36_integrated_response_to_pulse_timing)
+
+Later-phase status summary: [research_status_update_B27_B36.md](research_status_update_B27_B36.md)
 
 ---
 
