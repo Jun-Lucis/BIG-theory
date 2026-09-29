@@ -22,8 +22,10 @@ For a fast technical orientation, start here:
 
 - **[One-page technical summary](docs/technical_summary.md)**
 - 🇯🇵 **[1ページ技術サマリー](docs/technical_summary_ja.md)**
-- **[Integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
-- 🇯🇵 **[統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
+- **[Baseline integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
+- **[Later-phase research status — B27 through B36](docs/research_status_update_B27_B36.md)**
+- 🇯🇵 **[B27からB36 後期研究状況](docs/research_status_update_B27_B36_ja.md)**
+- 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
 The original conceptual motivation remains important but should be distinguished from the evidential claims: BIG explores whether boundaries can help organize individuality, stability, non-assimilation, interaction, memory, separation, capture, and reconfiguration. These broader interpretations are motivations and structural comparisons unless a specific reduced model and test support a narrower statement.
 
@@ -66,6 +68,7 @@ Key overview and reference documents:
 * **B25 Phase-II status update:** [docs/research_status_update_B25_phaseII.md](docs/research_status_update_B25_phaseII.md)
 * **B26 terminal status update:** [docs/research_status_update_B26.md](docs/research_status_update_B26.md)
 * **B27 history-response and reconfiguration closeout:** [docs/research_status_update_B27.md](docs/research_status_update_B27.md)
+* **B27–B36 later-phase status:** [docs/research_status_update_B27_B36.md](docs/research_status_update_B27_B36.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
@@ -73,6 +76,7 @@ Key overview and reference documents:
 * 🇯🇵 **B25 Phase-II 研究状況更新:** [docs/research_status_update_B25_phaseII_ja.md](docs/research_status_update_B25_phaseII_ja.md)
 * 🇯🇵 **B26 研究状況更新:** [docs/research_status_update_B26_ja.md](docs/research_status_update_B26_ja.md)
 * 🇯🇵 **B27 研究状況更新:** [docs/research_status_update_B27_ja.md](docs/research_status_update_B27_ja.md)
+* 🇯🇵 **B27–B36 後期研究状況:** [docs/research_status_update_B27_B36_ja.md](docs/research_status_update_B27_B36_ja.md)
 * 🇯🇵 **B23A 構造的普遍性と限界:** [docs/research_status_update_B23A_ja.md](docs/research_status_update_B23A_ja.md)
 * **Limitations and scope:** [docs/limitations.md](docs/limitations.md)
 * **Terminology:** [docs/terminology.md](docs/terminology.md)
@@ -100,6 +104,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B25 Phase-II status update](docs/research_status_update_B25_phaseII.md)
 - [B26 terminal status update](docs/research_status_update_B26.md)
 - [B27 history-response and reconfiguration closeout](docs/research_status_update_B27.md)
+- [B27–B36 later-phase status](docs/research_status_update_B27_B36.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
@@ -110,6 +115,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B25 Phase-II 日本語更新](docs/research_status_update_B25_phaseII_ja.md)
 - [B26 日本語更新](docs/research_status_update_B26_ja.md)
 - [B27 日本語更新](docs/research_status_update_B27_ja.md)
+- [B27–B36 日本語更新](docs/research_status_update_B27_B36_ja.md)
 - [B23A 日本語更新](docs/research_status_update_B23A_ja.md)
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
@@ -126,6 +132,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Programme synthesis DOI:** https://doi.org/10.5281/zenodo.23006170
 
+**B30–B36 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23048197
+
 Current one-sentence status:
 
 > **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
@@ -134,7 +142,7 @@ Current one-sentence status:
 
 **Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here; archived verdicts are not retroactively upgraded.**
 
-**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 opened on 29 September 2026 under a new frozen architecture.** It does not assume response-lineage invariance. Instead, it tests whether a 1-to-2 topology split admits a geometry-conditioned, component-resolved transport from a five-mode pre probe space into two child-local five-mode post spaces. B28-P0 is calibration-only; no B28 claim-bearing trajectory has yet been run.
+**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 subsequently closed with `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`.** B28.1 prospectively tested fresh split targets at delta_post = 5.3, 5.6, and 5.9. All three were numerically valid, but the lineage-transport defects (~0.15334, 0.15247, 0.15644) exceeded the frozen PASS threshold 0.009 and the PARTIAL ceiling 0.027; B28.2 was therefore not opened. **B29 then closed before any held-out B29.1 evaluation** because only 18/27 training cases passed the inherited readability/validity gates; the 85-degree relative-write stratum was uniformly unreadable under the frozen gate. **B30–B36 were later integrated into a single prospective response-to-timing programme** archived at DOI 10.5281/zenodo.23048197. Its retained evidence includes both formal FAILs and narrower successor PASSes, culminating in `ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS` on a fresh 3-by-4 geometry/readout grid without any claim of physical propagation speed or wave dynamics.
 
 ---
 
@@ -230,7 +238,10 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B23A | Structural universality audit and tested limits | [papers/B23A_structural_universality_limits](papers/B23A_structural_universality_limits) |
 | B24–B25 | Cross-sector audit and predictive boundary-functional transfer | [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer) |
 | B26 | Geometry-transfer boundary of fixed-coefficient perimeter closure | [papers/B26_topology_realized_fixed_sigma_transfer](papers/B26_topology_realized_fixed_sigma_transfer) |
-| B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |\n| B28 | Geometry-conditioned component-resolved response-lineage transport | [papers/B28_geometry_conditioned_lineage_transport](papers/B28_geometry_conditioned_lineage_transport) |
+| B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |
+| B28 | Geometry-conditioned component-resolved response-lineage transport — prospective FAIL | [papers/B28_geometry_conditioned_lineage_transport](papers/B28_geometry_conditioned_lineage_transport) |
+| B29 | Training-domain readability boundary before held-out prediction | [papers/B29_incremental_predictive_information](papers/B29_incremental_predictive_information) |
+| B30–B36 | History-conditioned response → spatial transfer → pulse timing → geometry/readout decomposition | [papers/B30_B36_integrated_response_to_pulse_timing](papers/B30_B36_integrated_response_to_pulse_timing) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
