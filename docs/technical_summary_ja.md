@@ -52,6 +52,20 @@ uapprox2) が頑健に現れる。
 
 これらはpost-hoc tuningで消すべき失敗ではなく、理論の適用範囲を決める証拠として保持します。
 
+
+## 後期update — B27からB36
+
+後期のresponse-lineage / response-to-timing programmeでも、局所的成功をより強い普遍則へ昇格することには明確な境界が残ります。
+
+- **B27:** retained readable historyはlocal response geometryをprospectiveに変化させました（`HISTORY_RESPONSE_GEOMETRY_PASS`）が、単純なtopology-reconfiguration covarianceは失敗しました（`RECONFIGURATION_COVARIANCE_FAIL`）。
+- **B28:** geometry-only component-resolved 1-to-2 lineage transportをfresh targetでprospectiveに検査し、3つの有効targetすべてで `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`。stop ruleによりB28.2は開かれませんでした。
+- **B29:** inherited readability / validity gateを満たしたtraining caseが18/27にとどまり、held-out prediction前にprogrammeをclose。M0/M1/M2のheld-out predictive verdictはありません。
+- **B30–B36:** PASSとFAILを両方保持した統合programmeです。history-conditioned transverse suppression、reflection parity、period-dependent lifting、spatially structured complex transfer kernelを得る一方、dynamic suppressionと共通linear pulse-timing lawの強い主張はFAILのままです。最終B36.2は、fresh finite grid上でfitted peak-timing slopeがgeometry-conditioned componentとreadout-sampling componentへ近似的に加法分解できるという、より限定された主張をprospectiveにPASSしました。
+
+B30–B36統合preprint DOI: https://doi.org/10.5281/zenodo.23048197
+
+B36.2はphysical propagation speed、ballistic transport、finite-speed propagation、propagating / standing wave、wave equation、resonance、dispersion relationを確立しません。
+
 ## 現在BIGが主張していないこと
 
 BIGは現時点で、次を確立していません。
@@ -82,6 +96,7 @@ BIGは現時点で、次を確立していません。
 
 詳細は以下を参照してください。
 
+- [B27–B36 後期研究状況](research_status_update_B27_B36_ja.md)
 - [統合research status map — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 - [Limitations and scope](limitations.md)
 - [Publication map / DOI index](publication_map.md)
