@@ -52,6 +52,20 @@ The later programme deliberately tested whether local successes could be promote
 
 These are retained results, not outcomes to be removed by retrospective tuning.
 
+
+## Later-phase update — B27 through B36
+
+The later response-lineage and response-to-timing programmes sharpen the same boundary on overgeneralization.
+
+- **B27:** retained readable history prospectively changes local response geometry (`HISTORY_RESPONSE_GEOMETRY_PASS`), but the simplest frozen topology-reconfiguration covariance fails (`RECONFIGURATION_COVARIANCE_FAIL`).
+- **B28:** a geometry-only component-resolved 1-to-2 lineage-transport map is tested prospectively and fails on all three valid fresh targets (`GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`); B28.2 is not opened.
+- **B29:** the programme closes before held-out prediction because only 18/27 training cases satisfy the inherited readability/validity gates. No M0/M1/M2 held-out predictive verdict is issued.
+- **B30–B36:** the integrated programme retains both PASS and FAIL stages. It establishes transverse history-response suppression, reflection parity, period-dependent lifting of a suppressed sector, and a spatially structured complex transfer kernel, while retaining the dynamic-suppression and common linear pulse-timing failures. The final B36.2 test passes a narrower fresh-grid claim: an approximately additive geometry/readout decomposition of fitted peak-timing slope.
+
+Integrated B30–B36 preprint DOI: https://doi.org/10.5281/zenodo.23048197
+
+The terminal B36.2 result does **not** establish physical propagation speed, ballistic transport, finite-speed propagation, a propagating or standing wave, a wave equation, resonance, or a dispersion relation.
+
 ## What BIG currently does not claim
 
 BIG does **not** currently establish:
