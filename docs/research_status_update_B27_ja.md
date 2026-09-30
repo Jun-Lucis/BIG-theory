@@ -3,6 +3,9 @@
 **日付:** 2026-09-29  
 **programme status:** CLOSED
 
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23024324  
+**公開論文タイトル:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
+
 ## 範囲
 
 B27では、有限縮約モデルにおいて次の二点を分離して検査した。
