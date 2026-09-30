@@ -56,6 +56,10 @@ BIG is a developing boundary-centered research programme. The entries below shou
 
 ### B27 — history-conditioned response and reconfiguration
 
+**DOI:** https://doi.org/10.5281/zenodo.23024324
+
+**Published title:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
+
 B27 retained two separate formal outcomes:
 
 - `HISTORY_RESPONSE_GEOMETRY_PASS`
@@ -609,6 +613,8 @@ BIG-B12 -> cite the B12 Zenodo DOI
 BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
 BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
 BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
+BIG-B27 -> cite https://doi.org/10.5281/zenodo.23024324
+BIG-B30-B36 -> cite https://doi.org/10.5281/zenodo.23048197
 ```
 
 ---
