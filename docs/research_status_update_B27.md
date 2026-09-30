@@ -3,6 +3,9 @@
 **Date:** 2026-09-29  
 **Programme status:** CLOSED
 
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23024324  
+**Published title:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
+
 ## Scope
 
 B27 tested a narrow finite-model distinction between:
