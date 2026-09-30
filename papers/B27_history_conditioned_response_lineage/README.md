@@ -37,6 +37,14 @@ G^+\stackrel{?}{\approx}A^T G^-A.
 - [B27.0 frozen programme architecture](B27_0_FROZEN_programme_architecture_v1_0.md)
 - [B27.0 machine-readable protocol](B27_0_FROZEN_protocol_v1_0.json)
 
+## Zenodo publication
+
+**Title:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
+
+**DOI:** https://doi.org/10.5281/zenodo.23024324
+
+The Zenodo record contains the English preprint, Japanese reference translation, and reproducibility package.
+
 ## Claim boundary
 
 B27 does not test consciousness, subjective continuity, AI personhood, personal identity, or a universal law of individuality. The philosophical motivation is kept separate from the finite numerical claims.
