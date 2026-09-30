@@ -132,6 +132,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Programme synthesis DOI:** https://doi.org/10.5281/zenodo.23006170
 
+**B27 preprint DOI:** https://doi.org/10.5281/zenodo.23024324
+
 **B30–B36 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23048197
 
 Current one-sentence status:
