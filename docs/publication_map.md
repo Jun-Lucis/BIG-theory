@@ -85,6 +85,12 @@ B29 closed before any claim-bearing held-out B29.1 evaluation. Only 18/27 traini
 
 Repository entry: [papers/B29_incremental_predictive_information](../papers/B29_incremental_predictive_information)
 
+### B28–B29 — integrated lineage-transport/readability preprint
+
+**DOI:** https://doi.org/10.5281/zenodo.23050390
+
+The integrated B28–B29 record preserves the two terminal outcomes without retrospective reinterpretation: B28 retains `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`, while B29 remains closed before held-out B29.1 evaluation because the frozen training domain was not uniformly response-readable. The B29 closure is not a predictive-performance FAIL for M0/M1/M2.
+
 ### B30–B36 — integrated response-to-pulse-timing preprint
 
 **DOI:** https://doi.org/10.5281/zenodo.23048197
@@ -614,6 +620,7 @@ BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
 BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
 BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
 BIG-B27 -> cite https://doi.org/10.5281/zenodo.23024324
+BIG-B28-B29 -> cite https://doi.org/10.5281/zenodo.23050390
 BIG-B30-B36 -> cite https://doi.org/10.5281/zenodo.23048197
 ```
 
