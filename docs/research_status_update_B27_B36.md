@@ -72,7 +72,8 @@ All training cases at relative history-write angles (25^circ) and (55^circ) were
 
 No held-out prediction set was frozen, no held-out post-response was evaluated, and no predictive verdict for M0/M1/M2 was issued. The correct terminal interpretation is that the frozen B29 training domain was not uniformly response-readable.
 
-**Integrated B28–B29 Zenodo record:** https://doi.org/10.5281/zenodo.23050390
+**Integrated B28–B29 working paper:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests* (v1.0)  
+**DOI:** https://doi.org/10.5281/zenodo.23050390
 
 The integrated record preserves the B28 prospective FAIL and the B29 pre-held-out closure as distinct outcomes; it does not reinterpret `T1_valid=False` as a predictive-performance FAIL.
 
