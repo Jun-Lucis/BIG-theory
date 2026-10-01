@@ -8,6 +8,7 @@ For the current programme-wide evidence map, see:
 
 - [One-page technical summary](technical_summary.md)
 - [Integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
+- [Later-phase research status — B27 through B36](research_status_update_B27_B36.md)
 
 ---
 
@@ -19,7 +20,7 @@ https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
 **Release title:**  
 `BIG Research Status — B3–B26 + B23A (September 2026)`
 
-This is the **current repository-level research-status snapshot**. It does not replace the individual Zenodo papers.
+This remains the **latest GitHub Release tag**, but it is now a historical repository-level snapshot through B26 + B23A. The living repository has since advanced through B27–B36, including the integrated B28–B29 record (DOI 10.5281/zenodo.23050390) and the B30–B36 integrated preprint (DOI 10.5281/zenodo.23048197). It does not replace the individual Zenodo papers.
 
 The release records the current programme-level synthesis:
 
@@ -27,7 +28,7 @@ The release records the current programme-level synthesis:
 
 It points readers to the one-page technical summary, the integrated B3–B26 + B23A evidence map, and the publication/DOI map.
 
-This release supersedes `v1.0` only as the **Latest Release / current status snapshot**. The earlier `v1.0` remains preserved as a historical record of the early B3/B4 numerical phase.
+This release supersedes `v1.0` as the **Latest Release tag**, while the living documentation should be used for the current post-B26 status. The earlier `v1.0` remains preserved as a historical record of the early B3/B4 numerical phase.
 
 ---
 
