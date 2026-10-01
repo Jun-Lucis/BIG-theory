@@ -78,10 +78,15 @@ family-restrictedなfixed perimeter coefficientへの縮約を論じる場合に
 
 topology-localized two-center transfer testと、terminal fixed-coefficient geometry-transfer failureを論じる場合に使います。
 
-B3–B26＋B23Aの現在のliving synthesisは次です。
+B3–B26＋B23Aのbaseline living synthesisは次です。
 
 - [research_status_map_B3_B26_ja.md](research_status_map_B3_B26_ja.md)
 - [research_status_map_B3_B26.md](research_status_map_B3_B26.md)
+
+B27–B36の後期statusは次です。
+
+- [research_status_update_B27_B36_ja.md](research_status_update_B27_B36_ja.md)
+- [research_status_update_B27_B36.md](research_status_update_B27_B36.md)
 
 これらはliving GitHub documentなので、厳密な文面を引用する場合はrepositoryとcommit SHAを併記することを推奨します。
 
@@ -100,6 +105,9 @@ B3–B26＋B23Aの現在のliving synthesisは次です。
 - B23のcross-branch result -> B23 record
 - B23A P1–P6 universality audit -> B23A record
 - B26のfixed-coefficient transfer failure -> B26 record
+- B27のhistory-conditioned response / reconfiguration-covariance result -> DOI https://doi.org/10.5281/zenodo.23024324
+- B28のlineage-transport failureまたはB29のtraining-domain readability stop -> B28–B29統合record、DOI https://doi.org/10.5281/zenodo.23050390
+- B30–B36のresponse-to-pulse-timing result -> DOI https://doi.org/10.5281/zenodo.23048197
 
 canonical DOI listは [publication_map.md](publication_map.md) にあります。
 
