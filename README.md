@@ -134,6 +134,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B27 preprint DOI:** https://doi.org/10.5281/zenodo.23024324
 
+**B28–B29 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23050390
+
 **B30–B36 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23048197
 
 Current one-sentence status:
@@ -144,7 +146,7 @@ Current one-sentence status:
 
 **Programme closeout (27 September 2026): B19-B26, including B19E and B23A, is closed at the evidential level recorded here; archived verdicts are not retroactively upgraded.**
 
-**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 subsequently closed with `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`.** B28.1 prospectively tested fresh split targets at delta_post = 5.3, 5.6, and 5.9. All three were numerically valid, but the lineage-transport defects (~0.15334, 0.15247, 0.15644) exceeded the frozen PASS threshold 0.009 and the PARTIAL ceiling 0.027; B28.2 was therefore not opened. **B29 then closed before any held-out B29.1 evaluation** because only 18/27 training cases passed the inherited readability/validity gates; the 85-degree relative-write stratum was uniformly unreadable under the frozen gate. **B30–B36 were later integrated into a single prospective response-to-timing programme** archived at DOI 10.5281/zenodo.23048197. Its retained evidence includes both formal FAILs and narrower successor PASSes, culminating in `ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS` on a fresh 3-by-4 geometry/readout grid without any claim of physical propagation speed or wave dynamics.
+**B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 subsequently closed with `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`.** B28.1 prospectively tested fresh split targets at delta_post = 5.3, 5.6, and 5.9. All three were numerically valid, but the lineage-transport defects (~0.15334, 0.15247, 0.15644) exceeded the frozen PASS threshold 0.009 and the PARTIAL ceiling 0.027; B28.2 was therefore not opened. **B29 then closed before any held-out B29.1 evaluation** because only 18/27 training cases passed the inherited readability/validity gates; the 85-degree relative-write stratum was uniformly unreadable under the frozen gate. The integrated B28–B29 archival paper is available at DOI 10.5281/zenodo.23050390 and preserves both the B28 prospective FAIL and the B29 no-held-out status without regrading either result. **B30–B36 were later integrated into a single prospective response-to-timing programme** archived at DOI 10.5281/zenodo.23048197. Its retained evidence includes both formal FAILs and narrower successor PASSes, culminating in `ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS` on a fresh 3-by-4 geometry/readout grid without any claim of physical propagation speed or wave dynamics.
 
 ---
 
@@ -651,6 +653,9 @@ Current entries include:
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 | B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |
+| B27 | History-conditioned response geometry and reconfiguration covariance | https://doi.org/10.5281/zenodo.23024324 |
+| B28–B29 | Lineage-transport limits and training-domain readability boundary | https://doi.org/10.5281/zenodo.23050390 |
+| B30–B36 | Integrated response-to-pulse-timing programme | https://doi.org/10.5281/zenodo.23048197 |
 
 ---
 
