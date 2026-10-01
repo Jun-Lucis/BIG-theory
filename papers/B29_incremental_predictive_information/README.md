@@ -30,4 +30,12 @@ The correct retained interpretation is:
 
 The concentration of unreadability in the (85^circ) relative-write stratum was hypothesis-generating only and motivated the later angular-response programme. It does not establish (85^circ) or (90^circ) as a physical constant.
 
+## Integrated Zenodo publication
+
+B29 is archived together with B28 in the integrated B28–B29 Zenodo record:
+
+**DOI:** https://doi.org/10.5281/zenodo.23050390
+
+The integrated paper preserves the B29 terminal status exactly: B29.1 was never opened, no held-out post-response was evaluated, and no M0/M1/M2 predictive verdict was issued.
+
 See also: [B27–B36 later-phase status](../../docs/research_status_update_B27_B36.md).
