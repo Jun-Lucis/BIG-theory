@@ -89,7 +89,15 @@ Repository entry: [papers/B29_incremental_predictive_information](../papers/B29_
 
 **DOI:** https://doi.org/10.5281/zenodo.23050390
 
+**Title:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests*
+
+**Subtitle:** *Geometry-Only Split Transport, Frozen Stop Rules, and a Training-Domain Readability Boundary*
+
+**Version:** v1.0
+
 The integrated B28–B29 record preserves the two terminal outcomes without retrospective reinterpretation: B28 retains `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`, while B29 remains closed before held-out B29.1 evaluation because the frozen training domain was not uniformly response-readable. The B29 closure is not a predictive-performance FAIL for M0/M1/M2.
+
+Repository entry: [papers/B28_B29_lineage_transport_predictive_readability](../papers/B28_B29_lineage_transport_predictive_readability)
 
 ### B30–B36 — integrated response-to-pulse-timing preprint
 
