@@ -136,6 +136,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B28–B29 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23050390
 
+**B28–B29 title:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests*
+
 **B30–B36 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23048197
 
 Current one-sentence status:
@@ -245,6 +247,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B27 | History-conditioned response geometry and failed simple topology-reconfiguration covariance | [papers/B27_history_conditioned_response_lineage](papers/B27_history_conditioned_response_lineage) |
 | B28 | Geometry-conditioned component-resolved response-lineage transport — prospective FAIL | [papers/B28_geometry_conditioned_lineage_transport](papers/B28_geometry_conditioned_lineage_transport) |
 | B29 | Training-domain readability boundary before held-out prediction | [papers/B29_incremental_predictive_information](papers/B29_incremental_predictive_information) |
+| B28–B29 integrated paper | Lineage-transport limits and predictive-readability boundary | [papers/B28_B29_lineage_transport_predictive_readability](papers/B28_B29_lineage_transport_predictive_readability) |
 | B30–B36 | History-conditioned response → spatial transfer → pulse timing → geometry/readout decomposition | [papers/B30_B36_integrated_response_to_pulse_timing](papers/B30_B36_integrated_response_to_pulse_timing) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
