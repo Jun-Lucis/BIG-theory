@@ -78,10 +78,15 @@ Use this record for the reduction to a family-restricted fixed perimeter coeffic
 
 Use this record for the topology-localized two-center transfer test and the terminal fixed-coefficient geometry-transfer failure.
 
-The current living synthesis across B3–B26 plus B23A is maintained in:
+The baseline living synthesis across B3–B26 plus B23A is maintained in:
 
 - [research_status_map_B3_B26.md](research_status_map_B3_B26.md)
 - [research_status_map_B3_B26_ja.md](research_status_map_B3_B26_ja.md)
+
+The later B27–B36 status is maintained in:
+
+- [research_status_update_B27_B36.md](research_status_update_B27_B36.md)
+- [research_status_update_B27_B36_ja.md](research_status_update_B27_B36_ja.md)
 
 Because these are living GitHub documents, cite the repository and commit SHA if the exact current wording matters.
 
@@ -100,6 +105,9 @@ Examples:
 - a B23 cross-branch result -> cite the B23 record;
 - a B23A P1–P6 universality-audit claim -> cite the B23A record;
 - a B26 fixed-coefficient transfer failure -> cite the B26 record.
+- a B27 history-conditioned response / reconfiguration-covariance result -> cite DOI https://doi.org/10.5281/zenodo.23024324;
+- a B28 lineage-transport failure or B29 training-domain readability-stop claim -> cite the integrated B28–B29 record, DOI https://doi.org/10.5281/zenodo.23050390;
+- a B30–B36 response-to-pulse-timing claim -> cite DOI https://doi.org/10.5281/zenodo.23048197.
 
 The canonical DOI list is maintained in [publication_map.md](publication_map.md).
 
