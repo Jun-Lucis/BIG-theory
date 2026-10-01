@@ -76,7 +76,8 @@ relative history-write angleが (25^circ) と (55^circ) のtraining caseはす�
 
 held-out prediction setは凍結されず、held-out post-responseも計算されていません。したがってM0/M1/M2のpredictive performanceについてのformal verdictはありません。正しいterminal interpretationは「凍結したB29 training domainが一様にresponse-readableではなかった」です。
 
-**B28–B29統合Zenodo record:** https://doi.org/10.5281/zenodo.23050390
+**B28–B29統合working paper:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests* (v1.0)  
+**DOI:** https://doi.org/10.5281/zenodo.23050390
 
 この統合recordは、B28のprospective FAILとB29のheld-out前closeを別々の結果として保持します。`T1_valid=False` をM0/M1/M2のpredictive-performance FAILへ読み替えません。
 
