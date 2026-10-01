@@ -60,6 +60,9 @@ uapprox2) が頑健に現れる。
 - **B27:** retained readable historyはlocal response geometryをprospectiveに変化させました（`HISTORY_RESPONSE_GEOMETRY_PASS`）が、単純なtopology-reconfiguration covarianceは失敗しました（`RECONFIGURATION_COVARIANCE_FAIL`）。
 - **B28:** geometry-only component-resolved 1-to-2 lineage transportをfresh targetでprospectiveに検査し、3つの有効targetすべてで `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`。stop ruleによりB28.2は開かれませんでした。
 - **B29:** inherited readability / validity gateを満たしたtraining caseが18/27にとどまり、held-out prediction前にprogrammeをclose。M0/M1/M2のheld-out predictive verdictはありません。
+
+B28–B29統合preprint DOI: https://doi.org/10.5281/zenodo.23050390
+
 - **B30–B36:** PASSとFAILを両方保持した統合programmeです。history-conditioned transverse suppression、reflection parity、period-dependent lifting、spatially structured complex transfer kernelを得る一方、dynamic suppressionと共通linear pulse-timing lawの強い主張はFAILのままです。最終B36.2は、fresh finite grid上でfitted peak-timing slopeがgeometry-conditioned componentとreadout-sampling componentへ近似的に加法分解できるという、より限定された主張をprospectiveにPASSしました。
 
 B30–B36統合preprint DOI: https://doi.org/10.5281/zenodo.23048197
