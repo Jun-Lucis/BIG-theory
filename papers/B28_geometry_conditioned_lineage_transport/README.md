@@ -52,6 +52,14 @@ The retained result is finite-model and narrow:
 
 This does not regrade B27 and does not establish any claim about personal identity, subjective continuity, consciousness, AI personhood, biological inheritance, a universal law of individuality, or a continuum theorem for topology-changing free boundaries.
 
+## Integrated Zenodo publication
+
+B28 is archived together with B29 in the integrated B28–B29 Zenodo record:
+
+**DOI:** https://doi.org/10.5281/zenodo.23050390
+
+The integrated paper preserves the formal B28 verdict `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL` and does not regrade B27 or open B28.2.
+
 ## Repository files
 
 The frozen architecture and early calibration records remain in this folder. The final B28 status is summarized here and in:
