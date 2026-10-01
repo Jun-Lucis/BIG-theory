@@ -32,9 +32,13 @@ The concentration of unreadability in the (85^circ) relative-write stratum was h
 
 ## Integrated Zenodo publication
 
-B29 is archived together with B28 in the integrated B28–B29 Zenodo record:
+B29 is archived together with B28 in the integrated working paper:
 
+**Title:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests*  
+**Version:** v1.0  
 **DOI:** https://doi.org/10.5281/zenodo.23050390
+
+[Integrated repository entry](../B28_B29_lineage_transport_predictive_readability)
 
 The integrated paper preserves the B29 terminal status exactly: B29.1 was never opened, no held-out post-response was evaluated, and no M0/M1/M2 predictive verdict was issued.
 
