@@ -54,9 +54,13 @@ This does not regrade B27 and does not establish any claim about personal identi
 
 ## Integrated Zenodo publication
 
-B28 is archived together with B29 in the integrated B28–B29 Zenodo record:
+B28 is archived together with B29 in the integrated working paper:
 
+**Title:** *Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests*  
+**Version:** v1.0  
 **DOI:** https://doi.org/10.5281/zenodo.23050390
+
+[Integrated repository entry](../B28_B29_lineage_transport_predictive_readability)
 
 The integrated paper preserves the formal B28 verdict `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL` and does not regrade B27 or open B28.2.
 
