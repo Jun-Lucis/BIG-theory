@@ -9,6 +9,8 @@ For a fast technical orientation and the current evidence-level synthesis across
 - [Baseline integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
 - [Later-phase research status — B27 through B36](research_status_update_B27_B36.md)
 - [日本語版 — B27からB36 後期研究状況](research_status_update_B27_B36_ja.md)
+- [B37–B38 relational timing and weighted-duality status](research_status_update_B37_B38.md)
+- [日本語版 — B37からB38 相対的時間構造と重み付き双対性](research_status_update_B37_B38_ja.md)
 - [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
 The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
@@ -49,10 +51,11 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B28 | Geometry-conditioned response-lineage transport | Geometry-only component-resolved split transport fails prospectively under frozen tolerance |
 | B29 | Incremental predictive information beyond instantaneous geometry | Closed before held-out evaluation because the frozen training domain was not uniformly response-readable |
 | B30–B36 | Integrated response-to-pulse-timing programme | Transverse suppression/parity, dynamic FAIL, period lifting, spatial complex transfer, pulse timing limits, and fresh geometry/readout decomposition |
+| B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
 
 ---
 
-## Later-phase records — B27 through B36
+## Later-phase records — B27 through B38
 
 ### B27 — history-conditioned response and reconfiguration
 
@@ -117,6 +120,24 @@ Repository entry: [papers/B30_B36_integrated_response_to_pulse_timing](../papers
 
 Later-phase status summary: [research_status_update_B27_B36.md](research_status_update_B27_B36.md)
 
+### B38 — relational timing and weighted measurement duality
+
+**DOI:** https://doi.org/10.5281/zenodo.23104248
+
+**Published title:** *Relational Timing and Weighted Measurement Duality in a Finite Nonlinear Boundary Field Model*
+
+**Subtitle:** *From Directed Source–Receiver Rephasing to Operator-Compatible Readout*
+
+B38 begins from the failure of absolute peak timing to behave as a stable primitive across lattice-phase and resolution changes, then prospectively changes the observable to relative boundary lag. B38.1 retains `RELATIVE_BOUNDARY_LAG_GEOMETRY_PASS`; B38.2-P1 retains `DIRECTED_SOURCE_RECEIVER_SWAP_ASYMMETRY_PASS`; B38.4-P1 retains `TIME_DEPENDENT_TANGENT_RESPONSE_BRIDGE_PASS`; B38.5-P1 retains `D_COMPATIBLE_GAMMA0_REPHASING_RETENTION_PASS`; and the terminal B38.6-P1 test retains `D_WEIGHTED_DUAL_READOUT_SUPPRESSION_PASS`.
+
+In the final fresh B38.6-P1 test, the standard-readout absolute best shift remained at least 0.235, while the maximum instantaneous-D-dual / standard absolute-shift ratio was 0.17021. The frozen-C0 weighted-dual reciprocity sentinel closed to roundoff, with maximum swap defect 3.14e-16 and maximum absolute best shift 4.44e-16.
+
+The supported interpretation is relational and finite-model-specific: the measured timing asymmetry depends strongly on the joint operator/source/receiver/readout structure. The remaining evolving weighted-dual residual is unresolved and is not treated as proof of fundamental non-reciprocity, observer limitation, emergent time, or a universal physical law.
+
+Repository entry: [papers/B38_relational_timing_weighted_duality](../papers/B38_relational_timing_weighted_duality)
+
+Status update: [research_status_update_B37_B38.md](research_status_update_B37_B38.md)
+
 ---
 
 ## Core BIG sequence
@@ -144,6 +165,10 @@ boundary formation
     -> cross-sector common-core audit
     -> predictive boundary-functional transfer
     -> topology-localized two-center geometry-transfer test
+    -> relative boundary lag
+    -> directed source/receiver response
+    -> tangent-operator prediction
+    -> weighted measurement duality
 ```
 
 The later B-series, especially B9--B12, was not originally designed to reproduce a specific target system.
@@ -630,6 +655,7 @@ BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
 BIG-B27 -> cite https://doi.org/10.5281/zenodo.23024324
 BIG-B28-B29 -> cite https://doi.org/10.5281/zenodo.23050390
 BIG-B30-B36 -> cite https://doi.org/10.5281/zenodo.23048197
+BIG-B38 -> cite https://doi.org/10.5281/zenodo.23104248
 ```
 
 ---
@@ -698,7 +724,7 @@ The B19E publication dependency is resolved under DOI https://doi.org/10.5281/ze
 
 ## Future updates
 
-Repository maintenance after closeout focuses on lightweight documentation, representative figures, reproducibility links, and preservation of claim boundaries. New claim-bearing computation is not treated as an extension of the closed B19-B26 programme; it begins under a new B-series identifier and a fresh predeclaration.
+Repository maintenance after closeout focuses on lightweight documentation, representative figures, reproducibility links, and preservation of claim boundaries. B38 is now archived at https://doi.org/10.5281/zenodo.23104248. Any future claim that external time can be replaced or reconstructed from boundary relations must begin as a new claim-bearing series with its own predeclaration; it is not a conclusion of B38.
 
 
 ---
