@@ -11,6 +11,9 @@ For a fast technical orientation and the current evidence-level synthesis across
 - [日本語版 — B27からB36 後期研究状況](research_status_update_B27_B36_ja.md)
 - [B37–B38 relational timing and weighted-duality status](research_status_update_B37_B38.md)
 - [日本語版 — B37からB38 相対的時間構造と重み付き双対性](research_status_update_B37_B38_ja.md)
+- [B39 relational clocks, information-metric drift, and reparameterization](research_status_update_B39.md)
+- [日本語版 — B39 relational clock・情報計量ドリフト・再パラメータ化](research_status_update_B39_ja.md)
+- [B39 paper entry](../papers/B39_relational_clocks_information_metric_drift/README.md)
 - [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
 The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
@@ -52,6 +55,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B29 | Incremental predictive information beyond instantaneous geometry | Closed before held-out evaluation because the frozen training domain was not uniformly response-readable |
 | B30–B36 | Integrated response-to-pulse-timing programme | Transverse suppression/parity, dynamic FAIL, period lifting, spatial complex transfer, pulse timing limits, and fresh geometry/readout decomposition |
 | B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
+| B39 | Relational clocks, information-metric drift, and clock reparameterization | Relational-clock persistence, directed metric drift, retained P1 FAIL, and fresh response-independent P2 covariance PASS |
 
 ---
 
@@ -137,6 +141,42 @@ The supported interpretation is relational and finite-model-specific: the measur
 Repository entry: [papers/B38_relational_timing_weighted_duality](../papers/B38_relational_timing_weighted_duality)
 
 Status update: [research_status_update_B37_B38.md](research_status_update_B37_B38.md)
+
+---
+
+### B39 — relational clocks, information-metric drift, and clock reparameterization
+
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23113994
+
+**Title:** *Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model*
+
+B39 begins from the unresolved evolving weighted-dual residual left by B38 and separates three questions: relational re-expression of timing, information-geometric directionality, and integration-level clock reparameterization.
+
+The retained claim-bearing sequence is:
+
+- B39.1-P1: `RELATIONAL_CLOCK_WEIGHTED_RESIDUAL_PERSISTENCE_PASS`
+- B39.2-P1: `INFORMATION_METRIC_DRIFT_DIRECTED_ORDER_PASS`
+- B39.3-P1: `INTEGRATION_LEVEL_REPARAMETERIZATION_COVARIANCE_FAIL`
+- B39.3-P2: `INTRINSIC_CLOCK_MAP_INTEGRATION_COVARIANCE_PASS`
+
+The P1 FAIL is retained permanently. P1A/P1B are non-claim-bearing diagnostics/calibration and do not regrade it.
+
+B39.3-P1B replaced the original response-dependent intervention-strength sentinel with response-independent clock-map criteria and selected (|k|=1.4). B39.3-P2 then froze a fresh protocol before any P2 trajectory, using 9 fresh baseline cells and 27 branch integrations. All six P2 components passed.
+
+For the primary P2 cases:
+
+- maximum weighted-trace relative L2 defect: (4.86	imes10^{-5});
+- minimum matched-trace correlation: above 0.9999999996;
+- maximum final-field relative L2 defect: (1.63	imes10^{-7});
+- maximum Fisher/JS relative difference: about (1.64	imes10^{-4});
+- D0 lag ticks: -4 to -1;
+- Dt lag ticks: +5 to +7.
+
+The supported conclusion is finite-model and protocol-specific. B39 does not establish emergent physical time, that external time is unreal or gauge-like, arbitrary reparameterization invariance, continuum convergence, fundamental non-reciprocity, wave propagation, Lorentz structure, quantum structure, or a universal law.
+
+Repository entry: [papers/B39_relational_clocks_information_metric_drift](../papers/B39_relational_clocks_information_metric_drift)
+
+Status update: [research_status_update_B39.md](research_status_update_B39.md)
 
 ---
 
