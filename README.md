@@ -28,6 +28,9 @@ For a fast technical orientation, start here:
 - **[B37–B38 relational timing and weighted-duality status](docs/research_status_update_B37_B38.md)**
 - 🇯🇵 **[B37–B38 相対的時間構造と重み付き双対性](docs/research_status_update_B37_B38_ja.md)**
 - **[B38 paper entry](papers/B38_relational_timing_weighted_duality/README.md)**
+- **[B39 relational clocks / information-metric drift / reparameterization status](docs/research_status_update_B39.md)**
+- 🇯🇵 **[B39 relational clock・情報計量ドリフト・再パラメータ化](docs/research_status_update_B39_ja.md)**
+- **[B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)**
 - 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
 The original conceptual motivation remains important but should be distinguished from the evidential claims: BIG explores whether boundaries can help organize individuality, stability, non-assimilation, interaction, memory, separation, capture, and reconfiguration. These broader interpretations are motivations and structural comparisons unless a specific reduced model and test support a narrower statement.
@@ -75,6 +78,9 @@ Key overview and reference documents:
 * **B37–B38 relational-timing status:** [docs/research_status_update_B37_B38.md](docs/research_status_update_B37_B38.md)
 * 🇯🇵 **B37–B38 相対的時間構造と重み付き双対性:** [docs/research_status_update_B37_B38_ja.md](docs/research_status_update_B37_B38_ja.md)
 * **B38 paper entry:** [papers/B38_relational_timing_weighted_duality/README.md](papers/B38_relational_timing_weighted_duality/README.md)
+* **B39 status update:** [docs/research_status_update_B39.md](docs/research_status_update_B39.md)
+* 🇯🇵 **B39 研究状況:** [docs/research_status_update_B39_ja.md](docs/research_status_update_B39_ja.md)
+* **B39 paper entry:** [papers/B39_relational_clocks_information_metric_drift/README.md](papers/B39_relational_clocks_information_metric_drift/README.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
@@ -113,6 +119,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B27–B36 later-phase status](docs/research_status_update_B27_B36.md)
 - [B37–B38 relational timing and weighted-duality status](docs/research_status_update_B37_B38.md)
 - [B38 paper entry](papers/B38_relational_timing_weighted_duality/README.md)
+- [B39 relational clocks / information-metric drift / reparameterization status](docs/research_status_update_B39.md)
+- [B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
@@ -152,6 +160,10 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B38 title:** *Relational Timing and Weighted Measurement Duality in a Finite Nonlinear Boundary Field Model: From Directed Source–Receiver Rephasing to Operator-Compatible Readout*
 
+**B39 Zenodo DOI:** https://doi.org/10.5281/zenodo.23113994
+
+**B39 title:** *Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model*
+
 Current one-sentence status:
 
 > **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
@@ -163,6 +175,8 @@ Current one-sentence status:
 **B27 closed on 29 September 2026.** B27.1 prospectively found `HISTORY_RESPONSE_GEOMETRY_PASS`: retained readable history changed local response geometry even at identical present phi. B27.2 then tested whether the normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. All three post targets were numerically valid, but all three failed the frozen covariance criterion (`RECONFIGURATION_COVARIANCE_FAIL`). B27.3 was not run under the frozen stop rule; any new reconfiguration-transport map belongs to B28 or later.\n\n**B28 subsequently closed with `GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`.** B28.1 prospectively tested fresh split targets at delta_post = 5.3, 5.6, and 5.9. All three were numerically valid, but the lineage-transport defects (~0.15334, 0.15247, 0.15644) exceeded the frozen PASS threshold 0.009 and the PARTIAL ceiling 0.027; B28.2 was therefore not opened. **B29 then closed before any held-out B29.1 evaluation** because only 18/27 training cases passed the inherited readability/validity gates; the 85-degree relative-write stratum was uniformly unreadable under the frozen gate. The integrated B28–B29 archival paper is available at DOI 10.5281/zenodo.23050390 and preserves both the B28 prospective FAIL and the B29 no-held-out status without regrading either result. **B30–B36 were later integrated into a single prospective response-to-timing programme** archived at DOI 10.5281/zenodo.23048197. Its retained evidence includes both formal FAILs and narrower successor PASSes, culminating in `ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS` on a fresh 3-by-4 geometry/readout grid without any claim of physical propagation speed or wave dynamics.
 
 **B38 closed on 2 October 2026 with `D_WEIGHTED_DUAL_READOUT_SUPPRESSION_PASS`.** B38.1 replaced fragile absolute peak timing with a prospectively tested relative boundary-lag observable. B38.2 established reproducible directed source/receiver swap asymmetry; B38.4 showed that the time-dependent tangent operator prospectively predicts fresh nonlinear response traces and swap metrics; B38.5 showed that the directional cubic gamma tangent is not the dominant timing contribution; and B38.6 showed that the large standard-readout rephasing is strongly suppressed by operator-compatible D-weighted dual receiver conventions. In the final fresh test, the maximum instantaneous-D-dual/standard absolute-shift ratio was 0.17021 and the frozen weighted-dual reciprocity sentinel closed to roundoff. The remaining evolving weighted-dual residual is unresolved and is not interpreted as fundamental non-reciprocity or as proof that time emerges from relations. DOI: https://doi.org/10.5281/zenodo.23104248.
+
+**B39 completed its current claim-bearing sequence on 3 October 2026.** B39.1 retained `RELATIONAL_CLOCK_WEIGHTED_RESIDUAL_PERSISTENCE_PASS`; B39.2 retained `INFORMATION_METRIC_DRIFT_DIRECTED_ORDER_PASS`. B39.3-P1 then retained the formal `INTEGRATION_LEVEL_REPARAMETERIZATION_COVARIANCE_FAIL`: matched physical-time covariance was strong, but the frozen protocol failed its response-dependent intervention sentinel and a one-tick floating-boundary predicate. P1A/P1B were diagnostic/calibration only and did not regrade that FAIL. After response-independent clock-map calibration selected |k|=1.4, a new fresh B39.3-P2 protocol was frozen before any P2 trajectory. All six P2 components passed, giving `INTRINSIC_CLOCK_MAP_INTEGRATION_COVARIANCE_PASS`. The P2 result supports finite-model covariance of the predefined path structures under the tested smooth nontrivial clock maps; it does not establish emergent physical time, gauge status of external time, arbitrary reparameterization invariance, or a continuum theorem. DOI: https://doi.org/10.5281/zenodo.23113994.
 
 ---
 
@@ -264,6 +278,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B28–B29 integrated paper | Lineage-transport limits and predictive-readability boundary | [papers/B28_B29_lineage_transport_predictive_readability](papers/B28_B29_lineage_transport_predictive_readability) |
 | B30–B36 | History-conditioned response → spatial transfer → pulse timing → geometry/readout decomposition | [papers/B30_B36_integrated_response_to_pulse_timing](papers/B30_B36_integrated_response_to_pulse_timing) |
 | B38 | Relational timing and weighted measurement duality | [papers/B38_relational_timing_weighted_duality](papers/B38_relational_timing_weighted_duality) |
+| B39 | Relational clocks, information-metric drift, and clock reparameterization | [papers/B39_relational_clocks_information_metric_drift](papers/B39_relational_clocks_information_metric_drift) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -604,6 +619,7 @@ In particular:
 * BIG-B24 does not establish one universal common operator across the audited sectors; its frozen cross-sector verdict is **MULTIPLE_BOUNDARY_CLASSES_INDICATED**.
 * BIG-B25 Phase I supports a prospective level-resolved transfer relation in the tested canonical p=4 model. Phase II further supports fixed-coefficient perimeter closure within the tested finite-resolution ellipse family, while the first two-center B9-like geometry-transfer protocol is `IMPLEMENTATION_INVALID` and does not establish geometry-family or topology transfer. Earlier negative and inconclusive verdicts remain unchanged.
 * BIG-B38 supports a prospective relational-timing and weighted-measurement result in the tested finite semi-discrete model. It does not establish fundamental non-reciprocity, emergent physical time, time-reversal violation, continuum persistence, a wave or propagation-speed law, Lorentz structure, electromagnetism, quantum structure, or a universal law. The remaining evolving weighted-dual residual is unresolved.
+* BIG-B39 supports a sequence of prospective finite-model timing results that includes both a retained integration-level FAIL and a later fresh response-independent clock-map covariance PASS. The P2 PASS does not erase the P1 FAIL and does not establish emergent time, arbitrary reparameterization invariance, gauge status of external time, or a continuum theorem.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
