@@ -20,7 +20,7 @@ https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
 **Release title:**  
 `BIG Research Status — B3–B26 + B23A (September 2026)`
 
-This remains the **latest GitHub Release tag**, but it is now a historical repository-level snapshot through B26 + B23A. The living repository has since advanced through B27–B36, including the integrated B28–B29 record (DOI 10.5281/zenodo.23050390) and the B30–B36 integrated preprint (DOI 10.5281/zenodo.23048197). It does not replace the individual Zenodo papers.
+This remains the **latest GitHub Release tag**, but it is now a historical repository-level snapshot through B26 + B23A. The living repository has since advanced through B27–B39, including the integrated B28–B29 record (DOI 10.5281/zenodo.23050390), the B30–B36 integrated preprint (DOI 10.5281/zenodo.23048197), B38 relational timing and weighted measurement duality (DOI 10.5281/zenodo.23104248), and the B39 relational-clock / information-metric / clock-reparameterization sequence (DOI 10.5281/zenodo.23113994). B39 preserves the formal B39.3-P1 FAIL and separately records the fresh response-independent B39.3-P2 covariance PASS. The GitHub release tag does not replace the individual Zenodo papers.
 
 The release records the current programme-level synthesis:
 
