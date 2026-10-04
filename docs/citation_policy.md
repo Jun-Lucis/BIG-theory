@@ -98,7 +98,8 @@ For a claim tied to one B-series experiment, cite the **specific Zenodo paper / 
 
 Examples:
 
-- a B9 fission-like metastability claim -> cite the B9 record;
+- a core B9 fission-like metastability claim -> cite the primary B9 record;
+- a B9 empirical Phase II claim about the metastability scale hierarchy, RIPL structural placement, or retained external/near-spinodal limits -> cite DOI https://doi.org/10.5281/zenodo.23128738;
 - a B20 response-normal result -> cite the B20 record;
 - a B21 local kinematic-closure result -> cite the B21 record;
 - a B22 prospective geometry result -> cite the B22 record;
