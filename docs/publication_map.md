@@ -29,7 +29,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B3--B4 | Boundary-layer formation and quadratic landing            | Local boundary structure                           |
 | B7     | Free-boundary exponent near runaway transition            | Local boundary regularity under global instability |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds | Geometry-controlled finite-amplitude stability     |
-| B9     | Boundary cost versus nonlocal repulsion                   | Fission-like metastable energy landscape           |
+| B9     | Boundary cost versus nonlocal repulsion                   | Fission-like metastability; later empirical Phase II separates energetic preference, coexistence, and local spinodal scales |
 | B10    | Finite-noise sustained capture                            | Stochastic-resonance-like boundary capture         |
 | B11    | Post-capture hidden-depth inheritance                     | Non-assimilative post-fusion memory retention      |
 | B12    | Unified boundary dynamics                                 | Reduced integration of B9, B10, and B11            |
@@ -327,8 +327,30 @@ BIG-B9 is not a quantitative model of nuclear fission. It does not include shell
 **Role in BIG:**
 B9 shows that boundary cost versus nonlocal repulsion alone can generate fission-like metastability in a reduced geometric model.
 
-**Record / DOI:**
+**Primary B9 record / DOI:**
 https://doi.org/10.5281/zenodo.20799131
+
+**Empirical Phase II / DOI:**  
+https://doi.org/10.5281/zenodo.23128738
+
+**Published title:**  
+*Boundary Information Geometry B9: Metastability Hierarchies and an Empirical Structural Comparison with Nuclear Fission*
+
+The 2026 empirical Phase II adds a prospectively tested separation between smooth (m=2) finite-amplitude coexistence and local spinodal loss, while preserving earlier far-separated and near-scission energetic-preference scales. Its retained scale hierarchy is approximately:
+
+```text
+far-separated preference:  lambda ~ 42--44
+near-scission preference:  lambda = 55.917826
+m=2 coexistence:            lambda = 89.194319
+m=2 local spinodal:         lambda = 89.739090
+p=1 pinch-envelope zero:    lambda ~ 102.7  (diagnostic)
+```
+
+A descriptive RIPL-3 fissility normalization places the examined (Z=88)–96 nuclei in the finite-model regime where separated configurations are energetically preferred while the compact circular reference remains locally stable. This is a structural comparison, not a nuclide-specific barrier calculation.
+
+The same release retains limiting outcomes: a two-case external magnitude check was mixed, two prospective near-spinodal exponent tests failed, and the quartic coefficient remained numerically unresolved. No claim is made that shell, pairing, tunneling, or other microscopic nuclear effects are either reducible to the current boundary variables or intrinsically non-boundary.
+
+Repository summary: [papers/B9_fission_like_metastability/empirical_phase_II.md](../papers/B9_fission_like_metastability/empirical_phase_II.md)
 
 ---
 
@@ -685,7 +707,8 @@ For specific numerical or structural claims, cite the corresponding Zenodo recor
 Examples:
 
 ```text
-BIG-B9  -> cite the B9 Zenodo DOI
+BIG-B9 core model -> cite the primary B9 Zenodo DOI
+BIG-B9 empirical Phase II -> cite https://doi.org/10.5281/zenodo.23128738
 BIG-B10 -> cite the B10 Zenodo DOI
 BIG-B11 -> cite the B11 Zenodo DOI
 BIG-B12 -> cite the B12 Zenodo DOI
