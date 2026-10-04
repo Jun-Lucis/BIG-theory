@@ -86,6 +86,14 @@ This should not be interpreted as implying that such effects are fundamentally i
 
 The comparison with nuclear fission should therefore be read as a **macroscopic structural comparison**, not as a quantitative nuclear calculation.
 
+The 2026 B9 empirical Phase II adds a more resolved finite-model distinction between energetic preference, finite-amplitude coexistence, and local loss of stability. A prospectively frozen held-out-resolution test reproduced the smooth (m=2) coexistence and spinodal scales, while a descriptive RIPL-3 fissility normalization placed the examined (Z=88)–96 nuclei in the regime where separated configurations are energetically preferred and the compact reference remains locally stable.
+
+That result does **not** imply that the nuclear effects omitted from the minimal model are fundamentally non-boundary degrees of freedom. It also does **not** imply that they must ultimately reduce to boundary variables. The current evidence only shows that the boundary variables presently resolved by B9 are sufficient to produce a nontrivial metastability hierarchy but insufficient for nuclide-specific quantitative reproduction. Whether additional microscopic structure is best represented as deeper boundary structure, additional state variables, or a mixture of both remains open.
+
+The empirical Phase II also retains its limiting outcomes: a two-case external barrier-magnitude check was mixed, two prospective near-spinodal exponent tests failed, and the quartic coefficient remained numerically unresolved. No resolved quadratic or cubic local barrier exponent is claimed.
+
+**Empirical Phase II DOI:** https://doi.org/10.5281/zenodo.23128738
+
 ---
 
 ## 5. B10 scope
