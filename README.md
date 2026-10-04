@@ -31,6 +31,7 @@ For a fast technical orientation, start here:
 - **[B39 relational clocks / information-metric drift / reparameterization status](docs/research_status_update_B39.md)**
 - 🇯🇵 **[B39 relational clock・情報計量ドリフト・再パラメータ化](docs/research_status_update_B39_ja.md)**
 - **[B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)**
+- **[B9 empirical Phase II — metastability hierarchy / nuclear-fission structural comparison](papers/B9_fission_like_metastability/empirical_phase_II.md)**
 - 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
 The original conceptual motivation remains important but should be distinguished from the evidential claims: BIG explores whether boundaries can help organize individuality, stability, non-assimilation, interaction, memory, separation, capture, and reconfiguration. These broader interpretations are motivations and structural comparisons unless a specific reduced model and test support a narrower statement.
@@ -163,6 +164,10 @@ A compact evidence map separating **model-level results** from **open hypotheses
 **B39 Zenodo DOI:** https://doi.org/10.5281/zenodo.23113994
 
 **B39 title:** *Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model*
+
+**B9 Empirical Phase II DOI:** https://doi.org/10.5281/zenodo.23128738
+
+**B9 Empirical Phase II title:** *Boundary Information Geometry B9: Metastability Hierarchies and an Empirical Structural Comparison with Nuclear Fission*
 
 Current one-sentence status:
 
@@ -605,7 +610,7 @@ BIG is a developing mathematical and numerical research programme. The current m
 
 In particular:
 
-* BIG-B9 is not a quantitative theory of nuclear fission.
+* BIG-B9 is not a quantitative theory of nuclear fission. Its 2026 empirical Phase II supports a finite-model separation between energetic preference, coexistence, and local stability loss, but it does not provide a nuclide-specific MeV calibration; omitted microscopic structure is not classified as intrinsically boundary or non-boundary by the present evidence.
 * BIG-B10 is not a quantitative theory of nuclear fusion.
 * BIG-B11 is not a quantitative theory of biological inheritance, nuclear fusion, or real energy release.
 * BIG-B12 is not a completed physical unification theory.
@@ -635,7 +640,7 @@ For details, see:
 
 Some BIG models have shown structural alignment with established patterns in other fields.
 
-For example, B9 was not built as a nuclear model, but its boundary-cost versus nonlocal-repulsion landscape naturally resembles the macroscopic surface-versus-Coulomb competition used in fission-barrier intuition. The comparison remains structural and qualitative.
+For example, B9 was not built as a nuclear model, but its boundary-cost versus nonlocal-repulsion landscape naturally resembles the macroscopic surface-versus-Coulomb competition used in fission-barrier intuition. A later empirical phase resolved distinct finite-model scales for separated-state preference, finite-amplitude coexistence, local spinodal loss, and topology-changing pinch behavior, and placed a RIPL-3 actinide subset on that metastability hierarchy through a descriptive fissility normalization. The comparison remains structural rather than a calibrated nuclear-fission calculation; the same phase also retains mixed external magnitude results, failed near-spinodal exponent tests, and an unresolved quartic coefficient.
 
 This motivates a broader research direction:
 
@@ -668,6 +673,7 @@ Current entries include:
 | B7 | Free-boundary exponent across runaway transition | https://doi.org/10.5281/zenodo.20603601 |
 | B8 | Boundary anisotropy and finite-time separatrix thresholds | https://zenodo.org/records/20645317 |
 | B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
+| B9 empirical Phase II | Metastability hierarchy and empirical structural comparison with nuclear fission | https://doi.org/10.5281/zenodo.23128738 |
 | B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.20819427 |
 | B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.20828439 |
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
@@ -777,6 +783,7 @@ For claims about the evidential status of several B-series together, cite the re
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 - B38 relational timing and weighted measurement duality: https://doi.org/10.5281/zenodo.23104248
+- B9 empirical Phase II: https://doi.org/10.5281/zenodo.23128738
 - B19-B26 programme synthesis: https://doi.org/10.5281/zenodo.23006170 (reserved; Zenodo deposit planned 28 September 2026)
 - B19-B26 closeout record: [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
 
