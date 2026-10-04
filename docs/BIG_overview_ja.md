@@ -85,6 +85,14 @@ $$
 
 この単純な構造から、コンパクト状態、有限ピンチ障壁、分離枝を持つ fission-like なメタ安定構造が現れます。
 
+2026年10月のB9 empirical Phase IIでは、この単純模型を実測比較へ一段進め、遠方分離状態のenergetic preference、near-scission preference、smooth (m=2) finite-amplitude coexistence、local spinodal、pinch-envelope zeroが同じしきい値ではないことを整理しました。特にheld-out resolutionで、(m=2) coexistence (lambda=89.194319) と local spinodal (lambda=89.739090) の分離がprospectiveに再現されました。
+
+RIPL-3の (88\le Z\le96) の52核種をfissilityによる記述的な無次元対応で配置すると、調べた核種は「分離状態はすでにenergy的に有利だが、compact referenceはまだ局所安定」というmodel regimeに入りました。ただしこれは構造対応であり、MeV単位の核分裂障壁を予測する定量核模型ではありません。
+
+また、現在のminimal B9で表現できない核種固有の微視的要素について、それらが本質的に「境界ではない」とも、逆にすべてがより深い境界変数へ還元できるとも、現段階では結論していません。現在解像している境界自由度でどこまで構造が出るかを示した段階です。
+
+**B9 empirical Phase II DOI:** https://doi.org/10.5281/zenodo.23128738
+
 ---
 
 ### 有限ノイズ捕獲
@@ -113,7 +121,7 @@ BIGの現在の展開は、次のような系列として整理できます。
 | B3--B4 | 境界層形成と二次着地                    | 局所境界構造                          |
 | B7     | runaway近傍での自由境界指数             | 局所境界構造と大域不安定性の分離                |
 | B8     | 境界異方性と有限時間セパラトリクス             | 形状が安定性しきい値を動かす                  |
-| B9     | 境界コスト vs 非局所反発                | fission-like なメタ安定エネルギー地形       |
+| B9     | 境界コスト vs 非局所反発                | fission-like metastabilityと、後続Phase IIでのenergetic preference / coexistence / local spinodalの分離 |
 | B10    | 有限ノイズ持続捕獲                     | stochastic-resonance-like な捕獲構造 |
 | B11    | 捕獲後の hidden-depth inheritance | 同化ではない継承構造                      |
 | B12    | 統合境界ダイナミクス                    | B9/B10/B11の縮約統合                 |
