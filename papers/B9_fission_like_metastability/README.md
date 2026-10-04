@@ -112,6 +112,49 @@ It is not a calibrated liquid-drop fissility parameter.
 
 ---
 
+## Empirical Phase II — metastability hierarchy and RIPL structural placement
+
+A later B9 empirical phase revisited the minimal model with prospective held-out tests, higher-resolution diagnostics, and an explicit separation between different metastability scales.
+
+The retained finite-model hierarchy is:
+
+```text
+far-separated energetic preference:  lambda ~ 42--44
+near-scission preference:            lambda = 55.917826
+smooth m=2 coexistence:              lambda = 89.194319
+smooth m=2 local spinodal:           lambda = 89.739090
+p=1 pinch-envelope zero:             lambda ~ 102.7  (diagnostic)
+```
+
+The key result is not one universal threshold, but the separation
+
+[
+	ext{global energetic preference}
+
+eq
+	ext{finite-amplitude coexistence}
+
+eq
+	ext{local stability loss}
+
+eq
+	ext{pinch-envelope zero}.
+]
+
+The coexistence and spinodal scales were reproduced in a prospectively frozen held-out-resolution test.
+
+A descriptive normalization using the RIPL fissility variable places the examined (Z=88)–96 nuclei in the model regime where separated configurations are already energetically preferred while the compact circular reference remains locally stable. This is a structural placement only; it is not a calibrated prediction of fission-barrier heights.
+
+The phase also retains negative and unresolved outcomes: a two-case external barrier-magnitude check was mixed, two prospective near-spinodal exponent tests failed, and the quartic coefficient remained numerically unresolved.
+
+**Published follow-up:**  
+[Empirical Phase II summary](empirical_phase_II.md)
+
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.23128738
+
+---
+
 ## Additional representative figures
 
 ### Energy landscape
@@ -241,10 +284,14 @@ Avoid unless carefully qualified:
 
 ---
 
-## Zenodo record
+## Zenodo records
 
 Primary BIG-B9 record:
 
 https://doi.org/10.5281/zenodo.20799131
 
-Additional B9 empirical structural-comparison records may be listed here when finalized.
+Empirical Phase II — metastability hierarchies and structural comparison with nuclear fission:
+
+https://doi.org/10.5281/zenodo.23128738
+
+The Phase II Zenodo record contains the authoritative English preprint, Japanese reference translation, and reproducibility package.
