@@ -21,6 +21,7 @@ This conclusion comes from both positive and limiting results. Local or family-r
 For a fast technical orientation, start here:
 
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
+- **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
 - **[One-page technical summary](docs/technical_summary.md)**
 - 🇯🇵 **[1ページ技術サマリー](docs/technical_summary_ja.md)**
 - **[Baseline integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
@@ -720,6 +721,7 @@ Current entries include:
 | B38 | Relational timing and weighted measurement duality | https://doi.org/10.5281/zenodo.23104248 |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | https://doi.org/10.5281/zenodo.23113994 |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | https://doi.org/10.5281/zenodo.23153688 |
+| Methodology companion | Failure-Preserving AI-Assisted Research | https://doi.org/10.5281/zenodo.23171698 |
 
 ---
 
