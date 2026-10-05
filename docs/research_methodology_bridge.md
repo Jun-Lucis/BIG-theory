@@ -48,9 +48,11 @@ Earlier B3-B18 records are being kept analytically separate because the later PA
 
 An exploratory temporal-development audit also compares the documented B19-B26 and B27-B40 epochs. Explicit backward linkage is 10/13 (76.9%) in the earlier standardized epoch and 12/12 (100%) in the later epoch. The direction is compatible with increasing reuse, but the comparison is not statistically persuasive (Fisher two-sided p≈0.220) and improved documentation itself is a major confound. The methodology paper therefore does **not** claim that failure reuse has been proven to increase over time.
 
+A separate retained-artifact timestamp audit covers 14 comparable source-result-to-successor-freeze transitions. Their median recorded interval is about **1.20 hours** (IQR **0.49-2.03 h**), but there is **no evidence of monotonic shortening over time** (Spearman rho≈0.051, p≈0.864). Thus the later programme is more explicit about research-memory linkage, but it is not shown to be faster at converting a negative outcome into a successor frozen protocol.
+
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_8.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_9.md
 
 ## Evidence linkage
 
