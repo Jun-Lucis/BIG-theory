@@ -42,13 +42,13 @@ The central methodological proposition is deliberately narrower than a claim tha
 
 The companion repository now contains a frozen lineage-coding protocol and an explicit stage-level audit.
 
-For the standardized B19-B40 interval, the current broad coding identifies **25 negative or limiting source stages**, of which **21 have an explicit downstream backward link**. The resulting **84%** value is treated only as a descriptive statistic of the coded BIG interval; it is not a general estimate of the value of failure.
+For the standardized B19-B40 interval, audit v0.3 identifies **25 negative or limiting source stages**, of which **22 have an explicit downstream backward link**. The resulting **88.0%** value is treated only as a descriptive statistic of the coded BIG interval; it is not a general estimate of the value of failure. Audit v0.2 reported 84%; v0.3 recovered one explicit B29-T1-to-B30 successor edge while preserving the earlier audit.
 
 Earlier B3-B18 records are being kept analytically separate because the later PASS / FAIL / INCONCLUSIVE / INVALID vocabulary was not yet consistently used. Archive-verified early examples currently include boundary-measurement redesign, B6 retained-scan reuse, B12 mechanism redesign, B13/B13.1 interpretation correction, and B17-B18 readout enrichment.
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_5.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_6.md
 
 ## Evidence linkage
 
