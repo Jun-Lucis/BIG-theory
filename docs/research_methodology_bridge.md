@@ -50,7 +50,7 @@ An exploratory temporal-development audit also compares the documented B19-B26 a
 
 A separate retained-artifact timestamp audit covers 14 comparable source-result-to-successor-freeze transitions. Their median recorded interval is about **1.20 hours** (IQR **0.49-2.03 h**), but there is **no evidence of monotonic shortening over time** (Spearman rho≈0.051, p≈0.864). Thus the later programme is more explicit about research-memory linkage, but it is not shown to be faster at converting a negative outcome into a successor frozen protocol.
 
-Working methodology manuscript:
+Published methodology manuscript:
 
 https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v1_0.md
 
@@ -79,7 +79,7 @@ BIG-theory GitHub repository
 BIG papers / data / reproducibility archives (Zenodo)
 ```
 
-The methodology-paper DOI will be added after the first formal release.
+The methodology paper is published on Zenodo under DOI **10.5281/zenodo.23171698**.
 
 ## Scope boundary
 
@@ -90,16 +90,21 @@ Human verification, compute, error control, public-data limitations, and the nee
 The methodological claim is narrower: AI-assisted individual research can increase effective research bandwidth, while disciplined preservation can give part of the historical search path nonzero future scientific value.
 
 
-## Current methodology release-candidate status
+## Current methodology publication status
 
-The methodology repository has reached a frozen English v1.0 manuscript:
+The methodology paper is published as v1.0 on Zenodo.
 
-- `paper/manuscript_v1_0.md`
-- `docs/source_action_authority_recheck_v1_0.md`
-- `figures/figure_manifest_v1_0.md`
-- `paper/release_package_plan_v1_0.md`
+- English manuscript: `paper/manuscript_v1_0.md`
+- Japanese reference translation: `paper/manuscript_v1_0_Japanese_reference.md`
+- source/action authority recheck: `docs/source_action_authority_recheck_v1_0.md`
+- frozen figure manifest: `figures/figure_manifest_v1_0.md`
+- release-package plan: `paper/release_package_plan_v1_0.md`
 
-The scientific/audit content is effectively frozen pending final license choice, PDF production, Git release tagging, and Zenodo publication.
+**Zenodo DOI:** 10.5281/zenodo.23171698
+
+**License:** scholarly materials CC BY 4.0; executable tools in the methodology repository MIT.
+
+A GitHub tag/release and full audit-package checksum archive remain optional repository-hardening steps; they are not prerequisites for the already published Zenodo record.
 
 
 ## Methodology paper DOI
