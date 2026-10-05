@@ -52,7 +52,7 @@ A separate retained-artifact timestamp audit covers 14 comparable source-result-
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_9.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_10.md
 
 ## Evidence linkage
 
