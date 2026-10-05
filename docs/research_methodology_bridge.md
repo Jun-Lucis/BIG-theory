@@ -44,7 +44,7 @@ The companion repository now contains a frozen lineage-coding protocol and an ex
 
 For the standardized B19-B40 interval, audit v0.3 identifies **25 negative or limiting source stages**, of which **22 have an explicit downstream backward link**. The resulting **88.0%** value is treated only as a descriptive statistic of the coded BIG interval; it is not a general estimate of the value of failure. Audit v0.2 reported 84%; v0.3 recovered one explicit B29-T1-to-B30 successor edge while preserving the earlier audit.
 
-Earlier B3-B18 records are being kept analytically separate because the later PASS / FAIL / INCONCLUSIVE / INVALID vocabulary was not yet consistently used. Archive-verified early examples currently include boundary-measurement redesign, B6 retained-scan reuse, B12 mechanism redesign, B13/B13.1 interpretation correction, and B17-B18 readout enrichment.
+Earlier B3-B18 records are being kept analytically separate because the later PASS / FAIL / INCONCLUSIVE / INVALID vocabulary was not yet consistently used. A provenance-corrected early audit now keeps four source-backed examples in the methodology manuscript (B6 retained-scan reuse, B12 mechanism redesign, B13/B13.1 interpretation correction, and B17-B18 readout enrichment). An additional elliptic-boundary measurement-redesign candidate remains supplementary because one previously quoted exact exponent pair could not be recovered from an immutable source.
 
 An exploratory temporal-development audit also compares the documented B19-B26 and B27-B40 epochs. Explicit backward linkage is 10/13 (76.9%) in the earlier standardized epoch and 12/12 (100%) in the later epoch. The direction is compatible with increasing reuse, but the comparison is not statistically persuasive (Fisher two-sided p≈0.220) and improved documentation itself is a major confound. The methodology paper therefore does **not** claim that failure reuse has been proven to increase over time.
 
@@ -52,7 +52,7 @@ A separate retained-artifact timestamp audit covers 14 comparable source-result-
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_10.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_11.md
 
 ## Evidence linkage
 
