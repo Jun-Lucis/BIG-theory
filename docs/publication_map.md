@@ -14,6 +14,9 @@ For a fast technical orientation and the current evidence-level synthesis across
 - [B39 relational clocks, information-metric drift, and reparameterization](research_status_update_B39.md)
 - [日本語版 — B39 relational clock・情報計量ドリフト・再パラメータ化](research_status_update_B39_ja.md)
 - [B39 paper entry](../papers/B39_relational_clocks_information_metric_drift/README.md)
+- [B40 clock-family transfer and target-excluded relational reconstruction](research_status_update_B40.md)
+- [日本語版 — B40 時計写像族転送・標的除外関係再構成](research_status_update_B40_ja.md)
+- [B40 paper entry](../papers/B40_clock_family_transfer_relational_reconstruction/README.md)
 - [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
 The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
@@ -56,10 +59,11 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B30–B36 | Integrated response-to-pulse-timing programme | Transverse suppression/parity, dynamic FAIL, period lifting, spatial complex transfer, pulse timing limits, and fresh geometry/readout decomposition |
 | B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | Relational-clock persistence, directed metric drift, retained P1 FAIL, and fresh response-independent P2 covariance PASS |
+| B40 | Clock-family transfer and target-excluded relational reconstruction | Retained parent FAILs, lag-grid localization, orientation localization, and fresh orientation-reversing covariance transfer/replication |
 
 ---
 
-## Later-phase records — B27 through B38
+## Later-phase records — B27 through B40
 
 ### B27 — history-conditioned response and reconfiguration
 
@@ -934,3 +938,45 @@ https://doi.org/10.5281/zenodo.22972985
 
 **Related B25 Phase-II DOI:**  
 https://doi.org/10.5281/zenodo.22967474
+
+
+---
+
+### B40 — clock-family transfer and target-excluded relational reconstruction
+
+**DOI:** https://doi.org/10.5281/zenodo.23153688
+
+**Published title:** *Clock-Family Transfer and Target-Excluded Relational Reconstruction in a Finite Boundary-Response Model*
+
+B40 extends the B39.3 clock-reparameterization programme by first changing the monotone clock-map family and then removing the prescribed map from the primary reconstruction coordinate.
+
+The retained formal sequence is:
+
+```text
+B40.1-P1  CLOCK_MAP_FAMILY_TRANSFER_FAIL
+B40.1-P1B LAG_GRID_QUANTIZATION_LOCALIZATION_PASS
+
+B40.2-P1  TARGET_EXCLUDED_RELATIONAL_RECONSTRUCTION_FAIL
+B40.2-P1B PHASE_RESOLUTION_LOCALIZATION_PASS
+B40.2-P1C AXIS_SWAP_ORIENTATION_LOCALIZATION_PASS
+B40.2-P1D NEGATIVE_PHASE_AXIS_SWAP_REPLICATION_PASS
+B40.2-P1E ORIENTATION_REVERSING_COVARIANCE_TRANSFER_PASS
+B40.2-P1F THIRD_ANGLE_ORIENTATION_REVERSING_COVARIANCE_REPLICATION_PASS
+```
+
+The two parent FAILs remain unchanged. B40.1-P1B prospectively localizes the single B40.1 aggregate failure to coarse lag-grid quantization at the tested geometry. B40.2 begins with a formal reconstruction FAIL and then prospectively localizes the limitation across phase, resolution, and axis exchange. The orientation-reversing transformation is subsequently frozen before fresh angle-pair tests.
+
+At 23°/67°, B40.2-P1E returns `ORIENTATION_REVERSING_COVARIANCE_TRANSFER_PASS` with reconstruction categorical match fraction 1.0. At a third fresh 17°/73° pair, B40.2-P1F returns `THIRD_ANGLE_ORIENTATION_REVERSING_COVARIANCE_REPLICATION_PASS`, again with categorical match fraction 1.0. Two fresh reconstruction threshold failures remain in P1F, but they form a transformed partner pair; reconstruction is therefore not claimed to be uniformly successful.
+
+**Supported statement:** within the tested finite semi-discrete implementation, reconstruction success and failure are organized by a reproducible orientation-reversing covariance combining spatial-axis exchange with directed-side reversal.
+
+**Not established:** arbitrary reparameterization invariance, a universal relational clock, emergent physical time, continuum rotational covariance, physical anisotropy, or a continuum theorem.
+
+**Repository entry:**  
+[papers/B40_clock_family_transfer_relational_reconstruction](../papers/B40_clock_family_transfer_relational_reconstruction)
+
+**Status update:**  
+[research_status_update_B40.md](research_status_update_B40.md)
+
+**Japanese status:**  
+[research_status_update_B40_ja.md](research_status_update_B40_ja.md)
