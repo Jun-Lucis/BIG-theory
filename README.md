@@ -20,6 +20,7 @@ This conclusion comes from both positive and limiting results. Local or family-r
 
 For a fast technical orientation, start here:
 
+- **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **[One-page technical summary](docs/technical_summary.md)**
 - 🇯🇵 **[1ページ技術サマリー](docs/technical_summary_ja.md)**
 - **[Baseline integrated research status map — B3 through B26 + B23A](docs/research_status_map_B3_B26.md)**
@@ -70,6 +71,7 @@ Key overview and reference documents:
 
 * 🇯🇵 **Japanese overview:** [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)
 * **Publication map:** [docs/publication_map.md](docs/publication_map.md)
+* **Research methodology companion:** [docs/research_methodology_bridge.md](docs/research_methodology_bridge.md)
 * **One-page technical summary:** [docs/technical_summary.md](docs/technical_summary.md)
 * 🇯🇵 **1ページ技術サマリー:** [docs/technical_summary_ja.md](docs/technical_summary_ja.md)
 * **Current integrated research status map — B3 through B26 + B23A:** [docs/research_status_map_B3_B26.md](docs/research_status_map_B3_B26.md)
