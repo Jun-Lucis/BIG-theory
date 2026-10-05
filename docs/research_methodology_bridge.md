@@ -48,7 +48,7 @@ Earlier B3-B18 records are being kept analytically separate because the later PA
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_6.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_7.md
 
 ## Evidence linkage
 
