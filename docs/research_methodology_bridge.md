@@ -7,7 +7,7 @@ A separate companion repository now documents the **research-development methodo
 **Failure-Preserving AI-Assisted Research**  
 https://github.com/Jun-Lucis/failure-preserving-research
 
-The companion project treats BIG as a longitudinal case study rather than as a premise. Its methodological claims remain logically distinct from the correctness or generality of BIG itself.
+The companion project treats BIG as a longitudinal case study rather than as a premise. Its methodological claims remain logically distinct from the correctness or generality of BIG itself. The current literature audit also narrows novelty claims in light of EvoScientist, Agent-Native Research Artifacts, and Sibyl-AutoResearch; failure preservation or generic result-to-action memory is not claimed as unique.
 
 ## Why a separate repository?
 
@@ -52,7 +52,7 @@ A separate retained-artifact timestamp audit covers 14 comparable source-result-
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_11.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_12.md
 
 ## Evidence linkage
 
