@@ -52,7 +52,7 @@ A separate retained-artifact timestamp audit covers 14 comparable source-result-
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v1_0_rc2.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v1_0.md
 
 ## Evidence linkage
 
@@ -92,9 +92,9 @@ The methodological claim is narrower: AI-assisted individual research can increa
 
 ## Current methodology release-candidate status
 
-The methodology repository has reached an English manuscript release candidate:
+The methodology repository has reached a frozen English v1.0 manuscript:
 
-- `paper/manuscript_v1_0_rc2.md`
+- `paper/manuscript_v1_0.md`
 - `docs/source_action_authority_recheck_v1_0.md`
 - `figures/figure_manifest_v1_0.md`
 - `paper/release_package_plan_v1_0.md`
