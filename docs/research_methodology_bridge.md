@@ -100,3 +100,12 @@ The methodology repository has reached an English manuscript release candidate:
 - `paper/release_package_plan_v1_0.md`
 
 The scientific/audit content is effectively frozen pending final license choice, PDF production, Git release tagging, and Zenodo publication.
+
+
+## Methodology paper DOI
+
+Failure-Preserving AI-Assisted Research
+
+DOI: **10.5281/zenodo.23171698**
+
+https://doi.org/10.5281/zenodo.23171698
