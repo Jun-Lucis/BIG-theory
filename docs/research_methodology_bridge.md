@@ -2,48 +2,56 @@
 
 Boundary Information Geometry (BIG) is the mathematical and numerical research programme documented in this repository.
 
-A separate companion repository is being established for the **research-development methodology** that emerged during the programme:
+A separate companion repository now documents the **research-development methodology** that emerged during the programme:
 
 **Failure-Preserving AI-Assisted Research**  
 https://github.com/Jun-Lucis/failure-preserving-research
 
-The companion project treats BIG as a longitudinal case study rather than as a premise. Its methodological claims are intended to remain logically distinct from the correctness or generality of BIG itself.
+The companion project treats BIG as a longitudinal case study rather than as a premise. Its methodological claims remain logically distinct from the correctness or generality of BIG itself.
 
 ## Why a separate repository?
 
 The two repositories answer different questions.
 
 - **BIG-theory:** What mathematical and numerical structures were tested, and what evidence was obtained?
-- **failure-preserving-research:** How was the research process organized so that large-scale exploration, prospective freezing, retained failures, recovery, and later salvage could be used as research assets?
+- **failure-preserving-research:** How was the research process organized so that AI-assisted exploration, external numerical execution, prospective freezing, retained failures, later salvage, and experimental handoff could form a reusable research architecture?
 
-The methodological programme focuses on four linked practices:
+## Core methodology
 
-1. **Expanded individual research bandwidth** through AI-assisted coding, numerical experiment design, debugging, data organization, and comparison.
-2. **Freedom to fail** in individual research, where exploratory branches can be pursued without consuming a team’s shared labor budget.
-3. **Failure preservation** through retained parameters, outputs, verdicts, checkpoints, manifests, and audit records.
-4. **Failure salvage** in which earlier negative, inconclusive, or abandoned results can later constrain the search space or motivate a successful route.
+The companion project organizes the workflow into three nested cycles plus an external-validation boundary.
+
+1. **Micro — AI / external-computation loop**  
+   AI-assisted reasoning is repeatedly translated into simple executable numerical calculations and revised in response to the outputs.
+
+2. **Meso — prospective test / redesign loop**  
+   Hypotheses are frozen, tested, and assigned persistent PASS / FAIL / INCONCLUSIVE / INVALID verdicts. A successor test receives a new identity rather than rewriting the parent outcome.
+
+3. **Macro — failure-salvage / research-memory loop**  
+   Retained failures, diagnostics, parameters, and outputs can later be re-read as constraints or discovery data for a new representation.
+
+4. **Experimental handoff**  
+   When public data and simulation no longer provide the decisive physical measurement, the next step belongs to laboratories, organizations, equipment, calibration, and domain expertise.
+
+The broader enabling conditions include expanded individual research bandwidth, freedom to fail, failure preservation, failure salvage, AI–external computation feedback, and explicit experimental handoff.
 
 The central methodological proposition is deliberately narrower than a claim that AI “automates science”:
 
-> AI can change not only the cost of successful experiments, but also the economics and future value of failed experiments.
+> **AI can change not only the cost of successful experiments, but also the economics and future value of failed experiments.**
 
 ## Evidence linkage
 
-The companion methodology repository will point back to concrete BIG records where appropriate, including retained FAIL, INCONCLUSIVE, implementation-invalid, recovery, and prospective PASS histories.
+The methodology repository points back to concrete BIG records, including retained FAIL, INCONCLUSIVE, implementation-invalid, diagnostic, and prospective PASS histories.
 
-Conversely, this repository will link to the methodology repository so that readers can distinguish:
+A historical FAIL is never retrospectively promoted merely because it later became useful. The companion repository explicitly distinguishes:
 
 ```text
-research method and process
-        <-> 
-actual BIG numerical record
-        <->
-archived BIG papers and reproducibility packages
+archived failure -> discovery / redesign
+fresh frozen test -> validation
 ```
 
-## Publication architecture
+Representative case-study chains currently include B25, B27–B29, B32–B36, B37–B40, including the later shift from fragile absolute timing observables toward relative and relational timing.
 
-The intended public structure is:
+## Publication architecture
 
 ```text
 Methodology paper (Zenodo)
@@ -55,10 +63,12 @@ BIG-theory GitHub repository
 BIG papers / data / reproducibility archives (Zenodo)
 ```
 
-The methodology paper DOI will be added after the first formal release.
+The methodology-paper DOI will be added after the first formal release.
 
 ## Scope boundary
 
-This methodological project does **not** claim that retained failures automatically become useful, that unlimited computation is free, or that AI removes the need for scientific judgment. Human time, verification, compute, energy, and error control remain real costs.
+The companion project does **not** claim that retained failures automatically become useful, that unlimited computation is free, that AI-generated reasoning is self-validating, or that individual computational research replaces organized experimental science.
 
-The narrower claim is that AI-assisted individual research can substantially lower the marginal cost of generating, implementing, checking, and revisiting computational experiments, while disciplined preservation can give failed exploration nonzero future value.
+Human verification, compute, error control, public-data limitations, and the need for new physical measurements remain real constraints.
+
+The methodological claim is narrower: AI-assisted individual research can increase effective research bandwidth, while disciplined preservation can give part of the historical search path nonzero future scientific value.
