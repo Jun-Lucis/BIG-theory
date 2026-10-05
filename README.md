@@ -185,7 +185,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 Current one-sentence status:
 
-> **B24 retained multiple native boundary classes. B25 then built a prospective transfer hierarchy culminating in a fixed-coefficient perimeter closure on held-out ellipse targets. B26 independently localized the representative-level topology transition and then tested new topology-straddling two-center targets: all six terminal cases were numerically valid and the topology gate was realized, but the frozen fixed coefficient failed prospectively (median error 42.91%, maximum 44.79%), resolving a finite-resolution geometry-transfer boundary rather than a universal sigma-P law.**
+> **BIG currently supports a family of system-dependent boundary-response structures rather than one programme-wide quantitative law; most recently, B40 retained formal clock-family-transfer and target-excluded-reconstruction FAILs while prospectively localizing their limitations and independently replicating a finite-grid orientation-reversing covariance of reconstruction success/failure across fresh angle pairs, without claiming a universal relational clock, emergent physical time, or continuum rotational covariance.**
 
 **B23A closes a separate universality-audit branch rooted in B20–B23 and B9/free-boundary reconfiguration tests.** Its prospective P1–P6 sequence does not support one transferable smooth normal, reset amplitude, locality contrast, or monotonic rate law. The retained interpretation is narrower: fixed-branch local geometry and piecewise branch/reconfiguration descriptions can remain useful while quantitative coefficients and predictors remain system- or regime-dependent.
 
