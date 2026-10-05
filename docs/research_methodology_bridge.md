@@ -52,7 +52,7 @@ A separate retained-artifact timestamp audit covers 14 comparable source-result-
 
 Working methodology manuscript:
 
-https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_13.md
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v1_0_rc2.md
 
 ## Evidence linkage
 
@@ -88,3 +88,15 @@ The companion project does **not** claim that retained failures automatically be
 Human verification, compute, error control, public-data limitations, and the need for new physical measurements remain real constraints.
 
 The methodological claim is narrower: AI-assisted individual research can increase effective research bandwidth, while disciplined preservation can give part of the historical search path nonzero future scientific value.
+
+
+## Current methodology release-candidate status
+
+The methodology repository has reached an English manuscript release candidate:
+
+- `paper/manuscript_v1_0_rc2.md`
+- `docs/source_action_authority_recheck_v1_0.md`
+- `figures/figure_manifest_v1_0.md`
+- `paper/release_package_plan_v1_0.md`
+
+The scientific/audit content is effectively frozen pending final license choice, PDF production, Git release tagging, and Zenodo publication.
