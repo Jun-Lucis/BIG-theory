@@ -38,6 +38,18 @@ The central methodological proposition is deliberately narrower than a claim tha
 
 > **AI can change not only the cost of successful experiments, but also the economics and future value of failed experiments.**
 
+## Current audit status
+
+The companion repository now contains a frozen lineage-coding protocol and an explicit stage-level audit.
+
+For the standardized B19-B40 interval, the current broad coding identifies **25 negative or limiting source stages**, of which **21 have an explicit downstream backward link**. The resulting **84%** value is treated only as a descriptive statistic of the coded BIG interval; it is not a general estimate of the value of failure.
+
+Earlier B3-B18 records are being kept analytically separate because the later PASS / FAIL / INCONCLUSIVE / INVALID vocabulary was not yet consistently used. Archive-verified early examples currently include boundary-measurement redesign, B6 retained-scan reuse, B12 mechanism redesign, B13/B13.1 interpretation correction, and B17-B18 readout enrichment.
+
+Working methodology manuscript:
+
+https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v0_5.md
+
 ## Evidence linkage
 
 The methodology repository points back to concrete BIG records, including retained FAIL, INCONCLUSIVE, implementation-invalid, diagnostic, and prospective PASS histories.
