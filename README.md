@@ -31,6 +31,9 @@ For a fast technical orientation, start here:
 - **[B39 relational clocks / information-metric drift / reparameterization status](docs/research_status_update_B39.md)**
 - 🇯🇵 **[B39 relational clock・情報計量ドリフト・再パラメータ化](docs/research_status_update_B39_ja.md)**
 - **[B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)**
+- **[B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)**
+- 🇯🇵 **[B40 時計写像族転送・標的除外関係再構成](docs/research_status_update_B40_ja.md)**
+- **[B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)**
 - **[B9 empirical Phase II — metastability hierarchy / nuclear-fission structural comparison](papers/B9_fission_like_metastability/empirical_phase_II.md)**
 - 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
@@ -82,6 +85,9 @@ Key overview and reference documents:
 * **B39 status update:** [docs/research_status_update_B39.md](docs/research_status_update_B39.md)
 * 🇯🇵 **B39 研究状況:** [docs/research_status_update_B39_ja.md](docs/research_status_update_B39_ja.md)
 * **B39 paper entry:** [papers/B39_relational_clocks_information_metric_drift/README.md](papers/B39_relational_clocks_information_metric_drift/README.md)
+* **B40 status update:** [docs/research_status_update_B40.md](docs/research_status_update_B40.md)
+* 🇯🇵 **B40 研究状況:** [docs/research_status_update_B40_ja.md](docs/research_status_update_B40_ja.md)
+* **B40 paper entry:** [papers/B40_clock_family_transfer_relational_reconstruction/README.md](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
@@ -122,6 +128,8 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B38 paper entry](papers/B38_relational_timing_weighted_duality/README.md)
 - [B39 relational clocks / information-metric drift / reparameterization status](docs/research_status_update_B39.md)
 - [B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)
+- [B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)
+- [B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
@@ -164,6 +172,12 @@ A compact evidence map separating **model-level results** from **open hypotheses
 **B39 Zenodo DOI:** https://doi.org/10.5281/zenodo.23113994
 
 **B39 title:** *Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model*
+
+**B40 Zenodo DOI:** https://doi.org/10.5281/zenodo.23153688
+
+**B40 title:** *Clock-Family Transfer and Target-Excluded Relational Reconstruction in a Finite Boundary-Response Model*
+
+**B40 retained status:** B40.1-P1 remains `CLOCK_MAP_FAMILY_TRANSFER_FAIL`; B40.2-P1 remains `TARGET_EXCLUDED_RELATIONAL_RECONSTRUCTION_FAIL`. Successor prospective tests localized the limitations and established fresh finite-grid orientation-reversing covariance transfer and third-angle replication without regrading either parent FAIL.
 
 **B9 Empirical Phase II DOI:** https://doi.org/10.5281/zenodo.23128738
 
@@ -284,6 +298,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B30–B36 | History-conditioned response → spatial transfer → pulse timing → geometry/readout decomposition | [papers/B30_B36_integrated_response_to_pulse_timing](papers/B30_B36_integrated_response_to_pulse_timing) |
 | B38 | Relational timing and weighted measurement duality | [papers/B38_relational_timing_weighted_duality](papers/B38_relational_timing_weighted_duality) |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | [papers/B39_relational_clocks_information_metric_drift](papers/B39_relational_clocks_information_metric_drift) |
+| B40 | Clock-family transfer and target-excluded relational reconstruction | [papers/B40_clock_family_transfer_relational_reconstruction](papers/B40_clock_family_transfer_relational_reconstruction) |
 
 The later B-series, especially B9--B12, was not originally designed to reproduce any specific physical phenomenon such as nuclear fission, nuclear fusion, biological inheritance, or material-interface dynamics. These reduced models emerged from the internal boundary logic of BIG.
 
@@ -625,6 +640,7 @@ In particular:
 * BIG-B25 Phase I supports a prospective level-resolved transfer relation in the tested canonical p=4 model. Phase II further supports fixed-coefficient perimeter closure within the tested finite-resolution ellipse family, while the first two-center B9-like geometry-transfer protocol is `IMPLEMENTATION_INVALID` and does not establish geometry-family or topology transfer. Earlier negative and inconclusive verdicts remain unchanged.
 * BIG-B38 supports a prospective relational-timing and weighted-measurement result in the tested finite semi-discrete model. It does not establish fundamental non-reciprocity, emergent physical time, time-reversal violation, continuum persistence, a wave or propagation-speed law, Lorentz structure, electromagnetism, quantum structure, or a universal law. The remaining evolving weighted-dual residual is unresolved.
 * BIG-B39 supports a sequence of prospective finite-model timing results that includes both a retained integration-level FAIL and a later fresh response-independent clock-map covariance PASS. The P2 PASS does not erase the P1 FAIL and does not establish emergent time, arbitrary reparameterization invariance, gauge status of external time, or a continuum theorem.
+* BIG-B40 retains both the formal clock-family-transfer FAIL and the formal target-excluded-reconstruction FAIL. Later prospective localization and fresh-angle tests support a finite-grid orientation-reversing covariance of reconstruction success/failure under the tested implementation. This does not establish arbitrary reparameterization invariance, a universal relational clock, emergent physical time, continuum rotational covariance, physical anisotropy, or a continuum theorem.
 * Reported thresholds are model-level numerical results and depend on the adopted equations, parameters, discretization, and event definitions.
 * Applications to nuclear physics, materials science, biology, cognition, AI, or cosmology require domain-specific extensions before any quantitative claim can be made.
 
@@ -700,6 +716,8 @@ Current entries include:
 | B28–B29 | Lineage-transport limits and training-domain readability boundary | https://doi.org/10.5281/zenodo.23050390 |
 | B30–B36 | Integrated response-to-pulse-timing programme | https://doi.org/10.5281/zenodo.23048197 |
 | B38 | Relational timing and weighted measurement duality | https://doi.org/10.5281/zenodo.23104248 |
+| B39 | Relational clocks, information-metric drift, and clock reparameterization | https://doi.org/10.5281/zenodo.23113994 |
+| B40 | Clock-family transfer and target-excluded relational reconstruction | https://doi.org/10.5281/zenodo.23153688 |
 
 ---
 
@@ -735,7 +753,9 @@ BIG-theory/
 │   ├── B22_prospective_local_geometry/
 │   ├── B23_cross_branch_geometric_prediction/
 │   ├── B23A_structural_universality_limits/
-│   └── B38_relational_timing_weighted_duality/
+│   ├── B38_relational_timing_weighted_duality/
+│   ├── B39_relational_clocks_information_metric_drift/
+│   └── B40_clock_family_transfer_relational_reconstruction/
 ├── figures/
 │   ├── B9/
 │   ├── B10/
@@ -783,6 +803,8 @@ For claims about the evidential status of several B-series together, cite the re
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 - B38 relational timing and weighted measurement duality: https://doi.org/10.5281/zenodo.23104248
+- B39 relational clocks, information-metric drift, and clock reparameterization: https://doi.org/10.5281/zenodo.23113994
+- B40 clock-family transfer and target-excluded relational reconstruction: https://doi.org/10.5281/zenodo.23153688
 - B9 empirical Phase II: https://doi.org/10.5281/zenodo.23128738
 - B19-B26 programme synthesis: https://doi.org/10.5281/zenodo.23006170 (reserved; Zenodo deposit planned 28 September 2026)
 - B19-B26 closeout record: [docs/programme_closeout_B19_B26.md](docs/programme_closeout_B19_B26.md)
