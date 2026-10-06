@@ -17,6 +17,7 @@ For a fast technical orientation and the current evidence-level synthesis across
 - [B40 clock-family transfer and target-excluded relational reconstruction](research_status_update_B40.md)
 - [日本語版 — B40 時計写像族転送・標的除外関係再構成](research_status_update_B40_ja.md)
 - [B40 paper entry](../papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+- [EV6 prospective external numerical holdout](../papers/EV6_external_numerical_holdout/README.md)
 - [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
 The earlier B3–B23 map remains preserved as the historical snapshot associated with DOI 10.5281/zenodo.22939024.
@@ -60,6 +61,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | Relational-clock persistence, directed metric drift, retained P1 FAIL, and fresh response-independent P2 covariance PASS |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | Retained parent FAILs, lag-grid localization, orientation localization, and fresh orientation-reversing covariance transfer/replication |
+| EV6 | Prospective external numerical holdout on experimental gravity-current trajectories | Frozen quantitative trajectory transfer across unseen particle-volume-fraction conditions; all five preregistered gates passed |
 
 ---
 
@@ -181,6 +183,38 @@ The supported conclusion is finite-model and protocol-specific. B39 does not est
 Repository entry: [papers/B39_relational_clocks_information_metric_drift](../papers/B39_relational_clocks_information_metric_drift)
 
 Status update: [research_status_update_B39.md](research_status_update_B39.md)
+
+---
+
+## EV6 — prospective external numerical holdout validation
+
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23198141
+
+**Published title:** *Prospective External Numerical Holdout Validation of a Frozen Boundary-Response Transfer Rule*
+
+**Subtitle:** *Particle-laden gravity-current front trajectories across unseen particle-volume-fraction conditions*
+
+EV6 is an external-dataset validation branch rather than a continuation of the internal B-series numbering. It uses experimental particle-laden gravity-current trajectories from the public PALAGRAM repository and freezes five calibration conditions and five interleaved holdouts before claim-bearing evaluation.
+
+The v1.0 execution was stopped by a pre-outcome integrity gate after an administrative run-ID / phi mapping error was detected. No selected `x_front` trajectory had been opened, the evaluator had not been executed, and no NRMSE or Gate A–E outcome had been calculated. Version 1.1 corrected only the administrative mapping and retained the scientific protocol and evaluator unchanged.
+
+The retained v1.1 result is:
+
+```text
+EV6_NUMERICAL_HOLDOUT_SUPPORTIVE
+median NRMSE:                         0.036538
+NRMSE <= 0.15:                       5/5
+aggregate RMSE improvement:          32.55%
+beats nearest-condition baseline:    5/5
+```
+
+The supported conclusion is limited to prospective quantitative trajectory transfer by the frozen rule across the tested unseen particle-volume-fraction conditions within the selected experimental family. EV6 does not establish a unique BIG-specific physical mechanism, superiority to established gravity-current theory, or general transfer to arbitrary systems.
+
+**External source DOI:** https://doi.org/10.5281/zenodo.10854247
+
+**Repository entry:**  
+[papers/EV6_external_numerical_holdout](../papers/EV6_external_numerical_holdout)
+
 
 ---
 
@@ -723,6 +757,7 @@ BIG-B27 -> cite https://doi.org/10.5281/zenodo.23024324
 BIG-B28-B29 -> cite https://doi.org/10.5281/zenodo.23050390
 BIG-B30-B36 -> cite https://doi.org/10.5281/zenodo.23048197
 BIG-B38 -> cite https://doi.org/10.5281/zenodo.23104248
+BIG-EV6 -> cite https://doi.org/10.5281/zenodo.23198141
 ```
 
 ---
