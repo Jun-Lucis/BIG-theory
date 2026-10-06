@@ -36,6 +36,8 @@ For a fast technical orientation, start here:
 - **[B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)**
 - 🇯🇵 **[B40 時計写像族転送・標的除外関係再構成](docs/research_status_update_B40_ja.md)**
 - **[B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)**
+- **[EV6 external numerical holdout paper entry](papers/EV6_external_numerical_holdout/README.md)**
+- **[EV6 research status](docs/research_status_update_EV6.md)**
 - **[B9 empirical Phase II — metastability hierarchy / nuclear-fission structural comparison](papers/B9_fission_like_metastability/empirical_phase_II.md)**
 - 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
@@ -91,6 +93,8 @@ Key overview and reference documents:
 * **B40 status update:** [docs/research_status_update_B40.md](docs/research_status_update_B40.md)
 * 🇯🇵 **B40 研究状況:** [docs/research_status_update_B40_ja.md](docs/research_status_update_B40_ja.md)
 * **B40 paper entry:** [papers/B40_clock_family_transfer_relational_reconstruction/README.md](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+* **EV6 external numerical holdout paper entry:** [papers/EV6_external_numerical_holdout/README.md](papers/EV6_external_numerical_holdout/README.md)
+* **EV6 research status:** [docs/research_status_update_EV6.md](docs/research_status_update_EV6.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
@@ -133,6 +137,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)
 - [B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)
 - [B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+- [EV6 prospective external numerical holdout](papers/EV6_external_numerical_holdout/README.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
 - [B19-B26 programme closeout](docs/programme_closeout_B19_B26.md)
@@ -176,6 +181,14 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **B39 title:** *Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model*
 
+**EV6 Zenodo DOI:** https://doi.org/10.5281/zenodo.23198141
+
+**EV6 title:** *Prospective External Numerical Holdout Validation of a Frozen Boundary-Response Transfer Rule*
+
+**EV6 retained status:** `EV6_NUMERICAL_HOLDOUT_SUPPORTIVE`. On five numerically sealed holdouts from a third-party particle-laden gravity-current dataset, the frozen transfer rule achieved median NRMSE 0.036538, improved aggregate RMSE by 32.55% over the preregistered nearest-condition baseline, and beat that baseline in 5/5 holdouts. The v1.0 execution was blocked before outcome exposure by an administrative run-ID/phi mapping integrity failure; v1.1 corrected only that mapping and preserved the scientific protocol and evaluator unchanged. EV6 supports quantitative external-dataset trajectory transfer under the tested conditions, not a unique BIG-specific physical mechanism or superiority to established gravity-current theory.
+
+**EV6 repository entry:** [papers/EV6_external_numerical_holdout/README.md](papers/EV6_external_numerical_holdout/README.md)
+
 **B40 Zenodo DOI:** https://doi.org/10.5281/zenodo.23153688
 
 **B40 title:** *Clock-Family Transfer and Target-Excluded Relational Reconstruction in a Finite Boundary-Response Model*
@@ -188,7 +201,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 Current one-sentence status:
 
-> **BIG currently supports a family of system-dependent boundary-response structures rather than one programme-wide quantitative law; most recently, B40 retained formal clock-family-transfer and target-excluded-reconstruction FAILs while prospectively localizing their limitations and independently replicating a finite-grid orientation-reversing covariance of reconstruction success/failure across fresh angle pairs, without claiming a universal relational clock, emergent physical time, or continuum rotational covariance.**
+> **BIG currently supports a family of system-dependent boundary-response structures rather than one programme-wide quantitative law. EV6 adds a prospective external-dataset result: a frozen trajectory-transfer rule passed all preregistered quantitative gates on five numerically sealed particle-laden gravity-current holdouts. This supports transfer under the tested experimental family, not a unique BIG-specific physical mechanism or a universal quantitative boundary law.**
 
 **B23A closes a separate universality-audit branch rooted in B20–B23 and B9/free-boundary reconfiguration tests.** Its prospective P1–P6 sequence does not support one transferable smooth normal, reset amplitude, locality contrast, or monotonic rate law. The retained interpretation is narrower: fixed-branch local geometry and piecewise branch/reconfiguration descriptions can remain useful while quantitative coefficients and predictors remain system- or regime-dependent.
 
