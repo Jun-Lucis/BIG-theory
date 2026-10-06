@@ -37,6 +37,7 @@ For a fast technical orientation, start here:
 - 🇯🇵 **[B40 時計写像族転送・標的除外関係再構成](docs/research_status_update_B40_ja.md)**
 - **[B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)**
 - **[EV6 external numerical holdout paper entry](papers/EV6_external_numerical_holdout/README.md)**
+- **[EV6 research status](docs/research_status_update_EV6.md)**
 - **[B9 empirical Phase II — metastability hierarchy / nuclear-fission structural comparison](papers/B9_fission_like_metastability/empirical_phase_II.md)**
 - 🇯🇵 **[基礎統合研究状況マップ — B3からB26＋B23A](docs/research_status_map_B3_B26_ja.md)**
 
@@ -93,6 +94,7 @@ Key overview and reference documents:
 * 🇯🇵 **B40 研究状況:** [docs/research_status_update_B40_ja.md](docs/research_status_update_B40_ja.md)
 * **B40 paper entry:** [papers/B40_clock_family_transfer_relational_reconstruction/README.md](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
 * **EV6 external numerical holdout paper entry:** [papers/EV6_external_numerical_holdout/README.md](papers/EV6_external_numerical_holdout/README.md)
+* **EV6 research status:** [docs/research_status_update_EV6.md](docs/research_status_update_EV6.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
 * 🇯🇵 **現在の統合研究状況マップ — B3からB26＋B23A:** [docs/research_status_map_B3_B26_ja.md](docs/research_status_map_B3_B26_ja.md)
 * 🇯🇵 **旧研究状況マップ — B3からB23まで:** [docs/research_status_map_B3_B23_ja.md](docs/research_status_map_B3_B23_ja.md)
