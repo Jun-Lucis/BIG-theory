@@ -54,6 +54,26 @@ Published methodology manuscript:
 
 https://github.com/Jun-Lucis/failure-preserving-research/blob/main/paper/manuscript_v1_0.md
 
+## Newly documented B41 failure-to-fresh-test example (outside frozen v0.3 audit)
+
+The 2026-10-09 BIG-B41 preprint ([DOI 10.5281/zenodo.23249677](https://doi.org/10.5281/zenodo.23249677)) adds a particularly clear **new worked example** of the failure-preserving cycle:
+
+```text
+B41-P1: prospective first-order trajectory transfer PASS
+  -> B41-P2: frozen scalar second-order remainder transfer FAIL
+  -> P2 post-hoc diagnostic: anti-aligned tangent/acceleration families identified
+  -> B41-P3: different no-fit sign-sensitive predictor frozen before fresh targets
+  -> B41-P3: 48 fresh target tests, formal PASS
+```
+
+The original P2 FAIL is retained; P3 has an independent target freeze and formal verdict. B41's full second-order predictor passed its primary quantitative gates within the tested finite synthetic family, but its **non-gating scalar comparator also did well on P3**. This is neither a retrospective regrading of P2 nor proof that retaining direction is always necessary.
+
+**Important audit boundary:** the methodology repository's published quantitative lineage audit **v0.3 is frozen for B19–B40**. The B41 case does **not** change its 25/22 source-stage counts or 88.0% descriptive rate. Any future addition must be a separately versioned and checked extension, not a silent modification.
+
+- [Scientific B41 status](research_status_update_B41.md)
+- [B41 methodology case study](https://github.com/Jun-Lucis/failure-preserving-research/blob/main/case_studies/BIG/B41_P2_failure_to_P3_fresh_test.md)
+- [B41 Zenodo preprint](https://doi.org/10.5281/zenodo.23249677)
+
 ## Evidence linkage
 
 The methodology repository points back to concrete BIG records, including retained FAIL, INCONCLUSIVE, implementation-invalid, diagnostic, and prospective PASS histories.
