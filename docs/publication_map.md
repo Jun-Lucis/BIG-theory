@@ -17,6 +17,9 @@ For a fast technical orientation and the current evidence-level synthesis across
 - [B40 clock-family transfer and target-excluded relational reconstruction](research_status_update_B40.md)
 - [日本語版 — B40 時計写像族転送・標的除外関係再構成](research_status_update_B40_ja.md)
 - [B40 paper entry](../papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+- [B41 prospective trajectory-space response geometry and finite-parameter transfer](research_status_update_B41.md)
+- [日本語版 — B41 軌道空間応答幾何と有限パラメータ転送](research_status_update_B41_ja.md)
+- [B41 paper entry](../papers/B41_trajectory_space_response_geometry/README.md)
 - [EV6 prospective external numerical holdout](../papers/EV6_external_numerical_holdout/README.md)
 - [基礎統合マップ — B3からB26＋B23A](research_status_map_B3_B26_ja.md)
 
@@ -61,11 +64,12 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | Relational-clock persistence, directed metric drift, retained P1 FAIL, and fresh response-independent P2 covariance PASS |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | Retained parent FAILs, lag-grid localization, orientation localization, and fresh orientation-reversing covariance transfer/replication |
+| B41 | Prospective trajectory-space response geometry and second-order finite-parameter transfer | P1 first-order PASS, preserved P2 scalar quantitative FAIL, post-hoc anti-alignment localization, separately frozen fresh P3 full-second-order PASS |
 | EV6 | Prospective external numerical holdout on experimental gravity-current trajectories | Frozen quantitative trajectory transfer across unseen particle-volume-fraction conditions; all five preregistered gates passed |
 
 ---
 
-## Later-phase records — B27 through B40
+## Later-phase records — B27 through B41
 
 ### B27 — history-conditioned response and reconfiguration
 
@@ -183,6 +187,31 @@ The supported conclusion is finite-model and protocol-specific. B39 does not est
 Repository entry: [papers/B39_relational_clocks_information_metric_drift](../papers/B39_relational_clocks_information_metric_drift)
 
 Status update: [research_status_update_B39.md](research_status_update_B39.md)
+
+---
+
+### B41 — prospective trajectory-space response geometry and second-order transfer
+
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23249677
+
+**Preprint title:** *Prospective Trajectory-Space Response Geometry and Second-Order Finite-Parameter Transfer: Failure Localization and a Fresh No-Fit Prediction Test in a Finite Vorticity-Response Model*
+
+**Publication:** Preprint v1.0, 2026-10-09. English primary manuscript; Japanese reference translation; reproducibility and frozen-protocol archives.
+
+B41 returns to the B20-lineage Family-C parameter-response setting, using six-horizon half-enstrophy response vectors from a finite three-dimensional periodic viscous vector-vorticity solver. Its prospectively tested sequence is **not** a single undifferentiated success:
+
+1. **B41-P1** — `TRAJECTORY_RESPONSE_GEOMETRY_TRANSFER_PASS`: 32/32 targets improved upon the nearest-anchor baseline; pooled weighted RMSE improvement **97.7883%**.
+2. **B41-P2** — **`DIMENSIONLESS_REMAINDER_TRANSFER_FAIL`**: the scalar quantitative remainder predictor attained **19/24** cells within its frozen 20% mismatch tolerance. Gates C/E failed, even though first-order tangent transfer improved pooled RMSE by **88.1862%** on 48 fresh targets.
+3. **Post-hoc failure localization** — diagnostic only; all five >20%-mismatch scalar cells lay in two nearly anti-aligned tangent/acceleration families. **P2 stays FAIL.**
+4. **B41-P3** — `FULL_SECOND_ORDER_GEOMETRIC_REMAINDER_TRANSFER_PASS`: a **new separately frozen, no-fit sign-sensitive predictor** met gates A–E on another **48 fresh targets**, with 48/48 tangent advantages, **93.1041%** pooled RMSE improvement, **24/24** cells within 20% mismatch, and **Spearman rho 0.997391**.
+
+The P3 non-gating scalar comparator also met 24/24 cells and had a similar/slightly better median mismatch (0.6755% versus 0.6792%). **Thus the full second-order formula was prospectively supported, but its universal superiority over a scalar formula was not demonstrated.**
+
+The claim is limited to the finite synthetic response family. It is **not** a continuum theorem, Navier–Stokes regularity result, arbitrary invariance theorem, or external physical validation.
+
+**Research status:** [B41 English note](research_status_update_B41.md), [日本語参考状況](research_status_update_B41_ja.md)  
+**Paper entry:** [papers/B41_trajectory_space_response_geometry](../papers/B41_trajectory_space_response_geometry/README.md)  
+**Methodology case:** [B41 P2 failure → P3 fresh prospective test](https://github.com/Jun-Lucis/failure-preserving-research/blob/main/case_studies/BIG/B41_P2_failure_to_P3_fresh_test.md)
 
 ---
 
