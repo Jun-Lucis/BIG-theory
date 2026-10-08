@@ -36,6 +36,9 @@ For a fast technical orientation, start here:
 - **[B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)**
 - 🇯🇵 **[B40 時計写像族転送・標的除外関係再構成](docs/research_status_update_B40_ja.md)**
 - **[B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)**
+- [B41 prospective trajectory-response geometry — formal status](docs/research_status_update_B41.md)
+- 🇯🇵 [B41 軌道空間応答幾何・正式判定](docs/research_status_update_B41_ja.md)
+- [B41 paper entry and Zenodo archive](papers/B41_trajectory_space_response_geometry/README.md)
 - **[EV6 external numerical holdout paper entry](papers/EV6_external_numerical_holdout/README.md)**
 - **[EV6 research status](docs/research_status_update_EV6.md)**
 - **[B9 empirical Phase II — metastability hierarchy / nuclear-fission structural comparison](papers/B9_fission_like_metastability/empirical_phase_II.md)**
@@ -93,6 +96,9 @@ Key overview and reference documents:
 * **B40 status update:** [docs/research_status_update_B40.md](docs/research_status_update_B40.md)
 * 🇯🇵 **B40 研究状況:** [docs/research_status_update_B40_ja.md](docs/research_status_update_B40_ja.md)
 * **B40 paper entry:** [papers/B40_clock_family_transfer_relational_reconstruction/README.md](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+* [B41 prospective trajectory-response geometry — formal status](docs/research_status_update_B41.md)
+* 🇯🇵 [B41 軌道空間応答幾何・正式判定](docs/research_status_update_B41_ja.md)
+* [B41 paper entry and Zenodo archive](papers/B41_trajectory_space_response_geometry/README.md)
 * **EV6 external numerical holdout paper entry:** [papers/EV6_external_numerical_holdout/README.md](papers/EV6_external_numerical_holdout/README.md)
 * **EV6 research status:** [docs/research_status_update_EV6.md](docs/research_status_update_EV6.md)
 * **B23A structural-universality closure:** [docs/research_status_update_B23A.md](docs/research_status_update_B23A.md)
@@ -137,6 +143,9 @@ A compact evidence map separating **model-level results** from **open hypotheses
 - [B39 paper entry](papers/B39_relational_clocks_information_metric_drift/README.md)
 - [B40 clock-family transfer / target-excluded relational reconstruction status](docs/research_status_update_B40.md)
 - [B40 paper entry](papers/B40_clock_family_transfer_relational_reconstruction/README.md)
+- [B41 prospective trajectory-response geometry — formal status](docs/research_status_update_B41.md)
+- 🇯🇵 [B41 軌道空間応答幾何・正式判定](docs/research_status_update_B41_ja.md)
+- [B41 paper entry and Zenodo archive](papers/B41_trajectory_space_response_geometry/README.md)
 - [EV6 prospective external numerical holdout](papers/EV6_external_numerical_holdout/README.md)
 - [B23A structural-universality closure](docs/research_status_update_B23A.md)
 - [Programme synthesis v1.0](papers/BIG_programme_synthesis_structural_comparability/manuscript_v1_0.md)
@@ -188,6 +197,14 @@ A compact evidence map separating **model-level results** from **open hypotheses
 **EV6 retained status:** `EV6_NUMERICAL_HOLDOUT_SUPPORTIVE`. On five numerically sealed holdouts from a third-party particle-laden gravity-current dataset, the frozen transfer rule achieved median NRMSE 0.036538, improved aggregate RMSE by 32.55% over the preregistered nearest-condition baseline, and beat that baseline in 5/5 holdouts. The v1.0 execution was blocked before outcome exposure by an administrative run-ID/phi mapping integrity failure; v1.1 corrected only that mapping and preserved the scientific protocol and evaluator unchanged. EV6 supports quantitative external-dataset trajectory transfer under the tested conditions, not a unique BIG-specific physical mechanism or superiority to established gravity-current theory.
 
 **EV6 repository entry:** [papers/EV6_external_numerical_holdout/README.md](papers/EV6_external_numerical_holdout/README.md)
+
+**B41 Zenodo DOI:** https://doi.org/10.5281/zenodo.23249677
+
+**B41 title:** *Prospective Trajectory-Space Response Geometry and Second-Order Finite-Parameter Transfer: Failure Localization and a Fresh No-Fit Prediction Test in a Finite Vorticity-Response Model*
+
+**B41 preserved sequence:** `P1 PASS → P2 formal FAIL → P2 post-hoc failure localization → P3 fresh prospective PASS`. P2's scalar second-order remainder predictor failed its frozen quantitative gates (19/24 sign-averaged cells within 20%). A separately frozen P3 no-fit sign-sensitive predictor passed all primary gates on 48 fresh targets (48/48 tangent advantages, 93.1041% pooled improvement, 24/24 cells within 20%, Spearman rho 0.997391). **P2 remains FAIL; P3 does not establish generic superiority over the scalar comparator.** This is finite synthetic response-family evidence, not a continuum theorem or external physical law.
+
+**B41 research and paper:** [English status](docs/research_status_update_B41.md) · [日本語状況](docs/research_status_update_B41_ja.md) · [Zenodo/paper entry](papers/B41_trajectory_space_response_geometry/README.md)
 
 **B40 Zenodo DOI:** https://doi.org/10.5281/zenodo.23153688
 
