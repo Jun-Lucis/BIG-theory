@@ -4,6 +4,9 @@ GitHub Releases in this repository are **repository snapshots**, not substitutes
 
 The canonical academic records for claim-bearing B-series results remain the corresponding Zenodo publications listed in [publication_map.md](publication_map.md).
 
+**Living-repository update (2026-10-09):** The current `main` documentation now covers **BIG-B41** ([Zenodo DOI 10.5281/zenodo.23249677](https://doi.org/10.5281/zenodo.23249677)). B41 records a frozen P1 first-order PASS, a **retained formal P2 scalar-remainder FAIL**, post-hoc anti-alignment failure localization, and a **separately frozen fresh P3 full-second-order PASS** within a finite synthetic vorticity-response family. See the [B41 status note](research_status_update_B41.md) and [B41 paper index](../papers/B41_trajectory_space_response_geometry/README.md). These living-branch updates **do not create a new GitHub Release/tag**, and they do not modify the historical frozen B19–B40 methodology audit.
+
+
 For the current programme-wide evidence map, see:
 
 - [One-page technical summary](technical_summary.md)
