@@ -15,6 +15,34 @@ For the current programme-wide evidence map, see:
 
 ---
 
+## status-2026-10 — 2026-10-09
+
+**Latest published GitHub Release:**  
+https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-10
+
+**Title:** `BIG Research Status — Through B41 (October 2026)`
+
+**Tagged commit:** `0ddef8a566c9c387b7b28f22b4b7b8608b6cd02e`
+
+This release is a repository-level research snapshot through **BIG-B41**, alongside the **EV6 external numerical holdout**. It records the later progression from memory and history-conditioned response (B27–B36) through relational timing and orientation-reversing covariance (B37–B40), and the prospectively frozen trajectory-space response geometry study (B41).
+
+The B41 sequence is preserved exactly:
+
+```text
+P1: TRAJECTORY_RESPONSE_GEOMETRY_TRANSFER_PASS
+P2: DIMENSIONLESS_REMAINDER_TRANSFER_FAIL
+P2 post-hoc: failure localization only, without regrading
+P3: FULL_SECOND_ORDER_GEOMETRIC_REMAINDER_TRANSFER_PASS
+```
+
+P3 passed on 48 fresh targets, but its full-direction predictor was **not** established as generally superior to the scalar comparator. The retained P2 FAIL is neither removed nor retrospectively relabeled. EV6 separately supported limited quantitative transfer on five external experimental-data holdouts without validating a unique BIG mechanism.
+
+The full official release notes are preserved at [docs/releases/status-2026-10.md](releases/status-2026-10.md). Individual papers and their frozen reproducibility records remain separately citable on Zenodo, including [B41 DOI 10.5281/zenodo.23249677](https://doi.org/10.5281/zenodo.23249677).
+
+This tag and its GitHub-generated source archive are a **repository snapshot**, not a new scientific preprint, external replication or completed universal physical theory.
+
+---
+
 ## status-2026-09 — 2026-09-27
 
 **Current GitHub status release:**  
@@ -23,7 +51,7 @@ https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-09
 **Release title:**  
 `BIG Research Status — B3–B26 + B23A (September 2026)`
 
-This remains the **latest GitHub Release tag**, but it is now a historical repository-level snapshot through B26 + B23A. The living repository has since advanced through B27–B40, including the integrated B28–B29 record (DOI 10.5281/zenodo.23050390), the B30–B36 integrated preprint (DOI 10.5281/zenodo.23048197), B38 relational timing and weighted measurement duality (DOI 10.5281/zenodo.23104248), B39 relational clocks / information-metric drift / clock reparameterization (DOI 10.5281/zenodo.23113994), and B40 clock-family transfer / target-excluded relational reconstruction (DOI 10.5281/zenodo.23153688). It also includes the later BIG-B9 empirical Phase II preprint (DOI 10.5281/zenodo.23128738), which separates energetic-preference, finite-amplitude coexistence, local-spinodal, and pinch-envelope scales while retaining negative and unresolved empirical/numerical outcomes. B39 preserves the formal B39.3-P1 FAIL and separately records the fresh response-independent B39.3-P2 covariance PASS. B40 likewise retains its parent clock-family-transfer and target-excluded-reconstruction FAILs while separately recording prospective localization and fresh-angle orientation-reversing covariance PASSes. The GitHub release tag does not replace the individual Zenodo papers.
+This is a **historical September 2026 GitHub Release tag**, superseded as the latest repository snapshot by [status-2026-10](https://github.com/Jun-Lucis/BIG-theory/releases/tag/status-2026-10), but it remains an immutable record through B26 + B23A. The living repository has since advanced through B27–B40, including the integrated B28–B29 record (DOI 10.5281/zenodo.23050390), the B30–B36 integrated preprint (DOI 10.5281/zenodo.23048197), B38 relational timing and weighted measurement duality (DOI 10.5281/zenodo.23104248), B39 relational clocks / information-metric drift / clock reparameterization (DOI 10.5281/zenodo.23113994), and B40 clock-family transfer / target-excluded relational reconstruction (DOI 10.5281/zenodo.23153688). It also includes the later BIG-B9 empirical Phase II preprint (DOI 10.5281/zenodo.23128738), which separates energetic-preference, finite-amplitude coexistence, local-spinodal, and pinch-envelope scales while retaining negative and unresolved empirical/numerical outcomes. B39 preserves the formal B39.3-P1 FAIL and separately records the fresh response-independent B39.3-P2 covariance PASS. B40 likewise retains its parent clock-family-transfer and target-excluded-reconstruction FAILs while separately recording prospective localization and fresh-angle orientation-reversing covariance PASSes. The GitHub release tag does not replace the individual Zenodo papers.
 
 The release records the current programme-level synthesis:
 
