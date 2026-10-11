@@ -56,6 +56,15 @@ substituting the one-dimensional candidate `phi = A*(R-x)^2` (`s=R-x`) into the 
 
 In an **intermediate layer**, *if* the Gaussian source, `epsilon`-term and higher-order term are negligible relative to the quadratic terms, the leading balance gives `A = sqrt(mu/(96 gamma))`. This explains the coefficient 96 in the numerical comparison; it **does not prove exact quadratic landing at a zero-support edge**. The recovered solver has `epsilon > 0` and a Gaussian source positive throughout the finite domain; the archived six `phi.npy` grids had no exactly zero cells.
 
+
+## Additional earlier-source lineage check (12 October 2026)
+
+A separately recovered user-supplied source labeled **BIG v1.9 — focused high-resolution mu=0.6 quadratic-layer scan**, with run-directory name `2026-05-30_mu_0p6_focused_highres_quadratic_detection`, uses the **same positive `+4 gamma` finite-volume face-flux function** as the later B4.3 pilot. An AST-level comparison of the two `compute_rhs_and_dt` function **bodies** found them **identical**; only the argument signatures differ (`(phi)` versus `(phi, mu, gamma)`). On the v1.9 `N=240, mu=0.6, gamma=1.0` synthetic initial field, one RHS-only evaluation from each extracted implementation gave bitwise-identical arrays and the same time step.
+
+This extends the **provided source-text lineage**, not the authenticated run provenance. The claimed May 30 date is part of a directory name and is not an independently verified execution timestamp. The v1.9 numerical outputs, original B3.1 executed notebook, and B4.3 `gamma=1` raw arrays have not been independently matched to these texts. The v1.9 and B4.3 **measurement protocols differ** (e.g. 110 vs 120 radial shells; offset fit scan `0–0.20` vs `0–0.28`), so the equality of their PDE stepping functions does not imply identical boundary-layer classifications.
+
+**Conclusion remains:** B4.3's six archived raw fields strongly support the `+4 gamma` solver; original printed `-gamma` differs; B3.1 executable provenance remains open; published finite-width numerical verdicts are retained unchanged.
+
 ## Scope, preservation, and next editorial step
 
 - Preserve B4.3's original finite-width numerical boundary-layer observations and historical Stable/Recovered, Compressed, Residual classifications. Do **not** retrospectively change their verdicts.
