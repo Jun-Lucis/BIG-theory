@@ -20,6 +20,7 @@ This conclusion comes from both positive and limiting results. Local or family-r
 
 For a fast technical orientation, start here:
 
+- **[October 2026 B4.3 equation/solver clarification](docs/B4_3_printed_equation_vs_numerical_solver_audit_2026_10.md)** — the published negative quartic-gradient term differs from the recovered positive +4γ finite-volume implementation; six archived numerical outputs support the latter, while B3.1 source lineage and three B4.3 raw cases remain unverified.
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
 - **[One-page technical summary](docs/technical_summary.md)**
