@@ -4,6 +4,8 @@ This page summarizes the current publication and record structure of **Boundary 
 
 For a fast technical orientation and the current evidence-level synthesis across the programme, see:
 
+- [B3.1–B5 corrections and verified publication status — 14 October 2026](publication_corrections_B3_1_B5_2026_10_14.md)
+- [Numbered-series DOI inventory, shared archives, and unresolved mappings](doi_inventory_audit_2026_10_14.md)
 - [One-page technical summary](technical_summary.md)
 - [1ページ技術サマリー](technical_summary_ja.md)
 - [Baseline integrated research status map — B3 through B26 + B23A](research_status_map_B3_B26.md)
@@ -33,7 +35,9 @@ BIG is a developing boundary-centered research programme. The entries below shou
 
 | Series | Main theme                                                | Role in BIG                                        |
 | ------ | --------------------------------------------------------- | -------------------------------------------------- |
-| B3--B4 | Boundary-layer formation and quadratic landing            | Local boundary structure                           |
+| B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures | Local boundary observations with source and interpretation limits |
+| B5 | Mobility-dependent effective exponents in finite-time snapshots | Description clarified under original DOI; original data retained |
+| B6 | Methodology-history reference | Standalone B6 DOI unconfirmed; do not identify it with BIG6.5 without provenance |
 | B7     | Free-boundary exponent near runaway transition            | Local boundary regularity under global instability |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds | Geometry-controlled finite-amplitude stability     |
 | B9     | Boundary cost versus nonlocal repulsion                   | Fission-like metastability; later empirical Phase II separates energetic preference, coexistence, and local spinodal scales |
@@ -61,6 +65,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B28 | Geometry-conditioned response-lineage transport | Geometry-only component-resolved split transport fails prospectively under frozen tolerance |
 | B29 | Incremental predictive information beyond instantaneous geometry | Closed before held-out evaluation because the frozen training domain was not uniformly response-readable |
 | B30–B36 | Integrated response-to-pulse-timing programme | Transverse suppression/parity, dynamic FAIL, period lifting, spatial complex transfer, pulse timing limits, and fresh geometry/readout decomposition |
+| B37 | Intrinsic-contour timing and absolute-timing limits | Research status documented; standalone DOI unconfirmed |
 | B38 | Relational timing and weighted measurement duality | Relative-lag geometry, directed swap response, tangent-operator prediction, and operator-compatible weighted readout |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | Relational-clock persistence, directed metric drift, retained P1 FAIL, and fresh response-independent P2 covariance PASS |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | Retained parent FAILs, lag-grid localization, orientation localization, and fresh orientation-reversing covariance transfer/replication |
@@ -73,7 +78,11 @@ BIG is a developing boundary-centered research programme. The entries below shou
 
 ### B27 — history-conditioned response and reconfiguration
 
-**DOI:** https://doi.org/10.5281/zenodo.23024324
+**Current DOI (v1.1 source–implementation correction):** [10.5281/zenodo.23368996](https://doi.org/10.5281/zenodo.23368996)
+
+**Original v1.0 DOI:** [10.5281/zenodo.23024324](https://doi.org/10.5281/zenodo.23024324)
+
+The v1.1 record corrects the model description from an isotropic cubic-gradient flux to the directional Cartesian cubic face flux used by the archived notebooks. Archived data, gates, and formal outcomes are retained. The isotropic alternative remains untested; the reconfiguration FAIL is not attributed to anisotropy.
 
 **Published title:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
 
@@ -288,7 +297,7 @@ These are structural correspondences, not claims of direct quantitative equivale
 
 ## B-series records
 
-### B3--B4: Boundary-layer formation and quadratic landing
+### B3--B4: Position fits and selected finite-width quadratic-layer signatures
 
 **Theme:**
 Compact-support-like boundary formation, local boundary-layer scaling, and quadratic landing.
@@ -302,13 +311,34 @@ $$
 where (s) is the distance from the boundary.
 
 **Role in BIG:**
-B3--B4 established the recurring local boundary motif: the boundary behaves not as a passive edge, but as a finite-width layer with robust local scaling.
+B3--B4 motivated a finite-width-layer interpretation through empirical position fits and selected near-two signatures. The corrected interpretation does not establish an exact support-edge exponent, universal quadratic law, or joint position/width scaling law.
 
 **Status:**
 Numerical boundary-layer studies.
 
-**Record / DOI:**
-To be listed.
+**Current records:**
+
+- [B3.1: 10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) — corrected title/description; downloadable PDF still identical to the original as checked on 14 October 2026.
+- [B4.1: 10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) — corrected PDF verified.
+- [B4.3: 10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) — corrected PDF verified, including six pilot cases plus three B4.1 reuses.
+
+Original record links and verification hashes are preserved in the [correction register](publication_corrections_B3_1_B5_2026_10_14.md). B4 positive-flux evidence does not authenticate the original B3.1 source.
+
+---
+
+### B5: Mobility-dependent effective boundary exponents
+
+**DOI:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991)
+
+Nine mobility cases at `N = 220`, `gamma = 0.10` are finite-time snapshots at `t = 0.24`; all reached the 240000-step cap. The selected effective mean decreases from 2.160614 to approximately 1.80–1.82, but fit retention varies with mobility and the crossing of two depends on selection. The positive-contour finite-window fits do not establish stationary convergence, an exact support-edge exponent, a critical mobility, or universality.
+
+**Publication state:** description clarified under the same DOI; original ZIP, CSV, figure, and README unchanged. No v1.1 package published.
+
+Repository entry: [B5 mobility scan](../papers/B5_mobility_dependent_boundary_exponents/README.md).
+
+### B6: Publication mapping unresolved
+
+B6 is mentioned in the methodology history, but no standalone B6 DOI is identified in the repository. The earlier paper whose filename contains `BIG6.5` is independently archived at [10.5281/zenodo.20309519](https://doi.org/10.5281/zenodo.20309519); that filename alone does not establish that it is the numbered B6 study. See the [DOI audit](doi_inventory_audit_2026_10_14.md).
 
 ---
 
@@ -327,7 +357,9 @@ B7 separates local boundary regularity from global stability.
 Numerical observation report.
 
 **Record / DOI:**
-To be listed.
+[10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601)
+
+The primary record was already linked in the main README; the unfilled local entry has been reconciled.
 
 ---
 
@@ -782,7 +814,8 @@ BIG-B12 -> cite the B12 Zenodo DOI
 BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
 BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
 BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
-BIG-B27 -> cite https://doi.org/10.5281/zenodo.23024324
+BIG-B27 current v1.1 -> cite https://doi.org/10.5281/zenodo.23368996
+BIG-B27 original v1.0 -> cite https://doi.org/10.5281/zenodo.23024324
 BIG-B28-B29 -> cite https://doi.org/10.5281/zenodo.23050390
 BIG-B30-B36 -> cite https://doi.org/10.5281/zenodo.23048197
 BIG-B38 -> cite https://doi.org/10.5281/zenodo.23104248
@@ -939,13 +972,17 @@ B25.2  -> IMPLEMENTATION_INVALID
 B25.1e fixed one coefficient from a predeclared circular calibration state,
 
 [
-sigma_{m cal}=9.434181431178162	imes10^{-8},
+sigma_{
+m cal}=9.434181431178162	imes10^{-8},
 ]
 
 and then used only target representative perimeter in the six held-out primary predictions,
 
 [
-J_{m pred}=sigma_{m cal}P_{m rep}.
+J_{
+m pred}=sigma_{
+m cal}P_{
+m rep}.
 ]
 
 All six held-out ellipse cases were valid; the median relative error was **4.65%**, the maximum relative error was **14.30%**, and the frozen fine-resolution stability gates passed.

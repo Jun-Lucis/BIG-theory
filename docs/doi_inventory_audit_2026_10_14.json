@@ -1,0 +1,1364 @@
+{
+  "checked_at_utc": "2026-10-14T22:43:48.414253+00:00",
+  "repository": "https://github.com/Jun-Lucis/BIG-theory",
+  "base_commit": "aa1eecd2fb04d7ce2a6886329c1cccf7327b1a8a",
+  "scope": "Tracked repository text, publication index and paper entries; live Zenodo metadata for existing links and identified additions. Not a new scientific audit of all papers.",
+  "metadata_checks": {
+    "attempted": 47,
+    "successful": 47
+  },
+  "series": [
+    {
+      "series": "B3.1",
+      "theme": "Corrected interpretive record; downloadable PDF correction pending",
+      "record_ids": [
+        "23342986",
+        "20465842"
+      ],
+      "status": "Corrected metadata; public PDF still original"
+    },
+    {
+      "series": "B4.1",
+      "theme": "Selected quadratic-layer signatures; corrected PDF verified",
+      "record_ids": [
+        "23342902",
+        "20541748"
+      ],
+      "status": "Corrected PDF byte match verified"
+    },
+    {
+      "series": "B4.3",
+      "theme": "Finite-width quadratic-layer signatures; corrected PDF verified",
+      "record_ids": [
+        "23342705",
+        "20564435"
+      ],
+      "status": "Corrected PDF byte match verified"
+    },
+    {
+      "series": "B5",
+      "theme": "Mobility-dependent finite-time effective exponents; description clarified, original ZIP retained",
+      "record_ids": [
+        "20575991"
+      ],
+      "status": "Description-only clarification; original ZIP retained"
+    },
+    {
+      "series": "B6",
+      "theme": "Standalone B6 DOI unconfirmed; BIG6.5 is a separately named earlier paper",
+      "record_ids": [],
+      "status": "Standalone publication mapping unconfirmed"
+    },
+    {
+      "series": "B7",
+      "theme": "Free-boundary exponent across runaway transition",
+      "record_ids": [
+        "20603601"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B8",
+      "theme": "Boundary anisotropy and finite-time separatrix thresholds",
+      "record_ids": [
+        "20645317"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B9",
+      "theme": "Minimal boundary-energy model for fission-like metastability",
+      "record_ids": [
+        "20799131"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B9 empirical Phase II",
+      "theme": "Metastability hierarchy and empirical structural comparison with nuclear fission",
+      "record_ids": [
+        "23128738"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B10",
+      "theme": "Finite-noise sustained capture",
+      "record_ids": [
+        "20819427"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B11",
+      "theme": "Post-capture hidden-depth inheritance",
+      "record_ids": [
+        "20828439"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B12",
+      "theme": "Unified boundary dynamics",
+      "record_ids": [
+        "20872005"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B13",
+      "theme": "Boundary folding as observation / self-measurement",
+      "record_ids": [
+        "21072783"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B13.1",
+      "theme": "Rotated-basis observation and empirical selection kernel",
+      "record_ids": [
+        "21108338"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B14",
+      "theme": "Boundary history and lineage-level persistence",
+      "record_ids": [
+        "21144373"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B15",
+      "theme": "Observation traces and boundary history",
+      "record_ids": [
+        "21173333"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "Layered framework",
+      "theme": "Layered mathematical consolidation through B15",
+      "record_ids": [
+        "22161614"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B16",
+      "theme": "Memory-bearing free boundaries",
+      "record_ids": [
+        "22660005"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B17",
+      "theme": "Stored versus readable history",
+      "record_ids": [
+        "22677581"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B18",
+      "theme": "Boundary readout operators",
+      "record_ids": [
+        "22690970"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B19",
+      "theme": "Boundary-core channel diagnostics",
+      "record_ids": [
+        "22726848"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B19 follow-up",
+      "theme": "Finite-time response-boundary diagnostics",
+      "record_ids": [
+        "22769513"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B19E",
+      "theme": "External flow validation and local-budget audit",
+      "record_ids": [
+        "22996961"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B20",
+      "theme": "Operator-generated finite-window response boundaries",
+      "record_ids": [
+        "22846729"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B21",
+      "theme": "Local kinematic closure of response boundaries",
+      "record_ids": [
+        "22876813"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B22",
+      "theme": "Prospective local geometry of response boundaries",
+      "record_ids": [
+        "22893912"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B23",
+      "theme": "Cross-branch short-horizon geometric prediction",
+      "record_ids": [
+        "22936794"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B23A",
+      "theme": "Structural universality and its tested limits",
+      "record_ids": [
+        "22994445"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B24–B25 Phase I",
+      "theme": "Cross-sector audit and predictive boundary-functional transfer",
+      "record_ids": [
+        "22956894"
+      ],
+      "status": "Integrated publication; separate DOI per stage not required"
+    },
+    {
+      "series": "B25 Phase II",
+      "theme": "Fixed-coefficient perimeter closure and geometry-transfer boundary",
+      "record_ids": [
+        "22967474"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B26",
+      "theme": "Topology localization and terminal two-center geometry-transfer test",
+      "record_ids": [
+        "22972985"
+      ],
+      "status": "Shared B26/B26.1/B26.2 publication"
+    },
+    {
+      "series": "B27",
+      "theme": "History-conditioned response geometry; v1.1 source–implementation correction",
+      "record_ids": [
+        "23368996",
+        "23024324"
+      ],
+      "status": "v1.1 correction record; v1.0 retained"
+    },
+    {
+      "series": "B28–B29",
+      "theme": "Lineage-transport limits and training-domain readability boundary",
+      "record_ids": [
+        "23050390"
+      ],
+      "status": "Integrated publication; separate DOI per stage not required"
+    },
+    {
+      "series": "B30–B36",
+      "theme": "Integrated response-to-pulse-timing programme",
+      "record_ids": [
+        "23048197"
+      ],
+      "status": "Integrated publication; separate DOI per stage not required"
+    },
+    {
+      "series": "B37",
+      "theme": "Research-status entry exists; standalone DOI unconfirmed",
+      "record_ids": [],
+      "status": "Standalone publication mapping unconfirmed"
+    },
+    {
+      "series": "B38",
+      "theme": "Relational timing and weighted measurement duality",
+      "record_ids": [
+        "23104248"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B39",
+      "theme": "Relational clocks, information-metric drift, and clock reparameterization",
+      "record_ids": [
+        "23113994"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B40",
+      "theme": "Clock-family transfer and target-excluded relational reconstruction",
+      "record_ids": [
+        "23153688"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "B41",
+      "theme": "Trajectory-space response geometry and second-order finite-parameter transfer",
+      "record_ids": [
+        "23249677"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "EV6",
+      "theme": "Prospective external numerical holdout",
+      "record_ids": [
+        "23198141"
+      ],
+      "status": "Metadata and record identity verified"
+    },
+    {
+      "series": "Methodology companion",
+      "theme": "Failure-Preserving AI-Assisted Research",
+      "record_ids": [
+        "23171698"
+      ],
+      "status": "Metadata and record identity verified"
+    }
+  ],
+  "unresolved": [
+    {
+      "series": "B6",
+      "status": "STANDALONE_DOI_MAPPING_UNCONFIRMED",
+      "note": "B6 retained-scan reuse appears in methodology history. Earlier BIG6.5 filename / DOI 20309519 does not by itself identify B6."
+    },
+    {
+      "series": "B37",
+      "status": "STANDALONE_DOI_MAPPING_UNCONFIRMED",
+      "note": "B37.1/B37.2 status is documented; B38 DOI 23104248 identifies B38.1–B38.6 and is not assigned to B37."
+    }
+  ],
+  "literal_D_labels": {
+    "found": [
+      "D0",
+      "D5"
+    ],
+    "interpretation": "Metric/readout label and audit checkpoint, respectively; no standalone numbered D publication entry found."
+  },
+  "related_earlier_record": {
+    "file_label": "BIG6.5",
+    "doi": "10.5281/zenodo.20309519",
+    "numbered_B6_mapping": "UNCONFIRMED"
+  },
+  "records": [
+    {
+      "record_id": "10854247",
+      "doi": "10.5281/zenodo.10854247",
+      "title": "Data and codes for \"Chapter 2: Particle-laden gravity currents: the lock-release slumping regime at the laboratory scale\"",
+      "api_url": "https://zenodo.org/api/records/10854247",
+      "concept_record_id": "10854246",
+      "files": [
+        {
+          "name": "cgadal-papers/palagram_monograph-1.0.0.zip",
+          "bytes": 97172134,
+          "zenodo_checksum": "md5:73cfae37efa5cc412998ce7046146399"
+        }
+      ]
+    },
+    {
+      "record_id": "20309519",
+      "doi": "10.5281/zenodo.20309519",
+      "title": "Boundary Asymptotics and Quadratic Landing in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20309519",
+      "concept_record_id": "20309518",
+      "files": [
+        {
+          "name": "Boundary Asymptotics and Quadratic Landing in Degenerate Mixed-Gradient Dissipative Fields BIG6.5.pdf",
+          "bytes": 126508,
+          "zenodo_checksum": "md5:edd1868f036d9a4115dcf66ccc3f1805"
+        }
+      ]
+    },
+    {
+      "record_id": "20465842",
+      "doi": "10.5281/zenodo.20465842",
+      "title": "BIG-B3.1: Boundary-Layer Scaling and Quadratic-Layer Interpretation in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20465842",
+      "concept_record_id": "20465841",
+      "files": [
+        {
+          "name": "BIG-B3.1 Boundary-Layer Scaling and Quadratic-Layer Interpretation in Degenerate Mixed-Gradient Dissipative Fields.pdf",
+          "bytes": 670724,
+          "zenodo_checksum": "md5:25160c940b8be45491f90e2f96a7dc8b"
+        }
+      ]
+    },
+    {
+      "record_id": "20541748",
+      "doi": "10.5281/zenodo.20541748",
+      "title": "BIG-B4.1: Universal Quadratic Boundary Layers and Boundary-Layer Collapse in Degenerate Mixed-Gradient Fields",
+      "api_url": "https://zenodo.org/api/records/20541748",
+      "concept_record_id": "20541747",
+      "files": [
+        {
+          "name": "complete_mu_scan_summary.csv",
+          "bytes": 743,
+          "zenodo_checksum": "md5:6c925f6ccf672be925b620d084027013"
+        },
+        {
+          "name": "BIG_B4_1_Final_Zenodo_Edition.pdf",
+          "bytes": 453292,
+          "zenodo_checksum": "md5:2953ff9fb396ae8a4128082905a8aea9"
+        }
+      ]
+    },
+    {
+      "record_id": "20564435",
+      "doi": "10.5281/zenodo.20564435",
+      "title": "BIG-B4.3: Boundary-Layer Stability and Compression under Joint Parameter Variation in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20564435",
+      "concept_record_id": "20564434",
+      "files": [
+        {
+          "name": "BIG_B4_3_Final_Zenodo_Edition.pdf",
+          "bytes": 542724,
+          "zenodo_checksum": "md5:90116370cc0a662ed42a6f250b4aaf6f"
+        },
+        {
+          "name": "B4_3_unified_3x3_compact.csv",
+          "bytes": 978,
+          "zenodo_checksum": "md5:0161819e9fbad182d949ac0530e707d0"
+        }
+      ]
+    },
+    {
+      "record_id": "20575991",
+      "doi": "10.5281/zenodo.20575991",
+      "title": "BIG-B5: Numerical Observation of Mobility-Dependent Free-Boundary Exponents in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20575991",
+      "concept_record_id": "20575990",
+      "files": [
+        {
+          "name": "BIG_B5_Zenodo_Submission_Package.zip",
+          "bytes": 97305,
+          "zenodo_checksum": "md5:f9827255b2f952f29d4616bc5a642df8"
+        }
+      ]
+    },
+    {
+      "record_id": "20603601",
+      "doi": "10.5281/zenodo.20603601",
+      "title": "BIG-B7: Persistence of the Free-Boundary Exponent Across a Runaway Transition in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20603601",
+      "concept_record_id": "20603600",
+      "files": [
+        {
+          "name": "BIG_B7_Final_Zenodo_Package.zip",
+          "bytes": 3743639,
+          "zenodo_checksum": "md5:5f70b4e3453ce9cff164dc1e99e6bb0a"
+        }
+      ]
+    },
+    {
+      "record_id": "20645317",
+      "doi": "10.5281/zenodo.20645317",
+      "title": "BIG-B8: Boundary Anisotropy and Finite-Time Separatrix Thresholds in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/20645317",
+      "concept_record_id": "20645316",
+      "files": [
+        {
+          "name": "BIG_B8_Anisotropic_Separatrix_Zenodo_Package_v0_1-20260611T142720Z-3-001.zip",
+          "bytes": 4904149,
+          "zenodo_checksum": "md5:09bdc0766ada093116c3cfb7102876f3"
+        }
+      ]
+    },
+    {
+      "record_id": "20799131",
+      "doi": "10.5281/zenodo.20799131",
+      "title": "A Minimal Boundary-Energy Model for Fission-Like Metastability in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/20799131",
+      "concept_record_id": "20779563",
+      "files": [
+        {
+          "name": "B9rev (1).pdf",
+          "bytes": 1832912,
+          "zenodo_checksum": "md5:323eddb2456f42e8d8a1ed3cedd8e4d7"
+        }
+      ]
+    },
+    {
+      "record_id": "20819427",
+      "doi": "10.5281/zenodo.20819427",
+      "title": "BIG-B10: Stochastic-Resonance-Like Fusion Capture in a Dynamic Boundary Model",
+      "api_url": "https://zenodo.org/api/records/20819427",
+      "concept_record_id": "20819426",
+      "files": [
+        {
+          "name": "BIG_B10_Zenodo_Upload_Package_v1.zip",
+          "bytes": 649478,
+          "zenodo_checksum": "md5:5a6d4ef02b4fd8028f622ec1c53f91ff"
+        },
+        {
+          "name": "BIG_B10_Zenodo_Edition.pdf",
+          "bytes": 440457,
+          "zenodo_checksum": "md5:fce7fef14649ae014a79b06c961bc412"
+        }
+      ]
+    },
+    {
+      "record_id": "20828439",
+      "doi": "10.5281/zenodo.20828439",
+      "title": "BIG-B11: Post-Fusion Boundary Inheritance and Non-Assimilative Stabilization in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/20828439",
+      "concept_record_id": "20828438",
+      "files": [
+        {
+          "name": "BIG_B11_Zenodo_Upload_Package_v1.zip",
+          "bytes": 1589494,
+          "zenodo_checksum": "md5:9c93a0398ca2fac2d1b7a3f8e473cf89"
+        },
+        {
+          "name": "BIG_B11_Zenodo_Edition.pdf",
+          "bytes": 633372,
+          "zenodo_checksum": "md5:4f6301f019da84cbdfdec4575eeb00cf"
+        }
+      ]
+    },
+    {
+      "record_id": "20872005",
+      "doi": "10.5281/zenodo.20872005",
+      "title": "Title: BIG-B12: Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance",
+      "api_url": "https://zenodo.org/api/records/20872005",
+      "concept_record_id": "20872004",
+      "files": [
+        {
+          "name": "BIG_B12_Zenodo_Upload_Package_v1.zip",
+          "bytes": 528189,
+          "zenodo_checksum": "md5:01486a7fab1bd7c17cff865a4d8642a8"
+        },
+        {
+          "name": "BIG_B12_Zenodo_Edition.pdf",
+          "bytes": 300163,
+          "zenodo_checksum": "md5:aa1f1bd1ccb92bf78ed9b4ae25ab1f24"
+        },
+        {
+          "name": "B12_1d_refined_d2_replicates.csv",
+          "bytes": 3895691,
+          "zenodo_checksum": "md5:1bb06cc322c320a2d1e8e7b66227e20b"
+        }
+      ]
+    },
+    {
+      "record_id": "21072783",
+      "doi": "10.5281/zenodo.21072783",
+      "title": "BIG-B13: Boundary Folding as a Reduced Model of Observation and Self-Measurement",
+      "api_url": "https://zenodo.org/api/records/21072783",
+      "concept_record_id": "21072782",
+      "files": [
+        {
+          "name": "BIG_B13_EN_complete.pdf",
+          "bytes": 1152574,
+          "zenodo_checksum": "md5:0f2487f8a194d0e58d09514506fd3e40"
+        }
+      ]
+    },
+    {
+      "record_id": "21108338",
+      "doi": "10.5281/zenodo.21108338",
+      "title": "BIG-B13.1: Rotated-Basis Basin Selection and Cloud-Averaged Sequential Response in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/21108338",
+      "concept_record_id": "21108337",
+      "files": [
+        {
+          "name": "BIG_B13_1_EN_complete_package.zip",
+          "bytes": 6867330,
+          "zenodo_checksum": "md5:0dca16d5923d880505e6e3ccfe6abbcc"
+        },
+        {
+          "name": "BIG_B13_1_EN_complete.pdf",
+          "bytes": 1147981,
+          "zenodo_checksum": "md5:0b614342a04431a06c8d44b4c410f9e2"
+        }
+      ]
+    },
+    {
+      "record_id": "21144373",
+      "doi": "10.5281/zenodo.21144373",
+      "title": "BIG-B14: Boundary History and Lineage-Level Persistence in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/21144373",
+      "concept_record_id": "21144372",
+      "files": [
+        {
+          "name": "BIG_B14_Boundary_History_EN_complete_DOI_zenodo_21144373.pdf",
+          "bytes": 1622409,
+          "zenodo_checksum": "md5:d2f76100616cfe29ddaed206d6fab9dc"
+        },
+        {
+          "name": "BIG_B14_Boundary_History_Zenodo_Upload_Package_v1_DOI_zenodo_21144373.zip",
+          "bytes": 6180975,
+          "zenodo_checksum": "md5:7fe416fd4b77c9b1fa38e8caed3bbab4"
+        }
+      ]
+    },
+    {
+      "record_id": "21173333",
+      "doi": "10.5281/zenodo.21173333",
+      "title": "BIG-B15: Observation Traces and Boundary History in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/21173333",
+      "concept_record_id": "21173332",
+      "files": [
+        {
+          "name": "BIG_B15_EN_complete_DOI_zenodo_21173333.pdf",
+          "bytes": 1253510,
+          "zenodo_checksum": "md5:f0d2d49be9307dde64c24697e8a57bfa"
+        },
+        {
+          "name": "BIG_B15_Zenodo_Upload_Package_v1_DOI_zenodo_21173333.zip",
+          "bytes": 2475803,
+          "zenodo_checksum": "md5:3dcdcf377e975e5e469ce3af3f9a0b7d"
+        }
+      ]
+    },
+    {
+      "record_id": "22161614",
+      "doi": "10.5281/zenodo.22161614",
+      "title": "Boundary Information Geometry (BIG) A Layered Mathematical Framework for Boundary Formation, Transition, State Selection, and History",
+      "api_url": "https://zenodo.org/api/records/22161614",
+      "concept_record_id": "22161613",
+      "files": [
+        {
+          "name": "BIG_Layered_Mathematical_Framework_v0.1_EN.pdf",
+          "bytes": 2355812,
+          "zenodo_checksum": "md5:51e45dc81c93b37388920a6792b46146"
+        },
+        {
+          "name": "BIG_Layered_Mathematical_Framework_v0.1_EN_Source_and_Audit.zip",
+          "bytes": 10722922,
+          "zenodo_checksum": "md5:dd62b13858a78e13a265e7462366d925"
+        }
+      ]
+    },
+    {
+      "record_id": "22660005",
+      "doi": "10.5281/zenodo.22660005",
+      "title": "BIG-B16: Memory-Bearing Free Boundaries in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22660005",
+      "concept_record_id": "22660004",
+      "files": [
+        {
+          "name": "BIG_B16_JP_working_paper_draft_v0_1_DOI_zenodo_22660005.pdf",
+          "bytes": 1995475,
+          "zenodo_checksum": "md5:1a0c9ea8b1e152602d5aa3692e3cee41"
+        },
+        {
+          "name": "BIG_B16_Zenodo_Upload_Package_v1_DOI_zenodo_22660005.zip",
+          "bytes": 15446099,
+          "zenodo_checksum": "md5:075b0a518a2c7940d6a5fe30d0241109"
+        },
+        {
+          "name": "BIG_B16_EN_working_paper_draft_v0_3_DOI_zenodo_22660005.pdf",
+          "bytes": 2161641,
+          "zenodo_checksum": "md5:386c701840c9879fe7e1a0b7ae691ab8"
+        }
+      ]
+    },
+    {
+      "record_id": "22677581",
+      "doi": "10.5281/zenodo.22677581",
+      "title": "BIG-B17: Readable Boundary History and Moving-Frame Adaptation in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22677581",
+      "concept_record_id": "22677580",
+      "files": [
+        {
+          "name": "BIG_B17_EN_final_manuscript_v1_0_DOI_zenodo_22677581.pdf",
+          "bytes": 997664,
+          "zenodo_checksum": "md5:5af4f6cd6766f906b8fb0a5d5b13e995"
+        },
+        {
+          "name": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581_package.zip",
+          "bytes": 16089639,
+          "zenodo_checksum": "md5:c8431bbe65bbc69f76662452383dfd35"
+        },
+        {
+          "name": "BIG_B17_JP_final_manuscript_v1_0_DOI_zenodo_22677581.pdf",
+          "bytes": 1127642,
+          "zenodo_checksum": "md5:d18d99d5f3c9f4d905b6cba68800db7e"
+        }
+      ]
+    },
+    {
+      "record_id": "22690970",
+      "doi": "10.5281/zenodo.22690970",
+      "title": "BIG-B18: Boundary Readout Operators in Boundary Information Geometry: From Read-Start Local History to Interface-Core Path Exposure in a Reaction-Diffusion-Inspired Front Model",
+      "api_url": "https://zenodo.org/api/records/22690970",
+      "concept_record_id": "22690969",
+      "files": [
+        {
+          "name": "BIG_B18_EN_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+          "bytes": 952936,
+          "zenodo_checksum": "md5:6a63386c774f5900a25f5de1fa3aaac9"
+        },
+        {
+          "name": "BIG_B18_JP_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+          "bytes": 767750,
+          "zenodo_checksum": "md5:2fe1cfcecace1be510d3aac90b6f3dbf"
+        },
+        {
+          "name": "BIG_B18_working_paper_draft_v0_1_DOI_zenodo_22690970_package.zip",
+          "bytes": 25639218,
+          "zenodo_checksum": "md5:0b96bcd69d8ea83c6e894e921e7561a9"
+        }
+      ]
+    },
+    {
+      "record_id": "22726848",
+      "doi": "10.5281/zenodo.22726848",
+      "title": "Boundary-Core Channel Families in Navier-Stokes-Type Vorticity Dynamics: Activation, Local Separatrices, and Direction-Dependent Pathways",
+      "api_url": "https://zenodo.org/api/records/22726848",
+      "concept_record_id": "22726847",
+      "files": [
+        {
+          "name": "BIG_B19_Integrated_Paper_v0_6_Japanese_reference_translation.pdf",
+          "bytes": 960860,
+          "zenodo_checksum": "md5:38c9cffc46a321350639be6f6f459fc7"
+        },
+        {
+          "name": "BIG_B19_Integrated_Paper_v1_0.pdf",
+          "bytes": 551483,
+          "zenodo_checksum": "md5:f6b006e155fee7ee93691133e1be35b7"
+        },
+        {
+          "name": "BIG_B19_Zenodo_Release_v1_0_CC_BY_4_0.zip",
+          "bytes": 1818257,
+          "zenodo_checksum": "md5:17a40d846078ad4beee249123daee8a8"
+        }
+      ]
+    },
+    {
+      "record_id": "22769513",
+      "doi": "10.5281/zenodo.22769513",
+      "title": "Finite-Window Response Geometry in Boundary-Core Vorticity Dynamics: Time-Dependent Zero Contours and Direction-Dependent Response Reversal",
+      "api_url": "https://zenodo.org/api/records/22769513",
+      "concept_record_id": "22769512",
+      "files": [
+        {
+          "name": "BIG_B19_21_22_Followup_Paper_v1_0.pdf",
+          "bytes": 439606,
+          "zenodo_checksum": "md5:4ce205411d6945c88f71bf973aeb17c1"
+        },
+        {
+          "name": "BIG_B19_21_22_Followup_Paper_v1_0.docx",
+          "bytes": 386363,
+          "zenodo_checksum": "md5:8aba70caf62019d7478bd7afbaa011ad"
+        },
+        {
+          "name": "BIG_B19_21_22_Followup_Paper_v1_0_Japanese_Reference.docx",
+          "bytes": 46261,
+          "zenodo_checksum": "md5:43a7032d3e49c76197e30d1538d013e5"
+        },
+        {
+          "name": "BIG_B19_21_22_Reproducibility_Archive_v1_0.zip",
+          "bytes": 4466498,
+          "zenodo_checksum": "md5:cfbd52e2a86dd0967acb5939d579cea9"
+        }
+      ]
+    },
+    {
+      "record_id": "22846729",
+      "doi": "10.5281/zenodo.22846729",
+      "title": "Operator-Generated Response Boundaries in Finite-Window Vorticity Dynamics: Accessibility, Local Normal Geometry, and Prospective Crossing Tests",
+      "api_url": "https://zenodo.org/api/records/22846729",
+      "concept_record_id": "22846728",
+      "files": [
+        {
+          "name": "BIG_B20_Zenodo_Release_v1_0.zip",
+          "bytes": 698185,
+          "zenodo_checksum": "md5:ca69859bce13b49beb39e656c42b9913"
+        },
+        {
+          "name": "BIG_B20_Operator_Response_Boundaries_Japanese_v1_0.pdf",
+          "bytes": 511940,
+          "zenodo_checksum": "md5:d106c195d43ddfe81f9d3d2a4e5c5120"
+        },
+        {
+          "name": "BIG_B20_Operator_Response_Boundaries_Preprint_v1_0.pdf",
+          "bytes": 343653,
+          "zenodo_checksum": "md5:c9f346223e801d616a513d812d930711"
+        }
+      ]
+    },
+    {
+      "record_id": "22876813",
+      "doi": "10.5281/zenodo.22876813",
+      "title": "Local Kinematic Closure of Operator Generated Response Boundaries",
+      "api_url": "https://zenodo.org/api/records/22876813",
+      "concept_record_id": "22876812",
+      "files": [
+        {
+          "name": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_0 (1).pdf",
+          "bytes": 1032750,
+          "zenodo_checksum": "md5:19b2ead374ae2a0f375dd1fe4a57baa9"
+        },
+        {
+          "name": "BIG_B21_Zenodo_Release_v1_0 (1).zip",
+          "bytes": 3540757,
+          "zenodo_checksum": "md5:8e5ac917a6cbc96b8da9fc09ab50a9a5"
+        },
+        {
+          "name": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_0.pdf",
+          "bytes": 1297014,
+          "zenodo_checksum": "md5:c3f12a33b56d0b2eb229dceed15188cc"
+        }
+      ]
+    },
+    {
+      "record_id": "22893912",
+      "doi": "10.5281/zenodo.22893912",
+      "title": "Prospective Local Geometry of Operator Generated Response Boundaries",
+      "api_url": "https://zenodo.org/api/records/22893912",
+      "concept_record_id": "22893911",
+      "files": [
+        {
+          "name": "BIG_B22_Zenodo_Release_v1_0.zip",
+          "bytes": 4097330,
+          "zenodo_checksum": "md5:4eb67150f26db0e8ed59e60793370c8f"
+        },
+        {
+          "name": "BIG_B22_Prospective_Local_Geometry_Preprint_v1_0.pdf",
+          "bytes": 1139468,
+          "zenodo_checksum": "md5:aaea1f545dcd00145a882fbe4bce690a"
+        },
+        {
+          "name": "BIG_B22_Prospective_Local_Geometry_Japanese_Reference_v1_0.pdf",
+          "bytes": 1344420,
+          "zenodo_checksum": "md5:8720e7a7278b7de287fb961123405eff"
+        }
+      ]
+    },
+    {
+      "record_id": "22936794",
+      "doi": "10.5281/zenodo.22936794",
+      "title": "Cross-Branch Short-Horizon Geometric Prediction of Operator-Generated Response Boundaries: Numerical Tests of Position, Normal, and Local Curvature",
+      "api_url": "https://zenodo.org/api/records/22936794",
+      "concept_record_id": "22936793",
+      "files": [
+        {
+          "name": "BIG_B23_Zenodo_Reproducibility_Package_v1_0.zip",
+          "bytes": 50741,
+          "zenodo_checksum": "md5:8f910c7fde01335fd065c67d1fc953b9"
+        },
+        {
+          "name": "BIG_B23_EN_Preprint_v1_0_DOI_zenodo_22936794.pdf",
+          "bytes": 209784,
+          "zenodo_checksum": "md5:0fcf5c1d10a9c22df5d9d7f1f6804837"
+        },
+        {
+          "name": "BIG_B23_JA_Reference_Translation_v1_0_DOI_zenodo_22936794.pdf",
+          "bytes": 589587,
+          "zenodo_checksum": "md5:d979cf5b9c9af372c417bb81d71c13bd"
+        }
+      ]
+    },
+    {
+      "record_id": "22939024",
+      "doi": "10.5281/zenodo.22939024",
+      "title": "Boundary Information Geometry after B23: Established Model-Level Results, Open Questions, and the Search for a Common Mathematical Core",
+      "api_url": "https://zenodo.org/api/records/22939024",
+      "concept_record_id": "22939023",
+      "files": [
+        {
+          "name": "BIG_After_B23_Research_Status_Note_EN_v1_0_DOI_zenodo_22939024.pdf",
+          "bytes": 126855,
+          "zenodo_checksum": "md5:da38cfaa6d43c6d0954a7eebc0765a50"
+        },
+        {
+          "name": "BIG_After_B23_Research_Status_Note_JA_Reference_v1_0_DOI_zenodo_22939024.pdf",
+          "bytes": 389058,
+          "zenodo_checksum": "md5:dabaa079e0199242acd0761c360ae86b"
+        },
+        {
+          "name": "BIG_After_B23_Research_Status_Note_EN_v1_0_DOI_zenodo_22939024.docx",
+          "bytes": 43514,
+          "zenodo_checksum": "md5:b66f5159c63410f07ddfb2ebd69de996"
+        },
+        {
+          "name": "BIG_After_B23_Research_Status_Note_JA_Reference_v1_0_DOI_zenodo_22939024.docx",
+          "bytes": 44250,
+          "zenodo_checksum": "md5:b544800bc50f4b36c25227aa9e6a9b92"
+        }
+      ]
+    },
+    {
+      "record_id": "22956894",
+      "doi": "10.5281/zenodo.22956894",
+      "title": "From Distinct Boundary Classes to Predictive Boundary-Functional Transfer: A Predeclared Numerical Reconstruction in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22956894",
+      "concept_record_id": "22956893",
+      "files": [
+        {
+          "name": "BIG_B24_B25_English_Zenodo_Upload_Package_v1_0_DOI_zenodo_22956894.zip",
+          "bytes": 1775840,
+          "zenodo_checksum": "md5:3ba35103d9a82ada913e10a1fe489107"
+        },
+        {
+          "name": "BIG_B24_B25_Predictive_Boundary_Functional_Transfer_Zenodo_Preprint_v1_0_DOI_zenodo_22956894.pdf",
+          "bytes": 831459,
+          "zenodo_checksum": "md5:6b2d1c6681470881dedcb3a08d67e275"
+        },
+        {
+          "name": "BIG_B24_B25_Predictive_Boundary_Functional_Transfer_Japanese_Reference_v1_0_DOI_zenodo_22956894.pdf",
+          "bytes": 1106308,
+          "zenodo_checksum": "md5:e46a01eb61c446856ff010a5de05427a"
+        },
+        {
+          "name": "BIG_B24_B25_Japanese_Reference_Package_v1_0_DOI_zenodo_22956894.zip",
+          "bytes": 1280436,
+          "zenodo_checksum": "md5:866cc9e8e0835ede9ef15d6a9a1ff154"
+        }
+      ]
+    },
+    {
+      "record_id": "22967474",
+      "doi": "10.5281/zenodo.22967474",
+      "title": "Fixed-Coefficient Perimeter Closure and Its Geometry-Transfer Boundary: Prospective Phase-II Tests in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22967474",
+      "concept_record_id": "22967473",
+      "files": [
+        {
+          "name": "BIG_B25_Phase_II_Fixed_Coefficient_Perimeter_Closure_Preprint_v1_0_DOI_zenodo_22967474.pdf",
+          "bytes": 424238,
+          "zenodo_checksum": "md5:2bbd001ea89e0e59b589d346348cfeca"
+        },
+        {
+          "name": "BIG_B25_Phase_II_Fixed_Coefficient_Perimeter_Closure_Japanese_Reference_v1_0_DOI_zenodo_22967474.pdf",
+          "bytes": 569540,
+          "zenodo_checksum": "md5:607368b6fde13a9834913a07c4cc5d18"
+        },
+        {
+          "name": "BIG_B25_Phase_II_Zenodo_Upload_Package_v1_0_DOI_zenodo_22967474.zip",
+          "bytes": 1548139,
+          "zenodo_checksum": "md5:deb75db7449c209e6c1df89eb3f1adf2"
+        }
+      ]
+    },
+    {
+      "record_id": "22972985",
+      "doi": "10.5281/zenodo.22972985",
+      "title": "Resolving the Geometry-Transfer Boundary of a Fixed-Coefficient Perimeter Closure: Topology Localization and Prospective Two-Center Tests in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22972985",
+      "concept_record_id": "22972984",
+      "files": [
+        {
+          "name": "BIG_B26_Geometry_Transfer_Boundary_Preprint_v1_0_RESERVED_DOI_zenodo_22972985.pdf",
+          "bytes": 291900,
+          "zenodo_checksum": "md5:fdfd589c8feae44c32e362515568c42d"
+        },
+        {
+          "name": "BIG_B26_Geometry_Transfer_Boundary_Japanese_Reference_v1_0_RESERVED_DOI_zenodo_22972985.pdf",
+          "bytes": 458150,
+          "zenodo_checksum": "md5:a58d682fc9ff4b82c19aeeba591c056a"
+        },
+        {
+          "name": "BIG_B26_Zenodo_Upload_Package_v1_0_RESERVED_DOI_zenodo_22972985.zip",
+          "bytes": 2581597,
+          "zenodo_checksum": "md5:2afd4ef17b3418593104d5a1116ac4e7"
+        }
+      ]
+    },
+    {
+      "record_id": "22994445",
+      "doi": "10.5281/zenodo.22994445",
+      "title": "BIG-B23A: Structural Universality and Its Limits in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/22994445",
+      "concept_record_id": "22994444",
+      "files": [
+        {
+          "name": "BIG_B23A_Structural_Universality_Limits_Japanese_Reference_v1_0_DOI_zenodo_22994445.pdf",
+          "bytes": 482410,
+          "zenodo_checksum": "md5:2f055f489daca803b3c47e0156bf69a5"
+        },
+        {
+          "name": "BIG_B23A_Zenodo_Upload_Package_v1_0_DOI_zenodo_22994445.zip",
+          "bytes": 1919840,
+          "zenodo_checksum": "md5:95ad302db8b6b286d01cff3367e5df19"
+        },
+        {
+          "name": "BIG_B23A_Structural_Universality_Limits_Preprint_v1_0_DOI_zenodo_22994445.pdf",
+          "bytes": 364584,
+          "zenodo_checksum": "md5:08f6eb970b2179114a22fe1c53fac7c0"
+        }
+      ]
+    },
+    {
+      "record_id": "22996961",
+      "doi": "10.5281/zenodo.22996961",
+      "title": "BIG-B19E: Prospective External Validation of Boundary-Core Diagnostics: Incremental Prediction and Exact Local Enstrophy-Budget Closure in Independently Maintained TIDE Turbulence",
+      "api_url": "https://zenodo.org/api/records/22996961",
+      "concept_record_id": "22996960",
+      "files": [
+        {
+          "name": "BIG_B19E_External_Validation_Preprint_v1_0_DOI_zenodo_22996961.pdf",
+          "bytes": 170213,
+          "zenodo_checksum": "md5:a1d99c125e28bf4416786e4777ca704d"
+        },
+        {
+          "name": "BIG_B19E_External_Validation_Japanese_Reference_v1_0_DOI_zenodo_22996961.pdf",
+          "bytes": 235620,
+          "zenodo_checksum": "md5:f4281206ebb7b3f0db33eb1b7c29fd3f"
+        },
+        {
+          "name": "BIG_B19E_Reproducibility_Package_v1_0.zip",
+          "bytes": 710927,
+          "zenodo_checksum": "md5:08e83a9b39b4604134426a8ba7793643"
+        }
+      ]
+    },
+    {
+      "record_id": "23006170",
+      "doi": "10.5281/zenodo.23006170",
+      "title": "From Quantitative Universality Tests to Structural Comparability in Boundary Information Geometry",
+      "api_url": "https://zenodo.org/api/records/23006170",
+      "concept_record_id": "23006169",
+      "files": [
+        {
+          "name": "BIG_Programme_Synthesis_Structural_Comparability_Japanese_Reference_v1_0.pdf",
+          "bytes": 635891,
+          "zenodo_checksum": "md5:cd33a6d38e704f085340b7b32e899588"
+        },
+        {
+          "name": "BIG_Programme_Synthesis_Structural_Comparability_Preprint_v1_0.pdf",
+          "bytes": 237294,
+          "zenodo_checksum": "md5:be6bbcc58c1da712b5198e8f60238f6c"
+        },
+        {
+          "name": "BIG_Programme_Synthesis_Preprint_v1_0.zip",
+          "bytes": 726504,
+          "zenodo_checksum": "md5:d7e0546faac93ce7b94ea3350763a51d"
+        }
+      ]
+    },
+    {
+      "record_id": "23024324",
+      "doi": "10.5281/zenodo.23024324",
+      "title": "History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model",
+      "api_url": "https://zenodo.org/api/records/23024324",
+      "concept_record_id": "23024323",
+      "files": [
+        {
+          "name": "BIG_B27_History_Conditioned_Response_Geometry_Preprint_v1_0.pdf",
+          "bytes": 140474,
+          "zenodo_checksum": "md5:8f3fae680cfeecd422f6989e25a98b5f"
+        },
+        {
+          "name": "BIG_B27_History_Conditioned_Response_Geometry_Japanese_Reference_v1_0.pdf",
+          "bytes": 228767,
+          "zenodo_checksum": "md5:a06f3bf037128c2dc4ec3faa6f9ef270"
+        },
+        {
+          "name": "BIG_B27_Reproducibility_Package_v1_0.zip",
+          "bytes": 382814,
+          "zenodo_checksum": "md5:63e97b2b8a4ee498b20d4a23fe43f009"
+        }
+      ]
+    },
+    {
+      "record_id": "23048197",
+      "doi": "10.5281/zenodo.23048197",
+      "title": "From History-Conditioned Boundary Response to Geometry-Conditioned Pulse Timing in a Finite Reduced Model: Transverse Suppression, Complex Spatial Transfer, Distance-Dependent Timing, and Approximate Geometry-Readout Decomposition",
+      "api_url": "https://zenodo.org/api/records/23048197",
+      "concept_record_id": "23048196",
+      "files": [
+        {
+          "name": "BIG_B30_B36_Integrated_Preprint_v1_1_DOI_zenodo_23048197.pdf",
+          "bytes": 2210164,
+          "zenodo_checksum": "md5:067d08f69c14bb4abf1237f82a7c17a9"
+        },
+        {
+          "name": "BIG_B30_B36_Integrated_Japanese_Reference_v1_1_DOI_zenodo_23048197.pdf",
+          "bytes": 2389449,
+          "zenodo_checksum": "md5:090dbd01778b2e80924c97291b472e44"
+        },
+        {
+          "name": "BIG_B30_B36_Reproducibility_Package_v1_1_DOI_zenodo_23048197.zip",
+          "bytes": 1942247,
+          "zenodo_checksum": "md5:19fb069b94c9d435e2fdf952fe0c5247"
+        }
+      ]
+    },
+    {
+      "record_id": "23050390",
+      "doi": "10.5281/zenodo.23050390",
+      "title": "Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests",
+      "api_url": "https://zenodo.org/api/records/23050390",
+      "concept_record_id": "23050389",
+      "files": [
+        {
+          "name": "BIG_B28_B29_Integrated_English_Working_Paper_v1_0_DOI_zenodo_23050390.pdf",
+          "bytes": 378445,
+          "zenodo_checksum": "md5:9c5ba4bef01d9751b31f9f74ce25ceb5"
+        },
+        {
+          "name": "BIG_B28_B29_Reproducibility_Package_v1_0_DOI_zenodo_23050390.zip",
+          "bytes": 316014,
+          "zenodo_checksum": "md5:9cc81144abde6c7c6887236bb74ca119"
+        },
+        {
+          "name": "BIG_B28_B29_Integrated_Japanese_Reference_v1_0_DOI_zenodo_23050390.pdf",
+          "bytes": 476713,
+          "zenodo_checksum": "md5:0986d5579560f89149846322f8a6949b"
+        }
+      ]
+    },
+    {
+      "record_id": "23104248",
+      "doi": "10.5281/zenodo.23104248",
+      "title": "Relational Timing and Weighted Measurement Duality in a Finite Nonlinear Boundary Field Model",
+      "api_url": "https://zenodo.org/api/records/23104248",
+      "concept_record_id": "23104247",
+      "files": [
+        {
+          "name": "BIG_B38_Relational_Timing_Weighted_Duality_JA_reference_v1_0_DOI_zenodo_23104248.pdf",
+          "bytes": 685829,
+          "zenodo_checksum": "md5:1fc3bd013262df0cddc127509ae8efdd"
+        },
+        {
+          "name": "BIG_B38_Preprint_Package_v1_0_DOI_zenodo_23104248.zip",
+          "bytes": 1207861,
+          "zenodo_checksum": "md5:0b370a96577fc4131b5c2eda24c1c58d"
+        },
+        {
+          "name": "BIG_B38_Relational_Timing_Weighted_Duality_EN_v1_0_DOI_zenodo_23104248.pdf",
+          "bytes": 616726,
+          "zenodo_checksum": "md5:2159a8aafa4b6dfcaab26e76f4c41ff8"
+        }
+      ]
+    },
+    {
+      "record_id": "23113994",
+      "doi": "10.5281/zenodo.23113994",
+      "title": "Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model",
+      "api_url": "https://zenodo.org/api/records/23113994",
+      "concept_record_id": "23113993",
+      "files": [
+        {
+          "name": "BIG_B39_Relational_Clocks_Information_Metric_Drift_JA_reference_v1_0_DOI_zenodo_23113994_P2_COMPLETE.pdf",
+          "bytes": 846784,
+          "zenodo_checksum": "md5:4530367628d53a1400b711474bdfeeaf"
+        },
+        {
+          "name": "BIG_B39_Relational_Clocks_Information_Metric_Drift_EN_v1_0_DOI_zenodo_23113994_P2_COMPLETE.pdf",
+          "bytes": 588307,
+          "zenodo_checksum": "md5:f0b0990a8c482b76a7c8b5a93b596251"
+        },
+        {
+          "name": "BIG_B39_Zenodo_Upload_Package_v1_0_P2_COMPLETE_DOI_zenodo_23113994.zip",
+          "bytes": 2602693,
+          "zenodo_checksum": "md5:cbc277f0cf94237dd7b3b5e458e870eb"
+        }
+      ]
+    },
+    {
+      "record_id": "23128738",
+      "doi": "10.5281/zenodo.23128738",
+      "title": "Boundary Information Geometry B9: Metastability Hierarchies and an Empirical Structural Comparison with Nuclear Fission",
+      "api_url": "https://zenodo.org/api/records/23128738",
+      "concept_record_id": "23128737",
+      "files": [
+        {
+          "name": "BIG_B9_Metastability_Hierarchies_Preprint_v1_0_DOI_zenodo_23128738.pdf",
+          "bytes": 582560,
+          "zenodo_checksum": "md5:b09c6fdc6a53c9a1db31658cdaf3c6ef"
+        },
+        {
+          "name": "BIG_B9_Metastability_Hierarchies_Zenodo_Package_v1_0_DOI_zenodo_23128738.zip",
+          "bytes": 1350247,
+          "zenodo_checksum": "md5:fc1f3bf649095a99aeb2bf11fa014e0f"
+        },
+        {
+          "name": "BIG_B9_Metastability_Hierarchies_Japanese_Reference_v1_0_DOI_zenodo_23128738.pdf",
+          "bytes": 424540,
+          "zenodo_checksum": "md5:e0bb2a1a7e3cc2e857d3ac108dd66952"
+        }
+      ]
+    },
+    {
+      "record_id": "23153688",
+      "doi": "10.5281/zenodo.23153688",
+      "title": "Clock-Family Transfer and Target-Excluded Relational Reconstruction in a Finite Boundary-Response Model",
+      "api_url": "https://zenodo.org/api/records/23153688",
+      "concept_record_id": "23153687",
+      "files": [
+        {
+          "name": "BIG_B40_Reproducibility_Audit_Package_v1_0.zip",
+          "bytes": 333133,
+          "zenodo_checksum": "md5:6dfced7f6bca0e97cd7471bd47d2607b"
+        },
+        {
+          "name": "BIG_B40_Clock_Family_Transfer_and_Relational_Reconstruction_Preprint_v1_1_DOI.pdf",
+          "bytes": 137033,
+          "zenodo_checksum": "md5:7c8cd054e2f459406c603abef6113724"
+        },
+        {
+          "name": "BIG_B40_Clock_Family_Transfer_and_Relational_Reconstruction_Japanese_Reference_v1_1_DOI.pdf",
+          "bytes": 387912,
+          "zenodo_checksum": "md5:223f37fdeb9d91531393be1d7fe907cb"
+        }
+      ]
+    },
+    {
+      "record_id": "23171698",
+      "doi": "10.5281/zenodo.23171698",
+      "title": "Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science",
+      "api_url": "https://zenodo.org/api/records/23171698",
+      "concept_record_id": "23171697",
+      "files": [
+        {
+          "name": "Failure_Preserving_AI_Assisted_Research_v1_0_PDFs.zip",
+          "bytes": 1038128,
+          "zenodo_checksum": "md5:183a5f1172759d94c297288348799ef2"
+        },
+        {
+          "name": "Failure_Preserving_AI_Assisted_Research_Japanese_Reference_v1_0_short_author_note.pdf",
+          "bytes": 1114481,
+          "zenodo_checksum": "md5:ee8ecf210d293d8c33ea99f4c8168601"
+        },
+        {
+          "name": "Failure_Preserving_AI_Assisted_Research_v1_0_short_author_note.pdf",
+          "bytes": 298408,
+          "zenodo_checksum": "md5:48d17b7f3baa3b7b373f93ddbf05a99c"
+        }
+      ]
+    },
+    {
+      "record_id": "23198141",
+      "doi": "10.5281/zenodo.23198141",
+      "title": "Prospective External Numerical Holdout Validation of a Frozen Boundary-Response Transfer Rule",
+      "api_url": "https://zenodo.org/api/records/23198141",
+      "concept_record_id": "23198140",
+      "files": [
+        {
+          "name": "BIG_EV6_Prospective_External_Holdout_Preprint_v1_2_DOI_zenodo_23198141.pdf",
+          "bytes": 258758,
+          "zenodo_checksum": "md5:18bb58cc71086dd933f8290ff1cfb879"
+        },
+        {
+          "name": "BIG_EV6_Prospective_External_Holdout_Japanese_Reference_v1_2_DOI_zenodo_23198141.pdf",
+          "bytes": 487515,
+          "zenodo_checksum": "md5:2bfeb08043cb9d81a5083925d07d76ad"
+        },
+        {
+          "name": "BIG_EV6_Zenodo_Upload_Package_v1_2_DOI_zenodo_23198141.zip",
+          "bytes": 1652592,
+          "zenodo_checksum": "md5:83e6632bea5490ab946056b78ba6d32a"
+        }
+      ]
+    },
+    {
+      "record_id": "23249677",
+      "doi": "10.5281/zenodo.23249677",
+      "title": "Prospective Trajectory-Space Response Geometry and Second-Order Finite-Parameter Transfer: Failure Localization and a Fresh No-Fit Prediction Test in a Finite Vorticity-Response Model",
+      "api_url": "https://zenodo.org/api/records/23249677",
+      "concept_record_id": "23249676",
+      "files": [
+        {
+          "name": "BIG_B41_Zenodo_Submission_Package_v1_0_DOI_23249677.zip",
+          "bytes": 4254145,
+          "zenodo_checksum": "md5:4f650bdf826ce44e3e4adbec72f651c2"
+        },
+        {
+          "name": "BIG_B41_Prospective_Trajectory_Response_Geometry_Japanese_Reference_v1_0_DOI_23249677.pdf",
+          "bytes": 363626,
+          "zenodo_checksum": "md5:81265a6a63b7437c98df9f318ffadaec"
+        },
+        {
+          "name": "BIG_B41_Prospective_Trajectory_Response_Geometry_EN_v1_0_DOI_23249677.pdf",
+          "bytes": 187523,
+          "zenodo_checksum": "md5:9c66c68ad86a6c9131c2dc0185146ccd"
+        }
+      ]
+    },
+    {
+      "record_id": "23342705",
+      "doi": "10.5281/zenodo.23342705",
+      "title": "BIG-B4.3: Finite-Width Quadratic-Layer Signatures under Joint Dissipation and Quartic-Flux Variation",
+      "api_url": "https://zenodo.org/api/records/23342705",
+      "concept_record_id": "20564434",
+      "files": [
+        {
+          "name": "BIG_B4_3_DOI_Linked_Preparation_EN_20261013.pdf",
+          "bytes": 1781603,
+          "zenodo_checksum": "md5:d04d756c1f653c0684773dccf4fecf1a"
+        }
+      ]
+    },
+    {
+      "record_id": "23342902",
+      "doi": "10.5281/zenodo.23342902",
+      "title": "BIG-B4.1: Selected Quadratic-Layer Signatures and Loss of Good-Layer Detection in Mixed-Gradient Fields",
+      "api_url": "https://zenodo.org/api/records/23342902",
+      "concept_record_id": "20541747",
+      "files": [
+        {
+          "name": "BIG_B4_1_DOI_Linked_Preparation_EN_20261013.pdf",
+          "bytes": 1200042,
+          "zenodo_checksum": "md5:8aea229616b4038a631db5f79ad84903"
+        }
+      ]
+    },
+    {
+      "record_id": "23342986",
+      "doi": "10.5281/zenodo.23342986",
+      "title": "BIG-B3.1: Boundary-Layer Position Fits and Limits of the Quadratic-Layer Interpretation",
+      "api_url": "https://zenodo.org/api/records/23342986",
+      "concept_record_id": "20465841",
+      "files": [
+        {
+          "name": "BIG-B3.1 Boundary-Layer Scaling and Quadratic-Layer Interpretation in Degenerate Mixed-Gradient Dissipative Fields (2) (1).pdf",
+          "bytes": 670724,
+          "zenodo_checksum": "md5:25160c940b8be45491f90e2f96a7dc8b"
+        }
+      ]
+    },
+    {
+      "record_id": "23368996",
+      "doi": "10.5281/zenodo.23368996",
+      "title": "History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model (v1.1 Source–Implementation Correction)",
+      "api_url": "https://zenodo.org/api/records/23368996",
+      "concept_record_id": "23024323",
+      "files": [
+        {
+          "name": "B27_Source_Implementation_Correction_v1_1.pdf",
+          "bytes": 52745,
+          "zenodo_checksum": "md5:d70b2e2605930ae322198f617958f4c3"
+        },
+        {
+          "name": "BIG_B27_History_Conditioned_Response_Geometry_Preprint_v1_1.pdf",
+          "bytes": 144577,
+          "zenodo_checksum": "md5:627c993498732a789ba1262f2b15cc32"
+        },
+        {
+          "name": "BIG_B27_Reproducibility_Package_v1_1.zip",
+          "bytes": 1265085,
+          "zenodo_checksum": "md5:e8a2927779436a735ce9673dbd1ca628"
+        },
+        {
+          "name": "BIG_B27_History_Conditioned_Response_Geometry_Japanese_Reference_v1_1.pdf",
+          "bytes": 251833,
+          "zenodo_checksum": "md5:ac44f3816a10d9a7916e28f1f4938e14"
+        }
+      ]
+    }
+  ]
+}

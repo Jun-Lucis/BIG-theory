@@ -1,62 +1,40 @@
 # BIG-B4.3
 
-## Boundary-Layer Stability and Compression under Joint Parameter Variation in Degenerate Mixed-Gradient Dissipative Fields
+## Finite-Width Quadratic-Layer Signatures under Joint Dissipation and Quartic-Flux Variation
 
-### Summary
+B4.3 reports selected finite-width approximately quadratic layers on a `3 × 3` grid: `mu ∈ {0.3, 0.7, 1.0}` and `gamma ∈ {0.5, 1.0, 2.0}`. Effective mean exponents remain near two under the historical shell-selection and good-layer/near-two fallback rules; shell span and relative amplitude error vary with the parameters.
 
-BIG-B4.3 investigates the stability of quadratic boundary layers under simultaneous variation of
+### Publication status — checked 14 October 2026 (UTC)
 
-- dissipation parameter μ
-- quartic-gradient stiffness γ
+- **Corrected report:** [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705). The downloadable PDF matches the prepared corrected report byte for byte.
+- **Original report:** [10.5281/zenodo.20564435](https://doi.org/10.5281/zenodo.20564435).
+- [Correction register and file verification](../../docs/publication_corrections_B3_1_B5_2026_10_14.md).
 
-The study extends BIG-B4.1 from a one-parameter universality scan to a two-parameter boundary-layer map.
+### Equation and data-lineage clarification
 
-### October 2026: printed-equation / numerical-solver clarification
+The original manuscript printed `-gamma div(|grad(phi)|² grad(phi))`. The numerically supported finite-volume implementation instead has a positive `+4 gamma` quartic-gradient face flux, `epsilon = 1e-12`, a Gaussian source, and zero outer-face flux.
 
-**A source-to-output audit identified a material discrepancy.** The published B4.3 equation prints a **negative** quartic-gradient term (`-gamma div(|grad(phi)|² grad(phi))`), whereas a recovered B4.3 pilot finite-volume solver uses a **positive `+4 gamma`** quartic-gradient face flux. Applying the recovered operator to **six** archived B4.3 fields reproduces residuals near `1e-8`; using the printed `-gamma` in the same stencil gives residuals of approximately `0.0021–0.0103`. The archived pre-update stopping norms are also reconstructed to relative differences below `4e-11`.
+Six recovered pilot fields give stationary residuals near `1e-8` with the positive-flux operator; the printed negative coefficient in the same stencil gives approximately `0.0021–0.0103`. Three additional `gamma = 1` fields were recovered as **reuse from B4.1** and checked. The nine summary conditions therefore represent six pilot cases plus three reused cases. The reused column uses 100 shells, compared with 120 for the pilot cases.
 
-These findings **strongly support** the `+4 gamma` solver for the six checked numerical outputs, but do **not** establish the original executed source for B3.1, verify the other three B4.3 raw fields, or prove an exact zero-support boundary. This is a **retrospective clarification**, **not a regrading** of the published numerical classifications.
+This extends the six-field scope of the [12 October audit](../../docs/B4_3_printed_equation_vs_numerical_solver_audit_2026_10.md). Complete original run-to-source authentication remains unresolved, and this operator evidence is not assigned to B3.1 or B5.
 
-**[Read the detailed equation/implementation audit and scope of the evidence](../../docs/B4_3_printed_equation_vs_numerical_solver_audit_2026_10.md).** A corresponding clarification for the Zenodo description is recommended; an amended paper PDF would require a separate version.
+### What the correction changes
 
-### Main Observations
+- Corrects the equation/implementation description and documents regularization, source, boundary conditions, and stopping convention.
+- Corrects Figure 5–7 assignments and the clipped axis in Figure 1 of the report.
+- Distinguishes six pilot cases from three B4.1 reuses and their different shell counts.
+- Presents `A_ref = sqrt(mu/(96 gamma))` as a conditional local approximation.
 
-- ν ≈ 2 remains robust across all tested parameter regions.
-- Boundary-layer width depends strongly on μ.
-- Increasing γ improves amplitude consistency.
-- Three numerical regimes emerge:
-  - Stable / Recovered
-  - Compressed
-  - Residual
+The original numerical table, selection thresholds, fallback rule, and Stable/Recovered, Compressed, and Residual labels are preserved. These are historical diagnostic classifications, not a dynamical-stability theorem. No new PDE trajectories or retrospective reclassification were performed.
 
-### Key Numerical Findings
+### Limits
 
-| Regime | Characteristics |
-|----------|----------|
-| Stable / Recovered | Robust ν≈2 and accurate asymptotic amplitude |
-| Compressed | Quadratic layer preserved but width reduced |
-| Residual | Quadratic signatures remain but amplitude mismatch persists |
+The results do not establish exact compact support, dynamical stability, geometric universality, a continuum limit, or a joint `gamma/mu` scaling law.
 
-### Main Figures
+Related reports: [B3.1](../BIG-B3.1/README.md), [B4.1](../BIG-B4.1/README.md), and [B5](../B5_mobility_dependent_boundary_exponents/README.md).
 
-- Effective exponent map
-- Boundary-layer width map
-- Relative amplitude error map
-- Phase-state map (Stable / Compressed / Residual)
-
-### Status
-
-Completed numerical report.
-
-### DOI
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20564435.svg)](https://doi.org/10.5281/zenodo.20564435)
-
-### Related Reports
-
-- BIG-B3.1 — Boundary-Layer Scaling and Quadratic Landing
-- BIG-B4.1 — Quadratic Boundary Universality Scan
-
-### Representative Figure
+### Archived representative figure
 
 ![B4.3 State Map](../../figures/B4_3/B4_3_state_map.png)
+
+The image retains the historical finite-grid classification labels; the interpretation limits above apply.

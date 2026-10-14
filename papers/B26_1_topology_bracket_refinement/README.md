@@ -6,6 +6,8 @@
 **Protocol ID:** `BIG_B26_1_TOPOLOGY_BRACKET_REFINEMENT_v1_0`  
 **Canonical semantic configuration SHA-256:** `5377a3b614c9e9426b5a60997cdd9f4288d7c5abef2c9660908dba8629b92cf1`
 
+**Publication note — 14 October 2026:** this page preserves the frozen B26.1 protocol. The completed topology refinement and terminal B26.2 test are archived together in the [B26 report, DOI 10.5281/zenodo.22972985](https://doi.org/10.5281/zenodo.22972985). This is a shared B26 archive, not a separate B26.1 DOI. See the [completed B26 entry](../B26_topology_realized_fixed_sigma_transfer/README.md).
+
 ## Purpose
 
 B26 did not realize its intended topology span because all tested B26 separations were already on the two-contour side. At the same (N=384) resolution, however:
@@ -27,7 +29,8 @@ B26.1 refines only this topology bracket.
 
 B26.1 is a topology-only locator. It must not calculate or inspect:
 
-- (J_{m obs});
+- (J_{
+m obs});
 - fixed-(sigma P) ratios or relative errors;
 - coefficient fits;
 - any branch-selection quantity other than representative-level primary contour count.

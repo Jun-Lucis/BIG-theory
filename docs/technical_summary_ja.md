@@ -20,9 +20,7 @@
 
 複数の系列で、再現可能またはprospectiveに検査された構造があります。
 
-- **境界形成と着地:** 検査した退化混合勾配PDEでは、compact-likeな局所境界とおよそ二次の着地 (phisim As^
-u, 
-uapprox2) が頑健に現れる。
+- **初期の境界観測:** B3.1は経験的位置fitを保持しますが、元実行sourceは未認証です。B4.1/B4.3は選択された有限幅のnear-two signatureであり、作用素とprovenanceの限界を明記します。B5は定常収束未認証の有限時刻における移動度依存の有効指数です。厳密なsupport端指数や普遍性は確立していません。[B3.1–B5訂正状況](publication_corrections_B3_1_B5_2026_10_14.md)を参照してください。
 - **有限時間安定性幾何:** 検査したprotocolでは、境界異方性がsurvival/runaway閾値を動かす。
 - **分離型metastability:** B9の
   [

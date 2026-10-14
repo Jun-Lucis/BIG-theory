@@ -20,7 +20,8 @@ This conclusion comes from both positive and limiting results. Local or family-r
 
 For a fast technical orientation, start here:
 
-- **[October 2026 B4.3 equation/solver clarification](docs/B4_3_printed_equation_vs_numerical_solver_audit_2026_10.md)** — the published negative quartic-gradient term differs from the recovered positive +4γ finite-volume implementation; six archived numerical outputs support the latter, while B3.1 source lineage and three B4.3 raw cases remain unverified.
+- **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B4.1/B4.3 corrected PDFs verified; B5 description clarified under its original DOI; B3.1 corrected metadata still serves the original PDF.
+- **[Numbered-series DOI inventory and remaining gaps](docs/doi_inventory_audit_2026_10_14.md)** — includes B5, corrected version links, shared archives, and unresolved B6/B37 publication mappings.
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
 - **[One-page technical summary](docs/technical_summary.md)**
@@ -175,7 +176,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Programme synthesis DOI:** https://doi.org/10.5281/zenodo.23006170
 
-**B27 preprint DOI:** https://doi.org/10.5281/zenodo.23024324
+**B27 current v1.1 DOI:** [10.5281/zenodo.23368996](https://doi.org/10.5281/zenodo.23368996) — source–implementation description correction; archived data, gates, and formal verdicts retained. [Original v1.0](https://doi.org/10.5281/zenodo.23024324).
 
 **B28–B29 integrated preprint DOI:** https://doi.org/10.5281/zenodo.23050390
 
@@ -262,7 +263,7 @@ $$
 \phi(s) \sim A s^\nu,\qquad \nu \approx 2,
 $$
 
-where (s) is the distance from the boundary.
+where (s) is the distance from the boundary. Early-series measurements are selected finite-width diagnostics; see the [B3.1–B5 correction register](docs/publication_corrections_B3_1_B5_2026_10_14.md) for operator provenance, fit-selection limits, and actual publication status.
 
 ### Quartic-gradient boundary stiffness
 
@@ -302,7 +303,9 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 
 | Series | Main role | Main entry |
 | --- | --- | --- |
-| B3--B4 | Compact-support-like boundary layers and quadratic landing | [B3.1](papers/BIG-B3.1) · [B4.1](papers/BIG-B4.1) · [B4.3](papers/BIG-B4.3) |
+| B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures; provenance limits apply | [B3.1](papers/BIG-B3.1) · [B4.1](papers/BIG-B4.1) · [B4.3](papers/BIG-B4.3) |
+| B5 | Mobility-dependent effective exponents in finite-time snapshots; description-only clarification | [papers/B5_mobility_dependent_boundary_exponents](papers/B5_mobility_dependent_boundary_exponents) |
+| B6 | Mentioned in methodology history; standalone B6 DOI not identified in this repository audit | [DOI inventory and naming limits](docs/doi_inventory_audit_2026_10_14.md) |
 | B7 | Persistence of free-boundary exponent near runaway transition | [papers/B7_boundary_exponent](papers/B7_boundary_exponent) |
 | B8 | Boundary anisotropy and finite-time separatrix thresholds | [papers/B8_finite_time_separatrix](papers/B8_finite_time_separatrix) |
 | B9 | Fission-like metastability from boundary cost versus nonlocal repulsion | [papers/B9_fission_like_metastability](papers/B9_fission_like_metastability) |
@@ -330,6 +333,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | B29 | Training-domain readability boundary before held-out prediction | [papers/B29_incremental_predictive_information](papers/B29_incremental_predictive_information) |
 | B28–B29 integrated paper | Lineage-transport limits and predictive-readability boundary | [papers/B28_B29_lineage_transport_predictive_readability](papers/B28_B29_lineage_transport_predictive_readability) |
 | B30–B36 | History-conditioned response → spatial transfer → pulse timing → geometry/readout decomposition | [papers/B30_B36_integrated_response_to_pulse_timing](papers/B30_B36_integrated_response_to_pulse_timing) |
+| B37 | Intrinsic-contour timing tests; standalone DOI not identified in this repository audit | [B37–B38 research status](docs/research_status_update_B37_B38.md) · [DOI inventory](docs/doi_inventory_audit_2026_10_14.md) |
 | B38 | Relational timing and weighted measurement duality | [papers/B38_relational_timing_weighted_duality](papers/B38_relational_timing_weighted_duality) |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | [papers/B39_relational_clocks_information_metric_drift](papers/B39_relational_clocks_information_metric_drift) |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | [papers/B40_clock_family_transfer_relational_reconstruction](papers/B40_clock_family_transfer_relational_reconstruction) |
@@ -720,8 +724,13 @@ Current entries include:
 
 | Series | Theme | DOI / record |
 | --- | --- | --- |
+| B3.1 | Corrected interpretive record; downloadable PDF correction pending | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [original](https://doi.org/10.5281/zenodo.20465842) |
+| B4.1 | Selected quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) · [original](https://doi.org/10.5281/zenodo.20541748) |
+| B4.3 | Finite-width quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) · [original](https://doi.org/10.5281/zenodo.20564435) |
+| B5 | Mobility-dependent finite-time effective exponents; description clarified, original ZIP retained | [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991) |
+| B6 | Standalone B6 DOI unconfirmed; BIG6.5 is a separately named earlier paper | [Unresolved mapping](docs/doi_inventory_audit_2026_10_14.md) |
 | B7 | Free-boundary exponent across runaway transition | https://doi.org/10.5281/zenodo.20603601 |
-| B8 | Boundary anisotropy and finite-time separatrix thresholds | https://zenodo.org/records/20645317 |
+| B8 | Boundary anisotropy and finite-time separatrix thresholds | https://doi.org/10.5281/zenodo.20645317 |
 | B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
 | B9 empirical Phase II | Metastability hierarchy and empirical structural comparison with nuclear fission | https://doi.org/10.5281/zenodo.23128738 |
 | B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.20819427 |
@@ -731,14 +740,14 @@ Current entries include:
 | B13.1 | Rotated-basis observation and empirical selection kernel | https://doi.org/10.5281/zenodo.21108338 |
 | B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.21144373 |
 | B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.21173333 |
-| Layered framework | Layered mathematical consolidation through B15 | https://zenodo.org/records/22161614 |
-| B16 | Memory-bearing free boundaries | https://zenodo.org/records/22660005 |
-| B17 | Stored versus readable history | https://zenodo.org/records/22677581 |
-| B18 | Boundary readout operators | https://zenodo.org/records/22690970 |
-| B19 | Boundary-core channel diagnostics | https://zenodo.org/records/22726848 |
-| B19 follow-up | Finite-time response-boundary diagnostics | https://zenodo.org/records/22769513 |
+| Layered framework | Layered mathematical consolidation through B15 | https://doi.org/10.5281/zenodo.22161614 |
+| B16 | Memory-bearing free boundaries | https://doi.org/10.5281/zenodo.22660005 |
+| B17 | Stored versus readable history | https://doi.org/10.5281/zenodo.22677581 |
+| B18 | Boundary readout operators | https://doi.org/10.5281/zenodo.22690970 |
+| B19 | Boundary-core channel diagnostics | https://doi.org/10.5281/zenodo.22726848 |
+| B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.22769513 |
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
-| B20 | Operator-generated finite-window response boundaries | https://zenodo.org/records/22846729 |
+| B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.22846729 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
@@ -746,12 +755,15 @@ Current entries include:
 | B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 | B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |
-| B27 | History-conditioned response geometry and reconfiguration covariance | https://doi.org/10.5281/zenodo.23024324 |
+| B27 | History-conditioned response geometry; v1.1 source–implementation correction | [10.5281/zenodo.23368996](https://doi.org/10.5281/zenodo.23368996) · [original v1.0](https://doi.org/10.5281/zenodo.23024324) |
 | B28–B29 | Lineage-transport limits and training-domain readability boundary | https://doi.org/10.5281/zenodo.23050390 |
 | B30–B36 | Integrated response-to-pulse-timing programme | https://doi.org/10.5281/zenodo.23048197 |
+| B37 | Research-status entry exists; standalone DOI unconfirmed | [Unresolved mapping](docs/doi_inventory_audit_2026_10_14.md) |
 | B38 | Relational timing and weighted measurement duality | https://doi.org/10.5281/zenodo.23104248 |
 | B39 | Relational clocks, information-metric drift, and clock reparameterization | https://doi.org/10.5281/zenodo.23113994 |
 | B40 | Clock-family transfer and target-excluded relational reconstruction | https://doi.org/10.5281/zenodo.23153688 |
+| B41 | Trajectory-space response geometry and second-order finite-parameter transfer | https://doi.org/10.5281/zenodo.23249677 |
+| EV6 | Prospective external numerical holdout | https://doi.org/10.5281/zenodo.23198141 |
 | Methodology companion | Failure-Preserving AI-Assisted Research | https://doi.org/10.5281/zenodo.23171698 |
 
 ---

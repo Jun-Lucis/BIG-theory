@@ -1,6 +1,8 @@
 # BIG-B4.3 — clarification of the printed equation and numerically supported solver (12 October 2026)
 
-**Status:** retrospective source-to-output audit; clarification pending an amended manuscript. **This note does not change the original B4.3 classifications or claim a new continuum theorem.**
+**Historical status (12 October):** retrospective source-to-output audit; clarification then pending an amended manuscript. **This note does not change the original B4.3 classifications or claim a new continuum theorem.**
+
+**Update — 14 October 2026 (UTC):** the corrected B4.3 report is now archived at [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705), and its downloadable PDF matches the prepared correction. The three `gamma = 1` fields have since been recovered as B4.1 reuse and checked, extending the six-field scope documented below to six pilot fields plus three reused fields. The reused column uses 100 shells versus 120 for the pilot cases. Complete original executable provenance remains unresolved. The dated audit body below is preserved as history; consult the [current correction register](publication_corrections_B3_1_B5_2026_10_14.md) for publication status, figure corrections, and the separate B3.1/B5 limits.
 
 ## What needs clarification
 

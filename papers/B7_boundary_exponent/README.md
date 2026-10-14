@@ -169,9 +169,7 @@ Avoid unless carefully qualified:
 
 Primary B7 record:
 
-```text
-DOI to be listed
-```
+[10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601)
 
 Related B7/B8 summary notes may also be listed here as the repository is organized.
 

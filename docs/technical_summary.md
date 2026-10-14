@@ -20,9 +20,7 @@ The present evidence supports the first as an organizing framework. The second i
 
 Several recurring structures have survived direct numerical or prospective tests:
 
-- **Boundary formation and landing:** tested degenerate mixed-gradient PDEs show robust compact-like local boundary structure with approximately quadratic landing, (phisim As^
-u), (
-uapprox2).
+- **Early boundary observations:** B3.1 retains empirical position fits with unauthenticated original execution; B4.1/B4.3 retain selected finite-width near-two signatures with documented operator/provenance limits. B5 records mobility-dependent effective exponents at finite time, with no certified stationary convergence. These do not establish an exact support-edge exponent or universality class. See the [B3.1–B5 correction register](publication_corrections_B3_1_B5_2026_10_14.md).
 - **Finite-time stability geometry:** boundary anisotropy can shift survival/runaway thresholds in the tested finite-time protocols.
 - **Separation-like metastability:** the reduced B9 energy
   [

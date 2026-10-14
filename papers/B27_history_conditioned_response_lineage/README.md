@@ -41,7 +41,11 @@ G^+\stackrel{?}{\approx}A^T G^-A.
 
 **Title:** *History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model*
 
-**DOI:** https://doi.org/10.5281/zenodo.23024324
+**Current DOI (v1.1):** [10.5281/zenodo.23368996](https://doi.org/10.5281/zenodo.23368996)
+
+**Original v1.0 DOI:** [10.5281/zenodo.23024324](https://doi.org/10.5281/zenodo.23024324)
+
+**Source–implementation correction:** the v1.1 record describes the directional Cartesian cubic face flux actually used in the archived notebooks, corresponding to `gamma ((partial_x phi)^3, (partial_y phi)^3)`. The isotropic `gamma |grad phi|^2 grad phi` alternative described in v1.0 is mathematically different and remains untested here. All archived data, frozen gates, figures, and PASS/FAIL outcomes are retained and scoped to the directional finite-grid implementation. The reconfiguration FAIL has not been shown to arise from anisotropy. Frozen protocol files below remain historical records.
 
 The Zenodo record contains the English preprint, Japanese reference translation, and reproducibility package.
 

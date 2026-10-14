@@ -168,9 +168,7 @@ B12 is a physical unification theory
 
 Primary BIG-B12 record:
 
-```text
-DOI to be added
-```
+[10.5281/zenodo.20872005](https://doi.org/10.5281/zenodo.20872005)
 
 Related records:
 

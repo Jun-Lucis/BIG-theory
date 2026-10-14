@@ -1,5 +1,7 @@
 # BIG Research Status Map — B3 through B26, with the B23A Universality Audit
 
+**14 October 2026 clarification:** early-series interpretations and publication states follow the [B3.1–B5 correction register](publication_corrections_B3_1_B5_2026_10_14.md). Formal historical verdicts and frozen protocols are retained.
+
 ## What is established, what is limited, and what is not supported?
 
 This document is the current integrated evidential map of the **Boundary Information Geometry (BIG)** programme through B26, including the later **B23A structural-universality audit**.
@@ -32,9 +34,9 @@ model-level result
 
 | Series | Main question | Retained result | Main limitation / unresolved point | Current status |
 | --- | --- | --- | --- | --- |
-| **B3–B4** | How does a compact-like boundary land? | In the tested degenerate mixed-gradient PDE family, local boundary profiles robustly show quadratic-like landing, (phisim As^
-u) with (
-uapprox2). | No general universality class or rigorous continuum free-boundary theorem. | **Strong numerical result** |
+| **B3.1** | What do the boundary-layer position fits establish? | Original separate one-parameter empirical fits retained, with additive intercepts. | Joint length scaling is not derived; original execution unauthenticated. Current DOI metadata corrected, but its PDF still matches the original. | **Empirical observation with provenance limits** |
+| **B4.1–B4.3** | What finite-width quadratic-layer signatures are selected? | Historical selected near-two signatures and numerical classifications retained; corrected PDFs verified. | Positive-flux evidence has documented field/source limits; exact support, universality, and dynamical stability are not established. | **Selected finite-grid observations** |
+| **B5** | How do effective exponents vary with mobility? | Selected mean falls from 2.160614 to about 1.80–1.82 in nine finite-time cases; description clarified under original DOI. | All runs reached the step cap; positive-contour fits and crossing of two depend on selection; original solver/fit source incomplete. | **Finite-time observation; stationary convergence uncertified** |
 | **B7–B8** | Can local boundary regularity coexist with global runaway, and does shape shift finite-time thresholds? | Local boundary structure and finite-time global fate separate. In the tested ellipse family, anisotropy shifts the finite-time survival/runaway threshold with stable ordering across the reported resolution check. | No asymptotic separatrix or universal anisotropy law. | **Numerically supported** |
 | **B9** | Can boundary cost and nonlocal repulsion alone produce separation-like metastability? | The reduced energy (E=sigma P+lambda C) produces a compact branch, finite pinch/scission barrier, and separated branch. | Not a quantitative nuclear-fission model; no shell, pairing, tunnelling, yields, excitation dependence, or nuclear calibration. | **Established inside the reduced model** |
 | **B10** | Is sustained capture distinct from first contact? | First hit and sustained capture separate; sustained capture appears in a finite-noise window and is lost again at high noise. | No quantitative nuclear-fusion or external stochastic-resonance validation. | **Strong numerical result** |

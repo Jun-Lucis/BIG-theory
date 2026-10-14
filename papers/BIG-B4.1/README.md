@@ -1,49 +1,28 @@
 # BIG-B4.1
 
-## Universal Quadratic Boundary Layers and Boundary-Layer Collapse
+## Selected Quadratic-Layer Signatures and Loss of Good-Layer Detection in Mixed-Gradient Fields
 
-BIG-B4.1 investigates the reproducibility and robustness of quadratic boundary layers in degenerate mixed-gradient dissipative fields.
+B4.1 reports a twelve-condition dissipation scan at `gamma = 1`. Under the historical diagnostic rules, selected approximately quadratic signatures remain detectable while the span of the detected good region decreases across the higher-`mu` part of the scan.
 
-The report extends earlier boundary-asymptotic observations by performing reproducibility checks and parameter scans over the dissipation parameter mu.
+### Publication status — checked 14 October 2026 (UTC)
 
-### Main Focus
+- **Corrected report:** [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902). The downloadable PDF matches the prepared corrected report byte for byte.
+- **Original report:** [10.5281/zenodo.20541748](https://doi.org/10.5281/zenodo.20541748).
+- [Correction register and file verification](../../docs/publication_corrections_B3_1_B5_2026_10_14.md).
 
-* Reproducibility audit of quadratic boundary layers
-* Extended mu scan
-* Boundary-layer compression
-* Collapse-region investigation
+### Equation and implementation clarification
 
-### Main Observations
+The original manuscript printed a negative quartic-flux coefficient, `-gamma`. Eight recovered original fields strongly support a regularized positive `+4 gamma` finite-volume operator through stationary-residual checks with the recovered B4.3 pilot spatial operator. Authentication of the original executed B4.1 notebook and ray-fit code remains unresolved.
 
-* The local boundary exponent remains close to
+Eight conditions were checked with fields and shell summaries; `mu = 0.1, 0.2, 0.4, 0.8` remain checked against restored summaries only. The table retains all 34 numerical cells and the two missing good-region widths.
 
-```text
-nu ≈ 2
-```
+### Retained observations and limits
 
-across the investigated mu range.
+- No good region is detected at `mu = 1.0, 1.1` under the historical criteria, although near-two traces remain.
+- The near-two and good diagnostics use different exponent windows and are not a simply nested pair.
+- Loss of good-layer detection is conditional on the finite grid, selection criteria, and measurement procedure; it does not establish a continuum collapse threshold or dynamical instability.
+- The original four figures, thresholds, state labels, and numerical values are retained. The correction ran no new PDE trajectories and did not reclassify the archived cases.
 
-* The quadratic exponent is more robust than the observable boundary-layer state.
+These are selected finite-grid observations. Exact compact support and a universality class are not established.
 
-* Increasing dissipation compresses the coherent quadratic layer.
-
-* Near the collapse region, local near-two traces remain even after coherent good layers disappear.
-
-### Interpretation
-
-BIG-B4.1 suggests a distinction between:
-
-* boundary geometry, measured by the exponent nu
-* boundary-layer state, measured by width and amplitude consistency
-
-### Role in the BIG Series
-
-BIG-B4.1 is the numerical foundation for BIG-B4.3, which extends the analysis from a one-parameter mu scan to a two-parameter (mu, gamma) boundary-compression map.
-
-### Status
-
-Completed numerical report.
-
-### DOI
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20541748.svg)](https://doi.org/10.5281/zenodo.20541748)
+Related reports: [B3.1](../BIG-B3.1/README.md), [B4.3](../BIG-B4.3/README.md), and [B5](../B5_mobility_dependent_boundary_exponents/README.md).

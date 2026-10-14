@@ -118,7 +118,8 @@ BIGの現在の展開は、次のような系列として整理できます。
 
 | Series | 主題                            | BIG内での役割                        |
 | ------ | ----------------------------- | ------------------------------- |
-| B3--B4 | 境界層形成と二次着地                    | 局所境界構造                          |
+| B3--B4 | 経験的位置fitと選択された有限幅二次層signature | 元実行sourceと解釈の限界を明記。[訂正状況](publication_corrections_B3_1_B5_2026_10_14.md) |
+| B5 | 有限時刻の移動度依存有効指数 | [DOI 10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991)。説明のみ訂正、元ZIPを保持 |
 | B7     | runaway近傍での自由境界指数             | 局所境界構造と大域不安定性の分離                |
 | B8     | 境界異方性と有限時間セパラトリクス             | 形状が安定性しきい値を動かす                  |
 | B9     | 境界コスト vs 非局所反発                | fission-like metastabilityと、後続Phase IIでのenergetic preference / coexistence / local spinodalの分離 |
