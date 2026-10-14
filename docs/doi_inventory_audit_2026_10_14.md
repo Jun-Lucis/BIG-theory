@@ -1,5 +1,7 @@
 # Numbered-series DOI inventory audit
 
+**Follow-up — 15 October 2026 (JST):** the B3.1 attachment mismatch identified in this audit is resolved. The seven-page corrected PDF is publicly available under the same v2 DOI and its download matches the uploaded file. See the [verification record](B3_1_file_correction_2026_10_15.md).
+
 **Checked:** 14 October 2026 (UTC). **Repository baseline:** [`aa1eecd`](https://github.com/Jun-Lucis/BIG-theory/commit/aa1eecd2fb04d7ce2a6886329c1cccf7327b1a8a).
 
 The audit searched tracked repository text, the main DOI table, publication map, and per-paper entries. It reconciled all pre-existing linked Zenodo record IDs plus the identified additions: **47/47 records returned public metadata with a DOI and file listing**. This checks record identity and discoverability; it is not an independent scientific re-audit or full content verification of all 47 archives. PDF byte comparisons for B3.1/B4.1/B4.3 and the B5 clarification state are recorded [separately](publication_corrections_B3_1_B5_2026_10_14.md).
@@ -8,7 +10,7 @@ The audit searched tracked repository text, the main DOI table, publication map,
 
 | Entry | Before this update | Reconciliation |
 | --- | --- | --- |
-| B3.1/B4.1/B4.3 | Per-paper pages linked original DOIs; main DOI table omitted them; publication map said “To be listed”. | Added current and original DOI links and correction status. B3.1 PDF mismatch remains explicit. |
+| B3.1/B4.1/B4.3 | Per-paper pages linked original DOIs; main DOI table omitted them; publication map said “To be listed”. | Added current and original DOI links and correction status. The B3.1 PDF mismatch found at the initial audit is retained in the history and was resolved on 15 October (see follow-up above). |
 | B5 | No primary B5 entry or DOI in repository text. | Added DOI 20575991, a paper entry, index rows, and description-only correction status. This was a repository navigation omission, not a missing DOI registration. |
 | B7 | Main table already linked its DOI; paper page and publication map still had placeholders. | Replaced placeholders with verified DOI 20603601. |
 | B12 | Main table already linked its DOI; paper and figure READMEs still had placeholders. | Replaced placeholders with verified DOI 20872005. |
@@ -34,7 +36,7 @@ All DOI links below were matched to live record metadata. Original-version links
 
 | Series / record | DOI | Verification or mapping state |
 | --- | --- | --- |
-| B3.1 | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [10.5281/zenodo.20465842](https://doi.org/10.5281/zenodo.20465842) | Corrected metadata; public PDF still original |
+| B3.1 | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [10.5281/zenodo.20465842](https://doi.org/10.5281/zenodo.20465842) | Corrected seven-page public PDF verified after 15 October attachment repair |
 | B4.1 | [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) · [10.5281/zenodo.20541748](https://doi.org/10.5281/zenodo.20541748) | Corrected PDF byte match verified |
 | B4.3 | [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) · [10.5281/zenodo.20564435](https://doi.org/10.5281/zenodo.20564435) | Corrected PDF byte match verified |
 | B5 | [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991) | Description-only clarification; original ZIP retained |
@@ -78,4 +80,4 @@ All DOI links below were matched to live record metadata. Original-version links
 
 Related earlier archive: [BIG6.5 file-label record, 10.5281/zenodo.20309519](https://doi.org/10.5281/zenodo.20309519). Its B6 mapping remains unconfirmed.
 
-The [machine-readable audit](doi_inventory_audit_2026_10_14.json) lists record titles, API sources, concept families, filenames, sizes, and Zenodo checksums for all 47 checked records. No Zenodo metadata or files were changed by this GitHub update.
+The [machine-readable audit](doi_inventory_audit_2026_10_14.json) lists record titles, API sources, concept families, filenames, sizes, and Zenodo checksums for all 47 checked records. The initial GitHub index update did not change Zenodo. The 15 October follow-up documents the separately completed B3.1 attachment repair.

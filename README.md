@@ -20,7 +20,7 @@ This conclusion comes from both positive and limiting results. Local or family-r
 
 For a fast technical orientation, start here:
 
-- **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B4.1/B4.3 corrected PDFs verified; B5 description clarified under its original DOI; B3.1 corrected metadata still serves the original PDF.
+- **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B3.1/B4.1/B4.3 corrected PDFs verified; B3.1 attachment repaired under the same DOI on 15 October; B5 description clarified under its original DOI.
 - **[Numbered-series DOI inventory and remaining gaps](docs/doi_inventory_audit_2026_10_14.md)** — includes B5, corrected version links, shared archives, and unresolved B6/B37 publication mappings.
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
@@ -724,7 +724,7 @@ Current entries include:
 
 | Series | Theme | DOI / record |
 | --- | --- | --- |
-| B3.1 | Corrected interpretive record; downloadable PDF correction pending | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [original](https://doi.org/10.5281/zenodo.20465842) |
+| B3.1 | Corrected interpretive note; seven-page PDF verified after 15 October attachment repair | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [original](https://doi.org/10.5281/zenodo.20465842) |
 | B4.1 | Selected quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) · [original](https://doi.org/10.5281/zenodo.20541748) |
 | B4.3 | Finite-width quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) · [original](https://doi.org/10.5281/zenodo.20564435) |
 | B5 | Mobility-dependent finite-time effective exponents; description clarified, original ZIP retained | [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991) |

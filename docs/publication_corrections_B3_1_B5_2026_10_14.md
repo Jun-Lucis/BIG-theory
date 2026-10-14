@@ -1,8 +1,10 @@
 # B3.1–B5 correction and publication register
 
+**Update — 15 October 2026 (JST): B3.1 file mismatch resolved.** The existing v2 record now serves the corrected seven-page manuscript under the same DOI. Its public download was checked byte for byte. The 14 October observations below are retained as the historical audit; see the [file-correction verification](B3_1_file_correction_2026_10_15.md) for the new filename and hash.
+
 **Checked:** 14 October 2026 (UTC). Public Zenodo metadata and downloaded files were reconciled with the original and prepared correction files. This register distinguishes a corrected description from a corrected downloadable manuscript.
 
-## Public record status
+## Public record status at the 14 October audit
 
 | Study | Current record | Original record | Verified state |
 | --- | --- | --- | --- |
@@ -24,7 +26,7 @@ The B4 `+4 gamma` evidence must not be extrapolated to B3.1 or B5. B5 has separa
 
 No archived numerical value, frozen gate, or formal PASS/FAIL/INCONCLUSIVE result is regraded by these documentation corrections. No new PDE trajectories were run for this update. Historical status snapshots and frozen protocols remain preserved.
 
-## Downloaded-file verification
+## Downloaded-file verification at the 14 October audit
 
 SHA-256 values are for complete files, not extracted text.
 
@@ -38,8 +40,8 @@ SHA-256 values are for complete files, not extracted text.
 
 The intended B3.1 corrected filename is `BIG_B3_1_DOI_Linked_Preparation_EN_20261013.pdf`. As checked, record 23342986 instead serves `BIG-B3.1 Boundary-Layer Scaling and Quadratic-Layer Interpretation in Degenerate Mixed-Gradient Dissipative Fields (2) (1).pdf`.
 
-## Remaining publication action
+## Publication follow-up
 
-The B3.1 corrected manuscript still needs to be published through Zenodo's version workflow and then checked against the preparation hash. GitHub now points to the existing record with an explicit file-mismatch notice; it does not certify that record's PDF as corrected. Zenodo files were not changed by this GitHub update.
+The B3.1 pending action recorded in the 14 October audit was completed on 15 October 2026 (JST). Zenodo's published-file correction workflow replaced the mistaken attachment in the existing v2 record, retaining DOI 10.5281/zenodo.23342986 and the separately archived original v1. A public dated note documents the repair. The publication copy updates preparation-only identity text while preserving the corrected scientific pages and figures.
 
 For the wider numbering/DOI check, see the [DOI inventory audit](doi_inventory_audit_2026_10_14.md).

@@ -4,11 +4,13 @@
 
 B3.1 reports empirical boundary-layer position fits in a degenerate mixed-gradient dissipative field model. Original figures and fitted values are retained, with narrower interpretation of the proposed scaling and local balance.
 
-### Publication status — checked 14 October 2026 (UTC)
+### Publication status — file correction verified 15 October 2026 (JST)
 
 - **Current record:** [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986).
 - **Original record:** [10.5281/zenodo.20465842](https://doi.org/10.5281/zenodo.20465842).
-- **PDF correction remains pending:** the current title and description contain the interpretive correction, but the downloadable PDF is byte-identical to the original six-page manuscript. It does not match the prepared seven-page corrected PDF. The new DOI alone does not confirm publication of the corrected manuscript.
+- **Corrected PDF now verified:** the mistaken original six-page attachment was replaced through the published-file correction workflow on 15 October 2026 (JST), retaining the existing v2 DOI. The public seven-page PDF matches the uploaded corrected manuscript byte for byte.
+- **Public correction note:** the record documents the attachment error, replacement date, and unchanged historical numerical evidence. The original v1 remains separately archived.
+- [File-correction verification](../../docs/B3_1_file_correction_2026_10_15.md).
 
 The [correction register](../../docs/publication_corrections_B3_1_B5_2026_10_14.md) records file hashes and verification scope.
 

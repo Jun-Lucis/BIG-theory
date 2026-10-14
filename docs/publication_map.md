@@ -318,7 +318,7 @@ Numerical boundary-layer studies.
 
 **Current records:**
 
-- [B3.1: 10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) — corrected title/description; downloadable PDF still identical to the original as checked on 14 October 2026.
+- [B3.1: 10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) — seven-page corrected PDF verified after the same-DOI attachment repair on 15 October 2026 (JST). See the [file-correction verification](B3_1_file_correction_2026_10_15.md).
 - [B4.1: 10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) — corrected PDF verified.
 - [B4.3: 10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) — corrected PDF verified, including six pilot cases plus three B4.1 reuses.
 

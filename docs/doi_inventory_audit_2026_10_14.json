@@ -15,7 +15,7 @@
         "23342986",
         "20465842"
       ],
-      "status": "Corrected metadata; public PDF still original"
+      "status": "Corrected seven-page PDF verified after same-DOI attachment repair on 15 October 2026 (JST)"
     },
     {
       "series": "B4.1",
@@ -1325,11 +1325,19 @@
       "concept_record_id": "20465841",
       "files": [
         {
+          "name": "BIG_B3_1_Corrected_Manuscript_v2_zenodo_23342986.pdf",
+          "bytes": 2102369,
+          "zenodo_checksum": "md5:dcab1cfed579d5519b4af271afb73ebf"
+        }
+      ],
+      "files_at_initial_audit": [
+        {
           "name": "BIG-B3.1 Boundary-Layer Scaling and Quadratic-Layer Interpretation in Degenerate Mixed-Gradient Dissipative Fields (2) (1).pdf",
           "bytes": 670724,
           "zenodo_checksum": "md5:25160c940b8be45491f90e2f96a7dc8b"
         }
-      ]
+      ],
+      "metadata_rechecked_at_utc": "2026-10-14T23:27:38.665491+00:00"
     },
     {
       "record_id": "23368996",
@@ -1359,6 +1367,22 @@
           "zenodo_checksum": "md5:ac44f3816a10d9a7916e28f1f4938e14"
         }
       ]
+    }
+  ],
+  "updated_at_utc": "2026-10-14T23:27:38.665491+00:00",
+  "publication_followups": [
+    {
+      "verified_at_utc": "2026-10-14T23:27:38.665491+00:00",
+      "doi": "10.5281/zenodo.23342986",
+      "file": "BIG_B3_1_Corrected_Manuscript_v2_zenodo_23342986.pdf",
+      "bytes": 2102369,
+      "pages": 7,
+      "sha256": "ff0700648396d2d60789c66b5cbbc4997238756bc8b0802c58a95bd6d5fbafa0",
+      "md5": "dcab1cfed579d5519b4af271afb73ebf",
+      "download_matches_upload": true,
+      "correction_note_public": true,
+      "change": "Repair of mistakenly attached original PDF within existing v2; DOI unchanged; public correction note added",
+      "date_jst": "2026-10-15"
     }
   ]
 }
