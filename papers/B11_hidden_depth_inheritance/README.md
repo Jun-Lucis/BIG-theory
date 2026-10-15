@@ -91,7 +91,7 @@ The model asks whether capture must destroy distinction, or whether a post-captu
 
 ## Main result
 
-The main B11 result is a transition between assimilation-dominated and inheritance-dominated post-capture regimes.
+The main B11 result is a transition between assimilation-dominated and inheritance-dominated finite-time outcome frequencies in the archived post-capture scans.
 
 Qualitatively:
 
@@ -100,7 +100,7 @@ weak inheritance coupling
     -> post-capture state tends to collapse into A or B assimilation
 
 stronger inheritance coupling
-    -> two-parent hidden-depth inheritance becomes stable
+    -> more endpoints are classified as inheritance at the finite observation horizon
 
 higher noise
     -> robust inheritance generally requires stronger stabilization
@@ -152,7 +152,7 @@ These are reduced-model results, not universal constants.
 
 ![Reorganization energy drop near threshold](../../figures/B11/figure_06_reorganization_energy_drop_threshold.png)
 
-**Figure:** Model-defined reorganization energy drop near the inheritance transition. This is a reduced-model diagnostic, not a claim of real thermodynamic or nuclear energy release.
+**Figure:** Model-defined reorganization energy drop over all endpoints at the sampled coupling whose observed inheritance fraction is closest to 0.5. It is not interpolated at the threshold or conditioned on inheritance-only endpoints, and it is not real thermodynamic or nuclear energy release.
 
 ---
 
@@ -160,7 +160,7 @@ These are reduced-model results, not universal constants.
 
 ![Folding-conflict drop near threshold](../../figures/B11/figure_07_folding_conflict_drop_threshold.png)
 
-**Figure:** Folding-conflict drop near the inheritance transition. This figure illustrates how model-defined conflict may decrease when hidden-depth inheritance stabilizes.
+**Figure:** Model-defined folding-conflict drop at the same nearest-half sampled coupling, averaged over all outcomes in the constructed landscape.
 
 ---
 
@@ -287,6 +287,17 @@ Avoid unless carefully qualified:
 > B11 is a theory of genetics.
 
 ---
+
+## Archived-output audit - 15 October 2026
+
+All 201,350 saved endpoint rows, 1,495 grid summaries and 30 interpolated thresholds were checked across B11.1, B11.2 and B11.2b. Twenty-eight consistency groups reproduce archived arithmetic. The original PDF and 20-file package are preserved; no stochastic simulator was rerun or research result regraded.
+
+Thresholds are finite-grid interpolants of finite-time terminal fractions. The inheritance well and similarity-dependent conflict penalty are explicit model choices. Complete historical solver and ordered-classifier authentication remain open.
+
+The documentation/data supplement v1.1 is prepared and verified. Its Zenodo draft description and version were saved, but file-upload finalization could not be verified after the browser timed out. No publish action was performed. Reserved DOI 10.5281/zenodo.23387434 is not a published release; the current published record remains 10.5281/zenodo.20828439.
+
+[Audit evidence and publication status](../../docs/B11_publication_audit_2026_10_15.md)  
+[Methods and interpretation](../../docs/B11_methods_and_scope_2026_10_15.md)
 
 ## Zenodo record
 

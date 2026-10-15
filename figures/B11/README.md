@@ -75,7 +75,7 @@ where the two sectors represent parent-like memory components in a reduced model
 
 ![Reorganization energy drop near threshold](figure_06_reorganization_energy_drop_threshold.png)
 
-**Figure:** Model-defined reorganization energy drop near the inheritance transition. Lower parent similarity tends to require larger reorganization.
+**Figure:** Model-defined reorganization energy drop averaged over all endpoints at the sampled coupling whose observed inheritance fraction is closest to 0.5. It is neither an interpolated-threshold value nor an inheritance-only mean.
 
 ---
 
@@ -83,7 +83,7 @@ where the two sectors represent parent-like memory components in a reduced model
 
 ![Folding-conflict drop near threshold](figure_07_folding_conflict_drop_threshold.png)
 
-**Figure:** Folding-conflict drop near the transition. Conflict resolution is largest when parent memories are least similar.
+**Figure:** Model-defined folding-conflict drop at the same selected sampled coupling, averaged over all outcomes. The explicit conflict coefficient contains (1-rho).
 
 ---
 
@@ -96,7 +96,7 @@ weak inheritance coupling
     -> A-assimilation or B-assimilation dominates
 
 stronger inheritance coupling
-    -> two-parent hidden-depth inheritance becomes stable
+    -> more endpoints receive the inheritance label at the finite horizon
 
 higher post-fusion noise
     -> robust inheritance requires stronger stabilization
@@ -151,6 +151,12 @@ B11 proves real energy release
 ```
 
 ---
+
+## Archived-figure audit - 15 October 2026
+
+All seven representative PNGs match the original archive files. Five appear in the original PDF; two are archive heatmaps. No scientific figure was regenerated. [Audit and publication status](../../docs/B11_publication_audit_2026_10_15.md).
+
+The documentation/data supplement v1.1 is prepared and verified. Its Zenodo draft description and version were saved, but file-upload finalization could not be verified after the browser timed out. No publish action was performed. Reserved DOI 10.5281/zenodo.23387434 is not a published release; the current published record remains 10.5281/zenodo.20828439.
 
 ## Relation to Zenodo
 

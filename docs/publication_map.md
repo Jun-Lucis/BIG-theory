@@ -513,7 +513,7 @@ $$
 evolves in a stochastic gradient landscape with competing attractors for parent assimilation and two-parent inheritance.
 
 **Core result:**
-A transition from parent assimilation to hidden-depth inheritance occurs when the inheritance coupling exceeds a critical value. The critical coupling decreases with parent similarity and increases under stronger noise for robust inheritance thresholds.
+Archived finite-time outcome frequencies transition from parent assimilation toward hidden-depth inheritance as inheritance coupling increases in the constructed landscape. The interpolated thresholds decrease with similarity and rise across the scanned noise values; they are finite-grid estimates rather than exact critical constants.
 
 **Important limitation:**
 BIG-B11 is not a quantitative theory of biological inheritance, nuclear fusion, or real thermodynamic energy release. Energy drops are model-defined effective decreases in the post-fusion landscape.
@@ -525,6 +525,8 @@ B11 introduces the idea that fusion-like capture need not imply assimilation.
 https://doi.org/10.5281/zenodo.20828439
 
 ---
+
+**Archived-output audit, 15 October 2026:** 201,350 endpoint rows, 1,495 summaries and 30 thresholds reproduce. Complete historical solver/classifier authentication remains open. The documentation/data supplement v1.1 is prepared and verified. Its Zenodo draft description and version were saved, but file-upload finalization could not be verified after the browser timed out. No publish action was performed. Reserved DOI 10.5281/zenodo.23387434 is not a published release; the current published record remains 10.5281/zenodo.20828439. [Evidence and limits](B11_publication_audit_2026_10_15.md).
 
 ### B12: Unified boundary dynamics with cross-sector coupling
 
