@@ -1,0 +1,20 @@
+{
+  "paper": "B13",
+  "checkpoint": "CP17",
+  "date": "2026-10-15",
+  "status": "CORRECTED_MANUSCRIPT_AND_ARCHIVE_PREPARED_ZENODO_PUBLICATION_PENDING",
+  "current_public_doi": "10.5281/zenodo.21072783",
+  "corrected_version": "1.1",
+  "audit_check_groups": 86,
+  "compared_values": 4508,
+  "main_numerical_results_retained": true,
+  "new_simulation_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "reproducibility_ja": "基本的に再現可能。独立した再実行監査は未了",
+  "original_computational_functions_recovered": 18,
+  "manuscript_figure_panels_restored": 12,
+  "corrected_pdf_pages": 17,
+  "repository_url": "https://github.com/Jun-Lucis/BIG-theory",
+  "repository_url_present_in_current_zenodo_metadata": true,
+  "public_reread_of_corrected_archive": "PENDING_PUBLICATION"
+}

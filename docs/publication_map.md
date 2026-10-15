@@ -1,5 +1,7 @@
 # BIG Publication Map
 
+**B13 archive audit, 15 October 2026:** a substantive figure-provenance correction is prepared: all twelve reconstructed manuscript figures are restored from archived run outputs (Figure 3 replotted from the saved table). Principal numbers are retained; 86 audit groups passed. **Zenodo publication is pending**, so [21072783](https://doi.org/10.5281/zenodo.21072783) remains the current public record. [Audit](B13_publication_audit_2026_10_15.md).
+
 **B12 archive audit, 15 October 2026:** [Version 1.1 / Zenodo 23391364](https://zenodo.org/records/23391364) is the current audit supplement (one ZIP, public re-download byte-identical). Original v1 [20872005](https://doi.org/10.5281/zenodo.20872005) and the original related-work citations remain historical references. Reproduction is supported in principle; independent rerun auditing is not yet complete. [Audit](B12_publication_audit_2026_10_15.md).
 
 **B9 publication audit, 15 October 2026:** the empirical comparison's documentation-corrected v4.0 is [Zenodo 23385951](https://doi.org/10.5281/zenodo.23385951). The primary preprint 20799131, original dataset 20798687, and Phase II 23128738 remain distinct and unchanged. [Verified scope and open reproducibility gaps](B9_publication_audit_2026_10_15.md).

@@ -1,5 +1,7 @@
 # BIG-B13 — Boundary Folding as a Reduced Model of Observation and Self-Measurement
 
+> **Archive audit, 15 October 2026:** the current Zenodo PDF uses reconstructed illustrations; Figures 1 and 2 differ from the saved run data. A source-based restoration of all twelve figures is prepared, with the original numerical results retained. **The corrected Version 1.1 is not yet published on Zenodo.** Reproduction is supported in principle; independent rerun auditing is not yet complete. [Audit and prepared correction](../../docs/B13_publication_audit_2026_10_15.md).
+
 
 > 🇯🇵 **日本語要約**  
 > B13では、境界を介した観測者との結合が hidden-depth 状態の選択にどう影響するかを縮約モデルで調べます。基準モデルではBorn-like参照曲線との差が大きい一方、有限ノイズや観測者結合を含む条件では参照曲線に近づく領域が確認され、状態選択が境界結合・ノイズ・内部状態に依存して変化することを示しました。これは量子測定やBorn則の導出ではなく、境界を介した状態選択機構のモデルレベル検査です。
