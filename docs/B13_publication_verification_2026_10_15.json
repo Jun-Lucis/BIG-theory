@@ -1,0 +1,46 @@
+{
+  "record_id": "23392538",
+  "public_url": "https://zenodo.org/records/23392538",
+  "doi": "10.5281/zenodo.23392538",
+  "version": "1.1",
+  "published": true,
+  "file_count": 1,
+  "archive_name": "BIG_B13_Archive_Audit_and_Manuscript_Correction_v1_1.zip",
+  "archive_bytes": 9929092,
+  "archive_sha256": "fb40c533f10d50397a7b7110bb3d5fb650b20f4aef9ef4664455b547c2270cd1",
+  "archive_md5": "96d390eed42ce720c043ad89cc55217f",
+  "published_file_checksum": "md5:96d390eed42ce720c043ad89cc55217f",
+  "published_file_size": 9929092,
+  "public_redownload_byte_identical": true,
+  "crc_pass": true,
+  "zip_members": 120,
+  "internal_sha256_count": 119,
+  "all_internal_sha256_match": true,
+  "corrected_pdf_sha256": "17d06f7c6cee3363f9a034686b6e7affa27db7e4b333a7645376d0cf23f63200",
+  "title_unchanged": true,
+  "same_version_parent": true,
+  "github_related_identifier": [
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "other",
+        "title": {
+          "de": "Sonstige",
+          "en": "Other"
+        }
+      },
+      "scheme": "url"
+    }
+  ],
+  "checked_at_utc": "2026-10-15T11:05:54.208417+00:00",
+  "scientific_verdict_changes": 0,
+  "new_simulation_trajectories": 0,
+  "reproducibility_ja": "基本的に再現可能。独立した再実行監査は未了"
+}

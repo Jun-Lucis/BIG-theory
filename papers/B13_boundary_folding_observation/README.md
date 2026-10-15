@@ -1,6 +1,6 @@
 # BIG-B13 — Boundary Folding as a Reduced Model of Observation and Self-Measurement
 
-> **Archive audit, 15 October 2026:** the current Zenodo PDF uses reconstructed illustrations; Figures 1 and 2 differ from the saved run data. A source-based restoration of all twelve figures is prepared, with the original numerical results retained. **The corrected Version 1.1 is not yet published on Zenodo.** Reproduction is supported in principle; independent rerun auditing is not yet complete. [Audit and prepared correction](../../docs/B13_publication_audit_2026_10_15.md).
+> **Archive audit, 15 October 2026:** [Version 1.1](https://zenodo.org/records/23392538) is published as one complete ZIP. Eleven manuscript figures use the original Colab PNGs and Figure 3 is replotted from the unchanged saved table; principal numerical results are retained. The public ZIP is byte-identical to the approved archive and all 119 internal SHA256 checksums pass. **基本的に再現可能。独立した再実行監査は未了** — reproduction is supported in principle; independent rerun auditing is not yet complete. [Audit and published correction](../../docs/B13_publication_audit_2026_10_15.md).
 
 
 > 🇯🇵 **日本語要約**  
@@ -43,6 +43,11 @@ The Born-like curves used in B13 are reference comparisons. B13 does **not** der
 
 ## Publication
 
-DOI: https://doi.org/10.5281/zenodo.21072783
+Current DOI (Version 1.1): https://doi.org/10.5281/zenodo.23392538
+
+Original Version 1 DOI: https://doi.org/10.5281/zenodo.21072783
+
+[Recovered computational source and portable entry point](../../code/B13/README.md).  
+[Methods and source clarification](../../docs/B13_methods_and_source_clarification_2026_10_15.md).
 
 Author: Jun Lucis

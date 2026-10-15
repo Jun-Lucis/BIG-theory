@@ -1,18 +1,19 @@
 # B13 archive audit — 15 October 2026
 
-**Current Zenodo record:** https://doi.org/10.5281/zenodo.21072783  
-**Correction status:** Version 1.1 manuscript and single-archive package prepared; Zenodo publication pending.
+**Current Zenodo record (Version 1.1):** https://doi.org/10.5281/zenodo.23392538  
+**Original Version 1:** https://doi.org/10.5281/zenodo.21072783  
+**Correction status:** Version 1.1 published; the single complete ZIP was publicly downloaded and verified.
 
-The original public manuscript contains reconstructed illustrations rather than the archived Colab figure files. In particular, Figures 1 and 2 differ from the saved numerical basin map and baseline selection curve. This is a substantive figure-provenance correction. The underlying saved numerical values agree with the manuscript's principal reported results.
+The original Version 1 manuscript contains reconstructed illustrations rather than the archived Colab figure files. In particular, Figures 1 and 2 differ from the saved numerical basin map and baseline selection curve. This is a substantive figure-provenance correction. The underlying saved numerical values agree with the manuscript's principal reported results.
 
-The prepared correction restores all twelve panels: eleven use original Colab PNGs and Figure 3 is redrawn directly from the unchanged 48-condition table with the tested coordinates labeled explicitly. It also repairs two gradient symbols and printed contents-page numbers, and clarifies Appendix A provenance and the four locally stable points found by the search. The original PDF and all 37 original result-package files are retained.
+The published correction restores all twelve panels: eleven use original Colab PNGs and Figure 3 is redrawn directly from the unchanged 48-condition table with the tested coordinates labeled explicitly. It also repairs two gradient symbols and printed contents-page numbers, and clarifies Appendix A provenance and the four locally stable points found by the search. The original PDF and all 37 original result-package files are retained.
 
 ## Verified scope
 
 - 86 groups / 4508 comparison values passed in the stored-data and static-source audit.
 - The 1140 selection/summary/map rows, the 31×31 basin map, the high-noise 4×4 transition matrix and the principal 24-field summary are consistent.
 - All 128 transition counts agree with the recovered original notebook's saved output logs.
-- The recovered original notebook supplies eighteen unchanged computational function bodies. A portable output adapter is prepared.
+- The recovered original notebook supplies eighteen unchanged computational function bodies. A portable output adapter is included in the published ZIP and [code/B13](../code/B13/README.md).
 - The corrected 17-page PDF passed all-page rendering and restored-image checks. Text outside the declared correction regions is preserved.
 - No stochastic trajectory, PDE integration or fixed-point minimization was rerun; scientific outcomes are unchanged.
 
@@ -29,7 +30,11 @@ The reported noise stay probability is terminal-label retention, allowing exit a
 
 ## Publication bookkeeping
 
-The current public Zenodo record already includes https://github.com/Jun-Lucis/BIG-theory as a related URL. The prepared correction has not yet been published on Zenodo and must not be cited as a published new DOI. Public re-download verification will follow publication.
+Version 1.1 was published at https://zenodo.org/records/23392538 under the original version parent. Its metadata includes https://github.com/Jun-Lucis/BIG-theory as a References / URL / Other related identifier. The title is unchanged.
+
+The record contains exactly one file, `BIG_B13_Archive_Audit_and_Manuscript_Correction_v1_1.zip` (9,929,092 bytes). Its public re-download is byte-identical to the approved archive: SHA256 `fb40c533f10d50397a7b7110bb3d5fb650b20f4aef9ef4664455b547c2270cd1`, MD5 `96d390eed42ce720c043ad89cc55217f`. ZIP CRC and all 119 internal SHA256 checksums pass. The corrected 17-page PDF has SHA256 `17d06f7c6cee3363f9a034686b6e7affa27db7e4b333a7645376d0cf23f63200`.
+
+Audit status documents inside the immutable ZIP were frozen before publication. Their pending-publication statements are historical snapshots; this page and the [publication verification receipt](B13_publication_verification_2026_10_15.json) record the completed publication. The archive was not rebuilt after approval. No independent full rerun has been performed.
 
 [Machine-readable status](B13_archive_audit_status_2026_10_15.json).  
 [Paper entry](../papers/B13_boundary_folding_observation/README.md).

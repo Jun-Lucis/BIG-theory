@@ -2,8 +2,8 @@
   "paper": "B13",
   "checkpoint": "CP17",
   "date": "2026-10-15",
-  "status": "CORRECTED_MANUSCRIPT_AND_ARCHIVE_PREPARED_ZENODO_PUBLICATION_PENDING",
-  "current_public_doi": "10.5281/zenodo.21072783",
+  "status": "CORRECTED_MANUSCRIPT_AND_ARCHIVE_PUBLISHED_PUBLIC_REDOWNLOAD_VERIFIED",
+  "current_public_doi": "10.5281/zenodo.23392538",
   "corrected_version": "1.1",
   "audit_check_groups": 86,
   "compared_values": 4508,
@@ -16,5 +16,12 @@
   "corrected_pdf_pages": 17,
   "repository_url": "https://github.com/Jun-Lucis/BIG-theory",
   "repository_url_present_in_current_zenodo_metadata": true,
-  "public_reread_of_corrected_archive": "PENDING_PUBLICATION"
+  "public_reread_of_corrected_archive": "BYTE_IDENTICAL_CRC_AND_119_INTERNAL_SHA256_PASS",
+  "original_public_doi": "10.5281/zenodo.21072783",
+  "public_url": "https://zenodo.org/records/23392538",
+  "archive_bytes": 9929092,
+  "archive_sha256": "fb40c533f10d50397a7b7110bb3d5fb650b20f4aef9ef4664455b547c2270cd1",
+  "archive_md5": "96d390eed42ce720c043ad89cc55217f",
+  "scientific_verdict_changes": 0,
+  "publication_verification": "B13_publication_verification_2026_10_15.json"
 }

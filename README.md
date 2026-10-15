@@ -741,7 +741,7 @@ Current entries include:
 | B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.23386662 |
 | B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.23388916 |
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
-| B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.21072783 |
+| B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.23392538 |
 | B13.1 | Rotated-basis observation and empirical selection kernel | https://doi.org/10.5281/zenodo.21108338 |
 | B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.21144373 |
 | B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.21173333 |
