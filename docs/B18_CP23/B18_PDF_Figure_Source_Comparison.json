@@ -1,0 +1,70 @@
+{
+  "images": [
+    {
+      "original_pdf_image": "page04_xref103.png",
+      "rgb_sha256": "9522bc29e7e208958925882ec58b1896290496948e7bc5f1833ffb4da8f21d62",
+      "size": [
+        2420,
+        1430
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page06_xref129.png",
+      "rgb_sha256": "83fd5ca7beef2ee639901bf2d9f42d8fdc74dbd1a9cf5075935f1a08e491eb63",
+      "size": [
+        1870,
+        1056
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page07_xref138.png",
+      "rgb_sha256": "69e2b4f8a8184893e53f6fd1f661b479fcb3ec534ee0abcd9e139caf804780a9",
+      "size": [
+        1870,
+        1056
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page08_xref150.png",
+      "rgb_sha256": "25c3d2c1e776e0576a5477c50b5a9be1f1cee691dd9bdd49784e92feebad5fe0",
+      "size": [
+        1980,
+        1276
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page08_xref163.png",
+      "rgb_sha256": "9a5da2cf8bf773741e9dd161a8fc04f1e4e49dff6b3e892fd5cd2f1c74cbe0b5",
+      "size": [
+        1760,
+        1056
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page09_xref164.png",
+      "rgb_sha256": "b776f86b0c3598072cfbf4804b91e58fc9dbad05fbc699d3e2f5b1273ce96517",
+      "size": [
+        1584,
+        1056
+      ],
+      "exact_drive_pngs": []
+    },
+    {
+      "original_pdf_image": "page10_xref174.png",
+      "rgb_sha256": "ebf3aff6c88333db836a483eedb917d0252298cd6c2d45bee6ee55391349ee4b",
+      "size": [
+        1650,
+        1011
+      ],
+      "exact_drive_pngs": []
+    }
+  ],
+  "all_original_pdf_images_preserved": true,
+  "drive_exact_matches": 0,
+  "unmatched_scope": "None of the seven source-PDF image rasters is RGB-identical to a saved Drive PNG at its native dimensions. They are preserved exactly from the supplied historical PDF. Three B18.3 figures have no corresponding saved Drive PNG; plot/package cells are unexecuted in that original notebook."
+}

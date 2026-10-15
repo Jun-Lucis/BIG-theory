@@ -1,0 +1,818 @@
+{
+  "computational_definitions": 76,
+  "unique_function_names": 31,
+  "nested_definitions": 9,
+  "scope": "Top-level computational definitions with nested bodies unchanged. Setup/backup/file-loading/plot-only helpers excluded; stage4 synthesis has no computational functions.",
+  "functions": [
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "make_grid",
+      "sha256": "038c48ef1c8e180be1d63b8403931bb7fae3ebc4516004df006f6785fe3d714b",
+      "first_line": 17,
+      "last_line": 19,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "sigmoid_front",
+      "sha256": "488c8cfd24634c6ec2a0c889f40471b47be62951a7ee30679921433373a1fac2",
+      "first_line": 21,
+      "last_line": 22,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "gaussian",
+      "sha256": "bb9960460cb7dfabd9e52a64141c334c1f58d95df0cc92ecb26608a340b72424",
+      "first_line": 24,
+      "last_line": 27,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "lap_neumann",
+      "sha256": "da04143580371bffd198d8937f5473a9a4a2fbe78416cb534842366f7a60c758",
+      "first_line": 29,
+      "last_line": 34,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "grad_centered",
+      "sha256": "0c0ce5eece2f771d2090dd5d55ba02ca7ffcfb7bff20b44a5c486b064c01db0c",
+      "first_line": 36,
+      "last_line": 41,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_location",
+      "sha256": "37cfba8e5fb522cd06cf8f9096d3b1ec961ac4b47db404552b9203ba8177a851",
+      "first_line": 43,
+      "last_line": 51,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "weighted_sample",
+      "sha256": "a33eecb2e55f04a92821bafdbf55c6bdd0a03857473ced7fb22d52dc08ff3ba4",
+      "first_line": 53,
+      "last_line": 56,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_moments",
+      "sha256": "693e67bc649b40db31d82746feb767148ce493ca5c144d17620483baf1dcf2a7",
+      "first_line": 58,
+      "last_line": 64,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_mask",
+      "sha256": "eede6226d4681432ed935c7693506bf64e9c153dd0330132497d374189fecd16",
+      "first_line": 66,
+      "last_line": 72,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "reaction_term",
+      "sha256": "d7fb27a40e8368a1d586b2979c7bbcd4d2f2ab9aa6ab9f1eff0be0af48ebb39d",
+      "first_line": 74,
+      "last_line": 75,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "rd_step",
+      "sha256": "afd8d6a9e70a432da708fe16b4c237c1154b37502dc8d544fbc2a92e27748120",
+      "first_line": 77,
+      "last_line": 83,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_step",
+      "sha256": "8c3d79d08363cb2f697ea6891680a409706efba636cda276c0b630ff6c38cc6b",
+      "first_line": 85,
+      "last_line": 89,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "run_rd_front_case",
+      "sha256": "ae993cd008b92d9a97dbe22bbc0537690bcd848c9be8e2bef0fd4ab2ad708734",
+      "first_line": 91,
+      "last_line": 159,
+      "nested_definitions": [
+        "record",
+        "read_branch",
+        "rec"
+      ]
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 5,
+      "name": "simple_linear_fit",
+      "sha256": "667727f7179aa0c4441d2177956316652b325a2bb3779f557cdfd8f7bb689112",
+      "first_line": 4,
+      "last_line": 9,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 5,
+      "name": "zscore",
+      "sha256": "9d5ad84681d2a29519bf56ab70c9e2c8634994ec50a2fd19fe8f6beaaf9f0f68",
+      "first_line": 11,
+      "last_line": 12,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage0",
+      "notebook": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "cell_index_zero_based": 5,
+      "name": "multi_linear_fit",
+      "sha256": "8d22b5130ac7717e7234703f2b4e7d3e5af5872c1bdb47ed8cb088f2118ddd3e",
+      "first_line": 14,
+      "last_line": 23,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "make_grid",
+      "sha256": "9b54ab17dd6eb065ef8eab67d71111f855ef1237024084929a73375680b9b3ca",
+      "first_line": 56,
+      "last_line": 61,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "sigmoid_front",
+      "sha256": "5ad22ef98ad1cec4dd133e8f69f466f9e5ff9dead0dde74b7d34b1df0bd2cf8e",
+      "first_line": 64,
+      "last_line": 65,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "gaussian",
+      "sha256": "abfcd501825d204824c2563f8d2d022f8ddf3f81e9c50e74c5a1a1c40d9f613a",
+      "first_line": 68,
+      "last_line": 73,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "lap_neumann",
+      "sha256": "7e958a47b04cdb487c6e3fc7282f03de65ae965d646f01385a21b4cf9ae995f8",
+      "first_line": 76,
+      "last_line": 81,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "grad_centered",
+      "sha256": "59b9c72e26c618ab0feb43157e0a5913632595d00d4de9513bcbaa214796bf0d",
+      "first_line": 84,
+      "last_line": 89,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_location",
+      "sha256": "61a21a0b1629da678a4103f3edf42bc57bcaf4020514e90e9548078079d27a59",
+      "first_line": 92,
+      "last_line": 104,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "weighted_sample",
+      "sha256": "29007ba8ce97f06aa7fd5ec2f53b3b1cd850752813880426443dc19c3d049971",
+      "first_line": 107,
+      "last_line": 113,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "weighted_sample_with_profile",
+      "sha256": "875aa71088a553b098a8d148008486741edd48dc2b5f2d1c30db683fd2b6245a",
+      "first_line": 116,
+      "last_line": 121,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_moments",
+      "sha256": "4b56e007f22f0d2765a9347d73ccb9181a92a42505645678471d6d9e248cbc5b",
+      "first_line": 124,
+      "last_line": 144,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_mask",
+      "sha256": "86ea068c0fc5ad9c3fe764b7b625040e4d71132da00bb987e5ed99bc0f5894b7",
+      "first_line": 147,
+      "last_line": 155,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "reaction_term",
+      "sha256": "c9c32081f0316609e7bc82eb62db25ed3a2c3fd932a6cc066bf264be115458c6",
+      "first_line": 158,
+      "last_line": 159,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "active_gate",
+      "sha256": "c3c326c14f7b0f8b2148e514fc298c6c770f74d5c4a0a55cd56d38ac34e30b74",
+      "first_line": 162,
+      "last_line": 163,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "rd_step",
+      "sha256": "021d39f0b6b5188e7b873b9cc2451b52484b7c15ed6ddd7b4d4d2cad1c580cc2",
+      "first_line": 166,
+      "last_line": 197,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_step",
+      "sha256": "0a934c532ab25a9a4f1be718f611ffe6973d7488b616284dab9db668f22b43d7",
+      "first_line": 200,
+      "last_line": 226,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "compute_read_observables",
+      "sha256": "2dd7cc7aebebbf82d42dc6b71374699224b9cd72970e12d244e0a29d33295b0a",
+      "first_line": 6,
+      "last_line": 31,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "run_b18_1_case",
+      "sha256": "3cbf3d3dfd9d75c60390253c28e176419abea850ed71350da61add5f49917fdd",
+      "first_line": 34,
+      "last_line": 282,
+      "nested_definitions": [
+        "record_write",
+        "read_branch"
+      ]
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "simple_linear_fit",
+      "sha256": "242d01925df929fb64536ca2c32b906a6a594e97aef956c1829229c62c2f29a6",
+      "first_line": 6,
+      "last_line": 36,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "zscore",
+      "sha256": "754950ebc68d37079708e106ea275d9f054896fa1f5a9c43c9e8b862028736b8",
+      "first_line": 39,
+      "last_line": 44,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage1",
+      "notebook": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "multi_linear_fit",
+      "sha256": "53ba01a2106d8b8c84cc1ac36c813eb9dd7c7fd55002faea185783f570ab7100",
+      "first_line": 47,
+      "last_line": 79,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "make_grid",
+      "sha256": "9b54ab17dd6eb065ef8eab67d71111f855ef1237024084929a73375680b9b3ca",
+      "first_line": 56,
+      "last_line": 61,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "sigmoid_front",
+      "sha256": "5ad22ef98ad1cec4dd133e8f69f466f9e5ff9dead0dde74b7d34b1df0bd2cf8e",
+      "first_line": 64,
+      "last_line": 65,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "gaussian",
+      "sha256": "abfcd501825d204824c2563f8d2d022f8ddf3f81e9c50e74c5a1a1c40d9f613a",
+      "first_line": 68,
+      "last_line": 73,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "lap_neumann",
+      "sha256": "7e958a47b04cdb487c6e3fc7282f03de65ae965d646f01385a21b4cf9ae995f8",
+      "first_line": 76,
+      "last_line": 81,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "grad_centered",
+      "sha256": "59b9c72e26c618ab0feb43157e0a5913632595d00d4de9513bcbaa214796bf0d",
+      "first_line": 84,
+      "last_line": 89,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_location",
+      "sha256": "61a21a0b1629da678a4103f3edf42bc57bcaf4020514e90e9548078079d27a59",
+      "first_line": 92,
+      "last_line": 104,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "reaction_term",
+      "sha256": "d610bc4805a4b32dd180406d3066e5045098522a63bf83f217452f24980de077",
+      "first_line": 107,
+      "last_line": 109,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "active_gate_u",
+      "sha256": "7c35de9ac02eaa558239cc6d12c0d65628fda722c198dc8bfebc6612498fd98a",
+      "first_line": 112,
+      "last_line": 113,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "active_gate_threshold",
+      "sha256": "8b8b07a3895d1fdaf5cfa7bb01a20b49cabd83e594bb2fde9963c00b9e7eea39",
+      "first_line": 116,
+      "last_line": 118,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "weighted_average",
+      "sha256": "f7dc49919bd7a924dfeb7995d0bc462f7e28fd323da99c6dcda47f5af641eb13",
+      "first_line": 121,
+      "last_line": 126,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "raw_integral",
+      "sha256": "0fa4ff7fc2e532c7df31428c8f39669c10c1386216d210a8662bb84eedd41a56",
+      "first_line": 129,
+      "last_line": 131,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_moments",
+      "sha256": "4b56e007f22f0d2765a9347d73ccb9181a92a42505645678471d6d9e248cbc5b",
+      "first_line": 134,
+      "last_line": 154,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_write_mask",
+      "sha256": "5786121075a84b4d9223dfd44cb9ce20799efc05c601de92f7948bebc59ca359",
+      "first_line": 157,
+      "last_line": 165,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "rd_step",
+      "sha256": "7745c7f33e583d7566186aea3e50cd73f65a3f92c5113c40fc4bedcc485b3d5c",
+      "first_line": 168,
+      "last_line": 199,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_step",
+      "sha256": "950cf0f8f35e583dc8bde0d3b35e2c877d6aff08109228be17b9aef0e64b0829",
+      "first_line": 202,
+      "last_line": 228,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "read_observables",
+      "sha256": "160645c70ed8e64515a52197336c659430e9b90d116305f9e8e22cdaca65df4a",
+      "first_line": 6,
+      "last_line": 59,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "run_b18_2_case",
+      "sha256": "68a523dd04dbdbf806fcfccf74d82f224ac0170960b81566e3f2e0a54de60b65",
+      "first_line": 76,
+      "last_line": 292,
+      "nested_definitions": [
+        "record_write",
+        "read_branch"
+      ]
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "simple_linear_fit",
+      "sha256": "242d01925df929fb64536ca2c32b906a6a594e97aef956c1829229c62c2f29a6",
+      "first_line": 6,
+      "last_line": 36,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "zscore",
+      "sha256": "754950ebc68d37079708e106ea275d9f054896fa1f5a9c43c9e8b862028736b8",
+      "first_line": 39,
+      "last_line": 44,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage2",
+      "notebook": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "multi_linear_fit",
+      "sha256": "53ba01a2106d8b8c84cc1ac36c813eb9dd7c7fd55002faea185783f570ab7100",
+      "first_line": 47,
+      "last_line": 79,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "make_grid",
+      "sha256": "9b54ab17dd6eb065ef8eab67d71111f855ef1237024084929a73375680b9b3ca",
+      "first_line": 58,
+      "last_line": 63,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "sigmoid_front",
+      "sha256": "5ad22ef98ad1cec4dd133e8f69f466f9e5ff9dead0dde74b7d34b1df0bd2cf8e",
+      "first_line": 66,
+      "last_line": 67,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "gaussian",
+      "sha256": "abfcd501825d204824c2563f8d2d022f8ddf3f81e9c50e74c5a1a1c40d9f613a",
+      "first_line": 70,
+      "last_line": 75,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "lap_neumann",
+      "sha256": "7e958a47b04cdb487c6e3fc7282f03de65ae965d646f01385a21b4cf9ae995f8",
+      "first_line": 78,
+      "last_line": 83,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "grad_centered",
+      "sha256": "59b9c72e26c618ab0feb43157e0a5913632595d00d4de9513bcbaa214796bf0d",
+      "first_line": 86,
+      "last_line": 91,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_location",
+      "sha256": "61a21a0b1629da678a4103f3edf42bc57bcaf4020514e90e9548078079d27a59",
+      "first_line": 94,
+      "last_line": 106,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "reaction_term",
+      "sha256": "2822c929383d7a20e0ca800e35f57d5e8a6e1a2b390215ac224e69fd928942fe",
+      "first_line": 109,
+      "last_line": 111,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "active_gate",
+      "sha256": "c3c326c14f7b0f8b2148e514fc298c6c770f74d5c4a0a55cd56d38ac34e30b74",
+      "first_line": 114,
+      "last_line": 115,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "threshold_gate",
+      "sha256": "d66bde5603b476e1491d50c55cc2dd8a267e726027ba275d9fe48addeea12b87",
+      "first_line": 118,
+      "last_line": 120,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "weighted_average",
+      "sha256": "f7dc49919bd7a924dfeb7995d0bc462f7e28fd323da99c6dcda47f5af641eb13",
+      "first_line": 123,
+      "last_line": 128,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "raw_integral",
+      "sha256": "0fa4ff7fc2e532c7df31428c8f39669c10c1386216d210a8662bb84eedd41a56",
+      "first_line": 131,
+      "last_line": 133,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_moments",
+      "sha256": "4b56e007f22f0d2765a9347d73ccb9181a92a42505645678471d6d9e248cbc5b",
+      "first_line": 136,
+      "last_line": 156,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "front_write_mask",
+      "sha256": "ebad8ee5fb7b95d98fc69e6b0756632ef0e0305d63525a7496ff784ecaaa5f02",
+      "first_line": 159,
+      "last_line": 167,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "rd_step",
+      "sha256": "621538aa5cb85e83ea54bc2fa6934188d8943051c5265222995fa52afee309b4",
+      "first_line": 170,
+      "last_line": 201,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 3,
+      "name": "trace_step",
+      "sha256": "950cf0f8f35e583dc8bde0d3b35e2c877d6aff08109228be17b9aef0e64b0829",
+      "first_line": 204,
+      "last_line": 230,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "read_observables_all_gates",
+      "sha256": "8bf2d77bd5daf9b7728e9d707e4469b055b1e53382ebdb08e608a4225c7445d2",
+      "first_line": 6,
+      "last_line": 56,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "operator_keys",
+      "sha256": "455308bfd8aa5a26c35079f5fd273c21b867c5adec461e1ab892e00a22cf25ab",
+      "first_line": 59,
+      "last_line": 80,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 4,
+      "name": "run_b18_3_case",
+      "sha256": "0ef0306373c1ead002720d5d80897dd6d5021135c4a523a915d379284a0e4c89",
+      "first_line": 86,
+      "last_line": 300,
+      "nested_definitions": [
+        "record_write",
+        "read_branch"
+      ]
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "simple_linear_fit",
+      "sha256": "242d01925df929fb64536ca2c32b906a6a594e97aef956c1829229c62c2f29a6",
+      "first_line": 6,
+      "last_line": 36,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "zscore",
+      "sha256": "754950ebc68d37079708e106ea275d9f054896fa1f5a9c43c9e8b862028736b8",
+      "first_line": 39,
+      "last_line": 44,
+      "nested_definitions": []
+    },
+    {
+      "namespace": "stage3",
+      "notebook": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "cell_index_zero_based": 6,
+      "name": "multi_linear_fit",
+      "sha256": "53ba01a2106d8b8c84cc1ac36c813eb9dd7c7fd55002faea185783f570ab7100",
+      "first_line": 47,
+      "last_line": 79,
+      "nested_definitions": []
+    }
+  ],
+  "notebooks": [
+    {
+      "stage": 0,
+      "name": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "bytes": 1896526,
+      "sha256": "400f3763e43f67720fd0afe03cef7660079d15cc108dcd26939ea51b72575b88",
+      "code_cells": 9
+    },
+    {
+      "stage": 1,
+      "name": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "bytes": 1353956,
+      "sha256": "4078b0d424b70f2e352e50712a176f3695af785b869b7c3fd3f8b76e861bf3da",
+      "code_cells": 8
+    },
+    {
+      "stage": 2,
+      "name": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "bytes": 2171325,
+      "sha256": "143c076fc7b1e9b33979e301f710b4a73b212edd61e8108ea82bfbd5c63081f2",
+      "code_cells": 8
+    },
+    {
+      "stage": 3,
+      "name": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "bytes": 293832,
+      "sha256": "26ce77460a767b9d25115ea1251f8c3fea4412a729f955678e4b36c6dade7933",
+      "code_cells": 9
+    },
+    {
+      "stage": 4,
+      "name": "BIG_B18_4_unified_readout_operator_synthesis_colab_v1.ipynb",
+      "bytes": 265312,
+      "sha256": "c30b2e760f5abc8b48be25c638e18dec39340976f1d466fe8bb2f2b914e3cb58",
+      "code_cells": 7
+    }
+  ]
+}

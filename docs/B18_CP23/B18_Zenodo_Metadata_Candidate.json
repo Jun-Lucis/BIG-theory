@@ -1,0 +1,15 @@
+{
+  "title": "BIG-B18: Boundary Readout Operators in Boundary Information Geometry",
+  "version": "0.2",
+  "description": "BIG-B18 studies a reduced one-dimensional bistable front with an inhibitory retained trace. Version 0.2 clarifies the implemented spatially distributed inhibition, the diagnostic nature and response-time information of path exposure, branch-dependent moving forcing, discretization and update conventions, differing global-mass comparators, reused stage cases, in-sample gate selection and overlapping slice refits. The original three scientific tables and seven source-PDF figure images are preserved. Five original notebooks and 124 original result files are recovered; saved-output analysis passed 604 numerical check groups / 314,972 values and 44 categorical checks. These checks provide a basis for reproduction; an independent full PDE rerun audit has not been completed. The historical Japanese v0.1 PDF is unmodified. This is a reduced exploratory numerical study, not a calibrated chemical, material, biological, neural or consciousness model. Repository: https://github.com/Jun-Lucis/BIG-theory",
+  "related_identifier_to_add_if_missing": {
+    "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+    "scheme": "url",
+    "relation_type": "references",
+    "resource_type": "other"
+  },
+  "preserve_existing_related_identifiers": true,
+  "do_not_assign_source_doi_to_revision": true,
+  "historical_source_doi": "10.5281/zenodo.22690970",
+  "metadata_persistence_confirmed": false
+}

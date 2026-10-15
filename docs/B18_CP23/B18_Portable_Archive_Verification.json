@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "definition_load": "PASS",
+  "saved_analysis_receipt_byte_identical": true,
+  "executed_from_fresh_archive_extraction": true,
+  "new_PDE_trajectories": 0,
+  "archive_sha256": "41d7af45aba91078d80023e24e7be270989bf4197115500c732cd98f41aa74d5"
+}

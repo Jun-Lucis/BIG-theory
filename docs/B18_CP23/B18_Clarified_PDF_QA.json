@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "bytes": 1072104,
+  "sha256": "97151e5d671680fd82ee1b89d230536fab003ec65182bc43ee8e07b714b57cf2",
+  "source_pdf_sha256": "aa0802b9135c259c3f3c4994d37e120b8099441446f3fbede93969690fe719e8",
+  "original_scientific_tables": [
+    {
+      "table": 1,
+      "unchanged_decimal_entries": 21,
+      "passed": true
+    },
+    {
+      "table": 2,
+      "unchanged_decimal_entries": 4,
+      "passed": true
+    },
+    {
+      "table": 3,
+      "unchanged_decimal_entries": 12,
+      "passed": true
+    }
+  ],
+  "all_7_original_figure_rgb_rasters_exact": true,
+  "out_of_page_words": [],
+  "latex_warnings": [],
+  "editable_source": "Reconstructed from supplied PDF; original Zenodo ZIP not yet available.",
+  "visual_review": "PASS: all 13 pages reviewed in rendered contact sheets; cover, operator table/figure page and representative-values page reviewed at full resolution."
+}

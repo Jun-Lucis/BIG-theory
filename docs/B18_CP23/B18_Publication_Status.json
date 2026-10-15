@@ -1,0 +1,26 @@
+{
+  "status": "PREPUBLICATION_AUDIT_PREPARED",
+  "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
+  "historical_source_record": "https://zenodo.org/records/22690970",
+  "prepared_version": "0.2",
+  "is_published": false,
+  "draft_created": false,
+  "new_doi_reserved": false,
+  "old_public_zip_comparison": "PENDING",
+  "current_public_metadata_readback": "PENDING",
+  "github_metadata_addition": "PREPARED_NOT_APPLIED",
+  "repository_url": "https://github.com/Jun-Lucis/BIG-theory",
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "manuscript_pdf": {
+    "name": "BIG_B18_EN_complete_v0_2.pdf",
+    "pages": 13,
+    "bytes": 1072104,
+    "sha256": "97151e5d671680fd82ee1b89d230536fab003ec65182bc43ee8e07b714b57cf2"
+  },
+  "archive_policy": "Prepublication snapshot of available materials; do not present as a verified Zenodo publication. Compare the old public ZIP before freezing the publication ZIP.",
+  "next_actions": [
+    "Retrieve old public ZIP/JSON and compare with original notebooks/results/PDF.",
+    "Create v0.2 in the same version family, preserve old related identifiers and add GitHub URL if absent.",
+    "Publish one complete ZIP, then redownload and verify bytes/CRC/internal hashes."
+  ]
+}

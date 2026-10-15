@@ -1,0 +1,506 @@
+{
+  "status": "PASS",
+  "paper": "B18",
+  "checkpoint": "CP23",
+  "check_groups": 604,
+  "compared_values": 314972,
+  "categorical_checks": 44,
+  "csv_files": 19,
+  "csv_rows": 6415,
+  "original_result_files": 124,
+  "original_notebooks": 5,
+  "computational_definitions": 76,
+  "unique_function_names": 31,
+  "new_PDE_trajectories": 0,
+  "new_stochastic_trajectories": 0,
+  "formal_scientific_verdict_changes": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "scope": "Original analysis cells applied to saved CSVs, unchanged computational bodies, saved endpoint/coordinate identities, controls and duplicate stage cases. No PDE integration, no held-out validation.",
+  "analysis_cells": {
+    "0": [
+      5
+    ],
+    "1": [
+      6
+    ],
+    "2": [
+      6
+    ],
+    "3": [
+      6,
+      7
+    ],
+    "4": [
+      5,
+      6
+    ]
+  },
+  "common_stage_comparisons": [
+    {
+      "stages": [
+        0,
+        1
+      ],
+      "cases": 432,
+      "numeric_columns": 25,
+      "meaning": "Same deterministic model/cases with added diagnostics; not independent validation."
+    },
+    {
+      "stages": [
+        2,
+        3
+      ],
+      "cases": 1296,
+      "numeric_columns": 56,
+      "meaning": "Same deterministic model/cases with added diagnostics; not independent validation."
+    }
+  ],
+  "design_matrix_ranks": [
+    {
+      "stage": 0,
+      "model": "local_load_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 0,
+      "model": "local_trace_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 0,
+      "model": "global_trace_mass_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 0,
+      "model": "global_trace_peak_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 0,
+      "model": "geometry_only",
+      "rows": 324,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 0,
+      "model": "protocol_numbers_only",
+      "rows": 324,
+      "columns_including_intercept": 6,
+      "rank": 6
+    },
+    {
+      "stage": 0,
+      "model": "local_load_plus_read_width",
+      "rows": 324,
+      "columns_including_intercept": 3,
+      "rank": 3
+    },
+    {
+      "stage": 0,
+      "model": "local_load_plus_geometry",
+      "rows": 324,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 0,
+      "model": "local_load_plus_protocol_type",
+      "rows": 324,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 0,
+      "model": "full_reduced",
+      "rows": 324,
+      "columns_including_intercept": 14,
+      "rank": 12
+    },
+    {
+      "stage": 1,
+      "model": "path_local_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "path_active_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "path_raw_exposure_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "read_start_local_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "read_start_active_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "read_start_raw_exposure_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "global_trace_mass_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "global_trace_peak_only",
+      "rows": 324,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 1,
+      "model": "geometry_only",
+      "rows": 324,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 1,
+      "model": "protocol_numbers_only",
+      "rows": 324,
+      "columns_including_intercept": 6,
+      "rank": 6
+    },
+    {
+      "stage": 1,
+      "model": "path_local_plus_geometry",
+      "rows": 324,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 1,
+      "model": "path_active_plus_geometry",
+      "rows": 324,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 1,
+      "model": "path_raw_plus_geometry",
+      "rows": 324,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 1,
+      "model": "path_local_plus_protocol_type",
+      "rows": 324,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 1,
+      "model": "full_reduced",
+      "rows": 324,
+      "columns_including_intercept": 18,
+      "rank": 16
+    },
+    {
+      "stage": 2,
+      "model": "read_start_local_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "read_start_active_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "read_start_gradient_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "read_start_active_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "read_start_active_gradient_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_local_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_active_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_gradient_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_threshold_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_active_gradient_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_local_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_active_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_gradient_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_threshold_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "path_active_gradient_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "global_mass_only",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "global_peak_only",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "geometry_only",
+      "rows": 972,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 2,
+      "model": "protocol_numbers_only",
+      "rows": 972,
+      "columns_including_intercept": 7,
+      "rank": 7
+    },
+    {
+      "stage": 2,
+      "model": "best_active_raw_plus_geometry",
+      "rows": 972,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 2,
+      "model": "best_active_gradient_raw_plus_geometry",
+      "rows": 972,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 2,
+      "model": "best_active_raw_plus_protocol",
+      "rows": 972,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 2,
+      "model": "operator_stack",
+      "rows": 972,
+      "columns_including_intercept": 5,
+      "rank": 5
+    },
+    {
+      "stage": 2,
+      "model": "full_reduced",
+      "rows": 972,
+      "columns_including_intercept": 22,
+      "rank": 20
+    },
+    {
+      "stage": 3,
+      "model": "read_start_local_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "read_start_active_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "path_local_norm",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "path_active_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "path_gradient_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "path_active_gradient_raw",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "global_mass_only",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "global_peak_only",
+      "rows": 972,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "all_threshold_path_raw_sigmas",
+      "rows": 972,
+      "columns_including_intercept": 8,
+      "rank": 8
+    },
+    {
+      "stage": 3,
+      "model": "all_threshold_path_norm_sigmas",
+      "rows": 972,
+      "columns_including_intercept": 8,
+      "rank": 8
+    },
+    {
+      "stage": 3,
+      "model": "all_threshold_gradient_raw_sigmas",
+      "rows": 972,
+      "columns_including_intercept": 8,
+      "rank": 8
+    },
+    {
+      "stage": 3,
+      "model": "best_threshold_family_plus_geometry",
+      "rows": 972,
+      "columns_including_intercept": 11,
+      "rank": 10
+    },
+    {
+      "stage": 3,
+      "model": "protocol_numbers_only",
+      "rows": 972,
+      "columns_including_intercept": 7,
+      "rank": 7
+    },
+    {
+      "stage": 3,
+      "model": "full_reduced",
+      "rows": 972,
+      "columns_including_intercept": 27,
+      "rank": 25
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

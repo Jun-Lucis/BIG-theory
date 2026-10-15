@@ -1,6 +1,6 @@
 {
   "status": "PREPARED_PUBLICATION_BLOCKED",
-  "checked_at_utc": "2026-10-15T22:11:17.288040+00:00",
+  "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
   "current_published_record": "https://zenodo.org/records/22677581",
   "draft_url": "https://zenodo.org/uploads/23405881",
   "draft_id": "23405881",
@@ -19,7 +19,7 @@
     "crc": "PASS",
     "status": "FROZEN"
   },
-  "blocker": "Zenodo identifier reservation and draft save errors; reloading returned 502 Bad Gateway / connection closed. Browser screenshot capture then timed out. No bot-detection, authorization rejection or sign-in wall was observed.",
+  "blocker": "On explicit resumption the existing draft form appeared after a long delay, but DOI reservation again returned Identifier reservation failed. The draft still shows zero uploaded files. No new metadata edits or upload attempts were made; publication remains pending.",
   "metadata_prepared": {
     "github_related_identifier": "https://github.com/Jun-Lucis/BIG-theory",
     "relation_type": "references",
@@ -32,5 +32,30 @@
     ]
   },
   "independent_full_rerun_audit": "NOT_YET_COMPLETED",
-  "next_action": "Resume the same draft after service recovery; save metadata, upload exactly the frozen complete ZIP, publish, then re-download and verify. Do not rebuild the frozen ZIP."
+  "next_action": "Resume the same draft after service recovery; save metadata, upload exactly the frozen complete ZIP, publish, then re-download and verify. Do not rebuild the frozen ZIP.",
+  "resume_verification": {
+    "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
+    "status": "ARCHIVE_PASS_PUBLICATION_STILL_BLOCKED",
+    "draft_url": "https://zenodo.org/uploads/23405881",
+    "same_draft": true,
+    "new_versions_created": 0,
+    "uploaded_files_confirmed": 0,
+    "doi_reservation_message": "Identifier reservation failed. Please try again. If the problem persists, contact user support.",
+    "new_metadata_edits": false,
+    "new_upload_attempts": 0,
+    "is_published": false,
+    "frozen_archive_bytes": 44908460,
+    "frozen_archive_sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+    "crc": "PASS",
+    "internal_sha256_checks": 193,
+    "internal_sha256_status": "PASS",
+    "observations": [
+      "Initial draft form delayed; appeared after read-only B18 work.",
+      "DOI reservation retried once after explicit user resumption; UI returned the failure message.",
+      "B18 old public page returned 502 Bad Gateway / connection closed.",
+      "Screenshot capture timed out; no new error screenshot was saved.",
+      "An initial reload was auto-review-rejected for possible unsaved-state loss; inspection found only hidden fields and no editable form, after which reload was allowed. This is not the remaining publication blocker."
+    ],
+    "next_action": "Resume same B17 draft after reservation/save operations recover; retain frozen ZIP unchanged."
+  }
 }

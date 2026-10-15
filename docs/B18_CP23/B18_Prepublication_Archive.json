@@ -1,0 +1,12 @@
+{
+  "status": "PASS_PREPUBLICATION_SNAPSHOT",
+  "file": "BIG_B18_v0_2_AUDIT_PREPUBLICATION_20261016.zip",
+  "bytes": 22036173,
+  "sha256": "41d7af45aba91078d80023e24e7be270989bf4197115500c732cd98f41aa74d5",
+  "md5": "4c71ee07761284794177f4cfe36342b2",
+  "members": 175,
+  "internal_sha256_checks": 174,
+  "crc": "PASS",
+  "publication_freeze": false,
+  "public_download_compared": false
+}
