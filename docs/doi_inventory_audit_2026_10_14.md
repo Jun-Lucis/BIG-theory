@@ -1,5 +1,7 @@
 # Numbered-series DOI inventory audit
 
+**B5 follow-up — 15 October 2026 (JST):** clarified dataset v1.1 is published at [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643), retaining original v1 DOI 20575991. Public ZIP and unchanged original CSV/PNG are verified. The original 47-record check below is historical; the new version adds one verified record. The [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) records 38 reviewed current series entries and distinguishes pending proposals from actual Zenodo edits.
+
 **Follow-up — 15 October 2026 (JST):** the B3.1 attachment mismatch identified in this audit is resolved. The seven-page corrected PDF is publicly available under the same v2 DOI and its download matches the uploaded file. See the [verification record](B3_1_file_correction_2026_10_15.md).
 
 **Checked:** 14 October 2026 (UTC). **Repository baseline:** [`aa1eecd`](https://github.com/Jun-Lucis/BIG-theory/commit/aa1eecd2fb04d7ce2a6886329c1cccf7327b1a8a).
@@ -39,7 +41,7 @@ All DOI links below were matched to live record metadata. Original-version links
 | B3.1 | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [10.5281/zenodo.20465842](https://doi.org/10.5281/zenodo.20465842) | Corrected seven-page public PDF verified after 15 October attachment repair |
 | B4.1 | [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) · [10.5281/zenodo.20541748](https://doi.org/10.5281/zenodo.20541748) | Corrected PDF byte match verified |
 | B4.3 | [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) · [10.5281/zenodo.20564435](https://doi.org/10.5281/zenodo.20564435) | Corrected PDF byte match verified |
-| B5 | [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991) | Description-only clarification; original ZIP retained |
+| B5 | [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643) · [original v1 20575991](https://doi.org/10.5281/zenodo.20575991) | Clarified dataset v1.1 public ZIP verified; original CSV/PNG unchanged |
 | B6 | Unconfirmed | Standalone publication mapping unconfirmed |
 | B7 | [10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601) | Metadata and record identity verified |
 | B8 | [10.5281/zenodo.20645317](https://doi.org/10.5281/zenodo.20645317) | Metadata and record identity verified |
@@ -81,3 +83,5 @@ All DOI links below were matched to live record metadata. Original-version links
 Related earlier archive: [BIG6.5 file-label record, 10.5281/zenodo.20309519](https://doi.org/10.5281/zenodo.20309519). Its B6 mapping remains unconfirmed.
 
 The [machine-readable audit](doi_inventory_audit_2026_10_14.json) lists record titles, API sources, concept families, filenames, sizes, and Zenodo checksums for all 47 checked records. The initial GitHub index update did not change Zenodo. The 15 October follow-up documents the separately completed B3.1 attachment repair.
+
+The 15 October B5 publication follow-up adds record 23381643 to the machine-readable inventory. The original 47/47 metadata check and its timestamp are retained; the inventory now includes 48 distinct checked records.

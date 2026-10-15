@@ -5,6 +5,7 @@ This page summarizes the current publication and record structure of **Boundary 
 For a fast technical orientation and the current evidence-level synthesis across the programme, see:
 
 - [B3.1–B5 corrections and verified publication status — 14 October 2026](publication_corrections_B3_1_B5_2026_10_14.md)
+- [Zenodo metadata maintenance through B41 — 15 October 2026](zenodo_metadata_maintenance_2026_10_15.md) — B5 published; remaining proposed changes are marked pending.
 - [Numbered-series DOI inventory, shared archives, and unresolved mappings](doi_inventory_audit_2026_10_14.md)
 - [One-page technical summary](technical_summary.md)
 - [1ページ技術サマリー](technical_summary_ja.md)
@@ -36,7 +37,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | Series | Main theme                                                | Role in BIG                                        |
 | ------ | --------------------------------------------------------- | -------------------------------------------------- |
 | B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures | Local boundary observations with source and interpretation limits |
-| B5 | Mobility-dependent effective exponents in finite-time snapshots | Description clarified under original DOI; original data retained |
+| B5 | Mobility-dependent effective exponents in finite-time snapshots | Clarified dataset v1.1 published; original CSV and PNG retained |
 | B6 | Methodology-history reference | Standalone B6 DOI unconfirmed; do not identify it with BIG6.5 without provenance |
 | B7     | Free-boundary exponent near runaway transition            | Local boundary regularity under global instability |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds | Geometry-controlled finite-amplitude stability     |
@@ -328,11 +329,11 @@ Original record links and verification hashes are preserved in the [correction r
 
 ### B5: Mobility-dependent effective boundary exponents
 
-**DOI:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991)
+**Current dataset v1.1:** [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643). **Original v1:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991).
 
 Nine mobility cases at `N = 220`, `gamma = 0.10` are finite-time snapshots at `t = 0.24`; all reached the 240000-step cap. The selected effective mean decreases from 2.160614 to approximately 1.80–1.82, but fit retention varies with mobility and the crossing of two depends on selection. The positive-contour finite-window fits do not establish stationary convergence, an exact support-edge exponent, a critical mobility, or universality.
 
-**Publication state:** description clarified under the same DOI; original ZIP, CSV, figure, and README unchanged. No v1.1 package published.
+**Publication state — 15 October 2026 (JST):** clarified dataset v1.1 published and its public ZIP verified byte for byte. The original CSV and PNG are unchanged. Matching parameters, clarified documentation, original README and checksums are included; original v1 remains archived. No new PDE trajectories or authenticated original solver/fitting source are supplied. See the [verification record](B5_v1_1_publication_2026_10_15.json).
 
 Repository entry: [B5 mobility scan](../papers/B5_mobility_dependent_boundary_exponents/README.md).
 

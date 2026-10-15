@@ -1,0 +1,60 @@
+{
+  "original_doi": "10.5281/zenodo.20575991",
+  "new_version_doi": "10.5281/zenodo.23381643",
+  "version": "1.1",
+  "bytes": 82915,
+  "sha256": "3d0860d1d188495f04dbfba3e5e229c617ea3393abd9505df08a3dcbe92fd2b9",
+  "md5": "40cabd832c66f8fd4f65eb8009d4f7d1",
+  "members": [
+    "data/B5_11_summary_all.csv",
+    "figures/B5_11_mean_nu_vs_m.png",
+    "parameters/B5_11_params.json",
+    "README_BIG_B5.txt",
+    "CHANGELOG_v1_1.txt",
+    "previous_versions/README_BIG_B5_v1_original.txt",
+    "FILE_CHECKSUMS_SHA256.txt"
+  ],
+  "original_csv_byte_identical": true,
+  "original_png_byte_identical": true,
+  "native_source_authenticated": false,
+  "pde_trajectories_rerun": 0,
+  "published": true,
+  "public_download_byte_identical": true,
+  "verified_at_utc": "2026-10-14T23:52:02.564644+00:00",
+  "keywords": [
+    "Boundary Information Geometry",
+    "degenerate diffusion",
+    "effective boundary exponents",
+    "level-set contours",
+    "nonlinear mobility",
+    "finite-time numerical simulation",
+    "fit selection"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23342705",
+      "relation": "references",
+      "resource_type": "publication-report",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23342902",
+      "relation": "references",
+      "resource_type": "publication-report",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23342986",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    }
+  ],
+  "resource_type": {
+    "title": "Dataset",
+    "type": "dataset"
+  },
+  "archive_filename": "BIG_B5_Clarified_Submission_Package_v1_1.zip",
+  "date_jst": "2026-10-15",
+  "api_url": "https://zenodo.org/api/records/23381643"
+}

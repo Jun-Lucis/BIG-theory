@@ -2,23 +2,33 @@
 
 **Published title:** *BIG-B5: Numerical Observation of Mobility-Dependent Free-Boundary Exponents in Degenerate Mixed-Gradient Dissipative Fields*
 
-**DOI:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991)
+**Current dataset v1.1:** [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643)
 
-### Publication status — checked 14 October 2026 (UTC)
+**Original v1:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991)
 
-The existing Zenodo description has been clarified. The original ZIP, numerical summary, and representative figure remain unchanged. This is a **description-only clarification under the same DOI**; no corrected v1.1 package or standalone revised B5 paper has been published in this record.
+### Publication status — 15 October 2026 (JST)
 
-See the [B3.1–B5 correction register](../../docs/publication_corrections_B3_1_B5_2026_10_14.md) and [DOI inventory](../../docs/doi_inventory_audit_2026_10_14.md).
+The clarified documentation package v1.1 is published as a **Dataset**. Its public ZIP was downloaded and verified byte for byte against the upload. The numerical CSV and representative PNG are byte-identical to the original v1 archive. The original June record is retained in the same concept family.
 
-### What the archive contains
+Version 1.1 adds the matching archived parameter file, a scope-corrected README, a change log, the original README for comparison, and per-file SHA-256 checksums. It is a documentation clarification of the existing finite-time results; no new PDE trajectories or authenticated original solver/fitting source are supplied.
 
-`BIG_B5_Zenodo_Submission_Package.zip` contains:
+See the [publication verification](../../docs/B5_v1_1_publication_2026_10_15.json), [B3.1–B5 correction register](../../docs/publication_corrections_B3_1_B5_2026_10_14.md), and [ordered metadata maintenance register](../../docs/zenodo_metadata_maintenance_2026_10_15.md).
+
+### What the current archive contains
+
+`BIG_B5_Clarified_Submission_Package_v1_1.zip` contains:
 
 - `data/B5_11_summary_all.csv`
 - `figures/B5_11_mean_nu_vs_m.png`
+- `parameters/B5_11_params.json`
 - `README_BIG_B5.txt`
+- `CHANGELOG_v1_1.txt`
+- `previous_versions/README_BIG_B5_v1_original.txt`
+- `FILE_CHECKSUMS_SHA256.txt`
 
-The archived README retains its original stronger wording. Consult the clarified description and the limits documented here when interpreting it. The public CSV and PNG match the corresponding original B5.11 exports byte for byte.
+The complete ZIP has 82,915 bytes and SHA-256 `3d0860d1d188495f04dbfba3e5e229c617ea3393abd9505df08a3dcbe92fd2b9`. Its public Zenodo MD5 is `40cabd832c66f8fd4f65eb8009d4f7d1`. Download verification completed at `2026-10-14T23:52:02.564644+00:00` (15 October in Japan).
+
+The original v1 ZIP contains only the CSV, PNG and original README. Its stronger wording is retained as archival history; consult the v1.1 documentation for interpretation and limitations.
 
 ### Retained numerical observation
 

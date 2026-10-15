@@ -36,7 +36,7 @@
 | --- | --- | --- | --- | --- |
 | **B3.1** | 境界層位置のfitから何が言えるか | 切片を持つ別々の一変数経験fitを保持。 | joint length scalingは導出されず、元実行は未認証。同じDOIで誤添付を修正し、7ページの修正版PDFの公開を10月15日（日本時間）に確認。 | **provenanceに限界のある経験的観測** |
 | **B4.1–B4.3** | どの有限幅二次層signatureが選択されるか | 選択されたnear-two signatureと元の数値分類を保持。修正版PDFを確認済み。 | 正のquartic fluxの証拠には場・sourceの確認範囲があり、厳密support・普遍性・動的安定性は未確立。 | **選択された有限格子上の観測** |
-| **B5** | 有効指数は移動度でどう変わるか | 9条件の有限時刻観測で選択平均が2.160614から約1.80–1.82へ低下。同じDOIの説明のみ訂正。 | 全件がstep capに到達。正のcontourに対するfitであり、2の横断区間は選択依存。元solver・fit sourceの確認は未完了。 | **定常収束未認証の有限時間観測** |
+| **B5** | 有効指数は移動度でどう変わるか | 9条件の有限時刻観測で選択平均が2.160614から約1.80–1.82へ低下。[説明資料を訂正したDataset v1.1](https://doi.org/10.5281/zenodo.23381643)を公開。元CSV・PNGは同一。 | 全件がstep capに到達。正のcontourに対するfitであり、2の横断区間は選択依存。元solver・fit sourceの確認は未完了。 | **定常収束未認証の有限時間観測** |
 | **B7–B8** | 局所境界regularityとglobal runawayは分離できるか。形状は有限時間閾値を動かすか | 局所境界構造と有限時間の大域的運命は分離し得る。検査した楕円族では異方性がsurvival/runaway閾値を動かし、報告した解像度検査でも順序は保たれた。 | 漸近separatrix、普遍的異方性則は未確立。 | **数値的に支持** |
 | **B9** | boundary costとnonlocal repulsionだけで分離型metastabilityは出るか | (E=sigma P+lambda C) の縮約エネルギーでcompact branch、有限pinch/scission barrier、separated branchが現れる。 | 定量的核分裂理論ではなく、shell、pairing、tunnelling、yield、excitation、核データ較正を含まない。 | **縮約モデル内で成立** |
 | **B10** | sustained captureはfirst contactと同じか | first hitとsustained captureは分離し、中間noiseで捕獲が現れ、高noiseで再び崩れる。 | 定量的核融合理論や外部stochastic resonance検証ではない。 | **強い数値結果** |

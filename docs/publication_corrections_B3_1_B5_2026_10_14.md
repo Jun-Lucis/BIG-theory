@@ -1,5 +1,7 @@
 # B3.1–B5 correction and publication register
 
+**B5 follow-up — 15 October 2026 (JST): clarified dataset v1.1 published.** [DOI 10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643) now serves the corrected documentation package. Its public ZIP matches the upload; the original CSV and representative PNG remain byte-identical. [Original v1 DOI 20575991](https://doi.org/10.5281/zenodo.20575991) remains archived. This supersedes the description-only state recorded in the initial audit below. See the [publication verification](B5_v1_1_publication_2026_10_15.json).
+
 **Update — 15 October 2026 (JST): B3.1 file mismatch resolved.** The existing v2 record now serves the corrected seven-page manuscript under the same DOI. Its public download was checked byte for byte. The 14 October observations below are retained as the historical audit; see the [file-correction verification](B3_1_file_correction_2026_10_15.md) for the new filename and hash.
 
 **Checked:** 14 October 2026 (UTC). Public Zenodo metadata and downloaded files were reconciled with the original and prepared correction files. This register distinguishes a corrected description from a corrected downloadable manuscript.
@@ -45,3 +47,9 @@ The intended B3.1 corrected filename is `BIG_B3_1_DOI_Linked_Preparation_EN_2026
 The B3.1 pending action recorded in the 14 October audit was completed on 15 October 2026 (JST). Zenodo's published-file correction workflow replaced the mistaken attachment in the existing v2 record, retaining DOI 10.5281/zenodo.23342986 and the separately archived original v1. A public dated note documents the repair. The publication copy updates preparation-only identity text while preserving the corrected scientific pages and figures.
 
 For the wider numbering/DOI check, see the [DOI inventory audit](doi_inventory_audit_2026_10_14.md).
+
+## B5 v1.1 publication follow-up
+
+Version 1.1 is a Dataset containing the unchanged numerical CSV/PNG, the matching archived parameter file, revised README, original README for comparison, change log and member checksums. The archive `BIG_B5_Clarified_Submission_Package_v1_1.zip` has 82,915 bytes and SHA-256 `3d0860d1d188495f04dbfba3e5e229c617ea3393abd9505df08a3dcbe92fd2b9`. The public download was verified at `2026-10-14T23:52:02.564644+00:00` (15 October in Japan). The new package does not contain authenticated original solver/fitting code and does not certify stationary convergence.
+
+The wider [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) separates this completed publication from proposed metadata edits that remain unapplied.

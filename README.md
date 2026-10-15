@@ -20,8 +20,9 @@ This conclusion comes from both positive and limiting results. Local or family-r
 
 For a fast technical orientation, start here:
 
-- **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B3.1/B4.1/B4.3 corrected PDFs verified; B3.1 attachment repaired under the same DOI on 15 October; B5 description clarified under its original DOI.
+- **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B3.1/B4.1/B4.3 corrected PDFs verified; B3.1 attachment repaired under the same DOI on 15 October; B5 clarified dataset v1.1 published under DOI 23381643, with original CSV/PNG preserved.
 - **[Numbered-series DOI inventory and remaining gaps](docs/doi_inventory_audit_2026_10_14.md)** — includes B5, corrected version links, shared archives, and unresolved B6/B37 publication mappings.
+- **[Zenodo metadata maintenance through B41 — 15 October 2026](docs/zenodo_metadata_maintenance_2026_10_15.md)** — B5 v1.1 published and verified; 38 records reviewed, with pending metadata proposals explicitly distinguished from completed Zenodo edits.
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
 - **[One-page technical summary](docs/technical_summary.md)**
@@ -304,7 +305,7 @@ Post-capture states need not collapse into total assimilation. A hidden-depth st
 | Series | Main role | Main entry |
 | --- | --- | --- |
 | B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures; provenance limits apply | [B3.1](papers/BIG-B3.1) · [B4.1](papers/BIG-B4.1) · [B4.3](papers/BIG-B4.3) |
-| B5 | Mobility-dependent effective exponents in finite-time snapshots; description-only clarification | [papers/B5_mobility_dependent_boundary_exponents](papers/B5_mobility_dependent_boundary_exponents) |
+| B5 | Mobility-dependent effective exponents in finite-time snapshots; clarified dataset v1.1 published | [papers/B5_mobility_dependent_boundary_exponents](papers/B5_mobility_dependent_boundary_exponents) |
 | B6 | Mentioned in methodology history; standalone B6 DOI not identified in this repository audit | [DOI inventory and naming limits](docs/doi_inventory_audit_2026_10_14.md) |
 | B7 | Persistence of free-boundary exponent near runaway transition | [papers/B7_boundary_exponent](papers/B7_boundary_exponent) |
 | B8 | Boundary anisotropy and finite-time separatrix thresholds | [papers/B8_finite_time_separatrix](papers/B8_finite_time_separatrix) |
@@ -727,7 +728,7 @@ Current entries include:
 | B3.1 | Corrected interpretive note; seven-page PDF verified after 15 October attachment repair | [10.5281/zenodo.23342986](https://doi.org/10.5281/zenodo.23342986) · [original](https://doi.org/10.5281/zenodo.20465842) |
 | B4.1 | Selected quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342902](https://doi.org/10.5281/zenodo.23342902) · [original](https://doi.org/10.5281/zenodo.20541748) |
 | B4.3 | Finite-width quadratic-layer signatures; corrected PDF verified | [10.5281/zenodo.23342705](https://doi.org/10.5281/zenodo.23342705) · [original](https://doi.org/10.5281/zenodo.20564435) |
-| B5 | Mobility-dependent finite-time effective exponents; description clarified, original ZIP retained | [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991) |
+| B5 | Mobility-dependent finite-time effective exponents; clarified dataset v1.1; original data preserved | [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643) · [original v1](https://doi.org/10.5281/zenodo.20575991) |
 | B6 | Standalone B6 DOI unconfirmed; BIG6.5 is a separately named earlier paper | [Unresolved mapping](docs/doi_inventory_audit_2026_10_14.md) |
 | B7 | Free-boundary exponent across runaway transition | https://doi.org/10.5281/zenodo.20603601 |
 | B8 | Boundary anisotropy and finite-time separatrix thresholds | https://doi.org/10.5281/zenodo.20645317 |

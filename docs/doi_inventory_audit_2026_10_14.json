@@ -10,7 +10,7 @@
   "series": [
     {
       "series": "B3.1",
-      "theme": "Corrected interpretive record; downloadable PDF correction pending",
+      "theme": "Corrected interpretive record; seven-page public PDF verified",
       "record_ids": [
         "23342986",
         "20465842"
@@ -37,11 +37,12 @@
     },
     {
       "series": "B5",
-      "theme": "Mobility-dependent finite-time effective exponents; description clarified, original ZIP retained",
+      "theme": "Mobility-dependent finite-time effective exponents; clarified dataset v1.1 published",
       "record_ids": [
+        "23381643",
         "20575991"
       ],
-      "status": "Description-only clarification; original ZIP retained"
+      "status": "Dataset v1.1 public ZIP verified; original CSV and PNG byte-identical; v1 retained"
     },
     {
       "series": "B6",
@@ -1367,9 +1368,23 @@
           "zenodo_checksum": "md5:ac44f3816a10d9a7916e28f1f4938e14"
         }
       ]
+    },
+    {
+      "record_id": "23381643",
+      "doi": "10.5281/zenodo.23381643",
+      "title": "BIG-B5: Numerical Observation of Mobility-Dependent Free-Boundary Exponents in Degenerate Mixed-Gradient Dissipative Fields",
+      "api_url": "https://zenodo.org/api/records/23381643",
+      "concept_record_id": "20575990",
+      "files": [
+        {
+          "name": "BIG_B5_Clarified_Submission_Package_v1_1.zip",
+          "bytes": 82915,
+          "zenodo_checksum": "md5:40cabd832c66f8fd4f65eb8009d4f7d1"
+        }
+      ]
     }
   ],
-  "updated_at_utc": "2026-10-14T23:27:38.665491+00:00",
+  "updated_at_utc": "2026-10-14T23:52:02.564644+00:00",
   "publication_followups": [
     {
       "verified_at_utc": "2026-10-14T23:27:38.665491+00:00",
@@ -1383,6 +1398,71 @@
       "correction_note_public": true,
       "change": "Repair of mistakenly attached original PDF within existing v2; DOI unchanged; public correction note added",
       "date_jst": "2026-10-15"
+    },
+    {
+      "original_doi": "10.5281/zenodo.20575991",
+      "new_version_doi": "10.5281/zenodo.23381643",
+      "version": "1.1",
+      "bytes": 82915,
+      "sha256": "3d0860d1d188495f04dbfba3e5e229c617ea3393abd9505df08a3dcbe92fd2b9",
+      "md5": "40cabd832c66f8fd4f65eb8009d4f7d1",
+      "members": [
+        "data/B5_11_summary_all.csv",
+        "figures/B5_11_mean_nu_vs_m.png",
+        "parameters/B5_11_params.json",
+        "README_BIG_B5.txt",
+        "CHANGELOG_v1_1.txt",
+        "previous_versions/README_BIG_B5_v1_original.txt",
+        "FILE_CHECKSUMS_SHA256.txt"
+      ],
+      "original_csv_byte_identical": true,
+      "original_png_byte_identical": true,
+      "native_source_authenticated": false,
+      "pde_trajectories_rerun": 0,
+      "published": true,
+      "public_download_byte_identical": true,
+      "verified_at_utc": "2026-10-14T23:52:02.564644+00:00",
+      "keywords": [
+        "Boundary Information Geometry",
+        "degenerate diffusion",
+        "effective boundary exponents",
+        "level-set contours",
+        "nonlinear mobility",
+        "finite-time numerical simulation",
+        "fit selection"
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "10.5281/zenodo.23342705",
+          "relation": "references",
+          "resource_type": "publication-report",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.5281/zenodo.23342902",
+          "relation": "references",
+          "resource_type": "publication-report",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.5281/zenodo.23342986",
+          "relation": "references",
+          "resource_type": "publication-preprint",
+          "scheme": "doi"
+        }
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "archive_filename": "BIG_B5_Clarified_Submission_Package_v1_1.zip",
+      "date_jst": "2026-10-15",
+      "api_url": "https://zenodo.org/api/records/23381643"
     }
-  ]
+  ],
+  "followup_metadata_checks": {
+    "attempted": 1,
+    "successful": 1,
+    "distinct_records_total": 48
+  }
 }
