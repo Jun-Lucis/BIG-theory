@@ -540,7 +540,7 @@
     {
       "record_id": "20872005",
       "doi": "10.5281/zenodo.20872005",
-      "title": "Title: BIG-B12: Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance",
+      "title": "BIG-B12: Unified Boundary Dynamics with Finite-Noise Resonance Locking and Post-Fusion Boundary Inheritance",
       "api_url": "https://zenodo.org/api/records/20872005",
       "concept_record_id": "20872004",
       "files": [
@@ -1384,7 +1384,7 @@
       ]
     }
   ],
-  "updated_at_utc": "2026-10-14T23:52:02.564644+00:00",
+  "updated_at_utc": "2026-10-15T01:09:40.323207+00:00",
   "publication_followups": [
     {
       "verified_at_utc": "2026-10-14T23:27:38.665491+00:00",
@@ -1464,5 +1464,14 @@
     "attempted": 1,
     "successful": 1,
     "distinct_records_total": 48
+  },
+  "metadata_maintenance_followup": {
+    "completed_at_utc": "2026-10-15T01:09:40.323207+00:00",
+    "reviewed_records": 38,
+    "metadata_updates_verified": 32,
+    "files_unchanged_verified": 32,
+    "no_change_required": 5,
+    "new_dataset_version": "10.5281/zenodo.23381643",
+    "register": "zenodo_metadata_maintenance_2026_10_15.json"
   }
 }

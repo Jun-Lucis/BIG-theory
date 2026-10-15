@@ -52,4 +52,4 @@ For the wider numbering/DOI check, see the [DOI inventory audit](doi_inventory_a
 
 Version 1.1 is a Dataset containing the unchanged numerical CSV/PNG, the matching archived parameter file, revised README, original README for comparison, change log and member checksums. The archive `BIG_B5_Clarified_Submission_Package_v1_1.zip` has 82,915 bytes and SHA-256 `3d0860d1d188495f04dbfba3e5e229c617ea3393abd9505df08a3dcbe92fd2b9`. The public download was verified at `2026-10-14T23:52:02.564644+00:00` (15 October in Japan). The new package does not contain authenticated original solver/fitting code and does not certify stationary convergence.
 
-The wider [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) separates this completed publication from proposed metadata edits that remain unapplied.
+The wider [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) records this completed publication and 32 further metadata edits that are now published and verified with unchanged scientific files.

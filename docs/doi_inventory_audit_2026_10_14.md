@@ -1,6 +1,6 @@
 # Numbered-series DOI inventory audit
 
-**B5 follow-up — 15 October 2026 (JST):** clarified dataset v1.1 is published at [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643), retaining original v1 DOI 20575991. Public ZIP and unchanged original CSV/PNG are verified. The original 47-record check below is historical; the new version adds one verified record. The [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) records 38 reviewed current series entries and distinguishes pending proposals from actual Zenodo edits.
+**B5 follow-up — 15 October 2026 (JST):** clarified dataset v1.1 is published at [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643), retaining original v1 DOI 20575991. Public ZIP and unchanged original CSV/PNG are verified. The original 47-record check below is historical; the new version adds one verified record. The [metadata register through B41](zenodo_metadata_maintenance_2026_10_15.md) records 38 reviewed current series entries, including 32 published metadata corrections with unchanged file checksums, B5 v1.1, and five records requiring no edit.
 
 **Follow-up — 15 October 2026 (JST):** the B3.1 attachment mismatch identified in this audit is resolved. The seven-page corrected PDF is publicly available under the same v2 DOI and its download matches the uploaded file. See the [verification record](B3_1_file_correction_2026_10_15.md).
 

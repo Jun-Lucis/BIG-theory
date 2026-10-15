@@ -22,7 +22,7 @@ For a fast technical orientation, start here:
 
 - **[B3.1–B5 corrections and verified publication status — 14 October 2026](docs/publication_corrections_B3_1_B5_2026_10_14.md)** — B3.1/B4.1/B4.3 corrected PDFs verified; B3.1 attachment repaired under the same DOI on 15 October; B5 clarified dataset v1.1 published under DOI 23381643, with original CSV/PNG preserved.
 - **[Numbered-series DOI inventory and remaining gaps](docs/doi_inventory_audit_2026_10_14.md)** — includes B5, corrected version links, shared archives, and unresolved B6/B37 publication mappings.
-- **[Zenodo metadata maintenance through B41 — 15 October 2026](docs/zenodo_metadata_maintenance_2026_10_15.md)** — B5 v1.1 published and verified; 38 records reviewed, with pending metadata proposals explicitly distinguished from completed Zenodo edits.
+- **[Zenodo metadata maintenance through B41 — 15 October 2026](docs/zenodo_metadata_maintenance_2026_10_15.md)** — B5 v1.1 and 32 metadata corrections published and verified; 38 records reviewed, with all existing scientific files and formal outcomes preserved.
 - **[Research methodology companion and linkage](docs/research_methodology_bridge.md)**
 - **Methodology preprint DOI:** https://doi.org/10.5281/zenodo.23171698
 - **[One-page technical summary](docs/technical_summary.md)**

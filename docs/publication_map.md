@@ -5,7 +5,7 @@ This page summarizes the current publication and record structure of **Boundary 
 For a fast technical orientation and the current evidence-level synthesis across the programme, see:
 
 - [B3.1–B5 corrections and verified publication status — 14 October 2026](publication_corrections_B3_1_B5_2026_10_14.md)
-- [Zenodo metadata maintenance through B41 — 15 October 2026](zenodo_metadata_maintenance_2026_10_15.md) — B5 published; remaining proposed changes are marked pending.
+- [Zenodo metadata maintenance through B41 — 15 October 2026](zenodo_metadata_maintenance_2026_10_15.md) — B5 v1.1 and all 32 metadata corrections published and verified; scientific files unchanged.
 - [Numbered-series DOI inventory, shared archives, and unresolved mappings](doi_inventory_audit_2026_10_14.md)
 - [One-page technical summary](technical_summary.md)
 - [1ページ技術サマリー](technical_summary_ja.md)
