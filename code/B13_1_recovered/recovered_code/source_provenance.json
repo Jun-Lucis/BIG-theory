@@ -1,0 +1,255 @@
+{
+  "source": "Untitled67.ipynb",
+  "source_bytes": 4506674,
+  "source_sha256": "b55cedfcc7a6037a5c1e27aacc65e3aa06510af2c5b629d770bb2bf65427a170",
+  "source_drive_id": "1RK3Pn1mI7C-RW6Iwq2-iswOYHT8qhhCW",
+  "computational_definitions": 31,
+  "unique_function_names": 30,
+  "selected_cells": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    16
+  ],
+  "functions": [
+    {
+      "cell_index_zero_based": 2,
+      "function": "basis_vectors",
+      "source_sha256": "a777b909928721d914b85506db749d00091dfdebe7a5e3973ad912334938a5fa",
+      "line_start": 58,
+      "line_end": 66
+    },
+    {
+      "cell_index_zero_based": 2,
+      "function": "grad_rotated_batch",
+      "source_sha256": "4078ab97cc14baedd369ebc59551f788d7ced1c86984c01be6c36a20effa5d27",
+      "line_start": 69,
+      "line_end": 86
+    },
+    {
+      "cell_index_zero_based": 2,
+      "function": "simulate_rotated_basis_trials",
+      "source_sha256": "8a67315b7492ec3e1dfcbcf9885db8e2b00ca9fb76cb9fb1c1bfcc186fda7a1c",
+      "line_start": 89,
+      "line_end": 127
+    },
+    {
+      "cell_index_zero_based": 2,
+      "function": "run_rotated_basis_experiment",
+      "source_sha256": "53a39a8be3935d8ee93b48a95347a41e63554bb1dc87c4254ad5df751c4e22d5",
+      "line_start": 130,
+      "line_end": 255
+    },
+    {
+      "cell_index_zero_based": 3,
+      "function": "run_rotated_basis_robustness",
+      "source_sha256": "9b4f097689da3f193b6b4a93916283e1e97559343e66e5712992389c3555e35a",
+      "line_start": 11,
+      "line_end": 166
+    },
+    {
+      "cell_index_zero_based": 4,
+      "function": "run_rotated_basis_curve_collapse",
+      "source_sha256": "52015c3a09d8c74f1843b8edbc9d9f9b4635f49488452cc6119d4234efe74e94",
+      "line_start": 12,
+      "line_end": 142
+    },
+    {
+      "cell_index_zero_based": 5,
+      "function": "logistic_kernel",
+      "source_sha256": "2ebbef9676e2dda8930d11fc88acf93e249398541fdf1f4de36610d06b82c915",
+      "line_start": 20,
+      "line_end": 27
+    },
+    {
+      "cell_index_zero_based": 5,
+      "function": "logistic_kernel_bias",
+      "source_sha256": "698f0f7f81efdfc00e367948837d78fea79e4b3d7325a96bc86dc6ca56d368b1",
+      "line_start": 30,
+      "line_end": 36
+    },
+    {
+      "cell_index_zero_based": 5,
+      "function": "cos2_ref",
+      "source_sha256": "f25dab40b2c7d6d2212862775be90b6084212c2a764282bed63f19ffc969f2eb",
+      "line_start": 39,
+      "line_end": 40
+    },
+    {
+      "cell_index_zero_based": 5,
+      "function": "run_empirical_kernel_fit",
+      "source_sha256": "126cfbbab89b18d20ad9f37d0a92fc4660ced87ca5032b4b2a0b989f202025c1",
+      "line_start": 43,
+      "line_end": 216
+    },
+    {
+      "cell_index_zero_based": 6,
+      "function": "logistic_kernel",
+      "source_sha256": "e3db79ba79991cc1838b160b2db412351719d6d9e1654900122fa75d078e66fc",
+      "line_start": 21,
+      "line_end": 24
+    },
+    {
+      "cell_index_zero_based": 6,
+      "function": "fit_kernel_from_points",
+      "source_sha256": "aeb752a590d447772b47630e106dd069530a5b4bbe4f58393b878a648eb236e7",
+      "line_start": 27,
+      "line_end": 96
+    },
+    {
+      "cell_index_zero_based": 6,
+      "function": "run_kernel_sharpness_scaling",
+      "source_sha256": "b04779883a285ad52c96caef855dd441c577fd1c5e9400d404b8fdb241cc87ef",
+      "line_start": 99,
+      "line_end": 301
+    },
+    {
+      "cell_index_zero_based": 7,
+      "function": "fit_power_law_kappa",
+      "source_sha256": "348536e39bb8ad3609aaa47e91129bd9094f335bc1ea25c1a71b7ea9bf30ad96",
+      "line_start": 12,
+      "line_end": 239
+    },
+    {
+      "cell_index_zero_based": 8,
+      "function": "simulate_relax_to_basis_state",
+      "source_sha256": "97ec19c73626d49b90348203ef4b68a7b733fd6f0777544fb3bf1a8ec2f5fd46",
+      "line_start": 13,
+      "line_end": 47
+    },
+    {
+      "cell_index_zero_based": 8,
+      "function": "run_sequential_observation_experiment",
+      "source_sha256": "c5cb46965a703113a9b2b2f6b7b84121e050c90078690423499a80171e353d8b",
+      "line_start": 50,
+      "line_end": 208
+    },
+    {
+      "cell_index_zero_based": 9,
+      "function": "K_logistic_delta",
+      "source_sha256": "fec40003208a71bfe48a25cab161b388809d89b16e74f10236fa8568e5ac7ac1",
+      "line_start": 14,
+      "line_end": 21
+    },
+    {
+      "cell_index_zero_based": 9,
+      "function": "run_sequential_observation_robustness",
+      "source_sha256": "abdd2534f52d5066a9e7539ac82a3a8cc243228d83fe0edcabd49359342b4ac2",
+      "line_start": 24,
+      "line_end": 299
+    },
+    {
+      "cell_index_zero_based": 12,
+      "function": "normalize_vector",
+      "source_sha256": "1705a2b98318e8f64ee7a57e63d1e3b461a9b564b47a74101d089bfc18dec423",
+      "line_start": 13,
+      "line_end": 18
+    },
+    {
+      "cell_index_zero_based": 12,
+      "function": "evolve_stage2_batch",
+      "source_sha256": "88a797cf424b1a7bc6a886e9960b10d1367aeb11b309a3ecb0cc3349e4223ba7",
+      "line_start": 21,
+      "line_end": 51
+    },
+    {
+      "cell_index_zero_based": 12,
+      "function": "run_sequential_reset_comparison",
+      "source_sha256": "5cd326456399486312cd01cd66800dcc8d8ab15dafff8eba2c34101d1b4d1c99",
+      "line_start": 54,
+      "line_end": 395
+    },
+    {
+      "cell_index_zero_based": 13,
+      "function": "make_angular_cloud",
+      "source_sha256": "85adc9d79b78aff18739cb642b6a5df33cb70785c29f9d98415570ba3e3e93d1",
+      "line_start": 13,
+      "line_end": 38
+    },
+    {
+      "cell_index_zero_based": 13,
+      "function": "run_cloud_width_controlled_sequential_response",
+      "source_sha256": "bc2fe8e545cddc90b92f8031780e211416a298697ac90a4bfcee118b694d899e",
+      "line_start": 41,
+      "line_end": 332
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "K_BIG_delta",
+      "source_sha256": "b770a26e094838af4805dac9e2ba224f74ec80544acda1ad7c9c3776882f42ac",
+      "line_start": 18,
+      "line_end": 25
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "K_cloud_convolved",
+      "source_sha256": "945b8f8f3122466afc9c3ff1ebba0cecd52f32f8e5626965de6cb4a2144248be",
+      "line_start": 28,
+      "line_end": 48
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "rmse",
+      "source_sha256": "48152c469fe0b031d935d16f4b8eef5e1acf391add23ab0d2d4698c569c9dc7c",
+      "line_start": 51,
+      "line_end": 54
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "estimate_width_from_centroid_norm",
+      "source_sha256": "11cccc44b4e68d69a1ebdc725129f5e1636cfdb2268765996c7800dd61524baa",
+      "line_start": 57,
+      "line_end": 65
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "get_b13_kernel_params",
+      "source_sha256": "ffc87500a3d0aa73000a63271b630425367b1dc3189c35c252b7b311dcb58e1f",
+      "line_start": 72,
+      "line_end": 83
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "get_target_curve",
+      "source_sha256": "37fbfff8248c68d1283b75e5fd9b82c3d1fa014c9c47b579a6d6fc16ea4e198f",
+      "line_start": 90,
+      "line_end": 151
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "fit_cloud_width_to_target",
+      "source_sha256": "735ada68611cd7a5b6b67aed053c40e2f09a00b597c30088b4d5224d1c3386c2",
+      "line_start": 158,
+      "line_end": 224
+    },
+    {
+      "cell_index_zero_based": 16,
+      "function": "run_gaussian_cloud_convolution_analysis",
+      "source_sha256": "881852b1841957f9c7596cea146fa707a23ddc3dade3765584662c97e84d681f",
+      "line_start": 231,
+      "line_end": 406
+    }
+  ],
+  "omitted_cells": {
+    "0": "earlier duplicate of cell 2",
+    "1": "Google Drive mount and I/O setup",
+    "10": "empty",
+    "11": "duplicate of cell 12",
+    "14": "pasted output, not valid Python",
+    "15": "pasted output, not valid Python"
+  },
+  "adapter_changes": [
+    "Output directory and file I/O",
+    "display adapter",
+    "explicit execution modes"
+  ],
+  "computational_function_body_changes": 0,
+  "new_stochastic_trajectories_in_audit": 0
+}

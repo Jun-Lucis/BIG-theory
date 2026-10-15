@@ -1,0 +1,90 @@
+[
+  {
+    "cell_index_zero_based": 2,
+    "definitions": "cell_02_functions.py",
+    "original_calls": [
+      "df_rot, summary_rot, result_rot = run_rotated_basis_experiment(\n    seed=123,\n    alphas=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    n_theta=25,\n    n_trials=200,\n    steps=350,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 3,
+    "definitions": "cell_03_functions.py",
+    "original_calls": [
+      "curves_rot_robust, summary_rot_robust, agg_rot_robust, robust_result_rot = run_rotated_basis_robustness(\n    seeds=(101, 202, 303, 404, 505),\n    alphas=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    n_theta=25,\n    n_trials=300,\n    steps=400,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 4,
+    "definitions": "cell_04_functions.py",
+    "original_calls": [
+      "collapse_points, collapse_binned, collapse_by_alpha, collapse_summary = run_rotated_basis_curve_collapse(\n    curves_df=curves_rot_robust\n)"
+    ],
+    "stochastic": false
+  },
+  {
+    "cell_index_zero_based": 5,
+    "definitions": "cell_05_functions.py",
+    "original_calls": [
+      "kernel_fit_df, kernel_fit_metrics, kernel_fit_summary = run_empirical_kernel_fit(\n    collapse_points_df=collapse_points,\n    collapse_binned_df=collapse_binned\n)"
+    ],
+    "stochastic": false
+  },
+  {
+    "cell_index_zero_based": 6,
+    "definitions": "cell_06_functions.py",
+    "original_calls": [
+      "B13_2_points, B13_2_binned, B13_2_summary, B13_2_result = run_kernel_sharpness_scaling(\n    seed=777,\n    b_values=(0.5, 1.0, 2.0, 4.0),\n    sigma_values=(0.20, 0.25, 0.35, 0.45, 0.60),\n    alphas=(0.0, np.pi/8, np.pi/4),\n    n_theta=19,\n    n_trials=120,\n    steps=300,\n    a=4.0,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 7,
+    "definitions": "cell_07_functions.py",
+    "original_calls": [
+      "B13_2_scaling_fit_points, B13_2_scaling_fit_metrics, B13_2_scaling_fit_summary = fit_power_law_kappa(\n    summary_df=B13_2_summary\n)"
+    ],
+    "stochastic": false
+  },
+  {
+    "cell_index_zero_based": 8,
+    "definitions": "cell_08_functions.py",
+    "original_calls": [
+      "B13_3_seq_df, B13_3_seq_summary = run_sequential_observation_experiment(\n    seed=909,\n    alpha1=0.0,\n    alpha2_values=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    initial_theta=0.0,\n    n_trials_stage1=500,\n    n_trials_stage2_per_parent=1,\n    steps1=350,\n    steps2=350,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 9,
+    "definitions": "cell_09_functions.py",
+    "original_calls": [
+      "B13_3_seq_robust_df, B13_3_seq_robust_agg, B13_3_seq_robust_by_alpha1, B13_3_seq_robust_summary = run_sequential_observation_robustness(\n    seeds=(111, 222, 333, 444, 555),\n    alpha1_values=(0.0, np.pi/12, np.pi/6),\n    delta_values=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    n_trials_stage1=400,\n    n_trials_stage2_per_parent=1,\n    steps1=350,\n    steps2=350,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 12,
+    "definitions": "cell_12_functions.py",
+    "original_calls": [
+      "B13_3b_df, B13_3b_cloud, B13_3b_agg, B13_3b_by_mode, B13_3b_by_mode_alpha1, B13_3b_summary = run_sequential_reset_comparison(\n    seeds=(111, 222, 333, 444, 555),\n    alpha1_values=(0.0, np.pi/12, np.pi/6),\n    delta_values=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    n_trials_stage1=500,\n    steps1=350,\n    steps2=350,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 13,
+    "definitions": "cell_13_functions.py",
+    "original_calls": [
+      "B13_3c_df, B13_3c_cloud_diag, B13_3c_by_width, B13_3c_by_width_delta, B13_3c_summary = run_cloud_width_controlled_sequential_response(\n    seed=1212,\n    alpha1_values=(0.0, np.pi/12, np.pi/6),\n    delta_values=(0.0, np.pi/12, np.pi/8, np.pi/6, np.pi/4),\n    width_deg_values=(0.0, 2.5, 5.0, 7.5, 10.0, 12.5, 15.0, 20.0, 25.0, 30.0),\n    n_cloud=600,\n    steps2=350,\n    a=4.0,\n    b=1.0,\n    sigma=0.35,\n    eta=0.01,\n    radial_jitter=0.0,\n)"
+    ],
+    "stochastic": true
+  },
+  {
+    "cell_index_zero_based": 16,
+    "definitions": "cell_16_functions.py",
+    "original_calls": [
+      "B13_3d_fit_all, B13_3d_curves_all, B13_3d_metrics, B13_3d_centroid_widths, B13_3d_summary = run_gaussian_cloud_convolution_analysis(\n    targets=(\"actual\", \"pointer_reset\", \"centroid_reset\", \"sequential_robust\", \"cloud_width_best_cos2\"),\n    width_grid_deg=np.linspace(0, 30, 241),\n    b=1.0,\n    sigma=0.35,\n    n_gh=100,\n)"
+    ],
+    "stochastic": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "PUBLISHED_PUBLIC_BYTES_VERIFIED",
+  "record_id": "23400328",
+  "url": "https://zenodo.org/records/23400328",
+  "doi": "10.5281/zenodo.23400328",
+  "version": "1.1",
+  "parent_record_id": "21108337",
+  "public_file_count": 1,
+  "filename": "BIG_B13_1_v1_1_COMPLETE_20261016.zip",
+  "bytes": 19146726,
+  "sha256": "7c7e6334db613400e77060762247d2b4be5a2a0e039439615c9f9492db28ead4",
+  "md5": "9f9c8475d1a4dffb747dbb204404629e",
+  "public_matches_saved_complete_zip": true,
+  "crc": "PASS",
+  "verified_internal_sha256": 155,
+  "github_url_present": true,
+  "new_stochastic_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED"
+}

@@ -1,0 +1,631 @@
+{
+  "paper": "B13.1",
+  "checkpoint": "CP18",
+  "status": "PASS",
+  "check_groups": 75,
+  "compared_values": 8852,
+  "checks": [
+    {
+      "name": "unchanged computational function definitions",
+      "passed": true,
+      "values": 31,
+      "maximum_absolute_difference": 0.0,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation energy",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 4.656612873077393e-10,
+      "atol": 3e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation gradient",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 4.3655745685100555e-11,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation radial guard",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation classifier",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 0.0,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation energy",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 3.4924596548080444e-10,
+      "atol": 3e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation gradient",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 5.820766091346741e-11,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation radial guard",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation classifier",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 0.0,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation energy",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 2.3283064365386963e-10,
+      "atol": 3e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation gradient",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 2.9103830456733704e-11,
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation radial guard",
+      "passed": true,
+      "values": 12,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "rotation classifier",
+      "passed": true,
+      "values": 6,
+      "maximum_absolute_difference": 0.0,
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    {
+      "name": "gradient versus finite difference",
+      "passed": true,
+      "values": 8,
+      "maximum_absolute_difference": 2.1310242459549045e-10,
+      "atol": 5e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "gradient versus finite difference",
+      "passed": true,
+      "values": 8,
+      "maximum_absolute_difference": 8.020997199764679e-10,
+      "atol": 5e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "gradient versus finite difference",
+      "passed": true,
+      "values": 8,
+      "maximum_absolute_difference": 5.060982743998466e-10,
+      "atol": 5e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_curves.csv:delta_deg",
+      "passed": true,
+      "values": 500,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_curves.csv:cos2_ref",
+      "passed": true,
+      "values": 500,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_curves.csv:logistic_kernel",
+      "passed": true,
+      "values": 500,
+      "maximum_absolute_difference": 3.2869740262952973e-10,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_curves.csv:logistic_kernel_bias",
+      "passed": true,
+      "values": 500,
+      "maximum_absolute_difference": 1.3594565889674115e-08,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_metrics.csv:binned_rmse",
+      "passed": true,
+      "values": 3,
+      "maximum_absolute_difference": 3.1988300897012323e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_metrics.csv:raw_rmse",
+      "passed": true,
+      "values": 3,
+      "maximum_absolute_difference": 2.8316602534994573e-11,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: A_rotated_basis_empirical_kernel_fit_metrics.csv:kappa",
+      "passed": true,
+      "values": 3,
+      "maximum_absolute_difference": 2.2066279159460578e-07,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:C",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:p",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:q",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:r",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:R2_log",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:RMSE_log",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_metrics.csv:RMSE_kappa",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 5.10702591327572e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:b",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:sigma",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:kappa",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:c",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:rmse_cos2_binned",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:rmse_kernel_binned",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:raw_rmse_cos2",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:raw_rmse_kernel",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:condition_seed",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:kappa_pred_power",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 2.1316282072803006e-14,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:log_kappa_pred_power",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:residual_log_power",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 1.4016565685892601e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:residual_power",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 1.9539925233402755e-14,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:kappa_pred_ratio",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:log_kappa_pred_ratio",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:residual_log_ratio",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 1.942890293094024e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_2_kernel_scaling_law_fit_points.csv:residual_ratio",
+      "passed": true,
+      "values": 20,
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_centroid_norm_width_estimates.csv:mean_centroid_norm",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_centroid_norm_width_estimates.csv:estimated_width_deg_from_R",
+      "passed": true,
+      "values": 2,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:delta_deg",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:delta_rad",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:P_target",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:P_std",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:K_cloud_best",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:K_BIG_w0",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:cos2_ref",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:error_best",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 3.9985376121265404e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:error_w0",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_curves_all.csv:error_cos2",
+      "passed": true,
+      "values": 25,
+      "maximum_absolute_difference": 2.0122792321330962e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:kappa",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:c",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:best_width_deg",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:best_width_rad",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:best_rmse_to_target",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 1.0061396160665481e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:rmse_K_BIG_w0_to_target",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 9.974659986866641e-17,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:rmse_cos2_to_target",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 9.71445146547012e-17,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:mean_shift_best",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 1.0018028073766061e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_metrics.csv:max_abs_error_best",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 9.8879238130678e-17,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_width_fit_all.csv:width_deg",
+      "passed": true,
+      "values": 1205,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_width_fit_all.csv:width_rad",
+      "passed": true,
+      "values": 1205,
+      "maximum_absolute_difference": 0.0,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_width_fit_all.csv:rmse_to_target",
+      "passed": true,
+      "values": 1205,
+      "maximum_absolute_difference": 2.0816681711721685e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_width_fit_all.csv:mean_shift",
+      "passed": true,
+      "values": 1205,
+      "maximum_absolute_difference": 2.0816681711721685e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "recovered analysis: B13_3d_gaussian_cloud_convolution_width_fit_all.csv:max_abs_error",
+      "passed": true,
+      "values": 1205,
+      "maximum_absolute_difference": 3.9898639947466563e-16,
+      "atol": 5e-07,
+      "rtol": 1e-08
+    },
+    {
+      "name": "identifiable effective offset: logistic_cos2delta",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 1.3300340039393288e-10,
+      "atol": 2e-08,
+      "rtol": 1e-08
+    },
+    {
+      "name": "identifiable effective offset: logistic_cos2delta_bias",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 7.144297623114249e-10,
+      "atol": 2e-08,
+      "rtol": 1e-08
+    }
+  ],
+  "function_definitions": 31,
+  "unique_function_names": 30,
+  "csv_roundtrip_bin_sensitivity": {
+    "rows": 625,
+    "changed_tie_bin_assignments_after_csv_reload": 10,
+    "cause": "Floating-point rounding near half-bin ties in np.round((theta_deg-alpha_deg)/5)*5",
+    "original_assignments_preserved": true,
+    "saved_analysis_policy": "Use archived collapse_points and collapse_binned before fitting; do not re-bin a CSV roundtrip",
+    "rebin_probe_baseline_kappa": 3.742041,
+    "original_baseline_kappa": 3.7410978332842775,
+    "physical_outcomes_or_probabilities_changed": false
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "environment_note": "Audit environment only; original full runtime lock was not recovered",
+  "new_stochastic_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED"
+}

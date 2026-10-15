@@ -1,0 +1,1070 @@
+{
+  "paper": "B13.1",
+  "checkpoint": "CP18",
+  "scope": "Stored-data arithmetic, deterministic quadrature and publication provenance; no stochastic rerun",
+  "csv_files": 35,
+  "csv_rows": 5532,
+  "json_files": 11,
+  "check_groups": 125,
+  "compared_values": 24702,
+  "passed_groups": 125,
+  "checks": [
+    {
+      "name": "A_rotated_basis_collapse_all_points: alpha units",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: theta units",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: delta units",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 2.1316282072803006e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: reference",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: error",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 3.191891195797325e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: shifted coordinate",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_all_points: shifted reference",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_collapse_by_alpha: alpha units",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_rmse_summary: alpha units",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_curves_all_seeds: alpha units",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_curves_all_seeds: theta units",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_curves_all_seeds: reference",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_curves_all_seeds: error",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 3.191891195797325e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_summary_agg: alpha units",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_robust_summary_by_seed: alpha units",
+      "passed": true,
+      "compared_values": 25,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_selection_curves: alpha units",
+      "passed": true,
+      "compared_values": 125,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_selection_curves: theta units",
+      "passed": true,
+      "compared_values": 125,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_selection_curves: reference",
+      "passed": true,
+      "compared_values": 125,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "A_rotated_basis_selection_curves: error",
+      "passed": true,
+      "compared_values": 125,
+      "maximum_absolute_difference": 2.7755575615628914e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: alpha units",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: theta units",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: delta units",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 1.4210854715202004e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: reference",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: shifted coordinate",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 1.3877787807814457e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_2_kernel_scaling_all_points: shifted reference",
+      "passed": true,
+      "compared_values": 1140,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_observation_results: delta units",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_observation_results: sequential reference",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_observation_results: count probability",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_observation_results: parent counts",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: delta units",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: sequential reference",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: count probability",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: parent counts",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: cos2 error",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 1.942890293094024e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_all_points: logistic error",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 2.0122792321330962e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: delta units",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: sequential reference",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: count probability",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: parent counts",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: cos2 error",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 2.0816681711721685e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_all_points: logistic error",
+      "passed": true,
+      "compared_values": 225,
+      "maximum_absolute_difference": 3.122502256758253e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_all_points: delta units",
+      "passed": true,
+      "compared_values": 150,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_all_points: width units",
+      "passed": true,
+      "compared_values": 150,
+      "maximum_absolute_difference": 4.440892098500626e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_all_points: sequential reference",
+      "passed": true,
+      "compared_values": 150,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_all_points: cos2 error",
+      "passed": true,
+      "compared_values": 150,
+      "maximum_absolute_difference": 1.942890293094024e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_all_points: logistic error",
+      "passed": true,
+      "compared_values": 150,
+      "maximum_absolute_difference": 2.498001805406602e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_cloud_diagnostics: width units",
+      "passed": true,
+      "compared_values": 30,
+      "maximum_absolute_difference": 4.440892098500626e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3d_gaussian_cloud_convolution_width_fit_all: width units",
+      "passed": true,
+      "compared_values": 1205,
+      "maximum_absolute_difference": 5.551115123125783e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "rotated robustness: seed summaries",
+      "passed": true,
+      "compared_values": 75,
+      "maximum_absolute_difference": 9.280770596475918e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "rotated robustness: across-seed aggregates",
+      "passed": true,
+      "compared_values": 35,
+      "maximum_absolute_difference": 1.1275702593849246e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "final-seed curves preserved",
+      "passed": true,
+      "compared_values": 125,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "final-seed metrics",
+      "passed": true,
+      "compared_values": 15,
+      "maximum_absolute_difference": 9.009720053354542e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "collapse preserves all robust probabilities",
+      "passed": true,
+      "compared_values": 625,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "collapse global metrics",
+      "passed": true,
+      "compared_values": 3,
+      "maximum_absolute_difference": 4.163336342344337e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "collapse bin aggregates",
+      "passed": true,
+      "compared_values": 168,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "collapse alpha aggregates",
+      "passed": true,
+      "compared_values": 15,
+      "maximum_absolute_difference": 9.150666335777657e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "smooth cos2 reference",
+      "passed": true,
+      "compared_values": 500,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta: stored smooth curve",
+      "passed": true,
+      "compared_values": 500,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta: raw RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 2.0816681711721685e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta: binned RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 9.71445146547012e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta_bias: stored smooth curve",
+      "passed": true,
+      "compared_values": 500,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta_bias: raw RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 2.42861286636753e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "logistic_cos2delta_bias: binned RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 9.71445146547012e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "20 scaling-condition fit metrics",
+      "passed": true,
+      "compared_values": 80,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "kappa: pivot",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "kernel_rmse: pivot",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cos2_rmse: pivot",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "power_law: fit metrics",
+      "passed": true,
+      "compared_values": 4,
+      "maximum_absolute_difference": 5.329070518200751e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "power_law: predictions",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 2.1316282072803006e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "power_law: log predictions",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "power_law: residuals",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 1.9539925233402755e-14,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "power_law: exponents",
+      "passed": true,
+      "compared_values": 2,
+      "maximum_absolute_difference": 1.3322676295501878e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "ratio_law: fit metrics",
+      "passed": true,
+      "compared_values": 4,
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "ratio_law: predictions",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "ratio_law: log predictions",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "ratio_law: residuals",
+      "passed": true,
+      "compared_values": 20,
+      "maximum_absolute_difference": 5.329070518200751e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "ratio_law: exponent",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3_sequential_robust_by_alpha1: RMSE and mean shift",
+      "passed": true,
+      "compared_values": 12,
+      "maximum_absolute_difference": 7.979727989493313e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_by_mode: RMSE and mean shift",
+      "passed": true,
+      "compared_values": 12,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_sequential_reset_comparison_by_mode_alpha1: RMSE and mean shift",
+      "passed": true,
+      "compared_values": 36,
+      "maximum_absolute_difference": 8.847089727481716e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_cloud_width_summary_by_width: RMSE and mean shift",
+      "passed": true,
+      "compared_values": 40,
+      "maximum_absolute_difference": 9.316007167081697e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential global RMSE",
+      "passed": true,
+      "compared_values": 2,
+      "maximum_absolute_difference": 4.85722573273506e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: all 241 width RMSE",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.706168622523819e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: all width mean shifts",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 3.0531133177191805e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: all width max errors",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 5.898059818321144e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: optimum width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: optimum RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 9.367506770274758e-17,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: best convolution curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: point kernel curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "actual: residual sign",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.174543961037557e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: all 241 width RMSE",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.498001805406602e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: all width mean shifts",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 3.660266534311063e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: all width max errors",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 6.106226635438361e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: optimum width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: optimum RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.1882855810441129e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: best convolution curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: point kernel curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "pointer_reset: residual sign",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.6132928326584306e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: all 241 width RMSE",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 3.0531133177191805e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: all width mean shifts",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 3.082386776376289e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: all width max errors",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 6.106226635438361e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: optimum width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: optimum RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.1449174941446927e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: best convolution curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: point kernel curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "centroid_reset: residual sign",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.9081958235744878e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: all 241 width RMSE",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.914335439641036e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: all width mean shifts",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.498001805406602e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: all width max errors",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 5.412337245047638e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: optimum width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: optimum RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.0755285551056204e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: best convolution curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: point kernel curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential_robust: residual sign",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 3.7816971776294395e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: all 241 width RMSE",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.636779683484747e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: all width mean shifts",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 2.5673907444456745e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: all width max errors",
+      "passed": true,
+      "compared_values": 241,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: optimum width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: optimum RMSE",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 6.071532165918825e-18,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: best convolution curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: point kernel curve",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "cloud_width_best_cos2: residual sign",
+      "passed": true,
+      "compared_values": 5,
+      "maximum_absolute_difference": 4.794342006730901e-16,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3b_actual_post_selected_cloud_mean_centroid_norm: equivalent angular width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "B13_3c_best_cos2_cloud_centroid_norm: equivalent angular width",
+      "passed": true,
+      "compared_values": 1,
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    },
+    {
+      "name": "sequential kernel comes from scaling grid",
+      "passed": true,
+      "compared_values": 2,
+      "maximum_absolute_difference": 0.0,
+      "atol": 2e-11,
+      "rtol": 3e-10
+    }
+  ],
+  "parameter_provenance": {
+    "baseline_kernel": {
+      "kappa": 3.7410978332842775,
+      "c": 0.0033597884949152
+    },
+    "biased_fit_effective_c": 0.0033597903643170692,
+    "bias_identifiability": "Only -kappa*c+bias is identifiable at fixed kappa",
+    "sequential_kernel": {
+      "kappa": 3.691281058767646,
+      "c": -0.0142857410266464
+    }
+  },
+  "scaling_laws": {
+    "power_law": {
+      "C": 0.531904519897609,
+      "exponents": [
+        0.5692567012824008,
+        1.6592936519947736
+      ],
+      "R2_log": 0.9339568558381127
+    },
+    "ratio_law": {
+      "C": 0.6681192017884205,
+      "exponents": [
+        0.701761241505403
+      ],
+      "R2_log": 0.9028892298551082
+    }
+  },
+  "convolution_recalculation": {
+    "actual": {
+      "width_deg": 12.0,
+      "rmse_mean_curve": 0.004764333040001
+    },
+    "pointer_reset": {
+      "width_deg": 0.0,
+      "rmse_mean_curve": 0.0067568863457264
+    },
+    "centroid_reset": {
+      "width_deg": 0.0,
+      "rmse_mean_curve": 0.011195410993911
+    },
+    "sequential_robust": {
+      "width_deg": 11.375,
+      "rmse_mean_curve": 0.0057464425358241
+    },
+    "cloud_width_best_cos2": {
+      "width_deg": 13.875,
+      "rmse_mean_curve": 0.0062987091609833
+    }
+  },
+  "new_stochastic_trajectories": 0,
+  "scientific_verdict_changes": 0,
+  "original_simulation_source_recovered": true,
+  "source_recovery_receipt": "supplement/recovered_code/source_provenance.json",
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "status": "PASS"
+}

@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B13.1 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400328](https://zenodo.org/records/23400328) is published as one complete ZIP with the clarified paper, unchanged original data/figures and recovered computational source. All 200 audit groups / 33,554 comparisons passed. Public re-download is byte-identical and all 155 internal SHA256 checksums pass. Reproduction is supported in principle; independent full stochastic rerun auditing is not yet complete. [Methods and audit](docs/B13_1_publication_audit_2026_10_16.md).
+
 **B12 archive audit, 15 October 2026:** [Version 1.1 / Zenodo 23391364](https://zenodo.org/records/23391364) provides one verified supplement ZIP. Source, parameters and data are recovered: reproduction is supported in principle, with independent rerun auditing not yet complete. [Audit and methods](docs/B12_publication_audit_2026_10_15.md).
 
 > 🇯🇵 **日本語概要 / Japanese overview**
@@ -742,7 +744,7 @@ Current entries include:
 | B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.23388916 |
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
 | B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.23392538 |
-| B13.1 | Rotated-basis observation and empirical selection kernel | https://doi.org/10.5281/zenodo.21108338 |
+| B13.1 | Rotated-basis observation and empirical selection kernel | [v1.1](https://doi.org/10.5281/zenodo.23400328); [original v1](https://doi.org/10.5281/zenodo.21108338) |
 | B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.21144373 |
 | B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.21173333 |
 | Layered framework | Layered mathematical consolidation through B15 | https://doi.org/10.5281/zenodo.22161614 |
