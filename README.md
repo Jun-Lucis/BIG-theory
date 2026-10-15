@@ -421,7 +421,7 @@ hidden-depth inheritance
 **Scope:**
 B11 treats inheritance structurally within a reduced hidden-state model. It is not a quantitative theory of biological inheritance or real energy release.
 
-**Publication audit, 15 October 2026:** Version 1.1 is public with the original two files. The audit supplement is fully uploaded and checksummed in a corrective v1.2 draft, but publication failed. [Verified status and remaining source gaps](docs/B11_publication_audit_2026_10_15.md).
+**Publication audit, 15 October 2026:** Version 1.2 is public as one complete 32.3 MB ZIP. A fresh public download matches the saved archive byte for byte; original files and results are preserved. [Verified status and remaining source gaps](docs/B11_publication_audit_2026_10_15.md).
 
 ---
 
@@ -737,7 +737,7 @@ Current entries include:
 | B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
 | B9 empirical Phase II | Metastability hierarchy and empirical structural comparison with nuclear fission | https://doi.org/10.5281/zenodo.23128738 |
 | B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.23386662 |
-| B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.23387434 |
+| B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.23388916 |
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
 | B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.21072783 |
 | B13.1 | Rotated-basis observation and empirical selection kernel | https://doi.org/10.5281/zenodo.21108338 |

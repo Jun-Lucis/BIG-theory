@@ -2,9 +2,9 @@
 
 Jun Lucis. Audit date: 15 October 2026.
 
-The original five-page v1.0 paper and all 20 original package files are preserved byte for byte. Version 1.1 identifies the prepared documentation/data supplement. No stochastic dynamics was rerun, outcome label or seed changed, or research verdict regraded.
+The original five-page v1.0 paper and all 20 original package files are preserved byte for byte. Internal Version 1.1 identifies the unchanged documentation/data supplement ZIP, delivered by Zenodo Version 1.2. No stochastic dynamics was rerun, outcome label or seed changed, or research verdict regraded.
 
-Version 1.1 is published at https://doi.org/10.5281/zenodo.23387434, with only the original PDF and original ZIP. Both public files were freshly downloaded and match the originals byte for byte. Its initial description incorrectly implied that the audit supplement was attached; the public description has been corrected to disclose the omission. The unchanged 32,259,200-byte audit supplement has now been uploaded to the Version 1.2 draft (reserved DOI 10.5281/zenodo.23388916) as 62 ordered parts of at most 512 KiB, with a checksum manifest and reassembly instructions, alongside the original two files. All 66 draft-file MD5 checksums match the saved sources. The publish request returned a Zenodo error; the browser then became unavailable during reload. Version 1.2 is not verified as published. Do not treat draft checksums as verification of a public release.
+The audit supplement is published as [Zenodo Version 1.2](https://doi.org/10.5281/zenodo.23388916), with one complete file: BIG_B11_Archive_Audit_Supplement_v1_1.zip (32,259,200 bytes). A fresh public download is byte-identical to the saved archive; CRC and all 46 internal SHA-256 entries pass. The archive contains the unchanged original five-page v1.0 PDF, all 20 original package files, the original ZIP, 14 recovered data files, methods/scope notes and the arithmetic-only verifier. No split-file assembly is needed. The internal supplement name remains v1.1; the Zenodo release is 1.2. Version 1.1 (23387434) omitted the supplement, and its public description was corrected to disclose that omission. Complete historical solver and ordered-classifier authentication remain open.
 
 ## Recovered records
 

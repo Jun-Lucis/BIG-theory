@@ -2,7 +2,7 @@
   "checkpoint": "CP15",
   "observed_date": "2026-10-15",
   "recorded_utc": "2026-10-15T08:58:53.339115+00:00",
-  "status": "SPLIT_UPLOAD_VERIFIED_PUBLICATION_ERROR_REQUIRES_RESUMPTION",
+  "status": "HISTORICAL_SPLIT_DRAFT_SNAPSHOT_SUPERSEDED_BY_SINGLE_ZIP_PUBLICATION",
   "current_verified_public_record_url": "https://zenodo.org/records/23387434",
   "current_verified_public_version": "1.1",
   "v1_1_supplement_missing": true,
@@ -32,12 +32,6 @@
   "canceled_upload_metadata_stubs_note": "Possible cause to inspect after successful reload; not established by observed UI. Do not delete any verified complete file.",
   "v1_2_publication_verified": false,
   "v1_2_public_files_redownload_verified": false,
-  "next_actions": [
-    "Resume existing draft 23388916; do not create another version or re-upload the verified 62 parts.",
-    "After loading, inspect for canceled unfinalized upload stubs from BIG_B11_Archive_Audit_Supplement_v1_1.zip, .zip.part01 and .zip.part001; their presence after reload is unverified.",
-    "Preserve all 66 completed intended files. Remove only a confirmed unfinalized canceled stub if present; verify filenames, sizes and MD5 again.",
-    "Publish the complete draft, then freshly download the public files and verify all bytes and supplement reassembly before updating current DOI links to 23388916."
-  ],
   "draft_files": [
     {
       "filename": "BIG_B11_Zenodo_Edition.pdf",
@@ -440,5 +434,16 @@
   "new_PDE_runs": 0,
   "research_verdicts_changed": 0,
   "historical_solver_and_ordered_classifier_authentication": "OPEN",
-  "global_current_open_count": "not recomputed"
+  "global_current_open_count": "not recomputed",
+  "historical_snapshot": true,
+  "superseded_by": "B11_v1_2_publication_2026_10_15.json",
+  "final_public_doi": "10.5281/zenodo.23388916",
+  "final_public_file_count": 1,
+  "scope": "Historical state at recorded_utc; subsequent late single-ZIP completion and user-requested cleanup supersede the split delivery. See the final publication verification.",
+  "historical_next_actions": [
+    "Resume existing draft 23388916; do not create another version or re-upload the verified 62 parts.",
+    "After loading, inspect for canceled unfinalized upload stubs from BIG_B11_Archive_Audit_Supplement_v1_1.zip, .zip.part01 and .zip.part001; their presence after reload is unverified.",
+    "Preserve all 66 completed intended files. Remove only a confirmed unfinalized canceled stub if present; verify filenames, sizes and MD5 again.",
+    "Publish the complete draft, then freshly download the public files and verify all bytes and supplement reassembly before updating current DOI links to 23388916."
+  ]
 }

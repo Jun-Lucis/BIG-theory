@@ -522,11 +522,11 @@ BIG-B11 is not a quantitative theory of biological inheritance, nuclear fusion, 
 B11 introduces the idea that fusion-like capture need not imply assimilation.
 
 **Record / DOI:**
-https://doi.org/10.5281/zenodo.23387434
+https://doi.org/10.5281/zenodo.23388916
 
 ---
 
-**Archived-output audit, 15 October 2026:** 201,350 endpoint rows, 1,495 summaries and 30 thresholds reproduce. Complete historical solver/classifier authentication remains open. Version 1.1 is published at https://doi.org/10.5281/zenodo.23387434, with only the original PDF and original ZIP. Both public files were freshly downloaded and match the originals byte for byte. Its initial description incorrectly implied that the audit supplement was attached; the public description has been corrected to disclose the omission. The unchanged 32,259,200-byte audit supplement has now been uploaded to the Version 1.2 draft (reserved DOI 10.5281/zenodo.23388916) as 62 ordered parts of at most 512 KiB, with a checksum manifest and reassembly instructions, alongside the original two files. All 66 draft-file MD5 checksums match the saved sources. The publish request returned a Zenodo error; the browser then became unavailable during reload. Version 1.2 is not verified as published. Do not treat draft checksums as verification of a public release. [Evidence and limits](B11_publication_audit_2026_10_15.md).
+**Archived-output audit, 15 October 2026:** 201,350 endpoint rows, 1,495 summaries and 30 thresholds reproduce. Complete historical solver/classifier authentication remains open. The audit supplement is published as [Zenodo Version 1.2](https://doi.org/10.5281/zenodo.23388916), with one complete file: BIG_B11_Archive_Audit_Supplement_v1_1.zip (32,259,200 bytes). A fresh public download is byte-identical to the saved archive; CRC and all 46 internal SHA-256 entries pass. The archive contains the unchanged original five-page v1.0 PDF, all 20 original package files, the original ZIP, 14 recovered data files, methods/scope notes and the arithmetic-only verifier. No split-file assembly is needed. The internal supplement name remains v1.1; the Zenodo release is 1.2. Version 1.1 (23387434) omitted the supplement, and its public description was corrected to disclose that omission. Complete historical solver and ordered-classifier authentication remain open. [Evidence and limits](B11_publication_audit_2026_10_15.md).
 
 ### B12: Unified boundary dynamics with cross-sector coupling
 
