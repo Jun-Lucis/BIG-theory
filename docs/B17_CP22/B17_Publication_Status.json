@@ -1,0 +1,36 @@
+{
+  "status": "PREPARED_PUBLICATION_BLOCKED",
+  "checked_at_utc": "2026-10-15T22:11:17.288040+00:00",
+  "current_published_record": "https://zenodo.org/records/22677581",
+  "draft_url": "https://zenodo.org/uploads/23405881",
+  "draft_id": "23405881",
+  "is_published": false,
+  "doi_reserved": false,
+  "uploaded_files_confirmed": 0,
+  "draft_metadata_save_confirmed": false,
+  "prepared_version": "1.1",
+  "frozen_archive": {
+    "zip": "BIG_B17_v1_1_COMPLETE_20261016.zip",
+    "bytes": 44908460,
+    "sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+    "md5": "03896f6c0414be0ba874d2e306c7fd40",
+    "members": 194,
+    "internal_sha256_checks": 193,
+    "crc": "PASS",
+    "status": "FROZEN"
+  },
+  "blocker": "Zenodo identifier reservation and draft save errors; reloading returned 502 Bad Gateway / connection closed. Browser screenshot capture then timed out. No bot-detection, authorization rejection or sign-in wall was observed.",
+  "metadata_prepared": {
+    "github_related_identifier": "https://github.com/Jun-Lucis/BIG-theory",
+    "relation_type": "references",
+    "scheme": "url",
+    "resource_type": "other",
+    "original_reference_dois": [
+      "10.5281/zenodo.21144373",
+      "10.5281/zenodo.21173333",
+      "10.5281/zenodo.22660005"
+    ]
+  },
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "next_action": "Resume the same draft after service recovery; save metadata, upload exactly the frozen complete ZIP, publish, then re-download and verify. Do not rebuild the frozen ZIP."
+}

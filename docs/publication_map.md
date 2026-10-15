@@ -1,5 +1,7 @@
 # BIG Publication Map
 
+**B17 source/implementation audit, 16 October 2026:** The 13-page v1.1 clarification and a verified complete ZIP are prepared. It distinguishes laboratory-fixed B17.1/2 reading, the prescribed/scalar B17.3 model, phase-limited artificial transport, exact PDE writing/feedback and in-sample fits. Three scientific tables and nine figure images are preserved. Five executed notebooks, 37 computational definitions and 153 original outputs are recovered; 22,429 saved numeric comparisons passed. **Basically reproducible; an independent full rerun audit has not yet been completed.** Zenodo publication is pending after reservation/save errors and a 502 response; [current archival v1.0](https://zenodo.org/records/22677581) remains the published record. [Audit and status](docs/B17_CP22_AUDIT_20261016.md).
+
 **B16 source/implementation audit, 16 October 2026:** [Draft v0.4 / Zenodo 23402231](https://zenodo.org/records/23402231
 
 Historical English draft v0.3: https://doi.org/10.5281/zenodo.22660005
@@ -673,9 +675,11 @@ https://zenodo.org/records/23402231
 
 ### B17: Stored history versus readable history
 
-**Theme:** Retention alone is not sufficient; history must remain readable from the current moving-boundary frame.
+**Theme:** Stored history and the history sampled by each specified feedback/readout protocol.
 
-B17 distinguishes global stored history from the locally sampleable history that can affect a later response. Boundary-anchored and laboratory-fixed writing provide controls for this distinction.
+B17.1/2 use a fixed laboratory read site and an onset-window increment; B17.2 reanalyzes the same rows. B17.3 prescribes boundary motion and a scalar response, with zero read-phase forgetting. B17.4 uses a finite-grid PDE and branch-specific following windows. Artificial memory transport stops before reading. The original in-sample numerical comparisons are preserved, with their rank and model scope documented.
+
+[CP22 clarification and publication status](B17_CP22_AUDIT_20261016.md) — v1.1 prepared; Zenodo publication pending after a 502 service failure. The following DOI remains the current published v1.0 record.
 
 **Zenodo record:**  
 https://zenodo.org/records/22677581

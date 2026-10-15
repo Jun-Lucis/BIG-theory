@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "csv_files": 26,
+  "csv_rows": 38454,
+  "json_files": 12,
+  "checked_groups": 7670,
+  "checked_numeric_values": 22429,
+  "new_pde_trajectories": 0,
+  "new_stochastic_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "design_matrix_ranks": [
+    {
+      "stage": 2,
+      "model": "local_load_only",
+      "rows": 54,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "local_history_only",
+      "rows": 54,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "global_history_mass_only",
+      "rows": 54,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "global_history_peak_only",
+      "rows": 54,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "geometry_only",
+      "rows": 54,
+      "columns_including_intercept": 3,
+      "rank": 2
+    },
+    {
+      "stage": 2,
+      "model": "protocol_only",
+      "rows": 54,
+      "columns_including_intercept": 5,
+      "rank": 5
+    },
+    {
+      "stage": 2,
+      "model": "local_load_plus_geometry",
+      "rows": 54,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 2,
+      "model": "full_reduced",
+      "rows": 54,
+      "columns_including_intercept": 10,
+      "rank": 9
+    },
+    {
+      "stage": 3,
+      "model": "local_load_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "local_history_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "global_history_mass_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "global_history_peak_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "lab_depth_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "last_write_depth_only",
+      "rows": 162,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 3,
+      "model": "geometry_only",
+      "rows": 162,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 3,
+      "model": "protocol_numbers_only",
+      "rows": 162,
+      "columns_including_intercept": 5,
+      "rank": 5
+    },
+    {
+      "stage": 3,
+      "model": "local_load_plus_protocol_type",
+      "rows": 162,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 3,
+      "model": "local_load_plus_geometry",
+      "rows": 162,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 3,
+      "model": "full_reduced",
+      "rows": 162,
+      "columns_including_intercept": 14,
+      "rank": 11
+    },
+    {
+      "stage": 4,
+      "model": "local_load_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "local_history_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "global_history_mass_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "global_history_peak_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "lab_depth_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "last_write_depth_only",
+      "rows": 108,
+      "columns_including_intercept": 2,
+      "rank": 2
+    },
+    {
+      "stage": 4,
+      "model": "geometry_only",
+      "rows": 108,
+      "columns_including_intercept": 4,
+      "rank": 3
+    },
+    {
+      "stage": 4,
+      "model": "protocol_numbers_only",
+      "rows": 108,
+      "columns_including_intercept": 5,
+      "rank": 5
+    },
+    {
+      "stage": 4,
+      "model": "local_load_plus_protocol_type",
+      "rows": 108,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 4,
+      "model": "local_load_plus_geometry",
+      "rows": 108,
+      "columns_including_intercept": 5,
+      "rank": 4
+    },
+    {
+      "stage": 4,
+      "model": "full_reduced",
+      "rows": 108,
+      "columns_including_intercept": 14,
+      "rank": 12
+    }
+  ],
+  "note": "Original analysis cells were applied to saved CSVs; PDE or reduced-dynamics simulation functions were not called.",
+  "full_checks_location": "Prepared complete v1.1 ZIP: audit/B17_Numerical_Source_Verification.json (Zenodo publication pending)"
+}

@@ -1,0 +1,86 @@
+{
+  "figures": [
+    {
+      "figure": "fig1_b17_1_load_law.png",
+      "size": [
+        1440,
+        936
+      ],
+      "rgb_sha256": "01e596b278ff2d8db256efb3f72d14596999bc2332228af046eab3418389f739",
+      "drive_rgb_match": "B17_1_adaptive_response_vs_read_start_load.png"
+    },
+    {
+      "figure": "fig2_b17_1_etaS_zero_control.png",
+      "size": [
+        1440,
+        936
+      ],
+      "rgb_sha256": "ce09b292b01d8be09567a4203ab44ca8a3ea91da9d58c6969640bf3eb89d5f6a",
+      "drive_rgb_match": "B17_1_etaS_zero_control.png"
+    },
+    {
+      "figure": "fig3_b17_2_moving_frame_load.png",
+      "size": [
+        1404,
+        936
+      ],
+      "rgb_sha256": "be9da993389f0fbdf6e5aecb1fb8664072e76667965ae19a6a2e26743f12d0f9",
+      "drive_rgb_match": "B17_2_response_vs_effective_local_load_all_nonzero.png"
+    },
+    {
+      "figure": "fig4_b17_2_relative_response_local_history.png",
+      "size": [
+        1530,
+        936
+      ],
+      "rgb_sha256": "43618d9aa1e6ff5dd3f3da177cc404d56e3b9a4ea31d2941f03004b662e2bcdc",
+      "drive_rgb_match": "B17_2_relative_response_and_local_history_alpha0015_etaS8.png"
+    },
+    {
+      "figure": "fig5_b17_3_protocol_response.png",
+      "size": [
+        1530,
+        936
+      ],
+      "rgb_sha256": "32fac4b0aee1dc9bbd9d41b5fb610a19d8d349cf836dbe42315066514dc2ca4c",
+      "drive_rgb_match": "B17_3_protocol_response_vs_nwrite_main.png"
+    },
+    {
+      "figure": "fig6_b17_3_protocol_local_history.png",
+      "size": [
+        1530,
+        936
+      ],
+      "rgb_sha256": "5f8f9a05284b888ae16e30798ba46bd53a2ad133f57ecd341bcba7a43fafb8c4",
+      "drive_rgb_match": "B17_3_protocol_local_history_vs_nwrite_main.png"
+    },
+    {
+      "figure": "fig7_b17_4_pde_protocol_response.png",
+      "size": [
+        1530,
+        936
+      ],
+      "rgb_sha256": "cd62ebe4f58c3ae4f57a4b11ddf41b3649be568d36626621c09790ad6dc4bc32",
+      "drive_rgb_match": "B17_4_protocol_response_vs_nwrite_main.png"
+    },
+    {
+      "figure": "fig8_b17_4_pde_load_law.png",
+      "size": [
+        1440,
+        972
+      ],
+      "rgb_sha256": "e431bf0c58473c5191b329fea8e44d721630c127023bbbf42ff74241c5e9ddf4",
+      "drive_rgb_match": "B17_4_response_vs_effective_local_load_all_protocols.png"
+    },
+    {
+      "figure": "fig9_b17_4_pde_model_comparison.png",
+      "size": [
+        1620,
+        990
+      ],
+      "rgb_sha256": "8d91a915ff896d610e8e73a114c115a07d9fcad49edbd924102414a85335ee46",
+      "drive_rgb_match": "B17_4_model_comparison_r2.png"
+    }
+  ],
+  "pixel_matching_figures": 9
+}

@@ -1,0 +1,78 @@
+{
+  "pages": 13,
+  "pdf_bytes": 959969,
+  "pdf_sha256": "06aba3e29173546cb7edba1e99457a8b88afc0a49d5553e29c3416706d60b12a",
+  "all_nine_images_rgb_preserved": true,
+  "scientific_table_bodies_preserved": 3,
+  "out_of_page_words": 0,
+  "latex_warnings": [],
+  "page_summary": [
+    {
+      "page": 1,
+      "words": 354,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "words": 493,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "words": 488,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "words": 309,
+      "images": 1
+    },
+    {
+      "page": 5,
+      "words": 269,
+      "images": 1
+    },
+    {
+      "page": 6,
+      "words": 127,
+      "images": 2
+    },
+    {
+      "page": 7,
+      "words": 391,
+      "images": 1
+    },
+    {
+      "page": 8,
+      "words": 388,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "words": 50,
+      "images": 2
+    },
+    {
+      "page": 10,
+      "words": 305,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "words": 508,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "words": 259,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "words": 135,
+      "images": 0
+    }
+  ],
+  "visual_review": "PASS",
+  "visual_review_scope": "All 13 pages reviewed in rendered contact sheets; pages 3,7,12,13 also reviewed at full resolution."
+}

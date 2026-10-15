@@ -1,0 +1,582 @@
+{
+  "status": "PASS",
+  "comparison_includes_nested_public_zip_members": true,
+  "byte_identical_files": 106,
+  "byte_identical": [
+    {
+      "file": "B17_1_adaptive_response_vs_read_start_load.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig1_b17_1_load_law.png"
+    },
+    {
+      "file": "B17_1_etaS_zero_control.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig2_b17_1_etaS_zero_control.png"
+    },
+    {
+      "file": "B17_1_write_read_diagnostics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_1_write_read_diagnostics.csv"
+    },
+    {
+      "file": "B17_1_write_read_pair_metrics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_1_write_read_pair_metrics.csv"
+    },
+    {
+      "file": "B17_2_model_comparison.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_2_model_comparison.csv"
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_diagnostics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_2_moving_frame_decomposition_diagnostics.csv"
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_metrics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_2_moving_frame_decomposition_metrics.csv"
+    },
+    {
+      "file": "B17_2_relative_response_and_local_history_alpha0015_etaS8.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig4_b17_2_relative_response_local_history.png"
+    },
+    {
+      "file": "B17_2_response_vs_effective_local_load_all_nonzero.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig3_b17_2_moving_frame_load.png"
+    },
+    {
+      "file": "B17_3_boundary_anchored_diagnostics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_boundary_anchored_diagnostics.csv"
+    },
+    {
+      "file": "B17_3_boundary_anchored_diagnostics_summary.json",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_boundary_anchored_diagnostics_summary.json"
+    },
+    {
+      "file": "B17_3_boundary_anchored_protocol_metrics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_boundary_anchored_protocol_metrics.csv"
+    },
+    {
+      "file": "B17_3_compact_etaS8_protocol_table.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_compact_etaS8_protocol_table.csv"
+    },
+    {
+      "file": "B17_3_compact_main_protocol_table.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_compact_main_protocol_table.csv"
+    },
+    {
+      "file": "B17_3_etaS_zero_control.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_etaS_zero_control.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_3_memory_profile_moving_frame_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_memory_profile_moving_frame_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_3_model_comparison.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_model_comparison.csv"
+    },
+    {
+      "file": "B17_3_model_comparison_r2.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_model_comparison_r2.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_3_phi_profile_moving_frame_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_phi_profile_moving_frame_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_3_protocol_lab_depth_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_protocol_lab_depth_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_3_protocol_last_write_depth_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_protocol_last_write_depth_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_3_protocol_local_history_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig6_b17_3_protocol_local_history.png"
+    },
+    {
+      "file": "B17_3_protocol_response_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig5_b17_3_protocol_response.png"
+    },
+    {
+      "file": "B17_3_read_branches_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_3_read_branches_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_3_read_branches_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_3_read_branches_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_3_read_branches_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_3_read_branches_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_read_branches_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_3_response_vs_effective_local_load_all_protocols.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_response_vs_effective_local_load_all_protocols.png"
+    },
+    {
+      "file": "B17_3_response_vs_global_history_mass_etaS8.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_response_vs_global_history_mass_etaS8.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_3_write_boundary_trajectory_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_boundary_trajectory_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_3_write_count_response_advected_memory.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_count_response_advected_memory.png"
+    },
+    {
+      "file": "B17_3_write_count_response_boundary_anchored_write.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_count_response_boundary_anchored_write.png"
+    },
+    {
+      "file": "B17_3_write_count_response_lab_fixed_write.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_count_response_lab_fixed_write.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_3_write_local_history_trajectory_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip!/B17_3_write_local_history_trajectory_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_4_compact_etaS8_pde_protocol_table.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_compact_etaS8_pde_protocol_table.csv"
+    },
+    {
+      "file": "B17_4_compact_main_pde_protocol_table.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_4_compact_main_pde_protocol_table.csv"
+    },
+    {
+      "file": "B17_4_etaS_zero_control.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_etaS_zero_control.png"
+    },
+    {
+      "file": "B17_4_full_pde_diagnostics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_4_full_pde_diagnostics.csv"
+    },
+    {
+      "file": "B17_4_full_pde_diagnostics_summary.json",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_full_pde_diagnostics_summary.json"
+    },
+    {
+      "file": "B17_4_full_pde_model_comparison.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/B17_4_full_pde_model_comparison.csv"
+    },
+    {
+      "file": "B17_4_full_pde_protocol_metrics.csv",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_full_pde_protocol_metrics.csv"
+    },
+    {
+      "file": "B17_4_lab_write_depth_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_lab_write_depth_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_4_last_write_depth_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_last_write_depth_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_4_memory_profile_moving_frame_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_memory_profile_moving_frame_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_4_model_comparison_r2.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig9_b17_4_pde_model_comparison.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_4_phi_profile_moving_frame_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_phi_profile_moving_frame_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_4_protocol_global_history_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_protocol_global_history_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_4_protocol_local_history_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_protocol_local_history_vs_nwrite_main.png"
+    },
+    {
+      "file": "B17_4_protocol_response_vs_nwrite_main.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig7_b17_4_pde_protocol_response.png"
+    },
+    {
+      "file": "B17_4_read_branches_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_4_read_branches_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_4_read_branches_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_4_read_branches_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_4_read_branches_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_4_read_branches_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_read_branches_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_4_response_vs_effective_local_load_all_protocols.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/figures/fig8_b17_4_pde_load_law.png"
+    },
+    {
+      "file": "B17_4_response_vs_global_history_mass_etaS8.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_response_vs_global_history_mass_etaS8.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_4_write_boundary_trajectory_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_boundary_trajectory_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "B17_4_write_count_response_advected_memory.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_count_response_advected_memory.png"
+    },
+    {
+      "file": "B17_4_write_count_response_boundary_anchored_write.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_count_response_boundary_anchored_write.png"
+    },
+    {
+      "file": "B17_4_write_count_response_lab_fixed_write.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_count_response_lab_fixed_write.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_advected_memory_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_advected_memory_n1.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_advected_memory_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_advected_memory_n5.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_boundary_anchored_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_boundary_anchored_write_n1.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_boundary_anchored_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_boundary_anchored_write_n5.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_lab_fixed_write_n1.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_lab_fixed_write_n1.png"
+    },
+    {
+      "file": "B17_4_write_history_trajectory_lab_fixed_write_n5.png",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip!/B17_4_write_history_trajectory_lab_fixed_write_n5.png"
+    },
+    {
+      "file": "BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_3_boundary_anchored_writing_controls_package_v1.zip"
+    },
+    {
+      "file": "BIG_B17_4_full_pde_consistency_check_package_v1.zip",
+      "public_path": "BIG_B17_final_manuscript_v1_0_DOI_zenodo_22677581/data/BIG_B17_4_full_pde_consistency_check_package_v1.zip"
+    }
+  ],
+  "different_bytes": [],
+  "absent_from_direct_and_nested_public_archives": [
+    "B17_0_amplitude_response_path.png",
+    "B17_0_boundary_trajectory_repeated_stimulation.png",
+    "B17_0_history_accumulation_repeated_stimulation.png",
+    "B17_0_hysteresis_phi_delta.png",
+    "B17_0_per_pulse_phi_increment.png",
+    "B17_0_phi_at_stim_repeated_stimulation.png",
+    "B17_0_repeated_stimulation_diagnostics.json",
+    "B17_0_repeated_stimulation_fit_diagnostics.csv",
+    "B17_0_repeated_stimulation_hysteresis_metrics.csv",
+    "B17_0_repeated_stimulation_manifest.json",
+    "B17_0_repeated_stimulation_pairwise_diagnostics.csv",
+    "B17_0_repeated_stimulation_pulse_metrics.csv",
+    "B17_0_repeated_stimulation_summary.csv",
+    "B17_0_repeated_stimulation_summary.json",
+    "B17_0_repeated_stimulation_trajectories.csv",
+    "B17_0_response_vs_accumulated_history_load.png",
+    "B17_1_adaptive_response_vs_etaS.png",
+    "B17_1_adaptive_response_vs_number_of_write_pulses.png",
+    "B17_1_adaptive_response_vs_rest_delay.png",
+    "B17_1_alpha_rest_heatmap_nwrite3_etaS8.png",
+    "B17_1_read_branch_metrics.csv",
+    "B17_1_read_branch_trajectories.csv",
+    "B17_1_representative_read_branches.png",
+    "B17_1_representative_write_rest_trajectory.png",
+    "B17_1_write_branch_state_metrics.csv",
+    "B17_1_write_phase_trajectories.csv",
+    "B17_1_write_read_diagnostics.json",
+    "B17_1_write_read_manifest.json",
+    "B17_1_write_read_separation_summary.json",
+    "B17_2_boundary_advance_vs_nwrite_etaS8.png",
+    "B17_2_compact_etaS8_decomposition_table.csv",
+    "B17_2_etaS_zero_control.png",
+    "B17_2_geometric_accessibility_etaS8.png",
+    "B17_2_local_history_vs_nwrite_etaS8.png",
+    "B17_2_model_comparison_r2.png",
+    "B17_2_moving_frame_decomposition_diagnostics.json",
+    "B17_2_moving_frame_decomposition_manifest.json",
+    "B17_2_response_vs_global_history_mass_etaS8.png",
+    "B17_2_response_vs_local_history_etaS8.png",
+    "B17_2_response_vs_write_depth_etaS8.png",
+    "B17_2_write_count_effect_etaS8.png",
+    "B17_2_write_depth_vs_nwrite_etaS8.png",
+    "B17_3_boundary_anchored_manifest.json",
+    "B17_4_full_pde_manifest.json",
+    "BIG_B17_0_repeated_stimulation_hysteresis_package_v1.zip",
+    "BIG_B17_1_write_read_separation_package_v1.zip",
+    "BIG_B17_2_moving_frame_decomposition_package_v1.zip"
+  ],
+  "common_csv_numeric_values": 26368,
+  "common_csvs": [
+    {
+      "file": "B17_1_write_read_diagnostics.csv",
+      "rows": 21,
+      "numeric_values": 294
+    },
+    {
+      "file": "B17_1_write_read_pair_metrics.csv",
+      "rows": 81,
+      "numeric_values": 1863
+    },
+    {
+      "file": "B17_2_model_comparison.csv",
+      "rows": 8,
+      "numeric_values": 104
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_diagnostics.csv",
+      "rows": 45,
+      "numeric_values": 810
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_metrics.csv",
+      "rows": 81,
+      "numeric_values": 3240
+    },
+    {
+      "file": "B17_3_boundary_anchored_diagnostics.csv",
+      "rows": 144,
+      "numeric_values": 3168
+    },
+    {
+      "file": "B17_3_boundary_anchored_protocol_metrics.csv",
+      "rows": 243,
+      "numeric_values": 7290
+    },
+    {
+      "file": "B17_3_compact_etaS8_protocol_table.csv",
+      "rows": 81,
+      "numeric_values": 1134
+    },
+    {
+      "file": "B17_3_compact_main_protocol_table.csv",
+      "rows": 9,
+      "numeric_values": 126
+    },
+    {
+      "file": "B17_3_model_comparison.csv",
+      "rows": 11,
+      "numeric_values": 187
+    },
+    {
+      "file": "B17_4_compact_etaS8_pde_protocol_table.csv",
+      "rows": 54,
+      "numeric_values": 756
+    },
+    {
+      "file": "B17_4_compact_main_pde_protocol_table.csv",
+      "rows": 9,
+      "numeric_values": 126
+    },
+    {
+      "file": "B17_4_full_pde_diagnostics.csv",
+      "rows": 117,
+      "numeric_values": 2223
+    },
+    {
+      "file": "B17_4_full_pde_model_comparison.csv",
+      "rows": 11,
+      "numeric_values": 187
+    },
+    {
+      "file": "B17_4_full_pde_protocol_metrics.csv",
+      "rows": 162,
+      "numeric_values": 4860
+    }
+  ],
+  "public_notebook_code_cell_checks": [
+    {
+      "file": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "code_cells": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_2_moving_frame_decomposition_colab_v1.ipynb",
+      "code_cells": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "code_cells": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "code_cells": 9,
+      "status": "PASS"
+    }
+  ],
+  "comparison_matches_renamed_files_by_content_hash": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "stage": 2,
+  "new_dynamics_trajectories": 0,
+  "checks": [
+    {
+      "file": "B17_2_compact_etaS8_decomposition_table.csv",
+      "rows": 27,
+      "status": "PASS"
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_metrics.csv",
+      "rows": 81,
+      "status": "PASS"
+    },
+    {
+      "file": "B17_2_model_comparison.csv",
+      "rows": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "B17_2_moving_frame_decomposition_diagnostics.csv",
+      "rows": 45,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Stage 2 original analysis and plots from archived B17.1 CSVs; full dynamics regeneration not performed."
+}

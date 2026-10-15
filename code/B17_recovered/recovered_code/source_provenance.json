@@ -1,0 +1,297 @@
+{
+  "notebook_code_cell_checks": [
+    {
+      "file": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "code_cells": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_2_moving_frame_decomposition_colab_v1.ipynb",
+      "code_cells": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "code_cells": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "code_cells": 9,
+      "status": "PASS"
+    }
+  ],
+  "computational_definitions": [
+    {
+      "stage": 0,
+      "notebook": "BIG_B17_0_repeated_stimulation_hysteresis_colab_v1.ipynb",
+      "cell": 2,
+      "function": "simulate_repeated_boundary_response",
+      "source_sha256": "1404a7c7f26699831e350585873f371e51e50c29956717a0d85a22987f6353f4"
+    },
+    {
+      "stage": 1,
+      "notebook": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "cell": 2,
+      "function": "make_pde_helpers",
+      "source_sha256": "03965834a673720e52794ae8cf7d924790c82d7dce0afa2761b64400cda46fd9"
+    },
+    {
+      "stage": 1,
+      "notebook": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "cell": 2,
+      "function": "simulate_write_phase",
+      "source_sha256": "acddf6c4ee9d8643da2e0d4b38a2ddc5a3f696196357919aa9911cc58217c9e6"
+    },
+    {
+      "stage": 1,
+      "notebook": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "cell": 2,
+      "function": "run_read_branch",
+      "source_sha256": "c9b9c5f376de31ab34be66c8bdcfe3b41d0a90a5b47fdd8c062c64c90e30cd50"
+    },
+    {
+      "stage": 1,
+      "notebook": "BIG_B17_1_write_read_separation_colab_v1.ipynb",
+      "cell": 5,
+      "function": "linear_fit",
+      "source_sha256": "46a09d9c7e4edddc0641ff731d56435b6cec150e52c5d22b7cfc67534827fabd"
+    },
+    {
+      "stage": 2,
+      "notebook": "BIG_B17_2_moving_frame_decomposition_colab_v1.ipynb",
+      "cell": 4,
+      "function": "simple_linear_fit",
+      "source_sha256": "a31179552c480801bd6ad40699526a4587e1646b1810c472187c6181224783eb"
+    },
+    {
+      "stage": 2,
+      "notebook": "BIG_B17_2_moving_frame_decomposition_colab_v1.ipynb",
+      "cell": 4,
+      "function": "multi_linear_fit",
+      "source_sha256": "588835e728a4d17255dfc3b18284ef1bb970384aba7e7a0422ca9549aa462799"
+    },
+    {
+      "stage": 2,
+      "notebook": "BIG_B17_2_moving_frame_decomposition_colab_v1.ipynb",
+      "cell": 4,
+      "function": "zscore_series",
+      "source_sha256": "e7aec761acac4b8b3bd32c64e8e62c16e415c3f9742a3e2ee6e9091f26b60f90"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "gaussian",
+      "source_sha256": "8bebdc8472d25294cfa579e576a0768b4c86dd9f0b0e3c37ed7238f7ab974070"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "laplacian_neumann",
+      "source_sha256": "30408dae4892aa60068cc703a595f9de0c1efd142ad02c5677e265b02c702eaa"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "sample_field",
+      "source_sha256": "59a0ec7b1d568ea316df3f152206df72fd0b74c23b9dd6e09ac637e9402a1b32"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "weighted_sample",
+      "source_sha256": "a6c34a91cb4da3d360f1b23f9cd7a526c32f40f37720320b79c34839d83da2dc"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "shift_field",
+      "source_sha256": "f381b7124afb0256928eeb93610ba3144000959bf51909f684e06d2367485357"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "memory_moments",
+      "source_sha256": "1242f557abbed901955e8967275fbb70d2f240cf1a1e848250df2289a25e275a"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "simulate_write_phase",
+      "source_sha256": "c5bda8e2180cd0b93e3caf12c7ce72720a66f488595af9f7e928033d95fb78f9"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "simulate_read_branch",
+      "source_sha256": "2deb60deb659229d788b48fb61b22f9ab0810c542370eb981d6be883a37c332b"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 2,
+      "function": "run_case",
+      "source_sha256": "ae216d4b3aa737a7d8f5a8ca139e68e1e97c97a768844c89da7725e3558c712c"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 4,
+      "function": "simple_linear_fit",
+      "source_sha256": "99bcd8443c0439b5464410a0eb0eae881cafbf1d60abce193d4d40cd0cd223f3"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 4,
+      "function": "zscore",
+      "source_sha256": "754950ebc68d37079708e106ea275d9f054896fa1f5a9c43c9e8b862028736b8"
+    },
+    {
+      "stage": 3,
+      "notebook": "BIG_B17_3_boundary_anchored_writing_controls_colab_v1.ipynb",
+      "cell": 4,
+      "function": "multi_linear_fit",
+      "source_sha256": "78033964a515948e5a994b2d4035559f8c21a05ad14b741ce962e0828a0b0e76"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "make_grid",
+      "source_sha256": "0b633f18847e819988e7f35722c9b80db43bf8cb422837073909f0a72fc20a4f"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "gaussian",
+      "source_sha256": "abfcd501825d204824c2563f8d2d022f8ddf3f81e9c50e74c5a1a1c40d9f613a"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "lap_neumann",
+      "source_sha256": "7e958a47b04cdb487c6e3fc7282f03de65ae965d646f01385a21b4cf9ae995f8"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "grad_centered",
+      "source_sha256": "59b9c72e26c618ab0feb43157e0a5913632595d00d4de9513bcbaa214796bf0d"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "div_flux_phi",
+      "source_sha256": "cf46f4e3e523e9b3f5da67ce596d009370d1ebf2ba024868a1e2f5427493e51c"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "boundary_location",
+      "source_sha256": "19a2b0b73f3c0d669587a41ee758295a61f8ab34d81d236f569c553ca83b889b"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "weighted_sample",
+      "source_sha256": "29007ba8ce97f06aa7fd5ec2f53b3b1cd850752813880426443dc19c3d049971"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "shift_field",
+      "source_sha256": "b6a1cf2f1a64e625eea8ef8a6a80dc7cf4d31689242d3cd1d29c7a3cb1480c46"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "memory_moments",
+      "source_sha256": "f1bc91a8d1f06c4b1cb54d70fa1d311978b980587a3e5108b5e17a336cc3a591"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "make_boundary_mask",
+      "source_sha256": "2de93934e7692562764e706d6d314fc421c7e4aa8173a2fd5a5f2ebba9311bc2"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "phi_step",
+      "source_sha256": "afbe11594614a3af3deb7d0c12547ebeff93f3dd3d1d1117eac7d86f3868c868"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "memory_step",
+      "source_sha256": "2416f3854ea824b8beb0726b8608f6afe90977c6ae87beac565b5eba6c1a81fa"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 2,
+      "function": "pre_equilibrate",
+      "source_sha256": "d817bfb595e7dffc76130f959af2a91529d696b768718826b05cd1430b602f15"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 3,
+      "function": "run_pde_case",
+      "source_sha256": "8e1796bba36609f925ffb2ddc78a25e59b80ebab7c1a86aabad4851bb9825394"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 5,
+      "function": "simple_linear_fit",
+      "source_sha256": "242d01925df929fb64536ca2c32b906a6a594e97aef956c1829229c62c2f29a6"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 5,
+      "function": "zscore",
+      "source_sha256": "754950ebc68d37079708e106ea275d9f054896fa1f5a9c43c9e8b862028736b8"
+    },
+    {
+      "stage": 4,
+      "notebook": "BIG_B17_4_full_pde_consistency_check_colab_v1.ipynb",
+      "cell": 5,
+      "function": "multi_linear_fit",
+      "source_sha256": "53ba01a2106d8b8c84cc1ac36c813eb9dd7c7fd55002faea185783f570ab7100"
+    }
+  ],
+  "definition_count": 37,
+  "unique_function_names": 27,
+  "excluded_top_level_names": [
+    "backup_to_drive",
+    "find_file",
+    "profile_from_boundary",
+    "save_csv",
+    "save_figure",
+    "save_json",
+    "to_jsonable"
+  ],
+  "function_bodies_unchanged": true
+}
