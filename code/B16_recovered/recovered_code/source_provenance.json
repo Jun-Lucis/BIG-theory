@@ -1,0 +1,152 @@
+{
+  "computational_definitions": 12,
+  "unique_function_names": 8,
+  "scope": "Top-level computational definitions, including nested function bodies; setup I/O and plot-only helpers excluded",
+  "notebooks": [
+    {
+      "namespace": "core",
+      "name": "BIG_B16_memory_bearing_free_boundary_colab_v1.ipynb",
+      "bytes": 873047,
+      "sha256": "dd940c52107680b18540748ce44b1fe56708962196a0291e759b7d206851b7b7",
+      "public_notebook_code_cells_exact": true
+    },
+    {
+      "namespace": "intervention",
+      "name": "BIG_B16_2_late_feedback_intervention_colab_v1.ipynb",
+      "bytes": 594846,
+      "sha256": "adaedc27cf5e796c61a0fb7bb5cb157df63b445d82528c83c89ffa41f6e52833",
+      "public_notebook_code_cells_exact": true
+    },
+    {
+      "namespace": "locality",
+      "name": "BIG_B16_3_spatial_locality_colab_v1.ipynb",
+      "bytes": 758655,
+      "sha256": "7d5d8a3ee2b23d6022fa46d34ba6768551e1cd658926e249b11c334f0f85be85",
+      "public_notebook_code_cells_exact": true
+    },
+    {
+      "namespace": "moving",
+      "name": "BIG_B16_4_moving_boundary_frame_colab_v1.ipynb",
+      "bytes": 667647,
+      "sha256": "1575bb9cb84183b4de708a83ef39df725b50a7c5e0d05a2e57a91895bccb6fac",
+      "public_notebook_code_cells_exact": true
+    },
+    {
+      "namespace": "robustness",
+      "name": "BIG_B16_5_robustness_checks_colab_v1.ipynb",
+      "bytes": 515950,
+      "sha256": "be86e0db7c2d4a047027488ffb7b4e1a87ce88a72807dfd98cc5747a0e239211",
+      "public_notebook_code_cells_exact": true
+    }
+  ],
+  "functions": [
+    {
+      "namespace": "core",
+      "notebook": "BIG_B16_memory_bearing_free_boundary_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "run_b16_memory_free_boundary",
+      "first_line": 6,
+      "last_line": 338,
+      "sha256": "2971efa303f7dfbe17ffda4fa5ab7a03e4862cfc4a77b69f61847e3e7a94fb1d"
+    },
+    {
+      "namespace": "intervention",
+      "notebook": "BIG_B16_2_late_feedback_intervention_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "create_prehistory_state",
+      "first_line": 9,
+      "last_line": 184,
+      "sha256": "2fca378e9b480d587f344a22115dff14103e567be83cebf081ad6998f2df50a3"
+    },
+    {
+      "namespace": "intervention",
+      "notebook": "BIG_B16_2_late_feedback_intervention_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "run_probe_from_state",
+      "first_line": 187,
+      "last_line": 313,
+      "sha256": "0d1167a64b816d57e56f806cce2c2dc5ef4bdc55d39af0d4b2d1932485a5bb3d"
+    },
+    {
+      "namespace": "locality",
+      "notebook": "BIG_B16_3_spatial_locality_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "create_prehistory_state",
+      "first_line": 6,
+      "last_line": 179,
+      "sha256": "90d7cc090ec07e1f0eb2ba83dc5a14507ba7233753babb740e2424fdf8133490"
+    },
+    {
+      "namespace": "locality",
+      "notebook": "BIG_B16_3_spatial_locality_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "run_shifted_probe",
+      "first_line": 182,
+      "last_line": 319,
+      "sha256": "eff2b96b04872ed13ce9cf2f15e8512e58f0e2b735bf761e90ef504bcdbbc667"
+    },
+    {
+      "namespace": "moving",
+      "notebook": "BIG_B16_4_moving_boundary_frame_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "make_basic_helpers",
+      "first_line": 8,
+      "last_line": 76,
+      "sha256": "63d231c2ee87b3ac34020c9319f766f035a6bb1fe29f978e7bcc72fa6fdbe137"
+    },
+    {
+      "namespace": "moving",
+      "notebook": "BIG_B16_4_moving_boundary_frame_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "create_prehistory_state",
+      "first_line": 79,
+      "last_line": 226,
+      "sha256": "081ea69c42cd0027639692cca2253bd48d7551219a9ca7779721c603ad014376"
+    },
+    {
+      "namespace": "moving",
+      "notebook": "BIG_B16_4_moving_boundary_frame_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "run_shifted_probe",
+      "first_line": 229,
+      "last_line": 376,
+      "sha256": "6c9e567dc80281e134a7f5c960dfbe9c3d4988d4d92de18645476de7b3fa5f60"
+    },
+    {
+      "namespace": "moving",
+      "notebook": "BIG_B16_4_moving_boundary_frame_colab_v1.ipynb",
+      "cell_index_zero_based": 5,
+      "name": "linear_fit",
+      "first_line": 11,
+      "last_line": 25,
+      "sha256": "098d1fc989cb6c49c029a9cf7f674e4dd647e838a2fc397c1ac428ada540c1f7"
+    },
+    {
+      "namespace": "robustness",
+      "notebook": "BIG_B16_5_robustness_checks_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "make_helpers",
+      "first_line": 8,
+      "last_line": 76,
+      "sha256": "52a132d4e736ecabcdcdd38f0d5a4ce6f2aee9aeefa46c8612447103dcc6ca50"
+    },
+    {
+      "namespace": "robustness",
+      "notebook": "BIG_B16_5_robustness_checks_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "create_prehistory_state",
+      "first_line": 79,
+      "last_line": 217,
+      "sha256": "5f46b385d34ef9962f76925c325229ac373c6fbcb69888a25e4f2384f63790c8"
+    },
+    {
+      "namespace": "robustness",
+      "notebook": "BIG_B16_5_robustness_checks_colab_v1.ipynb",
+      "cell_index_zero_based": 2,
+      "name": "run_probe_pair",
+      "first_line": 220,
+      "last_line": 349,
+      "sha256": "993a1b75cd44c011e1ef7add660235a3380d130a777e5adc2a655a73e98cdc5c"
+    }
+  ]
+}

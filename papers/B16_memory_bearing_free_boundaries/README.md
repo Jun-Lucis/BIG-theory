@@ -4,13 +4,23 @@
 > 🇯🇵 **日本語要約**  
 > B16では、履歴場 $m(x,t)$ を動く自由境界に直接結合し、「過去の局在刺激が後の境界応答を変えられるか」を数値的に検査します。履歴を保持する条件と消去する条件、刺激位置、境界移動、フィードバックの有無を比較し、保持された履歴が後の局所応答に影響する構造を確認しました。これにより履歴は単なる記録ではなく、後の境界運動へ戻る内部状態変数になります。
 
+## CP21 source/implementation clarification (16 October 2026)
+
+**基本的に再現可能。独立した再実行監査は未了。**
+
+The complete v0.4 ZIP preserves all original scientific table values, arrays and seven published composites, and contains five unchanged executed Colab notebooks, 12 computational definitions (eight unique names, including nested bodies), all 85 original result files and a local replay adapter. Saved-output verification passed 691 groups / 37,334 values without PDE time stepping. All 520,038 common numeric values in the 19 prior-public/original CSVs match. The formerly omitted detailed robustness and prehistory metrics are included. The older Japanese reference remains historical.
+
+The history-writing equation now matches the original code: beta × boundary mask × normalized Gaussian while the pulse is on, without a direct pulse-amplitude multiplier. The historical staged-probe increment uses a baseline averaged during stimulus onset [16,16.2]. The positive mobility floor makes the boundary a threshold level set; m remains on a fixed Eulerian grid without material boundary advection. The frame plot is a coordinate translation. Core/scan and staged probes have distinct feedback channels. The pooled fits are in-sample and the sensitivity grid does not establish continuum convergence. The formerly clipped core figure and its caption now fit within the page.
+
+[Methods and scope](../../docs/B16_CP21_METHODS_CLARIFICATIONS.md) · [Audit record](../../docs/B16_CP21_AUDIT_20261016.md) · [Recovered definitions and replay](../../code/B16_recovered)
+
 ## Purpose
 
 BIG-B16 couples a moving free-boundary field to a history field.
 
 The reduced one-dimensional model couples a BIG-type free-boundary field $\phi(x,t)$ to a boundary-history field $m(x,t)$. Localized stimulation writes $m$ near a moving threshold boundary; retained history then decays, diffuses, and feeds back into later local boundary response.
 
-The numerical program consists of six connected stages: core experiments, $\alpha$--$\eta_S$ parameter scans, kept/erased intervention tests, shifted-stimulus locality tests, moving-boundary-frame analysis, and robustness checks. The central diagnostic is the kept-minus-erased response, which isolates the contribution of retained boundary history from ordinary free-boundary drift.
+The numerical program consists of six connected stages: core experiments, $\alpha$--$\eta_S$ parameter scans, kept/erased intervention tests, shifted-stimulus locality tests, moving-boundary-frame analysis, and robustness checks. The central diagnostic is the kept-minus-erased response under the specified model dynamics, using the documented historical onset-window increment.
 
 Across the reduced simulations, adaptive response is controlled by history retention, feedback strength, and locally sampled retained-history load. In this model, boundary history therefore functions as an internal state variable for later local boundary response.
 
@@ -26,6 +36,8 @@ This is a minimal reduced structural test showing that a moving free boundary ca
 
 ## Publication
 
-Zenodo: https://zenodo.org/records/22660005
+Current English draft v0.4: https://zenodo.org/records/23402231
+
+Historical English draft v0.3 and Japanese reference: https://zenodo.org/records/22660005
 
 Author: Jun Lucis

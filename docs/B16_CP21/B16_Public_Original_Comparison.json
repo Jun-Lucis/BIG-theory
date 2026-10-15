@@ -1,0 +1,566 @@
+{
+  "status": "PASS",
+  "original_result_files": 85,
+  "byte_identical_public_files": 68,
+  "missing_from_public_package": [
+    "B16_2_intervention_manifest.json",
+    "B16_3_spatial_locality_manifest.json",
+    "B16_4_moving_boundary_frame_manifest.json",
+    "B16_5_robustness_manifest.json",
+    "B16_5_robustness_metrics.csv",
+    "B16_5_robustness_prehistory_metrics.csv",
+    "B16_5_robustness_summary.json",
+    "B16_analysis_manifest.json",
+    "BIG_B16_2_late_feedback_intervention_package_v1.zip",
+    "BIG_B16_3_spatial_locality_package_v1.zip",
+    "BIG_B16_4_moving_boundary_frame_package_v1.zip",
+    "BIG_B16_5_robustness_checks_package_v1.zip",
+    "BIG_B16_analysis_package_v1.zip"
+  ],
+  "csv_files_compared": 19,
+  "csv_numeric_values": 520038,
+  "csv_rows": 45774,
+  "file_comparisons": [
+    {
+      "file": "B16_0_core_metrics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_core_profiles.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_core_summary.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_core_trajectories.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_final_history_profiles.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_final_phi_profiles.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_history_at_stimulus_site.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_persistent_boundary_offset.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_phi_response_at_stimulus_site.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_pulse2_local_response_increment.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_0_right_boundary_trajectories.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_alpha_etaS_parameter_scan.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_alpha_etaS_parameter_scan_summary.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_boundary_offset_vs_feedback.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_retained_history_vs_alpha.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_scan_later_local_response_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_scan_persistent_boundary_offset_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_1_scan_retained_history_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_adaptive_R_delta_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_adaptive_phi_delta_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_adaptive_phi_delta_vs_alpha.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_adaptive_phi_delta_vs_feedback.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_adaptive_phi_ratio_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_intervention_branch_metrics.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_intervention_manifest.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_2_intervention_pair_metrics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_intervention_summary.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_intervention_trajectories.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_paired_probe_alpha_0p01_etaS_10p0.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_paired_probe_alpha_0p2_etaS_10p0.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_response_vs_effective_feedback_load.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_2_retained_history_before_probe_heatmap.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_adaptive_phi_delta_heatmap_alpha_shift.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_adaptive_phi_delta_vs_shift.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_etaS_zero_control_vs_shift.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_paired_response_alpha_0p01_etaS_10p0_shift_0p0.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_paired_response_alpha_0p01_etaS_10p0_shift_1p0.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_paired_response_alpha_0p2_etaS_10p0_shift_0p0.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_response_vs_local_feedback_load.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_response_vs_sampled_history.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_retained_m_at_probe_vs_shift.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_branch_metrics.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_fit_diagnostics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_fit_diagnostics.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_manifest.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_3_spatial_locality_pair_metrics.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_summary.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_3_spatial_locality_trajectories.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_adaptive_phi_delta_vs_yprobe.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_branch_profiles_moving_frame.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_etaS_zero_control_moving_frame.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_boundary_frame_manifest.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_4_moving_boundary_frame_summary.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_frame_branch_metrics.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_frame_diagnostics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_frame_diagnostics.json",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_frame_pair_metrics.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_moving_frame_probe_trajectories.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_peak_locations_moving_frame.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_phi_moving_frame.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_prehistory_boundary_frame_summary.csv",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_response_vs_moving_frame_feedback_load.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_response_vs_sampled_history.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_retained_history_moving_frame.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_4_sampled_history_vs_yprobe.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_grid_size_sensitivity.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_low_forgetting_adaptive_delta_by_variant.png",
+      "public_matches": 1,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_low_vs_fast_forgetting_by_variant.png",
+      "public_matches": 1,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_no_feedback_control_error_by_variant.png",
+      "public_matches": 1,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_relative_adaptive_delta_by_variant.png",
+      "public_matches": 1,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_response_vs_retained_load_robustness.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_robustness_diagnostics.json",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_robustness_fit_diagnostics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_robustness_group_diagnostics.csv",
+      "public_matches": 2,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_5_robustness_manifest.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_robustness_metrics.csv",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_robustness_prehistory_metrics.csv",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_robustness_summary.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "B16_5_time_step_sensitivity.png",
+      "public_matches": 1,
+      "byte_identical": true
+    },
+    {
+      "file": "B16_analysis_manifest.json",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "BIG_B16_2_late_feedback_intervention_package_v1.zip",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "BIG_B16_3_spatial_locality_package_v1.zip",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "BIG_B16_4_moving_boundary_frame_package_v1.zip",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "BIG_B16_5_robustness_checks_package_v1.zip",
+      "public_matches": 0,
+      "byte_identical": false
+    },
+    {
+      "file": "BIG_B16_analysis_package_v1.zip",
+      "public_matches": 0,
+      "byte_identical": false
+    }
+  ],
+  "csv_comparisons": [
+    {
+      "file": "B16_0_core_metrics.csv",
+      "rows": 4,
+      "numeric_values": 68,
+      "passed": true
+    },
+    {
+      "file": "B16_0_core_profiles.csv",
+      "rows": 10752,
+      "numeric_values": 53760,
+      "passed": true
+    },
+    {
+      "file": "B16_0_core_trajectories.csv",
+      "rows": 2084,
+      "numeric_values": 20840,
+      "passed": true
+    },
+    {
+      "file": "B16_1_alpha_etaS_parameter_scan.csv",
+      "rows": 16,
+      "numeric_values": 304,
+      "passed": true
+    },
+    {
+      "file": "B16_2_intervention_branch_metrics.csv",
+      "rows": 32,
+      "numeric_values": 384,
+      "passed": true
+    },
+    {
+      "file": "B16_2_intervention_pair_metrics.csv",
+      "rows": 16,
+      "numeric_values": 192,
+      "passed": true
+    },
+    {
+      "file": "B16_2_intervention_trajectories.csv",
+      "rows": 3872,
+      "numeric_values": 38720,
+      "passed": true
+    },
+    {
+      "file": "B16_3_spatial_locality_branch_metrics.csv",
+      "rows": 112,
+      "numeric_values": 1680,
+      "passed": true
+    },
+    {
+      "file": "B16_3_spatial_locality_fit_diagnostics.csv",
+      "rows": 5,
+      "numeric_values": 40,
+      "passed": true
+    },
+    {
+      "file": "B16_3_spatial_locality_pair_metrics.csv",
+      "rows": 56,
+      "numeric_values": 840,
+      "passed": true
+    },
+    {
+      "file": "B16_3_spatial_locality_trajectories.csv",
+      "rows": 13552,
+      "numeric_values": 176176,
+      "passed": true
+    },
+    {
+      "file": "B16_4_branch_profiles_moving_frame.csv",
+      "rows": 1536,
+      "numeric_values": 19968,
+      "passed": true
+    },
+    {
+      "file": "B16_4_moving_frame_branch_metrics.csv",
+      "rows": 112,
+      "numeric_values": 2352,
+      "passed": true
+    },
+    {
+      "file": "B16_4_moving_frame_diagnostics.csv",
+      "rows": 6,
+      "numeric_values": 102,
+      "passed": true
+    },
+    {
+      "file": "B16_4_moving_frame_pair_metrics.csv",
+      "rows": 56,
+      "numeric_values": 1232,
+      "passed": true
+    },
+    {
+      "file": "B16_4_moving_frame_probe_trajectories.csv",
+      "rows": 13552,
+      "numeric_values": 203280,
+      "passed": true
+    },
+    {
+      "file": "B16_4_prehistory_boundary_frame_summary.csv",
+      "rows": 4,
+      "numeric_values": 48,
+      "passed": true
+    },
+    {
+      "file": "B16_5_robustness_fit_diagnostics.csv",
+      "rows": 1,
+      "numeric_values": 4,
+      "passed": true
+    },
+    {
+      "file": "B16_5_robustness_group_diagnostics.csv",
+      "rows": 6,
+      "numeric_values": 48,
+      "passed": true
+    }
+  ]
+}

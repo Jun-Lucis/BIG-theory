@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Same deterministic locality design in B16.3 and B16.4, with extra frame diagnostics in B16.4; matching values do not establish independent out-of-sample/model validation.",
+  "rows": 56,
+  "common_numeric_columns": [
+    "alpha",
+    "etaS",
+    "shift",
+    "x_memory",
+    "x_probe",
+    "retained_m_at_probe",
+    "retained_m_at_memory_site",
+    "effective_feedback_load",
+    "phi_increment_kept",
+    "phi_increment_erased",
+    "adaptive_phi_delta",
+    "adaptive_phi_ratio",
+    "R_increment_kept",
+    "R_increment_erased",
+    "adaptive_R_delta"
+  ],
+  "compared_values": 840
+}

@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B16 source/implementation audit, 16 October 2026:** [Draft v0.4 / Zenodo 23402231](https://zenodo.org/records/23402231) is published as one complete ZIP. The clarified 15-page English manuscript aligns history writing with the original pulse-on-gated code, documents onset-window increments, the threshold boundary and fixed Eulerian history, and repairs the clipped core figure. All scientific table values and seven composites are preserved. Five original executed notebooks and all 85 result files are archived; checks passed 691 groups / 37,334 values and 520,038 common public/original values. **Basically reproducible; an independent full rerun audit has not yet been completed.**
+
 **B15 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23401700](https://zenodo.org/records/23401700) is published as one complete ZIP. The 13-page clarification preserves original numerical results, ten figure panels and fixture labels, and includes three recovered notebooks, 36 computational definitions and the exact B14 input. Saved-output checks passed 142 groups / 15,935 values; 24,217 common public/original CSV values matched. Density matrices retain an angular moment; fit and map labels have the documented objective/fixture scope. **Basically reproducible; an independent full rerun audit has not yet been completed.**
 
 **B14 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400901](https://zenodo.org/records/23400901) is published as one complete ZIP. The 13-page clarification preserves the original numerical outcomes and figure panels, documents the operator-defined fusion loss, cosine similarity and lineage-mean identity, and includes recovered original code/data. Saved-data checks passed 165 groups / 36,176 values; 329,270 common public/original values matched. **Basically reproducible; an independent full rerun audit has not yet been completed.**
@@ -752,7 +754,7 @@ Current entries include:
 | B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.23400901 |
 | B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.23401700 |
 | Layered framework | Layered mathematical consolidation through B15 | https://doi.org/10.5281/zenodo.22161614 |
-| B16 | Memory-bearing free boundaries | https://doi.org/10.5281/zenodo.22660005 |
+| B16 | Memory-bearing free boundaries | https://doi.org/10.5281/zenodo.23402231 |
 | B17 | Stored versus readable history | https://doi.org/10.5281/zenodo.22677581 |
 | B18 | Boundary readout operators | https://doi.org/10.5281/zenodo.22690970 |
 | B19 | Boundary-core channel diagnostics | https://doi.org/10.5281/zenodo.22726848 |

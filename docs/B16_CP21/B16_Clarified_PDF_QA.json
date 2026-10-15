@@ -1,0 +1,69 @@
+{
+  "original_pages": 14,
+  "clarified_pages": 15,
+  "original_embedded_panels": 7,
+  "clarified_embedded_panels": 7,
+  "original_figures_rgb_match": true,
+  "clarified_figures_rgb_match": true,
+  "same_image_pixel_hashes": true,
+  "original_table_bodies_retained": true,
+  "out_of_page_text": [],
+  "latex_warnings": [],
+  "pdf_sha256": "475b8918066257c8a52572c03c698eab62cb7b8c339477fe8f7f68b5509dc933",
+  "panels": [
+    {
+      "page": 2,
+      "width": 2200,
+      "height": 1200,
+      "pixel_sha256": "617e9aa67dd8f65cd1878e964ff702be0fbb1bc4a0fd7b84fe8f437bd8cdb806",
+      "source_figure": "fig1_model_schematic.png"
+    },
+    {
+      "page": 7,
+      "width": 1064,
+      "height": 2066,
+      "pixel_sha256": "b99cb0a250439b3fc68424430de20ce3111a9c1c4187237f75b37428d52986f2",
+      "source_figure": "fig2_B16_0_core.png"
+    },
+    {
+      "page": 8,
+      "width": 1696,
+      "height": 1303,
+      "pixel_sha256": "cbb666b08b915055cfe5bb89fa37e04f234a8ccf382fad31e32f9e8b08440aef",
+      "source_figure": "fig3_B16_1_scan.png"
+    },
+    {
+      "page": 9,
+      "width": 1696,
+      "height": 1232,
+      "pixel_sha256": "3c0c3df78048cf9e85bdedb9572895e253ce65139680fc60d566b2a837562553",
+      "source_figure": "fig4_B16_2_intervention.png"
+    },
+    {
+      "page": 10,
+      "width": 1696,
+      "height": 1235,
+      "pixel_sha256": "592c63bbbf009d8a9c63122b1c4d0fed897caeaaa48e1e9c7b7b22ac1d178a00",
+      "source_figure": "fig5_B16_3_locality.png"
+    },
+    {
+      "page": 11,
+      "width": 1696,
+      "height": 1217,
+      "pixel_sha256": "97ae18fcdf8b238b433ba6413e4f0ce808be4706392a7f8f0765de571190048e",
+      "source_figure": "fig6_B16_4_moving_frame.png"
+    },
+    {
+      "page": 12,
+      "width": 1796,
+      "height": 1139,
+      "pixel_sha256": "88b2dd9126fcb1c13b6ebf4cd48868ffce9b42f3f31414f42ca5dbe5b0cf3d2e",
+      "source_figure": "fig7_B16_5_robustness.png"
+    }
+  ],
+  "all_pages_rendered": true,
+  "visual_review": "PASS",
+  "visual_review_pages": 15,
+  "image_bounding_boxes_within_page": true,
+  "visual_review_note": "All 15 rendered pages reviewed; final page-break adjustment changed only pages 11-12, which were reviewed again. Figure 2 shows all three panels and its caption; all seven scientific table bodies and image pixel hashes are retained."
+}

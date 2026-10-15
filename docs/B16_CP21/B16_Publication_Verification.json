@@ -1,0 +1,67 @@
+{
+  "status": "PUBLISHED_CHECKSUM_MATCH_REDOWNLOAD_PENDING",
+  "verified_at_utc": "2026-10-15T21:41:31.014753+00:00",
+  "record_url": "https://zenodo.org/records/23402231",
+  "record_id": "23402231",
+  "version": "0.4",
+  "is_published": true,
+  "is_draft": false,
+  "publication_metadata_checks": "PASS",
+  "related_identifiers_preserved": [
+    "10.5281/zenodo.21072783",
+    "10.5281/zenodo.21108338",
+    "10.5281/zenodo.21144373",
+    "10.5281/zenodo.21173333"
+  ],
+  "github_related_identifier": {
+    "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+    "relation_type": {
+      "id": "references",
+      "title": {
+        "de": "Referenziert",
+        "en": "References"
+      }
+    },
+    "resource_type": {
+      "id": "other",
+      "title": {
+        "de": "Sonstige",
+        "en": "Other"
+      }
+    },
+    "scheme": "url"
+  },
+  "published_file_count": 1,
+  "file_name": "BIG_B16_v0_4_COMPLETE_20261016.zip",
+  "file_bytes": 48088571,
+  "local_archive_sha256": "34980fbf7aff247b22f9ffecd95bd34cb2e5751f19600391f5abcbb5e4c9a427",
+  "local_archive_md5": "91b7d1478c3d723fd659c29bf782ce8c",
+  "zenodo_published_md5_matches_local": true,
+  "zenodo_published_size_matches_local": true,
+  "local_archive_crc": "PASS",
+  "local_archive_members": 233,
+  "local_internal_sha256_checks": 232,
+  "local_internal_sha256_status": "PASS",
+  "public_redownload": {
+    "status": "NOT_COMPLETED_TIMEOUT",
+    "attempts": [
+      {
+        "method": "button_download_event",
+        "timeout_seconds": 45
+      },
+      {
+        "method": "file_link_download_event",
+        "timeout_seconds": 45
+      },
+      {
+        "method": "file_link_downloadMedia",
+        "timeout_seconds": 55
+      }
+    ],
+    "byte_identity_verified": false,
+    "note": "Public metadata export succeeded. ZIP retrieval did not return a completed browser download; do not claim a public ZIP byte comparison."
+  },
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "new_pde_trajectories": 0,
+  "formal_verdict_changes": 0
+}
