@@ -1,0 +1,1465 @@
+{
+  "status": "PASS",
+  "paper": "B14",
+  "checkpoint": "CP19",
+  "check_groups": 165,
+  "compared_values": 36176,
+  "checks": [
+    {
+      "name": "unchanged recovered computational definitions",
+      "passed": true,
+      "values": 38,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots L2_memory",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 1.4432899320127035e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots L1_memory",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 2.4424906541753444e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots peak_memory",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots min_memory",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots mean_memory",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 1.6653345369377348e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing snapshots corr_with_initial_stimulus",
+      "passed": true,
+      "values": 161,
+      "maximum_absolute_difference": 3.4416913763379853e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "writing final profile",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "post-write profile",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "susceptibility",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "response integrals",
+      "passed": true,
+      "values": 362,
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "response gain",
+      "passed": true,
+      "values": 181,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "post_write_L2_memory",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 7.771561172376096e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final_L2_memory",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "persistence_ratio_final_over_post_write",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 1.6653345369377348e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final_corr_with_initial_stimulus",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final circular mean",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final circular width",
+      "passed": true,
+      "values": 1,
+      "maximum_absolute_difference": 6.394884621840902e-14,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion overlap_AB",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion overlap_pos",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion corr_C_A",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion corr_C_B",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 5.551115123125783e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion corr_C_raw_sum",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion norm_A",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 7.771561172376096e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion norm_B",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 7.771561172376096e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion norm_raw_sum",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 1.5543122344752192e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion norm_C",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 1.5543122344752192e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion compression_factor",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion compression_loss_ratio",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "stable fusion preservation_score",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "prescribed compression identity",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 3.694961003830599e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "preservation definition",
+      "passed": true,
+      "values": 49,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2_division_inheritance_scan fidelity mean",
+      "passed": true,
+      "values": 73,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2_division_inheritance_scan cross-contamination mean",
+      "passed": true,
+      "values": 73,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2_division_inheritance_scan asymmetry",
+      "passed": true,
+      "values": 73,
+      "maximum_absolute_difference": 1.6653345369377348e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2_division_inheritance_scan retention",
+      "passed": true,
+      "values": 73,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_all_points fidelity mean",
+      "passed": true,
+      "values": 1887,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_all_points cross-contamination mean",
+      "passed": true,
+      "values": 1887,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_all_points asymmetry",
+      "passed": true,
+      "values": 1887,
+      "maximum_absolute_difference": 1.942890293094024e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_fidelity complementary masks",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_fidelity reference1",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_fidelity reference2",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_fidelity reconstructed sum",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_fidelity complementary masks",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_fidelity reference1",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_fidelity reference2",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_fidelity reconstructed sum",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_asymmetry complementary masks",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_asymmetry reference1",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_asymmetry reference2",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "worst_asymmetry reconstructed sum",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_reconstruction complementary masks",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_reconstruction reference1",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_reconstruction reference2",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "best_reconstruction reconstructed sum",
+      "passed": true,
+      "values": 256,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary mean_fidelity",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary std_fidelity",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.0549287138283958e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary min_fidelity",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary mean_cross_contamination",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary std_cross_contamination",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary max_cross_contamination",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary mean_total_retention",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary std_total_retention",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 9.020562075079397e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary min_total_retention",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary mean_asymmetry",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary std_asymmetry",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.0408340855860843e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary max_asymmetry",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary mean_reconstruction_corr",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary std_reconstruction_corr",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 9.687346411157982e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_summary min_reconstruction_corr",
+      "passed": true,
+      "values": 17,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed mean_fidelity",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed std_fidelity",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 1.4029576111962427e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed min_fidelity",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed mean_cross_contamination",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 8.326672684688674e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed std_cross_contamination",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed max_cross_contamination",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed mean_total_retention",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed std_total_retention",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 1.1796119636642288e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed min_total_retention",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed mean_asymmetry",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed std_asymmetry",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed max_asymmetry",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed mean_reconstruction_corr",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed std_reconstruction_corr",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 1.3339752479718525e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "B14_2b_division_robustness_by_seed min_reconstruction_corr",
+      "passed": true,
+      "values": 51,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage profile norms",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 9.992007221626409e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage trace1 integral",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage trace2 integral",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "trace balance",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 8.290101938257521e-11,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "trace dominance",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage cosine similarity",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 2.4980018054066022e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage initial norm ratios",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage initial trace ratio 1",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 1.3877787807814457e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage initial trace ratio 2",
+      "passed": true,
+      "values": 1905,
+      "maximum_absolute_difference": 1.97758476261356e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation n_cells",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_norm",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 8.326672684688674e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation std_norm",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 1.249000902703301e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation max_norm",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation min_norm",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_corr_with_initial",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation max_corr_with_initial",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation min_corr_with_initial",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_profile_corr_with_initial",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 1.5543122344752192e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_pairwise_profile_corr",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 2.7755575615628914e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation trace1_entropy",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation trace1_concentration",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 1.9984014443252818e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_trace1_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 6.938893903907228e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation max_trace1_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation sum_trace1_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 3.885780586188048e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation trace2_entropy",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 2.1094237467877974e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation trace2_concentration",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 1.9984014443252818e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation mean_trace2_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 8.326672684688674e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation max_trace2_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage generation sum_trace2_score",
+      "passed": true,
+      "values": 105,
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean n_cells",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_norm",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean max_norm",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_corr_with_initial",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean max_corr_with_initial",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean min_corr_with_initial",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_profile_corr_with_initial",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_trace1_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean max_trace1_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean sum_trace1_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean trace1_concentration",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean trace1_entropy",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_trace2_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 6.938893903907228e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean max_trace2_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean sum_trace2_score",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean trace2_concentration",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean trace2_entropy",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_trace_dominance",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean max_trace_dominance",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 2.220446049250313e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed mean mean_pairwise_profile_corr",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed std std_mean_norm",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.0148132334464322e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed std std_corr_with_initial",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.0668549377257364e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed std std_mean_profile_corr",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 1.6132928326584306e-16,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "lineage seed std std_pairwise_profile_corr",
+      "passed": true,
+      "values": 35,
+      "maximum_absolute_difference": 9.410874857174178e-17,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table generation",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table n_cells",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_norm",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table std_mean_norm",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table max_norm",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_corr_with_initial",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table std_corr_with_initial",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table max_corr_with_initial",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table min_corr_with_initial",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_profile_corr_with_initial",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table std_mean_profile_corr",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_trace1_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table max_trace1_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table sum_trace1_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table trace1_concentration",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table trace1_entropy",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_trace2_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table max_trace2_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table sum_trace2_score",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table trace2_concentration",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table trace2_entropy",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_trace_dominance",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table max_trace_dominance",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table mean_pairwise_profile_corr",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "final table std_pairwise_profile_corr",
+      "passed": true,
+      "values": 5,
+      "maximum_absolute_difference": 0.0,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "division events retention",
+      "passed": true,
+      "values": 945,
+      "maximum_absolute_difference": 9.103828801926284e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    },
+    {
+      "name": "division events asymmetry",
+      "passed": true,
+      "values": 945,
+      "maximum_absolute_difference": 3.372302437298913e-15,
+      "atol": 3e-11,
+      "rtol": 3e-09
+    }
+  ],
+  "csv_files": 19,
+  "csv_rows": 9993,
+  "json_files": 6,
+  "lineage_profiles": 1905,
+  "grid_points_per_profile": 256,
+  "function_definitions": 38,
+  "new_stochastic_trajectories": 0,
+  "formal_scientific_verdict_changes": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "additional_descriptive_diagnostics": [
+    {
+      "scenario": "fixed_separating",
+      "seed": 1431,
+      "cosine_similarity": 0.787185083503645,
+      "centered_pearson_correlation": 0.9842632107451477,
+      "mean_profile_l2": 0.021148291423855083,
+      "initial_l2": 0.7493837749473521
+    },
+    {
+      "scenario": "fixed_separating",
+      "seed": 1432,
+      "cosine_similarity": 0.7913997094363561,
+      "centered_pearson_correlation": 0.9864812628891579,
+      "mean_profile_l2": 0.02119342395761699,
+      "initial_l2": 0.7513895259818271
+    },
+    {
+      "scenario": "fixed_separating",
+      "seed": 1433,
+      "cosine_similarity": 0.7894848012368771,
+      "centered_pearson_correlation": 0.9875208159767306,
+      "mean_profile_l2": 0.021191001776807734,
+      "initial_l2": 0.7498809262852684
+    },
+    {
+      "scenario": "fixed_mixing",
+      "seed": 1431,
+      "cosine_similarity": 0.7237349264109829,
+      "centered_pearson_correlation": 0.9563944006705589,
+      "mean_profile_l2": 0.019188370290924052,
+      "initial_l2": 0.7493837749473521
+    },
+    {
+      "scenario": "fixed_mixing",
+      "seed": 1432,
+      "cosine_similarity": 0.7343213836632572,
+      "centered_pearson_correlation": 0.9629872049057528,
+      "mean_profile_l2": 0.019301855512953058,
+      "initial_l2": 0.7513895259818271
+    },
+    {
+      "scenario": "fixed_mixing",
+      "seed": 1433,
+      "cosine_similarity": 0.7332534340823114,
+      "centered_pearson_correlation": 0.9723823344713973,
+      "mean_profile_l2": 0.019353516856652108,
+      "initial_l2": 0.7498809262852684
+    },
+    {
+      "scenario": "alternating",
+      "seed": 1431,
+      "cosine_similarity": 0.7722670845733298,
+      "centered_pearson_correlation": 0.9832981839295895,
+      "mean_profile_l2": 0.020533662490932046,
+      "initial_l2": 0.7493837749473521
+    },
+    {
+      "scenario": "alternating",
+      "seed": 1432,
+      "cosine_similarity": 0.7800280227265713,
+      "centered_pearson_correlation": 0.9852422339827397,
+      "mean_profile_l2": 0.020678817636839892,
+      "initial_l2": 0.7513895259818271
+    },
+    {
+      "scenario": "alternating",
+      "seed": 1433,
+      "cosine_similarity": 0.7782137569188936,
+      "centered_pearson_correlation": 0.9873364472762872,
+      "mean_profile_l2": 0.02068570657911337,
+      "initial_l2": 0.7498809262852684
+    },
+    {
+      "scenario": "random",
+      "seed": 1431,
+      "cosine_similarity": 0.7810196078506353,
+      "centered_pearson_correlation": 0.9871012338160033,
+      "mean_profile_l2": 0.020733486941056124,
+      "initial_l2": 0.7493837749473521
+    },
+    {
+      "scenario": "random",
+      "seed": 1432,
+      "cosine_similarity": 0.7878408618880595,
+      "centered_pearson_correlation": 0.9874767936677723,
+      "mean_profile_l2": 0.02104514130286539,
+      "initial_l2": 0.7513895259818271
+    },
+    {
+      "scenario": "random",
+      "seed": 1433,
+      "cosine_similarity": 0.7891008676124361,
+      "centered_pearson_correlation": 0.9908833776581518,
+      "mean_profile_l2": 0.021017163374843464,
+      "initial_l2": 0.7498809262852684
+    },
+    {
+      "scenario": "jittered_separating",
+      "seed": 1431,
+      "cosine_similarity": 0.7872526461189703,
+      "centered_pearson_correlation": 0.9843885462771257,
+      "mean_profile_l2": 0.02113645799054474,
+      "initial_l2": 0.7493837749473521
+    },
+    {
+      "scenario": "jittered_separating",
+      "seed": 1432,
+      "cosine_similarity": 0.7909459084842712,
+      "centered_pearson_correlation": 0.9869169861189201,
+      "mean_profile_l2": 0.02118610837811367,
+      "initial_l2": 0.7513895259818271
+    },
+    {
+      "scenario": "jittered_separating",
+      "seed": 1433,
+      "cosine_similarity": 0.789682524393725,
+      "centered_pearson_correlation": 0.9877944333312161,
+      "mean_profile_l2": 0.0211840923627134,
+      "initial_l2": 0.7498809262852684
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

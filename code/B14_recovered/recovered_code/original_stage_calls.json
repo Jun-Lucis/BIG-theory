@@ -1,0 +1,50 @@
+[
+  {
+    "cell_index_zero_based": 1,
+    "definitions": "cell_01_functions.py",
+    "original_calls": [
+      "B14_0_diag, B14_0_response, B14_0_profiles, B14_0_snapshots, B14_0_summary = simulate_boundary_memory_writing(\n    seed=1401,\n    N=256,\n    T=8.0,\n    dt=0.005,\n    alpha=0.18,\n    beta=1.00,\n    D_sigma=0.020,\n    noise_sigma=0.010,\n    stimulus_center=np.pi / 3,\n    stimulus_width=0.18,\n    stimulus_amp=1.0,\n    write_t0=0.5,\n    write_t1=2.5,\n    response_lambda=1.25,\n    chi0=1.0,\n    probe_width=0.18,\n)"
+    ],
+    "superseded_unstable_attempt": false
+  },
+  {
+    "cell_index_zero_based": 2,
+    "definitions": "cell_02_functions.py",
+    "original_calls": [
+      "B14_1_scan, B14_1_profiles, B14_1_summary = run_B14_1_fusion_compression(\n    seed=1411,\n    N=256,\n    compression_gamma=0.35,\n    conflict_gamma=0.50,\n    smoothing_steps=12,\n    smoothing_D=0.015,\n)"
+    ],
+    "superseded_unstable_attempt": true
+  },
+  {
+    "cell_index_zero_based": 3,
+    "definitions": "cell_03_functions.py",
+    "original_calls": [
+      "B14_1b_scan, B14_1b_profiles, B14_1b_summary = run_B14_1_fusion_compression_stable(\n    seed=1411,\n    N=256,\n    compression_gamma=0.35,\n    conflict_gamma=0.50,\n    smooth_tau=0.003,\n)"
+    ],
+    "superseded_unstable_attempt": false
+  },
+  {
+    "cell_index_zero_based": 4,
+    "definitions": "cell_04_functions.py",
+    "original_calls": [
+      "B14_2_scan, B14_2_profiles, B14_2_summary = run_B14_2_division_inheritance(\n    seed=1421,\n    N=256,\n    cut_angles_deg=np.linspace(0, 360, 73, endpoint=False),\n    partition_sharpness=8.0,\n    inheritance_efficiency=0.96,\n    leakage=0.04,\n    noise_sigma=0.010,\n    smooth_tau=0.002,\n)"
+    ],
+    "superseded_unstable_attempt": false
+  },
+  {
+    "cell_index_zero_based": 5,
+    "definitions": "cell_05_functions.py",
+    "original_calls": [
+      "B14_2b_all, B14_2b_summary_df, B14_2b_by_seed, B14_2b_summary = run_B14_2b_division_robustness(\n    seeds=(1421, 1422, 1423),\n    N=256,\n    cut_angles_deg=np.linspace(0, 360, 37, endpoint=False),\n\n    base_partition_sharpness=8.0,\n    base_inheritance_efficiency=0.96,\n    base_leakage=0.04,\n    base_noise_sigma=0.010,\n    base_smooth_tau=0.002,\n\n    noise_values=(0.0, 0.005, 0.010, 0.020, 0.040, 0.080),\n    leakage_values=(0.0, 0.02, 0.04, 0.08, 0.12, 0.20),\n    sharpness_values=(3.0, 5.0, 8.0, 12.0, 20.0),\n)"
+    ],
+    "superseded_unstable_attempt": false
+  },
+  {
+    "cell_index_zero_based": 6,
+    "definitions": "cell_06_functions.py",
+    "original_calls": [
+      "B14_3_cell_all, B14_3_profile_all, B14_3_event_all, B14_3_gen_all, B14_3_gen_agg, B14_3_final_summary, B14_3_summary = run_B14_3_multigeneration_inheritance(\n    seeds=(1431, 1432, 1433),\n    generations=6,\n    N=256,\n\n    scenarios=[\n        {\n            \"name\": \"fixed_separating\",\n            \"policy\": \"fixed_separating\",\n            \"params\": {\"cut_deg\": 78.9},\n        },\n        {\n            \"name\": \"fixed_mixing\",\n            \"policy\": \"fixed_mixing\",\n            \"params\": {\"cut_deg\": 143.0},\n        },\n        {\n            \"name\": \"alternating\",\n            \"policy\": \"alternating\",\n            \"params\": {\"cut_deg_even\": 78.9, \"cut_deg_odd\": 143.0},\n        },\n        {\n            \"name\": \"random\",\n            \"policy\": \"random\",\n            \"params\": {},\n        },\n        {\n            \"name\": \"jittered_separating\",\n            \"policy\": \"jittered_separating\",\n            \"params\": {\"cut_deg\": 78.9, \"jitter_deg\": 15.0},\n        },\n    ],\n\n    partition_sharpness=8.0,\n    inheritance_efficiency=0.96,\n    leakage=0.04,\n    noise_sigma=0.010,\n    smooth_tau=0.002,\n)"
+    ],
+    "superseded_unstable_attempt": false
+  }
+]

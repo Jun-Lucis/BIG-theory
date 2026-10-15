@@ -1,0 +1,205 @@
+{
+  "original_notebook": "Untitled68.ipynb",
+  "source_drive_id": "14xe4v9AcKKtS6plku-FXuedIPLiYfNVn",
+  "bytes": 3925098,
+  "sha256": "773954ea7ca5bc6db5f8a1d44aa0ce8e170bb88cf6d9813a6bbeb08068e878d5",
+  "definition_count": 38,
+  "unique_function_names": 31,
+  "functions": [
+    {
+      "cell_index_zero_based": 1,
+      "name": "periodic_angle_distance",
+      "sha256": "6d843d69ae0442d342cc305e843beafa8b7b9b01cf003abe8d16b463483e1273"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "name": "periodic_gaussian",
+      "sha256": "93f013c88c7e7e02cf10e834775e72729c2981d3e306a38fa9eb318105dcf8ae"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "name": "laplacian_periodic_1d",
+      "sha256": "0d3db0001bfa7b85a17e38144a602122617ef8d7a84be5bb961ca2dfdc158258"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "name": "circular_correlation",
+      "sha256": "29a0d48561e868960cde5b9e1e711bb2d1e715fc0227326c3df1eac3a7089bac"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "name": "memory_width",
+      "sha256": "8ecd4a8ddbfaf0e66f992addd4df31c32f7d2e4c29645a984a146ab5ff232cfb"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "name": "simulate_boundary_memory_writing",
+      "sha256": "1cebb6f8879b398e905f25de152d72e67580eff3459916cd0a0b94da15ba1691"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "name": "normalize_profile",
+      "sha256": "28210939279fe71674542cc88d2c448473818788d7c606c733b413ec61df7d15"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "name": "make_memory_profile",
+      "sha256": "8768165654e09a829c35b509f08757a3d1b3a1f28d72a5d54dbf16dfe067a6e7"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "name": "shift_profile_periodic",
+      "sha256": "96c884d67a9a1564c7349403b175a00a5819dad5559ba7a13d037a2ddb6abf17"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "name": "fusion_compress_profiles",
+      "sha256": "6e258bf1a63b94235f5502f0a0c4ef56c295a83c22488f625916be0918ecaab2"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "name": "run_B14_1_fusion_compression",
+      "sha256": "aa9a4733ebf6b76d394d46552262a1f35798b470086792a4cb15ecf5f7b0a64f"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "heat_smooth_periodic_fft",
+      "sha256": "d75b9e1c31f8b46b700019773814043a0bba4cf79ababa6e6dd3859509432b9b"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "make_memory_profile",
+      "sha256": "2d9c5466af92b9221618fd32a96875272546289d89ed65f4e5bb56d781f8fd92"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "shift_profile_periodic",
+      "sha256": "645ad219f1e4dc256c277716004ff293a9d0561db273487eef728b27c40ac358"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "L2_norm_profile",
+      "sha256": "f9f3e5d561bac281619628c383daa84b00c6da809834885dd5089c5cefd8f701"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "fusion_compress_profiles_stable",
+      "sha256": "630586315ffd13bfb4160c38258f948b4b978b940c929d0654a9488907b44587"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "name": "run_B14_1_fusion_compression_stable",
+      "sha256": "f7803295c6bb1eb1105b8d5e57c82a40fc9fbb4fe7b945ebc2e9be02f4288888"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "periodic_angle_distance",
+      "sha256": "0b5e3eef880032399c735f1beec22507e3b5c97521ff691d2f36fd3cc52dc559"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "periodic_gaussian",
+      "sha256": "4a7e36b227ff4dcc05cbd3ee44aa85e9d6a1f8ea5b03c34a248a7bb5d2be40e7"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "L2_norm_profile",
+      "sha256": "f9f3e5d561bac281619628c383daa84b00c6da809834885dd5089c5cefd8f701"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "circular_correlation",
+      "sha256": "d0e4081c150f7380a5e4d084544c3a617c7c818e5c1a15c2949fa12a4bde22a4"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "heat_smooth_periodic_fft",
+      "sha256": "dbbd706e384725fe43f47bb698610d5366d941067258ea703cad558f41f4be38"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "make_parent_memory_profile",
+      "sha256": "2df2f10fa4cb8c4da53a1f9b5d7bc1b4c8c9fcdf9f323621466c740b58bc6bbf"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "smooth_partition_masks",
+      "sha256": "52cc694f748357743109baf03d3625fbe65bf31370f0c972a1a1867e43175d3d"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "division_inherit_profiles",
+      "sha256": "6f7af571c2f44a3e3a8b43798d9cd806d2b94eda5a1bedfa8cb0de873b1d753e"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "name": "run_B14_2_division_inheritance",
+      "sha256": "f41d23825822e3061ebf3ff1965088679aba2b26f6c051de1d90c7764b0c078e"
+    },
+    {
+      "cell_index_zero_based": 5,
+      "name": "run_single_division_scan_for_condition",
+      "sha256": "abdd5f32eff79bd06ec309178263f06e832770973c355423be99474e22328141"
+    },
+    {
+      "cell_index_zero_based": 5,
+      "name": "summarize_division_robustness",
+      "sha256": "5cda12db55b7216baf1549aa5a8753f063f6f217651fe5660815d248064451b9"
+    },
+    {
+      "cell_index_zero_based": 5,
+      "name": "run_B14_2b_division_robustness",
+      "sha256": "1fa633c835cca683b78566c34c18f08af4c98429f0e923d758297ae7f8783377"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "normalized_trace_kernel",
+      "sha256": "508108daa2b444783f4c4692cf0e51b34b997920f2fcf6ff7b93b288525dce34"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "profile_trace_score",
+      "sha256": "323ad586bc04fb984d5cf48417e02ab54a34f586076c440bc7d7a745e712d06b"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "cosine_corr_profile",
+      "sha256": "d28c87d16dd0c9f9db827ea13962b3c93c43790fee259e6606067e3c2ffddbf4"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "normalized_entropy",
+      "sha256": "47de68f5747af96feeae16ededfb7678fb6200a81174a547b86fab8a9699121f"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "concentration_index",
+      "sha256": "899d31542d5c2a5ae37fd3a0c7c14442516fdaa484a613c6209fbadd492e006f"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "pairwise_profile_correlation",
+      "sha256": "123c5583c3e35585056688e95af2a228fb7e8b695439b742fcf8effe8e239989"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "choose_cut_angle",
+      "sha256": "e507c5ec69b081a5576c6cf8f12c08eac6c863ba8bb3c7f3b1e035aac414c3e5"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "simulate_multigeneration_lineage",
+      "sha256": "86976eeddfba5c984c75b66253d77efdab1e6aad40a6ae606cf0198021f457ef"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "name": "run_B14_3_multigeneration_inheritance",
+      "sha256": "77e1565820b2d13fd0c8907fd26071234f726eceeab83977df32ed5da20d2310"
+    }
+  ],
+  "computational_function_body_changes": 0,
+  "notebook_setup_cell_omitted_from_portable_adapter": 0,
+  "superseded_unstable_fusion_cell": 2,
+  "stable_paper_fusion_cell": 3,
+  "new_stochastic_trajectories_in_audit": 0
+}

@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "all_pages_rendered": true,
+  "all_pages_visually_reviewed": true,
+  "image_panels": 19,
+  "all_panels_match_original_published_source_rgb_pixels": true,
+  "panels": [
+    {
+      "page": 4,
+      "public_source_figure": "B14_0_memory_heatmap.png"
+    },
+    {
+      "page": 5,
+      "public_source_figure": "B14_0_memory_profiles.png"
+    },
+    {
+      "page": 5,
+      "public_source_figure": "B14_0_history_dependent_response.png"
+    },
+    {
+      "page": 6,
+      "public_source_figure": "B14_1b_fusion_compression_stable_alignment_scan.png"
+    },
+    {
+      "page": 6,
+      "public_source_figure": "B14_1b_overlap_vs_compression_loss.png"
+    },
+    {
+      "page": 6,
+      "public_source_figure": "B14_1b_fusion_high_overlap_conflict_profiles.png"
+    },
+    {
+      "page": 7,
+      "public_source_figure": "B14_2_division_inheritance_geometry_scan.png"
+    },
+    {
+      "page": 7,
+      "public_source_figure": "B14_2_division_asymmetry_cross_contamination.png"
+    },
+    {
+      "page": 8,
+      "public_source_figure": "B14_2b_division_robustness_combined_summary.png"
+    },
+    {
+      "page": 8,
+      "public_source_figure": "B14_2b_noise_vs_fidelity.png"
+    },
+    {
+      "page": 8,
+      "public_source_figure": "B14_2b_leakage_vs_cross_contamination.png"
+    },
+    {
+      "page": 8,
+      "public_source_figure": "B14_2b_sharpness_vs_cross_contamination.png"
+    },
+    {
+      "page": 9,
+      "public_source_figure": "B14_3_lineage_corr_with_initial.png"
+    },
+    {
+      "page": 9,
+      "public_source_figure": "B14_3_mean_profile_corr_with_initial.png"
+    },
+    {
+      "page": 9,
+      "public_source_figure": "B14_3_trace_entropy_across_generations.png"
+    },
+    {
+      "page": 9,
+      "public_source_figure": "B14_3_trace_concentration_across_lineages.png"
+    },
+    {
+      "page": 10,
+      "public_source_figure": "B14_3_final_profiles_heatmap_fixed_mixing.png"
+    },
+    {
+      "page": 10,
+      "public_source_figure": "B14_3_final_profiles_heatmap_fixed_separating.png"
+    },
+    {
+      "page": 10,
+      "public_source_figure": "B14_3_final_generation_trace_scatter.png"
+    }
+  ],
+  "out_of_page_text_blocks": [],
+  "table_4_all_seven_columns_visible": true,
+  "latex_overfull_boxes": 0,
+  "pdf_bytes": 1652540,
+  "pdf_sha256": "fbf5c91a54a39cab38407aa296a8cc511b9a9b50270b14eb8461efbb2e0fec05"
+}

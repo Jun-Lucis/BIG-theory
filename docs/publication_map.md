@@ -1,5 +1,7 @@
 # BIG Publication Map
 
+**B14 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400901](https://zenodo.org/records/23400901) is published as one complete ZIP. The 13-page clarification preserves the original numerical outcomes and figure panels, documents the operator-defined fusion loss, cosine similarity and lineage-mean identity, and includes recovered original code/data. Saved-data checks passed 165 groups / 36,176 values; 329,270 common public/original values matched. **Basically reproducible; an independent full rerun audit has not yet been completed.**
+
 **B13.1 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400328](https://zenodo.org/records/23400328) is published as one complete ZIP with the clarified paper, unchanged original data/figures and recovered computational source. All 200 audit groups / 33,554 comparisons passed. Public re-download is byte-identical and all 155 internal SHA256 checksums pass. Reproduction is supported in principle; independent full stochastic rerun auditing is not yet complete. [Methods and audit](B13_1_publication_audit_2026_10_16.md).
 
 **B13 archive audit, 15 October 2026:** [Version 1.1 / Zenodo 23392538](https://zenodo.org/records/23392538) is published as one complete ZIP. All twelve manuscript figures are restored from saved outputs (Figure 3 replotted from the unchanged table). Principal numbers are retained; 86 audit groups / 4508 comparisons passed. Public re-download is byte-identical; CRC and all 119 internal SHA256 checksums pass. Original v1 [21072783](https://doi.org/10.5281/zenodo.21072783) remains archived. Reproduction is supported in principle; independent rerun auditing is not yet complete. [Audit](B13_publication_audit_2026_10_15.md).
@@ -618,7 +620,11 @@ Original v1: https://doi.org/10.5281/zenodo.21108338
 B14 introduces an explicit history field on the boundary and tests whether localized traces can survive transformation at a lineage level. It is a reduced operator model, not a quantitative model of biological heredity, fertilization, or cell division.
 
 **Record / DOI:**  
-https://doi.org/10.5281/zenodo.21144373
+https://doi.org/10.5281/zenodo.23400901
+
+Historical v1: https://doi.org/10.5281/zenodo.21144373
+
+[CP19 audit and methods clarification](B14_CP19_AUDIT_20261016.md)
 
 ---
 

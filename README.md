@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B14 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400901](https://zenodo.org/records/23400901) is published as one complete ZIP. The 13-page clarification preserves the original numerical outcomes and figure panels, documents the operator-defined fusion loss, cosine similarity and lineage-mean identity, and includes recovered original code/data. Saved-data checks passed 165 groups / 36,176 values; 329,270 common public/original values matched. **Basically reproducible; an independent full rerun audit has not yet been completed.**
+
 **B13.1 archive audit, 16 October 2026:** [Version 1.1 / Zenodo 23400328](https://zenodo.org/records/23400328) is published as one complete ZIP with the clarified paper, unchanged original data/figures and recovered computational source. All 200 audit groups / 33,554 comparisons passed. Public re-download is byte-identical and all 155 internal SHA256 checksums pass. Reproduction is supported in principle; independent full stochastic rerun auditing is not yet complete. [Methods and audit](docs/B13_1_publication_audit_2026_10_16.md).
 
 **B12 archive audit, 15 October 2026:** [Version 1.1 / Zenodo 23391364](https://zenodo.org/records/23391364) provides one verified supplement ZIP. Source, parameters and data are recovered: reproduction is supported in principle, with independent rerun auditing not yet complete. [Audit and methods](docs/B12_publication_audit_2026_10_15.md).
@@ -745,7 +747,7 @@ Current entries include:
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
 | B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.23392538 |
 | B13.1 | Rotated-basis observation and empirical selection kernel | [v1.1](https://doi.org/10.5281/zenodo.23400328); [original v1](https://doi.org/10.5281/zenodo.21108338) |
-| B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.21144373 |
+| B14 | Boundary history and lineage-level persistence | https://doi.org/10.5281/zenodo.23400901 |
 | B15 | Observation traces and boundary history | https://doi.org/10.5281/zenodo.21173333 |
 | Layered framework | Layered mathematical consolidation through B15 | https://doi.org/10.5281/zenodo.22161614 |
 | B16 | Memory-bearing free boundaries | https://doi.org/10.5281/zenodo.22660005 |
