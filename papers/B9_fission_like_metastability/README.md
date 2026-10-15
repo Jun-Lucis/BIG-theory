@@ -128,22 +128,16 @@ p=1 pinch-envelope zero:             lambda ~ 102.7  (diagnostic)
 
 The key result is not one universal threshold, but the separation
 
-[
-	ext{global energetic preference}
-
-eq
-	ext{finite-amplitude coexistence}
-
-eq
-	ext{local stability loss}
-
-eq
-	ext{pinch-envelope zero}.
-]
+$$
+\text{global energetic preference} \ne
+\text{finite-amplitude coexistence} \ne
+\text{local stability loss} \ne
+\text{pinch-envelope zero}.
+$$
 
 The coexistence and spinodal scales were reproduced in a prospectively frozen held-out-resolution test.
 
-A descriptive normalization using the RIPL fissility variable places the examined (Z=88)–96 nuclei in the model regime where separated configurations are already energetically preferred while the compact circular reference remains locally stable. This is a structural placement only; it is not a calibrated prediction of fission-barrier heights.
+A descriptive normalization using the RIPL fissility variable places the examined 52 nuclei with $88 \le Z \le 96$ in the model regime where separated configurations are already energetically preferred while the compact circular reference remains locally stable. This is a structural placement only; it is not a calibrated prediction of fission-barrier heights.
 
 The phase also retains negative and unresolved outcomes: a two-case external barrier-magnitude check was mixed, two prospective near-spinodal exponent tests failed, and the quartic coefficient remained numerically unresolved.
 
@@ -284,11 +278,27 @@ Avoid unless carefully qualified:
 
 ---
 
+## Publication audit and documentation correction — 15 October 2026
+
+The empirical comparison has a documentation-corrected v4.0: https://doi.org/10.5281/zenodo.23385951. It restores the three archived figures missing from the preceding public PDF, repairs Greek symbols, and identifies the source of each unchanged inner-barrier value. The six-nucleus illustration and five-nucleus barrier subset are explicitly distinguished.
+
+[Audit scope, file verification, and open reproducibility gaps](../../docs/B9_publication_audit_2026_10_15.md). The audit checks archived arithmetic; it does not independently reproduce the original solver or regrade any prospective research result.
+
 ## Zenodo records
 
 Primary BIG-B9 record:
 
 https://doi.org/10.5281/zenodo.20799131
+
+Open-boundary verification dataset:
+
+https://doi.org/10.5281/zenodo.20798687
+
+Empirical comparison, documentation-corrected v4.0:
+
+https://doi.org/10.5281/zenodo.23385951
+
+Previous comparison: https://doi.org/10.5281/zenodo.20942812 (earlier version 20935410).
 
 Empirical Phase II — metastability hierarchies and structural comparison with nuclear fission:
 

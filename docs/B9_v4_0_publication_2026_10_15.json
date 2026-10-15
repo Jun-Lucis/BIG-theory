@@ -1,0 +1,40 @@
+{
+  "doi": "10.5281/zenodo.23385951",
+  "url": "https://zenodo.org/records/23385951",
+  "version": "4.0",
+  "published_date": "2026-10-15",
+  "previous_record": "20942812",
+  "record_type": "Preprint",
+  "status": "PUBLISHED",
+  "files": [
+    {
+      "filename": "BIG_B9_Empirical_Fission_Structural_Comparison_v4_0_Corrected.pdf",
+      "bytes": 464106,
+      "sha256": "2e58d7589237b991fd2aaac10c562e68c28ff5c1c680a8e63ad2cfcba5f2e268",
+      "md5": "c90e9340e3ec721a210900c8a103471e",
+      "published_md5_matches": true,
+      "fresh_public_download_byte_identical": true,
+      "pages": 4
+    },
+    {
+      "filename": "BIG_B9_Audit_and_Documentation_Correction_v4_0.zip",
+      "bytes": 2489670,
+      "sha256": "401b039fcffeb5ef5462b430883625928c113c8c761cf0c35aacabebba310b5d",
+      "md5": "48134047d7fa32e29aafa188af706c3c",
+      "published_md5_matches": true,
+      "fresh_public_download_byte_identical": true,
+      "fresh_download_status": "re-downloaded; byte identical, SHA-256, MD5 and ZIP CRC verified"
+    }
+  ],
+  "scope": "documentation and archived arithmetic only; no original solver replication or research regrading",
+  "original_numerical_files_changed": 0,
+  "research_verdicts_changed": 0,
+  "new_simulations": 0,
+  "original_manifest_matched_files": 19,
+  "phaseII_only_provenance_additional_files": [
+    "B9_3d_params.json",
+    "B9_3d_shape_metrics.csv"
+  ],
+  "additional_files_note": "Byte identity to Phase II established; original-run provenance not independently established.",
+  "arithmetic_check_groups": 14
+}
