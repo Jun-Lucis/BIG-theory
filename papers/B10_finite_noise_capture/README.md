@@ -58,8 +58,8 @@ A trajectory may reach contact or near-contact once without entering a persisten
 
 B10 therefore distinguishes:
 
-* **first hit**: the system reaches a proximity or contact criterion;
-* **sustained capture**: the system remains locked for a required duration or satisfies a hold condition;
+* **first hit**: the system meets the joint distance and internal-state thresholds;
+* **sustained capture**: the looser hold thresholds persist for the required number of sampled updates; the archived code does not require a previously recorded first-hit flag;
 * **escape**: the system fails to remain captured;
 * **timeout**: the trajectory does not complete the required event within the observation time.
 
@@ -133,7 +133,7 @@ too much noise
 
 ![Distance gating window](../../figures/B10/figure_04_distance_gating_window.png)
 
-**Figure:** Distance-gating result. As initial distance increases, the finite-noise capture window contracts and the peak sustained-capture probability declines.
+**Figure:** Distance-gating result. As the scanned separation parameter increases, the finite-noise capture window contracts and the peak sustained-capture probability declines.
 
 ---
 
@@ -254,8 +254,21 @@ Avoid unless carefully qualified:
 
 ---
 
+## Publication audit and archived-data supplement — 15 October 2026
+
+Supplement v1.1 preserves the original manuscript, figures and 16 original package files byte for byte. It adds the recovered replicate counts and source fingerprints, an explicit methods/event note, and a separate L2 table derived at full available precision. Twenty-one cells in the original compact table retain coarser rounding; the original CSV is kept as historical evidence. No stochastic simulator was rerun and no research outcome was regraded.
+
+[Publication audit and open reproducibility gaps](../../docs/B10_publication_audit_2026_10_15.md)  
+[Exact archived update and event definitions](../../docs/B10_methods_and_event_definitions_2026_10_15.md)
+
 ## Zenodo record
 
-Primary BIG-B10 record:
+Current record, with documentation/data supplement v1.1:
+
+https://doi.org/10.5281/zenodo.23386662
+
+Original v1 record (unchanged eight-page manuscript):
 
 https://doi.org/10.5281/zenodo.20819427
+
+Version 1.1 identifies the supplement; the retained manuscript still identifies itself as v1.0.

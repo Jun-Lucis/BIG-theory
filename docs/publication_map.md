@@ -489,9 +489,11 @@ BIG-B10 is not a quantitative theory of nuclear fusion. It does not model Coulom
 B10 gives the dynamic counterpart to B9: if B9 studies separation, B10 studies capture.
 
 **Record / DOI:**
-https://doi.org/10.5281/zenodo.20819427
+https://doi.org/10.5281/zenodo.23386662
 
 ---
+
+**Documentation/data supplement v1.1 — 15 October 2026:** the original eight-page v1.0 manuscript and all 16 original package files remain byte identical. The new archive adds recovered replicate counts, source fingerprints, precise event/update definitions and a separate full-precision L2 table; no simulator was rerun and no scientific verdict was changed. Original v1 record: https://doi.org/10.5281/zenodo.20819427. [Audit scope and remaining provenance gaps](B10_publication_audit_2026_10_15.md).
 
 ### B11: Post-fusion boundary inheritance and non-assimilative stabilization
 

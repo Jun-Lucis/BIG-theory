@@ -1,0 +1,56 @@
+{
+  "doi": "10.5281/zenodo.23386662",
+  "url": "https://zenodo.org/records/23386662",
+  "previous_doi": "10.5281/zenodo.20819427",
+  "previous_version_link_observed": true,
+  "version": "1.1",
+  "unchanged_manuscript_version": "1.0",
+  "publication_date": "2026-10-15",
+  "resource_type": "Working paper",
+  "status": "PUBLISHED_AND_VERIFIED",
+  "files": [
+    {
+      "filename": "BIG_B10_Archive_Audit_Supplement_v1_1.zip",
+      "bytes": 1478487,
+      "sha256": "94156201c482a3e849763070aeceda44790d89e79e59fbc7aed5f694e668dc84",
+      "md5": "359522cdb02b9e2e7ff6da71442ef89b",
+      "fresh_public_download_byte_identical": true
+    },
+    {
+      "filename": "BIG_B10_Zenodo_Edition.pdf",
+      "bytes": 440457,
+      "sha256": "4c92d5a5012e105310fde08f3f730a1334279ec951167c1ad68f41f4917ffbd9",
+      "md5": "fce7fef14649ae014a79b06c961bc412",
+      "fresh_public_download_byte_identical": true
+    }
+  ],
+  "zip_files": 66,
+  "zip_crc_ok": true,
+  "archive_checksums_verified": 65,
+  "original_package_files_byte_preserved": 16,
+  "original_manuscript_unchanged": true,
+  "recovered_files": 38,
+  "replicate_rows": {
+    "I2": 90,
+    "L2": 360,
+    "B10_1": 306
+  },
+  "arithmetic_parameter_table_check_groups": 23,
+  "manuscript_numeric_entries_checked": 141,
+  "manuscript_boolean_entries_checked": 5,
+  "L2_compact_precision_differences": 21,
+  "max_L2_compact_precision_difference": 3.333333333321864e-05,
+  "B10_1_distinct_seeds": 186,
+  "B10_1_replicate_rows": 306,
+  "canonical_loaded_source_fingerprints_matched": 11,
+  "unrecovered_runtime_functions": [
+    "sigmoid_stable",
+    "safe_mean",
+    "safe_median"
+  ],
+  "complete_historical_execution_authentication": "OPEN",
+  "new_stochastic_trajectories": 0,
+  "new_PDE_runs": 0,
+  "research_verdicts_changed": 0,
+  "original_files_modified": 0
+}

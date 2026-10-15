@@ -734,7 +734,7 @@ Current entries include:
 | B8 | Boundary anisotropy and finite-time separatrix thresholds; documentation-corrected dataset v0.2 | https://doi.org/10.5281/zenodo.23385079 |
 | B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
 | B9 empirical Phase II | Metastability hierarchy and empirical structural comparison with nuclear fission | https://doi.org/10.5281/zenodo.23128738 |
-| B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.20819427 |
+| B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.23386662 |
 | B11 | Post-capture hidden-depth inheritance | https://doi.org/10.5281/zenodo.20828439 |
 | B12 | Unified boundary dynamics | https://doi.org/10.5281/zenodo.20872005 |
 | B13 | Boundary folding as observation / self-measurement | https://doi.org/10.5281/zenodo.21072783 |
