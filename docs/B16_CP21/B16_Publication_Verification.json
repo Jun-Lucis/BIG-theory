@@ -1,6 +1,6 @@
 {
-  "status": "PUBLISHED_CHECKSUM_MATCH_REDOWNLOAD_PENDING",
-  "verified_at_utc": "2026-10-15T21:41:31.014753+00:00",
+  "status": "PASS",
+  "verified_at_utc": "2026-10-15T21:50:23.795609+00:00",
   "record_url": "https://zenodo.org/records/23402231",
   "record_id": "23402231",
   "version": "0.4",
@@ -43,23 +43,16 @@
   "local_internal_sha256_checks": 232,
   "local_internal_sha256_status": "PASS",
   "public_redownload": {
-    "status": "NOT_COMPLETED_TIMEOUT",
-    "attempts": [
-      {
-        "method": "button_download_event",
-        "timeout_seconds": 45
-      },
-      {
-        "method": "file_link_download_event",
-        "timeout_seconds": 45
-      },
-      {
-        "method": "file_link_downloadMedia",
-        "timeout_seconds": 55
-      }
-    ],
-    "byte_identity_verified": false,
-    "note": "Public metadata export succeeded. ZIP retrieval did not return a completed browser download; do not claim a public ZIP byte comparison."
+    "status": "PASS",
+    "byte_identity_verified": true,
+    "sha256": "34980fbf7aff247b22f9ffecd95bd34cb2e5751f19600391f5abcbb5e4c9a427",
+    "md5": "91b7d1478c3d723fd659c29bf782ce8c",
+    "bytes": 48088571,
+    "zip_crc": "PASS",
+    "members": 233,
+    "internal_sha256_checks": 232,
+    "internal_sha256_status": "PASS",
+    "note": "Completed by waiting for the browser download in the background while performing independent audit work."
   },
   "independent_full_rerun_audit": "NOT_YET_COMPLETED",
   "new_pde_trajectories": 0,
