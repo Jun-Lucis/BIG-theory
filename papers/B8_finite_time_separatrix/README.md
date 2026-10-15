@@ -1,5 +1,17 @@
 # BIG-B8: Boundary Anisotropy and Finite-Time Separatrix Thresholds
 
+**Documentation-corrected dataset v0.2 published — 15 October 2026.**
+[Current DOI 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079)
+retains the [original v1 archive, DOI 20645317](https://doi.org/10.5281/zenodo.20645317).
+The public ZIP was re-downloaded and verified byte-for-byte against the upload.
+Nine model labels are corrected to exponential, 125 missing ratio identifiers
+are restored, the N96 pooled history includes all 35 existing per-ratio rows,
+and two figures are redrawn from archived values. Original thresholds,
+coefficients, predictions, classifications, raw case exports and the separate
+true log-log exponent 0.575225 are retained. The original solver and ray-fit
+source remain unauthenticated. See the [correction and verification record](../../docs/B8_documentation_correction_2026_10_15.md).
+
+
 This folder collects materials related to **BIG-B8**, a numerical study of how boundary anisotropy affects finite-time survival/runaway thresholds in reduced boundary-field models.
 
 BIG-B8 studies whether boundary geometry is merely an initial visual feature, or whether it can actively shift the finite-time separatrix between survival-like and runaway-like outcomes.
@@ -185,11 +197,13 @@ Avoid unless carefully qualified:
 
 ## Zenodo record
 
-Primary B8 record:
+Current documentation-corrected B8 dataset (v0.2):
 
-```text
+https://zenodo.org/records/23385079
+
+Original archived version:
+
 https://zenodo.org/records/20645317
-```
 
 Related B7/B8 notes may also be listed here as the repository is organized.
 

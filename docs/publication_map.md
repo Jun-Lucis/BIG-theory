@@ -366,6 +366,13 @@ The primary record was already linked in the main README; the unfilled local ent
 
 ### B8: Boundary anisotropy and finite-time separatrix thresholds
 
+**Documentation correction v0.2 — 15 October 2026.** The current dataset is
+[DOI 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079).
+Model labels, case identifiers, the pooled history and two figure representations
+are corrected using existing archived values. The original solver/ray-fit
+source remains unauthenticated. [Correction details](B8_documentation_correction_2026_10_15.md).
+
+
 **Theme:**
 Finite-time survival/runaway thresholds controlled by boundary anisotropy.
 
@@ -387,7 +394,7 @@ B8 turns the statement “boundary matters” into a measurable relation between
 
 **Record / DOI:**
 Zenodo record:
-https://zenodo.org/records/20645317
+https://zenodo.org/records/23385079
 
 B7-related DOI mentioned in supporting notes:
 https://doi.org/10.5281/zenodo.20603601

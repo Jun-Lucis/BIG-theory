@@ -731,7 +731,7 @@ Current entries include:
 | B5 | Mobility-dependent finite-time effective exponents; clarified dataset v1.1; original data preserved | [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643) · [original v1](https://doi.org/10.5281/zenodo.20575991) |
 | B6 | Standalone B6 DOI unconfirmed; BIG6.5 is a separately named earlier paper | [Unresolved mapping](docs/doi_inventory_audit_2026_10_14.md) |
 | B7 | Free-boundary exponent across runaway transition | https://doi.org/10.5281/zenodo.20603601 |
-| B8 | Boundary anisotropy and finite-time separatrix thresholds | https://doi.org/10.5281/zenodo.20645317 |
+| B8 | Boundary anisotropy and finite-time separatrix thresholds; documentation-corrected dataset v0.2 | https://doi.org/10.5281/zenodo.23385079 |
 | B9 | Minimal boundary-energy model for fission-like metastability | https://doi.org/10.5281/zenodo.20799131 |
 | B9 empirical Phase II | Metastability hierarchy and empirical structural comparison with nuclear fission | https://doi.org/10.5281/zenodo.23128738 |
 | B10 | Finite-noise sustained capture | https://doi.org/10.5281/zenodo.20819427 |
