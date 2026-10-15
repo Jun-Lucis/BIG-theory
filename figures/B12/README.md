@@ -1,5 +1,7 @@
 # BIG-B12 Figures
 
+**Archive audit (2026-10-15):** Original PNGs remain historical illustrations. Probability curves are digitized approximations, with maximum lock-probability difference 0.027556 from saved rates; figure 05 contains rounded exact metrics. A new exact-count plot is included in the [single-ZIP Version 1.1 supplement](https://zenodo.org/records/23391364). Both PDF-embedded figures match the original package pixel for pixel. See [methods and plotting scope](../../docs/B12_methods_and_scope_2026_10_15.md). Source, parameters and data support reproduction in principle; independent rerun auditing is not yet complete.
+
 This directory contains representative figures for **BIG-B12**, the unified reduced boundary-dynamical model connecting boundary approach, finite-noise R-lock, and hidden-depth inheritance.
 
 The figures are intended for visual orientation and documentation. They should be read together with the BIG-B12 paper notes, Zenodo records, and the limitation statements in the main repository.

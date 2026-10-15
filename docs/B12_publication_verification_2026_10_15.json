@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-10-15",
+  "published_url": "https://zenodo.org/records/23391364",
+  "doi": "10.5281/zenodo.23391364",
+  "version": "1.1",
+  "public_attachment_count": 1,
+  "file": "BIG_B12_Archive_Audit_Supplement_v1_1.zip",
+  "bytes": 13121667,
+  "sha256": "7c8145201f6d7e1fe9f4b6a9b9b17c4a275473fc5966ae9dd3719e919e754feb",
+  "md5": "29a96229ae11a01c405ed38d8ea3ee81",
+  "public_fresh_download_byte_identical": true,
+  "zip_members": 94,
+  "internal_sha256_verified": 93,
+  "crc_ok": true,
+  "original_pdf_and_16_package_files_preserved": true,
+  "saved_data_files_preserved": 39,
+  "reproducibility_statement": "Source, parameters and data recovered; reproducible in principle. Independent rerun audit not yet complete.",
+  "new_stochastic_trajectories": 0,
+  "scientific_verdict_changes": 0
+}

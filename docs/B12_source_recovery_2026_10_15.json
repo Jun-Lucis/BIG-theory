@@ -1,0 +1,345 @@
+{
+  "notebook_drive_id": "1pvE787dKmTanQA6yi4PgST2_M16sxhza",
+  "notebook_sha256": "14ccc744d797a3437cc364f21564e95aff41f74719663d3a83d88e0f03f759fe",
+  "recovered_simulator_cells_16_and_17_identical": true,
+  "parameters": {
+    "refined_variant_matches_notebook": true,
+    "refined_base_matches_initial_notebook": true,
+    "refined_version_matches_notebook": true
+  },
+  "version_hashes": [
+    {
+      "scan": "B12_1_unified_triad",
+      "version": "B12.1_reduced_unified_triad_v1",
+      "reported_sha16": "41845503f892f168",
+      "sha256_of_version_string": "41845503f892f168",
+      "version_string_hash_matches": true
+    },
+    {
+      "scan": "B12_1b_Rlock_tuning",
+      "version": "B12.1b_finite_noise_Rlock_restoration_v1",
+      "reported_sha16": "f609176d80b48777",
+      "sha256_of_version_string": "f609176d80b48777",
+      "version_string_hash_matches": true
+    },
+    {
+      "scan": "B12_1c_Rlock_bracket",
+      "version": "B12.1c_intermediate_Rlock_bracket_scan_v1",
+      "reported_sha16": "757ad39ab0897ad6",
+      "sha256_of_version_string": "757ad39ab0897ad6",
+      "version_string_hash_matches": true
+    },
+    {
+      "scan": "B12_1d_R_ignition",
+      "version": "B12.1d_R_ignition_barrier_finite_noise_window_v1",
+      "reported_sha16": "fae029d1ec8a101c",
+      "sha256_of_version_string": "fae029d1ec8a101c",
+      "version_string_hash_matches": true
+    },
+    {
+      "scan": "B12_1d_refined_d2",
+      "version": "B12.1d_refined_d2_finite_noise_window_v1",
+      "reported_sha16": "d13cc7eda6cbbc04",
+      "sha256_of_version_string": "d13cc7eda6cbbc04",
+      "version_string_hash_matches": true
+    }
+  ],
+  "historical_cells": [
+    {
+      "notebook_index_zero_based": 0,
+      "execution_count": 1,
+      "path": "cell_00.py",
+      "bytes": 13987,
+      "sha256": "8835f0f39e6c80f1aba79a1d138b2b8a79f7a9035e85ffbcd154c4472d75f7f5"
+    },
+    {
+      "notebook_index_zero_based": 1,
+      "execution_count": 3,
+      "path": "cell_01.py",
+      "bytes": 6201,
+      "sha256": "b6b9262cbbff4f4757b28f8269bad2db3bb60b68da4f04f4bacc5969d7d4ef75"
+    },
+    {
+      "notebook_index_zero_based": 6,
+      "execution_count": 8,
+      "path": "cell_06.py",
+      "bytes": 12214,
+      "sha256": "315537c7f7aeff0b0f917311a7e4f75a52ed535d21e65cddca60c5d04dd329bc"
+    },
+    {
+      "notebook_index_zero_based": 7,
+      "execution_count": 9,
+      "path": "cell_07.py",
+      "bytes": 6755,
+      "sha256": "dd7882662b11b3645d491caa267cca5546a7004cd364a68f5962b15080b9717a"
+    },
+    {
+      "notebook_index_zero_based": 8,
+      "execution_count": 10,
+      "path": "cell_08.py",
+      "bytes": 5580,
+      "sha256": "a573da3f74253d1d4f0a14b3aff1cf35922e7c30d4b4f7b55d0e9a82ce31191f"
+    },
+    {
+      "notebook_index_zero_based": 11,
+      "execution_count": 13,
+      "path": "cell_11.py",
+      "bytes": 7141,
+      "sha256": "564dce2e7b665bd208a7779ce80e363d3e94b496771cc6ba571b4c12ba56154a"
+    },
+    {
+      "notebook_index_zero_based": 12,
+      "execution_count": 14,
+      "path": "cell_12.py",
+      "bytes": 3851,
+      "sha256": "d0df8973411c23b7716d187a481ac7d720c68a5da78b5c08af533ae7a9322349"
+    },
+    {
+      "notebook_index_zero_based": 13,
+      "execution_count": 15,
+      "path": "cell_13.py",
+      "bytes": 3851,
+      "sha256": "d0df8973411c23b7716d187a481ac7d720c68a5da78b5c08af533ae7a9322349"
+    },
+    {
+      "notebook_index_zero_based": 16,
+      "execution_count": 18,
+      "path": "cell_16.py",
+      "bytes": 14271,
+      "sha256": "b45b4a95d248df0d8c68695b822d43983ab1217da237c75c2ae070a969423097"
+    },
+    {
+      "notebook_index_zero_based": 18,
+      "execution_count": 20,
+      "path": "cell_18.py",
+      "bytes": 8399,
+      "sha256": "470550ce33af25ef7bfc28456e285be432e8b0bbe86720ae52296db202103f2d"
+    },
+    {
+      "notebook_index_zero_based": 19,
+      "execution_count": 21,
+      "path": "cell_19.py",
+      "bytes": 6643,
+      "sha256": "93ace208185c881822d828b00e6d4ae3f8c1ac030ebb6e97150dd485b65a7bbc"
+    },
+    {
+      "notebook_index_zero_based": 28,
+      "execution_count": 30,
+      "path": "cell_28.py",
+      "bytes": 4846,
+      "sha256": "e6631ff55f5e81b37e37189ec9f98303f8f12f785f4a2dbca13699cf006a72b6"
+    },
+    {
+      "notebook_index_zero_based": 30,
+      "execution_count": 32,
+      "path": "cell_30.py",
+      "bytes": 3822,
+      "sha256": "e4caf2e4f02d1c5728752097be9733ac4ec0ab32b2df09e32a346eba6f1b5e9d"
+    },
+    {
+      "notebook_index_zero_based": 31,
+      "execution_count": 33,
+      "path": "cell_31.py",
+      "bytes": 7772,
+      "sha256": "582f8fa94c1a22dc133372ac62388b5c9562c62d8532d8b20dec22650ee9e35b"
+    },
+    {
+      "notebook_index_zero_based": 33,
+      "execution_count": 35,
+      "path": "cell_33.py",
+      "bytes": 7507,
+      "sha256": "2cb4d0daa9662ef7aad962d69b58156194ea1bb6316fd78f702ff067f2d235ac"
+    }
+  ],
+  "extracted_functions": [
+    {
+      "name": "sigmoid",
+      "cell": 0,
+      "start_line": 61,
+      "end_line": 63,
+      "sha256": "407098f8f2adca317ae7b26de432eeec544fb58e4e8f8a2dd03e0a98b7c832c8"
+    },
+    {
+      "name": "normalize",
+      "cell": 0,
+      "start_line": 65,
+      "end_line": 70,
+      "sha256": "9a1037c319a3f8fc8be35ed7a1f5209090bdd32b1a907912bcfab92618af9c5d"
+    },
+    {
+      "name": "cosine",
+      "cell": 0,
+      "start_line": 72,
+      "end_line": 79,
+      "sha256": "526ded55ef91b3f262e1dfc596db70d0d23c75a6e028656f8b779fac7c99a17c"
+    },
+    {
+      "name": "make_correlated_pair",
+      "cell": 0,
+      "start_line": 81,
+      "end_line": 90,
+      "sha256": "2cf6f3033cf9cf5a5af99200d681d70a48550ac4b49c545362b23a44e719df39"
+    },
+    {
+      "name": "extended_templates",
+      "cell": 0,
+      "start_line": 92,
+      "end_line": 103,
+      "sha256": "f9fe5dce4d69dbee6a4113b2a80d07e12ea78ec750c7839b4401123b27080a09"
+    },
+    {
+      "name": "sector_stats",
+      "cell": 0,
+      "start_line": 105,
+      "end_line": 117,
+      "sha256": "7f53fac69ee960b5cfbb8d585407dba7cfe51d553b29ed6f49b0265db896ce48"
+    },
+    {
+      "name": "post_energy_grad",
+      "cell": 0,
+      "start_line": 122,
+      "end_line": 185,
+      "sha256": "fd65781b49550891456862bbebaf7a9ce5f390da93d2606a109f14fbda7074e8"
+    },
+    {
+      "name": "classify_h",
+      "cell": 0,
+      "start_line": 187,
+      "end_line": 236,
+      "sha256": "83410a7825d9def3198965e8328de134578ff8d5fbc3bfcf210bce1a171b1c2b"
+    },
+    {
+      "name": "make_initial_h",
+      "cell": 0,
+      "start_line": 241,
+      "end_line": 264,
+      "sha256": "f7645315ad93c38be2a14d63705905a321b10b77f3dd4934af1c6fc50c4b66eb"
+    },
+    {
+      "name": "simulate_unified_one_B12_1d",
+      "cell": 16,
+      "start_line": 118,
+      "end_line": 453,
+      "sha256": "ef436198961dda4321006be0d3a02ba6d3c8491c72bc8f9e45498abb608e572f"
+    }
+  ],
+  "source_recovery_status": "Source, parameters and data recovered; reproducible in principle. Independent rerun audit incomplete; historical exact-byte/environment details not independently verified.",
+  "endpoint_inheritance_checks": [
+    {
+      "scan": "B12_1_unified_triad",
+      "rows": 7200,
+      "four_condition_candidates_overridden_by_prior_classifier_branch": 0,
+      "recorded_inheritance_vs_ordered_predicate_mismatches": 0,
+      "scope": "inheritance branch verified from saved scalar observables and source priority; full vector/emergent branch not reconstructed"
+    },
+    {
+      "scan": "B12_1b_Rlock_tuning",
+      "rows": 4400,
+      "four_condition_candidates_overridden_by_prior_classifier_branch": 6,
+      "recorded_inheritance_vs_ordered_predicate_mismatches": 0,
+      "scope": "inheritance branch verified from saved scalar observables and source priority; full vector/emergent branch not reconstructed"
+    },
+    {
+      "scan": "B12_1c_Rlock_bracket",
+      "rows": 3960,
+      "four_condition_candidates_overridden_by_prior_classifier_branch": 0,
+      "recorded_inheritance_vs_ordered_predicate_mismatches": 0,
+      "scope": "inheritance branch verified from saved scalar observables and source priority; full vector/emergent branch not reconstructed"
+    },
+    {
+      "scan": "B12_1d_R_ignition",
+      "rows": 6000,
+      "four_condition_candidates_overridden_by_prior_classifier_branch": 5,
+      "recorded_inheritance_vs_ordered_predicate_mismatches": 0,
+      "scope": "inheritance branch verified from saved scalar observables and source priority; full vector/emergent branch not reconstructed"
+    },
+    {
+      "scan": "B12_1d_refined_d2",
+      "rows": 5940,
+      "four_condition_candidates_overridden_by_prior_classifier_branch": 7,
+      "recorded_inheritance_vs_ordered_predicate_mismatches": 0,
+      "scope": "inheritance branch verified from saved scalar observables and source priority; full vector/emergent branch not reconstructed"
+    }
+  ],
+  "refined_trace_checks": [
+    {
+      "name": "B12_1d_refined_trace_low_noise.csv",
+      "rows": 350,
+      "effective_coupling_max_error": 6.617444900424222e-24,
+      "times_start": 0.0,
+      "times_end": 69.8,
+      "full_vectors_or_all_integration_steps": false
+    },
+    {
+      "name": "B12_1d_refined_trace_peak_noise_0.070.csv",
+      "rows": 350,
+      "effective_coupling_max_error": 2.220446049250313e-16,
+      "times_start": 0.0,
+      "times_end": 69.8,
+      "full_vectors_or_all_integration_steps": false
+    },
+    {
+      "name": "B12_1d_refined_trace_high_noise_0p160.csv",
+      "rows": 350,
+      "effective_coupling_max_error": 2.220446049250313e-16,
+      "times_start": 0.0,
+      "times_end": 69.8,
+      "full_vectors_or_all_integration_steps": false
+    }
+  ],
+  "pdf_figure_pixel_checks": [
+    {
+      "page": 2,
+      "size": [
+        2097,
+        681
+      ],
+      "pixel_identical_original_figures": [
+        "B12_unified_architecture.png"
+      ]
+    },
+    {
+      "page": 4,
+      "size": [
+        889,
+        549
+      ],
+      "pixel_identical_original_figures": [
+        "B12_1d_refined_d2_window_probabilities.png"
+      ]
+    }
+  ],
+  "github_figure_checks": [
+    {
+      "file": "figure_01_unified_boundary_architecture.png",
+      "sha256": "5d0e1bc1ebacfc435c9a16abf653f4d3c61bda9cf9e7344a80f383f94685769b",
+      "byte_identical_original_figures": [
+        "B12_unified_architecture.png"
+      ]
+    },
+    {
+      "file": "figure_02_finite_noise_R_lock_window.png",
+      "sha256": "69e8be0af4302575b944a6f47b73b94cda7502082627f8e8dcad0eb8c22ed387",
+      "byte_identical_original_figures": [
+        "B12_1d_refined_d2_window_probabilities.png"
+      ]
+    },
+    {
+      "file": "figure_03_full_success_vs_noise.png",
+      "sha256": "04d05b7d8d3f178f2931df351061f825f50cf596b32219e8c3c8d63155955c08",
+      "byte_identical_original_figures": []
+    },
+    {
+      "file": "figure_04_hit_lock_full_success_comparison.png",
+      "sha256": "79e64794615d426028df183878a8aae248b7a634d9d13716e8f5330aa3236d66",
+      "byte_identical_original_figures": []
+    },
+    {
+      "file": "figure_05_refined_window_metrics_summary.png",
+      "sha256": "88d5293b3a8e00cbb3e3fb245ef0348c1e5504a2d3e2f933e844c23609dcac14",
+      "byte_identical_original_figures": []
+    }
+  ],
+  "fixed_protocol_syntax_valid": true,
+  "no_stochastic_trajectory_executed": true
+}

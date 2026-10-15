@@ -1,5 +1,7 @@
 # BIG-B12: Unified Boundary Dynamics with Finite-Noise R-Lock and Hidden-Depth Inheritance
 
+**Archive audit (2026-10-15):** [Zenodo Version 1.1](https://zenodo.org/records/23391364), one complete supplement ZIP. All 27,500 saved rows across five scans reproduce 9,091 summary cells. Original Colab source, parameters and data are recovered; reproduction is supported in principle, with independent rerun auditing not yet complete. See [audit](../../docs/B12_publication_audit_2026_10_15.md), [exact methods and classifier priority](../../docs/B12_methods_and_scope_2026_10_15.md), and [recovered core](../../code/B12/). Full success is strict lock AND final inheritance; the historical `inherited_during_lock` flag has a different, latched meaning. Original v1 and original B9/B10/B11 citations below are retained.
+
 **BIG-B12** connects the main motifs of BIG-B9, BIG-B10, and BIG-B11 in one reduced boundary-dynamical framework.
 
 This folder is the main explanatory entry point for BIG-B12.

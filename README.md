@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B12 archive audit, 15 October 2026:** [Version 1.1 / Zenodo 23391364](https://zenodo.org/records/23391364) provides one verified supplement ZIP. Source, parameters and data are recovered: reproduction is supported in principle, with independent rerun auditing not yet complete. [Audit and methods](docs/B12_publication_audit_2026_10_15.md).
+
 > 🇯🇵 **日本語概要 / Japanese overview**
 > 境界情報幾何学（BIG）の日本語での概要はこちら：
 > [docs/BIG_overview_ja.md](docs/BIG_overview_ja.md)

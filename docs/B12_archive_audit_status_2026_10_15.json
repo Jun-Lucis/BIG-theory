@@ -1,0 +1,59 @@
+{
+  "audit_date": "2026-10-15",
+  "new_critical_in_B12_scope": 0,
+  "scientific_verdict_changes": 0,
+  "new_stochastic_trajectories": 0,
+  "issues": [
+    {
+      "id": "B12-A01",
+      "severity": "MAJOR",
+      "issue": "Original package lacks full simulator; protocol stub has syntax error; historical runtime/source authentication incomplete",
+      "status": "SOURCE_RECOVERED_INDEPENDENT_AUDIT_PENDING",
+      "action": "Recovered original notebook, 15 exact historical cells, extracted core and syntax-corrected protocol. Reproduction is supported in principle; independent rerun auditing is incomplete. Historical environment details and version-string hash provenance are documented."
+    },
+    {
+      "id": "B12-A02",
+      "severity": "MODERATE",
+      "issue": "Strict lock/final success, classifier order and inherited_during_lock semantics underspecified",
+      "status": "PUBLISHED_SUPPLEMENT_ANNOTATION",
+      "action": "Document full thresholds, ordering, endpoint conjunction, continuous gate and decimated-trace limits; preserve labels."
+    },
+    {
+      "id": "B12-A03",
+      "severity": "MODERATE",
+      "issue": "CODE_SHA16 is version-string hash, not source authentication",
+      "status": "PUBLISHED_SUPPLEMENT_ANNOTATION",
+      "action": "Identify hash construction and provide current notebook/cell/function/file SHA256 provenance."
+    },
+    {
+      "id": "B12-A04",
+      "severity": "MODERATE",
+      "issue": "Approximate digitized curves should not be read as exact rates",
+      "status": "PUBLISHED_SUPPLEMENT_ANNOTATION",
+      "action": "Quantify differences and add exact-count plot; preserve original approximate images."
+    },
+    {
+      "id": "B12-A05",
+      "severity": "MODERATE",
+      "issue": "Original PDF/package/record availability text stale relative to present raw attachment",
+      "status": "PUBLISHED_SUPPLEMENT_ANNOTATION",
+      "action": "Record v1 raw CSV already present at audit; consolidate source/data into one supplement ZIP."
+    },
+    {
+      "id": "B12-A06",
+      "severity": "MINOR",
+      "issue": "Original PDF draft/DOI placeholders and architecture literal newline/label crowding",
+      "status": "ORIGINAL_PDF_OPEN",
+      "action": "Provide correct citation and methods prose; original PDF retained byte for byte."
+    },
+    {
+      "id": "B12-A07",
+      "severity": "MODERATE",
+      "issue": "Finite-grid result, explicit noise-dependent drift and residual noises require scope limits",
+      "status": "PUBLISHED_SUPPLEMENT_ANNOTATION",
+      "action": "Clarify finite T/dt, exploration/precision, noncausal endpoint test, no continuum or physical validation."
+    }
+  ],
+  "published_url": "https://zenodo.org/records/23391364",
+  "reproducibility_statement_ja": "基本的に再現可能。独立再実行による監査は未了。"
+}
