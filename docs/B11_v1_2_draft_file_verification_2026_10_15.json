@@ -1,0 +1,444 @@
+{
+  "checkpoint": "CP15",
+  "observed_date": "2026-10-15",
+  "recorded_utc": "2026-10-15T08:58:53.339115+00:00",
+  "status": "SPLIT_UPLOAD_VERIFIED_PUBLICATION_ERROR_REQUIRES_RESUMPTION",
+  "current_verified_public_record_url": "https://zenodo.org/records/23387434",
+  "current_verified_public_version": "1.1",
+  "v1_1_supplement_missing": true,
+  "v1_1_description_corrected_public_readback": true,
+  "v1_1_original_pdf_fresh_download_byte_match": true,
+  "v1_1_original_zip_fresh_download_byte_match": true,
+  "v1_1_original_zip_crc_ok": true,
+  "draft_url": "https://zenodo.org/uploads/23388916",
+  "draft_reserved_doi": "10.5281/zenodo.23388916",
+  "draft_version": "1.2",
+  "draft_file_count": 66,
+  "draft_all_66_md5_match_saved_sources": true,
+  "split_parts": 62,
+  "max_part_bytes": 524288,
+  "supplement_bytes": 32259200,
+  "reassembled_supplement_sha256": "6d82a98ce725ebb6264b868e84922902edb68bb36b1599f64caa70bc311cd7c7",
+  "reassembled_supplement_md5": "46f590557fcbb0c94264367f6ecdfd93",
+  "split_reassembly_byte_identical_to_saved_zip": true,
+  "supplement_internal_sha256_verified": 46,
+  "publish_requests_submitted": 1,
+  "publish_error_visible_text": "The draft was not published. Please try again. If the problem persists, contact user support.",
+  "retry_publish_click_blocked_while_save_was_disabled": true,
+  "save_completed_after_publish_error": true,
+  "browser_reload_requested": true,
+  "browser_reload_outcome": "timeout; kernel reset; subsequent tab reconnection and fresh-tab navigation timed out",
+  "canceled_upload_metadata_stubs_present": null,
+  "canceled_upload_metadata_stubs_note": "Possible cause to inspect after successful reload; not established by observed UI. Do not delete any verified complete file.",
+  "v1_2_publication_verified": false,
+  "v1_2_public_files_redownload_verified": false,
+  "next_actions": [
+    "Resume existing draft 23388916; do not create another version or re-upload the verified 62 parts.",
+    "After loading, inspect for canceled unfinalized upload stubs from BIG_B11_Archive_Audit_Supplement_v1_1.zip, .zip.part01 and .zip.part001; their presence after reload is unverified.",
+    "Preserve all 66 completed intended files. Remove only a confirmed unfinalized canceled stub if present; verify filenames, sizes and MD5 again.",
+    "Publish the complete draft, then freshly download the public files and verify all bytes and supplement reassembly before updating current DOI links to 23388916."
+  ],
+  "draft_files": [
+    {
+      "filename": "BIG_B11_Zenodo_Edition.pdf",
+      "bytes": 633372,
+      "sha256": "c120d65cbbf9a7f4b9df077b33b5c10a417fb3b6e8bc89f58b3ddbeaaebd0ebe",
+      "md5": "4f6301f019da84cbdfdec4575eeb00cf"
+    },
+    {
+      "filename": "BIG_B11_Zenodo_Upload_Package_v1.zip",
+      "bytes": 1589494,
+      "sha256": "f96c27646035c414904d00796b6d5ff8aff8e447b77da9aefa9e7e0326190c3a",
+      "md5": "9c93a0398ca2fac2d1b7a3f8e473cf89"
+    },
+    {
+      "filename": "B11_SUPPLEMENT_DOWNLOAD_AND_REASSEMBLY.md",
+      "bytes": 2530,
+      "sha256": "da0e861c01cd81d04fdae73005c9e6d779867476fd4f4add9057e7d7eed8a29c",
+      "md5": "6b4cca0dfb51a5903f3ebfe3b38530c1"
+    },
+    {
+      "filename": "B11_SUPPLEMENT_PARTS_SHA256.json",
+      "bytes": 15302,
+      "sha256": "fa09bddf5e2cedff1110b0fbe8614f9f5e0d8cb0572c2e6b037c706732332042",
+      "md5": "9ab14d3d6931e012ad952044a7fb5aa6"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0001",
+      "bytes": 524288,
+      "sha256": "667b2205d3e0fd75c8008159eb9249244f3a2a536c556fbc3991a0700a976a9b",
+      "md5": "416310f9bd94936369e12a07ecd7f0b1"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0002",
+      "bytes": 524288,
+      "sha256": "2fb0846616b52acaecb5561a60abb2bce925363548c58413c3ea81519cddf3c7",
+      "md5": "17f35cd2e40d45ae301b44cbfbef9961"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0003",
+      "bytes": 524288,
+      "sha256": "61af2286286900bf02ee49b697798decc3c5efccfe4109d92387877e91d7a9c6",
+      "md5": "032b3099f144fbb1ed1e3920b10a8126"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0004",
+      "bytes": 524288,
+      "sha256": "3c9fde70cd53f2bbc0b116a2bc063482895e99d9b592b70a43a7320232ddecb2",
+      "md5": "f6856b7b59e6950000ebcf8427e78bf1"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0005",
+      "bytes": 524288,
+      "sha256": "effdd6b085ce41269c03840203ec2944eeb446231a45d7e94684c58893d4639a",
+      "md5": "2dca92371f21c896bbc47e64d5b9e5d9"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0006",
+      "bytes": 524288,
+      "sha256": "c0332c469ac7f3973bce7613b6698ab16d640ae5f476835615bf50ba9341aad8",
+      "md5": "50e856fe8bf013f02291d9c615de5b18"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0007",
+      "bytes": 524288,
+      "sha256": "48611a18611f45626a68069bf0d5698b5e9f52bb7ee622ae56ef83a2fed80a66",
+      "md5": "ec84c5cbdcca4c31f2fb70f5f394bb4d"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0008",
+      "bytes": 524288,
+      "sha256": "d4a4358def37756c74677dea7c154e97578e59ee2c93d6f71d7e7a84be0260df",
+      "md5": "9312d3e8a6840530e66876285a3509f0"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0009",
+      "bytes": 524288,
+      "sha256": "bf91c2000679296dbb1b64cf484f86e38cea2dcea006f9f86effd2ad3cf7b6ea",
+      "md5": "cc00d91322b4061c08084e6285004eb8"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0010",
+      "bytes": 524288,
+      "sha256": "a7227695c8c11ec36ce245c0ca4878fa3b78e5d1b2c13c19b4ab46af06c92251",
+      "md5": "3f9c6ed2fd2ac4b3a2a661095ac0df15"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0011",
+      "bytes": 524288,
+      "sha256": "9c77b4f295ea8df5aa5e2f1e91dfe87704021e1ade22ceea6ce10187673541bb",
+      "md5": "117b41c6fb241fe0bbb33ba5735fdb40"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0012",
+      "bytes": 524288,
+      "sha256": "75521b59e1793bb08861a19b18cbd0b01bff45d162edf02449f4d23cee46afdd",
+      "md5": "1079ece7d39d55c1551d242a98e4bebf"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0013",
+      "bytes": 524288,
+      "sha256": "20a55b7ac3663bd810ab99e0b25470cc720e1d3e93bbf82e9c1d647000767fdc",
+      "md5": "a81303e1128bccac359d52e0028bf825"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0014",
+      "bytes": 524288,
+      "sha256": "a7c490d41948d62beaf7309fb1b79096e5e1ec91e26f1e3eae266b2191a511bc",
+      "md5": "22ccd190cbe1ddf230a741c2ebd046cc"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0015",
+      "bytes": 524288,
+      "sha256": "6d9e323d28a3ab578ddb05b29b53b8eec064cbe8e24549dd43155c35afbed95c",
+      "md5": "1588e5746f82f1ec636cde311c9bad10"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0016",
+      "bytes": 524288,
+      "sha256": "e66c03f47dec3f026b5c4ba5c80b94b62525c79823998616087d3f4b63a42876",
+      "md5": "e7e5ac04aa12c3fcb9b15e971154847b"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0017",
+      "bytes": 524288,
+      "sha256": "82acd2c9f30b60464526d49073fb4d95a7d51363c8420320f4ac6af34b2dc1ad",
+      "md5": "9801395aa630cd58bc7ccfca90e7a97a"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0018",
+      "bytes": 524288,
+      "sha256": "dce4aeeabeb7fa766ab614aa1382f8ac728f1c9c54afd582f69d08f4e11471b3",
+      "md5": "005becde44324069ec44e52474d6aa5e"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0019",
+      "bytes": 524288,
+      "sha256": "56bf8676720adc0d1c339ae647ca7a7b4969562bef848a2e9f92eef691adcd81",
+      "md5": "df3e83e0e0f28df8531dffda7bb3a0b9"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0020",
+      "bytes": 524288,
+      "sha256": "5e20cfec23310b8cce998d43315a22f9f9bf346e275319650187432f4f269e5f",
+      "md5": "b25275a8898d57f92eaa9bbc2280fe9a"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0021",
+      "bytes": 524288,
+      "sha256": "7137cee8a7c249fafe51587b5494876e7cff5b8b14f4c4c8466a2017a4971dbc",
+      "md5": "0c3d0e8e8cdd6ea7c165d28a11b80997"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0022",
+      "bytes": 524288,
+      "sha256": "a26037af45086d5329e4372c3bb713947e3dbe29e5350e48518ee1dd3ffada49",
+      "md5": "cbd26ab828bb8235ec9f3bba9de3f368"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0023",
+      "bytes": 524288,
+      "sha256": "0177844940b86d01676f2adfe543d5daba98ae0ca0dfa95a7705a70182b63800",
+      "md5": "61c43f7e3c067d2f637cd96768ce54e4"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0024",
+      "bytes": 524288,
+      "sha256": "ae6ad5e692a258fa655f40dbbd268bf329ced9c5d7d062be82cbaf55dd0e2912",
+      "md5": "8069d7000333c68d7eacd48eca5c4d9f"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0025",
+      "bytes": 524288,
+      "sha256": "3163e77e097a067f43a3f1038edd099a8c1c6ff544e3f570dd92de6f03ab9e6f",
+      "md5": "b506dd05bddd5fbe353b8d68e81d1bcb"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0026",
+      "bytes": 524288,
+      "sha256": "ff8aafb1d144d688eeb1b6d10c10d975cb3f456afa943e5e415682e0aa99b8f1",
+      "md5": "75ee285f036389fc6449f4322a2bacdb"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0027",
+      "bytes": 524288,
+      "sha256": "33662b79f65f9276d50f616579bf03eb1937bc1366d219aa3174d2256b7f3fd8",
+      "md5": "29c4a838d7f31986387a7289ce4b1c05"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0028",
+      "bytes": 524288,
+      "sha256": "71f9902f8436085f721628f44d24876e3f36bf76f3e9201fc6fac58d3e0cd4ff",
+      "md5": "e3c713ec9becde8458eabab617fd1bc9"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0029",
+      "bytes": 524288,
+      "sha256": "058b9a75031c1cde37f0d64840b511c5fcc729339444bca3521045f47bb0dd7b",
+      "md5": "44acc309f61bfa5ff9826ab624517e83"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0030",
+      "bytes": 524288,
+      "sha256": "af6bac07476e41913a35d1d46110f96dcef67dccbdc7e2634374fe4e45dc2bd6",
+      "md5": "ff9a3c109766215c8a4728915a342b83"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0031",
+      "bytes": 524288,
+      "sha256": "ccc6c81f60678a9f223e21f11355bb606fd2e6147b4a1346113f0003a637459e",
+      "md5": "ddc4c2f782d6f084c99302eedd3f7394"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0032",
+      "bytes": 524288,
+      "sha256": "b9d640d7a16fbbdbdc4a1b1396fe4f631f86dcfc8caadbcfbcef8ab31d76e3b2",
+      "md5": "1d904e2309c54040a195b1c2d434e78f"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0033",
+      "bytes": 524288,
+      "sha256": "53efdf96d4c6311e3c872255d209c684a74a41f09cdf492d31e5a0e0a4271c94",
+      "md5": "be66301f8ce8941c0cc535ad018c3296"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0034",
+      "bytes": 524288,
+      "sha256": "24669b86a5618853e877a1ea3b920c19a75ec7b8164753d2c8ffbc194542e51f",
+      "md5": "cb3a3493b66c047178e93b5028e6d834"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0035",
+      "bytes": 524288,
+      "sha256": "45ac8c5e8be9eb94f142cb78f5ca4542db16272e48f6e4b1a9a824e9e1df3342",
+      "md5": "f2e3a878ae0b2f5084ca52b8df8052ae"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0036",
+      "bytes": 524288,
+      "sha256": "0c242707bf47ccfe3a6d57fa86f5e3fb427625da0941543fcdc5f0bcfa09a618",
+      "md5": "2437d286367b60b68e49855b12146093"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0037",
+      "bytes": 524288,
+      "sha256": "e1a4b77300035e4ddbe7d8f75e6e23ab95908031c19d416ff08a3d0f5a89adbe",
+      "md5": "36c3e960e43d1b42b3681c725752efbe"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0038",
+      "bytes": 524288,
+      "sha256": "c5f49371bc107b16bcdc467281cb68a71cff0e893e5224b606930af5ac67dd8b",
+      "md5": "c624a6e2db5329982d708656a77527c5"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0039",
+      "bytes": 524288,
+      "sha256": "dc22e9a853c53d09ac55c28936c4b44d08b56fb87f11cc8a8fdd39b80721a84d",
+      "md5": "a42ff16cb21e2cddb9f4922fc3d9c9f2"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0040",
+      "bytes": 524288,
+      "sha256": "e9930967d99a544b89766e2e770e1154b01bdfbd4b8552b47cf80b6d614edd03",
+      "md5": "a8b62eba9d643cf2f0e132a3d4b6211d"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0041",
+      "bytes": 524288,
+      "sha256": "2bf454f05f8fcc554fe7e7d451e5626786780b9bac95ee9b74c22ebf66b2da46",
+      "md5": "9191fa759c0ce860afdd1e25a50c99f3"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0042",
+      "bytes": 524288,
+      "sha256": "177296a21fc6ed438ca05823ce19d54c71b05ef4ce4f8cfee9002b88cf015a74",
+      "md5": "c7cfe7a37aa101e9cecc5fdc3ca99c7a"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0043",
+      "bytes": 524288,
+      "sha256": "3249f24beab92b2505aaaddfa49260051d376fe67051b5b3b40cd3d4fe82edba",
+      "md5": "13e1d1bc045ac4e361e182a837f89218"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0044",
+      "bytes": 524288,
+      "sha256": "1e60da8f88eb6fe2b22da47d13601bcd2c29747cf0e529b7000c1f5d441b3731",
+      "md5": "216465a1a23e6bc7fec57c21d39e7ad4"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0045",
+      "bytes": 524288,
+      "sha256": "f1136d7a3bdf1a2856fe1ec57d0a7cc438f10a2fa405e1da6eb2e4c56b513578",
+      "md5": "913baf519626c4f874ec046bff4bf069"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0046",
+      "bytes": 524288,
+      "sha256": "2dbd23f7a89862804175eb128374bfbb59b19305a08b78940fde26260265118f",
+      "md5": "c0580de1ef679d3f1bc5392b206e9357"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0047",
+      "bytes": 524288,
+      "sha256": "a5cde151dcdd8849d199b1abb4305705baff85c621304cd7237439f1d276a71e",
+      "md5": "212bc7072456bfbca06c7e4213a27656"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0048",
+      "bytes": 524288,
+      "sha256": "68a3f5ac5503ab32119d96e1203c1816575198dd5fc6b99caa4b2b0d8b0c6fba",
+      "md5": "775bc47cde056b683d31a65671379d75"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0049",
+      "bytes": 524288,
+      "sha256": "7e4a67a86b0ea8693015fbbe7b263e6d1fa9bfcdec75c7813decb62461eff889",
+      "md5": "7bd3d0f6c0abf9303c0cba58fa7824e8"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0050",
+      "bytes": 524288,
+      "sha256": "93c63adce391ffa40c6952554d09e58dbd194de2841d85375dfa0defbc9bc365",
+      "md5": "d483300b59fb061f56c83ba91a8e340d"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0051",
+      "bytes": 524288,
+      "sha256": "65c823ed71e3712a88aa209b3a1b2e378959dd5b0362c80cedf6ef3cf44eb5cd",
+      "md5": "ae46e0d9e5a16f9e2977d42065f31037"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0052",
+      "bytes": 524288,
+      "sha256": "e9d7d0d3427c2e2c5949720c9b7ccb5b5eb7689cd87fd92caf50c2a996731716",
+      "md5": "d33999879709f33cc91118298208e6a9"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0053",
+      "bytes": 524288,
+      "sha256": "00e6243e1b3f42b9e39303ca4dfe8d4e5d156c940e6ff2db84b9c5451cc4b59d",
+      "md5": "11b2bac179856f470a9aa8f21640e8eb"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0054",
+      "bytes": 524288,
+      "sha256": "d37aca4510459e1c58da53f22df9f4bf6a802bc4ebc20bf742237fa965fb1fdf",
+      "md5": "c1c01d2742fe61dccc0e91422ad8e5df"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0055",
+      "bytes": 524288,
+      "sha256": "d37e6996845d920d70ce32ebe149d4c8a44fcd1c3850ef30ac00fbda190fba2b",
+      "md5": "6d33846a0a0b6982b8dcf1f3ce6f3db3"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0056",
+      "bytes": 524288,
+      "sha256": "700cfb9f7d2f1bf5ef9c08a3092864e32cd4c1cef924f15676a8f8ecccacb660",
+      "md5": "3876060885baade7f20028635576c385"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0057",
+      "bytes": 524288,
+      "sha256": "19f51e67c869c1ac3e86befccece181f1cbfa80f5ac776869075570ab4e93591",
+      "md5": "57fb012dae27590b9cc74fa6ea105fbd"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0058",
+      "bytes": 524288,
+      "sha256": "b0a609df757c624292907f58dc4cd7d3f7d416052861d1884322c40840116467",
+      "md5": "042c5790b9def9677ad1e6ade49c7645"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0059",
+      "bytes": 524288,
+      "sha256": "74506a9e32fad5b8b4152482187b7e33793bcfb41d1c8ac88e883ffab34561dc",
+      "md5": "71101970da9a1027c610df84ccf43963"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0060",
+      "bytes": 524288,
+      "sha256": "a7a5bc550836090ab61f5c2a74f66afcd28aae44eec3d00a037ac178c77babd3",
+      "md5": "0f6fd8be9ffb3a7974fa51476a1257f3"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0061",
+      "bytes": 524288,
+      "sha256": "935e701b9aa340ed32335d8897164b9384842dfb88acebe898d144ebab6a5f36",
+      "md5": "43312f486b3852d956f43f67bfbbb7cb"
+    },
+    {
+      "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip.part0062",
+      "bytes": 277632,
+      "sha256": "67d97f9e79b8233d6cbe944f114ac9c460f4be3ef7de0f0d4f7ed7be5b567656",
+      "md5": "51b261e6d8d061ee91ca5d5b8d926cb5"
+    }
+  ],
+  "new_stochastic_trajectories": 0,
+  "new_PDE_runs": 0,
+  "research_verdicts_changed": 0,
+  "historical_solver_and_ordered_classifier_authentication": "OPEN",
+  "global_current_open_count": "not recomputed"
+}

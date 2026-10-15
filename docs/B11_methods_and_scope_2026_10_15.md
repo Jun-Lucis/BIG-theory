@@ -4,7 +4,7 @@ Jun Lucis. Audit date: 15 October 2026.
 
 The original five-page v1.0 paper and all 20 original package files are preserved byte for byte. Version 1.1 identifies the prepared documentation/data supplement. No stochastic dynamics was rerun, outcome label or seed changed, or research verdict regraded.
 
-The documentation/data supplement v1.1 is prepared and verified. Its Zenodo draft description and version were saved, but file-upload finalization could not be verified after the browser timed out. No publish action was performed. Reserved DOI 10.5281/zenodo.23387434 is not a published release; the current published record remains 10.5281/zenodo.20828439.
+Version 1.1 is published at https://doi.org/10.5281/zenodo.23387434, with only the original PDF and original ZIP. Both public files were freshly downloaded and match the originals byte for byte. Its initial description incorrectly implied that the audit supplement was attached; the public description has been corrected to disclose the omission. The unchanged 32,259,200-byte audit supplement has now been uploaded to the Version 1.2 draft (reserved DOI 10.5281/zenodo.23388916) as 62 ordered parts of at most 512 KiB, with a checksum manifest and reassembly instructions, alongside the original two files. All 66 draft-file MD5 checksums match the saved sources. The publish request returned a Zenodo error; the browser then became unavailable during reload. Version 1.2 is not verified as published. Do not treat draft checksums as verification of a public release.
 
 ## Recovered records
 

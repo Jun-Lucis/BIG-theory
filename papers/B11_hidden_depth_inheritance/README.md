@@ -294,13 +294,13 @@ All 201,350 saved endpoint rows, 1,495 grid summaries and 30 interpolated thresh
 
 Thresholds are finite-grid interpolants of finite-time terminal fractions. The inheritance well and similarity-dependent conflict penalty are explicit model choices. Complete historical solver and ordered-classifier authentication remain open.
 
-The documentation/data supplement v1.1 is prepared and verified. Its Zenodo draft description and version were saved, but file-upload finalization could not be verified after the browser timed out. No publish action was performed. Reserved DOI 10.5281/zenodo.23387434 is not a published release; the current published record remains 10.5281/zenodo.20828439.
+Version 1.1 is published at https://doi.org/10.5281/zenodo.23387434, with only the original PDF and original ZIP. Both public files were freshly downloaded and match the originals byte for byte. Its initial description incorrectly implied that the audit supplement was attached; the public description has been corrected to disclose the omission. The unchanged 32,259,200-byte audit supplement has now been uploaded to the Version 1.2 draft (reserved DOI 10.5281/zenodo.23388916) as 62 ordered parts of at most 512 KiB, with a checksum manifest and reassembly instructions, alongside the original two files. All 66 draft-file MD5 checksums match the saved sources. The publish request returned a Zenodo error; the browser then became unavailable during reload. Version 1.2 is not verified as published. Do not treat draft checksums as verification of a public release.
 
 [Audit evidence and publication status](../../docs/B11_publication_audit_2026_10_15.md)  
 [Methods and interpretation](../../docs/B11_methods_and_scope_2026_10_15.md)
 
 ## Zenodo record
 
-Primary BIG-B11 record:
+Current published BIG-B11 record (v1.1, original two files; corrective v1.2 supplement is still a draft):
 
-https://doi.org/10.5281/zenodo.20828439
+https://doi.org/10.5281/zenodo.23387434

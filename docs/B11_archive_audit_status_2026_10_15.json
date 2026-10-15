@@ -1,14 +1,14 @@
 {
   "checkpoint": "CP15",
   "date": "2026-10-15",
-  "status": "AUDIT_COMPLETE_SUPPLEMENT_SAVED_ZENODO_UNPUBLISHED",
-  "current_published_doi": "10.5281/zenodo.20828439",
-  "reserved_unpublished_doi": "10.5281/zenodo.23387434",
-  "publish_action_performed": false,
+  "status": "AUDIT_RECORDED_62_PART_DRAFT_UPLOAD_VERIFIED_PUBLICATION_ERROR",
+  "current_published_doi": "10.5281/zenodo.23387434",
+  "reserved_unpublished_doi": "10.5281/zenodo.23388916",
+  "publish_action_performed": true,
   "new_release_public_file_verification": false,
   "draft_description_and_version_saved_and_read_back": true,
   "original_related_identifiers_preserved": true,
-  "blockage": "Browser timed out while verifying file-upload finalization; local execution service subsequently became unavailable.",
+  "blockage": "The draft was not published. Please try again. If the problem persists, contact user support. Browser reload and reconnection then timed out.",
   "supplement": {
     "filename": "BIG_B11_Archive_Audit_Supplement_v1_1.zip",
     "bytes": 32259200,
@@ -18,7 +18,8 @@
     "internal_checksums_verified": 46,
     "original_files_preserved": 20,
     "recovered_data_files": 14,
-    "clean_extraction_identical_verification_json": true
+    "clean_extraction_identical_verification_json": true,
+    "public_delivery": "Not yet public. Verified draft upload consists of 62 binary parts plus checksum manifest and reassembly instructions."
   },
   "archived_endpoint_rows": 201350,
   "grid_summaries": 1495,
@@ -34,6 +35,16 @@
   "new_PDE_runs": 0,
   "research_verdicts_changed": 0,
   "original_files_modified": 0,
-  "drive_central_ledger_checkpoint": "CP14; CP15 content writeback pending local execution recovery",
-  "next_content_audit": "B12"
+  "drive_central_ledger_checkpoint": "CP15; split upload completed, publication error pending resumption",
+  "next_content_audit": "B12",
+  "current_published_version": "1.1",
+  "current_public_v1_1_original_files_fresh_download_byte_verified": true,
+  "v1_1_supplement_missing": true,
+  "v1_1_description_corrected": true,
+  "draft_url": "https://zenodo.org/uploads/23388916",
+  "draft_version": "1.2",
+  "draft_files": 66,
+  "draft_md5_matches": 66,
+  "split_parts": 62,
+  "split_max_part_bytes": 524288
 }
