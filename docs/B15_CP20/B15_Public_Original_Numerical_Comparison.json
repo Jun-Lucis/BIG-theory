@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "csv_files": 10,
+  "numeric_values": 24217,
+  "csv_rows": 5494,
+  "mapping_note": "Public cloud metrics column purity is original purity_Tr_rho2. Otherwise identical column names and row order.",
+  "comparisons": [
+    {
+      "file": "B15_0_cloud_density_metrics.csv",
+      "rows": 8,
+      "numeric_values": 72,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_0_cloud_density_response_curves.csv",
+      "rows": 2888,
+      "numeric_values": 11552,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_2_kernel_curves.csv",
+      "rows": 721,
+      "numeric_values": 7210,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_2_kernel_metrics.csv",
+      "rows": 4,
+      "numeric_values": 16,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_3_boundary_history_density_metrics.csv",
+      "rows": 3,
+      "numeric_values": 39,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_3_boundary_history_density_response_curves.csv",
+      "rows": 1083,
+      "numeric_values": 2166,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_3_boundary_history_profiles_and_weights.csv",
+      "rows": 768,
+      "numeric_values": 3072,
+      "passed": true,
+      "max_abs_difference": 5.551115123125783e-16
+    },
+    {
+      "file": "B15_4_BIG_map_linearity_affinity_classification.csv",
+      "rows": 7,
+      "numeric_values": 49,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_4_raw_affinity_tests.csv",
+      "rows": 5,
+      "numeric_values": 20,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "B15_4_raw_linearity_tests.csv",
+      "rows": 7,
+      "numeric_values": 21,
+      "passed": true,
+      "max_abs_difference": 0.0
+    }
+  ]
+}

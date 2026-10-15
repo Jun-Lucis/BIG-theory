@@ -1,0 +1,313 @@
+{
+  "function_definitions": 36,
+  "unique_function_names": 32,
+  "functions": [
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "ket",
+      "sha256": "088eccffa84afde96f86379c66e8dd4643269f3e910633199655d33dceddadf4",
+      "line": 3
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "projector",
+      "sha256": "7176e7ff89de8adb896b47d91d5fe2b074be5f3e36cff70c6a2bb6df09fa3e95",
+      "line": 6
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "density_from_distribution",
+      "sha256": "894844a36610dd9b1b4600e64dcfdf62bf2810d2ce222fe72b24be79315e3f01",
+      "line": 10
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "purity",
+      "sha256": "fe44d7ce4b949b8175cce3350d828c14c8f6daaf07f092f62c611545e316d4d6",
+      "line": 22
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "eig_entropy",
+      "sha256": "7b3c970958c0afe850d51656699d4f004f1a5fd4c61b3c1b587fe3b9cf9b66a2",
+      "line": 25
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "measurement_prob",
+      "sha256": "25238d3f5080a8cf2a99b37f90fec9ccd9c02b044656657a9a812ab54cfbbc66",
+      "line": 31
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "periodic_distance_pi",
+      "sha256": "c137a25a1bd0ec7c72053c890d89255fde03170f4204ace3e59bc373eb1f5cf8",
+      "line": 34
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 2,
+      "name": "gaussian_projective_cloud",
+      "sha256": "9d42e9911b7a911a54ebb77716766258bed27e5b85770978342fc2671e9be220",
+      "line": 37
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 3,
+      "name": "K_BIG",
+      "sha256": "1307e310e9a9b0dd7ce2ea84e6b69462a92fb7f73dcd43db793d00a98a89390e",
+      "line": 3
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 3,
+      "name": "rmse",
+      "sha256": "8ad523fe6291aea89449d4420899d83a462cedc30e5432fc16b9f99b28166ffd",
+      "line": 8
+    },
+    {
+      "notebook": "BIG_B15_colab_analysis_v1.ipynb",
+      "namespace": "cloud_kernel",
+      "cell_index_zero_based": 3,
+      "name": "max_abs_error",
+      "sha256": "36d7746a2ad8ebc1041a7b59b123100d8aaef65e7ada9ef1d5d5921e320b6509",
+      "line": 11
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "periodic_angle_distance",
+      "sha256": "0b5e3eef880032399c735f1beec22507e3b5c97521ff691d2f36fd3cc52dc559",
+      "line": 106
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "periodic_gaussian",
+      "sha256": "4a7e36b227ff4dcc05cbd3ee44aa85e9d6a1f8ea5b03c34a248a7bb5d2be40e7",
+      "line": 110
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "ket_from_boundary_coordinate",
+      "sha256": "90a9f51081710613d5016d13c54f12a8a2415ec667e2a7c1dccb75d00001d3f2",
+      "line": 115
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "projector_from_s",
+      "sha256": "2e521f6ea379c6901f293b86134d007f6b0c9b5fcc351b335d2814af1681dbe6",
+      "line": 127
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "density_from_boundary_history",
+      "sha256": "c200cf83df892ce4fb812820262ed51d055524727a1628e5f3f2e7598e7544c9",
+      "line": 132
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "purity",
+      "sha256": "7be592edff371c5ef60aa9638b0358f57c2e5e4bee1ae6047df8d426e2a169a7",
+      "line": 173
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "eig_entropy",
+      "sha256": "74deaa50869eb1b244cec1599e655177547ebad69ac9e047d4700e372c11ce9b",
+      "line": 177
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "response_curve_from_rho",
+      "sha256": "66d4a0d717e90c89eea59d27682e74caf3657d46b709a730aad504b6a8d1651f",
+      "line": 184
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "circular_mean_angle",
+      "sha256": "5beb080b0c3d15bf792083e4613f2883f90f46158e35bceb8c57d3cf2749fc7f",
+      "line": 195
+    },
+    {
+      "notebook": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "namespace": "history",
+      "cell_index_zero_based": 1,
+      "name": "circular_resultant_length",
+      "sha256": "f59abf5c2fca56ce3d07df02f7618a9f1f6044cfb688df51dc747828958f6598",
+      "line": 209
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "periodic_angle_distance",
+      "sha256": "0b5e3eef880032399c735f1beec22507e3b5c97521ff691d2f36fd3cc52dc559",
+      "line": 107
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "periodic_gaussian",
+      "sha256": "4a7e36b227ff4dcc05cbd3ee44aa85e9d6a1f8ea5b03c34a248a7bb5d2be40e7",
+      "line": 111
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "L2_norm",
+      "sha256": "5b6f74dcf46ef099cb837b4865bbf43e08ea54907b993a6130ed28c5fd1d6188",
+      "line": 116
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "heat_smooth_fft",
+      "sha256": "acc0eaa0f10db566e52479b97f471c10d18a108ee3fe75737a848946adcf85c9",
+      "line": 121
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "fixed_forgetting_map",
+      "sha256": "eaea4a26d17b6891b773539f018192040a3398ce0e4d3f6c440692cfb8ff608b",
+      "line": 136
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "writing_with_fixed_stimulus_map",
+      "sha256": "5f9c9eac3527c7b67f17857b7650023d4405ba9b5f306157a2335abf9becd901",
+      "line": 144
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "division_fixed_partition_map",
+      "sha256": "6191858d22d59d76479e4ce07f39e6f686804707e4b4c42c3bbe65d6adcc2b14",
+      "line": 152
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "division_leaky_fixed_partition_map",
+      "sha256": "93eae00956a270f52c8be8a79d4c7426297710cbe5a1e35bc1a4268384ca3442",
+      "line": 163
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "normalization_map",
+      "sha256": "1af50ee659b1bb9d1a0fa2b6d4129c89d6538e60b0339993de8c7832d8fc4757",
+      "line": 184
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "fusion_addition_map",
+      "sha256": "baced564b6966ba92bde9f030b153e017d902f954a9f49bf1b79dd4f5a635b5e",
+      "line": 199
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "fusion_compression_map",
+      "sha256": "d6fcadb6c8978e91975fe5f3e1b7a9c74a4552eac2239d54773dbf316a09eb68",
+      "line": 208
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "linearity_test_unary",
+      "sha256": "5daf7f2661ea03ee4c5a1f9d0c76c43cd4f8720952a969706cf667aff50ec589",
+      "line": 244
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "affine_test_unary",
+      "sha256": "eb97fcd9a3a8dbcf1a9c0bfe7430242722e039f97f32035a618bc98146a52d14",
+      "line": 269
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "linearity_test_binary",
+      "sha256": "3a84b8f3b16991d72ada50a5817f285b7cac5617183e5b887cf4bdc6c606052c",
+      "line": 294
+    },
+    {
+      "notebook": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "namespace": "maps",
+      "cell_index_zero_based": 1,
+      "name": "classify_from_scores",
+      "sha256": "10735f61c327607c76c33b176d7d8194423138b84ce52fda5c745c874590b3c3",
+      "line": 322
+    }
+  ],
+  "notebooks": [
+    {
+      "name": "BIG_B15_colab_analysis_v1.ipynb",
+      "bytes": 374379,
+      "sha256": "542214f28013a45a9885d06178d3e31af2e3263c60f355bd693e63f868e0b1f4"
+    },
+    {
+      "name": "BIG_B15_cell3_boundary_history_colab.ipynb",
+      "bytes": 226203,
+      "sha256": "cd25e3a5c75e9ac13e10496d2cc768780e520d7d7d9ccf939d340b7ab96eaf60"
+    },
+    {
+      "name": "BIG_B15_cell4_map_classification_colab.ipynb",
+      "bytes": 236770,
+      "sha256": "470e8e3437e0366b0558f5cf98116fd828a69c41f635c5a82687a34333be556b"
+    }
+  ],
+  "function_bodies_changed": 0,
+  "io_adapted_separately": true
+}

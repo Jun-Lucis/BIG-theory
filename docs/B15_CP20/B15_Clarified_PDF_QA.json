@@ -1,0 +1,89 @@
+{
+  "original_pages": 11,
+  "clarified_pages": 13,
+  "original_embedded_panels": 10,
+  "clarified_embedded_panels": 10,
+  "original_figures_rgb_match": true,
+  "clarified_figures_rgb_match": true,
+  "same_image_pixel_hashes": true,
+  "original_table_bodies_retained": true,
+  "out_of_page_text": [],
+  "latex_warnings": [],
+  "pdf_sha256": "0fec68f32d58a7eb170184a210aad60609b8f1b88d3c663b32d6fde8f0931af3",
+  "panels": [
+    {
+      "page": 4,
+      "width": 1584,
+      "height": 1100,
+      "pixel_sha256": "9c910e948251f81f83ad746fb4578e8a88ddfa7553c0d922150d8d8b7e2775ee",
+      "source_figure": "B15_0_cloud_width_purity_entropy.png"
+    },
+    {
+      "page": 4,
+      "width": 1803,
+      "height": 1144,
+      "pixel_sha256": "1873055f6dc3e2f3345c17cfb4fa14b59a31fd35bb0652d5cdbb613d80f23332",
+      "source_figure": "B15_0_cloud_projective_response_curves.png"
+    },
+    {
+      "page": 6,
+      "width": 1936,
+      "height": 1210,
+      "pixel_sha256": "c6e4700ca7d7905a93537eb6dece8daf826a63340fda6a329d9a546e4857dedc",
+      "source_figure": "B15_2_kernel_reference_forms.png"
+    },
+    {
+      "page": 6,
+      "width": 1760,
+      "height": 1100,
+      "pixel_sha256": "fea70fb1de866ad817ffeb30f5ecaac2b58e47c8332d902a5b430004b52098e7",
+      "source_figure": "B15_2_kernel_RMSE_bar.png"
+    },
+    {
+      "page": 7,
+      "width": 1848,
+      "height": 1144,
+      "pixel_sha256": "09ee2945cea5e93c305ecfd5b4e4fa87eea89b43914c0d0d39d795d2cef0307c",
+      "source_figure": "B15_3_boundary_history_profiles.png"
+    },
+    {
+      "page": 7,
+      "width": 1628,
+      "height": 1100,
+      "pixel_sha256": "36da2fdeea896d9796de1e1499e12a7e2fa6f9d291becc16c866909e517b9a1e",
+      "source_figure": "B15_3_boundary_history_density_purity.png"
+    },
+    {
+      "page": 8,
+      "width": 1848,
+      "height": 1144,
+      "pixel_sha256": "c3e88232d7d3dfb92017a0074b1400bb3b3535436dd388043946488f8b68542d",
+      "source_figure": "B15_3_boundary_history_density_response_curves.png"
+    },
+    {
+      "page": 9,
+      "width": 2023,
+      "height": 1188,
+      "pixel_sha256": "5245b3c3e24370ff58d2049894f2c40b96c2a5db143e074a41ea97f832e3ca6e",
+      "source_figure": "B15_4_linearity_scores.png"
+    },
+    {
+      "page": 9,
+      "width": 2023,
+      "height": 1188,
+      "pixel_sha256": "70a88d8a457e4b98155fee9e6a1f70b6c5da2c9132b898347f4a7c0cda839e3f",
+      "source_figure": "B15_4_affinity_scores.png"
+    },
+    {
+      "page": 10,
+      "width": 1760,
+      "height": 1188,
+      "pixel_sha256": "a6f326bc2aae157b23dfd42d126b931ce2a8579b71afc1b996ac05fdd062272d",
+      "source_figure": "B15_4_additivity_vs_homogeneity.png"
+    }
+  ],
+  "all_pages_rendered": true,
+  "visual_review": "PASS",
+  "visual_review_pages": 13,
+  "visual_review_note": "All 13 rendered pages reviewed. Pages 1-11 are pixel-identical to the reviewed pre-reference-break render; final pages 12-13 were reviewed separately. References are together on page 13; no clipping or overlaps."
+}

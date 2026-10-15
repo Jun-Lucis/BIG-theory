@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "record_url": "https://zenodo.org/records/23401700",
+  "doi": "10.5281/zenodo.23401700",
+  "version": "1.1",
+  "filename": "BIG_B15_v1_1_COMPLETE_20261016.zip",
+  "bytes": 10665271,
+  "sha256": "c35b92f93f588a2e11dec896cbae2241dc612689d432ace7818d3a2c358fce8e",
+  "md5": "c78ff962d74d65afab6de672f5d11b2b",
+  "public_redownload_byte_identical": true,
+  "crc": "PASS",
+  "internal_sha256": "PASS",
+  "verified_internal_sha256": 93,
+  "members": 94,
+  "repository_identifier": {
+    "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+    "relation_type": {
+      "id": "references",
+      "title": {
+        "de": "Referenziert",
+        "en": "References"
+      }
+    },
+    "resource_type": {
+      "id": "other",
+      "title": {
+        "de": "Sonstige",
+        "en": "Other"
+      }
+    },
+    "scheme": "url"
+  },
+  "original_related_identifiers_preserved": 4,
+  "related_identifiers_total": 5,
+  "single_complete_zip": true
+}

@@ -1,0 +1,1192 @@
+{
+  "status": "PASS",
+  "paper": "B15",
+  "checkpoint": "CP20",
+  "check_groups": 142,
+  "compared_values": 15935,
+  "checks": [
+    {
+      "name": "source body cloud_kernel.ket",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.projector",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.density_from_distribution",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.purity",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.eig_entropy",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.measurement_prob",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.periodic_distance_pi",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.gaussian_projective_cloud",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.K_BIG",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.rmse",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body cloud_kernel.max_abs_error",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.periodic_angle_distance",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.periodic_gaussian",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.ket_from_boundary_coordinate",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.projector_from_s",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.density_from_boundary_history",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.purity",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.eig_entropy",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.response_curve_from_rho",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.circular_mean_angle",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body history.circular_resultant_length",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.periodic_angle_distance",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.periodic_gaussian",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.L2_norm",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.heat_smooth_fft",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.fixed_forgetting_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.writing_with_fixed_stimulus_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.division_fixed_partition_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.division_leaky_fixed_partition_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.normalization_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.fusion_addition_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.fusion_compression_map",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.linearity_test_unary",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.affine_test_unary",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.linearity_test_binary",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "source body maps.classify_from_scores",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "cloud 0.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 0.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 3.2311742677852644e-27,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 0.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 0.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 0.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 5.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.3010426069826053e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 5.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.3877787807814457e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 5.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 1.6653345369377348e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 5.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 5.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.3877787807814457e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 10.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 10.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 10.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 10.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 10.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 7.28583859910259e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 12.5 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 4.163336342344337e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 12.5 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 8.326672684688674e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 12.5 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 12.5 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 12.5 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 15.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 5.551115123125783e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 15.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 5.551115123125783e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 15.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 15.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 15.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 20.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 6.938893903907228e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 20.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 6.938893903907228e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 20.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 20.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 20.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 30.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.0842021724855044e-19,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 30.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 30.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 30.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 30.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 45.0 density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.734723475976808e-18,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 45.0 metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 45.0 response",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 45.0 Born reference",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "cloud 45.0 moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "kernel logistic",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "unconstrained affine coefficients",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "higher feature coefficients",
+      "passed": true,
+      "values": 5,
+      "max_abs_difference": 1.4051260155412137e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "Born cos2 curve",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "Born cos2 residual",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.97758476261356e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "Born cos2 error metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 2.7755575615628914e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "unconstrained affine curve",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "unconstrained affine residual",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.942890293094024e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "unconstrained affine error metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 9.020562075079397e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "constrained affine curve",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "constrained affine residual",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 1.97758476261356e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "constrained affine error metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 2.7755575615628914e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "higher feature curve",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 3.191891195797325e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "higher feature residual",
+      "passed": true,
+      "values": 721,
+      "max_abs_difference": 2.896988204881268e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "higher feature error metrics",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "constrained optimum KKT residual",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 1.3010426069826053e-18,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "constrained optimum feasible and convex",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "higher feature continuous probability bounds",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "stimulus_shape source grid",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 8.881784197001252e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape B14 dependency",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 1.3234889800848443e-23,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape normalized weights",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 4.440892098500626e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 5.551115123125783e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape saved metrics",
+      "passed": true,
+      "values": 9,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape response curve",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 5.551115123125783e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "stimulus_shape purity concentration identity",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history source grid",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 8.881784197001252e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history B14 dependency",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history normalized weights",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history saved metrics",
+      "passed": true,
+      "values": 9,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history response curve",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 3.885780586188048e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "post_write_history purity concentration identity",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 7.771561172376096e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history source grid",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 8.881784197001252e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history B14 dependency",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history normalized weights",
+      "passed": true,
+      "values": 256,
+      "max_abs_difference": 9.8879238130678e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 5.551115123125783e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history saved metrics",
+      "passed": true,
+      "values": 9,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history response curve",
+      "passed": true,
+      "values": 361,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history moment identity",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "final_history purity concentration identity",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_linearity_tests additivity_error",
+      "passed": true,
+      "values": 7,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_linearity_tests homogeneity_error",
+      "passed": true,
+      "values": 7,
+      "max_abs_difference": 2.7755575615628914e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_linearity_tests linearity_score",
+      "passed": true,
+      "values": 7,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_affinity_tests f0_norm",
+      "passed": true,
+      "values": 5,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_affinity_tests affine_additivity_error",
+      "passed": true,
+      "values": 5,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_affinity_tests affine_homogeneity_error",
+      "passed": true,
+      "values": 5,
+      "max_abs_difference": 1.2084540716250117e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "B15_4_raw_affinity_tests affinity_score",
+      "passed": true,
+      "values": 5,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "forgetting_smoothing saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 1.8461472443700416e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "forgetting_smoothing original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "writing_with_fixed_stimulus saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 2.7755575615628914e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "writing_with_fixed_stimulus original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "division_fixed_partition saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 5.961317720638638e-20,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "division_fixed_partition original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "division_leaky_fixed_partition saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 4.326989597355472e-18,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "division_leaky_fixed_partition original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "normalization_to_density_weight saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 2.220446049250313e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "normalization_to_density_weight original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "fusion_addition saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 4.9389160778005985e-20,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "fusion_addition original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "fusion_compression saved score",
+      "passed": true,
+      "values": 2,
+      "max_abs_difference": 7.464731957562698e-17,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "fusion_compression original fixture label",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "fusion nonadditive counterexample",
+      "passed": true,
+      "values": 1,
+      "max_abs_difference": 0.0,
+      "atol": 0,
+      "rtol": 0
+    },
+    {
+      "name": "distinct histories same density",
+      "passed": true,
+      "values": 4,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    },
+    {
+      "name": "distinct histories same L1 L2 peak",
+      "passed": true,
+      "values": 3,
+      "max_abs_difference": 0.0,
+      "atol": 2e-12,
+      "rtol": 2e-10
+    }
+  ],
+  "function_definitions": 36,
+  "unique_function_names": 32,
+  "csv_files": 10,
+  "csv_rows": 5494,
+  "json_files": 4,
+  "new_stochastic_trajectories": 0,
+  "formal_scientific_verdict_changes": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "additional_deterministic_diagnostics": {
+    "constrained_affine_KKT": {
+      "A": 0.5,
+      "B": 0.5,
+      "gradient": [
+        0.002342983296215123,
+        -0.048037995164005365
+      ],
+      "dual_multipliers": [
+        0.025190489230110243,
+        0.02284750593389512
+      ],
+      "hessian_eigenvalues": [
+        1.0013792572639537,
+        2.0000077052880574
+      ]
+    },
+    "higher_feature_continuous_range": [
+      0.02462475166451039,
+      0.974682822439155
+    ],
+    "fusion_nonadditive_counterexample": {
+      "map_name": "additional_constant_overlap_counterexample",
+      "map_kind": "binary",
+      "additivity_error": 0.7433053124101893,
+      "homogeneity_error": 0.0,
+      "linearity_score": 0.7433053124101893
+    },
+    "history_density_noninjectivity": {
+      "max_input_difference": 0.7999999999999999,
+      "max_density_difference": 1.1102230246251565e-16,
+      "same_L1_L2_peak": true
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}
