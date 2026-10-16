@@ -1,7 +1,7 @@
 {
-  "title": "BIG-B18: Boundary Readout Operators in Boundary Information Geometry",
+  "title": "BIG-B18: Boundary Readout Operators in Boundary Information Geometry: From Read-Start Local History to Interface-Core Path Exposure in a Reaction-Diffusion-Inspired Front Model",
   "version": "0.2",
-  "description": "BIG-B18 studies a reduced one-dimensional bistable front with an inhibitory retained trace. Version 0.2 clarifies the implemented spatially distributed inhibition, the diagnostic nature and response-time information of path exposure, branch-dependent moving forcing, discretization and update conventions, differing global-mass comparators, reused stage cases, in-sample gate selection and overlapping slice refits. The original three scientific tables and seven source-PDF figure images are preserved. Five original notebooks and 124 original result files are recovered; saved-output analysis passed 604 numerical check groups / 314,972 values and 44 categorical checks. These checks provide a basis for reproduction; an independent full PDE rerun audit has not been completed. The historical Japanese v0.1 PDF is unmodified. This is a reduced exploratory numerical study, not a calibrated chemical, material, biological, neural or consciousness model. Repository: https://github.com/Jun-Lucis/BIG-theory",
+  "description": "BIG-B18 studies boundary-dependent diagnostics for a reduced one-dimensional bistable front with an inhibitory retained trace. Version 0.2 clarifies the implemented dynamics, measurements and evidential scope while preserving the three original scientific tables, seven figure images, saved numerical results and diagnostic labels.\n\nThe implemented inhibition is spatially distributed -kappa*m*max(u*(1-u),0); the read window and threshold gate define diagnostic projections and do not multiply that PDE term. Path exposures use the realized kept-branch trajectory, including response-time information. Each branch's read forcing follows its own front, so the kept/erased outcome includes later differences in forcing position. These are retrospective in-sample diagnostics, not held-out predictions or an exact response law.\n\nThe revision documents writing and update order, the endpoint grid and explicit clipped Euler scheme, coupling-factor differences between global-mass comparators, reuse of the B18.0/1 and B18.2/3 cases, rank deficiencies, selection among 83 operators and refitting 15 overlapping slices on the same data. B18.4's rounded fallback synthesis is separated from saved-input verification. The original scientific values and formal labels are unchanged.\n\nThe one complete ZIP includes the clarified 13-page English manuscript and editable source, five original notebooks, 124 original result files, 76 unchanged top-level computational definitions with 31 distinct names, a local adapter, saved-result checks and receipts, and the unchanged historical public ZIP with its original PDFs and TeX. All five public notebook code-cell sets match the recovered originals. Seventeen common CSVs and five JSONs are byte-identical, with 495,864 common numeric values checked. All seven retained manuscript images match the corresponding public PNGs exactly in RGB. The supplied Japanese PDF and its public DOI-bearing version are both retained unchanged.\n\nSaved-result verification passed 604 numerical check groups /314,972 values and 44 categorical checks. The available sources provide a basis for reproduction; an independent full PDE rerun audit has not yet been completed. No new PDE or stochastic trajectories were generated for this audit. This is a reduced exploratory numerical study, not a calibrated chemical, material, biological, neural or consciousness model.\n\nProject repository: https://github.com/Jun-Lucis/BIG-theory",
   "related_identifier_to_add_if_missing": {
     "identifier": "https://github.com/Jun-Lucis/BIG-theory",
     "scheme": "url",
@@ -11,5 +11,66 @@
   "preserve_existing_related_identifiers": true,
   "do_not_assign_source_doi_to_revision": true,
   "historical_source_doi": "10.5281/zenodo.22690970",
-  "metadata_persistence_confirmed": false
+  "metadata_persistence_confirmed": true,
+  "publication_date": "2026-10-17",
+  "reserved_doi": "10.5281/zenodo.23427115",
+  "draft_url": "https://zenodo.org/uploads/23427115",
+  "preserved_related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22677581",
+      "relation_type": {
+        "id": "continues",
+        "title": {
+          "de": "Setzt fort",
+          "en": "Continues"
+        }
+      },
+      "resource_type": {
+        "id": "publication-workingpaper",
+        "title": {
+          "de": "Arbeitspapier",
+          "en": "Working paper"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22660005",
+      "relation_type": {
+        "id": "continues",
+        "title": {
+          "de": "Setzt fort",
+          "en": "Continues"
+        }
+      },
+      "resource_type": {
+        "id": "publication-workingpaper",
+        "title": {
+          "de": "Arbeitspapier",
+          "en": "Working paper"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.21173333",
+      "relation_type": {
+        "id": "continues",
+        "title": {
+          "de": "Setzt fort",
+          "en": "Continues"
+        }
+      },
+      "resource_type": {
+        "id": "publication-workingpaper",
+        "title": {
+          "de": "Arbeitspapier",
+          "en": "Working paper"
+        }
+      },
+      "scheme": "doi"
+    }
+  ],
+  "publication_verified": true,
+  "published_record": "https://zenodo.org/records/23427115"
 }

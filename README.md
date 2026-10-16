@@ -1,6 +1,6 @@
 # Boundary Information Geometry (BIG)
 
-**B18 source/implementation audit, 16 October 2026:** A 13-page clarified v0.2 and an internally verified prepublication snapshot are prepared. Three scientific tables and seven source-PDF figure rasters are preserved. Five original notebooks, 76 computational definitions and 124 saved outputs are recovered; original saved-data analysis passed 604 groups / 314,972 values plus 44 categorical checks, with no new PDE trajectories. The revision separates distributed inhibition from diagnostic gates, realized-path associations from prediction, and in-sample gate selection from independent validation. **Basically reproducible; an independent full rerun audit has not yet been completed.** Old public-ZIP comparison and a new Zenodo publication remain pending. [Audit and status](docs/B18_CP23_AUDIT_20261016.md).
+**B18 source/implementation audit, 17 October 2026:** [Version 0.2 / Zenodo 23427115](https://zenodo.org/records/23427115) is published as one complete ZIP. The 13-page clarification preserves three scientific tables and seven figure rasters and documents distributed inhibition, diagnostic gates, realized-path information, branch-dependent forcing and in-sample fits. Five original notebooks, 76 computational definitions and 124 results are archived. Saved-result checks passed 604 groups / 314,972 values plus 44 categorical checks; five public notebook code-cell sets, 22 common files / 495,864 values and seven public PNG rasters match. The public ZIP is byte-identical to the frozen archive; CRC and 182 internal hashes pass. GitHub metadata and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](docs/B18_CP23_AUDIT_20261016.md).
 **B17 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23405881](https://zenodo.org/records/23405881) is published as one complete ZIP. The 13-page clarification preserves three scientific tables, nine figure images, five executed notebooks and 153 original outputs, and documents laboratory-fixed reading, the prescribed/scalar model, phase-limited transport, PDE conventions and in-sample fits. Saved-result checks passed 7,670 groups /22,429 values. The public ZIP is byte-identical to the frozen archive; SHA-256, MD5, CRC and193 internal hashes pass. GitHub related URL and three original DOI references are confirmed in published metadata. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](docs/B17_CP22_AUDIT_20261016.md).
 
 **B16 source/implementation audit, 16 October 2026:** [Draft v0.4 / Zenodo 23402231](https://zenodo.org/records/23402231) is published as one complete ZIP. The clarified 15-page English manuscript aligns history writing with the original pulse-on-gated code, documents onset-window increments, the threshold boundary and fixed Eulerian history, and repairs the clipped core figure. All scientific table values and seven composites are preserved. Five original executed notebooks and all 85 result files are archived; checks passed 691 groups / 37,334 values and 520,038 common public/original values. **Basically reproducible; an independent full rerun audit has not yet been completed.**
@@ -505,14 +505,7 @@ The later B-series shifts from state selection and history to moving-boundary re
 
 ![BIG-B18 stored-to-readable history flow](figures/B18/B18_4_stored_to_readable_history_flow.png)
 
-**Main idea:** Retaining a history field is not sufficient for later response. B17 separates stored from locally readable history, and B18 extends this to boundary-dependent, path-integrated interface/core exposure.
-
-```text
-stored history
-    -> locally readable history
-    -> path / interface-core exposure
-    -> later response
-```
+**Main idea:** These reduced models compare retained history and later response under specified feedback/readout protocols. B17 uses different fixed-site, scalar and PDE constructions. In B18, inhibition acts throughout the field; the boundary window and interface/core gates define diagnostic summaries. Path exposure uses the realized response trajectory and gives an in-sample comparison, without establishing read-start prediction or a universal response law.
 
 **Main entries:** [B16](papers/B16_memory_bearing_free_boundaries) · [B17](papers/B17_readable_history) · [B18](papers/B18_boundary_readout_operators)
 
@@ -759,7 +752,7 @@ Current entries include:
 | Layered framework | Layered mathematical consolidation through B15 | https://doi.org/10.5281/zenodo.22161614 |
 | B16 | Memory-bearing free boundaries | https://doi.org/10.5281/zenodo.23402231 |
 | B17 | Stored versus readable history (v1.1; historical v1.0: 22677581) | https://doi.org/10.5281/zenodo.23405881 |
-| B18 | Boundary readout operators | https://doi.org/10.5281/zenodo.22690970 |
+| B18 | Boundary readout operators (v0.2; historical v0.1: 22690970) | https://doi.org/10.5281/zenodo.23427115 |
 | B19 | Boundary-core channel diagnostics | https://doi.org/10.5281/zenodo.22726848 |
 | B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.22769513 |
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |

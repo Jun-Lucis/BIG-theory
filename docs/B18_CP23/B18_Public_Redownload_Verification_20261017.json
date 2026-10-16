@@ -1,0 +1,23 @@
+{
+  "status": "PUBLICATION_AND_PUBLIC_REDOWNLOAD_VERIFIED",
+  "checked_at_utc": "2026-10-16T22:44:46.276658+00:00",
+  "record_url": "https://zenodo.org/records/23427115",
+  "doi": "10.5281/zenodo.23427115",
+  "version": "0.2",
+  "bytes": 48363154,
+  "sha256": "63be635c3df72315383cbc9a7e1cc2323393c61f797ff44e8aaed047ae1709ee",
+  "md5": "a6719a0234b5058f7f09d20592f5a2a5",
+  "byte_identical_to_frozen": true,
+  "members": 183,
+  "crc": "PASS",
+  "internal_sha256_checks": 182,
+  "metadata_published": true,
+  "metadata_description_exact": true,
+  "github_related_identifier_verified": true,
+  "original_Continues_doi_references_preserved": 3,
+  "creators_license_keywords_preserved": true,
+  "pdf_sha256": "54464c3eb8612012b13a2a9440600f6e107436ffa14d28cc5b77355085ad38c6",
+  "pdf_pages": 13,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "archive_rebuilt": false
+}

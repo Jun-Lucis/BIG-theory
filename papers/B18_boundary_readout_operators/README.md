@@ -2,11 +2,11 @@
 
 From Read-Start Local History to Interface-Core Path Exposure in a Reaction-Diffusion-Inspired Front Model
 
-## CP23 clarification, 16 October 2026
+## CP23 clarification, 17 October 2026
 
-The clarified English v0.2 is prepared as a 13-page prepublication manuscript, preserving the three original scientific tables and seven source-PDF figure images. Five original notebooks and 124 original result files were recovered. The original saved-data analysis passed604 numerical check groups /314,972 values and44 categorical checks. **Basically reproducible; an independent full rerun audit has not yet been completed.** The old Zenodo ZIP/current metadata comparison and a new Zenodo publication remain pending.
+The clarified English v0.2 is published at https://zenodo.org/records/23427115 as one complete ZIP. The public redownload is byte-identical to the frozen archive; SHA-256, MD5, CRC and 182 internal hashes pass. The 13-page manuscript preserves three scientific tables and seven image rasters. Five original notebooks, 76 computational definitions and 124 result files are archived. Saved-data analysis passed 604 groups / 314,972 values plus 44 categorical checks. The old public ZIP is authenticated: five notebook code-cell sets, 22 common data files / 495,864 numeric values and seven public PNG rasters match. GitHub and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.**
 
-🇯🇵 B18は、抑制的な履歴を持つ一次元frontについて、保存履歴を境界付近の経路曝露で要約する診断を比較します。経路変数は実現した応答軌道を使い、R²とgate選択は同じ標本内です。事前予測や独立検証、PDEの厳密な応答法則とは区別します。数値・図は保持し、実装と解釈を明記したv0.2を準備しました。
+🇯🇵 B18は、抑制的な履歴を持つ一次元frontについて、保存履歴を境界付近の経路曝露で要約する診断を比較します。経路変数は実現した応答軌道を使い、R²とgate選択は同じ標本内です。事前予測や独立検証、PDEの厳密な応答法則とは区別します。数値・図を保持し、実装と解釈を明記したv0.2を公開し、公開実物を照合しました。
 
 ## Readout proposal and implemented coupling
 
@@ -30,7 +30,7 @@ The hierarchy from stored history to local/path/interface-core exposure is a dia
 
 [Audit report](../../docs/B18_CP23_AUDIT_20261016.md) · [Implementation and methods](../../docs/B18_CP23_METHODS_CLARIFICATIONS.md) · [Recovered computational definitions](../../code/B18_recovered/README.md)
 
-The prepublication snapshot contains original notebooks/results, historical English/Japanese v0.1 PDFs, reconstructed editable v0.2 TeX and saved-result verification. Original B18.3 plot/package cells are unexecuted and its Drive folder has five CSV/JSON files and no PNG/ZIP. Its three manuscript figures are retained from the supplied source PDF. Full field trajectories for all cases are not archived. Old-ZIP/source authentication remains a publication residual.
+The complete archive contains original notebooks/results, the unchanged historical public ZIP with its original PDFs and editable TeX, reconstructed clarified v0.2 TeX and saved-result verification. Original B18.3 plot/package cells are unexecuted and its Drive folder has five CSV/JSON files and no PNG/ZIP; the seven manuscript rasters are now verified against the public PNGs. Supplied and DOI-bearing public Japanese PDFs are both preserved unchanged. Full field trajectories for all cases are not archived.
 
 The model is reduced and exploratory, not a calibrated chemical, material, biological, neural or consciousness model. No PDE existence, uniqueness, convergence or universality result, and no independent full PDE rerun audit, is claimed. Original numerical outcomes and formal diagnostic labels are unchanged.
 
@@ -38,6 +38,6 @@ The model is reduced and exploratory, not a calibrated chemical, material, biolo
 
 Historical v0.1: https://zenodo.org/records/22690970
 
-Prepared v0.2: not yet published on Zenodo. [Current publication status](../../docs/B18_CP23/B18_Publication_Status.json).
+Current published v0.2: https://zenodo.org/records/23427115. [Current publication status](../../docs/B18_CP23/B18_Publication_Status.json).
 
 Author: Jun Lucis

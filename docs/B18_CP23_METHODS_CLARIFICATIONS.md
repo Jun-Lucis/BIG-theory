@@ -43,7 +43,7 @@ python supplement/replay_b18.py
 python verify_b18_saved_results.py
 ```
 
-The first command only loads definitions. The second applies original analysis cells to saved CSVs and checks unchanged bodies, endpoint differences, coordinate identities, controls, compact tables and common-case outcomes. It passed604 numerical check groups /314,972 values plus44 categorical checks. Counts include repeated representations and identities, not independent experiments. No PDE or stochastic trajectories were generated.
+The first command only loads definitions. The second applies original analysis cells to saved CSVs and checks unchanged bodies, endpoint differences, coordinate identities, controls, compact tables and common-case outcomes. It passed 604 numerical check groups / 314,972 values plus 44 categorical checks. Counts include repeated representations and identities, not independent experiments. No PDE or stochastic trajectories were generated.
 
 Full regeneration is explicit and may be expensive:
 
@@ -55,4 +55,9 @@ Stages0--3 execute original numerical/analysis/figure cells with local I/O repla
 
 ## Publication state
 
-The historical citation is10.5281/zenodo.22690970. A new B18 Zenodo draft has not been created in this checkpoint. Its metadata candidate includes the repository URL in description and as References/URL/Other, preserving existing related identifiers once retrieved. Old public ZIP/metadata comparison, publication, and public redownload verification remain pending. The prepublication ZIP is a snapshot of currently recovered material; freeze a publication ZIP only after the remaining old-source comparison.
+The historical citation is10.5281/zenodo.22690970. The old public ZIP and metadata are now authenticated and archived. The metadata candidate preserves the three Continues/DOI/Working-paper identifiers and adds GitHub as References/URL/Other. The complete archive is frozen before publication; new-edition publication and public redownload are recorded separately in the external publication receipt. Earlier preparation receipts remain historical snapshots.
+
+
+## Historical public-package authentication (17 October2026)
+
+The old public ZIP is retained unchanged. All five public notebook code-cell sets match the recovered original notebooks. Seventeen common CSVs and five common JSONs are byte-identical;495,864 common numeric CSV values agree. The seven manuscript image rasters match the corresponding public PNGs exactly in RGB. This authenticates the archived sources and saved values, without generating new trajectories or constituting an independent full PDE rerun. The public Japanese PDF adds one DOI line to the supplied Japanese text; both unchanged versions are retained.

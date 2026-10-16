@@ -1,6 +1,6 @@
 # BIG Publication Map
 
-**B18 source/implementation audit, 16 October 2026:** A 13-page clarified v0.2 and an internally verified prepublication snapshot are prepared. Three scientific tables and seven source-PDF figure rasters are preserved. Five original notebooks, 76 computational definitions and 124 saved outputs are recovered; original saved-data analysis passed 604 groups / 314,972 values plus 44 categorical checks, with no new PDE trajectories. The revision separates distributed inhibition from diagnostic gates, realized-path associations from prediction, and in-sample gate selection from independent validation. **Basically reproducible; an independent full rerun audit has not yet been completed.** Old public-ZIP comparison and a new Zenodo publication remain pending. [Audit and status](B18_CP23_AUDIT_20261016.md).
+**B18 source/implementation audit, 17 October 2026:** [Version 0.2 / Zenodo 23427115](https://zenodo.org/records/23427115) is published as one complete ZIP. The 13-page clarification preserves three scientific tables and seven figure rasters and documents distributed inhibition, diagnostic gates, realized-path information, branch-dependent forcing and in-sample fits. Five original notebooks, 76 computational definitions and 124 results are archived. Saved-result checks passed 604 groups / 314,972 values plus 44 categorical checks; five public notebook code-cell sets, 22 common files / 495,864 values and seven public PNG rasters match. The public ZIP is byte-identical to the frozen archive; CRC and 182 internal hashes pass. GitHub metadata and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B18_CP23_AUDIT_20261016.md).
 **B17 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23405881](https://zenodo.org/records/23405881) is published as one complete ZIP. The 13-page clarification preserves three scientific tables, nine figure images, five executed notebooks and 153 original outputs, and documents laboratory-fixed reading, the prescribed/scalar model, phase-limited transport, PDE conventions and in-sample fits. Saved-result checks passed 7,670 groups /22,429 values. The public ZIP is byte-identical to the frozen archive; SHA-256, MD5, CRC and193 internal hashes pass. GitHub related URL and three original DOI references are confirmed in published metadata. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B17_CP22_AUDIT_20261016.md).
 
 **B16 source/implementation audit, 16 October 2026:** [Draft v0.4 / Zenodo 23402231](https://zenodo.org/records/23402231) ([CP21 audit](B16_CP21_AUDIT_20261016.md); historical v0.3 DOI: 10.5281/zenodo.22660005) is published as one complete ZIP. The clarified 15-page English manuscript aligns history writing with the original pulse-on-gated code, documents onset-window increments, the threshold boundary and fixed Eulerian history, and repairs the clipped core figure. All scientific table values and seven composites are preserved. Five original executed notebooks and all 85 result files are archived; checks passed 691 groups / 37,334 values and 520,038 common public/original values. **Basically reproducible; an independent full rerun audit has not yet been completed.**
@@ -698,10 +698,12 @@ $
 \int m(x,t)W(x;R(t))G_\Sigma[\Phi](x,t)\,dx\,dt.
 $
 
-Across the reduced front-and-trace diagnostics, path-integrated threshold/interface-core exposure organizes later response better than global trace mass or read-start local load alone. The result is an operator-level statement: retained history becomes dynamically effective after projection through a boundary-dependent readout operator.
+Within the saved grids, selected path-integrated threshold/interface-core exposures have stronger in-sample associations with front suppression than the reported read-start and global-mass comparators. These diagnostics use the realized kept-branch trajectory; the implemented inhibition is spatially distributed and is not multiplied by the diagnostic window or gate. This is retrospective organization, not held-out prediction or an exact response law.
 
-**Zenodo record:**  
-https://zenodo.org/records/22690970
+[CP23 audit and publication verification](B18_CP23_AUDIT_20261016.md): current v0.2 is published and its public ZIP is verified; the historical v0.1 record remains https://zenodo.org/records/22690970.
+
+**Current Zenodo v0.2:**  
+https://zenodo.org/records/23427115
 
 ---
 

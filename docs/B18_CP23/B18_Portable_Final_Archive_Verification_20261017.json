@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "zip_sha256": "63be635c3df72315383cbc9a7e1cc2323393c61f797ff44e8aaed047ae1709ee",
+  "crc": "PASS",
+  "internal_sha256_checks": 182,
+  "fresh_extraction_default_adapter": {
+    "mode": "definitions",
+    "loaded_namespaces": 5,
+    "new_PDE_trajectories": 0
+  },
+  "saved_result_verification": "604 groups /314972 numeric values /44 categorical checks PASS",
+  "numerical_receipt_byte_identical": true,
+  "new_PDE_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED"
+}

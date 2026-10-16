@@ -1,0 +1,511 @@
+{
+  "public_notebooks": [
+    {
+      "name": "BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "original": "sources/original_notebooks/BIG_B18_2_active_front_weighted_readout_colab_v1.ipynb",
+      "code_cells": 8,
+      "code_exact": true
+    },
+    {
+      "name": "BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "original": "sources/original_notebooks/BIG_B18_1_read_path_integrated_load_colab_v1.ipynb",
+      "code_cells": 8,
+      "code_exact": true
+    },
+    {
+      "name": "BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "original": "sources/original_notebooks/BIG_B18_0_RD_front_inhibitor_trace_colab_v1.ipynb",
+      "code_cells": 9,
+      "code_exact": true
+    },
+    {
+      "name": "BIG_B18_4_unified_readout_operator_synthesis_colab_v1.ipynb",
+      "original": "sources/original_notebooks/BIG_B18_4_unified_readout_operator_synthesis_colab_v1.ipynb",
+      "code_cells": 7,
+      "code_exact": true
+    },
+    {
+      "name": "BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "original": "sources/original_notebooks/BIG_B18_3_gate_selection_operator_robustness_colab_v1.ipynb",
+      "code_cells": 9,
+      "code_exact": true
+    }
+  ],
+  "common_data_files": [
+    {
+      "name": "B18_2_active_front_weighted_readout_diagnostics.csv",
+      "byte_exact": true,
+      "rows_public": 188,
+      "rows_original": 188,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 1880
+    },
+    {
+      "name": "B18_2_active_front_weighted_readout_summary.json",
+      "byte_exact": true
+    },
+    {
+      "name": "B18_2_active_front_weighted_readout_metrics.csv",
+      "byte_exact": true,
+      "rows_public": 1296,
+      "rows_original": 1296,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 97200
+    },
+    {
+      "name": "B18_2_compact_kappa6_active_front_readout_table.csv",
+      "byte_exact": true,
+      "rows_public": 324,
+      "rows_original": 324,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 7128
+    },
+    {
+      "name": "B18_2_active_front_weighted_readout_model_comparison.csv",
+      "byte_exact": true,
+      "rows_public": 48,
+      "rows_original": 48,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 1488
+    },
+    {
+      "name": "B18_2_compact_main_active_front_readout_table.csv",
+      "byte_exact": true,
+      "rows_public": 4,
+      "rows_original": 4,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 88
+    },
+    {
+      "name": "B18_3_gate_selection_model_comparison.csv",
+      "byte_exact": true,
+      "rows_public": 28,
+      "rows_original": 28,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 1232
+    },
+    {
+      "name": "B18_3_operator_ranking.csv",
+      "byte_exact": true,
+      "rows_public": 83,
+      "rows_original": 83,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 581
+    },
+    {
+      "name": "B18_3_gate_selection_operator_robustness_diagnostics.csv",
+      "byte_exact": true,
+      "rows_public": 1745,
+      "rows_original": 1745,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 15705
+    },
+    {
+      "name": "B18_3_gate_selection_operator_robustness_summary.json",
+      "byte_exact": true
+    },
+    {
+      "name": "B18_3_gate_selection_operator_robustness_metrics.csv",
+      "byte_exact": true,
+      "rows_public": 1296,
+      "rows_original": 1296,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 330480
+    },
+    {
+      "name": "B18_0_rd_front_inhibitor_trace_metrics.csv",
+      "byte_exact": true,
+      "rows_public": 432,
+      "rows_original": 432,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 13392
+    },
+    {
+      "name": "B18_0_rd_front_inhibitor_trace_model_comparison.csv",
+      "byte_exact": true,
+      "rows_public": 20,
+      "rows_original": 20,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 340
+    },
+    {
+      "name": "B18_0_rd_front_inhibitor_trace_summary.json",
+      "byte_exact": true
+    },
+    {
+      "name": "B18_0_rd_front_inhibitor_trace_diagnostics.csv",
+      "byte_exact": true,
+      "rows_public": 238,
+      "rows_original": 238,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 4046
+    },
+    {
+      "name": "B18_1_compact_kappa6_path_load_table.csv",
+      "byte_exact": true,
+      "rows_public": 108,
+      "rows_original": 108,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 2160
+    },
+    {
+      "name": "B18_1_read_path_integrated_load_model_comparison.csv",
+      "byte_exact": true,
+      "rows_public": 30,
+      "rows_original": 30,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 660
+    },
+    {
+      "name": "B18_1_read_path_integrated_load_diagnostics.csv",
+      "byte_exact": true,
+      "rows_public": 126,
+      "rows_original": 126,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 1260
+    },
+    {
+      "name": "B18_1_read_path_integrated_load_summary.json",
+      "byte_exact": true
+    },
+    {
+      "name": "B18_1_read_path_integrated_load_manifest.json",
+      "byte_exact": true
+    },
+    {
+      "name": "B18_1_compact_main_path_load_table.csv",
+      "byte_exact": true,
+      "rows_public": 4,
+      "rows_original": 4,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 80
+    },
+    {
+      "name": "B18_1_read_path_integrated_load_metrics.csv",
+      "byte_exact": true,
+      "rows_public": 432,
+      "rows_original": 432,
+      "numeric_shape_match": true,
+      "numeric_values_compared": 18144
+    }
+  ],
+  "common_numeric_values": 495864,
+  "manuscripts": [
+    {
+      "lang": "EN",
+      "public_bytes": 952936,
+      "archived_provided_bytes": 952936,
+      "byte_exact": true,
+      "public_sha256": "aa0802b9135c259c3f3c4994d37e120b8099441446f3fbede93969690fe719e8"
+    },
+    {
+      "lang": "JP",
+      "public_bytes": 767750,
+      "archived_provided_bytes": 766422,
+      "byte_exact": false,
+      "public_sha256": "6fc3d8dacfb47aeaf09c37011d6c5c8db17ab8e89cdb150e12ae14bbfdc8114c"
+    }
+  ],
+  "status": "PASS",
+  "checked_at_utc": "2026-10-16T22:34:09.510056+00:00",
+  "old_public_zip": {
+    "bytes": 25639218,
+    "sha256": "f6843d33f5c1603d939635ff2b46f827594093f5849ad9814bf52d1cbe3ae1cb",
+    "md5": "0b96bcd69d8ea83c6e894e921e7561a9",
+    "members": 125,
+    "crc": "PASS"
+  },
+  "figure_rgb_matches": [
+    {
+      "retained_image": "figure1.png",
+      "public_png": "fig1_unified_readout_operator.png",
+      "rgb_exact": true,
+      "dimensions": [
+        2420,
+        1430
+      ]
+    },
+    {
+      "retained_image": "figure2.png",
+      "public_png": "fig3_b18_1_model_comparison.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1870,
+        1056
+      ]
+    },
+    {
+      "retained_image": "figure3.png",
+      "public_png": "fig4_b18_2_model_comparison.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1870,
+        1056
+      ]
+    },
+    {
+      "retained_image": "figure4.png",
+      "public_png": "fig5_b18_3_operator_ranking_top12.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1980,
+        1276
+      ]
+    },
+    {
+      "retained_image": "figure5.png",
+      "public_png": "fig6_threshold_sigma_robustness.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1760,
+        1056
+      ]
+    },
+    {
+      "retained_image": "figure6.png",
+      "public_png": "fig7_b18_3_threshold_scatter.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1584,
+        1056
+      ]
+    },
+    {
+      "retained_image": "figure7.png",
+      "public_png": "fig2_cross_stage_R2.png",
+      "rgb_exact": true,
+      "dimensions": [
+        1650,
+        1011
+      ]
+    }
+  ],
+  "byte_matching_public_files": [
+    {
+      "public_path": "BIG_B18_EN_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+      "source_paths": [
+        "sources/BIG_B18_EN_v0_1_historical.pdf"
+      ],
+      "sha256": "aa0802b9135c259c3f3c4994d37e120b8099441446f3fbede93969690fe719e8"
+    },
+    {
+      "public_path": "BIG_B18_JP_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+      "source_paths": [
+        "sources/BIG_B18_JP_v0_1_public_DOI_22690970.pdf"
+      ],
+      "sha256": "6fc3d8dacfb47aeaf09c37011d6c5c8db17ab8e89cdb150e12ae14bbfdc8114c"
+    },
+    {
+      "public_path": "figures/fig8_read_branch_front_anchored_n3.png",
+      "source_paths": [
+        "sources/drive_run/B18_2_read_branch_R_front_anchored_write_n3.png"
+      ],
+      "sha256": "2ab30febbd9c7d8efb33f23dfdeda6cf040f68863b3a350e92dc6c52c0ca205c"
+    },
+    {
+      "public_path": "figures/fig9_trace_profile_front_anchored_n3.png",
+      "source_paths": [
+        "sources/drive_run/B18_2_m_profile_moving_frame_front_anchored_write_n3.png"
+      ],
+      "sha256": "431e675b45b8c3d32df80934d1962bbd90c1eee268c3ec8ad5aa56ef98031c53"
+    },
+    {
+      "public_path": "figures/fig10_kappa_zero_control.png",
+      "source_paths": [
+        "sources/drive_run/B18_2_kappa_zero_control.png"
+      ],
+      "sha256": "d73e4f8c65fa9f74842821edc6a515d5f43eae6a1c3dd09268d2bcf1220eef82"
+    },
+    {
+      "public_path": "source/BIG_B18_EN_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+      "source_paths": [
+        "sources/BIG_B18_EN_v0_1_historical.pdf"
+      ],
+      "sha256": "aa0802b9135c259c3f3c4994d37e120b8099441446f3fbede93969690fe719e8"
+    },
+    {
+      "public_path": "source/BIG_B18_JP_working_paper_draft_v0_1_DOI_zenodo_22690970.pdf",
+      "source_paths": [
+        "sources/BIG_B18_JP_v0_1_public_DOI_22690970.pdf"
+      ],
+      "sha256": "6fc3d8dacfb47aeaf09c37011d6c5c8db17ab8e89cdb150e12ae14bbfdc8114c"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_active_front_weighted_readout_diagnostics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_2_active_front_weighted_readout_diagnostics.csv"
+      ],
+      "sha256": "4604ef152d6bea0e383ea8c406e0e95350472f73172cf5d09f54f9e45302a259"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_active_front_weighted_readout_summary.json",
+      "source_paths": [
+        "sources/drive_run/B18_2_active_front_weighted_readout_summary.json"
+      ],
+      "sha256": "6c471af6b0e39cb46e89d3f284a3f6561bff0f894778c2e3bfb4496f6f04d705"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_active_front_weighted_readout_metrics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_2_active_front_weighted_readout_metrics.csv"
+      ],
+      "sha256": "e1840468bba41b7783e88b175984a3fc5dd41e7438e83fc02835e08bc0efbec4"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_compact_kappa6_active_front_readout_table.csv",
+      "source_paths": [
+        "sources/drive_run/B18_2_compact_kappa6_active_front_readout_table.csv"
+      ],
+      "sha256": "24114511cc33104e3856ea83fcb40d8ba96373c6e6d9df2223702833b1a169a0"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_active_front_weighted_readout_model_comparison.csv",
+      "source_paths": [
+        "sources/drive_run/B18_2_active_front_weighted_readout_model_comparison.csv"
+      ],
+      "sha256": "813eb63621ad36d9cf4dbe2b25395dd4c6afb858533a044ccb3360b13dba4b22"
+    },
+    {
+      "public_path": "data/b18_2/B18_2_compact_main_active_front_readout_table.csv",
+      "source_paths": [
+        "sources/drive_run/B18_2_compact_main_active_front_readout_table.csv"
+      ],
+      "sha256": "2550b159dcab315c4e2826d512666b680180855cded6a8b5e0a39b7faec6e571"
+    },
+    {
+      "public_path": "data/b18_3/B18_3_gate_selection_model_comparison.csv",
+      "source_paths": [
+        "sources/drive_run/B18_3_gate_selection_model_comparison.csv"
+      ],
+      "sha256": "d7ed7248e25c9020d8d7718ca1e461e839375619efd6eabd734670fa7f930952"
+    },
+    {
+      "public_path": "data/b18_3/B18_3_operator_ranking.csv",
+      "source_paths": [
+        "sources/drive_run/B18_3_operator_ranking.csv"
+      ],
+      "sha256": "ffa0ed3d9e8b7e0c83591f14fc40a0c588e5cb085b49de620ecbb908848d220a"
+    },
+    {
+      "public_path": "data/b18_3/B18_3_gate_selection_operator_robustness_diagnostics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_3_gate_selection_operator_robustness_diagnostics.csv"
+      ],
+      "sha256": "5747c247ba68b9ba6899f4c85b3e5584464d760f5066a428c85dbad8e39f60e5"
+    },
+    {
+      "public_path": "data/b18_3/B18_3_gate_selection_operator_robustness_summary.json",
+      "source_paths": [
+        "sources/drive_run/B18_3_gate_selection_operator_robustness_summary.json"
+      ],
+      "sha256": "06a7d09750b57f44eaf5644183149d01f02a6b64230f0efc134e9ba4af99a532"
+    },
+    {
+      "public_path": "data/b18_3/B18_3_gate_selection_operator_robustness_metrics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_3_gate_selection_operator_robustness_metrics.csv"
+      ],
+      "sha256": "423c6c8a82dd3ab73951e38d36f4a18c3aa92dc207813c1cb2f44326d0786ce7"
+    },
+    {
+      "public_path": "data/b18_0/B18_0_rd_front_inhibitor_trace_metrics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_0_rd_front_inhibitor_trace_metrics.csv"
+      ],
+      "sha256": "699d1ce2877d62efdf757da74daeae5b8f8fae22e6afa756e501e494e55d3d9e"
+    },
+    {
+      "public_path": "data/b18_0/B18_0_rd_front_inhibitor_trace_model_comparison.csv",
+      "source_paths": [
+        "sources/drive_run/B18_0_rd_front_inhibitor_trace_model_comparison.csv"
+      ],
+      "sha256": "0a39d41a7a4bdc9ab934667b2aa3cc1687163a0abb9db0416dc5aa6bfd541b4c"
+    },
+    {
+      "public_path": "data/b18_0/B18_0_rd_front_inhibitor_trace_summary.json",
+      "source_paths": [
+        "sources/drive_run/B18_0_rd_front_inhibitor_trace_summary.json"
+      ],
+      "sha256": "ea7da7140c325324fde1a9deaf96a40321b7d69f04935d95b27151afefea0845"
+    },
+    {
+      "public_path": "data/b18_0/B18_0_rd_front_inhibitor_trace_diagnostics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_0_rd_front_inhibitor_trace_diagnostics.csv"
+      ],
+      "sha256": "6f0330b5748fe85bf1f1eaee4acdd402080131f48421da5ebabeacbc9677ca7c"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_compact_kappa6_path_load_table.csv",
+      "source_paths": [
+        "sources/drive_run/B18_1_compact_kappa6_path_load_table.csv"
+      ],
+      "sha256": "b08520ac8e8aba713a710bbad6cc40d97d245d0e54d22a8426468d830f1ddbcc"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_read_path_integrated_load_model_comparison.csv",
+      "source_paths": [
+        "sources/drive_run/B18_1_read_path_integrated_load_model_comparison.csv"
+      ],
+      "sha256": "3298bcadae58bec41a83a35b4df6b0e5542771ec881970bb1c84775eb288ae12"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_read_path_integrated_load_diagnostics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_1_read_path_integrated_load_diagnostics.csv"
+      ],
+      "sha256": "08ab185ed33e3ca548c93c9c2cf4202f6af6f750462b3bcd0ff34c4e25f4ceb6"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_read_path_integrated_load_summary.json",
+      "source_paths": [
+        "sources/drive_run/B18_1_read_path_integrated_load_summary.json"
+      ],
+      "sha256": "fac87404c2703435fb060e57e6132955f74bed52e4ca94071a8da01e594e7d76"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_read_path_integrated_load_manifest.json",
+      "source_paths": [
+        "sources/drive_run/B18_1_read_path_integrated_load_manifest.json"
+      ],
+      "sha256": "09a8ae13b77fcb39cfe58ae623ffdbb41af1d576b75130db711ce863f288d43c"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_compact_main_path_load_table.csv",
+      "source_paths": [
+        "sources/drive_run/B18_1_compact_main_path_load_table.csv"
+      ],
+      "sha256": "f6413bdff1ef34845098017673f664c0cf4bde9788845766df314792a7b13624"
+    },
+    {
+      "public_path": "data/b18_1/B18_1_read_path_integrated_load_metrics.csv",
+      "source_paths": [
+        "sources/drive_run/B18_1_read_path_integrated_load_metrics.csv"
+      ],
+      "sha256": "b696d2c06d50aa9a2ca7313a80e6a12239c43d798ee633fe80c5890611765612"
+    }
+  ],
+  "japanese_reference_difference": "The supplied Japanese PDF lacks the one DOI line added in the public Japanese PDF; both byte-unchanged versions are retained.",
+  "old_public_editable_tex_recovered": true,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "historical_checksum_lists": {
+    "SHA256SUMS.txt": {
+      "present_files_checked": 79,
+      "present_file_mismatch": [
+        "README.md"
+      ],
+      "missing_old_pre_DOI_names": 12
+    },
+    "SHA256SUMS_DOI_zenodo_22690970.txt": {
+      "present_files_checked": 99,
+      "present_file_mismatch": [],
+      "missing_nonessential_build_bookkeeping": [
+        "source/BIG_B18_EN_working_paper_draft_v0_1_DOI_zenodo_22690970.fdb_latexmk",
+        "source/BIG_B18_EN_working_paper_draft_v0_1_DOI_zenodo_22690970.fls",
+        "source/BIG_B18_JP_working_paper_draft_v0_1_DOI_zenodo_22690970.fdb_latexmk",
+        "source/BIG_B18_JP_working_paper_draft_v0_1_DOI_zenodo_22690970.fls"
+      ]
+    },
+    "handling": "Historical ZIP kept byte-unchanged. New complete archive checksum list covers every included file."
+  }
+}
