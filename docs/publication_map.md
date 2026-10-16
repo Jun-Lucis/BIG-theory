@@ -711,12 +711,14 @@ https://zenodo.org/records/23427115
 
 **Theme:** Boundary-core, Biot--Savart strain, signed alignment, and finite-window enstrophy-balance diagnostics in synthetic divergence-free 3D vorticity fields.
 
-The integrated B19 result does not support a single ray-independent scalar threshold. Instead, the numerical diagnostics identify direction-dependent upstream boundary-core channel families feeding a common downstream production-versus-dissipation / total-balance organization.
+The integrated B19 tests do not find a ray-independent scalar or two-coordinate reduction under their specified internal transfer screens. The directional comparison is descriptive and uses coarse mapped pairs; final and timing observables contain later-time information. The tested channel-family interpretation is limited to this constructed numerical family.
 
 This is a reduced finite-window numerical diagnostic. It does **not** prove Navier--Stokes blow-up or regularity.
 
 **Integrated Zenodo record:**  
-https://zenodo.org/records/22726848
+https://zenodo.org/records/23427540
+
+CP24 v1.1 preserves original scientific numbers, two tables, four figure rasters and formal classifications. The 69,687,332-byte complete ZIP was publicly re-downloaded byte-identically with all 586 internal SHA-256 checks passing. Saved-data verification passes 1,457 check groups / 1,182,025 value or label comparisons; checkpoint/input-copy repetitions are included. The 27 mapped rows contain 25 evolved cases with a shared seed. Basically reproducible from archived methods and saved outputs; independent full rerun audit not completed. [Audit and methods](B19_CP24_AUDIT_20261017.md).
 
 **Finite-time response follow-up:**  
 https://zenodo.org/records/22769513

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "internal_sha256_checks": 586,
+  "bad_members": [],
+  "saved_numeric_receipt_byte_identical": true,
+  "saved_check_groups": 1457,
+  "saved_values_or_labels": 1182025,
+  "definition_loader": {
+    "status": "PASS",
+    "namespaces_loaded": 22,
+    "experiment_functions_invoked": 0,
+    "note": "Definitions only. Full notebook rerun not performed."
+  },
+  "independent_full_rerun_audit": "NOT_COMPLETED"
+}

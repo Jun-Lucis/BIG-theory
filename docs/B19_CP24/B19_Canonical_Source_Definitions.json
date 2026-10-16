@@ -1,0 +1,2489 @@
+[
+  {
+    "stage": "B19.4",
+    "notebook": "sources/original_notebooks/14gRsihu__BIG_B19_4_coherent_strain_alignment_filter_colab_v1.ipynb",
+    "notebook_sha256": "4e341403345c65ed3116428fa13ed406298f5bb86e641fd4b90b277a3d386eb5",
+    "definitions_file": "code/definitions/B19_4_definitions.py",
+    "definition_count": 22,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 1,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 1,
+        "sha256": "e772bc44039e70a38393483522836d40998c066061d56edb3aa5f3f1e3930868"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 1,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 1,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 1,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 1,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 2,
+        "sha256": "73548566fd06ab7c9d6e392f3bcad62a247f82ca8d5e00afd64715c2e276a0e4"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 2,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 2,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 2,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "curl_from_vector_potential",
+        "cell_index": 2,
+        "sha256": "2f079ac95324c035d2a1192787d856722e3b0b06d3f94f059430e05bc2bd9bc9"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 2,
+        "sha256": "bf0a79a3dcca2b32464a63dfcb70c2aaef90d979707461c5331e1a097b24eb61"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 2,
+        "sha256": "3a8f6397eed03f1f075d05ec9a00c2411bbdd5c6edeb6016cbd1ee8100010a35"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 2,
+        "sha256": "32abab73a87ef39029d0a26a8809d2e7f17dc7c885dc8239e96da7012a0e3ce7"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 2,
+        "sha256": "be5e8817b9594687ada023371d33945743b3fe3a0fbcc2411568595c303896a0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 2,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "strain_frobenius",
+        "cell_index": 2,
+        "sha256": "a3167273f7a3d03e65c623924cbea2e4fa50cea1a8c44e25f396ec898421750b"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 2,
+        "sha256": "3d5c4e2b777b4297dee70e3c8d078feb784966e72fa274c481a5a936ed9f2e64"
+      },
+      {
+        "name": "curl_of_velocity",
+        "cell_index": 2,
+        "sha256": "6756a4440da533b45f57fa26f44b06603f282965e6aad00459454e8658f6737e"
+      },
+      {
+        "name": "make_vector_potential_family",
+        "cell_index": 3,
+        "sha256": "6e07402a3fc8f2cc45c1c708bee9a7ea54468176ca6c958f560051ce6152a4e1"
+      },
+      {
+        "name": "make_base_vorticity",
+        "cell_index": 3,
+        "sha256": "4f5f357f0e2929190f14b11aa50432e4588c95a944329ea2d417efe65175abb7"
+      },
+      {
+        "name": "compute_coherence_metrics",
+        "cell_index": 5,
+        "sha256": "b620d74f66c0b6af71225cdc9aaacebf87292b4b293492378d2d840b0491bd73"
+      }
+    ],
+    "notebook_executed_code_cells": 8,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.9",
+    "notebook": "sources/original_notebooks/18TSkOyT__BIG_B19_9_resolution_timestep_convergence_colab_v1.ipynb",
+    "notebook_sha256": "19d59ddd60d5537b4674bf4d2f00a60858d6ba8809d01e27b89294d0cb82576a",
+    "definitions_file": "code/definitions/B19_9_definitions.py",
+    "definition_count": 27,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "77e63b906eb01a995a779236d4bdc0d77e5fddad14722e243ca152716004a3cc"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "f0b5e0332a3a2037632fb696d2c7b31395005141245ed88c9b796fa14faf0d82"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      }
+    ],
+    "notebook_executed_code_cells": 11,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.16",
+    "notebook": "sources/original_notebooks/1KFQyCDl__BIG_B19_16_local_neighborhood_robustness_colab_v1.ipynb",
+    "notebook_sha256": "c4ff24de3d911ef36f0cc89672ba951ece09584186c3a756c87ae139539ffba2",
+    "definitions_file": "code/definitions/B19_16_definitions.py",
+    "definition_count": 35,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clip",
+        "cell_index": 5,
+        "sha256": "dc76ddb0d536e042ce96907ac9e1cab0715d95d32f2c689513a164221ec84f62"
+      },
+      {
+        "name": "perturb_channel",
+        "cell_index": 5,
+        "sha256": "347bfae34e9694f498cfc3822dce38bc483504d3ce3a0c2d5f5e1465ece3ef69"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "load_checkpoint_csv",
+        "cell_index": 8,
+        "sha256": "101d966f28a9231b52fe86743ef0281a1ca67a421acdc0bc2ae4b7aa82b1f16c"
+      },
+      {
+        "name": "checkpoint_save",
+        "cell_index": 8,
+        "sha256": "262d7d02d5232fb453f5e4809f05200da306c3ff0a7bef30a54ff5e1c7cfc2c3"
+      },
+      {
+        "name": "observed_class",
+        "cell_index": 9,
+        "sha256": "c59b405986c88a065ed1a317db6689eb417bb6b418dcdc5a2453d290d1907355"
+      }
+    ],
+    "notebook_executed_code_cells": 10,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.1",
+    "notebook": "sources/original_notebooks/1KKNKLDy__BIG_B19_1_energy_constrained_core_dynamics_colab_v1.ipynb",
+    "notebook_sha256": "5ad5725a095f03032c191694cf6a1cbad652afa1243d235d6fb61e72980dff07",
+    "definitions_file": "code/definitions/B19_1_definitions.py",
+    "definition_count": 8,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 1,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 1,
+        "sha256": "e772bc44039e70a38393483522836d40998c066061d56edb3aa5f3f1e3930868"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 1,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 1,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 1,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 1,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "channel_ratio_energy_cap",
+        "cell_index": 3,
+        "sha256": "31e7f62f7da64142d632e196a69de411496252fae358fa76d59a57cc955c89d5"
+      },
+      {
+        "name": "simulate_energy_constrained_core",
+        "cell_index": 6,
+        "sha256": "e1e55da6aedc6fb2e2239b2aa8d484a31017e7d95bc8856b24118540017a2981"
+      }
+    ],
+    "notebook_executed_code_cells": 7,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.5",
+    "notebook": "sources/original_notebooks/1MzTle0m__BIG_B19_5_coherent_channel_robustness_colab_v1.ipynb",
+    "notebook_sha256": "f7949ef24d20b19dcb1e684f9faba20646d238e05ef89ca3f3596314110b380a",
+    "definitions_file": "code/definitions/B19_5_definitions.py",
+    "definition_count": 24,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "e772bc44039e70a38393483522836d40998c066061d56edb3aa5f3f1e3930868"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "73548566fd06ab7c9d6e392f3bcad62a247f82ca8d5e00afd64715c2e276a0e4"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "curl_from_vector_potential",
+        "cell_index": 3,
+        "sha256": "2f079ac95324c035d2a1192787d856722e3b0b06d3f94f059430e05bc2bd9bc9"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "bf0a79a3dcca2b32464a63dfcb70c2aaef90d979707461c5331e1a097b24eb61"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3a8f6397eed03f1f075d05ec9a00c2411bbdd5c6edeb6016cbd1ee8100010a35"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "32abab73a87ef39029d0a26a8809d2e7f17dc7c885dc8239e96da7012a0e3ce7"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "be5e8817b9594687ada023371d33945743b3fe3a0fbcc2411568595c303896a0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "strain_frobenius",
+        "cell_index": 3,
+        "sha256": "a3167273f7a3d03e65c623924cbea2e4fa50cea1a8c44e25f396ec898421750b"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "3d5c4e2b777b4297dee70e3c8d078feb784966e72fa274c481a5a936ed9f2e64"
+      },
+      {
+        "name": "curl_of_velocity",
+        "cell_index": 3,
+        "sha256": "6756a4440da533b45f57fa26f44b06603f282965e6aad00459454e8658f6737e"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "78d522ada64f150be0dbdc2e8e5a9c3784b6e09769f7ab6cfddb540e6c335b16"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "ebb894199a6c565d3766856022867c9b4c906e24dc55e453f03c7cdf4f386bcb"
+      },
+      {
+        "name": "compute_coherence_metrics",
+        "cell_index": 5,
+        "sha256": "07fecde8214e9af98c10712df57b3ed3a60a89aeeef82af853b182bc1bd68071"
+      },
+      {
+        "name": "add_energy_scaled_rows",
+        "cell_index": 5,
+        "sha256": "924cd8c641a51ae275d39785c71ccd56e00bf6cb23375126979b517f23f47ff0"
+      },
+      {
+        "name": "find_existing_file",
+        "cell_index": 8,
+        "sha256": "86d407e5459c6a0bcfc5fa5f4097be17660a748b6d7a1e96cd66904881a4f4db"
+      }
+    ],
+    "notebook_executed_code_cells": 11,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.17a",
+    "notebook": "sources/original_notebooks/1OsBQn0m__BIG_B19_17a_local_separatrix_mapping_colab_v1.ipynb",
+    "notebook_sha256": "d32716a67fc5816a33afa4339f6582b797f2c37a3d48eb0f204e374ca401692f",
+    "definitions_file": "code/definitions/B19_17a_definitions.py",
+    "definition_count": 37,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "fc537ea4f19edd4640ee4ac834b1e760390d5bfd65f2927fd1546912457f7b1a"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "load_checkpoint_csv",
+        "cell_index": 8,
+        "sha256": "101d966f28a9231b52fe86743ef0281a1ca67a421acdc0bc2ae4b7aa82b1f16c"
+      },
+      {
+        "name": "checkpoint_save",
+        "cell_index": 8,
+        "sha256": "262d7d02d5232fb453f5e4809f05200da306c3ff0a7bef30a54ff5e1c7cfc2c3"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 9,
+        "sha256": "d71f5d0aa70acbdb459dbe388e9b82d3ac2a7ea0e2adddc5069aa16777a44d5f"
+      },
+      {
+        "name": "classify_b19_17a",
+        "cell_index": 10,
+        "sha256": "d6b565d7855f679b75f0f13d61d1262cb299690ad714ed350ac6389d65335922"
+      },
+      {
+        "name": "classify_dynamic_state",
+        "cell_index": 13,
+        "sha256": "9e29e159b604f279d79bf9219b52bd22c9524a99c225d687a6ff19499c6fab66"
+      }
+    ],
+    "notebook_executed_code_cells": 14,
+    "archived_error_count": 2
+  },
+  {
+    "stage": "B19.3",
+    "notebook": "sources/original_notebooks/1PxHVPX___BIG_B19_3_divergence_free_strain_readout_colab_v1.ipynb",
+    "notebook_sha256": "df303c55e7c30101f921eb9f48e7960f31398fe919bf8f4d540cff700fd08f86",
+    "definitions_file": "code/definitions/B19_3_definitions.py",
+    "definition_count": 22,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 1,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 1,
+        "sha256": "e772bc44039e70a38393483522836d40998c066061d56edb3aa5f3f1e3930868"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 1,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 1,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 1,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 1,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "73548566fd06ab7c9d6e392f3bcad62a247f82ca8d5e00afd64715c2e276a0e4"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "curl_from_vector_potential",
+        "cell_index": 3,
+        "sha256": "2f079ac95324c035d2a1192787d856722e3b0b06d3f94f059430e05bc2bd9bc9"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "bf0a79a3dcca2b32464a63dfcb70c2aaef90d979707461c5331e1a097b24eb61"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "289b5344d470fbe15561c3e97e3a60f3437a98a22b5e6c387385dfa55abfd589"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "32abab73a87ef39029d0a26a8809d2e7f17dc7c885dc8239e96da7012a0e3ce7"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "be5e8817b9594687ada023371d33945743b3fe3a0fbcc2411568595c303896a0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "strain_frobenius",
+        "cell_index": 3,
+        "sha256": "a3167273f7a3d03e65c623924cbea2e4fa50cea1a8c44e25f396ec898421750b"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "3d5c4e2b777b4297dee70e3c8d078feb784966e72fa274c481a5a936ed9f2e64"
+      },
+      {
+        "name": "curl_of_velocity",
+        "cell_index": 3,
+        "sha256": "6756a4440da533b45f57fa26f44b06603f282965e6aad00459454e8658f6737e"
+      },
+      {
+        "name": "make_vector_potential_family",
+        "cell_index": 4,
+        "sha256": "9974581051bc8839bea7936ec581aff698b124d87bd9a83e6def4e2daef5e279"
+      },
+      {
+        "name": "make_base_vorticity",
+        "cell_index": 4,
+        "sha256": "109d1d6008bed8ef0c4793586259ec2f73cbb9bae9ba8665df8634ad741ff6c6"
+      },
+      {
+        "name": "compute_base_metrics",
+        "cell_index": 4,
+        "sha256": "26c3510e4ddaf19fcaa1ea75243a192cb0565c73a50ea46bef4c3c726a0a86d7"
+      }
+    ],
+    "notebook_executed_code_cells": 7,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.7",
+    "notebook": "sources/original_notebooks/1UvCPRqG__BIG_B19_7_short_time_vorticity_dynamics_colab_v1.ipynb",
+    "notebook_sha256": "98905da95f73c3ed1b72393214a84299c1e1cf3986db56d6318ce9a7c3afaaa1",
+    "definitions_file": "code/definitions/B19_7_definitions.py",
+    "definition_count": 28,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "fda8bb54c3a5d2fc2ed57a53ea12906e176336914de0d1283c8964da542f85e2"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "56efbf19868a53d7164e0a844997e3b053234988bf372c6e3accb3e5b55c7a07"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "5cffd946ab02320b7849b5210507dbcd5777cd3acc3ba82bd90296b432750e4a"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "7f72cf4d03e6c991514e9ccd7adc81ca721f7bfacc5eeb315a3d964655acb610"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "load_b19_6_candidates",
+        "cell_index": 5,
+        "sha256": "b46de6a8aac46f31199e16f5ff3ec92a1187e738e45172b01eaf60f99ac19d30"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "800177dd9c1ee3b986d85faaaa46ac4ff566036213855c8ad71fbb0f6b8ac960"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "5c7a282b8b0b3668ed4c748f66a242337bb327500c8517cfde79331d7f8b665e"
+      },
+      {
+        "name": "compute_balance",
+        "cell_index": 6,
+        "sha256": "a41a57beedf677b5fb17e4f07004773b5be2e83345e4605bafa5857782a2f0ac"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "c8d85bfd2629c0a14ce8c968626f08c09ed30aaf013179b8ddfc089fa44bcb38"
+      }
+    ],
+    "notebook_executed_code_cells": 9,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.14",
+    "notebook": "sources/original_notebooks/1XncKWl8__BIG_B19_14_spectral_tail_boxsize_robustness_colab_v1.ipynb",
+    "notebook_sha256": "874443172593d55bfd145fd9acd0b1307fe833a9fa2f4c93f32297818758f7a3",
+    "definitions_file": "code/definitions/B19_14_definitions.py",
+    "definition_count": 32,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 4,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 4,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 4,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 4,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 4,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 4,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 5,
+        "sha256": "308bc4abebdf806ae9e87b8c2ea1b7f25fc2a923c08c3ddf4e9f38fa0680c199"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 5,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 5,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 5,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 5,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 5,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 5,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 5,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 5,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 5,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 5,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 5,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 5,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 5,
+        "sha256": "265920de9743bc8cc4f17c42f6cbff385195903ab042cac8c0e47466af894b21"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 6,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 6,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 6,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 6,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 8,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 8,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 8,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 8,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 8,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 8,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "load_checkpoint_csv",
+        "cell_index": 10,
+        "sha256": "101d966f28a9231b52fe86743ef0281a1ca67a421acdc0bc2ae4b7aa82b1f16c"
+      },
+      {
+        "name": "checkpoint_save",
+        "cell_index": 10,
+        "sha256": "480fcbb7a073b2eb4f7c4c1cedb09eec75cb2aacb8c57d681d9ad89c1f184a44"
+      }
+    ],
+    "notebook_executed_code_cells": 2,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.6",
+    "notebook": "sources/original_notebooks/1XomqdGI__BIG_B19_6_gate_volume_resolution_robustness_colab_v1.ipynb",
+    "notebook_sha256": "10a0b444a829b3b700ac5633200459d4b0bda151458c6735b7edc1ebaba8229a",
+    "definitions_file": "code/definitions/B19_6_definitions.py",
+    "definition_count": 24,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "31c8e38627e3662d41e3374c55ad2bf068446eb4d7da1717505078de1ea1734e"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "73548566fd06ab7c9d6e392f3bcad62a247f82ca8d5e00afd64715c2e276a0e4"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "curl_from_vector_potential",
+        "cell_index": 3,
+        "sha256": "96b01cf04b7a3ea6b695720e8e7de4ec4a981bbea92729fb4c73723a51e76d93"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "201b7120999ad6ded1bb7afd77076013a2b1ac0629c36606e3cbf27b89c71933"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "701e8bed73750d021eae3debbc317812bbdc8fe2ff35136486fc3ccc1d1e995a"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "32abab73a87ef39029d0a26a8809d2e7f17dc7c885dc8239e96da7012a0e3ce7"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "be5e8817b9594687ada023371d33945743b3fe3a0fbcc2411568595c303896a0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "3d5c4e2b777b4297dee70e3c8d078feb784966e72fa274c481a5a936ed9f2e64"
+      },
+      {
+        "name": "curl_of_velocity",
+        "cell_index": 3,
+        "sha256": "6756a4440da533b45f57fa26f44b06603f282965e6aad00459454e8658f6737e"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "b813ddef9dc055752ca0f38ba8842be03b236f5eaa6ae1ccc8d67479498a87d0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "ebb894199a6c565d3766856022867c9b4c906e24dc55e453f03c7cdf4f386bcb"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 5,
+        "sha256": "74f49448713e322e0ec8523c8bbe8db5150a8ef0284f40bbace4f1e565b82098"
+      },
+      {
+        "name": "compute_gate_metrics",
+        "cell_index": 5,
+        "sha256": "e1e354524d70388c43de783199dae5a3eee50c48ef687fc24ac0fc4b4a54e58d"
+      },
+      {
+        "name": "energy_scaled_channel_rows",
+        "cell_index": 5,
+        "sha256": "587088d9c505aa66f653edd910121ec679c0d1c3b3f6a3838775c8b7eae4d6a5"
+      },
+      {
+        "name": "load_candidates",
+        "cell_index": 7,
+        "sha256": "40d23eb09c545c4fa022cbd7befe6f98d7320c3c7809084adaca1bcef96b571e"
+      }
+    ],
+    "notebook_executed_code_cells": 10,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.10",
+    "notebook": "sources/original_notebooks/1ZCVZB0J__BIG_B19_10_activation_threshold_control_validation_colab_v1.ipynb",
+    "notebook_sha256": "7b0c66dbcf70ca28d00e91fd793311b16787780add5a275a10d8e09530646412",
+    "definitions_file": "code/definitions/B19_10_definitions.py",
+    "definition_count": 28,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "98bced30cf4604d6db9ef4015798cf520f5cbbd9bd685fe027ac43b3fec9531f"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "c6424439ade156fc9ebb209efafe036d47798c5d3c436860a86a37b169a411d8"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "426f9b317b737309918ab68d0795540de11768c2605d2a56f5e0b6a97686348a"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "estimate_Ecrit_same_geometry",
+        "cell_index": 6,
+        "sha256": "b927ee8387bec3959261797572de760f92d6ab85f61cf07085d0d988ec873100"
+      }
+    ],
+    "notebook_executed_code_cells": 11,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.12",
+    "notebook": "sources/original_notebooks/1ZflWPLv__BIG_B19_12_finite_window_persistence_colab_v1.ipynb",
+    "notebook_sha256": "e690cb8bee09111d1bc7392bcd3b1cb3103809d313a78176e0c669a0bd854228",
+    "definitions_file": "code/definitions/B19_12_definitions.py",
+    "definition_count": 28,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "98bced30cf4604d6db9ef4015798cf520f5cbbd9bd685fe027ac43b3fec9531f"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "c6424439ade156fc9ebb209efafe036d47798c5d3c436860a86a37b169a411d8"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "426f9b317b737309918ab68d0795540de11768c2605d2a56f5e0b6a97686348a"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      }
+    ],
+    "notebook_executed_code_cells": 10,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.17b",
+    "notebook": "sources/original_notebooks/1ZktVzeC__BIG_B19_17b_separatrix_refinement_convergence_colab_v1.ipynb",
+    "notebook_sha256": "4afc013750fad2bf8b86cbb14be67fcf8fb7f6fa6b288e3c0da4faa0efb34d99",
+    "definitions_file": "code/definitions/B19_17b_definitions.py",
+    "definition_count": 35,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 1,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 1,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 1,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 1,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 1,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 1,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 2,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 2,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 2,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 2,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 2,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 2,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 2,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 2,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 2,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 2,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 2,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 2,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 2,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 2,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 3,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 3,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 3,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 3,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 4,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 4,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 5,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 5,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 5,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 5,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 5,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 5,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 6,
+        "sha256": "de14bfc661f855470f759c8deffa0dac489fbbd4569233094e8e643670ef675c"
+      },
+      {
+        "name": "cached_run",
+        "cell_index": 7,
+        "sha256": "5f33d6f9fc76ae28eb1e0a2cbd39ab15f3039b417a5c6509aea21366ea77dacb"
+      },
+      {
+        "name": "conv_cached_run",
+        "cell_index": 8,
+        "sha256": "56b7f6d1aab5452a5c086f68999fb5377917375d1628fe62ac33971d10a020b7"
+      }
+    ],
+    "notebook_executed_code_cells": 12,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.2",
+    "notebook": "sources/original_notebooks/1ZznOmcG__BIG_B19_2_critical_channel_closure_colab_v1_3.ipynb",
+    "notebook_sha256": "bdc2d1fe0a12ecd0776c4f58223c43bf3c3c1a19d32dd2a65f00aac36ea61ed3",
+    "definitions_file": "code/definitions/B19_2_definitions.py",
+    "definition_count": 9,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 1,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 1,
+        "sha256": "e772bc44039e70a38393483522836d40998c066061d56edb3aa5f3f1e3930868"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 1,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 1,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 1,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 1,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "rho_max_energy_cap",
+        "cell_index": 3,
+        "sha256": "65a50c12100d78e44e9c31faa2098d353cc09936642718ea040215c4e9326418"
+      },
+      {
+        "name": "critical_radius",
+        "cell_index": 3,
+        "sha256": "0fac7b101b05008d4b1124dc9f0215c3e65e160471c2f6f09d5e8850808249a7"
+      },
+      {
+        "name": "prescribed_path",
+        "cell_index": 6,
+        "sha256": "093ef59b1e7a1d29ceebbba2da0db92dc259140c566af749d80320abbb38a29e"
+      }
+    ],
+    "notebook_executed_code_cells": 7,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.0",
+    "notebook": "sources/original_notebooks/1cy4iRtr__BIG_B19_0_NS_boundary_concentration_scaling_colab_v1.ipynb",
+    "notebook_sha256": "7be3097b07fd6073a8a27d414a9fe687f68255b0b8025c0b79bb172c594b9936",
+    "definitions_file": "code/definitions/B19_0_definitions.py",
+    "definition_count": 7,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "cf21b4b292810adefe901b5fdd3b7a257f8ae4e0bf51b93ae6ed02a7ba777c82"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "7f5723bd69c6ee1f00010d970fe6813178c4128f2f3dcc123f273ab646630273"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "66a660c47bf8eea4391a8d8e70d39e69a2143d4160a9860afb9768c0a9271f9a"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "5e6ce42805c310cd613c7cb634fba17caa3e3b65985abef0725486abd80912b0"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "c10c1dca547d41f9b6e25b8c8c60100fed90dd329b53162c7502a5e508d24f56"
+      },
+      {
+        "name": "classify_scaling",
+        "cell_index": 3,
+        "sha256": "b0a1c3c07e726d612e01127d65e7320174cda1e2b755db5464fbd1801bde98e9"
+      },
+      {
+        "name": "simulate_core_ode",
+        "cell_index": 6,
+        "sha256": "981c55a2e7b10f418abcd3b9be3142e035c04b95f4947ab74163af9adbc7c1cf"
+      }
+    ],
+    "notebook_executed_code_cells": 6,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.15",
+    "notebook": "sources/original_notebooks/1eztJ94W__BIG_B19_15_boundary_core_channel_classification_colab_v1_1.ipynb",
+    "notebook_sha256": "6948f9394d087f43614380cb45a789dd92f64016f2fc6792047d820756001325",
+    "definitions_file": "code/definitions/B19_15_definitions.py",
+    "definition_count": 12,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "has_required_files",
+        "cell_index": 3,
+        "sha256": "a4907f9dc651f2b1b8b41b06bf3059170360074eacca53db1ae247df601534da"
+      },
+      {
+        "name": "find_b19_14_dir",
+        "cell_index": 3,
+        "sha256": "04535940ae9e9cbd33777cb70665a5c4144b86ff52f17c230620c6be0d0710f4"
+      },
+      {
+        "name": "find_b19_14_zip",
+        "cell_index": 3,
+        "sha256": "c1580675869028f5607ebed9743e5726dcf247882b5b875864afd74d3b315513"
+      },
+      {
+        "name": "extract_b19_14_zip",
+        "cell_index": 3,
+        "sha256": "b4ab04ba34b1294fce2ac0392490f8e63e011d0b873c889f3fb82e1e40f3fd14"
+      },
+      {
+        "name": "classify_row",
+        "cell_index": 4,
+        "sha256": "cb174c33e72d90480f333f057169695143ee01f9a9f0906ab3d6f7641ae47f6a"
+      },
+      {
+        "name": "activation_class",
+        "cell_index": 6,
+        "sha256": "77632ee701ad023e23b8474d65ce9931c24f8a64e1d040d840c4fcd62dc76d8f"
+      }
+    ],
+    "notebook_executed_code_cells": 7,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.18",
+    "notebook": "sources/original_notebooks/1lNSmmEj__BIG_B19_18_reduced_control_variable_collapse_colab_v1.ipynb",
+    "notebook_sha256": "9b9925147d42b7692591c6e547248f87e157f12619cd0d9034279f0b908cb76b",
+    "definitions_file": "code/definitions/B19_18_definitions.py",
+    "definition_count": 1,
+    "definitions": [
+      {
+        "name": "interp_at_critical",
+        "cell_index": 6,
+        "sha256": "1269096940258a9144221960dc5403d0f8a287684f71609b89c636a15cf93bdb"
+      }
+    ],
+    "notebook_executed_code_cells": 10,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.11",
+    "notebook": "sources/original_notebooks/1o1P_r6T__BIG_B19_11_integrated_balance_delayed_activation_colab_v1.ipynb",
+    "notebook_sha256": "11bfd21db7a519476cf059cb65482896fe441c757f18270fbd706c6607e972c3",
+    "definitions_file": "code/definitions/B19_11_definitions.py",
+    "definition_count": 7,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "find_existing_file",
+        "cell_index": 3,
+        "sha256": "b5e34098fbdc9bd71c48a6793c6837e232e9241a0f5ead880e9ea68f2c384bb5"
+      }
+    ],
+    "notebook_executed_code_cells": 5,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.20",
+    "notebook": "sources/original_notebooks/1u2Vpire__BIG_B19_20_directional_mechanism_decomposition_colab_v1.ipynb",
+    "notebook_sha256": "0d09fed0862422e9d3a1d0367cae7605f93f23e4ec25070e7b4d0ae24eb3ef87",
+    "definitions_file": "code/definitions/B19_20_definitions.py",
+    "definition_count": 1,
+    "definitions": [
+      {
+        "name": "first_crossing_time",
+        "cell_index": 11,
+        "sha256": "44bb4ea9d70aacee60650320f6722b5ad0c51d821f9c71950f798231c485d4f5"
+      }
+    ],
+    "notebook_executed_code_cells": 13,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.13",
+    "notebook": "sources/original_notebooks/1uh4OXMg__BIG_B19_13_finite_window_convergence_stability_colab_v1.ipynb",
+    "notebook_sha256": "b3bcfd0ace33b7d2da3d98f729c4273e4f05a4047d2164c4a824e1e9c4bf28ec",
+    "definitions_file": "code/definitions/B19_13_definitions.py",
+    "definition_count": 30,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "639992e5bfe713d40e803096c8440ffd3e08900e42511472e0e93b5b54858ebd"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_highk_enstrophy_fraction",
+        "cell_index": 3,
+        "sha256": "41042820b9d4cc64a22705fdd90f65864b697b1a6a84f9627a47b74d96d0d2b1"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "4f922eed9aa2c53356340e61ffe5029acadcc5f1af58e4789a0ee4cfbd9bb483"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      }
+    ],
+    "notebook_executed_code_cells": 7,
+    "archived_error_count": 3
+  },
+  {
+    "stage": "B19.19",
+    "notebook": "sources/original_notebooks/1y3J5pPL__BIG_B19_19_minimal_2D_phase_portrait_colab_v1.ipynb",
+    "notebook_sha256": "6f30cb468cd6a764c246a5cd7e7bf51e17c7297a2baaded7b6a30b9fb3bd9885",
+    "definitions_file": "code/definitions/B19_19_definitions.py",
+    "definition_count": 2,
+    "definitions": [
+      {
+        "name": "robust_center_scale",
+        "cell_index": 6,
+        "sha256": "d0beab6e9ea66b60eb2fea501a591ace138c946747768a7be937edffbc22ee6a"
+      },
+      {
+        "name": "fold_test",
+        "cell_index": 6,
+        "sha256": "038ec5f4105db478820bd2db5810643f1381fc042d9bd78767fb04982aed855d"
+      }
+    ],
+    "notebook_executed_code_cells": 8,
+    "archived_error_count": 0
+  },
+  {
+    "stage": "B19.8",
+    "notebook": "sources/original_notebooks/1y_6wCGT__BIG_B19_8_total_balance_activation_threshold_colab_v1.ipynb",
+    "notebook_sha256": "92e1769e8e5874f24b9a4df65b7d4f732f4b018d0318c4d688532b84bad396dd",
+    "definitions_file": "code/definitions/B19_8_definitions.py",
+    "definition_count": 30,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "4ad91c2fa6046b8fb65a8a3c0e36179bdd748a5f1536ba974ba833badaea503c"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "1c63a5370caffb99c5406f8ed4f56858fce3173ca2e6c6231e51a1347db9a78c"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "4773d30180a802273244881bcf3a80f5a678fa302eaf4a980f78358991486f63"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "852690cd6f635a2c53213de87266f596989dcf13e949f61c37d3ec711ec6ff08"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "22f9dbc69edf17f4e3c351f509a559e4330fef890de786feae3ec64a3a533902"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "6dc163effa07eeddee2c274a53e84a203c68f10a1afc4ffc3517ce37de04d5f5"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "79f722828f09a68e1687550e73d5bb897ac80928b25a76d5d30d5e461007cb71"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "2e7edcc0a57d5049690cc1c8acbc75c61e5ade0cd9a09f51accfce001e7659af"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "load_candidate_inputs",
+        "cell_index": 5,
+        "sha256": "8f5b25b6b7a26b42b76d77fb9b3505c0741434fa9647d73b3419765c0e90f4e7"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "fbb1075cf05e980c1a7cb75e3c338a9d17e12b5cf654b8f0c70212c4322b79ba"
+      },
+      {
+        "name": "estimate_activation_from_reference",
+        "cell_index": 6,
+        "sha256": "819d33e231a87335ab538ff3de1a1b6765813d4c4850488b467f2af8f3d02f5c"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 10,
+        "sha256": "426f9b317b737309918ab68d0795540de11768c2605d2a56f5e0b6a97686348a"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 10,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 10,
+        "sha256": "d3853d486d48999db48e7130dd1030d87640d27be28b5212aa8201a09582f688"
+      }
+    ],
+    "notebook_executed_code_cells": 12,
+    "archived_error_count": 0
+  }
+]

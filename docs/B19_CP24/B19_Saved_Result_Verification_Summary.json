@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Saved-data recomputation only; no ODE/PDE or new trajectories",
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "checks": 1457,
+  "numeric_or_label_values": 1182025,
+  "timeseries_case_groups": 134,
+  "failed_checks": [],
+  "categories": {
+    "public_provenance": 14,
+    "saved_algebra": 216,
+    "timeseries_recompute": 386,
+    "headline_recompute": 190,
+    "reduction_recompute": 471,
+    "mechanism_recompute": 180
+  },
+  "full_receipt_archive_path": "audit/B19_Saved_Result_Verification.json",
+  "full_receipt_sha256": "a5d4b97427537621b61b352f82d82e412ede8542a089fd7cef341c0186f7560f"
+}

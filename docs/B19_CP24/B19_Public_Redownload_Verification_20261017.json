@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "public_url": "https://zenodo.org/records/23427540",
+  "doi": "10.5281/zenodo.23427540",
+  "version": "1.1",
+  "publication_date": "2026-10-17",
+  "filename": "BIG_B19_v1_1_COMPLETE_20261017.zip",
+  "bytes": 69687332,
+  "sha256": "326bb889d33fd0c4ae33e2a1faab28ec07f947e89b5a93f02ffe6d00befd06b6",
+  "md5": "b518c3a41e674c865643769c6cf4bd46",
+  "public_download_byte_identical": true,
+  "crc": "PASS",
+  "members": 587,
+  "internal_sha256_checks": 586,
+  "internal_sha256_status": "PASS",
+  "metadata": {
+    "status": "PASS",
+    "checks": {
+      "published": true,
+      "id": true,
+      "doi": true,
+      "parent": true,
+      "title": true,
+      "version": true,
+      "date": true,
+      "creators": true,
+      "subjects": true,
+      "license": true,
+      "resource_type": true,
+      "description_exact": true,
+      "preserved_doi_refs": true,
+      "github_related": true,
+      "one_zip": true,
+      "file_size": true,
+      "file_md5": true
+    }
+  },
+  "saved_data_portable_archive": {
+    "status": "PASS",
+    "internal_sha256_checks": 586,
+    "bad_members": [],
+    "saved_numeric_receipt_byte_identical": true,
+    "saved_check_groups": 1457,
+    "saved_values_or_labels": 1182025,
+    "definition_loader": {
+      "status": "PASS",
+      "namespaces_loaded": 22,
+      "experiment_functions_invoked": 0,
+      "note": "Definitions only. Full notebook rerun not performed."
+    },
+    "independent_full_rerun_audit": "NOT_COMPLETED"
+  },
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "scientific_values_figures_formal_verdicts_preserved": true
+}

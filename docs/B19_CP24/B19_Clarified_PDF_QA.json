@@ -1,0 +1,105 @@
+{
+  "pages": 14,
+  "figure_rgb_exact": true,
+  "old_figures": [
+    [
+      1474,
+      924,
+      "09613a2c5d663c6b261556bc540ecc53942c26cc3ed11a21ea15e580cb72637a"
+    ],
+    [
+      1474,
+      924,
+      "0dcccb6d8a17793abc8e667dc7b543fdc0b303942e97bb2cef40c7f4bdd80500"
+    ],
+    [
+      1584,
+      946,
+      "14dcc1d6628e4a9734580e30cc95100541b865fc92c5aa5121353e92a4369164"
+    ],
+    [
+      1584,
+      990,
+      "40c44df0ad80f5984cd6e9a49316467c6aa788c310eba35f0a71e9169f1849bf"
+    ]
+  ],
+  "new_figures": [
+    [
+      1474,
+      924,
+      "09613a2c5d663c6b261556bc540ecc53942c26cc3ed11a21ea15e580cb72637a"
+    ],
+    [
+      1474,
+      924,
+      "0dcccb6d8a17793abc8e667dc7b543fdc0b303942e97bb2cef40c7f4bdd80500"
+    ],
+    [
+      1584,
+      946,
+      "14dcc1d6628e4a9734580e30cc95100541b865fc92c5aa5121353e92a4369164"
+    ],
+    [
+      1584,
+      990,
+      "40c44df0ad80f5984cd6e9a49316467c6aa788c310eba35f0a71e9169f1849bf"
+    ]
+  ],
+  "text_outside_page": [],
+  "all_footers_v1_1": true,
+  "pdf_bytes": 591341,
+  "pdf_sha256": "7b8f1f07c4f8c7d302df199b6050a5ac40d5b2660f59cb14cde929b6ddeab40e",
+  "visual_review": "PASS",
+  "unique_figures": 4,
+  "last_changed_pages": [
+    "page-1.png",
+    "page-2.png",
+    "page-4.png",
+    "page-9.png",
+    "page-13.png",
+    "page-14.png"
+  ],
+  "previous_full_visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "last_revision_unchanged_page_pixels": [
+    "page-11.png",
+    "page-6.png",
+    "page-7.png",
+    "page-10.png",
+    "page-12.png",
+    "page-3.png",
+    "page-5.png",
+    "page-8.png"
+  ],
+  "all_pages_reviewed_at_full_resolution": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "original_tables_all_cells_exact": 2
+}

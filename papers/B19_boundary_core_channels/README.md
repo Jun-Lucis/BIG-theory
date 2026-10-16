@@ -35,8 +35,26 @@ B19 is limited to the stated reduced model and constructed synthetic divergence-
 
 ## Publications
 
-Integrated record: https://zenodo.org/records/22726848
+Integrated record v1.1: https://zenodo.org/records/23427540
+
+Historical v1: https://zenodo.org/records/22726848
 
 Finite-time response follow-up: https://zenodo.org/records/22769513
 
 Author: Jun Lucis
+
+## CP24 audit and complete archive
+
+Version 1.1 is published and publicly re-downloaded. The complete ZIP is 69,687,332 bytes, 587 members and 586 internal SHA-256 checks, all passing. SHA-256: `326bb889d33fd0c4ae33e2a1faab28ec07f947e89b5a93f02ffe6d00befd06b6`.
+
+Original scientific numbers, both tables, all four original figure rasters and formal classifications are preserved. The revised 14-page manuscript clarifies the Fourier/RK4 implementation, sampled trapezoidal balance integral, filter/spectral controls, shared seed, retrospective information, descriptive transfer screens and coarse-map directional comparisons. The historical 21 scalar candidates produce 20 finite score rows and 18 eligible transfer summaries. The 27 mapped rows include 25 evolved cases with a common seed shared by ray folds. These are internal constructed-family tests.
+
+All 27 notebook candidates and 458 recovered result files are in the complete archive. Six later B19.21C files co-located in a source folder are provenance only, outside the integrated B19.0-20 evidence. The Japanese v0.6 PDF is an earlier draft reference translation. Original notebooks retain historical errors, interruptions, Colab paths and checkpoint dependencies.
+
+Assessment: **Basically reproducible from archived methods and saved outputs; independent rerun audit not completed.** No new ODE/PDE trajectories were generated. The 1,457 saved-data check groups cover 1,182,025 numeric or label comparisons, including repeated checkpoint/input-copy checks rather than independent samples.
+
+- [Japanese audit report](../../docs/B19_CP24_AUDIT_20261017.md)
+- [Published archive verification](../../docs/B19_CP24/B19_Public_Redownload_Verification_20261017.json)
+- [Recovered definitions and saved-result verifier](../../code/B19_recovered)
+
+The B19.21-22 follow-up remains a separate audit target; its existing scientific conclusions have not been regraded by CP24.

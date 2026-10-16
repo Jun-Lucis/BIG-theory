@@ -1,0 +1,191 @@
+[
+  {
+    "name": "14gRsihu__BIG_B19_4_coherent_strain_alignment_filter_colab_v1.ipynb",
+    "cells": 8,
+    "executed": 8,
+    "outputs": 18,
+    "errors": 0
+  },
+  {
+    "name": "18TNSosM__BIG_B19_2_critical_channel_closure_colab_v1.ipynb",
+    "cells": 7,
+    "executed": 4,
+    "outputs": 13,
+    "errors": 1
+  },
+  {
+    "name": "18TSkOyT__BIG_B19_9_resolution_timestep_convergence_colab_v1.ipynb",
+    "cells": 11,
+    "executed": 11,
+    "outputs": 26,
+    "errors": 0
+  },
+  {
+    "name": "1IN88nsK__BIG_B19_15_boundary_core_channel_classification_colab_v1.ipynb",
+    "cells": 10,
+    "executed": 2,
+    "outputs": 5,
+    "errors": 3
+  },
+  {
+    "name": "1KFQyCDl__BIG_B19_16_local_neighborhood_robustness_colab_v1.ipynb",
+    "cells": 11,
+    "executed": 10,
+    "outputs": 28,
+    "errors": 0
+  },
+  {
+    "name": "1KKNKLDy__BIG_B19_1_energy_constrained_core_dynamics_colab_v1.ipynb",
+    "cells": 7,
+    "executed": 7,
+    "outputs": 63,
+    "errors": 0
+  },
+  {
+    "name": "1MzTle0m__BIG_B19_5_coherent_channel_robustness_colab_v1.ipynb",
+    "cells": 11,
+    "executed": 11,
+    "outputs": 28,
+    "errors": 0
+  },
+  {
+    "name": "1OsBQn0m__BIG_B19_17a_local_separatrix_mapping_colab_v1.ipynb",
+    "cells": 14,
+    "executed": 14,
+    "outputs": 40,
+    "errors": 2
+  },
+  {
+    "name": "1PxHVPX___BIG_B19_3_divergence_free_strain_readout_colab_v1.ipynb",
+    "cells": 7,
+    "executed": 7,
+    "outputs": 25,
+    "errors": 0
+  },
+  {
+    "name": "1QI23p1f__BIG_B19_2_critical_channel_closure_colab_v1_1.ipynb",
+    "cells": 7,
+    "executed": 4,
+    "outputs": 13,
+    "errors": 1
+  },
+  {
+    "name": "1UvCPRqG__BIG_B19_7_short_time_vorticity_dynamics_colab_v1.ipynb",
+    "cells": 9,
+    "executed": 9,
+    "outputs": 19,
+    "errors": 0
+  },
+  {
+    "name": "1XncKWl8__BIG_B19_14_spectral_tail_boxsize_robustness_colab_v1.ipynb",
+    "cells": 15,
+    "executed": 2,
+    "outputs": 34,
+    "errors": 0
+  },
+  {
+    "name": "1XomqdGI__BIG_B19_6_gate_volume_resolution_robustness_colab_v1.ipynb",
+    "cells": 10,
+    "executed": 10,
+    "outputs": 26,
+    "errors": 0
+  },
+  {
+    "name": "1YPIk2DY__BIG_B19_15_boundary_core_channel_classification_colab_v1_1.ipynb",
+    "cells": 8,
+    "executed": 1,
+    "outputs": 1,
+    "errors": 0
+  },
+  {
+    "name": "1ZCVZB0J__BIG_B19_10_activation_threshold_control_validation_colab_v1.ipynb",
+    "cells": 11,
+    "executed": 11,
+    "outputs": 28,
+    "errors": 0
+  },
+  {
+    "name": "1ZflWPLv__BIG_B19_12_finite_window_persistence_colab_v1.ipynb",
+    "cells": 10,
+    "executed": 10,
+    "outputs": 26,
+    "errors": 0
+  },
+  {
+    "name": "1ZktVzeC__BIG_B19_17b_separatrix_refinement_convergence_colab_v1.ipynb",
+    "cells": 12,
+    "executed": 12,
+    "outputs": 23,
+    "errors": 0
+  },
+  {
+    "name": "1ZznOmcG__BIG_B19_2_critical_channel_closure_colab_v1_3.ipynb",
+    "cells": 7,
+    "executed": 7,
+    "outputs": 43,
+    "errors": 0
+  },
+  {
+    "name": "1cy4iRtr__BIG_B19_0_NS_boundary_concentration_scaling_colab_v1.ipynb",
+    "cells": 6,
+    "executed": 6,
+    "outputs": 34,
+    "errors": 0
+  },
+  {
+    "name": "1eztJ94W__BIG_B19_15_boundary_core_channel_classification_colab_v1_1.ipynb",
+    "cells": 8,
+    "executed": 7,
+    "outputs": 21,
+    "errors": 0
+  },
+  {
+    "name": "1lNSmmEj__BIG_B19_18_reduced_control_variable_collapse_colab_v1.ipynb",
+    "cells": 10,
+    "executed": 10,
+    "outputs": 25,
+    "errors": 0
+  },
+  {
+    "name": "1lZxmTJX__BIG_B19_2_critical_channel_closure_colab_v1_2.ipynb",
+    "cells": 7,
+    "executed": 4,
+    "outputs": 13,
+    "errors": 1
+  },
+  {
+    "name": "1o1P_r6T__BIG_B19_11_integrated_balance_delayed_activation_colab_v1.ipynb",
+    "cells": 7,
+    "executed": 5,
+    "outputs": 22,
+    "errors": 0
+  },
+  {
+    "name": "1u2Vpire__BIG_B19_20_directional_mechanism_decomposition_colab_v1.ipynb",
+    "cells": 13,
+    "executed": 13,
+    "outputs": 23,
+    "errors": 0
+  },
+  {
+    "name": "1uh4OXMg__BIG_B19_13_finite_window_convergence_stability_colab_v1.ipynb",
+    "cells": 13,
+    "executed": 7,
+    "outputs": 26,
+    "errors": 3
+  },
+  {
+    "name": "1y3J5pPL__BIG_B19_19_minimal_2D_phase_portrait_colab_v1.ipynb",
+    "cells": 8,
+    "executed": 8,
+    "outputs": 20,
+    "errors": 0
+  },
+  {
+    "name": "1y_6wCGT__BIG_B19_8_total_balance_activation_threshold_colab_v1.ipynb",
+    "cells": 12,
+    "executed": 12,
+    "outputs": 27,
+    "errors": 0
+  }
+]

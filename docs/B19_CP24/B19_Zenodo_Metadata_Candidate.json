@@ -1,0 +1,151 @@
+{
+  "record_id": "23427540",
+  "parent_id": "22726847",
+  "doi": "10.5281/zenodo.23427540",
+  "version": "1.1",
+  "publication_date": "2026-10-17",
+  "title": "Boundary-Core Channel Families in Navier-Stokes-Type Vorticity Dynamics: Activation, Local Separatrices, and Direction-Dependent Pathways",
+  "creators": [
+    {
+      "person_or_org": {
+        "family_name": "Lucis",
+        "given_name": "Jun",
+        "name": "Lucis, Jun",
+        "type": "personal"
+      }
+    }
+  ],
+  "resource_type": {
+    "id": "publication-preprint",
+    "title": {
+      "de": "Preprint",
+      "en": "Preprint"
+    }
+  },
+  "rights": [
+    {
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "id": "cc-by-4.0",
+      "props": {
+        "scheme": "spdx",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Boundary Information Geometry"
+    },
+    {
+      "subject": "Boundary-Core Dynamics"
+    },
+    {
+      "subject": "Vorticity"
+    },
+    {
+      "subject": "Vortex Stretching"
+    },
+    {
+      "subject": "Enstrophy"
+    },
+    {
+      "subject": "Enstrophy Balance"
+    },
+    {
+      "subject": "Delayed Activation"
+    },
+    {
+      "subject": "Channel Families"
+    },
+    {
+      "subject": "Local Separatrices"
+    },
+    {
+      "subject": "Synthetic Divergence-Free Vorticity Fields"
+    },
+    {
+      "subject": "Navier-Stokes-Type Dynamics"
+    },
+    {
+      "subject": "Numerical Diagnostics"
+    },
+    {
+      "id": "mesh:D015203",
+      "scheme": "MeSH",
+      "subject": "Reproducibility of Results"
+    }
+  ],
+  "description_plain": "This record contains the integrated B19 study of boundary-core channel families in a restricted synthetic divergence-free vorticity family. Under the stated reduced scaling assumptions, the energy-compatible stretching/leakage model gives the critical thickness exponent s*=5/4. Finite-window dynamical diagnostics distinguish gate-local openness, initial and delayed activation, local growth-decay brackets, and direction-dependent pathways.\n\nVersion 1.1 preserves the reported scientific numbers, the two original numerical tables, all four original figure rasters, and the archived formal classifications. It clarifies the implemented Fourier projection and RK4 protocol, saved-sample balance quadrature, sign-oriented numerical controls, shared-seed lineage, information timing, scalar and nearest-centroid transfer screens, and the coarse-map scope of the directional comparison. The 21 available scalar candidates yield 20 finite critical-value score rows and 18 eligible scalar transfer summaries. The internal ray tests share a common seed; final and activation-time quantities contain later-time information.\n\nThe complete ZIP includes 27 original notebook files, all 458 recovered result files, extracted B19.14 package contents, the immutable original public ZIP, source and release SHA-256 manifests, unchanged definition extracts for 22 stage namespaces, a saved-result verifier, and audit/provenance notes. Six later B19.21C files co-located in a historical source folder are retained only as provenance and excluded from the integrated B19.0-20 checks. The Japanese Version 0.6 reference translation is retained as an earlier draft translation, not a translation of Version 1.1.\n\nSaved-data verification passes 1,457 check groups covering 1,182,025 numerical or label comparisons, including repeated checkpoint/input-copy checks. This is not an independent experimental sample count. No new ODE/PDE trajectories were generated. The assessment is: basically reproducible from the archived methods and saved outputs; independent rerun audit not completed. The original notebooks retain historical errors, interruptions, Colab paths and checkpoint dependencies, so a fresh full run requires configuration/path adaptation and has not been independently audited.\n\nThe findings concern the stated reduced model and constructed finite-window numerical family. They do not establish Navier-Stokes blow-up, a singularity or regularity criterion, a global invariant separatrix, a universal upstream predictor, or independent external validation.\n\nProject repository: https://github.com/Jun-Lucis/BIG-theory",
+  "related_identifiers": [
+    {
+      "identifier": "10.1007/bf01212349",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "publication-article",
+        "title": {
+          "de": "Zeitschriftenartikel",
+          "en": "Journal article"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1080/03605309608821197",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "publication-article",
+        "title": {
+          "de": "Zeitschriftenartikel",
+          "en": "Journal article"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0022-1236(89)90015-3",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "publication-article",
+        "title": {
+          "de": "Zeitschriftenartikel",
+          "en": "Journal article"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references"
+      },
+      "resource_type": {
+        "id": "other"
+      }
+    }
+  ]
+}

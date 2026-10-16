@@ -1,0 +1,14 @@
+{
+  "filename": "BIG_B19_v1_1_COMPLETE_20261017.zip",
+  "bytes": 69687332,
+  "sha256": "326bb889d33fd0c4ae33e2a1faab28ec07f947e89b5a93f02ffe6d00befd06b6",
+  "md5": "b518c3a41e674c865643769c6cf4bd46",
+  "members": 587,
+  "internal_sha256_checks": 586,
+  "crc": "PASS",
+  "internal_hashes": "PASS",
+  "doi": "10.5281/zenodo.23427540",
+  "version": "1.1",
+  "frozen": true,
+  "rebuild_after_upload": false
+}
