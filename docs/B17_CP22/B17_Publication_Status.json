@@ -1,13 +1,13 @@
 {
-  "status": "DOI_RESERVED_UPLOAD_AND_PUBLICATION_PENDING",
-  "checked_at_utc": "2026-10-16T00:27:04.381961+00:00",
+  "status": "METADATA_SAVED_FILE_UPLOAD_PERMISSION_PENDING",
+  "checked_at_utc": "2026-10-16T22:12:32.003870+00:00",
   "current_published_record": "https://zenodo.org/records/22677581",
   "draft_url": "https://zenodo.org/uploads/23405881",
   "draft_id": "23405881",
   "is_published": false,
   "doi_reserved": true,
   "uploaded_files_confirmed": 0,
-  "draft_metadata_save_confirmed": false,
+  "draft_metadata_save_confirmed": true,
   "prepared_version": "1.1",
   "frozen_archive": {
     "zip": "BIG_B17_v1_1_COMPLETE_20261016.zip",
@@ -19,7 +19,7 @@
     "crc": "PASS",
     "status": "FROZEN"
   },
-  "blocker": "User device successfully reserved the DOI. This agent browser still returns 502/timeout or an uninitialized form; no explicit automation block is observed. Upload, revised metadata save, publication and public redownload remain pending.",
+  "blocker": "Chrome ChatGPT extension requires Allow access to file URLs before fileChooser.setFiles can transfer the file",
   "metadata_prepared": {
     "github_related_identifier": "https://github.com/Jun-Lucis/BIG-theory",
     "relation_type": "references",
@@ -32,7 +32,7 @@
     ]
   },
   "independent_full_rerun_audit": "NOT_YET_COMPLETED",
-  "next_action": "Use same reserved draft and unchanged frozen ZIP. Complete version1.1 metadata including GitHub URL, upload one ZIP, save and verify, publish, then redownload for comparison. Do not reserve a second DOI or rebuild the ZIP.",
+  "next_action": "User enables Allow access to file URLs for the ChatGPT Chrome extension. Retry unchanged ZIP on the same draft, verify one uploaded file, publish and redownload. No new draft or DOI reservation.",
   "resume_verification": {
     "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
     "status": "ARCHIVE_PASS_PUBLICATION_STILL_BLOCKED",
@@ -74,5 +74,39 @@
     "internal_sha256_checks": 193,
     "archive_crc": "PASS",
     "cause_of_browser_failure": "UNDETERMINED; no explicit bot rejection or CAPTCHA observed."
+  },
+  "metadata_save_and_upload_check": {
+    "checked_at_utc": "2026-10-16T22:12:32.003870+00:00",
+    "draft_url": "https://zenodo.org/uploads/23405881",
+    "reserved_doi": "10.5281/zenodo.23405881",
+    "doi_browser_readback": "CONFIRMED",
+    "metadata_save_confirmed": true,
+    "metadata_persistence": "Version, publication date, full revised description and GitHub related identifier read back after reload",
+    "version": "1.1",
+    "publication_date_candidate": "2026-10-17",
+    "github_related_identifier": "https://github.com/Jun-Lucis/BIG-theory",
+    "github_relation": "references",
+    "github_scheme": "url",
+    "github_resource_type": "other",
+    "preserved_reference_dois": [
+      "10.5281/zenodo.21144373",
+      "10.5281/zenodo.21173333",
+      "10.5281/zenodo.22660005"
+    ],
+    "uploaded_files_confirmed": 0,
+    "is_published": false,
+    "upload_blocker": "Chrome ChatGPT extension requires Allow access to file URLs before fileChooser.setFiles can transfer the file",
+    "settings_navigation": "chrome://extensions navigation rejected by browser URL policy; only http and https are allowed. User must change the Chrome extension setting directly. No workaround attempted.",
+    "zenodo_bot_rejection_observed": false,
+    "archive": {
+      "name": "BIG_B17_v1_1_COMPLETE_20261016.zip",
+      "bytes": 44908460,
+      "sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+      "md5": "03896f6c0414be0ba874d2e306c7fd40",
+      "members": 194,
+      "internal_sha256_checks": 193,
+      "crc": "PASS",
+      "rebuilt": false
+    }
   }
 }
