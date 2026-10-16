@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-16T00:27:04.381961+00:00",
+  "status": "USER_SCREENSHOT_DOI_RESERVATION_CONFIRMED",
+  "doi": "10.5281/zenodo.23405881",
+  "draft_url": "https://zenodo.org/uploads/23405881",
+  "source": "User-supplied screenshot 1000169910.png, phone time 09:19 JST on 2026-10-16; DOI visible in B17 new-version form.",
+  "agent_browser_result": "Opening same draft returned 502 Bad Gateway / connection closed. One reload timed out; later read showed page shell without editable form.",
+  "agent_browser_doi_readback": "NOT_COMPLETED",
+  "is_published": false,
+  "upload_completed": false,
+  "frozen_archive_sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+  "frozen_archive_bytes": 44908460,
+  "internal_sha256_checks": 193,
+  "archive_crc": "PASS",
+  "cause_of_browser_failure": "UNDETERMINED; no explicit bot rejection or CAPTCHA observed."
+}

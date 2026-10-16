@@ -1,11 +1,11 @@
 {
-  "status": "PREPARED_PUBLICATION_BLOCKED",
-  "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
+  "status": "DOI_RESERVED_UPLOAD_AND_PUBLICATION_PENDING",
+  "checked_at_utc": "2026-10-16T00:27:04.381961+00:00",
   "current_published_record": "https://zenodo.org/records/22677581",
   "draft_url": "https://zenodo.org/uploads/23405881",
   "draft_id": "23405881",
   "is_published": false,
-  "doi_reserved": false,
+  "doi_reserved": true,
   "uploaded_files_confirmed": 0,
   "draft_metadata_save_confirmed": false,
   "prepared_version": "1.1",
@@ -19,7 +19,7 @@
     "crc": "PASS",
     "status": "FROZEN"
   },
-  "blocker": "On explicit resumption the existing draft form appeared after a long delay, but DOI reservation again returned Identifier reservation failed. The draft still shows zero uploaded files. No new metadata edits or upload attempts were made; publication remains pending.",
+  "blocker": "User device successfully reserved the DOI. This agent browser still returns 502/timeout or an uninitialized form; no explicit automation block is observed. Upload, revised metadata save, publication and public redownload remain pending.",
   "metadata_prepared": {
     "github_related_identifier": "https://github.com/Jun-Lucis/BIG-theory",
     "relation_type": "references",
@@ -32,7 +32,7 @@
     ]
   },
   "independent_full_rerun_audit": "NOT_YET_COMPLETED",
-  "next_action": "Resume the same draft after service recovery; save metadata, upload exactly the frozen complete ZIP, publish, then re-download and verify. Do not rebuild the frozen ZIP.",
+  "next_action": "Use same reserved draft and unchanged frozen ZIP. Complete version1.1 metadata including GitHub URL, upload one ZIP, save and verify, publish, then redownload for comparison. Do not reserve a second DOI or rebuild the ZIP.",
   "resume_verification": {
     "checked_at_utc": "2026-10-15T23:34:13.440066+00:00",
     "status": "ARCHIVE_PASS_PUBLICATION_STILL_BLOCKED",
@@ -57,5 +57,22 @@
       "An initial reload was auto-review-rejected for possible unsaved-state loss; inspection found only hidden fields and no editable form, after which reload was allowed. This is not the remaining publication blocker."
     ],
     "next_action": "Resume same B17 draft after reservation/save operations recover; retain frozen ZIP unchanged."
+  },
+  "reserved_doi": "10.5281/zenodo.23405881",
+  "doi_reservation_evidence": {
+    "checked_at_utc": "2026-10-16T00:27:04.381961+00:00",
+    "status": "USER_SCREENSHOT_DOI_RESERVATION_CONFIRMED",
+    "doi": "10.5281/zenodo.23405881",
+    "draft_url": "https://zenodo.org/uploads/23405881",
+    "source": "User-supplied screenshot 1000169910.png, phone time 09:19 JST on 2026-10-16; DOI visible in B17 new-version form.",
+    "agent_browser_result": "Opening same draft returned 502 Bad Gateway / connection closed. One reload timed out; later read showed page shell without editable form.",
+    "agent_browser_doi_readback": "NOT_COMPLETED",
+    "is_published": false,
+    "upload_completed": false,
+    "frozen_archive_sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+    "frozen_archive_bytes": 44908460,
+    "internal_sha256_checks": 193,
+    "archive_crc": "PASS",
+    "cause_of_browser_failure": "UNDETERMINED; no explicit bot rejection or CAPTCHA observed."
   }
 }

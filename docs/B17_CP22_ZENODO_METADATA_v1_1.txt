@@ -1,0 +1,36 @@
+B17 v1.1 — Zenodo metadata, ready to copy
+
+Reserved DOI: 10.5281/zenodo.23405881
+Title: BIG-B17: Readable Boundary History and Moving-Frame Adaptation in Boundary Information Geometry
+Version: 1.1
+Publication date: 2026-10-16
+Creator: Lucis, Jun
+Resource type: Publication / Working paper
+License: Creative Commons Attribution 4.0 International (preserve existing license)
+
+FILE — upload this one complete ZIP:
+BIG_B17_v1_1_COMPLETE_20261016.zip
+44,908,460 bytes
+SHA-256: 8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51
+MD5: 03896f6c0414be0ba874d2e306c7fd40
+
+RELATED WORKS — preserve the existing three DOI references:
+10.5281/zenodo.21144373
+10.5281/zenodo.21173333
+10.5281/zenodo.22660005
+Add if missing: https://github.com/Jun-Lucis/BIG-theory
+Relation: References / Scheme: URL / Resource type: Other
+
+DESCRIPTION — replace the old description with the following text:
+
+BIG-B17 studies retained boundary history and later response in reduced write/read models of Boundary Information Geometry. Version 1.1 clarifies the original implementation, measurements and scope while preserving the three scientific tables, nine figure images, saved numerical outcomes and diagnostic labels.
+
+B17.1 and B17.2 use a laboratory-fixed read probe; B17.2 reanalyzes the same 81 cases rather than providing an independent simulation test. B17.3 prescribes boundary motion and evolves a scalar response; its spatial response profile is for plotting. Its read-phase forgetting term is multiplied by zero and its artificial history transport is limited to writing. B17.4 is a separate PDE implementation with its own feedback, normalization and moving-window conventions. Read-onset increments in B17.1/2 are distinguished from terminal branch differences in B17.3/4.
+
+The revision documents pulse-on history writing without directly multiplying stimulus amplitude, update order, positive-mobility-floor threshold boundaries, phase-limited transport and branch-specific read windows. The reported regressions are in-sample, and local/global predictors do not all include the same coupling factor. Rank deficiencies and differences between scalar and PDE protocols limit coefficient and causal interpretation. The original results are retained as conditional numerical findings, not a universal response law or a demonstration of material transport.
+
+The single complete ZIP contains the clarified 13-page English manuscript, editable source, the original historical package including the unmodified Japanese v1.0 reference, five original executed notebooks, 153 original result files, 37 unchanged computational definitions with 27 distinct names, a local execution adapter, methods and audit receipts. Saved-result/source checks passed 7,670 groups /22,429 values. The available sources provide a basis for reproduction; an independent full PDE/reduced-dynamics rerun audit has not yet been completed.
+
+This is a reduced exploratory structural study. It does not derive biological learning, neural memory, wound healing, immune adaptation, consciousness or quantum measurement.
+
+Project repository: https://github.com/Jun-Lucis/BIG-theory
