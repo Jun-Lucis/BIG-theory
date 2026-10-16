@@ -1,0 +1,22 @@
+{
+  "status": "PUBLICATION_AND_PUBLIC_REDOWNLOAD_VERIFIED",
+  "record_url": "https://zenodo.org/records/23405881",
+  "doi": "10.5281/zenodo.23405881",
+  "version": "1.1",
+  "bytes": 44908460,
+  "sha256": "8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51",
+  "md5": "03896f6c0414be0ba874d2e306c7fd40",
+  "byte_identical": true,
+  "members": 194,
+  "internal_sha256_checks": 193,
+  "crc": "PASS",
+  "metadata_published": true,
+  "github_related_identifier_verified": true,
+  "original_doi_references_preserved": 3,
+  "independent_full_rerun_audit": "NOT_YET_COMPLETED",
+  "archive_rebuilt": false,
+  "checked_at_utc": "2026-10-16T22:28:09.776145+00:00",
+  "published_metadata_export": "zenodo_23405881_published.json",
+  "public_files_screenshot": "B17_Public_Files_Proof_20261017.jpg",
+  "upload_resolution": "After the user enabled file-URL access, the local extension accepted the chooser but passed an empty file. The existing cloud browser, using its documented shared-file path, transferred the unchanged 44,908,460-byte ZIP successfully. Zenodo MD5 matched and publication completed."
+}

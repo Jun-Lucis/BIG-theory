@@ -1,6 +1,7 @@
-B17 v1.1 — Zenodo metadata, ready to copy
+B17 v1.1 — Zenodo metadata, published 2026-10-17
 
-Reserved DOI: 10.5281/zenodo.23405881
+Published DOI: 10.5281/zenodo.23405881
+Published record: https://zenodo.org/records/23405881
 Title: BIG-B17: Readable Boundary History and Moving-Frame Adaptation in Boundary Information Geometry
 Version: 1.1
 Publication date: 2026-10-17
@@ -8,7 +9,7 @@ Creator: Lucis, Jun
 Resource type: Publication / Working paper
 License: Creative Commons Attribution 4.0 International (preserve existing license)
 
-FILE — upload this one complete ZIP:
+FILE — one complete ZIP published:
 BIG_B17_v1_1_COMPLETE_20261016.zip
 44,908,460 bytes
 SHA-256: 8c36244fc39acbcf6a02d2168be833b5507a3c780eed1c2476d906b40f66ed51

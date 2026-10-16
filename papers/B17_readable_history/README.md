@@ -3,11 +3,11 @@
 > 🇯🇵 **日本語要約**
 > B17は、保存された履歴と指定の読出し窓で参照される履歴を比較する縮約モデル研究です。元実装ではB17.1〜.2の読出し位置は実験室座標に固定され、B17.2は同じデータの再解析です。B17.3は境界速度を指定するスカラー応答モデルで、読出し中の忘却項はゼロ。B17.4は各枝の境界に追随する窓を持つ有限格子PDEです。人工的な履歴移動は読出し前までの操作です。元の数値と図を保ち、この違いと標本内適合の範囲をv1.1へ明記しました。
 
-## CP22 status (16 October 2026)
+## CP22 status (17 October 2026)
 
 **基本的に再現可能。独立した再実行監査は未了。**
 
-The clarified 13-page English v1.1 manuscript and one complete ZIP are prepared and saved. Zenodo created a new-version draft, but identifier reservation and draft saving failed; reloading returned **502 Bad Gateway / connection closed**. No successful upload or publication was verified. The draft ID is not represented as a registered or published DOI. [Current status](../../docs/B17_CP22/B17_Publication_Status.json).
+The clarified 13-page English v1.1 is published with one complete ZIP at https://zenodo.org/records/23405881. The public redownload matches the frozen archive byte-for-byte (44,908,460 bytes); SHA-256, MD5, CRC and193 internal SHA-256 checks pass. Published metadata includes the GitHub related URL and preserves the three original DOI references. The earlier reservation, connection and upload problems are resolved. [Current status](../../docs/B17_CP22/B17_Publication_Status.json).
 
 The original scientific table values, nine figure images, arrays and archived diagnostic labels are preserved. The old Japanese reference remains historical and has not been revised. Five original executed notebooks and all 153 results are recovered: 26 CSVs / 38,454 rows, 12 JSONs, 110 PNGs and five old analysis ZIPs. The four formerly public notebook code-cell sets match their original executed notebooks exactly. B17.0 is retained as ancillary history.
 
@@ -37,10 +37,12 @@ This is a reduced model study. It does not establish held-out prediction, a uniq
 
 ## Publication
 
-Current published v1.0: https://zenodo.org/records/22677581
+Current published v1.1: https://zenodo.org/records/23405881
+
+Historical v1.0: https://zenodo.org/records/22677581
 
 All-version DOI: https://doi.org/10.5281/zenodo.22677580
 
-Clarified v1.1: prepared; publication pending Zenodo service recovery. Original reference DOIs are retained; the GitHub related-work entry is prepared, but its draft save is not confirmed.
+Clarified v1.1: published17 October2026; public ZIP and metadata verification completed. The archive is unchanged from its frozen prepublication snapshot. The independent full dynamics rerun audit remains incomplete.
 
 Author: Jun Lucis

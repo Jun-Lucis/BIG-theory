@@ -1,7 +1,7 @@
 # BIG Publication Map
 
 **B18 source/implementation audit, 16 October 2026:** A 13-page clarified v0.2 and an internally verified prepublication snapshot are prepared. Three scientific tables and seven source-PDF figure rasters are preserved. Five original notebooks, 76 computational definitions and 124 saved outputs are recovered; original saved-data analysis passed 604 groups / 314,972 values plus 44 categorical checks, with no new PDE trajectories. The revision separates distributed inhibition from diagnostic gates, realized-path associations from prediction, and in-sample gate selection from independent validation. **Basically reproducible; an independent full rerun audit has not yet been completed.** Old public-ZIP comparison and a new Zenodo publication remain pending. [Audit and status](B18_CP23_AUDIT_20261016.md).
-**B17 source/implementation audit, 16 October 2026:** The 13-page v1.1 clarification and a verified complete ZIP are prepared. It distinguishes laboratory-fixed B17.1/2 reading, the prescribed/scalar B17.3 model, phase-limited artificial transport, exact PDE writing/feedback and in-sample fits. Three scientific tables and nine figure images are preserved. Five executed notebooks, 37 computational definitions and 153 original outputs are recovered; 22,429 saved numeric comparisons passed. **Basically reproducible; an independent full rerun audit has not yet been completed.** DOI 10.5281/zenodo.23405881 is reserved and has now been read back directly. The revised description, Version 1.1 and GitHub related URL were saved and persisted after reload on 17 October. Upload and publication remain pending because the Chrome ChatGPT extension requires file-URL access before transferring the unchanged ZIP; the browser policy prevents opening its settings page. No Zenodo bot rejection was observed. [current archival v1.0](https://zenodo.org/records/22677581) remains the published record. [Audit and status](docs/B17_CP22_AUDIT_20261016.md).
+**B17 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23405881](https://zenodo.org/records/23405881) is published as one complete ZIP. The 13-page clarification preserves three scientific tables, nine figure images, five executed notebooks and 153 original outputs, and documents laboratory-fixed reading, the prescribed/scalar model, phase-limited transport, PDE conventions and in-sample fits. Saved-result checks passed 7,670 groups /22,429 values. The public ZIP is byte-identical to the frozen archive; SHA-256, MD5, CRC and193 internal hashes pass. GitHub related URL and three original DOI references are confirmed in published metadata. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B17_CP22_AUDIT_20261016.md).
 
 **B16 source/implementation audit, 16 October 2026:** [Draft v0.4 / Zenodo 23402231](https://zenodo.org/records/23402231) ([CP21 audit](B16_CP21_AUDIT_20261016.md); historical v0.3 DOI: 10.5281/zenodo.22660005) is published as one complete ZIP. The clarified 15-page English manuscript aligns history writing with the original pulse-on-gated code, documents onset-window increments, the threshold boundary and fixed Eulerian history, and repairs the clipped core figure. All scientific table values and seven composites are preserved. Five original executed notebooks and all 85 result files are archived; checks passed 691 groups / 37,334 values and 520,038 common public/original values. **Basically reproducible; an independent full rerun audit has not yet been completed.**
 
@@ -676,10 +676,12 @@ https://zenodo.org/records/23402231
 
 B17.1/2 use a fixed laboratory read site and an onset-window increment; B17.2 reanalyzes the same rows. B17.3 prescribes boundary motion and a scalar response, with zero read-phase forgetting. B17.4 uses a finite-grid PDE and branch-specific following windows. Artificial memory transport stops before reading. The original in-sample numerical comparisons are preserved, with their rank and model scope documented.
 
-[CP22 clarification and publication status](B17_CP22_AUDIT_20261016.md) — v1.1 prepared; Zenodo publication pending after a 502 service failure. The following DOI remains the current published v1.0 record.
+[CP22 clarification and publication verification](B17_CP22_AUDIT_20261016.md) — v1.1 published on17 October2026 as one complete ZIP. Public redownload is byte-identical, CRC and193 internal SHA-256 checks pass. GitHub and the original DOI references are verified.
 
-**Zenodo record:**  
-https://zenodo.org/records/22677581
+**Current Zenodo v1.1:**  
+https://zenodo.org/records/23405881
+
+Historical v1.0: https://zenodo.org/records/22677581
 
 ---
 
