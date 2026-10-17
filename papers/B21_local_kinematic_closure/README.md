@@ -119,3 +119,14 @@ The interim audit includes an independent **23-comparison saved-table algebra ch
 Repository: https://github.com/Jun-Lucis/BIG-theory
 
 Author: Jun Lucis
+
+
+## CP27 additional saved-artifact checks (2026-10-17)
+
+The B21 v1.1 English and Japanese manuscripts have been prepared as **unpublished drafts** and checked against the original DOCX: **8 tables / 151 table cells**, **5 image byte streams**, and **143 original OMML math elements** per language were retained. No revised Zenodo DOI, publication, or final archive exists yet.
+
+A separately reconstructed **saved-artifact** validator reports internally consistent data for 101 scalar timeseries CSV files (7,335 saved rows; terminal times 0.015, 0.0155, and 0.020), 14,670 row-algebra checks, 120 stored F(T) readouts from 72 summaries, 48 frozen-manifest case entries, and two E12 refined-root brackets. See [the verifier](../../code/B21_recovered/reconstructed_saved_artifacts_audit.py) and [its machine-readable results](../../docs/B21_CP27_INTERIM/Reconstructed_Saved_Artifacts_Audit_Result_20261017.json).
+
+The manuscript drafts, numerical receipts, and metadata proposal were copied to both Library and [Drive CP27 PENDING workspace](https://drive.google.com/drive/folders/1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj). The first eight staged documents were downloaded back from Drive and verified byte-identical to their respective local files; [readback receipt](../../docs/B21_CP27_INTERIM/Drive_Readback_Receipt_20261017.json). **This is not the Zenodo post-publication archive verification.**
+
+The historical E12 scientific classifications are not upgraded by these saved-result checks. The old complete-source verifier's final JSON has not been independently recovered, and the original PDE trajectories have **not** been re-integrated. The standard audit scope remains: *基本的に再現可能。独立した再実行監査は未了。*
