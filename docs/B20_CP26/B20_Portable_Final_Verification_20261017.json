@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "fresh_extraction": true,
+  "frozen_zip_sha256": "2aabdebf37a0dd71f96aa9599e5687c6536eedb6c215d5c0c34597194f8626f0",
+  "saved_receipt_byte_identical": true,
+  "check_groups": 9052,
+  "numeric_or_label_comparisons": 157400,
+  "definition_loader": {
+    "status": "PASS",
+    "namespaces_loaded": 4,
+    "experiment_functions_invoked": 0,
+    "note": "Definitions only; original stage globals and path adaptation required for calls. Independent full rerun not completed."
+  },
+  "new_ode_pde_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "restart_geometry_scope": "Actual restart manifests consistent; high-precision Phase1B directions are not identical."
+}

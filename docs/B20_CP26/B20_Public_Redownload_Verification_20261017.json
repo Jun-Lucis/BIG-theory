@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "public_record": "https://zenodo.org/records/23428205",
+  "public_download_byte_identical_to_frozen_zip": true,
+  "filename": "BIG_B20_v1_1_COMPLETE_20261017.zip",
+  "bytes": 11708173,
+  "sha256": "2aabdebf37a0dd71f96aa9599e5687c6536eedb6c215d5c0c34597194f8626f0",
+  "md5": "08b7445340c568433a1a2060ec54da26",
+  "members": 1825,
+  "internal_sha256_checks": 1824,
+  "crc": "PASS",
+  "internal_hashes": "PASS",
+  "doi": "10.5281/zenodo.23428205",
+  "version": "1.1",
+  "frozen": true,
+  "rebuild_after_upload": false,
+  "internal_checks_recomputed_from_public_download": 1824,
+  "new_ode_pde_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_COMPLETED"
+}

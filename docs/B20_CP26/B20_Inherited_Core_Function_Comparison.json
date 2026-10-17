@@ -1,0 +1,103 @@
+{
+  "compared": 24,
+  "exact": 24,
+  "records": [
+    {
+      "name": "make_grid",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "fftn3",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "ifftn3",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "apply_dealias_hat",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "spectral_derivative",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "laplacian",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "curl_from_components",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "project_divergence_free_vector",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "velocity_from_vorticity",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "gradients_of_vector",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "strain_tensor_from_velocity",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "omega_dot_S_omega",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "divergence_of_vector",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "spectral_tail_diagnostics",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "make_tilted_pair_vector_potential",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "make_base_vorticity_from_params",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "kinetic_energy_from_vorticity",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "scale_to_kinetic_energy",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "make_gate_mask",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "compute_balance_metrics",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "vorticity_rhs",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "rk4_step",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "choose_dt",
+      "syntax_tree_exact": true
+    },
+    {
+      "name": "cumulative_trapezoid",
+      "syntax_tree_exact": true
+    }
+  ],
+  "B20_6_runner": "The restart applies an AST parameter-injection transform to the inherited runner; this audit does not execute its orchestration."
+}

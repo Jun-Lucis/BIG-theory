@@ -1,0 +1,192 @@
+[
+  {
+    "notebook": "sources/original_notebooks/1948XYiH__BIG_B20_2_stageB_refinement_colab_v1_FROZEN.ipynb",
+    "bytes": 108667,
+    "sha256": "11821c2ddec1c32abd8ca224ef71d5c043616d8db75100220d291887c9117ecb",
+    "code_cells": 9,
+    "executed_code_cells": 8,
+    "historical_errors": []
+  },
+  {
+    "notebook": "sources/original_notebooks/1FX7DZO5__BIG_B20_3b_prospective_FULL_EXECUTABLE_FROZEN_v1 (2).ipynb",
+    "bytes": 38164,
+    "sha256": "9977a947d1765ec77e34a01432da029e189d6e0daa9437d757b32f7bda0c3adc",
+    "code_cells": 12,
+    "executed_code_cells": 7,
+    "historical_errors": []
+  },
+  {
+    "notebook": "sources/original_notebooks/1IqAo-Es__BIG_B20_4_FamilyC_StageA_RESUME_SELF_CONTAINED_v1.ipynb",
+    "bytes": 171896,
+    "sha256": "616e8571b6f16d79cd69c011e0ba643f8c7fd816a4a9e0d41ca1bcf73d36fc88",
+    "code_cells": 14,
+    "executed_code_cells": 4,
+    "historical_errors": [
+      {
+        "cell": 16,
+        "ename": "AssertionError",
+        "evalue": ""
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1K-9QAll__B20.6.ipynb",
+    "bytes": 29008,
+    "sha256": "35a00b59e808062fee2d3dd43a3e228fd5108dd46564c6fd9e95cb72991cedfa",
+    "code_cells": 1,
+    "executed_code_cells": 1,
+    "historical_errors": [
+      {
+        "cell": 0,
+        "ename": "RuntimeError",
+        "evalue": "B20.6 Phase-0 predeclaration already exists. STOP rather than overwrite the frozen record."
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1LzpSdP5__BIG_B20_3b_prospective_FULL_EXECUTABLE_FROZEN_v1.ipynb",
+    "bytes": 38268,
+    "sha256": "fb21bfdb68b848f94b119e5283323d7c841d846d3651601c669b4a10a3c88570",
+    "code_cells": 12,
+    "executed_code_cells": 0,
+    "historical_errors": []
+  },
+  {
+    "notebook": "sources/original_notebooks/1Mj6TZml__BIG_B20_2_stageB_refinement_colab_v1_FROZEN.ipynb",
+    "bytes": 43837,
+    "sha256": "4c8155826b089d597c1189f2521830a36f3fdff1cd62d4a2a46f2e0d493bc452",
+    "code_cells": 9,
+    "executed_code_cells": 6,
+    "historical_errors": [
+      {
+        "cell": 9,
+        "ename": "FileNotFoundError",
+        "evalue": "[Errno 2] No such file or directory: '/content/drive/MyDrive/BIG_B20_colab_outputs/B20_2_stageA_run_001/B20_2_stageA_raw.csv'"
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1NQQTonn__BIG_B20_4_StageB_SELF_CONTAINED_REFINEMENT_v1_1_AUDITED.ipynb",
+    "bytes": 593044,
+    "sha256": "ff59e5ce07a2ce10b1a5eaac1ea81618337fb12aab4d9f8ce7cf2834a3b23b75",
+    "code_cells": 36,
+    "executed_code_cells": 36,
+    "historical_errors": [
+      {
+        "cell": 22,
+        "ename": "AssertionError",
+        "evalue": ""
+      },
+      {
+        "cell": 25,
+        "ename": "AssertionError",
+        "evalue": "Selected solver-definition cell contains top-level executable code. STOP — inspect before execution."
+      },
+      {
+        "cell": 26,
+        "ename": "AssertionError",
+        "evalue": "Selected solver-definition cell contains top-level executable code. STOP — inspect before execution."
+      },
+      {
+        "cell": 28,
+        "ename": "OSError",
+        "evalue": "could not get source code"
+      },
+      {
+        "cell": 31,
+        "ename": "AssertionError",
+        "evalue": "Could not identify four Stage-A Qw-gradient columns. STOP before hold-out PDE."
+      },
+      {
+        "cell": 32,
+        "ename": "AssertionError",
+        "evalue": "Qw missing from runtime. STOP — do not run hold-out PDE."
+      },
+      {
+        "cell": 35,
+        "ename": "AssertionError",
+        "evalue": "SCALE_205 missing from runtime. STOP."
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1PdyeMM8__BIG_B20_2_stageA_prospective_colab_v1_1_FROZEN_corrected.ipynb",
+    "bytes": 49011,
+    "sha256": "d8283bdb83ed677c8aef2b72d19787f4359be68adda9db6979710cae61cf0c9f",
+    "code_cells": 8,
+    "executed_code_cells": 8,
+    "historical_errors": []
+  },
+  {
+    "notebook": "sources/original_notebooks/1QiDoNs2__BIG_B20_4_StageB_SELF_CONTAINED_REFINEMENT_v1.ipynb",
+    "bytes": 53724,
+    "sha256": "175fa4f1a07567262a327efbd41052ccc644a7977151e2ad79c6fc2167ec8aaa",
+    "code_cells": 12,
+    "executed_code_cells": 3,
+    "historical_errors": [
+      {
+        "cell": 3,
+        "ename": "TypeError",
+        "evalue": "cannot convert the series to <class 'float'>"
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1ZEvA5FY__BIG_B20_2_stageA_prospective_colab_v1_FROZEN.ipynb",
+    "bytes": 29729,
+    "sha256": "e3f1495687593bdaf8709044c0764a276c6fdbf66150c8800e71c0126d3780b9",
+    "code_cells": 8,
+    "executed_code_cells": 7,
+    "historical_errors": [
+      {
+        "cell": 9,
+        "ename": "KeyError",
+        "evalue": "'enstrophy'"
+      }
+    ]
+  },
+  {
+    "notebook": "sources/original_notebooks/1qoSdaUw__BIG_B20_6_restart_audited.ipynb",
+    "bytes": 279342,
+    "sha256": "b8bacbcbc8b8e2b4958dd30dc808a4ba3bd7fd80c2f1831d646728e273f64667",
+    "code_cells": 26,
+    "executed_code_cells": 23,
+    "historical_errors": [
+      {
+        "cell": 8,
+        "ename": "AssertionError",
+        "evalue": ""
+      },
+      {
+        "cell": 10,
+        "ename": "NameError",
+        "evalue": "name 'B206_ROOT' is not defined"
+      },
+      {
+        "cell": 12,
+        "ename": "ValueError",
+        "evalue": "The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+      },
+      {
+        "cell": 14,
+        "ename": "AssertionError",
+        "evalue": ""
+      },
+      {
+        "cell": 15,
+        "ename": "RuntimeError",
+        "evalue": "dictionary changed size during iteration"
+      },
+      {
+        "cell": 22,
+        "ename": "AssertionError",
+        "evalue": ""
+      },
+      {
+        "cell": 23,
+        "ename": "AssertionError",
+        "evalue": "Missing ROOT: /content/drive/MyDrive/BIG_B20_colab_outputs/B20_6_crossing_geometry"
+      }
+    ]
+  }
+]

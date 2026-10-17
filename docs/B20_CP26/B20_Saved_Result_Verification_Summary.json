@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Saved data, frozen geometry and derived numerical checks only; no new ODE/PDE trajectories",
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "check_groups": 9052,
+  "numeric_or_label_comparisons": 157400,
+  "saved_history_files_checked": 455,
+  "saved_history_rows_including_copies": 36855,
+  "failed_checks": [],
+  "categories": {
+    "trajectory_bookkeeping": 1820,
+    "coverage": 7,
+    "geometry": 258,
+    "readout": 4070,
+    "classification": 288,
+    "secants": 48,
+    "bracket_recompute": 1524,
+    "headline_recompute": 603,
+    "retained_verdict": 3,
+    "gradient_recompute": 44,
+    "prediction_recompute": 198,
+    "frozen_lineage": 187,
+    "lineage": 2
+  },
+  "full_receipt_archive_path": "audit/B20_Saved_Result_Verification.json",
+  "full_receipt_sha256": "65c77035bfee6e78c0d8453820f7d2c4c7fb28c6c1c0e919a2e97b1da57b1f46"
+}

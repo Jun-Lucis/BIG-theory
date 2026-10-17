@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B20 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23428205](https://zenodo.org/records/23428205) preserves the original table, four figure rasters and PASS/PASS/INCONCLUSIVE outcomes. The complete public ZIP is byte-identical to the frozen archive, with CRC and 1,824 internal hashes passing. Saved checks pass 9,052 groups / 157,400 comparisons. The B20.6 restart precision difference and remaining execution gaps are documented. **Basically reproducible; independent full rerun audit not completed.** [Audit](docs/B20_CP26_AUDIT_20261017.md).
+
 **B18 source/implementation audit, 17 October 2026:** [Version 0.2 / Zenodo 23427115](https://zenodo.org/records/23427115) is published as one complete ZIP. The 13-page clarification preserves three scientific tables and seven figure rasters and documents distributed inhibition, diagnostic gates, realized-path information, branch-dependent forcing and in-sample fits. Five original notebooks, 76 computational definitions and 124 results are archived. Saved-result checks passed 604 groups / 314,972 values plus 44 categorical checks; five public notebook code-cell sets, 22 common files / 495,864 values and seven public PNG rasters match. The public ZIP is byte-identical to the frozen archive; CRC and 182 internal hashes pass. GitHub metadata and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](docs/B18_CP23_AUDIT_20261016.md).
 **B17 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23405881](https://zenodo.org/records/23405881) is published as one complete ZIP. The 13-page clarification preserves three scientific tables, nine figure images, five executed notebooks and 153 original outputs, and documents laboratory-fixed reading, the prescribed/scalar model, phase-limited transport, PDE conventions and in-sample fits. Saved-result checks passed 7,670 groups /22,429 values. The public ZIP is byte-identical to the frozen archive; SHA-256, MD5, CRC and193 internal hashes pass. GitHub related URL and three original DOI references are confirmed in published metadata. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](docs/B17_CP22_AUDIT_20261016.md).
 
@@ -756,7 +758,7 @@ Current entries include:
 | B19 | Boundary-core channel diagnostics | https://doi.org/10.5281/zenodo.23427540 |
 | B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.23427904 |
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
-| B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.22846729 |
+| B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.23428205 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |

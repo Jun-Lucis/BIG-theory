@@ -1,0 +1,26 @@
+{
+  "status": "PUBLISHED_PUBLIC_REDOWNLOAD_VERIFIED",
+  "public_url": "https://zenodo.org/records/23428205",
+  "doi": "10.5281/zenodo.23428205",
+  "version": "1.1",
+  "publication_date": "2026-10-17",
+  "filename": "BIG_B20_v1_1_COMPLETE_20261017.zip",
+  "bytes": 11708173,
+  "sha256": "2aabdebf37a0dd71f96aa9599e5687c6536eedb6c215d5c0c34597194f8626f0",
+  "md5": "08b7445340c568433a1a2060ec54da26",
+  "public_download_byte_identical": true,
+  "crc": "PASS",
+  "members": 1825,
+  "internal_sha256_checks": 1824,
+  "internal_sha256_status": "PASS",
+  "formal_verdicts": {
+    "B20.4": "PASS",
+    "B20.5": "PASS",
+    "B20.6": "INCONCLUSIVE"
+  },
+  "restart_geometry_precision": "Actual restart consistent; earlier high-precision direction identity NOT_EXACT; independent PDE effect NOT_RECOMPUTED",
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "scientific_values_figures_formal_verdicts_preserved": true,
+  "assessment_ja": "基本的に再現可能。独立した再実行監査は未了",
+  "web_zip_preview": "Too many files inside ZIP; download is available and publicly redownloaded byte-identically."
+}

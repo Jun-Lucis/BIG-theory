@@ -1,0 +1,577 @@
+[
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/B20_6_LOCAL_MANIFEST_FROZEN_30.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/B20_6_LOCAL_MANIFEST_FROZEN_30.csv"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_CROSSING_PREDICTIONS_FROZEN.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2B_CROSSING_PREDICTION_FROZEN/BIG_B20_6_CROSSING_PREDICTIONS_FROZEN.csv"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINEMENT_HISTORY.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2C_FROZEN_COARSE_CROSSING_SCAN/PHASE2D_FROZEN_BRACKET_REFINEMENT/BIG_B20_6_REFINEMENT_HISTORY.csv"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_CLAIM_LEDGER.csv",
+    "same_name_candidates": 0,
+    "byte_exact_drive_copies": []
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_COARSE_RESPONSE_TABLE.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2C_FROZEN_COARSE_CROSSING_SCAN/BIG_B20_6_COARSE_RESPONSE_TABLE.csv"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_COARSE_BRACKETS_DETECTED.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2C_FROZEN_COARSE_CROSSING_SCAN/BIG_B20_6_COARSE_BRACKETS_DETECTED.csv"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINEMENT_RULE_FROZEN.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2C_FROZEN_COARSE_CROSSING_SCAN/PHASE2D_FROZEN_BRACKET_REFINEMENT/BIG_B20_6_REFINEMENT_RULE_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_CROSSING_PREDICTION_FREEZE.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2B_CROSSING_PREDICTION_FROZEN/BIG_B20_6_CROSSING_PREDICTION_FREEZE.json"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/ZENODO_METADATA_DRAFT.json",
+    "same_name_candidates": 0,
+    "byte_exact_drive_copies": []
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_PHASE0_PREDECLARATION_FROZEN.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE0_PREDECLARATION_FROZEN/BIG_B20_6_PHASE0_PREDECLARATION_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINED_BRACKET_FINAL.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/PHASE2C_FROZEN_COARSE_CROSSING_SCAN/PHASE2D_FROZEN_BRACKET_REFINEMENT/BIG_B20_6_REFINED_BRACKET_FINAL.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_FREEZE_AUDIT.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN/B20_4_FINAL_FREEZE_AUDIT.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_PREDECLARATION_FROZEN.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN/B20_4_FINAL_PREDECLARATION_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_VERDICT.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_VERDICT.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_68_parameter_points.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN/B20_4_FamilyC_FINAL_68_parameter_points.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_parameter_extrema.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN/B20_4_FamilyC_FINAL_parameter_extrema.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_refined_zero_contours_19.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FINAL_AUDITED_ARCHIVE/B20_4_refined_zero_contours_19.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_accessibility_24cells.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageA_analysis/B20_4_stageA_accessibility_24cells.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_directional_secants.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageA_analysis/B20_4_stageA_directional_secants.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_response_408.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageA_analysis/B20_4_stageA_response_408.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_strict_brackets.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageA_analysis/B20_4_stageA_strict_brackets.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FINAL_19_refined_brackets.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_FINAL_19_refined_brackets.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FINAL_SUMMARY.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_FINAL_SUMMARY.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FIRST_midpoints_FROZEN.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_FIRST_midpoints_FROZEN.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_INITIAL_19_brackets_FROZEN.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_INITIAL_19_brackets_FROZEN.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_REFINEMENT_SPEC_FROZEN.json",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_REFINEMENT_SPEC_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_TRAJECTORY_CACHE_INVENTORY.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_stageB_refinement/B20_4_stageB_TRAJECTORY_CACHE_INVENTORY.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+    "same_name_candidates": 1,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN/SHA256_MANIFEST.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_ACQUISITION_COMPLETION.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_center_acquisition/B20_5_CENTER_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_ACQUISITION_COMPLETION.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_RESULTS_4.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_center_acquisition/B20_5_CENTER_RESULTS_4.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_RESULTS_4.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_RESULTS_4.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_RESULTS_4.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CROSS_SCALE_HOLDOUT_12.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CROSS_SCALE_HOLDOUT_12.csv",
+      "sources/drive_run/B20_5_FROZEN_PROTOCOL_EVALUATION/B20_5_CROSS_SCALE_HOLDOUT_12.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CROSS_SCALE_HOLDOUT_12.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CROSS_SCALE_HOLDOUT_12.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_ARCHIVE_MANIFEST.json",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_ARCHIVE_MANIFEST.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_ARCHIVE_MANIFEST.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_ARCHIVE_MANIFEST.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_FILE_INVENTORY.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_FILE_INVENTORY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_FILE_INVENTORY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_FILE_INVENTORY.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_SCIENTIFIC_CLOSURE.json",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_SCIENTIFIC_CLOSURE.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_SCIENTIFIC_CLOSURE.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_SCIENTIFIC_CLOSURE.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json",
+      "sources/drive_run/B20_5_FROZEN_PROTOCOL_EVALUATION/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_5_holdout_prospective/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_HOLDOUT_PREDICTION_FREEZE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_HOLDOUT_PREDICTION_FREEZE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_HOLDOUT_PREDICTION_FREEZE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_HOLDOUT_PREDICTION_FREEZE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_RAW_RESULTS_48.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_RAW_RESULTS_48.csv",
+      "sources/drive_run/B20_5_holdout_prospective/B20_5_HOLDOUT_RAW_RESULTS_48.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_RAW_RESULTS_48.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_RAW_RESULTS_48.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv",
+      "sources/drive_run/B20_5_FROZEN_PROTOCOL_EVALUATION/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv",
+      "sources/drive_run/B20_5_FROZEN_PROTOCOL_EVALUATION/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv",
+      "sources/drive_run/B20_5_FROZEN_PROTOCOL_EVALUATION/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_PREDECLARATION.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_PREDECLARATION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_PREDECLARATION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_PREDECLARATION.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_PREDECLARATION.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_boundary_anchors.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_frozen_boundary_anchors.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_boundary_anchors.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_boundary_anchors.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_boundary_anchors.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_gradient_perturbations_64.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_frozen_gradient_perturbations_64.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_gradient_perturbations_64.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_gradient_perturbations_64.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_gradient_perturbations_64.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_holdout_directions.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_holdout_directions.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_holdout_directions.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_holdout_directions.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_holdout_directions.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_normalized_subspace_basis.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_normalized_subspace_basis.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_normalized_subspace_basis.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_normalized_subspace_basis.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_normalized_subspace_basis.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_perturbation_extrema.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_PREDECLARATION_FROZEN/B20_5_perturbation_extrema.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_perturbation_extrema.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_perturbation_extrema.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_perturbation_extrema.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_F_recovery_exact_match_diagnostic.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_F_recovery_exact_match_diagnostic.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_F_recovery_exact_match_diagnostic.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_F_recovery_exact_match_diagnostic.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_RUNTIME_RECOVERY_FINAL_PASS.json",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_RUNTIME_RECOVERY_FINAL_PASS.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_RUNTIME_RECOVERY_FINAL_PASS.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_RUNTIME_RECOVERY_FINAL_PASS.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_gradient_recovery_difference_diagnostic.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_gradient_recovery_difference_diagnostic.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_gradient_recovery_difference_diagnostic.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_gradient_recovery_difference_diagnostic.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_consistency_4.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_consistency_4.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_consistency_4.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_consistency_4.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_gradients_8.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_gradients_8.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_gradients_8.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_gradients_8.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_64POINT_FORWARD_AUDIT.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_64POINT_FORWARD_AUDIT.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_64POINT_FORWARD_AUDIT.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_64POINT_FORWARD_AUDIT.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_COMPONENT_ESTIMATES.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_COMPONENT_ESTIMATES.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_COMPONENT_ESTIMATES.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_COMPONENT_ESTIMATES.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERED.csv",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERED.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERED.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERED.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERY_PASS.json",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERY_PASS.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERY_PASS.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERY_PASS.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SOLVER_RUNTIME_RECOVERY__B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json",
+    "same_name_candidates": 3,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SOLVER_RUNTIME_RECOVERY__B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SOLVER_RUNTIME_RECOVERY__B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SOLVER_RUNTIME_RECOVERY__B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_COMPLETION.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_STAGEA_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_COMPLETION.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_COMPLETION.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_COMPLETION.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_GRADIENTS_8.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_STAGEA_GRADIENTS_8.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_GRADIENTS_8.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_GRADIENTS_8.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_GRADIENTS_8.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv"
+    ]
+  },
+  {
+    "public_path": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_stageA_parameter_injection_audit.csv",
+    "same_name_candidates": 4,
+    "byte_exact_drive_copies": [
+      "sources/drive_run/B20_5_stageA_prospective/B20_5_stageA_parameter_injection_audit.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART/_b205_extract/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_stageA_parameter_injection_audit.csv",
+      "sources/drive_run/B20_6_crossing_geometry/PHASE1A_RECOVERY_WORK/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_stageA_parameter_injection_audit.csv",
+      "sources/drive_run/B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_stageA_parameter_injection_audit.csv"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "pages": 9,
+  "pdf_bytes": 379114,
+  "pdf_sha256": "4e5ebfd02d269ef9360887fc6672f82e519f3f9c243ee4c330d1fd0204422b11",
+  "all_pages_reviewed_at_full_resolution": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visual_review": "PASS",
+  "original_tables_all_cells_exact": 1,
+  "original_figure_rgb_exact": true,
+  "unique_original_figures": 4,
+  "text_outside_page": [],
+  "figure_rasters": [
+    [
+      990,
+      900,
+      "af3fd11156adcf6f3d60489678244b436418541848f57eeb88216e219ee28798"
+    ],
+    [
+      1116,
+      756,
+      "fb075b574d80816f22ca61429ef4df96f7711257260c6003bc12724d09f59b51"
+    ],
+    [
+      1170,
+      756,
+      "86b7fa7fba2bd9bdafbae6fb8b1e890e4347db9cb51da7d88d192c99564b6712"
+    ],
+    [
+      1170,
+      792,
+      "b414865907a1510181b3f5d90a38bd35cf9a8baca0af2f544dba2f709d815933"
+    ]
+  ]
+}

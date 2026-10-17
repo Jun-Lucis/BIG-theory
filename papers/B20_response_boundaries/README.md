@@ -2,7 +2,7 @@
 
 
 > 🇯🇵 **日本語要約**  
-> B20では、有限時間発展 $U_T$ と読み出し $Z$ から応答関数 $F_T(P)=Z[U_T(P)]-Z[P]$ を定義し、その符号が切り替わるゼロ集合を「応答境界」として調べます。B20.5では、事前に固定した4次元部分空間で局所応答勾配を検査し、主要なprospective testで方向微分の符号が24/24ケースで一致しました。B20.6ではさらに、局所情報から有限距離先のゼロ交差を予測できるかを凍結した手順で検査しました。6本の独立なパラメータ空間軌道のうち、事前に定めた探索範囲内でinformative crossingが得られたのはd03の1本で、交差方向は予測と一致しました。凍結した予測位置は $\hat{s}=1.960017$、精密化したzero-crossing bracketは $[1.9921875,1.994140625]$、midpointは $1.9931641$ で、位置差はmidpointに対して約1.66%でした。事前基準では独立な交差が1件に留まったため、B20.6全体の判定は **INCONCLUSIVE** としています。これによりBIGの「境界」は、物理空間の輪郭だけでなく、有限時間発展とreadoutによってパラメータ空間に生成される応答境界へ拡張されます。ただし、この結果は有限の合成渦度族と有限時間窓についてのもので、普遍的separatrixやNavier--Stokes特異点の証明ではありません。
+> B20では、有限時間発展 $U_T$ と読み出し $Z$ から応答関数 $F_T(P)=Z[U_T(P)]-Z[P]$ を定義し、その符号が切り替わるゼロ集合を「応答境界」として調べます。B20.5では、事前に固定した4次元部分空間で局所応答勾配を検査し、主要なprospective testで方向微分の符号が24/24ケースで一致しました。B20.6ではさらに、局所情報から有限距離先のゼロ交差を予測できるかを凍結した手順で検査しました。同じ基点を共有する6本の異なるパラメータ空間軌道のうち、事前に定めた探索範囲内でinformative crossingが得られたのはd03の1本で、交差方向は予測と一致しました。凍結した予測位置は $\hat{s}=1.960017$、精密化したzero-crossing bracketは $[1.9921875,1.994140625]$、midpointは $1.9931641$ で、位置差はmidpointに対して約1.66%でした。事前基準では独立な交差が1件に留まったため、B20.6全体の判定は **INCONCLUSIVE** としています。これによりBIGの「境界」は、物理空間の輪郭だけでなく、有限時間発展とreadoutによってパラメータ空間に生成される応答境界へ拡張されます。ただし、この結果は有限の合成渦度族と有限時間窓についてのもので、普遍的separatrixやNavier--Stokes特異点の証明ではありません。
 
 ## Purpose
 
@@ -36,7 +36,7 @@ This result is local and finite-window. It is not a physical-space normal, a ful
 
 B20.6 moves from unseen local directional derivatives to finite-distance zero-crossing prediction under a frozen prospective protocol.
 
-Among six independent parameter-space trajectories, only `d03` produces an informative crossing inside the predeclared frozen scan domain. Its crossing orientation is predicted correctly. The frozen linear crossing estimate is
+Among six distinct parameter-space trajectories sharing the same base point, only `d03` produces an informative crossing inside the predeclared frozen scan domain. Its crossing orientation is predicted correctly. The frozen linear crossing estimate is
 
 $
 \hat{s}=1.960017,
@@ -50,7 +50,7 @@ $
 
 with midpoint $s=1.9931641$. The location difference is approximately **1.66% of the refined midpoint**.
 
-Because the predeclared B20.6 criterion required more than a single informative crossing to support a broader prospective crossing claim, the final B20.6 verdict is **INCONCLUSIVE**. The observed `d03` crossing is nevertheless a successful finite-distance directional/location test within that one informative case; it is not evidence for a general crossing law or universal separatrix.
+Because the predeclared B20.6 criterion required more than a single informative crossing to support a broader prospective crossing claim, the final B20.6 verdict is **INCONCLUSIVE**. The observed `d03` crossing supplies one finite-distance directional/location comparison. Its frozen prediction is outside the final bracket and its approximate error is descriptive; no new success tolerance is introduced. It does not establish a general crossing law or universal separatrix.
 
 The integrated Zenodo publication is the canonical source for this final evidential interpretation.
 
@@ -60,6 +60,25 @@ The tests use finite synthetic vorticity families and finite observation windows
 
 ## Publication
 
-Zenodo: https://zenodo.org/records/22846729
+Zenodo v1.1: https://zenodo.org/records/23428205
+
+Historical v1.0: https://zenodo.org/records/22846729
 
 Author: Jun Lucis
+
+## CP26 source and saved-result audit
+
+Version 1.1 is published as one complete ZIP: 11,708,173 bytes, 1,825 members, SHA-256 `2aabdebf37a0dd71f96aa9599e5687c6536eedb6c215d5c0c34597194f8626f0`. The public redownload is byte-identical, CRC and all 1,824 internal hashes pass. The nine-page English clarification retains the original prediction-table cells, all four figure rasters and every formal verdict.
+
+The archive includes 11 original B20 notebook candidates, 1,692 recovered results and the inherited B19.22-C solver notebook. The 137 unchanged definitions load in four namespaces without starting experiments. All 80 historical manifest checks pass and 66 public CSV/JSON files have byte-exact Drive copies. Saved-data checks pass 9,052 groups / 157,400 comparisons, including 455 diagnostic histories / 36,855 rows and shared or overlapping checks, not independent replications. No new ODE/PDE integration was performed.
+
+The revision clarifies the unforced Fourier/RK4 implementation, initial-only energy scaling, sampled accessibility and gap, unused-for-label second secants, declared RMS metric, centered differences, shared anchors/base/scales and reused scan centers. Sampled non-acquisition does not prove continuous-domain root absence and a bisection width is not a PDE or confidence bound.
+
+**Restart precision:** B20.6 used a six-decimal Qw and twelve-decimal base, differing from earlier high-precision raw directions by at most 2.87465058e-7 per component. The actual local and scan manifests are consistent with that restart. Exact Phase1B direction identity is NOT_EXACT; its effect on fresh PDE outcomes is not independently recomputed. Original errors/repairs/checkpoints remain visible. The complete final refinement-acquisition writer was not separately located; saved rule/history and six checkpoints support arithmetic verification. Historical hashes and timestamps are internal provenance, not independent chronology certification. The Japanese v1.0 reference remains the earlier version.
+
+Assessment: **Basically reproducible at the archived methods and saved-output level; independent end-to-end rerun audit not completed.** B20.4 PASS, B20.5 PASS and B20.6 INCONCLUSIVE remain unchanged. The large ZIP exceeds Zenodo's web-preview file-count limit; the full download is available and verified.
+
+- [Japanese audit report](../../docs/B20_CP26_AUDIT_20261017.md)
+- [Public archive verification](../../docs/B20_CP26/B20_Public_Redownload_Verification_20261017.json)
+- [Restart precision audit](../../docs/B20_CP26/B20_6_Restart_Geometry_Precision_Audit.json)
+- [Recovered definitions and saved-result verifier](../../code/B20_recovered)

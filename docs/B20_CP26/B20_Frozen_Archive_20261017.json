@@ -1,0 +1,14 @@
+{
+  "filename": "BIG_B20_v1_1_COMPLETE_20261017.zip",
+  "bytes": 11708173,
+  "sha256": "2aabdebf37a0dd71f96aa9599e5687c6536eedb6c215d5c0c34597194f8626f0",
+  "md5": "08b7445340c568433a1a2060ec54da26",
+  "members": 1825,
+  "internal_sha256_checks": 1824,
+  "crc": "PASS",
+  "internal_hashes": "PASS",
+  "doi": "10.5281/zenodo.23428205",
+  "version": "1.1",
+  "frozen": true,
+  "rebuild_after_upload": false
+}

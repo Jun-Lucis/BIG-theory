@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "published": true,
+    "id": true,
+    "doi": true,
+    "parent": true,
+    "title": true,
+    "version": true,
+    "date": true,
+    "creators": true,
+    "subjects": true,
+    "license": true,
+    "resource_type": true,
+    "description_normalized_exact": true,
+    "related_identifiers_exact": true,
+    "additional_note_preserved": true,
+    "one_zip": true,
+    "file_size": true,
+    "file_md5": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "additional_descriptions": [
+    {
+      "description": "<p>This record contains the integrated BIG B20 report together with supporting reproducibility materials. B20.4 and B20.5 satisfy their respective predeclared family-specific numerical criteria. B20.6 is reported as INCONCLUSIVE because only one informative crossing occurred within the frozen prospective domain, although that crossing had the predicted orientation and an approximately predicted location.</p>",
+      "type": {
+        "id": "notes",
+        "title": {
+          "de": "Anmerkungen",
+          "en": "Notes"
+        }
+      }
+    }
+  ],
+  "creators": [
+    {
+      "person_or_org": {
+        "family_name": "Lucis",
+        "given_name": "Jun",
+        "name": "Lucis, Jun",
+        "type": "personal"
+      }
+    }
+  ],
+  "description": "<p>BIG B20 studies operator-generated finite-window response boundaries F_T(P)=Z[U_T(P)]-Z[P] in restricted synthetic divergence-free vorticity families. The original formal outcomes are retained: B20.4 PASS for its family-specific accessibility criterion, B20.5 PASS for local normal and hold-out tests in the declared normalized four-dimensional subspace, and B20.6 INCONCLUSIVE because only one informative crossing was detected in the frozen domain. The d03 linear prediction remains outside the final refined bracket, with the original descriptive location error of about 1.66%.</p>\n<p>Version 1.1 preserves the scientific numbers, the complete original prediction table and all four original figure rasters. The nine-page English revision clarifies the Fourier-projected unforced periodic RK4 implementation, initial-only energy scaling, saved-sample diagnostics, operational sampled accessibility, RMS coordinate metric, shared anchors and base points, centered local differences and finite-domain sign-changing brackets. The 24 primary hold-out pairs and 126 scan rows are not independent statistical replications; six scan rows reuse local-center results.</p>\n<p>A source audit found that the B20.6 restart uses a six-decimal Qw and twelve-decimal base. Its raw directions differ from the earlier high-precision Phase1B table by up to 2.87465058e-7 per component. The actual 30-point local manifest and 126-point scan manifest are internally consistent with the restarted geometry. Exact identity with the earlier high-precision directions is not certified, and the effect of the precision difference on fresh PDE outcomes is not independently recomputed.</p>\n<p>The complete ZIP includes the revised English PDF and editable DOCX, 11 recovered B20 notebook candidates, 1,692 recovered Drive result files, the exact inherited B19.22-C solver input, immutable original public ZIP, two extracted stage packages, source and release SHA-256 manifests, 137 unchanged definition extracts in four namespaces, an independent saved-result verifier and audit notes. The Japanese Version 1.0 reference PDF remains the earlier version, not a translation of Version 1.1. Earlier B20.2/3 materials are retained as provenance outside the integrated B20.4-6 claims.</p>\n<p>Saved-data recomputation passes 9,052 check groups covering 157,400 numeric or label comparisons, including shared and overlapping checks rather than independent samples. It checks 455 scalar-diagnostic histories / 36,855 rows; all 80 historical manifest entries match and 66 public CSV/JSON files have byte-exact recovered Drive copies. No new ODE/PDE trajectories are generated. Assessment: basically reproducible at the archived methods and saved-output level; independent end-to-end rerun audit not completed. Original errors, repairs, runtime reconstruction and checkpoint dependencies are preserved. The complete final refinement-acquisition writer was not separately located; its frozen rule, six checkpoints and history support the saved arithmetic audit.</p>\n<p>The scope is finite synthetic numerical response geometry. Sampled non-acquisition does not prove the absence of unsampled roots. Bracket width and cross-scale finite differences do not establish continuum error bounds, global smoothness, invariant manifolds, a universal separatrix, Navier-Stokes blow-up or regularity, or independent external transfer. A fresh full run requires inherited inputs, configuration and path adaptation.</p>\n<p>Project repository: <a href=\"https://github.com/Jun-Lucis/BIG-theory\">https://github.com/Jun-Lucis/BIG-theory</a></p>",
+  "publication_date": "2026-10-17",
+  "publisher": "Zenodo",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22769513",
+      "relation_type": {
+        "id": "isderivedfrom",
+        "title": {
+          "de": "Wird abgeleitet von",
+          "en": "Is derived from"
+        }
+      },
+      "resource_type": {
+        "id": "publication-preprint",
+        "title": {
+          "de": "Preprint",
+          "en": "Preprint"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23427904",
+      "scheme": "doi",
+      "relation_type": {
+        "id": "references"
+      },
+      "resource_type": {
+        "id": "publication-preprint"
+      }
+    },
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references"
+      },
+      "resource_type": {
+        "id": "other"
+      }
+    }
+  ],
+  "resource_type": {
+    "id": "publication-preprint",
+    "title": {
+      "de": "Preprint",
+      "en": "Preprint"
+    }
+  },
+  "rights": [
+    {
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "id": "cc-by-4.0",
+      "props": {
+        "scheme": "spdx",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Boundary Information Geometry"
+    },
+    {
+      "subject": "BIG"
+    },
+    {
+      "subject": "vorticity dynamics"
+    },
+    {
+      "subject": "finite-window response"
+    },
+    {
+      "subject": "response boundary"
+    },
+    {
+      "subject": "boundary accessibility"
+    },
+    {
+      "subject": "local response geometry"
+    },
+    {
+      "subject": "prospective numerical test"
+    },
+    {
+      "subject": "Navier–Stokes-type dynamics"
+    },
+    {
+      "subject": "computational fluid dynamics"
+    }
+  ],
+  "title": "Operator-Generated Response Boundaries in Finite-Window Vorticity Dynamics: Accessibility, Local Normal Geometry, and Prospective Crossing Tests",
+  "version": "1.1"
+}

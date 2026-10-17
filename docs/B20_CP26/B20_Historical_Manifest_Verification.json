@@ -1,0 +1,407 @@
+{
+  "status": "PASS",
+  "checks": 80,
+  "failed": [],
+  "records": [
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/B20_6_LOCAL_MANIFEST_FROZEN_30.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_4_FINAL_AUDITED_ARCHIVE.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_5_FINAL_AUDITED_ARCHIVE.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_COARSE_BRACKETS_DETECTED.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_COARSE_RESPONSE_TABLE.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_CROSSING_PREDICTIONS_FROZEN.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_CROSSING_PREDICTION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_PHASE0_PREDECLARATION_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINED_BRACKET_FINAL.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINEMENT_HISTORY.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_6_REFINEMENT_RULE_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_CLAIM_LEDGER.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_Operator_Response_Boundaries_Preprint_v1_0.docx",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/BIG_B20_Operator_Response_Boundaries_Preprint_v1_0.pdf",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/README_B20_RELEASE.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/SHA256SUMS.txt",
+      "target": "old_public/unpacked/BIG_B20_Zenodo_Release_v1_0/ZENODO_METADATA_DRAFT.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FINAL_19_refined_brackets.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FINAL_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_TRAJECTORY_CACHE_INVENTORY.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_accessibility_24cells.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_response_408.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_directional_secants.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageA_strict_brackets.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_INITIAL_19_brackets_FROZEN.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_FIRST_midpoints_FROZEN.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_stageB_REFINEMENT_SPEC_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_68_parameter_points.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_VERDICT.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_RESULT.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_refined_zero_contours_19.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_parameter_extrema.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_PREDECLARATION_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/README_FROZEN.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_FREEZE_AUDIT.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_68_parameter_points.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FamilyC_FINAL_parameter_extrema.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_PREDECLARATION_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/README_FROZEN.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/SHA256_MANIFEST.csv",
+      "target": "sources/public_stage_packages/BIG_B20_4_FINAL_AUDITED_ARCHIVE/B20_4_FINAL_FREEZE_AUDIT.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_ACQUISITION_COMPLETION.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CENTER_RESULTS_4.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_CROSS_SCALE_HOLDOUT_12.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_ARCHIVE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FINAL_SCIENTIFIC_CLOSURE.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_ACQUISITION_COMPLETION.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_HOLDOUT_RAW_RESULTS_48.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_PREDECLARATION.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_boundary_anchors.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_frozen_gradient_perturbations_64.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_holdout_directions.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_normalized_subspace_basis.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/B20_5_perturbation_extrema.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/PREDECLARATION/README_B20_5_PREDECLARATION.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/README_B20_5_FINAL.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_F_recovery_exact_match_diagnostic.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_RUNTIME_RECOVERY_FINAL_PASS.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_gradient_recovery_difference_diagnostic.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_consistency_4.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_RUNTIME_RECOVERY__B20_5_runtime_recovery_gradients_8.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_64POINT_FORWARD_AUDIT.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_COMPONENT_ESTIMATES.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERED.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SCALE_RECOVERY__B20_5_SCALE_RECOVERY_PASS.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/RECOVERY_AUDIT/B20_5_SOLVER_RUNTIME_RECOVERY__B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_COMPLETION.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_CROSS_SCALE_NORMAL_CONSISTENCY.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_GRADIENTS_8.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_STAGEA_TRAJECTORY_INVENTORY.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/SHA256SUMS.txt",
+      "target": "sources/public_stage_packages/BIG_B20_5_FINAL_AUDITED_ARCHIVE/BIG_B20_5_FINAL_AUDITED_ARCHIVE/STAGE_A_SUMMARY/B20_5_stageA_parameter_injection_audit.csv",
+      "status": "PASS"
+    }
+  ]
+}

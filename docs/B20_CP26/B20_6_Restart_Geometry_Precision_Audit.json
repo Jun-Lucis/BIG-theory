@@ -1,0 +1,48 @@
+{
+  "finding": "Restart uses six-decimal Qw and twelve-decimal base; this differs from the high-precision Phase1B direction table.",
+  "actual_manifest_reconstruction": "PASS",
+  "phase1B_high_precision_direction_identity": "NOT_EXACT",
+  "max_abs_raw_direction_difference": 2.874650580075855e-07,
+  "rounded_Q_orthonormality_max_error": 1.4190489999732492e-06,
+  "records": [
+    {
+      "trajectory": "d01",
+      "max_abs_raw_direction_difference_from_phase1B": 1.0120396544757715e-07,
+      "rounded_basis_reconstruction_max_error": 3.802513859341161e-15,
+      "base_reconstruction_max_error": 2.220446049250313e-16
+    },
+    {
+      "trajectory": "d02",
+      "max_abs_raw_direction_difference_from_phase1B": 1.42017637233538e-07,
+      "rounded_basis_reconstruction_max_error": 3.1363800445660672e-15,
+      "base_reconstruction_max_error": 6.661338147750939e-16
+    },
+    {
+      "trajectory": "d03",
+      "max_abs_raw_direction_difference_from_phase1B": 2.874650580075855e-07,
+      "rounded_basis_reconstruction_max_error": 6.2727600891321345e-15,
+      "base_reconstruction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "trajectory": "d04",
+      "max_abs_raw_direction_difference_from_phase1B": 2.8714122685125076e-07,
+      "rounded_basis_reconstruction_max_error": 5.745404152435185e-15,
+      "base_reconstruction_max_error": 8.881784197001252e-16
+    },
+    {
+      "trajectory": "d05",
+      "max_abs_raw_direction_difference_from_phase1B": 1.505966639309131e-07,
+      "rounded_basis_reconstruction_max_error": 2.6367796834847468e-15,
+      "base_reconstruction_max_error": 2.220446049250313e-16
+    },
+    {
+      "trajectory": "d06",
+      "max_abs_raw_direction_difference_from_phase1B": 9.285373369152805e-08,
+      "rounded_basis_reconstruction_max_error": 4.2674197509029455e-15,
+      "base_reconstruction_max_error": 2.220446049250313e-16
+    }
+  ],
+  "effect_on_new_PDE_outcomes": "NOT_INDEPENDENTLY_RECOMPUTED",
+  "formal_verdict": "INCONCLUSIVE_UNCHANGED",
+  "interpretation": "Freeze and downstream arithmetic are assessed relative to the actual restart manifest, not falsely certified as exact Phase1B geometry."
+}

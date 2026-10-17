@@ -746,7 +746,9 @@ B20.5 reconstructed local response gradients within a predeclared normalized fou
 B20.6 then moved to prospective finite-distance crossing prediction under a frozen protocol. Its evidential status should be kept separate from the B20.5 local-gradient result; the integrated publication record is the canonical source for the final interpretation.
 
 **Zenodo record:**  
-https://zenodo.org/records/22846729
+https://zenodo.org/records/23428205
+
+CP26 v1.1 preserves scientific numbers, the original prediction table, four figure rasters and B20.4 PASS / B20.5 PASS / B20.6 INCONCLUSIVE. The public complete ZIP is byte-identical to the frozen 11,708,173-byte archive; CRC and all 1,824 internal hashes pass. Saved-result checks pass 9,052 groups / 157,400 comparisons. B20.6 used a six-decimal restarted basis; actual downstream manifests are consistent, while exact high-precision Phase1B direction identity is not certified. Basically reproducible at the archived methods/saved-output level; independent full rerun audit not completed. [Audit](B20_CP26_AUDIT_20261017.md).
 
 
 ---

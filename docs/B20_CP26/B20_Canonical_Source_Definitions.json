@@ -1,0 +1,3379 @@
+[
+  {
+    "namespace": "B20_4_StageA",
+    "notebook": "sources/original_notebooks/1IqAo-Es__BIG_B20_4_FamilyC_StageA_RESUME_SELF_CONTAINED_v1.ipynb",
+    "notebook_sha256": "616e8571b6f16d79cd69c011e0ba643f8c7fd816a4a9e0d41ca1bcf73d36fc88",
+    "definitions_file": "code/definitions/B20_4_StageA_definitions.py",
+    "definition_count": 38,
+    "definitions": [
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 5,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 5,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 5,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 5,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 5,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 5,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "family_C_final_point",
+        "cell_index": 7,
+        "sha256": "561020b8bea185ef94b753cd635eb3a1979a6035a58413006c8a047ea88a2ae9"
+      },
+      {
+        "name": "point_on_ray_B204_solver_ready",
+        "cell_index": 7,
+        "sha256": "0169e8db5b9847f8c894b0c7bb3768ba4d2b89b6f6d29f5108134e75acc38cfe"
+      },
+      {
+        "name": "run_one_case_B204_from_params",
+        "cell_index": 9,
+        "sha256": "ec8461ea57342f9c030ab699e2759f2038ade242e8f753158073743fdd14b114"
+      },
+      {
+        "name": "eps_tag",
+        "cell_index": 11,
+        "sha256": "873c5eb8d568ad52fe0e2a989e56468d5159e6fa4351e1f962d10b84c41b6901"
+      },
+      {
+        "name": "paths_for",
+        "cell_index": 11,
+        "sha256": "4a47eb25f0bde623fd2eca2002bb57d8ffd1cd5c63f2c4f4d27f889732f0417f"
+      },
+      {
+        "name": "validate_checkpoint",
+        "cell_index": 11,
+        "sha256": "e3211de8713fdc4cfc2976b517ce2d756c2cf35a9304817b26e1eda2b50d1289"
+      },
+      {
+        "name": "checkpoint_inventory",
+        "cell_index": 11,
+        "sha256": "303fe74a81f6f0c56fdb7f1fa761e1b7fed11fbec6e40ffeab9b1781011e02c1"
+      },
+      {
+        "name": "eps_tag_A",
+        "cell_index": 14,
+        "sha256": "675d876d9e71b45b5ec3e01f90215aafa90da24168457d9b9afd884502c1e900"
+      },
+      {
+        "name": "checkpoint_paths_A",
+        "cell_index": 14,
+        "sha256": "05997bcde73b31d18925086253fb24a4b723b828e409949a13d31e35cc9e728d"
+      },
+      {
+        "name": "eps_key_B",
+        "cell_index": 16,
+        "sha256": "0b2391dfb0846d43fe9c4e17a3a354347721b032157ae25ea1f9aac384702b9d"
+      },
+      {
+        "name": "eps_tag_B",
+        "cell_index": 16,
+        "sha256": "aea91c2531323ec662cf5d23dbd9c3670daedf5245beb756dd878a3e6515f70b"
+      },
+      {
+        "name": "cache_paths_B",
+        "cell_index": 16,
+        "sha256": "b4edeb82426315c9f754bd88b155a6b4c6e25499b7757c85cfcdf4f8eab20b9a"
+      },
+      {
+        "name": "validate_cache_B",
+        "cell_index": 16,
+        "sha256": "faed6f97ed4ee65dd5a356f4d2dbd0bb3b3074834f8eac8dd8fd659a543746ad"
+      },
+      {
+        "name": "get_F_B",
+        "cell_index": 16,
+        "sha256": "8c0f7bb6f21d0b7ba41c0700d7e752f8f557f0b01d91e2135839fbdc374f66ae"
+      }
+    ],
+    "ordered_runtime_assignments": [
+      {
+        "cell_index": 1,
+        "name": "RUN_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageA_prospective')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 7,
+        "name": "N",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 7,
+        "name": "L",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 7,
+        "name": "NU",
+        "expression": "0.003",
+        "literal_value": 0.003
+      },
+      {
+        "cell_index": 7,
+        "name": "EMAX",
+        "expression": "30.0",
+        "literal_value": 30.0
+      },
+      {
+        "cell_index": 7,
+        "name": "DT_CAP",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 7,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 7,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 7,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 7,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 7,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 7,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 7,
+        "name": "HORIZONS",
+        "expression": "np.array([0.006, 0.008, 0.01, 0.012, 0.015, 0.02], dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 7,
+        "name": "EPS_GRID",
+        "expression": "np.linspace(0.0, 2.0, 17)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 7,
+        "name": "RAYS",
+        "expression": "['r09', 'r10', 'r11', 'r12']",
+        "literal_value": [
+          "r09",
+          "r10",
+          "r11",
+          "r12"
+        ]
+      },
+      {
+        "cell_index": 7,
+        "name": "PARAM_KEYS_C",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 7,
+        "name": "BASE_C",
+        "expression": "{'R': 0.575, 'sep_factor': 1.0, 'pair_angle': 0.7, 'twist_factor': 0.85, 'imbalance': 0.79, 'axial_coupling': 0.36, 'phase': 1.5, 'handedness': -1.0}",
+        "literal_value": {
+          "R": 0.575,
+          "sep_factor": 1.0,
+          "pair_angle": 0.7,
+          "twist_factor": 0.85,
+          "imbalance": 0.79,
+          "axial_coupling": 0.36,
+          "phase": 1.5,
+          "handedness": -1.0
+        }
+      },
+      {
+        "cell_index": 7,
+        "name": "ENDPOINTS_C",
+        "expression": "{'r09': {'R': 0.485, 'sep_factor': 1.17, 'pair_angle': 0.88, 'twist_factor': 1.08, 'imbalance': 0.73, 'axial_coupling': 0.27, 'phase': 1.76, 'handedness': -1.0}, 'r10': {'R': 0.665, 'sep_factor': 0.84, 'pair_angle': 0.54, 'twist_factor': 0.68, 'imbalance': 0.89, 'axial_coupling': 0.48, 'phase': 1.18, 'handedness': -1.0}, 'r11': {'R': 0.625, 'sep_factor': 1.24, 'pair_angle': 1.02, 'twist_factor': 0.74, 'imbalance': 0.66, 'axial_coupling': 0.31, 'phase': 2.02, 'handedness': -1.0}, 'r12': {'R': 0.655, 'sep_factor': 0.82, 'pair_angle': 0.48, 'twist_factor': 1.0, 'imbalance': 0.64, 'axial_coupling': 0.4, 'phase': 0.9, 'handedness': -1.0}}",
+        "literal_value": {
+          "r09": {
+            "R": 0.485,
+            "sep_factor": 1.17,
+            "pair_angle": 0.88,
+            "twist_factor": 1.08,
+            "imbalance": 0.73,
+            "axial_coupling": 0.27,
+            "phase": 1.76,
+            "handedness": -1.0
+          },
+          "r10": {
+            "R": 0.665,
+            "sep_factor": 0.84,
+            "pair_angle": 0.54,
+            "twist_factor": 0.68,
+            "imbalance": 0.89,
+            "axial_coupling": 0.48,
+            "phase": 1.18,
+            "handedness": -1.0
+          },
+          "r11": {
+            "R": 0.625,
+            "sep_factor": 1.24,
+            "pair_angle": 1.02,
+            "twist_factor": 0.74,
+            "imbalance": 0.66,
+            "axial_coupling": 0.31,
+            "phase": 2.02,
+            "handedness": -1.0
+          },
+          "r12": {
+            "R": 0.655,
+            "sep_factor": 0.82,
+            "pair_angle": 0.48,
+            "twist_factor": 1.0,
+            "imbalance": 0.64,
+            "axial_coupling": 0.4,
+            "phase": 0.9,
+            "handedness": -1.0
+          }
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 9,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 9,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 9,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 9,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 9,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 14,
+        "name": "RUN_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageA_prospective')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 14,
+        "name": "ANALYSIS_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageA_analysis')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 14,
+        "name": "RAYS_A",
+        "expression": "['r09', 'r10', 'r11', 'r12']",
+        "literal_value": [
+          "r09",
+          "r10",
+          "r11",
+          "r12"
+        ]
+      },
+      {
+        "cell_index": 14,
+        "name": "EPS_A",
+        "expression": "np.linspace(0.0, 2.0, 17)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 14,
+        "name": "HORIZONS_A",
+        "expression": "np.array([0.006, 0.008, 0.01, 0.012, 0.015, 0.02], dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 14,
+        "name": "DEPS",
+        "expression": "0.125",
+        "literal_value": 0.125
+      },
+      {
+        "cell_index": 15,
+        "name": "ANALYSIS_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageA_analysis')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 15,
+        "name": "STAGEB_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageB_refinement')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 15,
+        "name": "BRACKET_FILE",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_strict_brackets.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 15,
+        "name": "TOL",
+        "expression": "0.001953125",
+        "literal_value": 0.001953125
+      },
+      {
+        "cell_index": 16,
+        "name": "STAGEB_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_4_stageB_refinement')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 16,
+        "name": "CACHE_DIR",
+        "expression": "STAGEB_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 16,
+        "name": "INITIAL_FILE",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_INITIAL_19_brackets_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 16,
+        "name": "SPEC_FILE",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_REFINEMENT_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 16,
+        "name": "TOL",
+        "expression": "0.001953125",
+        "literal_value": 0.001953125
+      },
+      {
+        "cell_index": 16,
+        "name": "N_B",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 16,
+        "name": "L_B",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 16,
+        "name": "DT_CAP_B",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 16,
+        "name": "T_FINAL_B",
+        "expression": "0.02",
+        "literal_value": 0.02
+      }
+    ]
+  },
+  {
+    "namespace": "B20_4_5_Audited",
+    "notebook": "sources/original_notebooks/1NQQTonn__BIG_B20_4_StageB_SELF_CONTAINED_REFINEMENT_v1_1_AUDITED.ipynb",
+    "notebook_sha256": "ff59e5ce07a2ce10b1a5eaac1ea81618337fb12aab4d9f8ce7cf2834a3b23b75",
+    "definitions_file": "code/definitions/B20_4_5_Audited_definitions.py",
+    "definition_count": 45,
+    "definitions": [
+      {
+        "name": "sig",
+        "cell_index": 3,
+        "sha256": "db0d753aec74c774a47288aabad7ec54834b07567b9f066873211fd331fc652b"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 5,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 5,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 5,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 5,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 5,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 5,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 5,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 5,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 5,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 5,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 5,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 5,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 5,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 5,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 6,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 6,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 6,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 6,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 7,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 7,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 7,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 7,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 7,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 7,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "family_C_final_point",
+        "cell_index": 9,
+        "sha256": "561020b8bea185ef94b753cd635eb3a1979a6035a58413006c8a047ea88a2ae9"
+      },
+      {
+        "name": "point_on_ray_B204_solver_ready",
+        "cell_index": 9,
+        "sha256": "0169e8db5b9847f8c894b0c7bb3768ba4d2b89b6f6d29f5108134e75acc38cfe"
+      },
+      {
+        "name": "run_one_case_B204_from_params",
+        "cell_index": 11,
+        "sha256": "ec8461ea57342f9c030ab699e2759f2038ade242e8f753158073743fdd14b114"
+      },
+      {
+        "name": "affine_family_point",
+        "cell_index": 19,
+        "sha256": "994a9ef4f14e5b4428888b0959f734b3ab983f0c9dfa8a3d4e264b120fa5a2f2"
+      },
+      {
+        "name": "b205_row_to_solver_params",
+        "cell_index": 20,
+        "sha256": "b8314ca1f000ef3bf868e83b8d55339d05868b377df78af1ae285b8d18568484"
+      },
+      {
+        "name": "trajectory_id_205",
+        "cell_index": 21,
+        "sha256": "36bbfc7cfb9b32bae208f36e2ecb45723ffc7ab30665bae64354207c5115a881"
+      },
+      {
+        "name": "cache_paths_205",
+        "cell_index": 21,
+        "sha256": "3e3ccc0a7f50df9d128d5a39ab2a522fffe30816f9c1d1b9a7c6bff1fd70feda"
+      },
+      {
+        "name": "params_from_row_205",
+        "cell_index": 21,
+        "sha256": "b4fefa252aeed7509a7abaa65ab1bb5fa08af48c629c991570b80196f4d2a33b"
+      },
+      {
+        "name": "response_at_T_205",
+        "cell_index": 21,
+        "sha256": "bc79bf8982fdb276eb81866f0ed83774465ce2adf5e7d3b85b1178457f39a008"
+      },
+      {
+        "name": "validate_cache_205",
+        "cell_index": 21,
+        "sha256": "96663eaf7e4f46eb74cc1543973b69bc574a4a5ae2cbc9e1c5530e12e28f5420"
+      },
+      {
+        "name": "acquire_trajectory_205",
+        "cell_index": 21,
+        "sha256": "df8db9078052f6af0fbeedaf94b1fcff85043f6efcad232711be33d13822915b"
+      },
+      {
+        "name": "trajectory_id_205",
+        "cell_index": 22,
+        "sha256": "59ea0bfbc4dc42c9bf51053677f2230ed80f6bfa42acc5743e83f08eb48703a7"
+      },
+      {
+        "name": "center_paths",
+        "cell_index": 30,
+        "sha256": "3fcf3450a1c331b4a06e5494b19453017392c1a3c2a8499fd2e06ca85e9ff28a"
+      },
+      {
+        "name": "validate_center_checkpoint",
+        "cell_index": 30,
+        "sha256": "de79de242f3c9a891022f3a088204ace7c9a228da5f05f6253d664d2120def57"
+      },
+      {
+        "name": "first_existing",
+        "cell_index": 31,
+        "sha256": "e0e06d8d62eb3522bed9b7b877794947600d08b0d97938f0ae6e51a8e32303fc"
+      },
+      {
+        "name": "holdout_paths",
+        "cell_index": 35,
+        "sha256": "ee3c20107aae071dc8b86f7754e1fa0433987918ebf3502976f4027d6d36be3c"
+      },
+      {
+        "name": "validate_holdout_checkpoint",
+        "cell_index": 35,
+        "sha256": "2813f5919e0f6cc51c413fa8d7a82c8aed2da05d6cce2353eaa143bc237b2ddd"
+      },
+      {
+        "name": "holdout_paths",
+        "cell_index": 38,
+        "sha256": "ee3c20107aae071dc8b86f7754e1fa0433987918ebf3502976f4027d6d36be3c"
+      },
+      {
+        "name": "validate_holdout_checkpoint",
+        "cell_index": 38,
+        "sha256": "1d58a8364a87378144861334e1656f63b0cc5d2283bd76d65bcd14d56d0bedf5"
+      },
+      {
+        "name": "sha256_file",
+        "cell_index": 40,
+        "sha256": "bcd382033f7f0400f7d296bf99eadcb2c6778f11242f79f358b7b5586f8b502a"
+      }
+    ],
+    "ordered_runtime_assignments": [
+      {
+        "cell_index": 1,
+        "name": "ROOT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "STAGEA_DIR",
+        "expression": "ROOT / 'B20_4_stageA_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "ANALYSIS_DIR",
+        "expression": "ROOT / 'B20_4_stageA_analysis'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "STAGEB_DIR",
+        "expression": "ROOT / 'B20_4_stageB_refinement'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "PREDECL_DIR",
+        "expression": "ROOT / 'B20_4_FamilyC_FINAL_PREDECLARATION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "CACHE_DIR",
+        "expression": "STAGEB_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "INITIAL_FILE",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_INITIAL_19_brackets_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "MIDPOINT_FILE",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_FIRST_midpoints_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "SPEC_FILE",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_REFINEMENT_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "STAGEA_BRACKETS_FILE",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_strict_brackets.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "FAMILY68_FILE",
+        "expression": "PREDECL_DIR / 'B20_4_FamilyC_FINAL_68_parameter_points.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 3,
+        "name": "TARGET_WIDTH",
+        "expression": "0.001953125",
+        "literal_value": 0.001953125
+      },
+      {
+        "cell_index": 3,
+        "name": "LEVELS",
+        "expression": "6",
+        "literal_value": 6
+      },
+      {
+        "cell_index": 9,
+        "name": "N",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 9,
+        "name": "L",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 9,
+        "name": "NU",
+        "expression": "0.003",
+        "literal_value": 0.003
+      },
+      {
+        "cell_index": 9,
+        "name": "EMAX",
+        "expression": "30.0",
+        "literal_value": 30.0
+      },
+      {
+        "cell_index": 9,
+        "name": "DT_CAP",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 9,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 9,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 9,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 9,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 9,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 9,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 9,
+        "name": "HORIZONS",
+        "expression": "np.array([0.006, 0.008, 0.01, 0.012, 0.015, 0.02], dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 9,
+        "name": "EPS_GRID",
+        "expression": "np.linspace(0.0, 2.0, 17)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 9,
+        "name": "RAYS",
+        "expression": "['r09', 'r10', 'r11', 'r12']",
+        "literal_value": [
+          "r09",
+          "r10",
+          "r11",
+          "r12"
+        ]
+      },
+      {
+        "cell_index": 9,
+        "name": "PARAM_KEYS_C",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 9,
+        "name": "BASE_C",
+        "expression": "{'R': 0.575, 'sep_factor': 1.0, 'pair_angle': 0.7, 'twist_factor': 0.85, 'imbalance': 0.79, 'axial_coupling': 0.36, 'phase': 1.5, 'handedness': -1.0}",
+        "literal_value": {
+          "R": 0.575,
+          "sep_factor": 1.0,
+          "pair_angle": 0.7,
+          "twist_factor": 0.85,
+          "imbalance": 0.79,
+          "axial_coupling": 0.36,
+          "phase": 1.5,
+          "handedness": -1.0
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "ENDPOINTS_C",
+        "expression": "{'r09': {'R': 0.485, 'sep_factor': 1.17, 'pair_angle': 0.88, 'twist_factor': 1.08, 'imbalance': 0.73, 'axial_coupling': 0.27, 'phase': 1.76, 'handedness': -1.0}, 'r10': {'R': 0.665, 'sep_factor': 0.84, 'pair_angle': 0.54, 'twist_factor': 0.68, 'imbalance': 0.89, 'axial_coupling': 0.48, 'phase': 1.18, 'handedness': -1.0}, 'r11': {'R': 0.625, 'sep_factor': 1.24, 'pair_angle': 1.02, 'twist_factor': 0.74, 'imbalance': 0.66, 'axial_coupling': 0.31, 'phase': 2.02, 'handedness': -1.0}, 'r12': {'R': 0.655, 'sep_factor': 0.82, 'pair_angle': 0.48, 'twist_factor': 1.0, 'imbalance': 0.64, 'axial_coupling': 0.4, 'phase': 0.9, 'handedness': -1.0}}",
+        "literal_value": {
+          "r09": {
+            "R": 0.485,
+            "sep_factor": 1.17,
+            "pair_angle": 0.88,
+            "twist_factor": 1.08,
+            "imbalance": 0.73,
+            "axial_coupling": 0.27,
+            "phase": 1.76,
+            "handedness": -1.0
+          },
+          "r10": {
+            "R": 0.665,
+            "sep_factor": 0.84,
+            "pair_angle": 0.54,
+            "twist_factor": 0.68,
+            "imbalance": 0.89,
+            "axial_coupling": 0.48,
+            "phase": 1.18,
+            "handedness": -1.0
+          },
+          "r11": {
+            "R": 0.625,
+            "sep_factor": 1.24,
+            "pair_angle": 1.02,
+            "twist_factor": 0.74,
+            "imbalance": 0.66,
+            "axial_coupling": 0.31,
+            "phase": 2.02,
+            "handedness": -1.0
+          },
+          "r12": {
+            "R": 0.655,
+            "sep_factor": 0.82,
+            "pair_angle": 0.48,
+            "twist_factor": 1.0,
+            "imbalance": 0.64,
+            "axial_coupling": 0.4,
+            "phase": 0.9,
+            "handedness": -1.0
+          }
+        }
+      },
+      {
+        "cell_index": 11,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 11,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 11,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 11,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 11,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 11,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 16,
+        "name": "RUN_LONG_STAGE_B",
+        "expression": "True",
+        "literal_value": true
+      },
+      {
+        "cell_index": 18,
+        "name": "FINAL_BRACKETS",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_FINAL_19_refined_brackets.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "STAGEB_SUMMARY",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_FINAL_SUMMARY.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "STAGEB_INVENTORY",
+        "expression": "STAGEB_DIR / 'B20_4_stageB_TRAJECTORY_CACHE_INVENTORY.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "ACCESS_FILE",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_accessibility_24cells.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "RESPONSE_FILE",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_response_408.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "SECANT_FILE",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_directional_secants.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "STAGEA_BRACKETS",
+        "expression": "ANALYSIS_DIR / 'B20_4_stageA_strict_brackets.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 18,
+        "name": "FINAL_DIR",
+        "expression": "ROOT / 'B20_4_FINAL_AUDITED_ARCHIVE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 19,
+        "name": "PARAM_KEYS_205",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 19,
+        "name": "BASE_205",
+        "expression": "{'R': 0.575, 'sep_factor': 1.0, 'pair_angle': 0.7, 'twist_factor': 0.85, 'imbalance': 0.79, 'axial_coupling': 0.36, 'phase': 1.5}",
+        "literal_value": {
+          "R": 0.575,
+          "sep_factor": 1.0,
+          "pair_angle": 0.7,
+          "twist_factor": 0.85,
+          "imbalance": 0.79,
+          "axial_coupling": 0.36,
+          "phase": 1.5
+        }
+      },
+      {
+        "cell_index": 19,
+        "name": "ENDPOINTS_205",
+        "expression": "{'r09': {'R': 0.485, 'sep_factor': 1.17, 'pair_angle': 0.88, 'twist_factor': 1.08, 'imbalance': 0.73, 'axial_coupling': 0.27, 'phase': 1.76}, 'r10': {'R': 0.665, 'sep_factor': 0.84, 'pair_angle': 0.54, 'twist_factor': 0.68, 'imbalance': 0.89, 'axial_coupling': 0.48, 'phase': 1.18}, 'r11': {'R': 0.625, 'sep_factor': 1.24, 'pair_angle': 1.02, 'twist_factor': 0.74, 'imbalance': 0.66, 'axial_coupling': 0.31, 'phase': 2.02}, 'r12': {'R': 0.655, 'sep_factor': 0.82, 'pair_angle': 0.48, 'twist_factor': 1.0, 'imbalance': 0.64, 'axial_coupling': 0.4, 'phase': 0.9}}",
+        "literal_value": {
+          "r09": {
+            "R": 0.485,
+            "sep_factor": 1.17,
+            "pair_angle": 0.88,
+            "twist_factor": 1.08,
+            "imbalance": 0.73,
+            "axial_coupling": 0.27,
+            "phase": 1.76
+          },
+          "r10": {
+            "R": 0.665,
+            "sep_factor": 0.84,
+            "pair_angle": 0.54,
+            "twist_factor": 0.68,
+            "imbalance": 0.89,
+            "axial_coupling": 0.48,
+            "phase": 1.18
+          },
+          "r11": {
+            "R": 0.625,
+            "sep_factor": 1.24,
+            "pair_angle": 1.02,
+            "twist_factor": 0.74,
+            "imbalance": 0.66,
+            "axial_coupling": 0.31,
+            "phase": 2.02
+          },
+          "r12": {
+            "R": 0.655,
+            "sep_factor": 0.82,
+            "pair_angle": 0.48,
+            "twist_factor": 1.0,
+            "imbalance": 0.64,
+            "axial_coupling": 0.4,
+            "phase": 0.9
+          }
+        }
+      },
+      {
+        "cell_index": 19,
+        "name": "V",
+        "expression": "{}",
+        "literal_value": {}
+      },
+      {
+        "cell_index": 19,
+        "name": "ANCHORS_205",
+        "expression": "[{'anchor_id': 'A', 'ray_label': 'r09', 'T': 0.006, 'epsilon_star': 0.30957}, {'anchor_id': 'B', 'ray_label': 'r10', 'T': 0.015, 'epsilon_star': 0.581055}, {'anchor_id': 'C', 'ray_label': 'r11', 'T': 0.01, 'epsilon_star': 1.864258}, {'anchor_id': 'D', 'ray_label': 'r12', 'T': 0.015, 'epsilon_star': 0.233398}]",
+        "literal_value": [
+          {
+            "anchor_id": "A",
+            "ray_label": "r09",
+            "T": 0.006,
+            "epsilon_star": 0.30957
+          },
+          {
+            "anchor_id": "B",
+            "ray_label": "r10",
+            "T": 0.015,
+            "epsilon_star": 0.581055
+          },
+          {
+            "anchor_id": "C",
+            "ray_label": "r11",
+            "T": 0.01,
+            "epsilon_star": 1.864258
+          },
+          {
+            "anchor_id": "D",
+            "ray_label": "r12",
+            "T": 0.015,
+            "epsilon_star": 0.233398
+          }
+        ]
+      },
+      {
+        "cell_index": 19,
+        "name": "SCALE_205",
+        "expression": "np.sqrt(np.mean(Vmat ** 2, axis=1))",
+        "literal_value": null
+      },
+      {
+        "cell_index": 19,
+        "name": "H1_205",
+        "expression": "1.0 / 32.0",
+        "literal_value": null
+      },
+      {
+        "cell_index": 19,
+        "name": "H2_205",
+        "expression": "1.0 / 64.0",
+        "literal_value": null
+      },
+      {
+        "cell_index": 19,
+        "name": "HOLDOUT_COORDS",
+        "expression": "{'w1': np.array([1, 1, 0, 0], dtype=float), 'w2': np.array([0, 1, -1, 0], dtype=float), 'w3': np.array([1, 0, 1, -1], dtype=float)}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 19,
+        "name": "HYPOTHESIS_205",
+        "expression": "'At regular points of the finite-window response zero set, independent perturbations within the predeclared normalized Family-C subspace admit a locally coherent response gradient. The reconstructed gradient should define a stable local response-boundary normal and prospectively predict the sign and approximate first-order response along predeclared hold-out directions.'",
+        "literal_value": "At regular points of the finite-window response zero set, independent perturbations within the predeclared normalized Family-C subspace admit a locally coherent response gradient. The reconstructed gradient should define a stable local response-boundary normal and prospectively predict the sign and approximate first-order response along predeclared hold-out directions."
+      },
+      {
+        "cell_index": 19,
+        "name": "VERDICT_RULES_205",
+        "expression": "{'PASS': 'Multiple independent boundary anchors show cross-scale normal consistency and no systematic sign contradiction on predeclared hold-out directions; first-order predictions describe the local response.', 'PARTIAL': 'The construction works at some anchors but is unstable, nonlinear, or uninformative at others without systematic contradiction.', 'FAIL': 'Multiple apparently regular anchors show strong cross-scale normal inconsistency or systematic reversal of hold-out response relative to the frozen gradient prediction.', 'INCONCLUSIVE': 'Gradients or hold-out responses are too small relative to numerical resolution, or local degeneracy prevents a meaningful normal reconstruction.'}",
+        "literal_value": {
+          "PASS": "Multiple independent boundary anchors show cross-scale normal consistency and no systematic sign contradiction on predeclared hold-out directions; first-order predictions describe the local response.",
+          "PARTIAL": "The construction works at some anchors but is unstable, nonlinear, or uninformative at others without systematic contradiction.",
+          "FAIL": "Multiple apparently regular anchors show strong cross-scale normal inconsistency or systematic reversal of hold-out response relative to the frozen gradient prediction.",
+          "INCONCLUSIVE": "Gradients or hold-out responses are too small relative to numerical resolution, or local degeneracy prevents a meaningful normal reconstruction."
+        }
+      },
+      {
+        "cell_index": 19,
+        "name": "B205_DIR",
+        "expression": "ROOT / 'B20_5_PREDECLARATION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "PERT_FILE_205",
+        "expression": "Path(B205_DIR) / 'B20_5_frozen_gradient_perturbations_64.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "ANCHOR_FILE_205",
+        "expression": "Path(B205_DIR) / 'B20_5_frozen_boundary_anchors.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "PREDECL_FILE_205",
+        "expression": "Path(B205_DIR) / 'B20_5_PREDECLARATION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "N_205",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 20,
+        "name": "L_205",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 20,
+        "name": "DT_CAP_205",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 20,
+        "name": "T_FINAL_SOLVER_205",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 20,
+        "name": "STAGEA205_DIR",
+        "expression": "ROOT / 'B20_5_stageA_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "CACHE205_DIR",
+        "expression": "STAGEA205_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 20,
+        "name": "EXEC_SPEC_FILE_205",
+        "expression": "STAGEA205_DIR / 'B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "RUN_B205_STAGEA",
+        "expression": "True",
+        "literal_value": true
+      },
+      {
+        "cell_index": 21,
+        "name": "PERT_FILE",
+        "expression": "Path(B205_DIR) / 'B20_5_frozen_gradient_perturbations_64.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "PREDECL_FILE",
+        "expression": "Path(B205_DIR) / 'B20_5_PREDECLARATION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "EXEC_SPEC_FILE",
+        "expression": "Path(STAGEA205_DIR) / 'B20_5_STAGEA_EXECUTION_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "CACHE_DIR",
+        "expression": "Path(STAGEA205_DIR) / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "ROOT",
+        "expression": "DRIVE_ROOT / 'BIG_B20_colab_outputs'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "B205_PREDECL_DIR",
+        "expression": "ROOT / 'B20_5_PREDECLARATION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "B205_STAGEA_DIR",
+        "expression": "ROOT / 'B20_5_stageA_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "B205_CACHE_DIR",
+        "expression": "B205_STAGEA_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "BASELINE_NOTEBOOK",
+        "expression": "DRIVE_ROOT / 'Colab Notebooks' / 'BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "basis205",
+        "expression": "pd.read_csv(required_predecl['basis'])",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 24,
+        "name": "RECOVERY_ATOL_205",
+        "expression": "1e-12",
+        "literal_value": 1e-12
+      },
+      {
+        "cell_index": 24,
+        "name": "RECOVERY_RTOL_205",
+        "expression": "1e-12",
+        "literal_value": 1e-12
+      },
+      {
+        "cell_index": 24,
+        "name": "RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 24,
+        "name": "FINAL_RECOVERY_JSON",
+        "expression": "RECOVERY_DIR / 'B20_5_RUNTIME_RECOVERY_FINAL_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "BASELINE_NOTEBOOK",
+        "expression": "Path('/content/drive/MyDrive/Colab Notebooks') / 'BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "SAFE_TOPLEVEL",
+        "expression": "(ast.Import, ast.ImportFrom, ast.Assign, ast.AnnAssign, ast.FunctionDef, ast.AsyncFunctionDef, ast.Expr)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "PARAM_KEYS_205",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 25,
+        "name": "SOLVER_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SOLVER_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "SOLVER_RECOVERY_JSON",
+        "expression": "SOLVER_RECOVERY_DIR / 'B20_5_SOLVER_RUNTIME_RECOVERY_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "BASELINE_NOTEBOOK",
+        "expression": "Path('/content/drive/MyDrive/Colab Notebooks') / 'BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "SAFE_TOPLEVEL",
+        "expression": "(ast.Import, ast.ImportFrom, ast.Assign, ast.AnnAssign, ast.FunctionDef, ast.AsyncFunctionDef, ast.Expr)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "PARAM_KEYS_205",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 26,
+        "name": "SOLVER_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SOLVER_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "SOLVER_RECOVERY_JSON",
+        "expression": "SOLVER_RECOVERY_DIR / 'B20_5_SOLVER_RUNTIME_RECOVERY_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 28,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 28,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 28,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 28,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 28,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 28,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 28,
+        "name": "PARAM_KEYS_205",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 28,
+        "name": "CENTER_T_205",
+        "expression": "{str(row['anchor_id']): float(row['T']) for _, row in anchors205.iterrows()}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 28,
+        "name": "SOLVER_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SOLVER_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 28,
+        "name": "RECOVERY_V2_JSON",
+        "expression": "SOLVER_RECOVERY_DIR / 'B20_5_SOLVER_RUNTIME_RECOVERY_v2_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 29,
+        "name": "PARAM_KEYS_205",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 29,
+        "name": "CENTER_T_205",
+        "expression": "{str(row['anchor_id']): float(row['T']) for _, row in anchors205.iterrows()}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 29,
+        "name": "EXPECTED_T_205",
+        "expression": "{'A': 0.006, 'B': 0.015, 'C': 0.01, 'D': 0.015}",
+        "literal_value": {
+          "A": 0.006,
+          "B": 0.015,
+          "C": 0.01,
+          "D": 0.015
+        }
+      },
+      {
+        "cell_index": 29,
+        "name": "SOLVER_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SOLVER_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 29,
+        "name": "RECOVERY_V2B_JSON",
+        "expression": "SOLVER_RECOVERY_DIR / 'B20_5_SOLVER_RUNTIME_RECOVERY_v2b_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 30,
+        "name": "CENTER_DIR",
+        "expression": "ROOT / 'B20_5_center_acquisition'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 30,
+        "name": "CENTER_CACHE",
+        "expression": "CENTER_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 30,
+        "name": "CENTER_SPEC_JSON",
+        "expression": "CENTER_DIR / 'B20_5_CENTER_ACQUISITION_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 30,
+        "name": "CENTER_RESULTS_CSV",
+        "expression": "CENTER_DIR / 'B20_5_CENTER_RESULTS_4.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 30,
+        "name": "CENTER_COMPLETION_JSON",
+        "expression": "CENTER_DIR / 'B20_5_CENTER_ACQUISITION_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "H_EXPECTED",
+        "expression": "np.array([1 / 32, 1 / 64], dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "PRED_DIR",
+        "expression": "ROOT / 'B20_5_HOLDOUT_PREDICTION_FREEZE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "PAIR_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "POINT_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "PROTOCOL_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 31,
+        "name": "FREEZE_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "GRAD_COLS",
+        "expression": "['dF_dq1', 'dF_dq2', 'dF_dq3', 'dF_dq4']",
+        "literal_value": [
+          "dF_dq1",
+          "dF_dq2",
+          "dF_dq3",
+          "dF_dq4"
+        ]
+      },
+      {
+        "cell_index": 32,
+        "name": "RAW_DIR_COLS",
+        "expression": "['normalized_direction_R', 'normalized_direction_sep_factor', 'normalized_direction_pair_angle', 'normalized_direction_twist_factor', 'normalized_direction_imbalance', 'normalized_direction_axial_coupling', 'normalized_direction_phase']",
+        "literal_value": [
+          "normalized_direction_R",
+          "normalized_direction_sep_factor",
+          "normalized_direction_pair_angle",
+          "normalized_direction_twist_factor",
+          "normalized_direction_imbalance",
+          "normalized_direction_axial_coupling",
+          "normalized_direction_phase"
+        ]
+      },
+      {
+        "cell_index": 32,
+        "name": "HOLDOUT_COEFFS",
+        "expression": "{'w1': np.array([1, 1, 0, 0], dtype=float) / np.sqrt(2), 'w2': np.array([0, 1, -1, 0], dtype=float) / np.sqrt(2), 'w3': np.array([1, 0, 1, -1], dtype=float) / np.sqrt(3)}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "H_VALUES",
+        "expression": "[1 / 32, 1 / 64]",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "PRED_DIR",
+        "expression": "ROOT / 'B20_5_HOLDOUT_PREDICTION_FREEZE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "PAIR_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "POINT_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "DIRECTION_AUDIT_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_DIRECTION_RECONSTRUCTION_AUDIT.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "PROTOCOL_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 32,
+        "name": "FREEZE_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "EXPECTED_PARAMETER_ORDER",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 34,
+        "name": "BASIS_COLS",
+        "expression": "['basis_q1', 'basis_q2', 'basis_q3', 'basis_q4']",
+        "literal_value": [
+          "basis_q1",
+          "basis_q2",
+          "basis_q3",
+          "basis_q4"
+        ]
+      },
+      {
+        "cell_index": 34,
+        "name": "Qw",
+        "expression": "basis205[BASIS_COLS].to_numpy(dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "HOLDOUT_COEFFS",
+        "expression": "{'w1': np.array([1.0, 1.0, 0.0, 0.0]) / np.sqrt(2), 'w2': np.array([0.0, 1.0, -1.0, 0.0]) / np.sqrt(2), 'w3': np.array([1.0, 0.0, 1.0, -1.0]) / np.sqrt(3)}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "RAW_DIR_COLS",
+        "expression": "['normalized_direction_R', 'normalized_direction_sep_factor', 'normalized_direction_pair_angle', 'normalized_direction_twist_factor', 'normalized_direction_imbalance', 'normalized_direction_axial_coupling', 'normalized_direction_phase']",
+        "literal_value": [
+          "normalized_direction_R",
+          "normalized_direction_sep_factor",
+          "normalized_direction_pair_angle",
+          "normalized_direction_twist_factor",
+          "normalized_direction_imbalance",
+          "normalized_direction_axial_coupling",
+          "normalized_direction_phase"
+        ]
+      },
+      {
+        "cell_index": 34,
+        "name": "GRAD_COLS",
+        "expression": "['dF_dq1', 'dF_dq2', 'dF_dq3', 'dF_dq4']",
+        "literal_value": [
+          "dF_dq1",
+          "dF_dq2",
+          "dF_dq3",
+          "dF_dq4"
+        ]
+      },
+      {
+        "cell_index": 34,
+        "name": "H_VALUES",
+        "expression": "[1 / 32, 1 / 64]",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "PRED_DIR",
+        "expression": "ROOT / 'B20_5_HOLDOUT_PREDICTION_FREEZE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "PAIR_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PAIR_PREDICTIONS_24_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "POINT_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_POINT_PREDICTIONS_48_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "DIRECTION_AUDIT_CSV",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_DIRECTION_RECONSTRUCTION_AUDIT.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "QW_CSV",
+        "expression": "PRED_DIR / 'B20_5_Qw_RECOVERED_FROM_PERSISTED_BASIS.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "PROTOCOL_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_EVALUATION_PROTOCOL_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 34,
+        "name": "FREEZE_JSON",
+        "expression": "PRED_DIR / 'B20_5_HOLDOUT_PREDICTION_FREEZE_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "SCALE_ARR",
+        "expression": "np.asarray(SCALE_205, dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "RAW_HOLDOUT",
+        "expression": "{hid: Qw @ HOLDOUT_COEFFS[hid] for hid in ['w1', 'w2', 'w3']}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "HOLDOUT_DIR",
+        "expression": "ROOT / 'B20_5_holdout_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "CACHE_DIR",
+        "expression": "HOLDOUT_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "ACQ_SPEC_JSON",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_ACQUISITION_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "PARAM_TABLE_CSV",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_PARAMETERS_48_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "RESULTS_CSV",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_RAW_RESULTS_48.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 35,
+        "name": "COMPLETION_JSON",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_ACQUISITION_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "PARAMS",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 37,
+        "name": "REFERENCE_SCALE",
+        "expression": "np.array([0.0792148975888, 0.190065778087, 0.228473193176, 0.170587221092, 0.115108644332, 0.0815475321515, 0.447325384927], dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "Q_ZERO_TOL",
+        "expression": "1e-14",
+        "literal_value": 1e-14
+      },
+      {
+        "cell_index": 37,
+        "name": "SCALE_RECOVERED",
+        "expression": "np.array(recovered, dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "SERIALIZATION_ATOL",
+        "expression": "1e-12",
+        "literal_value": 1e-12
+      },
+      {
+        "cell_index": 37,
+        "name": "SERIALIZATION_RTOL",
+        "expression": "1e-11",
+        "literal_value": 1e-11
+      },
+      {
+        "cell_index": 37,
+        "name": "SCALE_205",
+        "expression": "SCALE_RECOVERED.copy()",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SCALE_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "EST_CSV",
+        "expression": "RECOVERY_DIR / 'B20_5_SCALE_COMPONENT_ESTIMATES.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "SUMMARY_CSV",
+        "expression": "RECOVERY_DIR / 'B20_5_SCALE_RECOVERED.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "FORWARD_CSV",
+        "expression": "RECOVERY_DIR / 'B20_5_SCALE_64POINT_FORWARD_AUDIT.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "COMPARE_CSV",
+        "expression": "RECOVERY_DIR / 'B20_5_SCALE_PHASE0_REFERENCE_COMPARISON.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 37,
+        "name": "RECOVERY_JSON",
+        "expression": "RECOVERY_DIR / 'B20_5_SCALE_RECOVERY_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "SCALE_ARR",
+        "expression": "np.asarray(SCALE_205, dtype=float)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "RAW_HOLDOUT",
+        "expression": "{hid: Qw @ HOLDOUT_COEFFS[hid] for hid in ['w1', 'w2', 'w3']}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "HOLDOUT_DIR",
+        "expression": "ROOT / 'B20_5_holdout_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "CACHE_DIR",
+        "expression": "HOLDOUT_DIR / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "ACQ_SPEC_JSON",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_ACQUISITION_SPEC_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "PARAM_TABLE_CSV",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_PARAMETERS_48_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "RESULTS_CSV",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_RAW_RESULTS_48.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 38,
+        "name": "COMPLETION_JSON",
+        "expression": "HOLDOUT_DIR / 'B20_5_HOLDOUT_ACQUISITION_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "COMPLETION_JSON",
+        "expression": "ROOT / 'B20_5_holdout_prospective' / 'B20_5_HOLDOUT_ACQUISITION_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "EVAL_DIR",
+        "expression": "ROOT / 'B20_5_FROZEN_PROTOCOL_EVALUATION'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "PAIR_CSV",
+        "expression": "EVAL_DIR / 'B20_5_PRIMARY_DERIVATIVE_EVALUATION_24.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "CROSS_CSV",
+        "expression": "EVAL_DIR / 'B20_5_CROSS_SCALE_HOLDOUT_12.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "RAW_BAD_CSV",
+        "expression": "EVAL_DIR / 'B20_5_SECONDARY_RAW_F_SIGN_DISAGREEMENTS.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "ANCHOR_CSV",
+        "expression": "EVAL_DIR / 'B20_5_PER_ANCHOR_PRIMARY_SUMMARY.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 39,
+        "name": "SUMMARY_JSON",
+        "expression": "EVAL_DIR / 'B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "PDE_CALLED",
+        "expression": "False",
+        "literal_value": false
+      },
+      {
+        "cell_index": 40,
+        "name": "ACQ_DIR",
+        "expression": "ROOT / 'B20_5_holdout_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "EVAL_DIR",
+        "expression": "ROOT / 'B20_5_FROZEN_PROTOCOL_EVALUATION'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "FREEZE_DIR",
+        "expression": "ROOT / 'B20_5_HOLDOUT_PREDICTION_FREEZE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "CENTER_DIR",
+        "expression": "ROOT / 'B20_5_center_acquisition'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "STAGEA_DIR",
+        "expression": "ROOT / 'B20_5_stageA_prospective'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "PREDECL_DIR",
+        "expression": "ROOT / 'B20_5_PREDECLARATION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "SCALE_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SCALE_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "RUNTIME_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "SOLVER_RECOVERY_DIR",
+        "expression": "ROOT / 'B20_5_SOLVER_RUNTIME_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "ACQ_COMPLETION",
+        "expression": "ACQ_DIR / 'B20_5_HOLDOUT_ACQUISITION_COMPLETION.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "EVAL_SUMMARY",
+        "expression": "EVAL_DIR / 'B20_5_FROZEN_PROTOCOL_EVALUATION_SUMMARY.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "SERIAL_ATOL",
+        "expression": "1e-12",
+        "literal_value": 1e-12
+      },
+      {
+        "cell_index": 40,
+        "name": "SERIAL_RTOL",
+        "expression": "1e-12",
+        "literal_value": 1e-12
+      },
+      {
+        "cell_index": 40,
+        "name": "SCIENTIFIC_VERDICT",
+        "expression": "'PASS'",
+        "literal_value": "PASS"
+      },
+      {
+        "cell_index": 40,
+        "name": "VERDICT_BASIS",
+        "expression": "{'predeclared_hypothesis': 'At regular points of the finite-window response zero set, independent perturbations within the predeclared normalized Family-C subspace admit a locally coherent response gradient. The reconstructed gradient should define a stable local response-boundary normal and prospectively predict the sign and approximate first-order response along predeclared hold-out directions.', 'predeclared_PASS_condition': 'Multiple anchors show cross-scale normal consistency, there is no systematic hold-out sign contradiction, and first-order predictions describe local response.', 'observed_primary_result': '24/24 prospective hold-out directional-derivative sign predictions agreed with observation.', 'observed_cross_scale_result': '12/12 h32/h64 hold-out derivative comparisons retained the same sign.', 'observed_first_order_result': 'Observed prospective directional derivatives closely tracked the frozen first-order predictions; quantitative errors are reported descriptively and were not used to create a new pass/fail threshold.', 'secondary_raw_F_result': '47/48 raw signed-point F predictions retained sign. The sole disagreement was D/w2/h32/plus, where both predicted and observed F were near zero. This point is retained and is not excluded from the archive.'}",
+        "literal_value": {
+          "predeclared_hypothesis": "At regular points of the finite-window response zero set, independent perturbations within the predeclared normalized Family-C subspace admit a locally coherent response gradient. The reconstructed gradient should define a stable local response-boundary normal and prospectively predict the sign and approximate first-order response along predeclared hold-out directions.",
+          "predeclared_PASS_condition": "Multiple anchors show cross-scale normal consistency, there is no systematic hold-out sign contradiction, and first-order predictions describe local response.",
+          "observed_primary_result": "24/24 prospective hold-out directional-derivative sign predictions agreed with observation.",
+          "observed_cross_scale_result": "12/12 h32/h64 hold-out derivative comparisons retained the same sign.",
+          "observed_first_order_result": "Observed prospective directional derivatives closely tracked the frozen first-order predictions; quantitative errors are reported descriptively and were not used to create a new pass/fail threshold.",
+          "secondary_raw_F_result": "47/48 raw signed-point F predictions retained sign. The sole disagreement was D/w2/h32/plus, where both predicted and observed F were near zero. This point is retained and is not excluded from the archive."
+        }
+      },
+      {
+        "cell_index": 40,
+        "name": "CLAIM_BOUNDARIES",
+        "expression": "['The reconstructed normal is a response-boundary normal within the predeclared normalized Family-C four-dimensional parameter subspace.', 'It is not a physical-space boundary normal.', 'It is not claimed to be the intrinsic gradient in the full seven-dimensional raw parameter space.', 'The anchors are zero-bracket midpoints, not asserted exact zero-set points.', 'Cross-scale finite-difference consistency is numerical evidence and is not a proof of continuum differentiability.', 'Results apply only to the tested finite synthetic vorticity family and finite observation windows.', 'No invariant manifold is established.', 'No universal Navier-Stokes separatrix is established.', 'No Navier-Stokes regularity or finite-time singularity theorem is claimed.', 'B20.5 makes no refraction-law claim.']",
+        "literal_value": [
+          "The reconstructed normal is a response-boundary normal within the predeclared normalized Family-C four-dimensional parameter subspace.",
+          "It is not a physical-space boundary normal.",
+          "It is not claimed to be the intrinsic gradient in the full seven-dimensional raw parameter space.",
+          "The anchors are zero-bracket midpoints, not asserted exact zero-set points.",
+          "Cross-scale finite-difference consistency is numerical evidence and is not a proof of continuum differentiability.",
+          "Results apply only to the tested finite synthetic vorticity family and finite observation windows.",
+          "No invariant manifold is established.",
+          "No universal Navier-Stokes separatrix is established.",
+          "No Navier-Stokes regularity or finite-time singularity theorem is claimed.",
+          "B20.5 makes no refraction-law claim."
+        ]
+      },
+      {
+        "cell_index": 40,
+        "name": "SAFE_CLAIM",
+        "expression": "'Within the predeclared normalized four-dimensional Family-C subspace and the tested finite-window synthetic vorticity family, local response gradients reconstructed near four zero-bracket midpoints were stable across two finite-difference scales and prospectively predicted the sign and first-order magnitude of response along three predeclared hold-out directions.'",
+        "literal_value": "Within the predeclared normalized four-dimensional Family-C subspace and the tested finite-window synthetic vorticity family, local response gradients reconstructed near four zero-bracket midpoints were stable across two finite-difference scales and prospectively predicted the sign and first-order magnitude of response along three predeclared hold-out directions."
+      },
+      {
+        "cell_index": 40,
+        "name": "FINAL_DIR",
+        "expression": "ROOT / 'B20_5_FINAL_AUDITED_ARCHIVE'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "FINAL_CLOSURE_JSON",
+        "expression": "FINAL_DIR / 'B20_5_FINAL_SCIENTIFIC_CLOSURE.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "README",
+        "expression": "FINAL_DIR / 'README_B20_5_FINAL.txt'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "PREDECL_COPY_DIR",
+        "expression": "FINAL_DIR / 'PREDECLARATION'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "STAGEA_COPY_DIR",
+        "expression": "FINAL_DIR / 'STAGE_A_SUMMARY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "RECOVERY_COPY_DIR",
+        "expression": "FINAL_DIR / 'RECOVERY_AUDIT'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "INVENTORY_CSV",
+        "expression": "FINAL_DIR / 'B20_5_FINAL_FILE_INVENTORY.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "CHECKSUM_TXT",
+        "expression": "FINAL_DIR / 'SHA256SUMS.txt'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "MANIFEST_JSON",
+        "expression": "FINAL_DIR / 'B20_5_FINAL_ARCHIVE_MANIFEST.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "ZIP_PATH",
+        "expression": "ROOT / 'BIG_B20_5_FINAL_AUDITED_ARCHIVE.zip'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "ZIP_SHA256",
+        "expression": "sha256_file(ZIP_PATH)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 40,
+        "name": "ZIP_CHECKSUM_FILE",
+        "expression": "ROOT / 'BIG_B20_5_FINAL_AUDITED_ARCHIVE_SHA256.txt'",
+        "literal_value": null
+      }
+    ]
+  },
+  {
+    "namespace": "B20_6_Restart",
+    "notebook": "sources/original_notebooks/1qoSdaUw__BIG_B20_6_restart_audited.ipynb",
+    "notebook_sha256": "b8bacbcbc8b8e2b4958dd30dc808a4ba3bd7fd80c2f1831d646728e273f64667",
+    "definitions_file": "code/definitions/B20_6_Restart_definitions.py",
+    "definition_count": 29,
+    "definitions": [
+      {
+        "name": "sha256",
+        "cell_index": 2,
+        "sha256": "7fb4fa7b52c53f3d193d4705007bebe058a9e98738cc83dc16e43c7f2b2c79c4"
+      },
+      {
+        "name": "find_key",
+        "cell_index": 3,
+        "sha256": "b25a962a41ee16a9d26b2e34879af7976ebe7b627a47696eb7c2b7841845b613"
+      },
+      {
+        "name": "Tx",
+        "cell_index": 5,
+        "sha256": "b2e800ef67492960f496ece57c998bedf500ef6aedda536f285160c8d9e7176f"
+      },
+      {
+        "name": "params_from_row",
+        "cell_index": 7,
+        "sha256": "8820f3759d2852aa0bda7377bf706855160590aac324dccef6316fe43a31d6b0"
+      },
+      {
+        "name": "run_one_manifest_case",
+        "cell_index": 7,
+        "sha256": "e604f606c45a19008e395ae735935c4810dea40c43f35c96bd7071d94a91e22a"
+      },
+      {
+        "name": "load_fast_count",
+        "cell_index": 10,
+        "sha256": "68700323ef8f5706fcabd2b111fe538111492bd4c350b3236e7e13dd5f942bee"
+      },
+      {
+        "name": "run_case_B206_fixed",
+        "cell_index": 11,
+        "sha256": "940e7f391d411214f05a363c911906c2270ca8187d9b6d8718cef52fd878f844"
+      },
+      {
+        "name": "run_one_manifest_case_fixed",
+        "cell_index": 15,
+        "sha256": "2b57c21ff65c884cae8724ffe0f8f90db31ad5453afcd95d6738af0f0167f9b0"
+      },
+      {
+        "name": "run_one_manifest_case_fixed",
+        "cell_index": 16,
+        "sha256": "eef995b031e56557824a707921e80895eaea95bae299e9ef99c1430a87a9c39a"
+      },
+      {
+        "name": "checkpoint_state",
+        "cell_index": 20,
+        "sha256": "4df3e83baad095e50450935e21ed61ac4e617307f1262b4dac680beadeb393d6"
+      },
+      {
+        "name": "save_run_log",
+        "cell_index": 20,
+        "sha256": "31079684331d4393fd1d537a006444ef7e4e05796f1514fe9d90f76367ff4ef2"
+      },
+      {
+        "name": "load_complete_case",
+        "cell_index": 21,
+        "sha256": "35e7b66dbbedec1e8e196bad8b3051a2f628693d36d4cdd6b7d9351ce2c56ddb"
+      },
+      {
+        "name": "scan_params_from_row",
+        "cell_index": 22,
+        "sha256": "ee5e01e490cf56b4e48b67d3cf7149dba5dbfea83f2fbf057debf232906f7432"
+      },
+      {
+        "name": "scan_json_path",
+        "cell_index": 22,
+        "sha256": "24e4c585a10950a77de297c2b2d33e85f6302d7f5eea7cb404d35500b2517478"
+      },
+      {
+        "name": "scan_ts_path",
+        "cell_index": 22,
+        "sha256": "602d5012dedaa8d7bc94ef3972762e1a906ef7c00809884a451b5f4616eeeea1"
+      },
+      {
+        "name": "write_json_atomic",
+        "cell_index": 22,
+        "sha256": "b345d3ff6ea0a56ef2a968b2a412c8a8bc3c4a1de5f56c8d64638dc907cca0f1"
+      },
+      {
+        "name": "scan_checkpoint_state",
+        "cell_index": 22,
+        "sha256": "0572f255f9ce26223b75ecbe4eff25d50392bc49daa6763c5b511c27bf270d46"
+      },
+      {
+        "name": "run_one_scan_case",
+        "cell_index": 22,
+        "sha256": "eda07029618b2dfd9a0725f521e29cfb0900392e2e927961fea998ccc568bd84"
+      },
+      {
+        "name": "save_run_log",
+        "cell_index": 22,
+        "sha256": "d449d1f5faf2bfba9c79d59b481d4756d7c03ee8a172b160f09e69a029065d52"
+      },
+      {
+        "name": "scan_state",
+        "cell_index": 25,
+        "sha256": "25c7b150d2d17a9cdbc97fcc6f236752eadfe639481d38ebefc50507b3995985"
+      },
+      {
+        "name": "scan_json_path",
+        "cell_index": 26,
+        "sha256": "24e4c585a10950a77de297c2b2d33e85f6302d7f5eea7cb404d35500b2517478"
+      },
+      {
+        "name": "scan_ts_path",
+        "cell_index": 26,
+        "sha256": "602d5012dedaa8d7bc94ef3972762e1a906ef7c00809884a451b5f4616eeeea1"
+      },
+      {
+        "name": "scan_state",
+        "cell_index": 26,
+        "sha256": "74d73e6502c24f7dcd7bf686816359a477c3b99d4b6fef3861f66a27b8864e30"
+      },
+      {
+        "name": "DirectParameterInjector",
+        "cell_index": 26,
+        "sha256": "88277f91495a74db5c311d8c3439fd6cce0c50dc733cfd7094debd48515edf4c"
+      },
+      {
+        "name": "params_from_scan_row",
+        "cell_index": 26,
+        "sha256": "cdb4c00ddd3994cce95636431d17be498a1740a6ec11297693b2abd46133ebd6"
+      },
+      {
+        "name": "run_case",
+        "cell_index": 26,
+        "sha256": "ef0bc54251ed5ea51947d9e597eb51f4c25a44b51873b1638d9d7017cb7feb9f"
+      },
+      {
+        "name": "write_json_atomic",
+        "cell_index": 26,
+        "sha256": "7338041d21ee229869759c7974655500c859e2b88712030bbc91d1cb894502a3"
+      },
+      {
+        "name": "run_one_missing_case",
+        "cell_index": 26,
+        "sha256": "3d3669c8ba02003ec94801a12ced7fc452b67b88ab0709e341a770e501ff97b2"
+      },
+      {
+        "name": "save_resume_log",
+        "cell_index": 26,
+        "sha256": "9da70e6b7de606eb4c10012ed64b36cba99220fd272a5cad07e7f4525fcf4220"
+      }
+    ],
+    "ordered_runtime_assignments": [
+      {
+        "cell_index": 1,
+        "name": "ROOT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "B206",
+        "expression": "ROOT / 'B20_6_crossing_geometry'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "P0",
+        "expression": "B206 / 'PHASE0_PREDECLARATION_FROZEN' / 'BIG_B20_6_PHASE0_PREDECLARATION_FROZEN.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "P1A",
+        "expression": "B206 / 'PHASE1A_SOLVER_GEOMETRY_RECOVERY'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "P1B",
+        "expression": "B206 / 'PHASE1B_FAMILY_D_GEOMETRY_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "P1C",
+        "expression": "B206 / 'PHASE1C_SOLVER_RUNTIME_RECONSTRUCTION' / 'B20_6_PRE_PDE_RUNTIME_AUDIT_PASS.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "B205",
+        "expression": "ROOT / 'BIG_B20_5_FINAL_AUDITED_ARCHIVE.zip'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "BASELINE",
+        "expression": "Path('/content/drive/MyDrive/Colab Notebooks/BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "OUT",
+        "expression": "B206 / 'PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 1,
+        "name": "CACHE",
+        "expression": "OUT / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 2,
+        "name": "EXPECTED_B205",
+        "expression": "'737edc327ca1454a2dfcdd5406730459d1ae3ef1407edea74d4fdda3d9896524'",
+        "literal_value": "737edc327ca1454a2dfcdd5406730459d1ae3ef1407edea74d4fdda3d9896524"
+      },
+      {
+        "cell_index": 3,
+        "name": "PARAMS",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 3,
+        "name": "FAMILY_D_BASE",
+        "expression": "np.array([0.582514913182, 1.105037288119, 0.838143369775, 0.844647346183, 0.760249876736, 0.345043713834, 1.698978867868])",
+        "literal_value": null
+      },
+      {
+        "cell_index": 3,
+        "name": "COEFF",
+        "expression": "{'d01': [1, 1, 0, 0], 'd02': [1, -1, 1, 0], 'd03': [0, 1, 1, -1], 'd04': [1, 0, -1, 1], 'd05': [-1, 1, 0, 1], 'd06': [1, 1, -1, -1]}",
+        "literal_value": {
+          "d01": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "d02": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "d03": [
+            0,
+            1,
+            1,
+            -1
+          ],
+          "d04": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "d05": [
+            -1,
+            1,
+            0,
+            1
+          ],
+          "d06": [
+            1,
+            1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "cell_index": 3,
+        "name": "COEFF",
+        "expression": "{k: np.array(v, float) / np.linalg.norm(v) for k, v in COEFF.items()}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 3,
+        "name": "S0",
+        "expression": "-0.25",
+        "literal_value": -0.25
+      },
+      {
+        "cell_index": 3,
+        "name": "H1",
+        "expression": "1 / 32",
+        "literal_value": null
+      },
+      {
+        "cell_index": 3,
+        "name": "H2",
+        "expression": "1 / 64",
+        "literal_value": null
+      },
+      {
+        "cell_index": 3,
+        "name": "SDOM",
+        "expression": "(-0.5, 2.0)",
+        "literal_value": [
+          -0.5,
+          2.0
+        ]
+      },
+      {
+        "cell_index": 3,
+        "name": "SCAN_STEP",
+        "expression": "0.125",
+        "literal_value": 0.125
+      },
+      {
+        "cell_index": 4,
+        "name": "WORK",
+        "expression": "OUT / '_b205_extract'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 4,
+        "name": "SCALE",
+        "expression": "np.array([0.079214897588774, 0.190065778087494, 0.228473193175918, 0.170587221092323, 0.115108644332214, 0.081547532151501, 0.447325384926895])",
+        "literal_value": null
+      },
+      {
+        "cell_index": 4,
+        "name": "Qw",
+        "expression": "np.array([[-0.45062, 0.020962, -0.486355, -0.424305], [0.354748, -0.098938, -0.464417, 0.104364], [0.312473, -0.151691, -0.576372, 0.089108], [0.534757, -0.575967, 0.222503, -0.457814], [-0.206737, -0.534849, 0.119559, 0.674124], [-0.43773, -0.556044, -0.235301, -0.105822], [0.230529, 0.199434, -0.310487, 0.354823]])",
+        "literal_value": null
+      },
+      {
+        "cell_index": 5,
+        "name": "EXPECTED",
+        "expression": "{'Emax', 'R', 'axial_coupling', 'handedness', 'imbalance', 'nu', 'pair_angle', 'phase', 'sep_factor', 'twist_factor', 'variant_id'}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 6,
+        "name": "MF",
+        "expression": "OUT / 'B20_6_LOCAL_MANIFEST_FROZEN_30.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 6,
+        "name": "MF_SHA",
+        "expression": "sha256(MF)",
+        "literal_value": null
+      },
+      {
+        "cell_index": 10,
+        "name": "AUDIT_DIR",
+        "expression": "B206_ROOT / 'PHASE1D_RUNNER_INTERFACE_AUDIT'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 10,
+        "name": "DIS_FILE",
+        "expression": "AUDIT_DIR / 'B20_6_run_case_disassembly.txt'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 12,
+        "name": "DIAG",
+        "expression": "run_one_manifest_case('d01__center')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 14,
+        "name": "F",
+        "expression": "float(z[-1] - z[0])",
+        "literal_value": null
+      },
+      {
+        "cell_index": 17,
+        "name": "TEST_8D",
+        "expression": "run_one_manifest_case('d01__h1_minus')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "TRAJECTORIES",
+        "expression": "['d01', 'd02', 'd03', 'd04', 'd05', 'd06']",
+        "literal_value": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06"
+        ]
+      },
+      {
+        "cell_index": 21,
+        "name": "S0",
+        "expression": "-0.25",
+        "literal_value": -0.25
+      },
+      {
+        "cell_index": 21,
+        "name": "H1",
+        "expression": "1.0 / 32.0",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "H2",
+        "expression": "1.0 / 64.0",
+        "literal_value": null
+      },
+      {
+        "cell_index": 21,
+        "name": "SCAN_S_MIN",
+        "expression": "-0.5",
+        "literal_value": -0.5
+      },
+      {
+        "cell_index": 21,
+        "name": "SCAN_S_MAX",
+        "expression": "2.0",
+        "literal_value": 2.0
+      },
+      {
+        "cell_index": 21,
+        "name": "SCAN_STEP",
+        "expression": "0.125",
+        "literal_value": 0.125
+      },
+      {
+        "cell_index": 21,
+        "name": "EXPECTED_SUFFIXES",
+        "expression": "['center', 'h1_minus', 'h1_plus', 'h2_minus', 'h2_plus']",
+        "literal_value": [
+          "center",
+          "h1_minus",
+          "h1_plus",
+          "h2_minus",
+          "h2_plus"
+        ]
+      },
+      {
+        "cell_index": 21,
+        "name": "PHASE2B",
+        "expression": "CACHE.parent / 'PHASE2B_CROSSING_PREDICTION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "TRAJECTORIES",
+        "expression": "['d01', 'd02', 'd03', 'd04', 'd05', 'd06']",
+        "literal_value": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06"
+        ]
+      },
+      {
+        "cell_index": 22,
+        "name": "S0",
+        "expression": "-0.25",
+        "literal_value": -0.25
+      },
+      {
+        "cell_index": 22,
+        "name": "SCAN_S_MIN",
+        "expression": "-0.5",
+        "literal_value": -0.5
+      },
+      {
+        "cell_index": 22,
+        "name": "SCAN_S_MAX",
+        "expression": "2.0",
+        "literal_value": 2.0
+      },
+      {
+        "cell_index": 22,
+        "name": "SCAN_STEP",
+        "expression": "0.125",
+        "literal_value": 0.125
+      },
+      {
+        "cell_index": 22,
+        "name": "N",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 22,
+        "name": "L",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 22,
+        "name": "DT_CAP",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 22,
+        "name": "PHASE2B",
+        "expression": "CACHE.parent / 'PHASE2B_CROSSING_PREDICTION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "GEOM_KEYS",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 22,
+        "name": "PHASE2C",
+        "expression": "CACHE.parent / 'PHASE2C_FROZEN_COARSE_CROSSING_SCAN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "SCAN_CACHE",
+        "expression": "PHASE2C / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 22,
+        "name": "REQUIRED_SOLVER_KEYS",
+        "expression": "{'Emax', 'R', 'axial_coupling', 'handedness', 'imbalance', 'nu', 'pair_angle', 'phase', 'sep_factor', 'twist_factor', 'variant_id'}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 23,
+        "name": "ROOT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_6_crossing_geometry')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 24,
+        "name": "MYDRIVE",
+        "expression": "Path('/content/drive/MyDrive')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "ROOT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_6_crossing_geometry')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "P2A",
+        "expression": "ROOT / 'PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "CACHE",
+        "expression": "P2A / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "P2B",
+        "expression": "P2A / 'PHASE2B_CROSSING_PREDICTION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "P2C",
+        "expression": "P2A / 'PHASE2C_FROZEN_COARSE_CROSSING_SCAN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "SCAN_CACHE",
+        "expression": "P2C / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "LOCAL_MANIFEST_FILE",
+        "expression": "P2A / 'B20_6_LOCAL_MANIFEST_FROZEN_30.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "SCAN_MANIFEST_FILE",
+        "expression": "P2C / 'BIG_B20_6_COARSE_SCAN_MANIFEST.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "PREDICTION_FILE",
+        "expression": "P2B / 'BIG_B20_6_CROSSING_PREDICTIONS_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "FREEZE_FILE",
+        "expression": "P2B / 'BIG_B20_6_CROSSING_PREDICTION_FREEZE.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 25,
+        "name": "BASELINE",
+        "expression": "Path('/content/drive/MyDrive/Colab Notebooks/BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "ROOT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B20_colab_outputs/B20_6_crossing_geometry')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "P2A",
+        "expression": "ROOT / 'PHASE2A_LOCAL_INFORMATION_PROSPECTIVE_RESTART'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "CACHE",
+        "expression": "P2A / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "P2B",
+        "expression": "P2A / 'PHASE2B_CROSSING_PREDICTION_FROZEN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "P2C",
+        "expression": "P2A / 'PHASE2C_FROZEN_COARSE_CROSSING_SCAN'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "SCAN_CACHE",
+        "expression": "P2C / 'trajectory_cache'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "LOCAL_MANIFEST_FILE",
+        "expression": "P2A / 'B20_6_LOCAL_MANIFEST_FROZEN_30.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "SCAN_MANIFEST_FILE",
+        "expression": "P2C / 'BIG_B20_6_COARSE_SCAN_MANIFEST.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "PREDICTION_FILE",
+        "expression": "P2B / 'BIG_B20_6_CROSSING_PREDICTIONS_FROZEN.csv'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "FREEZE_FILE",
+        "expression": "P2B / 'BIG_B20_6_CROSSING_PREDICTION_FREEZE.json'",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "BASELINE",
+        "expression": "Path('/content/drive/MyDrive/Colab Notebooks/BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "REQUIRED_PARAM_KEYS",
+        "expression": "{'Emax', 'R', 'axial_coupling', 'handedness', 'imbalance', 'nu', 'pair_angle', 'phase', 'sep_factor', 'twist_factor', 'variant_id'}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 26,
+        "name": "TRAJECTORIES",
+        "expression": "['d01', 'd02', 'd03', 'd04', 'd05', 'd06']",
+        "literal_value": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06"
+        ]
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22C_Inherited_Solver",
+    "notebook": "sources/inherited_inputs/1E-MJA1F__BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb",
+    "notebook_sha256": "1cfaa71c3cbd50e97de81a16b4f03809a69df6ad62ba648a01ee48478c05bea6",
+    "definitions_file": "code/definitions/B19_22C_Inherited_Solver_definitions.py",
+    "definition_count": 25,
+    "definitions": [
+      {
+        "name": "make_grid",
+        "cell_index": 7,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 7,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 7,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 7,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 7,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 7,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 7,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 7,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 7,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 7,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 7,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 7,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 7,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 7,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 8,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 8,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 8,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 8,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 10,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 10,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 10,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 10,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 10,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 10,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 11,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      }
+    ],
+    "ordered_runtime_assignments": [
+      {
+        "cell_index": 6,
+        "name": "RUN_NAME",
+        "expression": "'B19_17b_run_001'",
+        "literal_value": "B19_17b_run_001"
+      },
+      {
+        "cell_index": 6,
+        "name": "ANALYSIS_NAME",
+        "expression": "'separatrix_refinement_convergence'",
+        "literal_value": "separatrix_refinement_convergence"
+      },
+      {
+        "cell_index": 6,
+        "name": "OUTDIR",
+        "expression": "Path(f'/content/{RUN_NAME}_{ANALYSIS_NAME}')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 6,
+        "name": "BACKUP_DIR",
+        "expression": "Path('/content/drive/MyDrive/BIG_B19_colab_outputs') / RUN_NAME / ANALYSIS_NAME",
+        "literal_value": null
+      },
+      {
+        "cell_index": 9,
+        "name": "BASE",
+        "expression": "{'parent_label': 'late_delayed_c7', 'parent_class': 'late_delayed', 'candidate_rank': 7, 'nu': 0.003, 'Emax': 30.0, 'R': 0.55, 'sep_factor': 0.95, 'pair_angle': 0.5235987755982988, 'twist_factor': 0.8, 'imbalance': 0.8, 'axial_coupling': 0.25, 'phase': 1.5707963267948966, 'handedness': -1.0}",
+        "literal_value": {
+          "parent_label": "late_delayed_c7",
+          "parent_class": "late_delayed",
+          "candidate_rank": 7,
+          "nu": 0.003,
+          "Emax": 30.0,
+          "R": 0.55,
+          "sep_factor": 0.95,
+          "pair_angle": 0.5235987755982988,
+          "twist_factor": 0.8,
+          "imbalance": 0.8,
+          "axial_coupling": 0.25,
+          "phase": 1.5707963267948966,
+          "handedness": -1.0
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "RAY_ENDPOINTS",
+        "expression": "{'loss_ray_p01': {'R': 0.5658043837494882, 'sep_factor': 0.8696439002823364, 'pair_angle': 0.3918990081685877, 'twist_factor': 0.8243268493052528, 'imbalance': 0.7885855467554672, 'axial_coupling': 0.2400031268012529, 'phase': 1.3678615613638454}, 'loss_ray_p02': {'R': 0.5722634562451615, 'sep_factor': 0.9350408675884196, 'pair_angle': 0.3906598473906894, 'twist_factor': 0.7750339064111841, 'imbalance': 0.828526911977416, 'axial_coupling': 0.1737127943503834, 'phase': 1.4967890751359758}, 'loss_ray_p03': {'R': 0.4984688263194642, 'sep_factor': 0.9456931572043836, 'pair_angle': 0.4969635892970525, 'twist_factor': 0.8234360613920654, 'imbalance': 0.6820860250722033, 'axial_coupling': 0.2006473412465806, 'phase': 1.5717427016087866}}",
+        "literal_value": {
+          "loss_ray_p01": {
+            "R": 0.5658043837494882,
+            "sep_factor": 0.8696439002823364,
+            "pair_angle": 0.3918990081685877,
+            "twist_factor": 0.8243268493052528,
+            "imbalance": 0.7885855467554672,
+            "axial_coupling": 0.2400031268012529,
+            "phase": 1.3678615613638454
+          },
+          "loss_ray_p02": {
+            "R": 0.5722634562451615,
+            "sep_factor": 0.9350408675884196,
+            "pair_angle": 0.3906598473906894,
+            "twist_factor": 0.7750339064111841,
+            "imbalance": 0.828526911977416,
+            "axial_coupling": 0.1737127943503834,
+            "phase": 1.4967890751359758
+          },
+          "loss_ray_p03": {
+            "R": 0.4984688263194642,
+            "sep_factor": 0.9456931572043836,
+            "pair_angle": 0.4969635892970525,
+            "twist_factor": 0.8234360613920654,
+            "imbalance": 0.6820860250722033,
+            "axial_coupling": 0.2006473412465806,
+            "phase": 1.5717427016087866
+          }
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "BRACKETS_17A",
+        "expression": "{'loss_ray_p01': (0.0, 0.25), 'loss_ray_p02': (0.0, 0.25), 'loss_ray_p03': (0.25, 0.5)}",
+        "literal_value": {
+          "loss_ray_p01": [
+            0.0,
+            0.25
+          ],
+          "loss_ray_p02": [
+            0.0,
+            0.25
+          ],
+          "loss_ray_p03": [
+            0.25,
+            0.5
+          ]
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "ZERO_EST_17A",
+        "expression": "{'loss_ray_p01': 0.061126, 'loss_ray_p02': 0.096024, 'loss_ray_p03': 0.337718}",
+        "literal_value": {
+          "loss_ray_p01": 0.061126,
+          "loss_ray_p02": 0.096024,
+          "loss_ray_p03": 0.337718
+        }
+      },
+      {
+        "cell_index": 9,
+        "name": "PARAM_KEYS",
+        "expression": "['R', 'sep_factor', 'pair_angle', 'twist_factor', 'imbalance', 'axial_coupling', 'phase']",
+        "literal_value": [
+          "R",
+          "sep_factor",
+          "pair_angle",
+          "twist_factor",
+          "imbalance",
+          "axial_coupling",
+          "phase"
+        ]
+      },
+      {
+        "cell_index": 9,
+        "name": "BOUNDS",
+        "expression": "{'R': (0.28, 0.7), 'sep_factor': (0.65, 1.2), 'pair_angle': (0.0, 1.25), 'twist_factor': (0.55, 1.15), 'imbalance': (0.55, 0.95), 'axial_coupling': (0.1, 0.45), 'phase': (0.0, np.pi)}",
+        "literal_value": null
+      },
+      {
+        "cell_index": 11,
+        "name": "T_FINAL",
+        "expression": "0.01",
+        "literal_value": 0.01
+      },
+      {
+        "cell_index": 11,
+        "name": "CFL",
+        "expression": "0.1",
+        "literal_value": 0.1
+      },
+      {
+        "cell_index": 11,
+        "name": "SAVE_DT",
+        "expression": "0.001",
+        "literal_value": 0.001
+      },
+      {
+        "cell_index": 11,
+        "name": "GATE_MODE",
+        "expression": "'top_k'",
+        "literal_value": "top_k"
+      },
+      {
+        "cell_index": 11,
+        "name": "TOP_K",
+        "expression": "32",
+        "literal_value": 32
+      },
+      {
+        "cell_index": 11,
+        "name": "THETA_FRAC",
+        "expression": "0.7",
+        "literal_value": 0.7
+      },
+      {
+        "cell_index": 12,
+        "name": "HORIZONS",
+        "expression": "[0.012, 0.015, 0.02]",
+        "literal_value": [
+          0.012,
+          0.015,
+          0.02
+        ]
+      },
+      {
+        "cell_index": 12,
+        "name": "TARGETS",
+        "expression": "{'loss_ray_p01': [0.02], 'loss_ray_p02': [0.015, 0.02], 'loss_ray_p03': [0.012, 0.015, 0.02]}",
+        "literal_value": {
+          "loss_ray_p01": [
+            0.02
+          ],
+          "loss_ray_p02": [
+            0.015,
+            0.02
+          ],
+          "loss_ray_p03": [
+            0.012,
+            0.015,
+            0.02
+          ]
+        }
+      },
+      {
+        "cell_index": 12,
+        "name": "N22",
+        "expression": "48",
+        "literal_value": 48
+      },
+      {
+        "cell_index": 12,
+        "name": "L22",
+        "expression": "8.0",
+        "literal_value": 8.0
+      },
+      {
+        "cell_index": 12,
+        "name": "DT22",
+        "expression": "5e-05",
+        "literal_value": 5e-05
+      },
+      {
+        "cell_index": 12,
+        "name": "T_FINAL",
+        "expression": "0.02",
+        "literal_value": 0.02
+      },
+      {
+        "cell_index": 12,
+        "name": "SAVE_DT",
+        "expression": "0.00025",
+        "literal_value": 0.00025
+      },
+      {
+        "cell_index": 12,
+        "name": "STAGES",
+        "expression": "[(0.5, 1.0, 0.0625), (1.0, 1.5, 0.0625)]",
+        "literal_value": [
+          [
+            0.5,
+            1.0,
+            0.0625
+          ],
+          [
+            1.0,
+            1.5,
+            0.0625
+          ]
+        ]
+      },
+      {
+        "cell_index": 12,
+        "name": "BISECT_TOL",
+        "expression": "0.001953125",
+        "literal_value": 0.001953125
+      },
+      {
+        "cell_index": 12,
+        "name": "MAX_BISECT",
+        "expression": "12",
+        "literal_value": 12
+      },
+      {
+        "cell_index": 12,
+        "name": "DRIVE_OUT",
+        "expression": "Path('/content/drive/MyDrive/BIG_B19_colab_outputs/B19_22_run_003/boundary_escape_test')",
+        "literal_value": null
+      },
+      {
+        "cell_index": 12,
+        "name": "LOCAL22",
+        "expression": "Path('/content/B19_22C_run_003')",
+        "literal_value": null
+      }
+    ]
+  }
+]
