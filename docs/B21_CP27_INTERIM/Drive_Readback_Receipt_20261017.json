@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "B21_CP27 draft files Drive readback, not Zenodo publication verification",
+  "files": [
+    {
+      "file": "B21_CP27_Document_Preservation_Receipt.json",
+      "byte_identical": true,
+      "size_bytes": 1656,
+      "sha256": "0b52606fb4091204ee880b0e821e9e1311d4ad37cc8f34a5495c97358e66f2df"
+    },
+    {
+      "file": "B21_CP27_E12_23_Save_Algebra_Reconstructed_Receipt.json",
+      "byte_identical": true,
+      "size_bytes": 4261,
+      "sha256": "bc7e2d9b09e4fa0c9bbe6328bac762f7f0ad055673a89e5a93f79da215bfe343"
+    },
+    {
+      "file": "B21_CP27_Saved_Source_Readout_Receipt.json",
+      "byte_identical": true,
+      "size_bytes": 3230,
+      "sha256": "43721701ca75680b509ff5fd14fde579f2660d1f9c95a734c91cc64a10fb313e"
+    },
+    {
+      "file": "B21_Zenodo_Metadata_v1_1_DRAFT.json",
+      "byte_identical": true,
+      "size_bytes": 6009,
+      "sha256": "bc64bcbe375624a7c1f83d0fb3e15153f736dbba00e6e6aafc5efb373427285e"
+    },
+    {
+      "file": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_1_DRAFT.docx",
+      "byte_identical": true,
+      "size_bytes": 645711,
+      "sha256": "48979be4b54c8a39cb146958d6226cb34924ef82fd3ac4b94e741913db2b2573"
+    },
+    {
+      "file": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_1_DRAFT.pdf",
+      "byte_identical": true,
+      "size_bytes": 1428116,
+      "sha256": "10e7ee6c5325372e4d78e64b57e2a2d2f98af8b40627432f4044901b72945b99"
+    },
+    {
+      "file": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_1_DRAFT.docx",
+      "byte_identical": true,
+      "size_bytes": 644260,
+      "sha256": "b8259cf37a7754bbfe9752f857667441b79820b5cc5903dea75798cb81da96c8"
+    },
+    {
+      "file": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_1_DRAFT.pdf",
+      "byte_identical": true,
+      "size_bytes": 1013427,
+      "sha256": "80f0f108c7daba229e65e9628a45fc977629bdf8d5550982abb7547bd3943e93"
+    }
+  ]
+}
