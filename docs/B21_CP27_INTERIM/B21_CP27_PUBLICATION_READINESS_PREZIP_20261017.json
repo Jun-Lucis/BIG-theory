@@ -1,0 +1,87 @@
+{
+  "status": "CP27_WORKING__ZENODO_V1_1_NOT_PUBLISHED",
+  "is_final_zip": false,
+  "original_published_record": "https://zenodo.org/records/22876813",
+  "original_parent_record": "22876812",
+  "new_draft_id": null,
+  "new_doi": null,
+  "new_record_url": null,
+  "source_scope": "Original source checkpoint 261 files, see manifest inside; manuscript drafts and newly reconstructed saved-data checks only; no independent PDE rerun",
+  "reproduction_assessment": "基本的に再現可能。独立した再実行監査は未了。",
+  "library_workspace": "/BIG_B21_CP27_WORKING_20261017/",
+  "drive_workspace": "https://drive.google.com/drive/folders/1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj",
+  "github_interim_audit": "https://github.com/Jun-Lucis/BIG-theory/blob/main/docs/B21_CP27_INTERIM_AUDIT_20261017_JA.md",
+  "publication_next_steps": [
+    "Inspect current Zenodo B21 versions/drafts while authenticated; avoid duplicate creation",
+    "Create new version of the existing B21 record, not a new unrelated record",
+    "Reserve and verify actual new DOI",
+    "Insert real new DOI in final manuscripts if needed, render/recheck unchanged original tables/images/math",
+    "Freeze the complete ZIP once after DOI is known, including source/code, receipts, English/Japanese manuscripts, origin and hash manifests",
+    "Upload, verify metadata including GitHub in Description and Related works, and publish only once",
+    "Re-download public ZIP and verify byte identity, SHA256 MD5 CRC and interior hashes",
+    "Synchronize final DOI and audit state to GitHub, Drive, Library and two existing ledgers; append CP27 complete only after successful public verification"
+  ],
+  "intended_archive_inputs_before_doi_update": [
+    {
+      "name": "BIG_B21_CP27_SOURCE_RECOVERY_20261017.zip",
+      "size_bytes": 8038153,
+      "sha256": "5c518b8ebfeacebb95367d86393fad860b77470cbb135313154088c9b024520f"
+    },
+    {
+      "name": "B21_Zenodo_Metadata_v1_1_DRAFT.json",
+      "size_bytes": 6009,
+      "sha256": "bc64bcbe375624a7c1f83d0fb3e15153f736dbba00e6e6aafc5efb373427285e"
+    },
+    {
+      "name": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_1_DRAFT.docx",
+      "size_bytes": 645711,
+      "sha256": "48979be4b54c8a39cb146958d6226cb34924ef82fd3ac4b94e741913db2b2573"
+    },
+    {
+      "name": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_1_DRAFT.pdf",
+      "size_bytes": 1428116,
+      "sha256": "10e7ee6c5325372e4d78e64b57e2a2d2f98af8b40627432f4044901b72945b99"
+    },
+    {
+      "name": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_1_DRAFT.docx",
+      "size_bytes": 644260,
+      "sha256": "b8259cf37a7754bbfe9752f857667441b79820b5cc5903dea75798cb81da96c8"
+    },
+    {
+      "name": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_1_DRAFT.pdf",
+      "size_bytes": 1013427,
+      "sha256": "80f0f108c7daba229e65e9628a45fc977629bdf8d5550982abb7547bd3943e93"
+    },
+    {
+      "name": "B21_CP27_Saved_Source_Readout_Receipt.json",
+      "size_bytes": 3230,
+      "sha256": "43721701ca75680b509ff5fd14fde579f2660d1f9c95a734c91cc64a10fb313e"
+    },
+    {
+      "name": "B21_CP27_E12_23_Save_Algebra_Reconstructed_Receipt.json",
+      "size_bytes": 4261,
+      "sha256": "bc7e2d9b09e4fa0c9bbe6328bac762f7f0ad055673a89e5a93f79da215bfe343"
+    },
+    {
+      "name": "B21_CP27_Document_Preservation_Receipt.json",
+      "size_bytes": 1656,
+      "sha256": "0b52606fb4091204ee880b0e821e9e1311d4ad37cc8f34a5495c97358e66f2df"
+    },
+    {
+      "name": "B21_CP27_Reconstructed_Saved_Artifacts_Audit.py",
+      "size_bytes": 6765,
+      "sha256": "85a01e284dc95c8398986b3a947f988bc840579ac91ff4f88eb162f0216d76cc"
+    },
+    {
+      "name": "B21_CP27_Reconstructed_Saved_Artifacts_Audit_Result.json",
+      "size_bytes": 1641,
+      "sha256": "4baaa92800aee855dfb046628dd08bab968e46b2a1821842ce0233b28c1bf8f9"
+    },
+    {
+      "name": "B21_CP27_Drive_Readback_20261017.json",
+      "size_bytes": 1913,
+      "sha256": "bcce1cdcc1e06ea19aa8f7b42e0613936032cd48c3f62ed5ce739d1638bbb373"
+    }
+  ],
+  "note": "This JSON does not itself freeze or construct a publication ZIP; it is a checkpoint manifest for the next authorized Zenodo publishing session."
+}
