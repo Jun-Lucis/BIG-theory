@@ -84,3 +84,17 @@ GitHubのB22 publication READMEと、Driveの元Colab・E1〜E5直下metadataを
 
 E1〜E5直下で82 files・12 subfoldersを確認した。再帰的な全結果数は未集計。凍結予測、root scan/refinement、最終summary、comparison、Hessian/eigensystem、trajectory cachesの所在を同定した。内容は未監査であり、正式な研究判定を変更しない。
 
+
+
+## CP27復旧後の追加監査（2026-10-17）
+
+これは新規の保存結果照合・改訂原稿の**公開前checkpoint**。Zenodo新版公開、固定ZIP公開再取得、Drive／Library最終同期は未完了であり、CP27を完了扱いにしない。
+
+- Library source recovery ZIP 8,038,153 bytes、SHA-256 `5c518b8ebfeacebb95367d86393fad860b77470cbb135313154088c9b024520f` を復元。ZIP CRCエラーなし。元source manifestの **261件／3,335,004 bytes** に対してサイズ・SHA-256が261/261一致。
+- **101** scalar timeseries CSV、**7,335行**。行数は61行×27、63行×17、81行×57。終端は0.015、0.0155、0.020（浮動小数点表現）。均一長ではない。保存 enstrophy_half(t)−enstrophy_half(0) から再計算できる `F_T*` と対応summaryの**72比較**で差分ゼロ。101本全てにsummaryがあるわけではなく、全体検算を意味しない。
+- 復元元E12最終JSON・成分CSVとB20.5 QW/scalesを用いて**23の保存表代数比較 PASS**（最大絶対差 `2.78e-17`）。これは元PDEの再実行ではない。
+- 英語・日本語の改訂DOCX **各8表・151表セル・原図5枚・既存数式XML**を原版と一致確認。v1.1 DRAFTの仮PDFは各15ページまでrender。論旨上、共通根相関、0.2174844%が観測側尺度である点、座標精度差、未検証境界を本文で補足した。原数値・図画素・表セルは不変更。
+- 旧Zenodo v1.0メタデータのDescriptionにはGitHubが存在するが、Related worksにはGitHub URLの項目がない。新版で追加する。実際の新DOIは未取得なので**固定完全ZIPはまだ作らない**。
+- Browser読み取りは起動元拡張コンテキスト不足で失敗。Zenodo draft作成・Publishはまだ実行していない。TinyFishの保存プロファイルにZenodoログイン登録が見えないため、有料実行を勝手に開始しない。
+
+引き続き**「基本的に再現可能。独立した再実行監査は未了」**。全体検算の旧最終JSONは依然未確認で、上記72＋23比較をこれに代えない。
