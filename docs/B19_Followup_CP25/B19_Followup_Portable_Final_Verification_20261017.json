@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "fresh_extraction": true,
+  "frozen_zip_sha256": "5f921f90f450e1adfd84a78e9ececf1ccd150f3c849c4d9980356348af2e8332",
+  "saved_receipt_byte_identical": true,
+  "check_groups": 2100,
+  "numeric_or_label_comparisons": 85045,
+  "definition_loader": {
+    "status": "PASS",
+    "namespaces_loaded": 10,
+    "experiment_functions_invoked": 0,
+    "note": "Definitions only. Full notebook rerun not performed."
+  },
+  "new_ode_pde_trajectories": 0,
+  "independent_full_rerun_audit": "NOT_COMPLETED"
+}

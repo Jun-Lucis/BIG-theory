@@ -1,0 +1,1382 @@
+[
+  {
+    "namespace": "B19_21C",
+    "notebook": "sources/original_notebooks/160YHMPn__BIG_B19_21C_temporal_channel_separation_colab_v1.ipynb",
+    "notebook_sha256": "750bc2e2566f5af42d48076acc87f0e9dc1959f7ed56c3b29b7fc8d25cc8259d",
+    "definitions_file": "code/definitions/B19_21C_definitions.py",
+    "definition_count": 35,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "first_crossing_time",
+        "cell_index": 10,
+        "sha256": "466fa7e5ccebf8a64b23d6d9cacaf8aefd02dc2662978bf81df05b653371fb96"
+      },
+      {
+        "name": "sha256_file",
+        "cell_index": 14,
+        "sha256": "2f405cc38b2c4e052e8f7588ae4211b77e77faa93971bb08a0c0185a5538f09d"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22A",
+    "notebook": "sources/original_notebooks/1d_uxdwB__BIG_B19_22A_trajectory_boundary_stability_colab_v1_1_corrected.ipynb",
+    "notebook_sha256": "400e9a37998abcf1be3bdafec929c611699667b2d6a55ffadbe726aaec4d05e2",
+    "definitions_file": "code/definitions/B19_22A_definitions.py",
+    "definition_count": 34,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 13,
+        "sha256": "7558dd49a94282b8248e6b75c4dc2a8eca9a3eb031c1a15cedb1d07c5f4b9815"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22B",
+    "notebook": "sources/original_notebooks/1i3V5zGo__BIG_B19_22B_moving_finite_window_boundary_colab_v1.ipynb",
+    "notebook_sha256": "c3e2a271c7cec7b22b98a3895975a7b745f1c6533c2db3922c7de21965520c0b",
+    "definitions_file": "code/definitions/B19_22B_definitions.py",
+    "definition_count": 36,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "eval_case",
+        "cell_index": 9,
+        "sha256": "7d0db6dccaa4a8911532a9e7fba76f118c5d74ff1838876935104ab623dab568"
+      },
+      {
+        "name": "dz",
+        "cell_index": 10,
+        "sha256": "1eb80544960d27e8d335329e9047f98ff6261a947df25488c21a9d1ae7806616"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 13,
+        "sha256": "b9f0d730089e008159a8ddfc21af0efd79e445b11f0597892c56fc184e07af5e"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22C",
+    "notebook": "sources/original_notebooks/1E-MJA1F__BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb",
+    "notebook_sha256": "1cfaa71c3cbd50e97de81a16b4f03809a69df6ad62ba648a01ee48478c05bea6",
+    "definitions_file": "code/definitions/B19_22C_definitions.py",
+    "definition_count": 37,
+    "definitions": [
+      {
+        "name": "dz",
+        "cell_index": 3,
+        "sha256": "809dafb5ffe4271f30ac935c5224966e86ee5491cc1f5da5e8f1170e68aae470"
+      },
+      {
+        "name": "to_jsonable",
+        "cell_index": 6,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 6,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 6,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 6,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 6,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 6,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 7,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 7,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 7,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 7,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 7,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 7,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 7,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 7,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 7,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 7,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 7,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 7,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 7,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 7,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 8,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 8,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 8,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 8,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 9,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 9,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 10,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 10,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 10,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 10,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 10,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 10,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 11,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "eval_case",
+        "cell_index": 13,
+        "sha256": "167d624841a771e0d016ab4b3524910a40ca54e03cb6cc1f9d265a6c1ca64aaf"
+      },
+      {
+        "name": "dz",
+        "cell_index": 13,
+        "sha256": "79dc1728c532c23c27be0e4220ee02967d4cb9bc1f4cf0fae9923f53b5b7dd1d"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 16,
+        "sha256": "b9f0d730089e008159a8ddfc21af0efd79e445b11f0597892c56fc184e07af5e"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22C_complete_recovery",
+    "notebook": "sources/original_notebooks/1TUlV4IH__BIG_B19_22C_complete_archive_recovery_colab_v1.ipynb",
+    "notebook_sha256": "2be0fd0160cbd1c98f17babc941c922b3b2cef95f32caaf955cc560ccac4c48c",
+    "definitions_file": "code/definitions/B19_22C_complete_recovery_definitions.py",
+    "definition_count": 37,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "find_one",
+        "cell_index": 8,
+        "sha256": "a3523897df1e0049fbd4d7880ce011edb6d78febc0deef8c029ab52dfb5b6867"
+      },
+      {
+        "name": "normalize_eps_col",
+        "cell_index": 9,
+        "sha256": "54e6d6cd03c3a924e3e5253a9944ad311ea022b58989399caecaee4b44fa6e96"
+      },
+      {
+        "name": "case_filename",
+        "cell_index": 10,
+        "sha256": "ec2ea47ffd8c101fddb8f4e6f654b09d07197e710d42b1c9067e83b9dbd3415c"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 13,
+        "sha256": "66864dd03b9e3cb590969e04a27ce7041485564d73f26dab2444e286bd77a195"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22C_p03_audit",
+    "notebook": "sources/original_notebooks/1lDLwjDL__BIG_B19_22C_p03_recovery_audit_colab_v1.ipynb",
+    "notebook_sha256": "8982cd0ca2916369f2dd33236b392a201edbf51fb53027b4f2a0c65d008afb70",
+    "definitions_file": "code/definitions/B19_22C_p03_audit_definitions.py",
+    "definition_count": 34,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 11,
+        "sha256": "7558dd49a94282b8248e6b75c4dc2a8eca9a3eb031c1a15cedb1d07c5f4b9815"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22C_zip_audit",
+    "notebook": "sources/original_notebooks/1PWK_U6M__BIG_B19_22C_recovery_audit_v2_ZIP_anchored.ipynb",
+    "notebook_sha256": "95c7f0a01dbb37539c851b9b3ae67af4c93e199ecfb39e5b52968f83d354646d",
+    "definitions_file": "code/definitions/B19_22C_zip_audit_definitions.py",
+    "definition_count": 35,
+    "definitions": [
+      {
+        "name": "to_jsonable",
+        "cell_index": 2,
+        "sha256": "de07d873befe2bf55615157a03488f393bad8130492a3ec8788f6fa8d8aa9336"
+      },
+      {
+        "name": "backup_to_drive",
+        "cell_index": 2,
+        "sha256": "3c1fd765af30afa06a8f711b401d5bd4629bbd122074020589e93a4c6f796f21"
+      },
+      {
+        "name": "save_csv",
+        "cell_index": 2,
+        "sha256": "af4aab67a454515451bae27d7468c1476512ad53cb9bdcba40015767ac1d2849"
+      },
+      {
+        "name": "save_json",
+        "cell_index": 2,
+        "sha256": "24adc6d0e59193601513aee3fcad018dcdb84ede5254fdd34efe5fa9392523fd"
+      },
+      {
+        "name": "save_text",
+        "cell_index": 2,
+        "sha256": "06487aa615598096441dc3e4663af22ae057382429f13d0ffeccf48d6f38812e"
+      },
+      {
+        "name": "save_figure",
+        "cell_index": 2,
+        "sha256": "71f7a1a469e74ee20ef2d9c786969123eb07d6054813b547a7db6f24cf5ab5e9"
+      },
+      {
+        "name": "make_grid",
+        "cell_index": 3,
+        "sha256": "d96ccd13692f9f37b8a7c5fd96d4e1b6be6443dfc6486a06464f65f571639ec8"
+      },
+      {
+        "name": "fftn3",
+        "cell_index": 3,
+        "sha256": "b59af754389de3dc2f164bb2b585101c83e3845cff21677df5ca3335366ba025"
+      },
+      {
+        "name": "ifftn3",
+        "cell_index": 3,
+        "sha256": "089b27da1a0e7940f720b5f33e8663d886c12c4f1db06602c46a1e479549fb5a"
+      },
+      {
+        "name": "apply_dealias_hat",
+        "cell_index": 3,
+        "sha256": "0eac977c28e1ff0dbc751e56620802c45d7d505131fe5d1ad77ebc97d4728665"
+      },
+      {
+        "name": "spectral_derivative",
+        "cell_index": 3,
+        "sha256": "25e950b3977f3f902f31003c181805a52511a0ea0c5939e93e8d25c70f887004"
+      },
+      {
+        "name": "laplacian",
+        "cell_index": 3,
+        "sha256": "adb5685b90dc13f5d253025544f2b65dee2685e699170973b333e72fba1d0ba6"
+      },
+      {
+        "name": "curl_from_components",
+        "cell_index": 3,
+        "sha256": "26c59e96652e08f4ac859837951a584ee04b8a24dff80e612b607b7d95261fe2"
+      },
+      {
+        "name": "project_divergence_free_vector",
+        "cell_index": 3,
+        "sha256": "01c94a6f814d563a3390f6b0bbb32a097c767c5f228fe8bce2d5fbf4d7b46450"
+      },
+      {
+        "name": "velocity_from_vorticity",
+        "cell_index": 3,
+        "sha256": "3125e0251b1c42f3b6736c7ad013e269afda5cad421f227d55e9dd56fea12bc4"
+      },
+      {
+        "name": "gradients_of_vector",
+        "cell_index": 3,
+        "sha256": "e9a0359b59095ac7233322d431342a379df5cab2d973ef7b0a719f39d84f42d3"
+      },
+      {
+        "name": "strain_tensor_from_velocity",
+        "cell_index": 3,
+        "sha256": "2c0f4668bc5e45efc9dddde891eafd66b91d02f8035a5f50bd16c3d01d715bb0"
+      },
+      {
+        "name": "omega_dot_S_omega",
+        "cell_index": 3,
+        "sha256": "4b2cbcbf9c099651a0e68d3c541b97cf32a29823fab8377a0aa122aa784ad067"
+      },
+      {
+        "name": "divergence_of_vector",
+        "cell_index": 3,
+        "sha256": "0ebda044d3a00d65bc34f6eb34cd56e5351cf514e2e1524848abeb49151c0f9c"
+      },
+      {
+        "name": "spectral_tail_diagnostics",
+        "cell_index": 3,
+        "sha256": "4c1a758de3ebcb9c0d01c41b2222b84d5488eba4e88664b3cfadfcfd492a49e2"
+      },
+      {
+        "name": "make_tilted_pair_vector_potential",
+        "cell_index": 4,
+        "sha256": "865a727d73fbbd41f5cc17367aaab1d261b83fba3a56f959ccb38a054189cbc0"
+      },
+      {
+        "name": "make_base_vorticity_from_params",
+        "cell_index": 4,
+        "sha256": "d2006870e2be173ee584b1f8da3a41a426b3e6683706657de6c2e402064971dc"
+      },
+      {
+        "name": "kinetic_energy_from_vorticity",
+        "cell_index": 4,
+        "sha256": "b681c91a1374edf90b52298ff9969fbbdece484b2bab1588df42783cdbbfae58"
+      },
+      {
+        "name": "scale_to_kinetic_energy",
+        "cell_index": 4,
+        "sha256": "06f98372546c5371ce08111843d8c6ed0a121c7c5a7617306bf7f6ed35e4eea1"
+      },
+      {
+        "name": "clipv",
+        "cell_index": 5,
+        "sha256": "34b7aa6a957b32221775d7913eda188e382d7d60ed65b8bbb67ce51e0bb4dea7"
+      },
+      {
+        "name": "point_on_ray",
+        "cell_index": 5,
+        "sha256": "c53c73b989d0b6beeb53098b4d62fc221e983b41897587c295e216d75fc551c9"
+      },
+      {
+        "name": "make_gate_mask",
+        "cell_index": 6,
+        "sha256": "fab6773965351b50c033a8df48cbd37c04475e397fdc54d1e7fffcc920421ef1"
+      },
+      {
+        "name": "compute_balance_metrics",
+        "cell_index": 6,
+        "sha256": "0dc6a748bdddd4b6909e9ab4f059ea5e3a12026d6ecd2184826523e599f7c4ea"
+      },
+      {
+        "name": "vorticity_rhs",
+        "cell_index": 6,
+        "sha256": "24bff75989e231914979148722b6586142c4bff435eb27ff13765c41dbdb0a75"
+      },
+      {
+        "name": "rk4_step",
+        "cell_index": 6,
+        "sha256": "2e67824ba3d44e5cd954ecd520565944ab7afb12d9dfd7198e682b1d758f4678"
+      },
+      {
+        "name": "choose_dt",
+        "cell_index": 6,
+        "sha256": "ac9c75d0090acde034c8e2db232b52ca374ec0a98a597d8347bcfcd212153bf4"
+      },
+      {
+        "name": "cumulative_trapezoid",
+        "cell_index": 6,
+        "sha256": "0c147f0d7bd098e26450f527fb96971e11231ac0a8c93d39bdac251679c9ceea"
+      },
+      {
+        "name": "run_one_case",
+        "cell_index": 7,
+        "sha256": "73671736a871c16891c5eda0771df775b24ae92f261c4b60bc4854a9de58fb8e"
+      },
+      {
+        "name": "find_one",
+        "cell_index": 8,
+        "sha256": "873a7bf2fb65f6e7313063f19e16f0771716b57e0f58a269a8bf4a97c87c4e00"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 12,
+        "sha256": "7558dd49a94282b8248e6b75c4dc2a8eca9a3eb031c1a15cedb1d07c5f4b9815"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22D",
+    "notebook": "sources/original_notebooks/1S8N18X2__BIG_B19_22D_response_surface_analysis_colab_v1_1_corrected.ipynb",
+    "notebook_sha256": "2b199b2646b71c3f6bbf59f8205b93abad87cfa2441b5a9e0e2066497855403f",
+    "definitions_file": "code/definitions/B19_22D_definitions.py",
+    "definition_count": 1,
+    "definitions": [
+      {
+        "name": "sha256",
+        "cell_index": 11,
+        "sha256": "b9f0d730089e008159a8ddfc21af0efd79e445b11f0597892c56fc184e07af5e"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22E",
+    "notebook": "sources/original_notebooks/1dGa93o-__BIG_B19_22E_local_response_geometry_colab_v1_1_corrected.ipynb",
+    "notebook_sha256": "9014e8a15fe6d8e316f2aebcf594921ea31f811e89a29884f78604f559aa608f",
+    "definitions_file": "code/definitions/B19_22E_definitions.py",
+    "definition_count": 3,
+    "definitions": [
+      {
+        "name": "one",
+        "cell_index": 2,
+        "sha256": "7ec9f8257ba721edc561b0d487e8a0664c0a53b1866e899428a9f3f71a567b59"
+      },
+      {
+        "name": "first_negative_to_positive_crossing",
+        "cell_index": 7,
+        "sha256": "1f2a2d3e2e58b0c2e948becd0628044461e73548b8d75696cb340c11ca451883"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 10,
+        "sha256": "66864dd03b9e3cb590969e04a27ce7041485564d73f26dab2444e286bd77a195"
+      }
+    ]
+  },
+  {
+    "namespace": "B19_22F",
+    "notebook": "sources/original_notebooks/1dstzdlw__BIG_B19_22F_sampling_robustness_colab_v1_1_corrected.ipynb",
+    "notebook_sha256": "92fc29d7390e22b998d4ce181ca4979821e6933071d2ade97ac7843acc6d6d4b",
+    "definitions_file": "code/definitions/B19_22F_definitions.py",
+    "definition_count": 6,
+    "definitions": [
+      {
+        "name": "epsilon_variants",
+        "cell_index": 3,
+        "sha256": "76c427b16bb4cb6654f805a64a06f073168e8de8dcf99b62c3201940eab4734a"
+      },
+      {
+        "name": "classify_at_time",
+        "cell_index": 3,
+        "sha256": "ab8d561762d8e88ade93a87cf808284e7cf08dab1acf6475e01c44e6d04faab1"
+      },
+      {
+        "name": "crossing",
+        "cell_index": 4,
+        "sha256": "cc0226ae6418d91fc68bb5d945149a763a02cdc59f74aa756dc5a85e05abe943"
+      },
+      {
+        "name": "thin_times",
+        "cell_index": 5,
+        "sha256": "805ce9ed6a7fc786c08af83330e983071464dc7f75fa3053515c24390865466d"
+      },
+      {
+        "name": "rec",
+        "cell_index": 9,
+        "sha256": "5bbb35d976600061b8510df5ccb1e9141a8cc0e8f3900de17299ef5d27e5cef3"
+      },
+      {
+        "name": "sha256",
+        "cell_index": 9,
+        "sha256": "df097a8fdc6b486381165e6f81aadd14694e1647dc5b3b3697de85eada0e995d"
+      }
+    ]
+  }
+]

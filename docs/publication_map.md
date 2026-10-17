@@ -721,7 +721,9 @@ https://zenodo.org/records/23427540
 CP24 v1.1 preserves original scientific numbers, two tables, four figure rasters and formal classifications. The 69,687,332-byte complete ZIP was publicly re-downloaded byte-identically with all 586 internal SHA-256 checks passing. Saved-data verification passes 1,457 check groups / 1,182,025 value or label comparisons; checkpoint/input-copy repetitions are included. The 27 mapped rows contain 25 evolved cases with a shared seed. Basically reproducible from archived methods and saved outputs; independent full rerun audit not completed. [Audit and methods](B19_CP24_AUDIT_20261017.md).
 
 **Finite-time response follow-up:**  
-https://zenodo.org/records/22769513
+https://zenodo.org/records/23427904
+
+CP25 v1.1 preserves original numbers, two tables, four figure rasters and formal claim statuses. The complete 25,020,630-byte ZIP was publicly re-downloaded byte-identically with CRC and all 278 internal hashes passing. Saved-result recomputation passes 2,100 groups / 85,045 value or label comparisons, including overlapping checks. The Figure 1 caption now accurately states that all displayed T=0.010 samples are negative. D/E/F share 38 saved scalar-diagnostic histories and thinning controls are dependent sensitivity tests. Basically reproducible at the archived methods and saved-output level; independent full rerun audit not completed. [Audit and methods](B19_Followup_CP25_AUDIT_20261017.md).
 
 ---
 

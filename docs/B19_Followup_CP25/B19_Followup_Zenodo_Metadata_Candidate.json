@@ -1,0 +1,112 @@
+{
+  "creators": [
+    {
+      "person_or_org": {
+        "family_name": "Lucis",
+        "given_name": "Jun",
+        "name": "Lucis, Jun",
+        "type": "personal"
+      }
+    }
+  ],
+  "description": "<p>This follow-up studies finite-window response geometry in the restricted synthetic divergence-free vorticity continuation family of BIG B19.21-22. The primary numerical object is F_ray(T,epsilon)=Delta Z(T,epsilon;ray), with growth-decay boundaries treated as its derived zero set. The original T=0.010 brackets lose their sign split at T=0.012. Detected p01/p02 roots move outward over the sampled domains; p03 later changes from decreasing through mixed to increasing response orientation.</p>\n<p>Version 1.1 preserves the scientific numbers, both original tables, all four original figure rasters, and the original formal claim statuses. It clarifies the inherited Fourier-projected unforced periodic RK4 implementation, saved-sample quadrature and activation readouts, finite-domain root and secant definitions, shared-history lineage, and the dependence of deterministic thinning controls. Figure 1 retains its original pixels; its caption now correctly states that all displayed T=0.010 samples are negative and that the reference roots lie below the displayed epsilon ranges.</p>\n<p>The complete ZIP includes the revised English PDF and editable DOCX, 18 recovered notebook candidates, 98 recovered Drive result files, the immutable original public materials, seven extracted stage packages, source and release SHA-256 manifests, 258 unchanged definition extracts in 10 namespaces, a saved-result verifier and audit notes. The Japanese Version 1.0 reference DOCX is retained as the earlier version, not a translation of Version 1.1. B19.21-A/B source notebooks have not been separately recovered; their archived tables support the stated algebraic checks, without certifying their earlier initial-field generation or preregistration history.</p>\n<p>Saved-data verification passes 2,100 check groups covering 85,045 numerical or label comparisons, including reused and overlapping quantities rather than independent samples. Historical manifest checks pass 132 entries. Complete trajectories here mean saved scalar-diagnostic histories, not every three-dimensional field at every internal solver step. The 57 historical recovery readouts document computations already present in the original archive. No new ODE/PDE trajectories were generated in this audit.</p>\n<p>Assessment: basically reproducible at the archived methods and saved-output level; independent end-to-end rerun audit not completed. Original notebooks retain historical errors, interruptions, Colab paths, helper redefinitions and checkpoint dependencies. A fresh full run requires configuration and path adaptation. Deterministic thinning does not establish independent PDE-discretization convergence or external validation. The cone-inspired comparison with the 2026 OpenAI construction is structural only; no independent proof or Lean validation, Navier-Stokes blow-up, regularity criterion, universal invariant manifold or universal separatrix is claimed.</p>\n<p>Project repository: <a href=\"https://github.com/Jun-Lucis/BIG-theory\">https://github.com/Jun-Lucis/BIG-theory</a></p>",
+  "publication_date": "2026-10-17",
+  "publisher": "Zenodo",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22726848",
+      "relation_type": {
+        "id": "continues",
+        "title": {
+          "de": "Setzt fort",
+          "en": "Continues"
+        }
+      },
+      "resource_type": {
+        "id": "publication-preprint",
+        "title": {
+          "de": "Preprint",
+          "en": "Preprint"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23427540",
+      "scheme": "doi",
+      "relation_type": {
+        "id": "references"
+      },
+      "resource_type": {
+        "id": "publication-preprint"
+      }
+    },
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references"
+      },
+      "resource_type": {
+        "id": "other"
+      }
+    }
+  ],
+  "resource_type": {
+    "id": "publication-preprint",
+    "title": {
+      "de": "Preprint",
+      "en": "Preprint"
+    }
+  },
+  "rights": [
+    {
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "id": "cc-by-4.0",
+      "props": {
+        "scheme": "spdx",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "vorticity"
+    },
+    {
+      "subject": "enstrophy"
+    },
+    {
+      "subject": "finite-window response surface"
+    },
+    {
+      "subject": "zero contour"
+    },
+    {
+      "subject": "local separatrix"
+    },
+    {
+      "subject": "delayed activation"
+    },
+    {
+      "subject": "direction dependence"
+    },
+    {
+      "subject": "sampling robustness"
+    },
+    {
+      "subject": "Boundary Information Geometry"
+    },
+    {
+      "subject": "Navier-Stokes-type dynamics"
+    }
+  ],
+  "title": "Finite-Window Response Geometry in Boundary-Core Vorticity Dynamics: Time-Dependent Zero Contours and Direction-Dependent Response Reversal",
+  "version": "1.1"
+}

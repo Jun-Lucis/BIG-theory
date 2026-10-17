@@ -1,0 +1,669 @@
+{
+  "status": "PASS",
+  "entries": 132,
+  "status_counts": {
+    "PASS": 132
+  },
+  "records": [
+    {
+      "manifest": "top_level",
+      "file": "README.md",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "REPRODUCIBILITY_README.md",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "ZENODO_DEPOSIT_TEXT.txt",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "ZENODO_METADATA_DRAFT.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "audit/B19_21_22_claim_ledger.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "audit/B19_21_22_package_audit.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/B19_21B_refined_bracket_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/B19_21B_refined_initial_cone_test.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_21C_results_package.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22A_results_package.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22B_results_package.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22C_COMPLETE_ARCHIVE.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22D_response_surface_analysis_package (1).zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22E_local_response_geometry_package_v1_1_corrected.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "data/BIG_B19_22F_sampling_robustness_package.zip",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_21C_temporal_channel_separation_colab_v1.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22A_trajectory_boundary_stability_colab_v1_1_corrected.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22B_moving_finite_window_boundary_colab_v1.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22C_complete_archive_recovery_colab_v1.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22C_p03_recovery_audit_colab_v1.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22C_recovery_audit_v2_ZIP_anchored.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22D_response_surface_analysis_colab_v1_1_corrected.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22E_local_response_geometry_colab_v1_1_corrected.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "top_level",
+      "file": "notebooks/BIG_B19_22F_sampling_robustness_colab_v1_1_corrected.ipynb",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_balance_total.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_case_summary_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_delta_enstrophy.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_event_times.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_integrated_balance_to_t.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_pairwise_separation_curves.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_refined_pair_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_refined_pair_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_temporal_separation_overlay.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_theta_signed_gate.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_21C_results_package/B19_21C_SHA256_manifest.json",
+      "file": "B19_21C_timeseries_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_boundary_survival.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_bracket_gap_vs_horizon.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_case_summary_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_deltaZ_vs_horizon.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_first_failure.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_fixed_bracket_survival.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_horizon_readout.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_integrated_balance_vs_horizon.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22A_results_package/B19_22A_SHA256_manifest.json",
+      "file": "B19_22A_timeseries_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_all_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_case_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_coarse_scan.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_epsilon_c_vs_T.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_moving_boundary.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22B_results_package/B19_22B_SHA256_manifest.json",
+      "file": "B19_22B_status.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_COMPLETE_archive_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_COMPLETE_case_coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_RECOVERED_SHA256_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_SHA256_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries_COMPLETE_38of38.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries_RECOVERED.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint_backup_1789390072.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.012.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.015.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.020.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_extended_boundary_status.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_extended_scan_curves.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_missing_case_recovery_audit.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovered_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovered_timeseries_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovery_audit.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovery_audit_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_recovered_case_coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_COMPLETE_SHA256_manifest.json",
+      "file": "B19_22C_recovery_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_SHA256_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries_RECOVERED.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint_backup_1789390072.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.012.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.015.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.020.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_extended_boundary_status.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_extended_scan_curves.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovered_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovered_timeseries_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovery_audit.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_p03_recovery_audit_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_recovered_case_coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_RECOVERED_SHA256_manifest.json",
+      "file": "B19_22C_recovery_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_all_timeseries.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_case_checkpoint_backup_1789390072.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.012.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.015.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_deltaZ_vs_epsilon_T0.020.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_extended_boundary_status.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_extended_scan_curves.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22C_COMPLETE_ARCHIVE/B19_22C_SHA256_manifest.json",
+      "file": "B19_22C_main_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_epsilon_secant_slopes.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_T0.010.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_T0.012.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_T0.015.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_T0.020.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_class_by_time.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_class_transitions.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_response_samples.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_time_family_loss_ray_p01.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_time_family_loss_ray_p02.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_time_family_loss_ray_p03.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22D_response_surface_analysis_package_1_/B19_22D_SHA256_manifest.json",
+      "file": "B19_22D_zero_crossings_descriptive.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_contour_velocity.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_orientation_reversal_times.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_ray_geometry_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_response_orientation.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_topology_classification.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_zero_contour_geometry.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22E_local_response_geometry_package_v1_1_corrected/B19_22E_SHA256_manifest.json",
+      "file": "B19_22E_zero_contour_tracks.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_class_by_epsilon_variant.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_epsilon_sampling_reversal_times.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_epsilon_sampling_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_orientation_full_grid.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_p03_epsilon_sampling.png",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_sign_margin_audit.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_summary.json",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_time_sampling_reversal_times.csv",
+      "status": "PASS"
+    },
+    {
+      "manifest": "sources/public_stage_packages/BIG_B19_22F_sampling_robustness_package/B19_22F_SHA256_manifest.json",
+      "file": "B19_22F_time_sampling_summary.csv",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "namespaces": 10,
+  "unchanged_top_level_definitions": 258,
+  "loaded_without_experiment_execution": true,
+  "independent_full_rerun_audit": "NOT_COMPLETED"
+}

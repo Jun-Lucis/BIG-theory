@@ -754,7 +754,7 @@ Current entries include:
 | B17 | Stored versus readable history (v1.1; historical v1.0: 22677581) | https://doi.org/10.5281/zenodo.23405881 |
 | B18 | Boundary readout operators (v0.2; historical v0.1: 22690970) | https://doi.org/10.5281/zenodo.23427115 |
 | B19 | Boundary-core channel diagnostics | https://doi.org/10.5281/zenodo.23427540 |
-| B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.22769513 |
+| B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.23427904 |
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
 | B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.22846729 |
 | B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |

@@ -1,0 +1,86 @@
+[
+  {
+    "notebook": "160YHMPn__BIG_B19_21C_temporal_channel_separation_colab_v1.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  },
+  {
+    "notebook": "1d_uxdwB__BIG_B19_22A_trajectory_boundary_stability_colab_v1_1_corrected.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  },
+  {
+    "notebook": "1i3V5zGo__BIG_B19_22B_moving_finite_window_boundary_colab_v1.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  },
+  {
+    "notebook": "1E-MJA1F__BIG_B19_22C_boundary_escape_extended_continuation_colab_v1.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  },
+  {
+    "notebook": "1TUlV4IH__BIG_B19_22C_complete_archive_recovery_colab_v1.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  },
+  {
+    "notebook": "1PWK_U6M__BIG_B19_22C_recovery_audit_v2_ZIP_anchored.ipynb",
+    "identical_core_functions": {
+      "make_grid": true,
+      "project_divergence_free_vector": true,
+      "velocity_from_vorticity": true,
+      "vorticity_rhs": true,
+      "rk4_step": true,
+      "choose_dt": true,
+      "make_base_vorticity_from_params": true,
+      "scale_to_kinetic_energy": true,
+      "point_on_ray": true
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "pages": 14,
+  "pdf_bytes": 466674,
+  "pdf_sha256": "82b2b5394410e792e39b54a1a17a11d590c5275898e68e269688615a661ba7a9",
+  "old_figures": [
+    [
+      1260,
+      900,
+      "d22b6e688ed67c53a3fb16413d07d4e3bf175bb9e4a6154852e2500956f68600"
+    ],
+    [
+      1260,
+      900,
+      "d7866e4723d36f10473e16b6e653ab334ec0817238e1593d4ac8c416f339d5e0"
+    ],
+    [
+      1260,
+      900,
+      "dcefeda31d35065cdaac22b04153fe43a6fb24ec0ba84199f930123602abe1b3"
+    ],
+    [
+      1440,
+      900,
+      "4dc516fd0d93fb59448e313091624f1b3f08ede3e15259d99c41f228103f1b05"
+    ]
+  ],
+  "new_figures": [
+    [
+      1260,
+      900,
+      "d22b6e688ed67c53a3fb16413d07d4e3bf175bb9e4a6154852e2500956f68600"
+    ],
+    [
+      1260,
+      900,
+      "d7866e4723d36f10473e16b6e653ab334ec0817238e1593d4ac8c416f339d5e0"
+    ],
+    [
+      1260,
+      900,
+      "dcefeda31d35065cdaac22b04153fe43a6fb24ec0ba84199f930123602abe1b3"
+    ],
+    [
+      1440,
+      900,
+      "4dc516fd0d93fb59448e313091624f1b3f08ede3e15259d99c41f228103f1b05"
+    ]
+  ],
+  "original_figure_rgb_exact": true,
+  "original_tables_all_cells_exact": 2,
+  "text_outside_page": [],
+  "visual_review": "PASS",
+  "all_pages_reviewed_at_full_resolution": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "layout_notes": "All 14 pages inspected; original image pixels and table cells retained; figure/caption groups and references are legible, with no clipping or overlap."
+}

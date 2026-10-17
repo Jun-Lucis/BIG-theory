@@ -1,0 +1,19 @@
+{
+  "status": "PUBLISHED_PUBLIC_REDOWNLOAD_VERIFIED",
+  "public_url": "https://zenodo.org/records/23427904",
+  "doi": "10.5281/zenodo.23427904",
+  "version": "1.1",
+  "publication_date": "2026-10-17",
+  "filename": "BIG_B19_21_22_v1_1_COMPLETE_20261017.zip",
+  "bytes": 25020630,
+  "sha256": "5f921f90f450e1adfd84a78e9ececf1ccd150f3c849c4d9980356348af2e8332",
+  "md5": "98fa50848a6c0ae1c5b3e1d7fb68f88f",
+  "public_download_byte_identical": true,
+  "crc": "PASS",
+  "members": 279,
+  "internal_sha256_checks": 278,
+  "internal_sha256_status": "PASS",
+  "independent_full_rerun_audit": "NOT_COMPLETED",
+  "scientific_values_figures_formal_verdicts_preserved": true,
+  "assessment_ja": "基本的に再現可能。独立した再実行監査は未了"
+}

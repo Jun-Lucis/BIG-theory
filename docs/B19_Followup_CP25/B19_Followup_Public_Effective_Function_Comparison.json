@@ -1,0 +1,72 @@
+[
+  {
+    "namespace": "B19_21C",
+    "public_effective_functions": 34,
+    "same_effective_definitions": 34,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22A",
+    "public_effective_functions": 34,
+    "same_effective_definitions": 34,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22B",
+    "public_effective_functions": 36,
+    "same_effective_definitions": 36,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22C",
+    "public_effective_functions": 36,
+    "same_effective_definitions": 36,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22C_complete_recovery",
+    "public_effective_functions": 37,
+    "same_effective_definitions": 37,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22C_p03_audit",
+    "public_effective_functions": 34,
+    "same_effective_definitions": 34,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22C_zip_audit",
+    "public_effective_functions": 35,
+    "same_effective_definitions": 35,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22D",
+    "public_effective_functions": 1,
+    "same_effective_definitions": 1,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22E",
+    "public_effective_functions": 3,
+    "same_effective_definitions": 3,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  },
+  {
+    "namespace": "B19_22F",
+    "public_effective_functions": 6,
+    "same_effective_definitions": 6,
+    "status": "PASS",
+    "note": "Compares final function definitions in source order; notebook top-level orchestration and recorded execution history are separate."
+  }
+]

@@ -39,7 +39,9 @@ Integrated record v1.1: https://zenodo.org/records/23427540
 
 Historical v1: https://zenodo.org/records/22726848
 
-Finite-time response follow-up: https://zenodo.org/records/22769513
+Finite-time response follow-up v1.1: https://zenodo.org/records/23427904
+
+Historical follow-up v1.0: https://zenodo.org/records/22769513
 
 Author: Jun Lucis
 
@@ -57,4 +59,20 @@ Assessment: **Basically reproducible from archived methods and saved outputs; in
 - [Published archive verification](../../docs/B19_CP24/B19_Public_Redownload_Verification_20261017.json)
 - [Recovered definitions and saved-result verifier](../../code/B19_recovered)
 
-The B19.21-22 follow-up remains a separate audit target; its existing scientific conclusions have not been regraded by CP24.
+The B19.21-22 follow-up is separate from the integrated CP24 audit; its subsequent CP25 audit is documented below.
+
+## CP25 follow-up audit and complete archive
+
+[B19.21-22 Version 1.1](https://zenodo.org/records/23427904) is published as one complete ZIP. The public redownload is byte-identical to the frozen archive: 25,020,630 bytes, 279 members, CRC and 278 internal SHA-256 hashes all pass. SHA-256: `5f921f90f450e1adfd84a78e9ececf1ccd150f3c849c4d9980356348af2e8332`.
+
+The clarified 14-page English manuscript preserves all scientific numbers, both original tables, all four original figure rasters and formal claim statuses. The Figure 1 pixels are unchanged; its caption correctly notes that every displayed T=0.010 sample is negative and the reference roots lie below the displayed epsilon ranges. The implementation, saved-sample integration, shared-history lineage, finite-domain secants/roots, deterministic thinning and historical recovery computations are distinguished explicitly.
+
+The archive includes 18 recovered notebook candidates, 98 recovered Drive result files, immutable original public materials, seven extracted stage packages and 258 unchanged definitions in 10 namespaces. All 132 historical manifest checks pass. B19.21-A/B source notebooks are not separately recovered; archived tables support the documented algebraic checks. Original interruptions, Colab paths, duplicate helpers and checkpoints remain visible. Japanese v1.0 is an earlier reference, not a v1.1 translation.
+
+Saved-result recomputation passes 2,100 check groups / 85,045 numeric or label comparisons, including shared and overlapping checks, not independent observations. No new ODE/PDE trajectories are generated. D/E/F reuse 38 saved scalar-diagnostic histories. Historical recovery checks and deterministic thinning do not establish independent solver, continuum or external validation.
+
+Assessment: **Basically reproducible at the archived methods and saved-output level; independent end-to-end rerun audit not completed.** All original formal claim statuses are retained.
+
+- [Japanese audit report](../../docs/B19_Followup_CP25_AUDIT_20261017.md)
+- [Published archive verification](../../docs/B19_Followup_CP25/B19_Followup_Public_Redownload_Verification_20261017.json)
+- [Recovered definitions and saved-result verifier](../../code/B19_followup_recovered)
