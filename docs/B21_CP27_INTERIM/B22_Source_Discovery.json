@@ -1,0 +1,534 @@
+{
+  "status": "SOURCE_LOCATIONS_IDENTIFIED_NOT_YET_DOWNLOADED_OR_AUDITED",
+  "notebook_count": 5,
+  "notebook_metadata_bytes": 2102566,
+  "notebooks": [
+    {
+      "name": "BIG_B22_E5_R09_PROSPECTIVE_CURVATURE_v1.ipynb",
+      "size_bytes": 677605
+    },
+    {
+      "name": "BIG_B22_E4_R09_T1_FULL_CURVATURE_COMPLETION_v1.ipynb",
+      "size_bytes": 630168
+    },
+    {
+      "name": "BIG_B22_E3_R09_PROSPECTIVE_NORMAL_ROTATION_v1.ipynb",
+      "size_bytes": 361885
+    },
+    {
+      "name": "BIG_B22_E2_TEMPORAL_NORMAL_ROTATION_AUDIT_v1.ipynb",
+      "size_bytes": 138083
+    },
+    {
+      "name": "BIG_B22_E1_FULL_HESSIAN_GEOMETRY_FROZEN_v1.ipynb",
+      "size_bytes": 294825
+    }
+  ],
+  "stages": [
+    {
+      "name": "B22_E1",
+      "direct_file_count": 18,
+      "direct_folder_count": 2,
+      "files": [
+        {
+          "name": "B22_E1_ANALYSIS_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 82
+        },
+        {
+          "name": "B22_E1_HESSIAN_EIGENSYSTEM_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 530
+        },
+        {
+          "name": "B22_E1_LOCAL_GEOMETRY_hess_h2.json",
+          "kind": "file",
+          "size_bytes": 892
+        },
+        {
+          "name": "B22_E1_HVP_REGRESSION.csv",
+          "kind": "file",
+          "size_bytes": 618
+        },
+        {
+          "name": "B22_E1_LOCAL_GEOMETRY_hess_h1.json",
+          "kind": "file",
+          "size_bytes": 894
+        },
+        {
+          "name": "B22_E1_HESSIAN_EIGENSYSTEM_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 529
+        },
+        {
+          "name": "B22_E1_HESS_H2_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 43
+        },
+        {
+          "name": "B22_E1_FINAL_SUMMARY.json",
+          "kind": "file",
+          "size_bytes": 1913
+        },
+        {
+          "name": "B22_E1_PRINCIPAL_CURVATURE_MATCH.csv",
+          "kind": "file",
+          "size_bytes": 1098
+        },
+        {
+          "name": "B22_E1_COMPLETE_65_OF_65.json",
+          "kind": "file",
+          "size_bytes": 35
+        },
+        {
+          "name": "B22_E1_FULL_HESSIAN_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 364
+        },
+        {
+          "name": "B22_E1_live_state.csv",
+          "kind": "file",
+          "size_bytes": 2985
+        },
+        {
+          "name": "B22_E1_live_state.json",
+          "kind": "file",
+          "size_bytes": 71
+        },
+        {
+          "name": "B22_E1_FULL_HESSIAN_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 367
+        },
+        {
+          "name": "B22_E1_HESS_H1_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 43
+        },
+        {
+          "name": "B22_E1_CENTER_REGRESSION_GATE.json",
+          "kind": "file",
+          "size_bytes": 262
+        },
+        {
+          "name": "B22_E1_PREDECLARATION_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 1321
+        },
+        {
+          "name": "B22_E1_MANIFEST_65_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 13552
+        },
+        {
+          "name": "figures",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "trajectory_cache",
+          "kind": "folder",
+          "size_bytes": null
+        }
+      ]
+    },
+    {
+      "name": "B22_E2",
+      "direct_file_count": 7,
+      "direct_folder_count": 1,
+      "files": [
+        {
+          "name": "B22_E2_STOP_RULE.json",
+          "kind": "file",
+          "size_bytes": 127
+        },
+        {
+          "name": "B22_E2_FINAL_SUMMARY.json",
+          "kind": "file",
+          "size_bytes": 2751
+        },
+        {
+          "name": "B22_E2_NORMAL_ROTATION_COMPONENTS.csv",
+          "kind": "file",
+          "size_bytes": 534
+        },
+        {
+          "name": "B22_E2_SCALE_COMPARISON.csv",
+          "kind": "file",
+          "size_bytes": 677
+        },
+        {
+          "name": "B22_E2_NORMALS.csv",
+          "kind": "file",
+          "size_bytes": 561
+        },
+        {
+          "name": "B22_E2_INPUT_SHA256.json",
+          "kind": "file",
+          "size_bytes": 417
+        },
+        {
+          "name": "B22_E2_AUDIT_PLAN_RECORDED.json",
+          "kind": "file",
+          "size_bytes": 2003
+        },
+        {
+          "name": "figures",
+          "kind": "folder",
+          "size_bytes": null
+        }
+      ]
+    },
+    {
+      "name": "B22_E3",
+      "direct_file_count": 23,
+      "direct_folder_count": 4,
+      "files": [
+        {
+          "name": "B22_E3_T1_OBSERVED_NORMALS.csv",
+          "kind": "file",
+          "size_bytes": 493
+        },
+        {
+          "name": "B22_E3_FINAL_SUMMARY.json",
+          "kind": "file",
+          "size_bytes": 4314
+        },
+        {
+          "name": "B22_E3_STOP_RULE.json",
+          "kind": "file",
+          "size_bytes": 125
+        },
+        {
+          "name": "B22_E3_PROSPECTIVE_COMPARISON.csv",
+          "kind": "file",
+          "size_bytes": 859
+        },
+        {
+          "name": "B22_E3_PHASE_C_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 35
+        },
+        {
+          "name": "B22_E3_phase_C_live_state.json",
+          "kind": "file",
+          "size_bytes": 71
+        },
+        {
+          "name": "B22_E3_phase_C_live_state.csv",
+          "kind": "file",
+          "size_bytes": 604
+        },
+        {
+          "name": "B22_E3_PHASE_C_T1_GRADIENT_MANIFEST_17_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 3917
+        },
+        {
+          "name": "B22_E3_T1_ROOT_RESULT.json",
+          "kind": "file",
+          "size_bytes": 607
+        },
+        {
+          "name": "B22_E3_T1_ROOT_REFINEMENT_HISTORY.csv",
+          "kind": "file",
+          "size_bytes": 532
+        },
+        {
+          "name": "B22_E3_T1_ROOT_SCAN_RESULTS.csv",
+          "kind": "file",
+          "size_bytes": 389
+        },
+        {
+          "name": "B22_E3_T1_ROOT_SCAN_MANIFEST_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 540
+        },
+        {
+          "name": "B22_E3_phase_A_live_state.csv",
+          "kind": "file",
+          "size_bytes": 2985
+        },
+        {
+          "name": "B22_E3_PHASE_A_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 65
+        },
+        {
+          "name": "B22_E3_phase_A_live_state.json",
+          "kind": "file",
+          "size_bytes": 71
+        },
+        {
+          "name": "B22_E3_T0_FULL_HESSIAN_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 366
+        },
+        {
+          "name": "B22_E3_T0_FULL_HESSIAN_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 369
+        },
+        {
+          "name": "B22_E3_PHASE_A_HESS_H1_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 43
+        },
+        {
+          "name": "B22_E3_PHASE_A_MANIFEST_65_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 13545
+        },
+        {
+          "name": "B22_E3_PHASE_C_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 345
+        },
+        {
+          "name": "B22_E3_T1_ROOT_SEARCH_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 804
+        },
+        {
+          "name": "B22_E3_PREDICTIONS_FROZEN_BEFORE_T1_PDE.json",
+          "kind": "file",
+          "size_bytes": 4429
+        },
+        {
+          "name": "B22_E3_PREDECLARATION_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 2801
+        },
+        {
+          "name": "figures",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "phase_C_T1_gradient_cache",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "phase_B_T1_root_cache",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "phase_A_T0_geometry_cache",
+          "kind": "folder",
+          "size_bytes": null
+        }
+      ]
+    },
+    {
+      "name": "B22_E4",
+      "direct_file_count": 14,
+      "direct_folder_count": 2,
+      "files": [
+        {
+          "name": "B22_E4_FINAL_SUMMARY.json",
+          "kind": "file",
+          "size_bytes": 1595
+        },
+        {
+          "name": "B22_E4_STOP_RULE.json",
+          "kind": "file",
+          "size_bytes": 116
+        },
+        {
+          "name": "B22_E4_T1_PRINCIPAL_CURVATURE_MATCH.csv",
+          "kind": "file",
+          "size_bytes": 1107
+        },
+        {
+          "name": "B22_E4_T1_HESSIAN_EIGENSYSTEM_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 528
+        },
+        {
+          "name": "B22_E4_CROSS_TIME_DESCRIPTIVE_AUDIT.csv",
+          "kind": "file",
+          "size_bytes": 530
+        },
+        {
+          "name": "B22_E4_T1_HESSIAN_EIGENSYSTEM_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 527
+        },
+        {
+          "name": "B22_E4_ACQUISITION_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 66
+        },
+        {
+          "name": "B22_E4_live_state.csv",
+          "kind": "file",
+          "size_bytes": 1841
+        },
+        {
+          "name": "B22_E4_T1_FULL_HESSIAN_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 360
+        },
+        {
+          "name": "B22_E4_live_state.json",
+          "kind": "file",
+          "size_bytes": 71
+        },
+        {
+          "name": "B22_E4_T1_FULL_HESSIAN_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 363
+        },
+        {
+          "name": "B22_E4_HESS_H1_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 49
+        },
+        {
+          "name": "B22_E4_PREDECLARATION_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 1394
+        },
+        {
+          "name": "B22_E4_MIXED_MANIFEST_48_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 11292
+        },
+        {
+          "name": "figures",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "mixed_point_cache",
+          "kind": "folder",
+          "size_bytes": null
+        }
+      ]
+    },
+    {
+      "name": "B22_E5",
+      "direct_file_count": 20,
+      "direct_folder_count": 3,
+      "files": [
+        {
+          "name": "B22_E5_FINAL_SUMMARY.json",
+          "kind": "file",
+          "size_bytes": 3054
+        },
+        {
+          "name": "B22_E5_OBSERVED_CROSS_SCALE_MODES.csv",
+          "kind": "file",
+          "size_bytes": 524
+        },
+        {
+          "name": "B22_E5_PROSPECTIVE_COMPARISON.csv",
+          "kind": "file",
+          "size_bytes": 429
+        },
+        {
+          "name": "B22_E5_STOP_RULE.json",
+          "kind": "file",
+          "size_bytes": 137
+        },
+        {
+          "name": "B22_E5_PROSPECTIVE_PRINCIPAL_MODES.csv",
+          "kind": "file",
+          "size_bytes": 922
+        },
+        {
+          "name": "B22_E5_T2_FULL_HESSIAN_hess_h1.csv",
+          "kind": "file",
+          "size_bytes": 369
+        },
+        {
+          "name": "B22_E5_T2_FULL_HESSIAN_hess_h2.csv",
+          "kind": "file",
+          "size_bytes": 364
+        },
+        {
+          "name": "B22_E5_PHASE_B_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 65
+        },
+        {
+          "name": "B22_E5_phase_B_live_state.json",
+          "kind": "file",
+          "size_bytes": 71
+        },
+        {
+          "name": "B22_E5_phase_B_live_state.csv",
+          "kind": "file",
+          "size_bytes": 2309
+        },
+        {
+          "name": "B22_E5_HESS_H1_COMPLETE.json",
+          "kind": "file",
+          "size_bytes": 43
+        },
+        {
+          "name": "B22_E5_T2_ROOT_RESULT.json",
+          "kind": "file",
+          "size_bytes": 601
+        },
+        {
+          "name": "B22_E5_T2_ROOT_REFINEMENT_HISTORY.csv",
+          "kind": "file",
+          "size_bytes": 539
+        },
+        {
+          "name": "B22_E5_T2_ROOT_SCAN_RESULTS.csv",
+          "kind": "file",
+          "size_bytes": 390
+        },
+        {
+          "name": "B22_E5_T2_FULL_GEOMETRY_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 354
+        },
+        {
+          "name": "B22_E5_T2_FULL_GEOMETRY_MANIFEST_65_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 14890
+        },
+        {
+          "name": "B22_E5_PREDICTED_CROSS_SCALE_MODES.csv",
+          "kind": "file",
+          "size_bytes": 525
+        },
+        {
+          "name": "B22_E5_T2_ROOT_SCAN_MANIFEST_FROZEN.csv",
+          "kind": "file",
+          "size_bytes": 535
+        },
+        {
+          "name": "B22_E5_PREDICTIONS_FROZEN_BEFORE_T2_PDE.json",
+          "kind": "file",
+          "size_bytes": 4130
+        },
+        {
+          "name": "B22_E5_PREDECLARATION_FROZEN.json",
+          "kind": "file",
+          "size_bytes": 2066
+        },
+        {
+          "name": "figures",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "phase_B_T2_full_geometry_cache",
+          "kind": "folder",
+          "size_bytes": null
+        },
+        {
+          "name": "phase_A_T2_root_cache",
+          "kind": "folder",
+          "size_bytes": null
+        }
+      ]
+    }
+  ]
+}

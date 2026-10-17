@@ -1,0 +1,229 @@
+{
+  "status": "PASS",
+  "scope": "Independent E12 saved-table algebra only; not the pending whole-source verifier, not a PDE rerun, not residual uncertainty certification",
+  "comparison_count": 23,
+  "path_coordinate_direction": [
+    -2.550993040823421,
+    -0.6382357908294106,
+    -2.0650148258027912e-14,
+    -1.0047518372857667e-14
+  ],
+  "path_coordinate_direction_norm": 2.62962172546265,
+  "checks": [
+    {
+      "name": "DgDt_component_1",
+      "actual": 2.3114096557037533,
+      "expected": 2.3114096557037533,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "transport_component_1",
+      "actual": -0.05181959792510744,
+      "expected": -0.051819597925107416,
+      "absolute_error": 2.0816681711721685e-17,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "prediction_component_1",
+      "actual": 2.3106557201892235,
+      "expected": 2.3106557201892235,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "residual_component_1",
+      "actual": 0.0007539355145298465,
+      "expected": 0.0007539355145298465,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "DgDt_component_2",
+      "actual": -1.6846538355821379,
+      "expected": -1.6846538355821379,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "transport_component_2",
+      "actual": 0.01162030606964412,
+      "expected": 0.011620306069644117,
+      "absolute_error": 3.469446951953614e-18,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "prediction_component_2",
+      "actual": -1.684420889971987,
+      "expected": -1.684420889971987,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "residual_component_2",
+      "actual": -0.00023294561015085868,
+      "expected": -0.00023294561015085868,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "DgDt_component_3",
+      "actual": -0.4827142111025746,
+      "expected": -0.4827142111025746,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "transport_component_3",
+      "actual": -0.02200836086786652,
+      "expected": -0.022008360867866512,
+      "absolute_error": 6.938893903907228e-18,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "prediction_component_3",
+      "actual": -0.482395663724291,
+      "expected": -0.482395663724291,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "residual_component_3",
+      "actual": -0.000318547378283629,
+      "expected": -0.000318547378283629,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "DgDt_component_4",
+      "actual": -1.2041599411531922,
+      "expected": -1.2041599411531922,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "transport_component_4",
+      "actual": -0.1014125224388387,
+      "expected": -0.10141252243883868,
+      "absolute_error": 2.7755575615628914e-17,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "prediction_component_4",
+      "actual": -1.2079671705669677,
+      "expected": -1.2079671705669677,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "residual_component_4",
+      "actual": 0.003807229413775426,
+      "expected": 0.003807229413775426,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "speed",
+      "actual": 83.96484374999972,
+      "expected": 83.96484374999972,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "speed_bracket_scale",
+      "actual": 0.058593750000002165,
+      "expected": 0.058593750000002165,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "residual_norm",
+      "actual": 0.003901172984973377,
+      "expected": 0.003901172984973377,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "relative_residual",
+      "actual": 0.0012421543366251708,
+      "expected": 0.0012421543366251708,
+      "absolute_error": 0,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "root_DgDt_scale",
+      "actual": 0.006830425486455968,
+      "expected": 0.0068304254864559695,
+      "absolute_error": 1.734723475976807e-18,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "relative_root_scale",
+      "actual": 0.0021748439947874487,
+      "expected": 0.0021748439947874483,
+      "absolute_error": 4.336808689942018e-19,
+      "tolerance": 2e-12,
+      "status": "PASS"
+    },
+    {
+      "name": "angle",
+      "actual": 0.06989347693731462,
+      "expected": 0.06989347694774377,
+      "absolute_error": 1.0429143659784756e-11,
+      "tolerance": 2e-9,
+      "status": "PASS"
+    }
+  ],
+  "conditional_shared_root_corners": [
+    {
+      "root_minus_shift": -0.00002929687500000111,
+      "root_plus_shift": -0.00002929687500000111,
+      "direct_shift_norm": 0,
+      "predicted_transport_shift_norm": 0,
+      "conditional_residual_shift_norm": 0
+    },
+    {
+      "root_minus_shift": -0.00002929687500000111,
+      "root_plus_shift": 0.00002929687500000111,
+      "direct_shift_norm": 0.006830425486455969,
+      "predicted_transport_shift_norm": 0.006830425486455969,
+      "conditional_residual_shift_norm": 0
+    },
+    {
+      "root_minus_shift": 0.00002929687500000111,
+      "root_plus_shift": -0.00002929687500000111,
+      "direct_shift_norm": 0.006830425486455969,
+      "predicted_transport_shift_norm": 0.006830425486455969,
+      "conditional_residual_shift_norm": 0
+    },
+    {
+      "root_minus_shift": 0.00002929687500000111,
+      "root_plus_shift": 0.00002929687500000111,
+      "direct_shift_norm": 0,
+      "predicted_transport_shift_norm": 0,
+      "conditional_residual_shift_norm": 0
+    }
+  ],
+  "assumption": "Endpoint gradient path sensitivities a_minus=a_plus=a0=||v_q|| HVP_h2. This assumption is diagnostic only; endpoint sensitivities were not enclosed."
+}
