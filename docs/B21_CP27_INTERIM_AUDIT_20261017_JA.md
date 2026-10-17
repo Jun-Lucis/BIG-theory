@@ -98,3 +98,21 @@ E1〜E5直下で82 files・12 subfoldersを確認した。再帰的な全結果�
 - Browser読み取りは起動元拡張コンテキスト不足で失敗。Zenodo draft作成・Publishはまだ実行していない。TinyFishの保存プロファイルにZenodoログイン登録が見えないため、有料実行を勝手に開始しない。
 
 引き続き**「基本的に再現可能。独立した再実行監査は未了」**。全体検算の旧最終JSONは依然未確認で、上記72＋23比較をこれに代えない。
+
+
+## CP27追加checkpoint：保存系列の全行照合と二重保存（2026-10-17）
+
+**状態：CP27_WORKING / NEW_ZENODO_VERSION_NOT_PUBLISHED**。完了済みCP24〜CP26の記録は変更しない。標準評価は **「基本的に再現可能。独立した再実行監査は未了」**。
+
+復旧済みの原資料ZIP（SHA-256 `5c518b8ebfeacebb95367d86393fad860b77470cbb135313154088c9b024520f`）だけを入力とした新規保存成果物検算を作成・実行。旧全体検算の最終JSONを発見したわけではない。
+
+- `code/B21_recovered/reconstructed_saved_artifacts_audit.py` および `docs/B21_CP27_INTERIM/Reconstructed_Saved_Artifacts_Audit_Result_20261017.json` を追加。独立した**保存済みデータの整合性検査**であり、PDE軌道の再計算ではない。
+- 時系列101 CSV / 7,335行、各行の `enstrophy_half - enstrophy_half(t=0)` と `delta_enstrophy`、および `stretch_total - dissipation_total` と `balance_total` の合計 **14,670件が一致**。終端時刻は0.015/0.0155/0.020で混在。
+- 対応する72 summaryの **120個のF(T)** を保存済みenstrophy_halfから再構成し照合一致。
+- E10-h1, E10-h2, E12-gradientの凍結manifest合計48行とsummary ID・適用条件を照合一致。
+- E12のT=0.0115/0.0125における2つの根区間：符号反転、中点・幅、事前固定幅、凍結記録との照合一致。これは根の物理的妥当性を独立に証明しない。
+- 原文と図・数値を保持した改訂EN/JA DOCX・PDF、検算receipt、メタデータdraft各8件をChatGPT Library保存し、Driveにも保存。Driveを再ダウンロードした**8/8件がバイト一致**。照合JSON：`docs/B21_CP27_INTERIM/Drive_Readback_Receipt_20261017.json`。
+- Library作業フォルダ：`/BIG_B21_CP27_WORKING_20261017/`。Drive作業フォルダ：`https://drive.google.com/drive/folders/1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj`（**PENDING**）。前回のLibraryアップロード接続障害は再試行で解消した。
+- Zenodoブラウザーのログイン表示は取得できたが、開いていたのは別研究B42のdraftであり、変更しなかった。現行Browser接続はread-onlyでありB21の新規版作成・予約DOI・publishは実行していない。未確認のdraftを重複作成しない。
+
+**検査境界：** 原データの既存列内整合性と保存summary・manifest・凍結根の照合に限定。元PDEコードを独立に走らせて再生成したこと、誤差の全体包絡を得たこと、歴史的な正式PASS/FAILを変更することを意味しない。完全ZIPは実際の新版DOI取得後に一度だけ固定する。
