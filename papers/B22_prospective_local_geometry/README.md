@@ -72,3 +72,8 @@ B20.6 remains **INCONCLUSIVE**. B22 does not repair or upgrade its evidence coun
 The English preprint is the authoritative version. A Japanese reference translation and the E1–E5 reproducibility release are included in the same Zenodo record.
 
 **Author:** Jun Lucis
+
+
+## Publication synchronization — 19 October 2026
+
+[B22 / v1](https://zenodo.org/records/22893912). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

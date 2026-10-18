@@ -1,5 +1,7 @@
 # Limitations and Scope of Boundary Information Geometry (BIG)
 
+**Publication scope note — 19 October 2026:** Metadata synchronization through B41 does not complete an independent PDE rerun or all source audits. B32 retains its original FAIL and incomplete independent source-local parity derivation. B33 retains separate 216/168-row historical grids and both recorded outcomes; complete old-manifest hash verification remains open. B37/B40 inaccessible source portions remain unverified. B41 P2 FAIL and P3 PASS are both retained. Draft B23 addenda and empty B34–B36 audit document shells are not completed revised publications. [Verified status and scope](publication_sync_B19_B41_2026_10_19_JA.md).
+
 This document summarizes the intended scope and limitations of **Boundary Information Geometry (BIG)**.
 
 BIG is a developing boundary-centered research programme. It is not presented as a completed physical theory or as a quantitatively calibrated model of any specific physical, biological, cognitive, or technological system.

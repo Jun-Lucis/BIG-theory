@@ -65,3 +65,8 @@ BIG-B41, preprint v1.0. Zenodo. DOI: 10.5281/zenodo.23249677.
 ```
 
 This page is a navigation and bounded-outcome summary. The Zenodo preprint is the canonical citable record.
+
+
+## Publication synchronization — 19 October 2026
+
+[B41 / v1](https://zenodo.org/records/23249677). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

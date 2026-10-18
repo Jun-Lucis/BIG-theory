@@ -66,3 +66,8 @@ The authoritative English preprint, Japanese reference translation, and reproduc
 https://doi.org/10.5281/zenodo.23048197
 
 See also: [B27–B36 later-phase status](../../docs/research_status_update_B27_B36.md).
+
+
+## Publication synchronization — 19 October 2026
+
+[B30–B36統合 / 1.1](https://zenodo.org/records/23048197). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

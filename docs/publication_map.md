@@ -1,5 +1,7 @@
 # BIG Publication Map
 
+**B19–B41 publication synchronization — 19 October 2026:** [Verified publication-unit inventory and open items](publication_sync_B19_B41_2026_10_19_JA.md). Thirteen metadata updates are published; existing files and formal classifications are retained. This does not close the unfinished full-manuscript/source-audit work. B21 current v1.1 is [23443699](https://zenodo.org/records/23443699); historical v1.0 [22876813](https://zenodo.org/records/22876813) remains archived. B27, B30–B36 and B40 are confirmed at v1.1. B37 remains an unconfirmed standalone publication.
+
 **B18 source/implementation audit, 17 October 2026:** [Version 0.2 / Zenodo 23427115](https://zenodo.org/records/23427115) is published as one complete ZIP. The 13-page clarification preserves three scientific tables and seven figure rasters and documents distributed inhibition, diagnostic gates, realized-path information, branch-dependent forcing and in-sample fits. Five original notebooks, 76 computational definitions and 124 results are archived. Saved-result checks passed 604 groups / 314,972 values plus 44 categorical checks; five public notebook code-cell sets, 22 common files / 495,864 values and seven public PNG rasters match. The public ZIP is byte-identical to the frozen archive; CRC and 182 internal hashes pass. GitHub metadata and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B18_CP23_AUDIT_20261016.md).
 **B17 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23405881](https://zenodo.org/records/23405881) is published as one complete ZIP. The 13-page clarification preserves three scientific tables, nine figure images, five executed notebooks and 153 original outputs, and documents laboratory-fixed reading, the prescribed/scalar model, phase-limited transport, PDE conventions and in-sample fits. Saved-result checks passed 7,670 groups /22,429 values. The public ZIP is byte-identical to the frozen archive; SHA-256, MD5, CRC and193 internal hashes pass. GitHub related URL and three original DOI references are confirmed in published metadata. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B17_CP22_AUDIT_20261016.md).
 
@@ -768,7 +770,7 @@ In the prospectively frozen E12 test, the closure residual is **0.1242154%**, be
 This is a local finite-dimensional numerical closure result. It is not a new equation of motion, a continuum Hessian-existence theorem, an invariant manifold, a physical-space boundary law, a universal separatrix, or a Navier--Stokes blow-up/regularity result. B20.6 remains **INCONCLUSIVE** and is not upgraded by B21.
 
 **Zenodo record and DOI:**  
-https://doi.org/10.5281/zenodo.22876813
+https://doi.org/10.5281/zenodo.23443699
 
 The English preprint is authoritative; the same record includes a Japanese reference translation.
 
@@ -863,7 +865,7 @@ BIG-B9 empirical Phase II -> cite https://doi.org/10.5281/zenodo.23128738
 BIG-B10 -> cite the B10 Zenodo DOI
 BIG-B11 -> cite the B11 Zenodo DOI
 BIG-B12 -> cite the B12 Zenodo DOI
-BIG-B21 -> cite https://doi.org/10.5281/zenodo.22876813
+BIG-B21 -> cite https://doi.org/10.5281/zenodo.23443699
 BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
 BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
 BIG-B27 current v1.1 -> cite https://doi.org/10.5281/zenodo.23368996

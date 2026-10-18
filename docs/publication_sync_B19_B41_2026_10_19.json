@@ -1,0 +1,641 @@
+{
+  "date_jst": "2026-10-19",
+  "scope": "Metadata synchronization of existing completed audit records; no new research or PDE rerun",
+  "checks": [
+    {
+      "id": "22893912",
+      "url": "https://zenodo.org/records/22893912",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "4eb67150f26db0e8ed59e60793370c8f",
+        "8720e7a7278b7de287fb961123405eff",
+        "aaea1f545dcd00145a882fbe4bce690a"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "22936794",
+      "url": "https://zenodo.org/records/22936794",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "0fcf5c1d10a9c22df5d9d7f1f6804837",
+        "8f910c7fde01335fd065c67d1fc953b9",
+        "d979cf5b9c9af372c417bb81d71c13bd"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "22956894",
+      "url": "https://zenodo.org/records/22956894",
+      "files_unchanged_md5": true,
+      "file_count": 4,
+      "md5": [
+        "3ba35103d9a82ada913e10a1fe489107",
+        "6b2d1c6681470881dedcb3a08d67e275",
+        "866cc9e8e0835ede9ef15d6a9a1ff154",
+        "e46a01eb61c446856ff010a5de05427a"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "22967474",
+      "url": "https://zenodo.org/records/22967474",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "2bbd001ea89e0e59b589d346348cfeca",
+        "607368b6fde13a9834913a07c4cc5d18",
+        "deb75db7449c209e6c1df89eb3f1adf2"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "22972985",
+      "url": "https://zenodo.org/records/22972985",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "2afd4ef17b3418593104d5a1116ac4e7",
+        "a58d682fc9ff4b82c19aeeba591c056a",
+        "fdfd589c8feae44c32e362515568c42d"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "22994445",
+      "url": "https://zenodo.org/records/22994445",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "08f6eb970b2179114a22fe1c53fac7c0",
+        "2f055f489daca803b3c47e0156bf69a5",
+        "95ad302db8b6b286d01cff3367e5df19"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "23048197",
+      "url": "https://zenodo.org/records/23048197",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "067d08f69c14bb4abf1237f82a7c17a9",
+        "090dbd01778b2e80924c97291b472e44",
+        "19fb069b94c9d435e2fdf952fe0c5247"
+      ],
+      "version": "1.1"
+    },
+    {
+      "id": "23050390",
+      "url": "https://zenodo.org/records/23050390",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "0986d5579560f89149846322f8a6949b",
+        "9c5ba4bef01d9751b31f9f74ce25ceb5",
+        "9cc81144abde6c7c6887236bb74ca119"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "23104248",
+      "url": "https://zenodo.org/records/23104248",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "0b370a96577fc4131b5c2eda24c1c58d",
+        "1fc3bd013262df0cddc127509ae8efdd",
+        "2159a8aafa4b6dfcaab26e76f4c41ff8"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "23113994",
+      "url": "https://zenodo.org/records/23113994",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "4530367628d53a1400b711474bdfeeaf",
+        "cbc277f0cf94237dd7b3b5e458e870eb",
+        "f0b0990a8c482b76a7c8b5a93b596251"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "23153688",
+      "url": "https://zenodo.org/records/23153688",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "223f37fdeb9d91531393be1d7fe907cb",
+        "6dfced7f6bca0e97cd7471bd47d2607b",
+        "7c8cd054e2f459406c603abef6113724"
+      ],
+      "version": "1.1"
+    },
+    {
+      "id": "23249677",
+      "url": "https://zenodo.org/records/23249677",
+      "files_unchanged_md5": true,
+      "file_count": 3,
+      "md5": [
+        "4f650bdf826ce44e3e4adbec72f651c2",
+        "81265a6a63b7437c98df9f318ffadaec",
+        "9c66c68ad86a6c9131c2dc0185146ccd"
+      ],
+      "version": "v1"
+    },
+    {
+      "id": "23368996",
+      "url": "https://zenodo.org/records/23368996",
+      "files_unchanged_md5": true,
+      "file_count": 4,
+      "md5": [
+        "627c993498732a789ba1262f2b15cc32",
+        "ac44f3816a10d9a7916e28f1f4938e14",
+        "d70b2e2605930ae322198f617958f4c3",
+        "e8a2927779436a735ce9673dbd1ca628"
+      ],
+      "version": "1.1"
+    }
+  ],
+  "records": [
+    {
+      "id": "22893912",
+      "url": "https://zenodo.org/records/22893912",
+      "title": "Prospective Local Geometry of Operator Generated Response Boundaries",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22726848",
+        "10.5281/zenodo.22769513",
+        "10.5281/zenodo.22846729"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22726848",
+        "10.5281/zenodo.22769513",
+        "10.5281/zenodo.22846729"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B22-E2 is retrospective. Its approximately 0.2205% normal-rate propagation scale is distinct from the B21 gradient-rate reference scale. Exact future-stage evaluations in E3 and E5 were held out, while coarse r09 branch summaries were already known; this is not a historically blind branch discovery. Existing chronology is supported by code assertions and stored timestamps, not an independent cryptographic proof. The saved-result audit does not establish a complete independently rerun source archive.",
+      "publication_unit": "B22",
+      "public_file_names": [
+        "BIG_B22_Prospective_Local_Geometry_Japanese_Reference_v1_0.pdf",
+        "BIG_B22_Prospective_Local_Geometry_Preprint_v1_0.pdf",
+        "BIG_B22_Zenodo_Release_v1_0.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "22936794",
+      "url": "https://zenodo.org/records/22936794",
+      "title": "Cross-Branch Short-Horizon Geometric Prediction of Operator-Generated Response Boundaries: Numerical Tests of Position, Normal, and Local Curvature",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The original aggregate classification remains INCONCLUSIVE. E1 and E4 succeeded on the same r11 direction; E2 and E3 stopped at preflight. Later repaired runs are not retroactively counted as successes of the original master protocol. The overlapping fallback classifications were resolved as INCONCLUSIVE in the published account; that tie-breaking precedence was not independently established as prospectively frozen. E3R retains its historical output, but its intended-r09 interpretation is IMPLEMENTATION_INVALID_WRONG_RAY because the saved inputs were dispatched to r12. E3R2 is corrective replication, not a newly blinded success. E5/E6R use observed T1 geometry for sequential one-step prediction. The 1,722-file source inventory is metadata-level evidence, not a complete byte/hash-verified public archive. Draft editorial addenda remain unpublished; the existing manuscripts and archive are retained.",
+      "publication_unit": "B23",
+      "public_file_names": [
+        "BIG_B23_EN_Preprint_v1_0_DOI_zenodo_22936794.pdf",
+        "BIG_B23_JA_Reference_Translation_v1_0_DOI_zenodo_22936794.pdf",
+        "BIG_B23_Zenodo_Reproducibility_Package_v1_0.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "22956894",
+      "url": "https://zenodo.org/records/22956894",
+      "title": "From Distinct Boundary Classes to Predictive Boundary-Functional Transfer: A Predeclared Numerical Reconstruction in Boundary Information Geometry",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.20779564",
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22690970",
+        "10.5281/zenodo.22726848",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.20779564",
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22690970",
+        "10.5281/zenodo.22726848",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The original B24.1b RESOLUTION_STABLE_FAIL, B24.1d PARAMETER_ROBUST_FAIL, B24.2 MULTIPLE_BOUNDARY_CLASSES_INDICATED and B25.1 AB_CONSTANT_DENSITY_FAIL are retained. The subsequent B25.1b AB_LEVEL_RESOLVED_BRIDGE_PASS does not cancel those earlier failures. Existing saved-result and frozen-package checks support the recorded finite tests; full source provenance and independent rerun coverage remain incomplete. B24 and B25 Phase I remain one integrated publication unit.",
+      "publication_unit": "B24–B25 Phase I",
+      "public_file_names": [
+        "BIG_B24_B25_English_Zenodo_Upload_Package_v1_0_DOI_zenodo_22956894.zip",
+        "BIG_B24_B25_Japanese_Reference_Package_v1_0_DOI_zenodo_22956894.zip",
+        "BIG_B24_B25_Predictive_Boundary_Functional_Transfer_Japanese_Reference_v1_0_DOI_zenodo_22956894.pdf",
+        "BIG_B24_B25_Predictive_Boundary_Functional_Transfer_Zenodo_Preprint_v1_0_DOI_zenodo_22956894.pdf"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "22967474",
+      "url": "https://zenodo.org/records/22967474",
+      "title": "Fixed-Coefficient Perimeter Closure and Its Geometry-Transfer Boundary: Prospective Phase-II Tests in Boundary Information Geometry",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22956894"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22956894"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B25.1c AB_PARALLEL_CURVE_REDUCTION_PASS, B25.1d AB_NESTED_BAND_SINGLE_PERIMETER_PASS and B25.1e AB_FIXED_COEFFICIENT_PERIMETER_PASS are retained. B25.2 remains IMPLEMENTATION_INVALID, not a protocol-valid scientific FAIL: the reported 40.72% discrepancy is descriptive only. The coarse case had bands thinner than three cells, and the fine cases did not establish the required topology span. The documented Boolean/setup repair preceded trajectory execution and did not change the frozen configuration.",
+      "publication_unit": "B25 Phase II",
+      "public_file_names": [
+        "BIG_B25_Phase_II_Fixed_Coefficient_Perimeter_Closure_Japanese_Reference_v1_0_DOI_zenodo_22967474.pdf",
+        "BIG_B25_Phase_II_Fixed_Coefficient_Perimeter_Closure_Preprint_v1_0_DOI_zenodo_22967474.pdf",
+        "BIG_B25_Phase_II_Zenodo_Upload_Package_v1_0_DOI_zenodo_22967474.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "22972985",
+      "url": "https://zenodo.org/records/22972985",
+      "title": "Resolving the Geometry-Transfer Boundary of a Fixed-Coefficient Perimeter Closure: Topology Localization and Prospective Two-Center Tests in Boundary Information Geometry",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22967474",
+        "10.5281/zenodo.22956894"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22967474",
+        "10.5281/zenodo.22956894"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B26 TOPOLOGY_SPAN_NOT_REALIZED, B26.1 TOPOLOGY_BRACKET_REFINED and B26.2 AB_TOPOLOGY_STRADDLING_FIXED_COEFFICIENT_TRANSFER_FAIL are retained. The failure is restricted to the tested fixed-coefficient canonical two-center transfer; it does not establish topology as a unique cause or a universal impossibility. Saved-profile and algebraic checks do not constitute a new PDE experiment.",
+      "publication_unit": "B26",
+      "public_file_names": [
+        "BIG_B26_Geometry_Transfer_Boundary_Japanese_Reference_v1_0_RESERVED_DOI_zenodo_22972985.pdf",
+        "BIG_B26_Geometry_Transfer_Boundary_Preprint_v1_0_RESERVED_DOI_zenodo_22972985.pdf",
+        "BIG_B26_Zenodo_Upload_Package_v1_0_RESERVED_DOI_zenodo_22972985.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "22994445",
+      "url": "https://zenodo.org/records/22994445",
+      "title": "BIG-B23A: Structural Universality and Its Limits in Boundary Information Geometry",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B23A remains a separate publication unit from the original B23 master experiment. Its results do not retroactively upgrade the original B23 aggregate INCONCLUSIVE classification.",
+      "publication_unit": "B23A",
+      "public_file_names": [
+        "BIG_B23A_Structural_Universality_Limits_Japanese_Reference_v1_0_DOI_zenodo_22994445.pdf",
+        "BIG_B23A_Structural_Universality_Limits_Preprint_v1_0_DOI_zenodo_22994445.pdf",
+        "BIG_B23A_Zenodo_Upload_Package_v1_0_DOI_zenodo_22994445.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "23048197",
+      "url": "https://zenodo.org/records/23048197",
+      "title": "From History-Conditioned Boundary Response to Geometry-Conditioned Pulse Timing in a Finite Reduced Model: Transverse Suppression, Complex Spatial Transfer, Distance-Dependent Timing, and Approximate Geometry-Readout Decomposition",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.23050390"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.23050390"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The B30–B36 integrated publication remains version 1.1. B32 retains DYNAMIC_COMPLEX_PARITY_MODE_FAIL; complete independent rederivation of the source-local parity transformation is still outstanding. For B33, the 29 September 2026 OUTPUT_COLLISION_RECOVERY_AUDIT and CLOSEOUT records distinguish the original 216-row frequency experiment from the later 168-row period experiment written to the same checkpoint. FREQUENCY_DEPENDENT_TRANSVERSE_NODE_LIFTING_PASS and PERIOD_DEPENDENT_TRANSVERSE_NODE_LIFTING_PASS remain separate historical results; no retroactive regrading is made. Complete hash verification against the old manifest remains outstanding. Existing published B34–B36 results are retained without claiming a new complete source audit.",
+      "publication_unit": "B30–B36統合",
+      "public_file_names": [
+        "BIG_B30_B36_Integrated_Japanese_Reference_v1_1_DOI_zenodo_23048197.pdf",
+        "BIG_B30_B36_Integrated_Preprint_v1_1_DOI_zenodo_23048197.pdf",
+        "BIG_B30_B36_Reproducibility_Package_v1_1_DOI_zenodo_23048197.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "1.1"
+    },
+    {
+      "id": "23050390",
+      "url": "https://zenodo.org/records/23050390",
+      "title": "Limits of Response-Lineage Transport and Predictive Readability in a Memory-Bearing Boundary Model: Prospective BIG-B28-B29 Tests",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912",
+        "10.5281/zenodo.22936794",
+        "10.5281/zenodo.22994445",
+        "10.5281/zenodo.22972985",
+        "10.5281/zenodo.23006170",
+        "10.5281/zenodo.23024324",
+        "10.5281/zenodo.23368996",
+        "10.5281/zenodo.23048197"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912",
+        "10.5281/zenodo.22936794",
+        "10.5281/zenodo.22994445",
+        "10.5281/zenodo.22972985",
+        "10.5281/zenodo.23006170",
+        "10.5281/zenodo.23024324",
+        "10.5281/zenodo.23368996",
+        "10.5281/zenodo.23048197"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B28 GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL is retained for the tested geometry-only map; B28.2 remained unopened. B29 reached a readability/preflight boundary: 18 of 27 training cases were valid, nine held-out cases were not opened, and no frozen held-out predictions or M0/M1/M2 scientific verdicts were produced. This is not a held-out prediction FAIL. B28 and B29 remain a single integrated publication unit; incomplete raw-source calibration coverage is not represented as a complete reproducibility package.",
+      "publication_unit": "B28–B29統合",
+      "public_file_names": [
+        "BIG_B28_B29_Integrated_English_Working_Paper_v1_0_DOI_zenodo_23050390.pdf",
+        "BIG_B28_B29_Integrated_Japanese_Reference_v1_0_DOI_zenodo_23050390.pdf",
+        "BIG_B28_B29_Reproducibility_Package_v1_0_DOI_zenodo_23050390.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "23104248",
+      "url": "https://zenodo.org/records/23104248",
+      "title": "Relational Timing and Weighted Measurement Duality in a Finite Nonlinear Boundary Field Model",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.23048197"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.23048197"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The published B38 results are retained within their stated finite experimental scope. No separate B37 publication is inferred from this successor paper, and B37 calibration/readiness records do not themselves establish a new scientific PASS.",
+      "publication_unit": "B38",
+      "public_file_names": [
+        "BIG_B38_Preprint_Package_v1_0_DOI_zenodo_23104248.zip",
+        "BIG_B38_Relational_Timing_Weighted_Duality_EN_v1_0_DOI_zenodo_23104248.pdf",
+        "BIG_B38_Relational_Timing_Weighted_Duality_JA_reference_v1_0_DOI_zenodo_23104248.pdf"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "23113994",
+      "url": "https://zenodo.org/records/23113994",
+      "title": "Relational Clocks, Information-Metric Drift, and Clock Reparameterization in a Finite Boundary-Response Model",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.23104248"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.23104248"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The published B39 P2 results and their original scope are retained. This metadata maintenance does not establish a new independently executed audit or enlarge the original finite-test claims.",
+      "publication_unit": "B39",
+      "public_file_names": [
+        "BIG_B39_Relational_Clocks_Information_Metric_Drift_EN_v1_0_DOI_zenodo_23113994_P2_COMPLETE.pdf",
+        "BIG_B39_Relational_Clocks_Information_Metric_Drift_JA_reference_v1_0_DOI_zenodo_23113994_P2_COMPLETE.pdf",
+        "BIG_B39_Zenodo_Upload_Package_v1_0_P2_COMPLETE_DOI_zenodo_23113994.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "23153688",
+      "url": "https://zenodo.org/records/23153688",
+      "title": "Clock-Family Transfer and Target-Excluded Relational Reconstruction in a Finite Boundary-Response Model",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.23113994"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.23113994"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. The existing B40 version 1.1 and formal stage results are retained. Where original material could not be retrieved directly, existing calibration/correction records were used and the missing portion remains unverified. The B40.1 P1 runner correction v1.1 addressed a setup-time JSON/Python Boolean issue before fresh trajectory evaluation; it did not change the frozen question, cases, gates or scientific verdicts. This correction note alone does not certify an independent PDE rerun.",
+      "publication_unit": "B40",
+      "public_file_names": [
+        "BIG_B40_Clock_Family_Transfer_and_Relational_Reconstruction_Japanese_Reference_v1_1_DOI.pdf",
+        "BIG_B40_Clock_Family_Transfer_and_Relational_Reconstruction_Preprint_v1_1_DOI.pdf",
+        "BIG_B40_Reproducibility_Audit_Package_v1_0.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "1.1"
+    },
+    {
+      "id": "23249677",
+      "url": "https://zenodo.org/records/23249677",
+      "title": "Prospective Trajectory-Space Response Geometry and Second-Order Finite-Parameter Transfer: Failure Localization and a Fresh No-Fit Prediction Test in a Finite Vorticity-Response Model",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.23113994",
+        "10.5281/zenodo.23153688",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.23171698"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.23113994",
+        "10.5281/zenodo.23153688",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.23171698"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. B41-P2 remains FAIL and B41-P3 remains PASS; the P3 success does not cancel P2. The closeout retains P2 transfer gates C and E as failed, with 19/24 cells within the 20% mismatch limit, and the separately frozen P3 target stage as PASS with 48/48 target tangent advantages and 24/24 cells within the 20% mismatch limit. The official B41-P3 target-stage package was recovered and integrity checked in the prior audit; that archival recovery is distinct from an independent PDE rerun. No universal superiority over scalar alternatives is claimed.",
+      "publication_unit": "B41",
+      "public_file_names": [
+        "BIG_B41_Prospective_Trajectory_Response_Geometry_EN_v1_0_DOI_23249677.pdf",
+        "BIG_B41_Prospective_Trajectory_Response_Geometry_Japanese_Reference_v1_0_DOI_23249677.pdf",
+        "BIG_B41_Zenodo_Submission_Package_v1_0_DOI_23249677.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "v1"
+    },
+    {
+      "id": "23368996",
+      "url": "https://zenodo.org/records/23368996",
+      "title": "History-Conditioned Response Geometry and the Failure of Simple Reconfiguration Invariance: Prospective BIG-B27 Tests in a Memory-Bearing Boundary Model (v1.1 Source–Implementation Correction)",
+      "related_github_verified": true,
+      "related_dois_before": [
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912",
+        "10.5281/zenodo.22936794",
+        "10.5281/zenodo.22994445",
+        "10.5281/zenodo.22972985",
+        "10.5281/zenodo.23006170"
+      ],
+      "related_dois_after": [
+        "10.5281/zenodo.22660005",
+        "10.5281/zenodo.22846729",
+        "10.5281/zenodo.22876813",
+        "10.5281/zenodo.22893912",
+        "10.5281/zenodo.22936794",
+        "10.5281/zenodo.22994445",
+        "10.5281/zenodo.22972985",
+        "10.5281/zenodo.23006170"
+      ],
+      "appended_note": "Publication audit note (2026-10-19). Audit scope: Basically reproducible; an independent rerun audit remains incomplete. Preservation and checksum checks, algebraic checks of saved results, source/protocol comparisons, original-code reproduction, and independent PDE reruns are distinct. No new PDE computation was performed for this publication update. Original numerical values, formal classifications, frozen rules and stopping rules are retained. This is the corrected B27 version 1.1, DOI 10.5281/zenodo.23368996. The source-implementation correction and its existing correction PDF are retained. No earlier FAIL or invalid run is erased by subsequent successful tests.",
+      "publication_unit": "B27",
+      "public_file_names": [
+        "B27_Source_Implementation_Correction_v1_1.pdf",
+        "BIG_B27_History_Conditioned_Response_Geometry_Japanese_Reference_v1_1.pdf",
+        "BIG_B27_History_Conditioned_Response_Geometry_Preprint_v1_1.pdf",
+        "BIG_B27_Reproducibility_Package_v1_1.zip"
+      ],
+      "file_names_unchanged": true,
+      "related_dois_retained": true,
+      "published_version": "1.1"
+    }
+  ],
+  "maintained_records": [
+    {
+      "id": "23427540",
+      "url": "https://zenodo.org/records/23427540",
+      "title": "Boundary-Core Channel Families in Navier-Stokes-Type Vorticity Dynamics: Activation, Local Separatrices, and Direction-Dependent Pathways",
+      "version": "1.1",
+      "status": "existing_publication_retained",
+      "edit_performed": false
+    },
+    {
+      "id": "23427904",
+      "url": "https://zenodo.org/records/23427904",
+      "title": "Finite-Window Response Geometry in Boundary-Core Vorticity Dynamics: Time-Dependent Zero Contours and Direction-Dependent Response Reversal",
+      "version": "1.1",
+      "status": "existing_publication_retained",
+      "edit_performed": false
+    },
+    {
+      "id": "23428205",
+      "url": "https://zenodo.org/records/23428205",
+      "title": "Operator-Generated Response Boundaries in Finite-Window Vorticity Dynamics: Accessibility, Local Normal Geometry, and Prospective Crossing Tests",
+      "version": "1.1",
+      "status": "existing_publication_retained",
+      "edit_performed": false
+    },
+    {
+      "id": "23443699",
+      "url": "https://zenodo.org/records/23443699",
+      "title": "Local Kinematic Closure of Operator Generated Response Boundaries",
+      "version": "1.1",
+      "status": "existing_publication_retained",
+      "edit_performed": false
+    }
+  ],
+  "scientific_assessment": "基本的に再現可能。独立した再実行監査は未了。",
+  "new_versions_created": 0,
+  "new_records_created": 0,
+  "new_scientific_calculations": 0,
+  "B41_public_archive_check": {
+    "publication_record": "23249677",
+    "bytes": 4254145,
+    "sha256": "ba724517dd06aabdec7781629dba22061857a0e3f0caefc1093001a4627bc1f4",
+    "md5": "4f650bdf826ce44e3e4adbec72f651c2",
+    "public_md5_match": true,
+    "crc_bad_member": null,
+    "members": 27,
+    "target_package_matches": [
+      {
+        "member": "BIG_B41_Zenodo_v1_0/data/BIG_B41_P3_FREEZE_PACKAGE_v1_0.zip",
+        "bytes": 26329,
+        "sha256": "18faea59c620f07b2ee032a031780611ad2bdb1dde69f20f19dbeb536f30a725",
+        "matches_prior_official_p3": false
+      },
+      {
+        "member": "BIG_B41_Zenodo_v1_0/data/BIG_B41_P3_LOCAL_STAGE_PACKAGE_v1_0.zip",
+        "bytes": 526409,
+        "sha256": "2b60949138fe2d2fcd8cd65dc0c8e156dceb2cfae9bb10af0bcf121c085fa7f3",
+        "matches_prior_official_p3": false
+      },
+      {
+        "member": "BIG_B41_Zenodo_v1_0/data/BIG_B41_P3_TARGET_STAGE_PACKAGE_v1_0.zip",
+        "bytes": 720425,
+        "sha256": "dd2e3ef9fafa24c3eb5553f43fb4a0b99523472e63d8d69f2cfab41daee909e6",
+        "matches_prior_official_p3": true
+      }
+    ],
+    "internal_manifest_checks": [
+      {
+        "path": "data/BIG_B41_P1_LOCAL_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P1_TARGET_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P2_LOCAL_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P2_TARGET_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P3_FREEZE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P3_LOCAL_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P3_TARGET_ACQUISITION_AND_FORMAL_EVALUATION_v1_0.ipynb",
+        "match": true
+      },
+      {
+        "path": "data/BIG_B41_P3_TARGET_STAGE_PACKAGE_v1_0.zip",
+        "match": true
+      }
+    ],
+    "internal_manifest_matches": 8
+  },
+  "B37_status": "HOLD: no standalone record/draft or completed manuscript identified in focused checks; no record created.",
+  "historical_reports_preserved": [
+    {
+      "file": "BIG_B33_OUTPUT_COLLISION_RECOVERY_AUDIT_v1_0.md",
+      "bytes": 1019,
+      "sha256": "1a105090c7e5f2d762c84aadf7a8cb4912f3e2b94d4cf9064c3ea494267e5b5a",
+      "original_date": "2026-09-29",
+      "content_changed": false
+    },
+    {
+      "file": "BIG_B33_CLOSEOUT_v1_0.md",
+      "bytes": 1853,
+      "sha256": "35a4046a8fb19b85e37a11f549abc34ada97850218f61431612de9f21bc3aa21",
+      "original_date": "2026-09-29",
+      "content_changed": false
+    }
+  ]
+}

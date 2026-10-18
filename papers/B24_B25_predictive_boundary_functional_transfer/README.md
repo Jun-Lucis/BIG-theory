@@ -215,3 +215,8 @@ The descriptive errors from this invalid test are retained in the archive but ar
 Geometry-family and topology transfer remain unresolved.
 
 Phase II does not derive a continuum perimeter theorem, a universal or source-independent (sigma P) law, the B9 nonlocal term, the complete B9 energy, or external physical validity.
+
+
+## Publication synchronization — 19 October 2026
+
+[B24–B25 Phase I / v1](https://zenodo.org/records/22956894), [B25 Phase II / v1](https://zenodo.org/records/22967474). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

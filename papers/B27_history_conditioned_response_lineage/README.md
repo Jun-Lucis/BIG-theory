@@ -123,3 +123,8 @@ B27.2 then completed all three frozen connected-to-disconnected targets. All thr
 - [B28 non-frozen architecture draft](../B28_geometry_conditioned_lineage_transport/B28_0_DRAFT_architecture_v0_1.md)
 
 Per the frozen stop rule, B27.3 is not run. B27 is closed: retained history prospectively changes local response geometry, but that normalized history-induced response geometry does not remain invariant across the tested topology reconfiguration. Any new transport/covariance mapping hypothesis belongs to B28 or later.
+
+
+## Publication synchronization — 19 October 2026
+
+[B27 / 1.1](https://zenodo.org/records/23368996). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

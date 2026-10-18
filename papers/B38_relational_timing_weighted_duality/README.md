@@ -160,3 +160,8 @@ to Operator-Compatible Readout. Boundary Information Geometry (BIG-B38),
 ```
 
 Zenodo: https://doi.org/10.5281/zenodo.23104248
+
+
+## Publication synchronization — 19 October 2026
+
+[B38 / v1](https://zenodo.org/records/23104248). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

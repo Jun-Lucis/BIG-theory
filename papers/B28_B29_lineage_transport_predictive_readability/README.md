@@ -79,3 +79,8 @@ For B28- and B29-specific repository records, see:
 For the later-phase synthesis, see:
 
 - [B27–B36 later-phase status](../../docs/research_status_update_B27_B36.md)
+
+
+## Publication synchronization — 19 October 2026
+
+[B28–B29統合 / v1](https://zenodo.org/records/23050390). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).

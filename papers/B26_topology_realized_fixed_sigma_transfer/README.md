@@ -217,3 +217,8 @@ The terminal B26 stop rule is triggered. No further delta tuning is permitted wi
 
 **Authoritative publication title:**  
 *Resolving the Geometry-Transfer Boundary of a Fixed-Coefficient Perimeter Closure: Topology Localization and Prospective Two-Center Tests in Boundary Information Geometry*
+
+
+## Publication synchronization — 19 October 2026
+
+[B26 / v1](https://zenodo.org/records/22972985). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).
