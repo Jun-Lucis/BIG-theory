@@ -1,0 +1,29 @@
+{
+  "record_url": "https://zenodo.org/records/23443699",
+  "doi": "10.5281/zenodo.23443699",
+  "parent_record": "22876812",
+  "public_download_url": "https://zenodo.org/records/23443699/files/BIG_B21_v1_1_COMPLETE_20261018.zip?download=1",
+  "file": "BIG_B21_v1_1_COMPLETE_20261018.zip",
+  "bytes": 18974115,
+  "sha256": "edb0519ed113863703472180efa5cf81c0deb9be2fd5f2a76b93f5c38a8c266e",
+  "md5": "f904dedd477ca3493ec5c9600487fb33",
+  "all_bytes_identical": true,
+  "size_match": true,
+  "sha256_match": true,
+  "md5_match": true,
+  "zip_crc": "PASS",
+  "member_list_match": true,
+  "member_sha256_match_count": 334,
+  "internal_checksums_verified": 333,
+  "status": "PUBLICATION_AND_PUBLIC_READBACK_VERIFIED",
+  "scientific_assessment": "基本的に再現可能。独立した再実行監査は未了。",
+  "github_in_related_works": true,
+  "retained_related_dois": [
+    "10.5281/zenodo.22846729",
+    "10.5281/zenodo.22726848",
+    "10.5281/zenodo.22769513"
+  ],
+  "version": "1.1",
+  "license": "CC-BY-4.0",
+  "resource_type": "Preprint"
+}

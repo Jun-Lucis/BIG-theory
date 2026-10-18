@@ -1,0 +1,9 @@
+{
+  "status": "BYTE_IDENTICAL",
+  "bytes": 18974115,
+  "sha256": "edb0519ed113863703472180efa5cf81c0deb9be2fd5f2a76b93f5c38a8c266e",
+  "md5": "f904dedd477ca3493ec5c9600487fb33",
+  "comparison": "fixed local complete ZIP vs newly downloaded Drive ZIP",
+  "connector_file_uri_id": "sediment://file_00000000e0708206a696c7425564a8cc",
+  "drive_file_id": "1B2kEYho3LdfAcdpY4Ecc93rbLlxz47cO"
+}

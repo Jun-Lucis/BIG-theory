@@ -1,0 +1,28 @@
+[
+  {
+    "file": "BIG_B21_Local_Kinematic_Closure_Preprint_v1_1.docx",
+    "tables": 8,
+    "table_cells": 151,
+    "table_cells_equal_original": true,
+    "images": 5,
+    "image_bytes_equal_original": true,
+    "math_nodes_including_containers": 143,
+    "math_xml_equal_original": true,
+    "pdf_pages": 15,
+    "all_pages_rendered_and_visually_reviewed": true,
+    "rendering_note": "Fresh render restores g(T_plus) without changing any original math XML; Japanese font Noto Sans JP installed for complete glyph rendering."
+  },
+  {
+    "file": "BIG_B21_Local_Kinematic_Closure_Japanese_Reference_v1_1.docx",
+    "tables": 8,
+    "table_cells": 151,
+    "table_cells_equal_original": true,
+    "images": 5,
+    "image_bytes_equal_original": true,
+    "math_nodes_including_containers": 143,
+    "math_xml_equal_original": true,
+    "pdf_pages": 17,
+    "all_pages_rendered_and_visually_reviewed": true,
+    "rendering_note": "Fresh render restores g(T_plus) without changing any original math XML; Japanese font Noto Sans JP installed for complete glyph rendering."
+  }
+]

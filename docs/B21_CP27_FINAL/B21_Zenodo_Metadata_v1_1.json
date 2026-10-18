@@ -1,0 +1,163 @@
+{
+  "additional_titles": [
+    {
+      "lang": {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      },
+      "title": "Direct Hessian Transport and Prospective Time Refinement in Synthetic Vorticity Dynamics",
+      "type": {
+        "id": "subtitle",
+        "title": {
+          "de": "Untertitel",
+          "en": "Subtitle"
+        }
+      }
+    }
+  ],
+  "creators": [
+    {
+      "person_or_org": {
+        "family_name": "Lucis",
+        "given_name": "Jun",
+        "name": "Lucis, Jun",
+        "type": "personal"
+      }
+    }
+  ],
+  "description": "<p>Version 1.1: B21 CP27 source and publication audit clarification, 18 October 2026. Jun Lucis studies finite-window response-boundary gradient transport in a restricted synthetic Family-C vorticity model. E1-E11 remain exploratory diagnostics; E12 is the prospectively frozen terminal test.</p><p>Original numerical outcomes are retained: relative closure residual 0.1242154%, prediction-observation angle 0.0698935 degrees, residual norm 0.003901172984973377, and first-order root-bracket reference scale 0.2174844%. The last quantity propagates root-width effects into the observed gradient derivative using the central HVP. It is not a verified upper bound on the correlated observed-minus-predicted residual. The same roots enter predicted boundary speed. Comparing 0.1242154% with 0.2174844% alone does not prove uncertainty-resolved closure or the absence of an additional term.</p><p>E1 QR-reorthogonalizes a six-decimal displayed basis. E10/E12 restore higher-precision B20.5 coordinates; E12 inherits the fixed-P E4 derivative from the initial exploratory lineage. Maximum basis-component difference is approximately 4.12432168e-7 and projector spectral-norm difference 6.49660497e-7. Effects on PDE results remain unaudited.</p><p>The complete ZIP includes the English authoritative preprint (15 pages) and Japanese reference translation (17 pages), editable DOCX files, original public materials, all 261 recovered source files, inherited inputs, original notebooks and saved results, the preserved recovery checkpoint, newly reconstructed saved-artifact verification code, receipts, README and checksums. All original table cells, five figure image files and 143 math XML nodes including containers in each manuscript are preserved.</p><p>Verification: 261/261 source hashes; 101 scalar histories / 7,335 rows with unequal horizon lengths; 14,670 row-algebra comparisons; 120 readout comparisons from 72 summaries; 48 frozen-manifest rows; two E12 root brackets; and 23 E12 saved-table algebra comparisons. These are overlapping saved-output and integrity checks, not independent PDE reruns or formal scientific PASS. The prior whole-source verifier final JSON was not recovered; newly reconstructed code is identified separately. Historical numerical values, classifications, frozen rules and stopping rules are unchanged.</p><p>Basically reproducible; independent rerun audit not yet completed. No continuum differentiability theorem, invariant manifold, universal physical-space boundary law, Navier-Stokes regularity claim or new equation of motion is established. GitHub repository: <a href=\"https://github.com/Jun-Lucis/BIG-theory\">https://github.com/Jun-Lucis/BIG-theory</a>.</p>",
+  "publication_date": "2026-10-18",
+  "publisher": "Zenodo",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22846729",
+      "relation_type": {
+        "id": "isderivedfrom",
+        "title": {
+          "de": "Wird abgeleitet von",
+          "en": "Is derived from"
+        }
+      },
+      "resource_type": {
+        "id": "publication-preprint",
+        "title": {
+          "de": "Preprint",
+          "en": "Preprint"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22726848",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "publication-preprint",
+        "title": {
+          "de": "Preprint",
+          "en": "Preprint"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22769513",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "publication-preprint",
+        "title": {
+          "de": "Preprint",
+          "en": "Preprint"
+        }
+      },
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "en": "References"
+        }
+      },
+      "resource_type": {
+        "id": "software",
+        "title": {
+          "en": "Software"
+        }
+      },
+      "scheme": "url"
+    }
+  ],
+  "resource_type": {
+    "id": "publication-preprint",
+    "title": {
+      "de": "Preprint",
+      "en": "Preprint"
+    }
+  },
+  "rights": [
+    {
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "id": "cc-by-4.0",
+      "props": {
+        "scheme": "spdx",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Boundary Information Geometry"
+    },
+    {
+      "subject": "finite-window response"
+    },
+    {
+      "subject": "operator-generated response boundary"
+    },
+    {
+      "subject": "zero-set kinematics"
+    },
+    {
+      "subject": "kinematic closure"
+    },
+    {
+      "subject": "Hessian-vector product"
+    },
+    {
+      "subject": "response gradient"
+    },
+    {
+      "subject": "prospective numerical test"
+    },
+    {
+      "subject": "synthetic divergence-free vorticity"
+    },
+    {
+      "subject": "Navier-Stokes-type dynamics"
+    }
+  ],
+  "title": "Local Kinematic Closure of Operator Generated Response Boundaries",
+  "version": "1.1",
+  "doi": "10.5281/zenodo.23443699"
+}

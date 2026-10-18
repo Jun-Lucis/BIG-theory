@@ -2,7 +2,7 @@
 
 *Direct Hessian Transport and Prospective Time Refinement in Synthetic Vorticity Dynamics*
 
-> **CP27 audit in progress — 2026-10-17:** The numerical values and historical study classifications are retained. The uncertainty interpretation and coordinate-precision qualifications below correct the repository description. A revised B21 PDF and complete Zenodo archive have not yet been published. **基本的に再現可能。独立した再実行監査は未了。**
+> **CP27 v1.1 published — 2026-10-18:** [Revised preprint and complete archive](https://zenodo.org/records/23443699). The public ZIP was freshly downloaded and verified byte-identical to the frozen archive; all 334 member hashes and 333 internal checksum entries agree. Original values and scientific classifications are retained. **基本的に再現可能。独立した再実行監査は未了。**
 
 > 🇯🇵 **日本語要約**  
 > B21は、B20で定義した有限時間応答境界が観測時間 $T$ とともに動くとき、その局所応答勾配の輸送を検査します。合成Family-Cの `r10` 分枝とB20.5由来の4次元座標構成を使い、$Dg/dT=\partial_Tg+H_S\dot P_B$ を数値的に比較しました。最終E12のclosure residual **0.1242154%**、予測と観測の角度 **0.0698935度**、root bracket由来の一次参考尺度 **0.2174844%** は保持します。ただし、この参考尺度は観測側の勾配変化への伝播量であり、同じ根を使う予測との残差全体の誤差上限として検証された値ではありません。また、初期探索は6桁表示の基底を再直交化し、E10・E12は高精度基底を復元しているため、全段階が厳密に同じ座標であるとは扱いません。当時の有限解像度における限定的判定は維持し、追加項の不在や連続体での閉包を証明したとは解釈しません。B20.6は **INCONCLUSIVE** のままです。
@@ -110,9 +110,13 @@ No B22 claim or experiment is part of B21.
 
 ## Publication
 
-**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22876813
+**Current v1.1 DOI:** https://doi.org/10.5281/zenodo.23443699
 
-The Zenodo link currently identifies the original v1.0 English preprint and its Japanese reference translation. The repository qualifications above are recorded in the [CP27 interim audit](../../docs/B21_CP27_INTERIM_AUDIT_20261017_JA.md); the revised PDF and complete archive remain pending.
+Original v1.0: https://doi.org/10.5281/zenodo.22876813 (same parent record 22876812).
+
+The English authoritative manuscript (15 pages) and Japanese reference translation (17 pages) are available as PDFs and as editable DOCX files in the complete archive. See the [CP27 publication audit](../../docs/B21_CP27_PUBLICATION_AUDIT_20261018_JA.md) and [public readback receipt](../../docs/B21_CP27_FINAL/B21_CP27_PUBLIC_READBACK_RECEIPT_20261018.json).
+
+Complete ZIP: **18,974,115 bytes**, **334 members**; SHA-256 `edb0519ed113863703472180efa5cf81c0deb9be2fd5f2a76b93f5c38a8c266e`, MD5 `f904dedd477ca3493ec5c9600487fb33`. It was frozen once after actual DOI reservation and was not repacked after publication.
 
 The interim audit includes an independent **23-comparison saved-table algebra check** and a basis-lineage diagnostic. These are not a fresh PDE run or completion of the whole-source execution audit.
 
@@ -121,12 +125,13 @@ Repository: https://github.com/Jun-Lucis/BIG-theory
 Author: Jun Lucis
 
 
-## CP27 additional saved-artifact checks (2026-10-17)
+## Historical CP27 prepublication checkpoint (2026-10-17; superseded by v1.1 publication)
 
-The B21 v1.1 English and Japanese manuscripts have been prepared as **unpublished drafts** and checked against the original DOCX: **8 tables / 151 table cells**, **5 image byte streams**, and **143 original OMML math elements** per language were retained. No revised Zenodo DOI, publication, or final archive exists yet.
+At that checkpoint, the B21 v1.1 English and Japanese manuscripts had been prepared as **unpublished drafts** and checked against the original DOCX: **8 tables / 151 table cells**, **5 image byte streams**, and **143 original OMML math elements** per language were retained. At that time no revised Zenodo DOI, publication, or final archive existed. The 2026-10-18 publication above supersedes that pending status.
 
 A separately reconstructed **saved-artifact** validator reports internally consistent data for 101 scalar timeseries CSV files (7,335 saved rows; terminal times 0.015, 0.0155, and 0.020), 14,670 row-algebra checks, 120 stored F(T) readouts from 72 summaries, 48 frozen-manifest case entries, and two E12 refined-root brackets. See [the verifier](../../code/B21_recovered/reconstructed_saved_artifacts_audit.py) and [its machine-readable results](../../docs/B21_CP27_INTERIM/Reconstructed_Saved_Artifacts_Audit_Result_20261017.json).
 
-The manuscript drafts, numerical receipts, and metadata proposal were copied to both Library and [Drive CP27 PENDING workspace](https://drive.google.com/drive/folders/1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj). The first eight staged documents were downloaded back from Drive and verified byte-identical to their respective local files; [readback receipt](../../docs/B21_CP27_INTERIM/Drive_Readback_Receipt_20261017.json). **This is not the Zenodo post-publication archive verification.**
+The manuscript drafts, numerical receipts, and metadata proposal were copied to both Library and [Drive CP27 workspace](https://drive.google.com/drive/folders/1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj). The first eight staged documents were downloaded back from Drive and verified byte-identical to their respective local files; [readback receipt](../../docs/B21_CP27_INTERIM/Drive_Readback_Receipt_20261017.json). **This is not the Zenodo post-publication archive verification.**
 
 The historical E12 scientific classifications are not upgraded by these saved-result checks. The old complete-source verifier's final JSON has not been independently recovered, and the original PDE trajectories have **not** been re-integrated. The standard audit scope remains: *基本的に再現可能。独立した再実行監査は未了。*
+

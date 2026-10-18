@@ -535,19 +535,19 @@ B20.6 prospectively scanned frozen parameter-space trajectories. In the archived
 
 ![BIG-B21 frozen E12 closure audit](figures/B21/figure_05_e12_closure.png)
 
-**Main idea:** B21 follows the motion of the B20 response boundary in the exact normalized four-dimensional B20.5 subspace. For the subspace response gradient $g=\nabla_S F_T$, it tests the local kinematic identity
+**Main idea:** B21 follows the motion of the B20 response boundary using the normalized four-dimensional B20.5 coordinate construction, with stage-dependent precision: early exploration reorthogonalized a six-decimal displayed basis, whereas E10/E12 restored the high-precision basis. For the subspace response gradient $g=\nabla_S F_T$, it tests the local kinematic identity
 
 $
 \frac{Dg}{dT}=\partial_T g+H_S\dot P_B.
 $
 
-In the frozen terminal E12 test on the synthetic Family-C `r10` branch, the closure residual is **0.1242154%**, below the first-order root-bracket bound of **0.2174844%**, and the prediction--observation angle is **0.0698935 degrees**. No reproducible residual requiring an additional effective boundary-dynamical term was resolved.
+In the frozen terminal E12 test on the synthetic Family-C `r10` branch, the closure residual is **0.1242154%**, numerically below the first-order root-bracket reference scale of **0.2174844%**, and the prediction--observation angle is **0.0698935 degrees**. The reference scale propagates root uncertainty into the observed term only; shared roots correlate observed and predicted errors, so this comparison is not a validated uncertainty bound on the residual and does not establish the absence of an additional term.
 
 B21 does not repair or upgrade the B20.6 finite-distance result: B20.6 remains **INCONCLUSIVE** because only one informative crossing was available.
 
 **Main entry:** [papers/B21_local_kinematic_closure](papers/B21_local_kinematic_closure)
 
-**Scope:** This is a local numerical closure test in one exact normalized synthetic subspace. It is not a new equation of motion, a continuum Hessian-existence theorem, an invariant-manifold result, a physical-space boundary law, a universal separatrix, or a Navier--Stokes blow-up/regularity claim.
+**Scope:** This is a local numerical closure test in the recorded synthetic coordinate construction; inherited E4 time gradients and later E12 quantities have a documented basis-precision difference whose PDE impact remains unaudited. It is not a new equation of motion, a continuum Hessian-existence theorem, an invariant-manifold result, a physical-space boundary law, a universal separatrix, or a Navier--Stokes blow-up/regularity claim.
 
 ---
 
@@ -759,7 +759,7 @@ Current entries include:
 | B19 follow-up | Finite-time response-boundary diagnostics | https://doi.org/10.5281/zenodo.23427904 |
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
 | B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.23428205 |
-| B21 | Local kinematic closure of response boundaries | https://doi.org/10.5281/zenodo.22876813 |
+| B21 | Local kinematic closure of response boundaries (v1.1; CP27) | https://doi.org/10.5281/zenodo.23443699 |
 | B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
 | B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
 | B23A | Structural universality and its tested limits | https://doi.org/10.5281/zenodo.22994445 |

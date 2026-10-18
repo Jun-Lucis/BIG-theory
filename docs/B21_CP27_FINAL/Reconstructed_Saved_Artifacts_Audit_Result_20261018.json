@@ -1,0 +1,65 @@
+{
+  "audit_type": "B21 reconstructed saved-artifact cross-check, NOT an original whole-source verifier",
+  "source_archive": "BIG_B21_CP27_SOURCE_RECOVERY_20261017.zip",
+  "source_sha256": "5c518b8ebfeacebb95367d86393fad860b77470cbb135313154088c9b024520f",
+  "status": "PASS",
+  "limitations": "No original PDE trajectory re-integration; no complete method-level independent rerun; no claim of uncertainty-bounded closure; no historical verdict changes.",
+  "timeseries": {
+    "files": 101,
+    "rows": 7335,
+    "rows_per_file": {
+      "61": 27,
+      "63": 17,
+      "81": 57
+    },
+    "terminal_T_distribution": {
+      "0.015": 27,
+      "0.0155": 17,
+      "0.02": 57
+    },
+    "row_algebra_checks": 14670,
+    "max_abs_enstrophy_delta_error": 0.0,
+    "max_abs_balance_total_error": 0.0
+  },
+  "summary_checks": {
+    "paired_summary_count": 72,
+    "compared": 120,
+    "tolerance": 1e-11,
+    "mismatches": []
+  },
+  "manifest_checks": {
+    "E10_h1": {
+      "rows": 16,
+      "mismatches": []
+    },
+    "E10_h2": {
+      "rows": 16,
+      "mismatches": []
+    },
+    "E12_grad": {
+      "rows": 16,
+      "mismatches": []
+    }
+  },
+  "frozen_root_checks": [
+    {
+      "T": 0.0115,
+      "status": "PASS",
+      "width": 5.859375000000222e-05,
+      "target_width": 6.103515625e-05,
+      "sign_change": true,
+      "history_points": 12,
+      "root": 0.31022460937499974
+    },
+    {
+      "T": 0.0125,
+      "status": "PASS",
+      "width": 5.859375000000222e-05,
+      "target_width": 6.103515625e-05,
+      "sign_change": true,
+      "history_points": 12,
+      "root": 0.39418945312499953
+    }
+  ],
+  "failures": []
+}
