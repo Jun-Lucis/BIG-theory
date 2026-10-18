@@ -2,7 +2,7 @@
 
 *Direct Hessian Transport and Prospective Time Refinement in Synthetic Vorticity Dynamics*
 
-> **CP27 v1.1 published — 2026-10-18:** [Revised preprint and complete archive](https://zenodo.org/records/23443699). The public ZIP was freshly downloaded and verified byte-identical to the frozen archive; all 334 member hashes and 333 internal checksum entries agree. Original values and scientific classifications are retained. **基本的に再現可能。独立した再実行監査は未了。**
+> **CP27 completed — v1.1 published 2026-10-18:** [Revised preprint and complete archive](https://zenodo.org/records/23443699). The public ZIP was freshly downloaded and verified byte-identical to the frozen archive; all 334 member hashes and 333 internal checksum entries agree. Original values and scientific classifications are retained. **基本的に再現可能。独立した再実行監査は未了。**
 
 > 🇯🇵 **日本語要約**  
 > B21は、B20で定義した有限時間応答境界が観測時間 $T$ とともに動くとき、その局所応答勾配の輸送を検査します。合成Family-Cの `r10` 分枝とB20.5由来の4次元座標構成を使い、$Dg/dT=\partial_Tg+H_S\dot P_B$ を数値的に比較しました。最終E12のclosure residual **0.1242154%**、予測と観測の角度 **0.0698935度**、root bracket由来の一次参考尺度 **0.2174844%** は保持します。ただし、この参考尺度は観測側の勾配変化への伝播量であり、同じ根を使う予測との残差全体の誤差上限として検証された値ではありません。また、初期探索は6桁表示の基底を再直交化し、E10・E12は高精度基底を復元しているため、全段階が厳密に同じ座標であるとは扱いません。当時の有限解像度における限定的判定は維持し、追加項の不在や連続体での閉包を証明したとは解釈しません。B20.6は **INCONCLUSIVE** のままです。
@@ -135,3 +135,7 @@ The manuscript drafts, numerical receipts, and metadata proposal were copied to 
 
 The historical E12 scientific classifications are not upgraded by these saved-result checks. The old complete-source verifier's final JSON has not been independently recovered, and the original PDE trajectories have **not** been re-integrated. The standard audit scope remains: *基本的に再現可能。独立した再実行監査は未了。*
 
+
+## CP27 synchronization complete
+
+The public archive and revised manuscripts have been synchronized to Drive and Library; the existing central and cross-issue ledgers were updated in place to Library version 8 and the Drive ledger bytes were downloaded and checked. See the [completion receipt](../../docs/B21_CP27_FINAL/B21_CP27_COMPLETION_RECEIPT_20261018.json). Publication completion does not certify an independent PDE rerun. B22–B41 audit staging will be prepared in Chat for subsequent Work publication.

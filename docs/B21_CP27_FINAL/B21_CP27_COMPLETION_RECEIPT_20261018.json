@@ -1,0 +1,64 @@
+{
+  "record_url": "https://zenodo.org/records/23443699",
+  "doi": "10.5281/zenodo.23443699",
+  "parent_record": "22876812",
+  "public_download_url": "https://zenodo.org/records/23443699/files/BIG_B21_v1_1_COMPLETE_20261018.zip?download=1",
+  "file": "BIG_B21_v1_1_COMPLETE_20261018.zip",
+  "bytes": 18974115,
+  "sha256": "edb0519ed113863703472180efa5cf81c0deb9be2fd5f2a76b93f5c38a8c266e",
+  "md5": "f904dedd477ca3493ec5c9600487fb33",
+  "all_bytes_identical": true,
+  "size_match": true,
+  "sha256_match": true,
+  "md5_match": true,
+  "zip_crc": "PASS",
+  "member_list_match": true,
+  "member_sha256_match_count": 334,
+  "internal_checksums_verified": 333,
+  "status": "CP27_COMPLETED",
+  "scientific_assessment": "基本的に再現可能。独立した再実行監査は未了。",
+  "github_in_related_works": true,
+  "retained_related_dois": [
+    "10.5281/zenodo.22846729",
+    "10.5281/zenodo.22726848",
+    "10.5281/zenodo.22769513"
+  ],
+  "version": "1.1",
+  "license": "CC-BY-4.0",
+  "resource_type": "Preprint",
+  "completed_at_utc": "2026-10-18T00:15:56.733750+00:00",
+  "github_publication_commit": "31013e5d109b4ce0fd9667f13787d1b566a30f98",
+  "drive_folder_id": "1GUJUuKAkDHK55C3MOnkSvD1fKHQUb4dj",
+  "drive_folder_name": "BIG_B21_CP27_Audit_20261018_COMPLETED",
+  "drive_zip_file_id": "1B2kEYho3LdfAcdpY4Ecc93rbLlxz47cO",
+  "drive_zip_byte_readback": true,
+  "library_zip_id": "libfile_d7675ccb3b188191a13dfc15e16e7ba5",
+  "central_ledger": {
+    "library_file_id": "libfile_7556bc3b27088191a551ef5e4f6af34f",
+    "version": 8,
+    "drive_id": "1tWWrA4vKth2HYI_tMRWMG78jTZhpuukg"
+  },
+  "cross_issue_ledger": {
+    "library_file_id": "libfile_f1ea4f519c0881918b9e96d4cc303714",
+    "version": 8,
+    "drive_id": "1uhC2dsCjO4RFICBSdxJShkOVS427yZpx"
+  },
+  "ledger_readback": [
+    {
+      "name": "BIG_Central_Progress_Ledger_CP23_20261016_JA.md",
+      "bytes": 70978,
+      "sha256": "ef26d8a5670249b37856f035a147d2faf5cb2e77842f14d93152ac1f14ed3256",
+      "drive_byte_identical": true,
+      "library_version": 8
+    },
+    {
+      "name": "BIG_Cross_Issue_Ledger_CP23_20261016_JA.md",
+      "bytes": 66742,
+      "sha256": "101ac8c25fe8036ae58e16743eff6139a3f450f693bbe4f0296bd3634726de07",
+      "drive_byte_identical": true,
+      "library_version": 8
+    }
+  ],
+  "next_target": "B22",
+  "next_workflow": "Chat audits B22-B41 sequentially and saves staging materials to Drive; Work handles actual DOI reservation, archive freezing, publication, readback and completion synchronization."
+}

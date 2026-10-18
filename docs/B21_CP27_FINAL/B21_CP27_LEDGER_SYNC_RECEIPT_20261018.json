@@ -1,0 +1,16 @@
+[
+  {
+    "name": "BIG_Central_Progress_Ledger_CP23_20261016_JA.md",
+    "bytes": 70978,
+    "sha256": "ef26d8a5670249b37856f035a147d2faf5cb2e77842f14d93152ac1f14ed3256",
+    "drive_byte_identical": true,
+    "library_version": 8
+  },
+  {
+    "name": "BIG_Cross_Issue_Ledger_CP23_20261016_JA.md",
+    "bytes": 66742,
+    "sha256": "101ac8c25fe8036ae58e16743eff6139a3f450f693bbe4f0296bd3634726de07",
+    "drive_byte_identical": true,
+    "library_version": 8
+  }
+]
