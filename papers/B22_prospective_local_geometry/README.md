@@ -67,13 +67,17 @@ B20.6 remains **INCONCLUSIVE**. B22 does not repair or upgrade its evidence coun
 
 ## Publication
 
-**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22893912
+**Current Zenodo v1.1 DOI:** https://doi.org/10.5281/zenodo.23467311
+
+**Historical v1.0 DOI:** https://doi.org/10.5281/zenodo.22893912
 
 The English preprint is the authoritative version. A Japanese reference translation and the E1–E5 reproducibility release are included in the same Zenodo record.
 
 **Author:** Jun Lucis
 
 
-## Publication synchronization — 19 October 2026
+## Publication revision — 19 October 2026
 
-[B22 / v1](https://zenodo.org/records/22893912). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).
+[B22 / v1.1](https://zenodo.org/records/23467311) has revised English and Japanese PDF manuscripts; [original v1.0](https://zenodo.org/records/22893912) remains a citable historical version. Original E1–E5 reproducibility ZIP retained unchanged.
+
+Editorial clarifications: E2 uncertainty attribution and the evidentiary limits of E3/E5 prospective and sequential forecasts. The frozen scientific verdicts and data are unchanged. **Basically reproducible; an independent full numerical rerun audit remains incomplete.** [Revision record](../../docs/publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
