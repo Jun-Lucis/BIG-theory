@@ -12,7 +12,8 @@ It supersedes the older B3–B23 map **as the current repository overview**, whi
 
 Later phase records:
 
-- B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
+- B24–B25 Phase I (current v1.1): https://doi.org/10.5281/zenodo.23467490
+- B24–B25 Phase I (historical v1.0): https://doi.org/10.5281/zenodo.22956894
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 - B23A universality audit: https://doi.org/10.5281/zenodo.22994445
