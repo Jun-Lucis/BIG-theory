@@ -1,5 +1,7 @@
 # BIG Publication Map
 
+**B22/B23/B24–B25 Phase-I Zenodo manuscript revisions — 19 October 2026:** Current v1.1 records: [B22](https://zenodo.org/records/23467311), [B23](https://zenodo.org/records/23467455), [B24–B25 Phase I](https://zenodo.org/records/23467490). English and Japanese PDFs were revised; the previous reproducibility ZIPs and scientific verdicts were retained. Historic v1.0 DOIs: B22 [22893912](https://zenodo.org/records/22893912), B23 [22936794](https://zenodo.org/records/22936794), and Phase I [22956894](https://zenodo.org/records/22956894). Independent full numerical rerun audit remains incomplete. [Change log](publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
+
 **B19–B41 publication synchronization — 19 October 2026:** [Verified publication-unit inventory and open items](publication_sync_B19_B41_2026_10_19_JA.md). Thirteen metadata updates are published; existing files and formal classifications are retained. This does not close the unfinished full-manuscript/source-audit work. B21 current v1.1 is [23443699](https://zenodo.org/records/23443699); historical v1.0 [22876813](https://zenodo.org/records/22876813) remains archived. B27, B30–B36 and B40 are confirmed at v1.1. B37 remains an unconfirmed standalone publication.
 
 **B18 source/implementation audit, 17 October 2026:** [Version 0.2 / Zenodo 23427115](https://zenodo.org/records/23427115) is published as one complete ZIP. The 13-page clarification preserves three scientific tables and seven figure rasters and documents distributed inhibition, diagnostic gates, realized-path information, branch-dependent forcing and in-sample fits. Five original notebooks, 76 computational definitions and 124 results are archived. Saved-result checks passed 604 groups / 314,972 values plus 44 categorical checks; five public notebook code-cell sets, 22 common files / 495,864 values and seven public PNG rasters match. The public ZIP is byte-identical to the frozen archive; CRC and 182 internal hashes pass. GitHub metadata and three original Continues DOI references are verified. **Basically reproducible; an independent full rerun audit has not yet been completed.** [Audit and status](B18_CP23_AUDIT_20261016.md).
@@ -787,7 +789,7 @@ The E3 `hess_h2` root error is **0.00488281** and the normal-angle error is **0.
 These results are finite-resolution and branch-specific. E5 is an observed-T1-to-T2 sequential forecast, not a T0-only two-step-ahead forecast. B22 does not establish a continuum curvature theorem, universal boundary law, invariant manifold, physical-space normal, or Navier--Stokes blow-up/regularity result. B20.6 remains **INCONCLUSIVE**.
 
 **Zenodo record and DOI:**  
-https://doi.org/10.5281/zenodo.22893912
+https://doi.org/10.5281/zenodo.23467311
 
 The English preprint is authoritative; the same record includes a Japanese reference translation and the E1--E5 reproducibility release.
 
@@ -806,7 +808,7 @@ The original aggregate plan remains **INCONCLUSIVE** because its symmetric predi
 B23 is therefore evidence for short-horizon cross-branch transfer under the tested finite conditions, not a universal boundary-motion law. It does not establish continuum convergence, full-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
 
 **Zenodo record and DOI:**  
-https://doi.org/10.5281/zenodo.22936794
+https://doi.org/10.5281/zenodo.23467455
 
 The English preprint is authoritative; the Zenodo release also contains a Japanese reference translation and a compact reproducibility package.
 
@@ -866,8 +868,8 @@ BIG-B10 -> cite the B10 Zenodo DOI
 BIG-B11 -> cite the B11 Zenodo DOI
 BIG-B12 -> cite the B12 Zenodo DOI
 BIG-B21 -> cite https://doi.org/10.5281/zenodo.23443699
-BIG-B22 -> cite https://doi.org/10.5281/zenodo.22893912
-BIG-B23 -> cite https://doi.org/10.5281/zenodo.22936794
+BIG-B22 -> cite https://doi.org/10.5281/zenodo.23467311
+BIG-B23 -> cite https://doi.org/10.5281/zenodo.23467455
 BIG-B27 current v1.1 -> cite https://doi.org/10.5281/zenodo.23368996
 BIG-B27 original v1.0 -> cite https://doi.org/10.5281/zenodo.23024324
 BIG-B28-B29 -> cite https://doi.org/10.5281/zenodo.23050390
@@ -1005,7 +1007,7 @@ This result does not establish a universal BIG operator, a program-wide universa
 [papers/B24_B25_predictive_boundary_functional_transfer](../papers/B24_B25_predictive_boundary_functional_transfer)
 
 **Zenodo DOI:**  
-https://doi.org/10.5281/zenodo.22956894
+https://doi.org/10.5281/zenodo.23467490
 
 
 ---
@@ -1051,7 +1053,7 @@ B25.2 then kept the same coefficient frozen and attempted transfer to an equal-i
 https://doi.org/10.5281/zenodo.22967474
 
 **Related Phase-I DOI:**  
-https://doi.org/10.5281/zenodo.22956894
+https://doi.org/10.5281/zenodo.23467490
 
 ---
 
