@@ -1,5 +1,7 @@
 # Boundary Information Geometry (BIG)
 
+**B22/B23/B24–B25 Phase-I Zenodo manuscript revisions — 19 October 2026:** Current v1.1 records: [B22](https://zenodo.org/records/23467311), [B23](https://zenodo.org/records/23467455), [B24–B25 Phase I](https://zenodo.org/records/23467490). English and Japanese PDFs were revised; the previous reproducibility ZIPs and scientific verdicts were retained. Historic v1.0 DOIs: B22 [22893912](https://zenodo.org/records/22893912), B23 [22936794](https://zenodo.org/records/22936794), and Phase I [22956894](https://zenodo.org/records/22956894). Independent full numerical rerun audit remains incomplete. [Change log](docs/publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
+
 **B19–B41 publication synchronization, 19 October 2026:** 13 existing Zenodo records now carry the saved-audit scope and a GitHub Related works link; their 41 public file names/MD5 values and existing DOI references are retained. B19–B21 remain published; B27 remains corrected v1.1, and B30–B36/B40 remain v1.1. B41 already includes the official P3 target archive (hash confirmed). B37 standalone publication and unfinished manuscript revisions remain pending. **基本的に再現可能。独立した再実行監査は未了。** [Record-by-record status and limits](docs/publication_sync_B19_B41_2026_10_19_JA.md).
 
 **B20 source/implementation audit, 17 October 2026:** [Version 1.1 / Zenodo 23428205](https://zenodo.org/records/23428205) preserves the original table, four figure rasters and PASS/PASS/INCONCLUSIVE outcomes. The complete public ZIP is byte-identical to the frozen archive, with CRC and 1,824 internal hashes passing. Saved checks pass 9,052 groups / 157,400 comparisons. The B20.6 restart precision difference and remaining execution gaps are documented. **Basically reproducible; independent full rerun audit not completed.** [Audit](docs/B20_CP26_AUDIT_20261017.md).
@@ -182,7 +184,7 @@ A compact evidence map separating **model-level results** from **open hypotheses
 
 **Formal status-note DOI (through B23):** https://doi.org/10.5281/zenodo.22939024
 
-**B24–B25 Phase-I preprint DOI:** https://doi.org/10.5281/zenodo.22956894
+**B24–B25 Phase-I preprint DOI:** https://doi.org/10.5281/zenodo.23467490
 
 **B25 Phase-II preprint DOI:** https://doi.org/10.5281/zenodo.22967474
 
@@ -577,7 +579,7 @@ The original aggregate plan remains **INCONCLUSIVE** because the symmetric predi
 
 **Main entry:** [papers/B23_cross_branch_geometric_prediction](papers/B23_cross_branch_geometric_prediction)
 
-**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22936794
+**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.23467455
 
 **Scope:** B23 is a finite synthetic, finite-resolution, short-horizon transfer study. It does not establish a universal boundary-motion law, continuum convergence, full-parameter-space invariance, a physical-space interface law, an invariant manifold, or any Navier--Stokes blow-up/regularity result.
 
@@ -626,7 +628,7 @@ On nine new resolution/shape combinations, all nine cases were valid; the maximu
 
 **Main entry:** [papers/B24_B25_predictive_boundary_functional_transfer](papers/B24_B25_predictive_boundary_functional_transfer)
 
-**Phase-I Zenodo DOI:** https://doi.org/10.5281/zenodo.22956894
+**Phase-I Zenodo DOI:** https://doi.org/10.5281/zenodo.23467490
 
 **Phase-II Zenodo DOI:** https://doi.org/10.5281/zenodo.22967474
 
@@ -762,10 +764,10 @@ Current entries include:
 | B19E | External flow validation and local-budget audit | https://doi.org/10.5281/zenodo.22996961 |
 | B20 | Operator-generated finite-window response boundaries | https://doi.org/10.5281/zenodo.23428205 |
 | B21 | Local kinematic closure of response boundaries (v1.1; CP27) | https://doi.org/10.5281/zenodo.23443699 |
-| B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.22893912 |
-| B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.22936794 |
+| B22 | Prospective local geometry of response boundaries | https://doi.org/10.5281/zenodo.23467311 |
+| B23 | Cross-branch short-horizon geometric prediction | https://doi.org/10.5281/zenodo.23467455 |
 | B23A | Structural universality and its tested limits | https://doi.org/10.5281/zenodo.22994445 |
-| B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.22956894 |
+| B24–B25 Phase I | Cross-sector audit and predictive boundary-functional transfer | https://doi.org/10.5281/zenodo.23467490 |
 | B25 Phase II | Fixed-coefficient perimeter closure and geometry-transfer boundary | https://doi.org/10.5281/zenodo.22967474 |
 | B26 | Topology localization and terminal two-center geometry-transfer test | https://doi.org/10.5281/zenodo.22972985 |
 | B27 | History-conditioned response geometry; v1.1 source–implementation correction | [10.5281/zenodo.23368996](https://doi.org/10.5281/zenodo.23368996) · [original v1.0](https://doi.org/10.5281/zenodo.23024324) |
@@ -859,7 +861,7 @@ For claims about the evidential status of several B-series together, cite the re
 
 - B3–B23 programme status: https://doi.org/10.5281/zenodo.22939024
 - B23A structural-universality audit: https://doi.org/10.5281/zenodo.22994445
-- B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
+- B24–B25 Phase I: https://doi.org/10.5281/zenodo.23467490
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 - B38 relational timing and weighted measurement duality: https://doi.org/10.5281/zenodo.23104248
