@@ -95,13 +95,17 @@ It does **not** establish:
 
 ## Publication
 
-**Zenodo record and DOI:** https://doi.org/10.5281/zenodo.22936794
+**Current Zenodo v1.1 DOI:** https://doi.org/10.5281/zenodo.23467455
+
+**Historical v1.0 DOI:** https://doi.org/10.5281/zenodo.22936794
 
 The English preprint is the authoritative version. The Zenodo release also includes a Japanese reference translation and a compact reproducibility package.
 
 **Author:** Jun Lucis
 
 
-## Publication synchronization — 19 October 2026
+## Publication revision — 19 October 2026
 
-[B23 / v1](https://zenodo.org/records/22936794). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).
+[B23 / v1.1](https://zenodo.org/records/23467455) has revised English and Japanese PDF manuscripts; [original v1.0](https://zenodo.org/records/22936794) remains a citable historical version. Original B23 reproducibility ZIP retained unchanged.
+
+Editorial clarifications: E3R wrong-ray correction, E3R2 corrective replication, sequential observed-T1 scope; original aggregate `INCONCLUSIVE` retained. The frozen scientific verdicts and data are unchanged. **Basically reproducible; an independent full numerical rerun audit remains incomplete.** [Revision record](../../docs/publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
