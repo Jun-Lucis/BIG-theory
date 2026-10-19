@@ -1,7 +1,8 @@
 # BIG Research Status Update — B24-B25 Phase I
 
 **Date:** 2026-09-25  
-**Primary DOI:** https://doi.org/10.5281/zenodo.22956894
+**Current revised DOI (v1.1; 2026-10-19):** https://doi.org/10.5281/zenodo.23467490  
+**Original DOI (v1.0; contemporaneous with this note):** https://doi.org/10.5281/zenodo.22956894
 
 This note updates the earlier B3-B23 research-status map. It does not replace or rewrite the frozen verdicts from earlier stages.
 
