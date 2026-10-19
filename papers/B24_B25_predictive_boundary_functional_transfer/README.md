@@ -2,8 +2,8 @@
 
 **Title:** *From Distinct Boundary Classes to Predictive Boundary-Functional Transfer: A Predeclared Numerical Reconstruction in Boundary Information Geometry*  
 **Author:** Jun Lucis  
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.22956894  
-**Status:** English preprint v1.0 published; Japanese reference translation available in the same release package.
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23467490  
+**Status:** English preprint v1.1 published; Japanese reference translation in the same Zenodo record. Original Phase-I v1.0 DOI: https://doi.org/10.5281/zenodo.22956894.
 
 ---
 
@@ -149,8 +149,8 @@ Earlier FAIL and INCONCLUSIVE verdicts are not upgraded by B25.1b.
 
 ## Citation
 
-Lucis, J. (2026). *From Distinct Boundary Classes to Predictive Boundary-Functional Transfer: A Predeclared Numerical Reconstruction in Boundary Information Geometry*. Zenodo preprint v1.0.  
-https://doi.org/10.5281/zenodo.22956894
+Lucis, J. (2026). *From Distinct Boundary Classes to Predictive Boundary-Functional Transfer: A Predeclared Numerical Reconstruction in Boundary Information Geometry*. Zenodo preprint v1.1.  
+https://doi.org/10.5281/zenodo.23467490
 
 The English manuscript is the authoritative academic version. A Japanese reference translation is included for accessibility.
 
@@ -217,6 +217,8 @@ Geometry-family and topology transfer remain unresolved.
 Phase II does not derive a continuum perimeter theorem, a universal or source-independent (sigma P) law, the B9 nonlocal term, the complete B9 energy, or external physical validity.
 
 
-## Publication synchronization — 19 October 2026
+## Publication revision — 19 October 2026
 
-[B24–B25 Phase I / v1](https://zenodo.org/records/22956894), [B25 Phase II / v1](https://zenodo.org/records/22967474). Saved-audit scope and the GitHub Related works link are published; existing scientific files, numbers and formal outcomes are retained. **Basically reproducible; an independent rerun audit remains incomplete.** [Record-by-record publication status and unresolved items](../../docs/publication_sync_B19_B41_2026_10_19_JA.md).
+**Current Phase-I v1.1:** https://doi.org/10.5281/zenodo.23467490 (English/Japanese revised PDFs). **Historical Phase-I v1.0:** https://doi.org/10.5281/zenodo.22956894.
+
+**Phase II remains v1.0:** https://doi.org/10.5281/zenodo.22967474. Both original English and Japanese Phase-I ZIP packages retained unchanged; Phase II not modified. Scope of revision: frozen cross-sector source/mapping scope, historical `DRAFT_NOT_FROZEN`, and retained original B25.1 FAIL / B25.1b PASS. Scientific verdicts are unchanged. **Basically reproducible; independent full numerical re-execution is not complete.** [Revision record](../../docs/publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
