@@ -12,7 +12,8 @@
 
 後続の正式記録:
 
-- B24–B25 Phase I: https://doi.org/10.5281/zenodo.22956894
+- B24–B25 Phase I（現行v1.1）： https://doi.org/10.5281/zenodo.23467490
+- B24–B25 Phase I（初版v1.0）： https://doi.org/10.5281/zenodo.22956894
 - B25 Phase II: https://doi.org/10.5281/zenodo.22967474
 - B26: https://doi.org/10.5281/zenodo.22972985
 - B23A universality audit: https://doi.org/10.5281/zenodo.22994445
