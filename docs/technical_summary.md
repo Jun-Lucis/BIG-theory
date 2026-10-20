@@ -1,5 +1,9 @@
 # BIG Technical Summary — One-Page Evidence Guide
 
+
+**Current programme-wide synthesis (20 October 2026):** [Flagship Preprint v1.0, DOI 10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616), including an English paper, Japanese reference translation, and English technical appendix. This older technical guide remains a model-focused introduction; for later B37–B42 limitations consult the [research status pages](publication_map.md) and the flagship. The B42 overall formal scientific verdict is **NONE**; the candidate CA16 physical experiments have **not** been performed and no independently calibrated BIG-specific physical discriminator is established.
+
+
 **Boundary Information Geometry (BIG)** is a boundary-centered mathematical and numerical research programme. It studies reduced systems in which boundaries are represented explicitly as dynamical fields, geometric costs, history-bearing interfaces, readout structures, branch/reconfiguration geometry, or finite-time response zero sets.
 
 ## Current programme-level conclusion

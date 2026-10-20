@@ -1,5 +1,13 @@
 # BIG Citation Policy
 
+
+## Current programme-wide entry: the 2026 flagship
+
+For a recent **programme-wide synthesis**, cite: **Jun Lucis (2026), *Boundary Information Geometry: Distinct Model Families, Preserved Failures, and a Path toward Physical Measurement*, Preprint v1.0, [DOI: 10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616)**. It includes English main, Japanese reference and English technical appendix.
+
+This is not a substitute for model-level references. **Specific equations, parameters, numerical values, formal PASS/FAIL/INCONCLUSIVE, code corrections, and predeclared protocols require the source publication and its version-specific DOI.** The GitHub repository itself remains a living reference index and can be cited separately. The new synthesis does **not** establish a universal BIG physics law or independent physical validation.
+
+
 This page explains how to cite **Boundary Information Geometry (BIG)** at the appropriate evidential level.
 
 The repository contains a research programme rather than one single paper. A citation should therefore match the claim being made.

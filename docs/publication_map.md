@@ -1,5 +1,13 @@
 # BIG Publication Map
 
+
+## Programme-wide flagship preprint (2026-10-20)
+
+**Jun Lucis, *Boundary Information Geometry: Distinct Model Families, Preserved Failures, and a Path toward Physical Measurement*, version 1.0.** New standalone Zenodo Preprint record: **[10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616)** ([record](https://zenodo.org/records/23486616)). Published 2026-10-20 under CC BY 4.0; it is **not** a new version of any B3–B42 record.
+
+The record contains the authoritative English main paper (`BIG_Flagship_Preprint_EN_v1_0.pdf`), Japanese reference translation (`BIG_Flagship_Japanese_Reference_v1_0.pdf`) and English technical appendix (`BIG_Flagship_Technical_Appendix_EN_v1_0.pdf`). It synthesizes rather than supersedes the source papers and retains historical FAIL/INCONCLUSIVE results, B42's formal overall scientific verdict **NONE**, unperformed CA16 physical experiments and independent full-solver audit limits. Cite the appropriate **original version-specific DOI** for individual equations, numerical results and frozen scientific verdicts; see [citation policy](citation_policy.md).
+
+
 **B22/B23/B24–B25 Phase-I Zenodo manuscript revisions — 19 October 2026:** Current v1.1 records: [B22](https://zenodo.org/records/23467311), [B23](https://zenodo.org/records/23467455), [B24–B25 Phase I](https://zenodo.org/records/23467490). English and Japanese PDFs were revised; the previous reproducibility ZIPs and scientific verdicts were retained. Historic v1.0 DOIs: B22 [22893912](https://zenodo.org/records/22893912), B23 [22936794](https://zenodo.org/records/22936794), and Phase I [22956894](https://zenodo.org/records/22956894). Independent full numerical rerun audit remains incomplete. [Change log](publication_revisions_B22_B23_B24B25_2026_10_19_JA.md).
 
 **B19–B41 publication synchronization — 19 October 2026:** [Verified publication-unit inventory and open items](publication_sync_B19_B41_2026_10_19_JA.md). Thirteen metadata updates are published; existing files and formal classifications are retained. This does not close the unfinished full-manuscript/source-audit work. B21 current v1.1 is [23443699](https://zenodo.org/records/23443699); historical v1.0 [22876813](https://zenodo.org/records/22876813) remains archived. B27, B30–B36 and B40 are confirmed at v1.1. B37 remains an unconfirmed standalone publication.
