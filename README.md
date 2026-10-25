@@ -17,6 +17,16 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## New independent preprint — Unified U0 and observer backaction (26 October 2026)
+
+**Boundary–Flow–History Coupling with Observer Backaction: Mathematical Structure, Numerical Verification, and Predictive Limits**  
+*Jun Lucis · Zenodo Preprint v1.0 · CC BY 4.0 for papers/new documentation*
+
+- **[Version-specific DOI: 10.5281/zenodo.23650894](https://doi.org/10.5281/zenodo.23650894)** · [All-version DOI](https://doi.org/10.5281/zenodo.23650893).
+- [Research scope, original numerical FAILs, observer R0–R2 and public reproduction files](papers/Unified_boundary_flow_history_observer/README.md) · [Publication map](docs/publication_map.md).
+
+This independent post-B42 candidate couples structural field, incompressible flow, internal history and thermal bookkeeping under explicit assumptions. **Observer backaction is a later extension to the originally passive-readout U0**, not part of its initial definition. Restricted analytical identities and internal numerical checks coexist with **P3.3a/P3.3b/P3.4 prospective synthetic prediction FAILs**; the observer QA passes do not change those outcomes. Equivalent ordinary internal-variable descriptions exist. **BIG-specific added predictive value is NOT DEMONSTRATED**, and no independently calibrated physical measurement or general sharp 2D support theorem is claimed.
+
 ## New independent preprint — Fluid History (25 October 2026)
 
 **Boundary History and Observability in Classical Fluid Dynamics: Prospective Numerical Tests, Classical Comparators, and Predictive Limits**  
@@ -35,6 +45,7 @@ This post-B42 study uses **ordinary Navier–Stokes/Newtonian fluid equations** 
 | **Interaction, selection and traces (B10–B18)** | First encounter versus sustained capture; designed retention, writing and reading of history | Constructed stochastic/PDE models; not biological heredity, quantum measurement or measured material memory |
 | **Operator response and transfer (B19–B29)** | Finite-window response-zero sets, local geometry, branch transfer and reconfiguration | Parameter-space quantities; some forward tests pass, other transfers fail or are inconclusive |
 | **Modal and relational response (B30–B41)** | Angular response, complex transfer, timing, measurement weighting and finite-parameter prediction | Restricted numerical families with separately preserved PASS/FAIL; no universal physical clock or wave |
+| **Post-B42 unified U0 and observer extensions** | Coupling of structural field, flow, internal history, heat, passive observation and later apparatus backaction | Conditional mathematical/model QA; synthetic relative-clock and added-heat prediction gates FAIL; no distinct calibrated physical law |
 | **Identifiability and physical eligibility (B42)** | What can independently measured structure predict, and what can distinguish a model from ordinary constitutive theories? | B42 overall formal science verdict **NONE**; the proposed CA16 material experiments have not been performed |
 
 For the source-defined equations and results, begin with the [publication map](docs/publication_map.md), rather than interpreting this overview as a single model.
