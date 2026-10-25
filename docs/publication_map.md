@@ -1,6 +1,12 @@
 # BIG Publication Map
 
 
+## Post-B42 independent study — Coupled U0 and observer backaction (2026-10-26)
+
+**Jun Lucis, *Boundary–Flow–History Coupling with Observer Backaction: Mathematical Structure, Numerical Verification, and Predictive Limits*, Zenodo Preprint v1.0.** [Version-specific DOI: **10.5281/zenodo.23650894**](https://doi.org/10.5281/zenodo.23650894) ([public record and files](https://zenodo.org/records/23650894)); [all-version DOI: **10.5281/zenodo.23650893**](https://doi.org/10.5281/zenodo.23650893).
+
+This **separate post-B42 study** introduces the candidate coupled U0 with structural field, incompressible flow, memory and thermal bookkeeping under explicit assumptions, then distinguishes the original **passive readout** from later **observer-backaction R0–R2 extensions**. It preserves R0–R2 model-internal numerical PASSes alongside the **P3.3a, P3.3b and P3.4 prospectively separated synthetic prediction FAILs**. An ordinary internal-variable viscosity description is algebraically equivalent: **BIG-specific incremental predictive value is NOT DEMONSTRATED**. The Zenodo record includes English primary paper, Japanese reference version, 12 original stage archives in a public reproduction ZIP, failures, checksums and license notices. Archive-integrity verification (12 ZIP CRC checks, 458 manifest SHA256 entries) is not independent full PDE rerunning. [Paper index and evidence limits](../papers/Unified_boundary_flow_history_observer/README.md).
+
 ## Post-B42 independent study — Fluid History (2026-10-25)
 
 **Jun Lucis, *Boundary History and Observability in Classical Fluid Dynamics: Prospective Numerical Tests, Classical Comparators, and Predictive Limits*, Preprint v1.0.** [Version-specific DOI: **10.5281/zenodo.23635004**](https://doi.org/10.5281/zenodo.23635004) ([record and files](https://zenodo.org/records/23635004)); [all-version DOI: 10.5281/zenodo.23635003](https://doi.org/10.5281/zenodo.23635003).
