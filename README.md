@@ -17,6 +17,16 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## New independent preprint — Fluid History (25 October 2026)
+
+**Boundary History and Observability in Classical Fluid Dynamics: Prospective Numerical Tests, Classical Comparators, and Predictive Limits**  
+*Jun Lucis · Zenodo Preprint v1.0*
+
+- **[Version-specific DOI: 10.5281/zenodo.23635004](https://doi.org/10.5281/zenodo.23635004)** · [All-version DOI](https://doi.org/10.5281/zenodo.23635003).
+- [Research scope, preserved FAIL/PASS results and reproduction guide](papers/Fluid_History_classical_NS/README.md) · [Publication map](docs/publication_map.md).
+
+This post-B42 study uses **ordinary Navier–Stokes/Newtonian fluid equations** to examine whether partial pressure observations can read out preparation history and predict later response. The prospective R4.4/R4.5 numerical tests passed their frozen gates; a **conventional A-optimal six-sector layout outperformed** an earlier six-sector candidate under simulated independent noise. Initial failures, post-outcome analyses and independent-replay limits remain explicit. **No BIG-specific physical law or additional predictive value over equally informed classical methods was demonstrated.** The archive is public on Zenodo; access to the author's private Drive is not required.
+
 ## What the research has examined
 
 | Model family | Examples of the question studied | Evidence boundary |
