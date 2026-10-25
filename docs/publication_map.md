@@ -1,6 +1,12 @@
 # BIG Publication Map
 
 
+## Post-B42 independent study — Fluid History (2026-10-25)
+
+**Jun Lucis, *Boundary History and Observability in Classical Fluid Dynamics: Prospective Numerical Tests, Classical Comparators, and Predictive Limits*, Preprint v1.0.** [Version-specific DOI: **10.5281/zenodo.23635004**](https://doi.org/10.5281/zenodo.23635004) ([record and files](https://zenodo.org/records/23635004)); [all-version DOI: 10.5281/zenodo.23635003](https://doi.org/10.5281/zenodo.23635003).
+
+This **new, standalone post-B42 record** covers classical Fluid History R0–R4.5, not a new B-number, B42 version, or flagship update. It includes English main manuscript, Japanese reference summary, English technical appendix, core and upstream numerical archives, provenance map, checksums, and component license notices. The R4.4/R4.5 **predeclared numerical** outcomes supported limited forward prediction and sensor comparisons, including superiority of conventional A-optimal placement under simulated independent noise in R4.5. Prior numerical FAILs and separate supplemental PASSes remain intact. The complete formal evaluation remains **BIG-specific added predictive value NOT DEMONSTRATED**; no direct Re=20 laboratory validation or independent full PDE solver rerun is claimed. [Paper index and citation details](../papers/Fluid_History_classical_NS/README.md).
+
 ## Programme-wide flagship preprint (2026-10-20)
 
 **Jun Lucis, *Boundary Information Geometry: Distinct Model Families, Preserved Failures, and a Path toward Physical Measurement*, version 1.0.** New standalone Zenodo Preprint record: **[10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616)** ([record](https://zenodo.org/records/23486616)). Published 2026-10-20 under CC BY 4.0; it is **not** a new version of any B3–B42 record.

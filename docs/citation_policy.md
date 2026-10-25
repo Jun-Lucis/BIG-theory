@@ -8,6 +8,14 @@ For a recent **programme-wide synthesis**, cite: **Jun Lucis (2026), *Boundary I
 This is not a substitute for model-level references. **Specific equations, parameters, numerical values, formal PASS/FAIL/INCONCLUSIVE, code corrections, and predeclared protocols require the source publication and its version-specific DOI.** The GitHub repository itself remains a living reference index and can be cited separately. The new synthesis does **not** establish a universal BIG physics law or independent physical validation.
 
 
+## Standalone post-B42 fluid-history study (2026-10-25)
+
+For the numerical and analytical findings of **BIG Fluid History R0–R4.5**, including the predeclared R4.4/R4.5 comparator results, preserved failures, and limitations, cite:
+
+> Lucis, J. (2026). *Boundary History and Observability in Classical Fluid Dynamics: Prospective Numerical Tests, Classical Comparators, and Predictive Limits*. Preprint v1.0, Zenodo. [DOI: 10.5281/zenodo.23635004](https://doi.org/10.5281/zenodo.23635004).
+
+The [all-version DOI](https://doi.org/10.5281/zenodo.23635003) tracks future record versions; use the version-specific DOI for exact reproduced quantities. [GitHub paper navigation](../papers/Fluid_History_classical_NS/README.md). This is a classical Navier–Stokes study and does not establish BIG-specific additional physics or supersede B42 or the programme-level flagship.
+
 This page explains how to cite **Boundary Information Geometry (BIG)** at the appropriate evidential level.
 
 The repository contains a research programme rather than one single paper. A citation should therefore match the claim being made.
