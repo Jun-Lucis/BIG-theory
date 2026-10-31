@@ -81,7 +81,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B5 | Mobility-dependent effective exponents in finite-time snapshots | Clarified dataset v1.1 published; original CSV and PNG retained |
 | B6 | Methodology-history reference | Standalone B6 DOI unconfirmed; do not identify it with BIG6.5 without provenance |
 | B7     | Free-boundary exponent near runaway transition            | Local boundary regularity under global instability |
-| B8     | Boundary anisotropy and finite-time separatrix thresholds | Geometry-controlled finite-amplitude stability     |
+| B8     | Boundary anisotropy and finite-time separatrix thresholds | Finite-grid shape-dependent stopping; v0.3 mathematical and scheme-sensitivity audit |
 | B9     | Boundary cost versus nonlocal repulsion                   | Fission-like metastability; later empirical Phase II separates energetic preference, coexistence, and local spinodal scales |
 | B10    | Finite-noise sustained capture                            | Stochastic-resonance-like boundary capture         |
 | B11    | Post-capture hidden-depth inheritance                     | Non-assimilative post-fusion memory retention      |
@@ -407,38 +407,58 @@ The primary record was already linked in the main README; the unfilled local ent
 
 ### B8: Boundary anisotropy and finite-time separatrix thresholds
 
-**Documentation correction v0.2 — 15 October 2026.** The current dataset is
-[DOI 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079).
-Model labels, case identifiers, the pooled history and two figure representations
-are corrected using existing archived values. The original solver/ray-fit
-source remains unauthenticated. [Correction details](B8_documentation_correction_2026_10_15.md).
+**Current Zenodo New Version: v0.3 — 31 October 2026.**
+[Version-specific DOI **10.5281/zenodo.23832946**](https://doi.org/10.5281/zenodo.23832946)
+([record and three files](https://zenodo.org/records/23832946)).
+Publication files: `BIG_B8_Revised_Preprint_EN_v0_3.pdf`,
+`BIG_B8_Japanese_Reference_v0_3.pdf`, and
+`BIG_B8_v0_3_Reproducibility_Supplement.zip` (CC BY 4.0).
+This release is a **new version of the existing B8 record family**, not a
+standalone replacement of the original dataset.
 
+**Previous documentation correction: v0.2 — 15 October 2026.**
+[Version-specific DOI 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079).
+It corrected nine model labels, 125 ratio IDs, the pooled N96 history, and two
+figures using existing archived values, while retaining thresholds, coefficients
+and decisions. [Correction details](B8_documentation_correction_2026_10_15.md).
+The [original record DOI 10.5281/zenodo.20645317](https://doi.org/10.5281/zenodo.20645317)
+also remains archived.
 
-**Theme:**
-Finite-time survival/runaway thresholds controlled by boundary anisotropy.
+**Original bounded result:** In the archived projected central-difference
+finite-grid protocol, the finite-time survival/runaway classification changes
+with ellipse aspect ratio. The recorded ordering across selected N96 and N120
+grids remains part of the historical numerical evidence. It is not an
+asymptotic or mesh-independent continuum separatrix.
 
-**Core claim:**
-Boundary shape is not merely an initial condition; it can shift the finite-time separatrix. In the B8.8 scan, more anisotropic boundaries lowered the finite-time threshold.
+**v0.3 source and numerical audit:** Four original terminal field replays match
+within a maximum absolute cell difference of 9.36e-14 (limited subset). The
+original code uses clipping and a specified RHS/peak numerical stop condition.
+For a separate circular reference input (ratio 1.0, amplitude 0.345), changing
+from the original centered spatial operator to a smooth-test-consistent
+face-flux operator changes the N96 classification from survive-to-T=0.4
+to STOP near t=0.296. N144/N160 and reduced-timestep controls exhibit
+substantial grid/scheme sensitivity. A numerical STOP is **not** a PDE blow-up.
 
-**Recommended cautious wording:**
+**v0.3 conditional mathematical proof:** The formal unprojected B8 negative
+quartic-gradient flux admits negative principal eigenvalues in the positive
+interior of the specified circular initial field. Its fixed-reference,
+variable-coefficient linearization has an L2 C0-semigroup generation
+obstruction under the documented operator-domain assumptions. This is **not**
+a proof of nonlinear B8 nonexistence, universal finite-time singularity,
+or a new physical instability law. Added positive second- or fourth-order
+regularization defines a *new* model, not a correction of the archived run.
 
-```text
-Numerical evidence for a geometry-dependent finite-time separatrix
-in a degenerate mixed-gradient dissipative field.
-```
+**Current claim boundary:** Reproducible **finite-grid, finite-time model
+observations** with numerical scheme sensitivity; a continuum-invariant
+threshold, nonlinear well-posedness theory, and BIG-specific independently
+calibrated physical predictive gain remain **NOT ESTABLISHED / UNRESOLVED**.
+Other BIG series require their own source-specific model audits; B42
+`SCIENCE NONE` and all prior frozen FAIL/INCONCLUSIVE results are unchanged.
 
-**Important limitation:**
-The reported thresholds are finite-time values under the adopted observation time and runaway criterion. They are not asymptotic stability thresholds.
+**Audit report:** [B8 v0.3 source and mathematical audit](B8_v0_3_source_and_mathematical_audit_2026_10_31.md).
+**Dedicated B8 README:** [research branch](../papers/B8_finite_time_separatrix/README.md).
 
-**Role in BIG:**
-B8 turns the statement “boundary matters” into a measurable relation between boundary geometry and finite-amplitude stability.
-
-**Record / DOI:**
-Zenodo record:
-https://zenodo.org/records/23385079
-
-B7-related DOI mentioned in supporting notes:
-https://doi.org/10.5281/zenodo.20603601
+B7-related DOI: https://doi.org/10.5281/zenodo.20603601
 
 ---
 
