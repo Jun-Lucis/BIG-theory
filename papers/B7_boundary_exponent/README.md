@@ -1,8 +1,24 @@
 # BIG-B7: Free-Boundary Exponent Across a Runaway Transition
 
-This folder collects materials related to **BIG-B7**, a numerical study of local free-boundary structure near a global runaway transition.
+**Current publication — revised preprint v1.1 (31 October 2026):**
+[10.5281/zenodo.23835715](https://doi.org/10.5281/zenodo.23835715)
+([Zenodo record](https://zenodo.org/records/23835715), CC BY 4.0).
+The release includes the revised English paper, Japanese reference translation,
+and reproducibility supplement.
 
-BIG-B7 studies whether the local boundary exponent changes when the global system approaches runaway-like behavior.
+**Original historical release:**
+[10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601).
+Its original nine finite-grid numerical outcomes, classifications, fitted
+values and provenance remain archived and are **not** replaced by a claim
+of continuum or physical instability.
+
+**Detailed audit:** [B7 v1.1 source recovery, spatial-scheme sensitivity,
+and conditional linearized operator result](../../docs/B7_v1_1_source_numerical_and_linearization_audit_2026_10_31.md).
+
+BIG-B7 studies whether a **finite-window, positive-level-contour fitted**
+boundary exponent changes across the **tested finite-grid numerical STOP
+classification**. The original global-runaway interpretation is a
+hypothesis rather than an established nonlinear continuum mechanism.
 
 ---
 
@@ -14,7 +30,9 @@ The guiding question of B7 is:
 
 This question is important for BIG because boundary stability has both local and global aspects.
 
-A boundary can remain locally well-formed even when the entire configuration becomes globally unstable.
+In the archived finite-grid solver, a fitted local boundary profile can
+remain regular-looking while the numerical stopping classification changes.
+This does not establish that an actual continuum configuration becomes globally unstable.
 
 ---
 
@@ -40,21 +58,34 @@ B7 asks whether this exponent changes near a runaway transition.
 
 ## Main result
 
-The main B7 observation is that the local boundary exponent remains approximately stable across the tested transition regime.
+The retained B7 observation is that the selected finite-grid fitted
+local exponent remains approximately stable across the **numerical**
+survival/STOP bracket near `gamma=0.8735 ± 0.0005`
+(`N=160`, `dt=1e-6`, `T=0.3`). The selected mean fitted exponent
+is approximately `nu=1.9085`. Both are finite-grid descriptors,
+not universal critical parameters or asymptotic support-edge exponents.
 
 Qualitatively:
 
 ```text
-local boundary profile
-    -> remains close to quadratic landing
+fitted positive-contour profile
+    -> effective exponent stays near 1.91
 
-global dynamics
-    -> may approach runaway-like behavior
+numerical evolution (specified grid, stencil and STOP rule)
+    -> some tested gamma values reach STOP before T=0.3
 ```
 
-This suggests that runaway-like behavior does not necessarily begin as a local boundary-profile breakdown.
+This observation shows that an apparently regular finite-window fitted
+profile does not, by itself, prevent a **numerical** stopping event.
+The underlying cause of the STOP cannot be identified as a global
+physical or continuum instability on this basis alone.
 
-Instead, it may arise from global accumulation, global instability, or long-range dynamical effects while the immediate boundary layer remains locally regular.
+The v1.1 audit identified **grid and spatial-stencil sensitivity**.
+For the same elliptical input and `gamma=0.874`, the centered
+scheme at N96 and N128 survives to `T=0.3`, whereas the original
+N160 run stops near `t=0.299952`; a face-flux scheme on N96
+instead stops near `t=0.254392`. A numerical STOP is not a
+PDE blow-up.
 
 ---
 
@@ -74,14 +105,16 @@ What is the boundary shape near the free boundary?
 Does the entire configuration remain bounded, stable, or controlled over time?
 ```
 
-B7 suggests that these two questions should not be automatically identified.
+B7 motivates keeping these two questions distinct, but the
+continuum equation's behavior is **not established** by the archived
+finite-grid solver.
 
-A system may show:
+A finite-grid computation may show:
 
 ```text
-local boundary regularity
+stable-looking fitted local contour
 AND
-global runaway tendency
+numerical RHS-based STOP
 ```
 
 This distinction becomes important for later BIG series.
@@ -104,7 +137,10 @@ B11: hidden-depth inheritance
 B12: unified boundary dynamics
 ```
 
-B7 supports the idea that local boundary structure can remain meaningful even when global behavior changes sharply.
+B7 motivates a distinction between the observed finite-grid local fitted
+profile and the globally defined *numerical* stopping condition.
+Its formal negative-quartic-gradient continuum equation also has a
+separate source-scoped linearized mathematical obstruction; see the audit.
 
 ---
 
@@ -112,7 +148,10 @@ B7 supports the idea that local boundary structure can remain meaningful even wh
 
 For BIG, this is important because the boundary is not just a visual edge.
 
-If the boundary exponent remains stable near a runaway transition, then the boundary layer may carry robust local information even when the total configuration is dynamically unstable.
+The fitted exponent is comparatively stable in the archived
+finite-grid protocol despite changes in the solver's STOP label.
+This supports a **model-internal descriptive observation**, not
+a universal statement about physically stable boundary layers.
 
 This helps motivate later questions:
 
@@ -137,7 +176,23 @@ It does not claim that:
 * the model provides an asymptotic theorem;
 * the result directly applies to physical, biological, or cosmological systems without further modeling.
 
-The result should be read as model-level numerical evidence for the persistence of local boundary structure across a tested runaway transition.
+The result should be read as **finite-grid numerical evidence** for
+an approximately stable finite-window fitted exponent across a
+numerical STOP bracket, not as evidence of a universal nonlinear
+continuum runaway transition.
+
+**Additional v1.1 limitations:** the originally executed centered
+finite-difference solver uses clipping and numerical RHS/peak thresholds.
+Nine archived fields pass independent arithmetic checks; only three
+complete trajectories have been independently replayed at the original
+grid. The formal *unprojected* equation has a negative principal
+coefficient on part of the specified initial field, giving a
+**conditional `L²` `C₀` semigroup-generation obstruction**
+for a fixed-profile, variable-coefficient linearization under
+explicit domain assumptions. This is **not** a nonlinear blow-up
+or nonexistence theorem. Nonlinear continuum well-posedness, a
+mesh-independent critical coefficient, and external physical
+validation remain unresolved.
 
 ---
 
@@ -145,15 +200,20 @@ The result should be read as model-level numerical evidence for the persistence 
 
 Preferred:
 
-> BIG-B7 studies the persistence of the local free-boundary exponent near a global runaway transition.
+> BIG-B7 reports a finite-window fitted local contour exponent near
+> a finite-grid, finite-time numerical STOP transition.
 
 Preferred:
 
-> B7 suggests that local boundary regularity can coexist with global instability in a reduced boundary model.
+> A stable-looking fitted local contour can coexist with the
+> numerical STOP classification in the specified solver; the
+> continuum instability mechanism remains unresolved.
 
 Preferred:
 
-> B7 separates local boundary-profile behavior from global runaway dynamics.
+> B7 distinguishes local finite-window fitting from global numerical
+> stopping, while keeping the underlying nonlinear continuum
+> dynamics an open question.
 
 Avoid unless carefully qualified:
 
@@ -167,9 +227,13 @@ Avoid unless carefully qualified:
 
 ## Zenodo record
 
-Primary B7 record:
+**Current revised B7 preprint v1.1:**
+[10.5281/zenodo.23835715](https://doi.org/10.5281/zenodo.23835715)
+(English PDF, Japanese reference PDF, reproducibility ZIP).
 
+**Original B7 archived report:**
 [10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601)
+(retained as part of the record's version history).
 
 Related B7/B8 summary notes may also be listed here as the repository is organized.
 

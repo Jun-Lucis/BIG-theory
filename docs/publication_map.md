@@ -80,7 +80,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures | Local boundary observations with source and interpretation limits |
 | B5 | Mobility-dependent effective exponents in finite-time snapshots | Clarified dataset v1.1 published; original CSV and PNG retained |
 | B6 | Methodology-history reference | Standalone B6 DOI unconfirmed; do not identify it with BIG6.5 without provenance |
-| B7     | Free-boundary exponent near runaway transition            | Local boundary regularity under global instability |
+| B7     | Free-boundary exponent near runaway transition            | Finite-grid fitted local exponent near numerical STOP; v1.1 source, scheme, and linearization audit |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds | Finite-grid shape-dependent stopping; v0.3 mathematical and scheme-sensitivity audit |
 | B9     | Boundary cost versus nonlocal repulsion                   | Fission-like metastability; later empirical Phase II separates energetic preference, coexistence, and local spinodal scales |
 | B10    | Finite-noise sustained capture                            | Stochastic-resonance-like boundary capture         |
@@ -386,22 +386,57 @@ B6 is mentioned in the methodology history, but no standalone B6 DOI is identifi
 
 ### B7: Free-boundary exponent near runaway transition
 
-**Theme:**
-Persistence of local free-boundary structure across a runaway transition.
+**Current Zenodo New Version: v1.1, published 31 October 2026.**
+[Version-specific DOI **10.5281/zenodo.23835715**](https://doi.org/10.5281/zenodo.23835715)
+([record and public files](https://zenodo.org/records/23835715)).
+The three release files are `BIG_B7_Revised_Preprint_EN_v1_1.pdf`,
+`BIG_B7_Japanese_Reference_v1_1.pdf`, and
+`BIG_B7_v1_1_Reproducibility_Supplement.zip` (CC BY 4.0).
+This is **a New version of the existing B7 record**, not a new standalone study.
 
-**Core claim:**
-The local free-boundary exponent remains approximately stable even when the global system approaches runaway. This suggests that runaway can arise from global dynamical instability rather than local boundary breakdown.
+**Original historical record:**
+[10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601).
+The archived gamma scan, fitted local exponents, finite-time classifications,
+and failures are preserved. In the original centered, projected finite-grid
+protocol (`N=160`, `T=0.3`, `dt=1e-6`), the apparent
+numerical bracket is `gamma_c = 0.8735 ± 0.0005`; the selected
+finite-window fitted contour exponent is about `nu=1.9085`.
+Neither is a universal continuum parameter.
 
-**Role in BIG:**
-B7 separates local boundary regularity from global stability.
+**v1.1 original-source audit:** original Colab source and the 9-run
+archived output summaries were linked and checked (162/162 tabulated
+fields); nine saved terminal/last-good fields were checked against their
+discrete RHS, mass and peak. **Three of nine original-grid trajectories**
+were independently replayed with a source-aligned implementation.
+For gamma=0.874, original N160 is a numerical STOP at first trigger
+near t=0.299952; the earlier stored t=0.299 is its **last-good**
+diagnostic state, not the first threshold crossing.
 
-**Status:**
-Numerical observation report.
+**v1.1 numerical counterfactuals:** same input and time step at
+gamma=0.874: centered N96/N128 **survive to T=0.3**, while
+centered N160 **STOPs**; a smooth-test-consistent alternative face-flux
+scheme at N96 also STOPs near t=0.254392. The N160 half-timestep
+control showed a nearly unchanged first STOP time. Thus a
+mesh-/scheme-independent threshold has **not** been established.
 
-**Record / DOI:**
-[10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601)
+**v1.1 conditional mathematical result:** for the *formal,
+unprojected negative-quartic-gradient equation*, the specified initial
+ellipse has a negative direction in its interior principal coefficient
+matrix. The time-frozen, spatially variable-coefficient linearization
+has an L2 C0-semigroup generation obstruction **under the stated
+operator-realization/domain assumptions**. This is **not** a theorem
+of general nonlinear PDE nonexistence or finite-time blow-up.
+The executed projection also changes the formal integral mass budget.
 
-The primary record was already linked in the main README; the unfilled local entry has been reconciled.
+**Current status:** **ARCHIVED FINITE-GRID NUMERICAL OBSERVATION
+PRESERVED; SOURCE-LINKED LIMITED REPLAY PASS; GRID/SCHEME SENSITIVITY
+DOCUMENTED; CONDITIONAL LINEARIZATION RESULT; CONTINUUM/PHYSICAL
+VALIDATION UNRESOLVED.** Later BIG-family results and frozen
+FAIL/INCONCLUSIVE verdicts have not been reclassified.
+
+[Detailed v1.1 audit](B7_v1_1_source_numerical_and_linearization_audit_2026_10_31.md) ·
+[B7 research README](../papers/B7_boundary_exponent/README.md) ·
+[historical B7–B8 bridge note](B7_to_B8_summary.md).
 
 ---
 
@@ -458,7 +493,7 @@ Other BIG series require their own source-specific model audits; B42
 **Audit report:** [B8 v0.3 source and mathematical audit](B8_v0_3_source_and_mathematical_audit_2026_10_31.md).
 **Dedicated B8 README:** [research branch](../papers/B8_finite_time_separatrix/README.md).
 
-B7-related DOI: https://doi.org/10.5281/zenodo.20603601
+B7 current v1.1 DOI: https://doi.org/10.5281/zenodo.23835715; historical B7 DOI: https://doi.org/10.5281/zenodo.20603601
 
 ---
 
