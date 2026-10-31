@@ -25,7 +25,7 @@ The present evidence supports the first as an organizing framework. The second i
 Several recurring structures have survived direct numerical or prospective tests:
 
 - **Early boundary observations:** B3.1 retains empirical position fits with unauthenticated original execution; B4.1/B4.3 retain selected finite-width near-two signatures with documented operator/provenance limits. B5 records mobility-dependent effective exponents at finite time, with no certified stationary convergence. These do not establish an exact support-edge exponent or universality class. See the [B3.1–B5 correction register](publication_corrections_B3_1_B5_2026_10_14.md).
-- **Finite-time stability geometry:** boundary anisotropy can shift survival/runaway thresholds in the tested finite-time protocols.
+- **Finite-time stability geometry (B7–B8):** the archived projected finite-grid B8 protocol exhibits aspect-ratio-dependent survival/STOP thresholds, with the historical N96/N120 ordering preserved. [B8 v0.3](https://doi.org/10.5281/zenodo.23832946) additionally documents spatial-discretization sensitivity and a *conditional* continuum-linearization semigroup obstruction. Neither a grid-independent separatrix nor a nonlinear blow-up or physical instability law has been established ([audit details](B8_v0_3_source_and_mathematical_audit_2026_10_31.md)).
 - **Separation-like metastability:** the reduced B9 energy
   [
   E(Omega;lambda)=sigma P(Omega)+lambda C(Omega)

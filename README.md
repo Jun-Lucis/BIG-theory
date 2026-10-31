@@ -17,6 +17,15 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## Updated BIG-B8 preprint — v0.3 (31 October 2026)
+
+**Boundary Anisotropy and Finite-Time Separatrix Thresholds — revised source and mathematical audit.**
+
+- [**Current B8 version-specific DOI: 10.5281/zenodo.23832946**](https://doi.org/10.5281/zenodo.23832946) · [English/Japanese manuscripts and reproducibility supplement](https://zenodo.org/records/23832946).
+- [B8 research summary](papers/B8_finite_time_separatrix/README.md) · [v0.3 mathematical/source audit](docs/B8_v0_3_source_and_mathematical_audit_2026_10_31.md) · [historical v0.2 documentation correction](docs/B8_documentation_correction_2026_10_15.md).
+
+B8's original shape-dependent thresholds are **finite-grid, finite-time numerical observations** under a box-projected scheme. The v0.3 audit preserves those results while documenting spatial-scheme sensitivity and a conditional time-frozen continuum-linearization well-posedness obstruction. It does **not** prove a nonlinear PDE blow-up, a universal separatrix, or external physical validity; it does not change separate later-study verdicts.
+
 ## New independent preprint — Unified U0 and observer backaction (26 October 2026)
 
 **Boundary–Flow–History Coupling with Observer Backaction: Mathematical Structure, Numerical Verification, and Predictive Limits**  
