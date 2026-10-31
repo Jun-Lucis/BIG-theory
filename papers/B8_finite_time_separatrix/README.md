@@ -1,8 +1,16 @@
 # BIG-B8: Boundary Anisotropy and Finite-Time Separatrix Thresholds
 
-**Documentation-corrected dataset v0.2 published — 15 October 2026.**
-[Current DOI 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079)
-retains the [original v1 archive, DOI 20645317](https://doi.org/10.5281/zenodo.20645317).
+**Current B8 version: v0.3 — published 31 October 2026.**
+[Version-specific DOI: 10.5281/zenodo.23832946](https://doi.org/10.5281/zenodo.23832946) · [Zenodo record](https://zenodo.org/records/23832946).
+The v0.3 release includes an English revised preprint, a Japanese reference translation,
+and a separate reproducibility supplement. Its additions audit the legacy numerical
+claims and the formal unprojected negative-quartic-flux equation; they do **not**
+replace the original finite-grid observations or establish a physical instability law.
+
+**Previous documentation-corrected dataset v0.2 — 15 October 2026.**
+[Version-specific DOI: 10.5281/zenodo.23385079](https://doi.org/10.5281/zenodo.23385079);
+the [original archived record, DOI 20645317](https://doi.org/10.5281/zenodo.20645317)
+remains part of the publication history.
 The public ZIP was re-downloaded and verified byte-for-byte against the upload.
 Nine model labels are corrected to exponential, 125 missing ratio identifiers
 are restored, the N96 pooled history includes all 35 existing per-ratio rows,
@@ -11,6 +19,55 @@ coefficients, predictions, classifications, raw case exports and the separate
 true log-log exponent 0.575225 are retained. The original solver and ray-fit
 source remain unauthenticated. See the [correction and verification record](../../docs/B8_documentation_correction_2026_10_15.md).
 
+
+## v0.3 source audit: numerical and mathematical scope
+
+The original B8 scheme is a *finite-dimensional, box-projected explicit Euler*
+algorithm, with centered spatial differences and numerical stopping criteria.
+The archived ellipse-family amplitude thresholds and their N96-to-N120
+aspect-ratio ordering are historical finite-grid results, not continuum or
+asymptotic separatrices. The v0.3 audit establishes the following:
+
+- **Limited original-scheme reproducibility:** four archived terminal fields
+  match a source-aligned re-execution within a maximum all-cell difference
+  of 9.36e-14. The complete original ray-fitting source and every historical
+  trajectory were not independently authenticated or rerun.
+- **Numerical scheme sensitivity:** at the circular initial condition
+  (aspect ratio 1, amplitude 0.345), the original centered scheme at N96
+  survives to T=0.4, whereas a separately implemented, smooth-test-consistent
+  face-flux scheme crosses the same RHS stopping threshold near t=0.296.
+  With the centered scheme, N144 and N160 cross near t=0.285417 and
+  t=0.266403, respectively. Reduced-timestep controls gave nearly identical
+  stop times at those fixed grids. A STOP is a numerical criterion, not proof
+  of a continuous-PDE singularity.
+- **Conditional mathematical obstruction:** in the positive interior,
+  the formal unprojected flux is
+  `J(phi) = phi*grad(phi) - gamma*|grad(phi)|^2*grad(phi)`
+  for the audited m=1 settings. Its principal linearization may have negative
+  eigenvalues. For the stated circular reference field, the *time-frozen,
+  spatially variable-coefficient* linearized operator does not generate a
+  standard L2 C0 semigroup for realizations containing compactly supported
+  smooth interior perturbations. This is **not** a general nonlinear
+  nonexistence or finite-time blow-up theorem.
+- **Regularization remains a new assumption:** adding sufficient positive
+  second-order diffusion or positive fourth-order smoothing changes the
+  governing model; the latter lacks a general positivity principle.
+  Neither intervention establishes stable compact-support evolution
+  of the original B8 equation.
+- **Evidence boundary:** finite-grid geometry-dependent classifications
+  are preserved; a grid-independent continuum separatrix, original
+  nonlinear well-posedness, BIG-specific added predictive value, and
+  independently calibrated physical prediction are **not established**.
+
+For the source-scoped theorem statements, numerical tables and provenance,
+see the [v0.3 mathematical audit note](../../docs/B8_v0_3_source_and_mathematical_audit_2026_10_31.md)
+and the [Zenodo v0.3 paper and supplement](https://doi.org/10.5281/zenodo.23832946).
+The historical [v0.2 documentation correction](../../docs/B8_documentation_correction_2026_10_15.md)
+and all prior formal outcomes are retained. Later BIG model families must be
+evaluated under their own source equations and evidence gates; B42
+`SCIENCE NONE` is unchanged.
+
+---
 
 This folder collects materials related to **BIG-B8**, a numerical study of how boundary anisotropy affects finite-time survival/runaway thresholds in reduced boundary-field models.
 
@@ -64,7 +121,7 @@ $$
 
 or another geometry-dependent shape descriptor.
 
-The B8 result is that such anisotropy can shift the finite-time threshold.
+The archived finite-grid B8 result is an aspect-ratio-dependent shift of a *numerically defined* finite-time threshold; no mesh-independent continuum threshold is established.
 
 ---
 
@@ -72,7 +129,7 @@ The B8 result is that such anisotropy can shift the finite-time threshold.
 
 The main B8 observation is:
 
-> Boundary anisotropy can control the position of the finite-time separatrix.
+> In the archived projected finite-difference solver, boundary anisotropy shifts the finite-time survival/stop threshold over the stated observation window.
 
 Qualitatively:
 
@@ -102,7 +159,7 @@ boundary geometry
 This is important because it connects local boundary structure to global fate.
 
 B7 separates local boundary regularity from global instability.
-B8 shows that geometry can influence when global instability appears.
+B8 records geometry-dependent numerical stop thresholds, while the v0.3 audit independently identifies a negative-principal-coefficient obstruction for the formal unprojected continuum linearization.
 
 ---
 
@@ -130,7 +187,7 @@ B8 therefore connects early boundary-layer studies to later energy-landscape and
 
 If boundary anisotropy affects the survival/runaway threshold, then stability is not determined only by bulk amplitude or total energy.
 
-Boundary shape itself becomes part of the stability structure.
+Boundary shape is a parameter of the measured finite-grid stopping classification. Its role in any well-posed continuum evolution remains open.
 
 This motivates later BIG questions:
 
@@ -140,7 +197,7 @@ This motivates later BIG questions:
 * Can noise later drive capture or locking?
 * Can post-capture states preserve hidden-depth inheritance?
 
-B8 does not answer all of these questions, but it establishes that boundary geometry can shift finite-time dynamical outcomes.
+B8 does not answer these later questions; it records a geometry-dependent finite-time numerical classification under its specified solver.
 
 ---
 
@@ -197,7 +254,11 @@ Avoid unless carefully qualified:
 
 ## Zenodo record
 
-Current documentation-corrected B8 dataset (v0.2):
+Current revised B8 preprint and reproducibility supplement (v0.3):
+
+https://zenodo.org/records/23832946
+
+Previous documentation-corrected dataset (v0.2):
 
 https://zenodo.org/records/23385079
 
