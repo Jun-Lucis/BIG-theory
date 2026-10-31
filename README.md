@@ -17,6 +17,20 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## Updated BIG-B7 preprint — v1.1 (31 October 2026)
+
+**Free-Boundary Exponent Across a Runaway Transition — revised numerical and mathematical audit.**
+
+- [**Current B7 version-specific DOI: 10.5281/zenodo.23835715**](https://doi.org/10.5281/zenodo.23835715) · [English/Japanese papers and reproducibility ZIP](https://zenodo.org/records/23835715).
+- [B7 research README](papers/B7_boundary_exponent/README.md) · [v1.1 source and mathematical audit](docs/B7_v1_1_source_numerical_and_linearization_audit_2026_10_31.md) · [historical B7 DOI 10.5281/zenodo.20603601](https://doi.org/10.5281/zenodo.20603601).
+
+The historical gamma bracket and fitted boundary exponent remain **finite-grid,
+finite-time numerical observations**. The recovered source and subset trajectory
+replays support those archived calculations; grid/stencil sensitivity and a
+**conditional time-frozen linearization L2 semigroup obstruction** restrict
+continuum interpretation. No nonlinear PDE blow-up, continuum-critical gamma,
+universal exponent or independently calibrated physical instability is proven.
+
 ## Updated BIG-B8 preprint — v0.3 (31 October 2026)
 
 **Boundary Anisotropy and Finite-Time Separatrix Thresholds — revised source and mathematical audit.**
