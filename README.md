@@ -17,6 +17,24 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## Updated BIG-B5 preprint — v1.2 (1 November 2026)
+
+**Mobility-Dependent Free-Boundary Exponents in a Mixed-Gradient Numerical Field — revised source-linked replication and PDE limitations.**
+
+- [**Current B5 version-specific DOI: 10.5281/zenodo.23850139**](https://doi.org/10.5281/zenodo.23850139) · [English/Japanese papers and B5-only reproducibility supplement](https://zenodo.org/records/23850139) · CC BY 4.0.
+- [B5 research README](papers/B5_mobility_dependent_boundary_exponents/README.md) · [v1.2 mathematical/source audit](docs/B5_v1_2_source_replay_grid_and_fit_audit_2026_11_01.md) · [historical v1.1 dataset](https://doi.org/10.5281/zenodo.23381643) · [original v1](https://doi.org/10.5281/zenodo.20575991).
+
+Nine historical B5.11 finite-grid mobility outcomes and the effective
+boundary-exponent fits are retained; source-aligned independent
+same-scheme numerical replays succeeded for 9/9 cases, with
+FTZ/DAZ floating-point conditions disclosed. CP7 documents
+fit-definition sensitivity, grid/filter dependence of weak-boundary
+negative principal coefficients, and a **conditional fixed-profile
+L² semigroup-generation obstruction** for a separate positive
+smooth test field. The original elliptical nonlinear continuum
+initial-value problem, exact support-edge exponent and physical
+prediction are **not established**.
+
 ## Updated BIG-B7 preprint — v1.1 (31 October 2026)
 
 **Free-Boundary Exponent Across a Runaway Transition — revised numerical and mathematical audit.**
