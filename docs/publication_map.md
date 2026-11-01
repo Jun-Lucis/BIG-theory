@@ -78,7 +78,7 @@ BIG is a developing boundary-centered research programme. The entries below shou
 | Series | Main theme                                                | Role in BIG                                        |
 | ------ | --------------------------------------------------------- | -------------------------------------------------- |
 | B3--B4 | Empirical position fits and selected finite-width quadratic-layer signatures | Local boundary observations with source and interpretation limits |
-| B5 | Mobility-dependent effective exponents in finite-time snapshots | Clarified dataset v1.1 published; original CSV and PNG retained |
+| B5 | Mobility-dependent effective exponents in finite-time snapshots | Current v1.2 preprint and 9/9 source-aligned numerical replay; 22 controls, 54 fit definitions; conditional negative-flux mathematical limitations |
 | B6 | Methodology-history reference | Standalone B6 DOI unconfirmed; do not identify it with BIG6.5 without provenance |
 | B7     | Free-boundary exponent near runaway transition            | Finite-grid fitted local exponent near numerical STOP; v1.1 source, scheme, and linearization audit |
 | B8     | Boundary anisotropy and finite-time separatrix thresholds | Finite-grid shape-dependent stopping; v0.3 mathematical and scheme-sensitivity audit |
@@ -370,13 +370,56 @@ Original record links and verification hashes are preserved in the [correction r
 
 ### B5: Mobility-dependent effective boundary exponents
 
-**Current dataset v1.1:** [10.5281/zenodo.23381643](https://doi.org/10.5281/zenodo.23381643). **Original v1:** [10.5281/zenodo.20575991](https://doi.org/10.5281/zenodo.20575991).
+**Current version: B5 v1.2 (Preprint), published 1 November 2026.**
+[**10.5281/zenodo.23850139**](https://doi.org/10.5281/zenodo.23850139)
+([public record, three files](https://zenodo.org/records/23850139)); CC BY 4.0.
+This is the **New version of the existing B5 record**, not a new independent record.
 
-Nine mobility cases at `N = 220`, `gamma = 0.10` are finite-time snapshots at `t = 0.24`; all reached the 240000-step cap. The selected effective mean decreases from 2.160614 to approximately 1.80–1.82, but fit retention varies with mobility and the crossing of two depends on selection. The positive-contour finite-window fits do not establish stationary convergence, an exact support-edge exponent, a critical mobility, or universality.
+**Historical versions:** clarified dataset
+[v1.1 (10.5281/zenodo.23381643)](https://doi.org/10.5281/zenodo.23381643);
+original dataset [v1.0 (10.5281/zenodo.20575991)](https://doi.org/10.5281/zenodo.20575991).
+The [all-version DOI 10.5281/zenodo.20575990](https://doi.org/10.5281/zenodo.20575990)
+resolves to the latest version.
 
-**Publication state — 15 October 2026 (JST):** clarified dataset v1.1 published and its public ZIP verified byte for byte. The original CSV and PNG are unchanged. Matching parameters, clarified documentation, original README and checksums are included; original v1 remains archived. No new PDE trajectories or authenticated original solver/fitting source are supplied. See the [verification record](B5_v1_1_publication_2026_10_15.json).
+**Current public files:** `BIG_B5_Revised_Preprint_EN_v1_2.pdf`,
+`BIG_B5_Japanese_Reference_v1_2.pdf`,
+`BIG_B5_v1_2_Reproducibility_Supplement.zip`.
 
-Repository entry: [B5 mobility scan](../papers/B5_mobility_dependent_boundary_exponents/README.md).
+**Retained numerical observation:** nine B5.11 mobility cases at
+`N=220`, `gamma=.1`, `dt=1e-6`, `T=.24`; all reached
+`max_steps=240000`, with no stationary-convergence certification.
+The original selected mean finite-window exponent decreases from
+2.160614 at `m=.5` to approximately 1.80–1.82 for high m,
+with selection and observation-window sensitivity. A universal or
+exact support-edge exponent is not claimed.
+
+**v1.2 source and repeatability:** the original Colab source was
+recovered and linked to the archived outputs; independent
+source-aligned same-scheme full numerical replays succeeded for
+**9/9 mobility trajectories** and original-source fitting results,
+with the disclosed FTZ/DAZ floating-point variant.
+CP7 adds **22** short-window stencil/grid/timestep/clip/smoothing
+controls and **54** fit-definition comparisons. A distinct smooth
+positive profile shows that the formal **negative-quartic-gradient-flux**
+equation is not forward parabolic for all positive smooth states;
+the **frozen-profile linearized L² C₀-semigroup obstruction**
+holds conditionally under specified operator domain assumptions.
+None of this proves nonlinear continuum blow-up for the
+historical elliptical initial-value problem, mesh-independent
+boundary exponents, or physical validity.
+
+**Historical v1.1:** the 15 October clarification retained the
+original numerical CSV and representative PNG and added matching
+parameters, documentation and checksums, but did not then
+contain the subsequently recovered original solver source.
+Its archival [publication verification record](B5_v1_1_publication_2026_10_15.json)
+remains correct **as of that version and date**.
+
+[Current B5 source/scheme/fit and mathematical audit](B5_v1_2_source_replay_grid_and_fit_audit_2026_11_01.md) ·
+[Dedicated B5 README](../papers/B5_mobility_dependent_boundary_exponents/README.md) ·
+[Early-series correction register](publication_corrections_B3_1_B5_2026_10_14.md).
+
+---
 
 ### B6: Publication mapping unresolved
 
