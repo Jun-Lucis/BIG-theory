@@ -8,6 +8,22 @@ For a recent **programme-wide synthesis**, cite: **Jun Lucis (2026), *Boundary I
 This is not a substitute for model-level references. **Specific equations, parameters, numerical values, formal PASS/FAIL/INCONCLUSIVE, code corrections, and predeclared protocols require the source publication and its version-specific DOI.** The GitHub repository itself remains a living reference index and can be cited separately. The new synthesis does **not** establish a universal BIG physics law or independent physical validation.
 
 
+## Independent preprints published on 5 November 2026 — BIG-MATH-01 and BIG-OC3 C19–P92
+
+**For the source-scoped positive-flux mathematical PDE results**, cite:
+
+> Lucis, J. (2026). *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry* (Preprint v1.0 RevB). Zenodo. [DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711).
+
+This **independent BIG-MATH-01 record** has an English authoritative preprint, Japanese reference translation and proof/audit ZIP. Cite it only for the specified **positive +4γ flux** model and its bounded-weak existence, **same-operator** L¹ uniqueness and restricted degenerate limits; it does not certify the historically printed negative-flux B4/B5/B7/B8 operators, exact compact support, coefficient identifiability or physical validity. The original [B4.1](https://doi.org/10.5281/zenodo.23342902) and [B4.3](https://doi.org/10.5281/zenodo.23342705) version-specific DOIs remain the sources for the original numerical evidence. The later duplicate record **23969747** was deleted; use **23969711**. [Scope and release check](../papers/BIG_MATH_01_positive_flux/README.md).
+
+**For the C19 history/observability and P92 steel conventional-model benchmarks**, cite:
+
+> Lucis, J. (2026). *History-Dependent Response, Predictive Transfer, and Limits of Identifiability: Failure-Preserving Mathematical and Experimental Benchmarks from C19 to P92 Steel* (Preprint v1.0 RevA). Zenodo. [DOI: 10.5281/zenodo.23965486](https://doi.org/10.5281/zenodo.23965486).
+
+This **independent BIG-OC3 C19–P92 record** combines constructed internal history, a separate Bristol cantilever conventional-model benchmark, and three-specimen RF/SLR/SLC P92 measurements. Cite the named test for its **limited** result: E9C limited within-RF NRMSE≈0.02224, E9D fixed-parameter transfer **FAIL**, E9G shared-parameter **joint FAIL**, and C19 noise/unknown-gain readout **FAIL**. These do not establish BIG-specific incremental physical predictive value. The post-download SHA-256 for the **published Japanese PDF remains unverified** in the release report (matching size/MD5; no detected mismatch). [Scope and release check](../papers/OC3_C19_P92_history_steel/README.md).
+
+Both papers are **unreviewed preprints**, not a new B-number, not revisions of B42, and not interchangeable mathematical models. BIG-MATH-01's unique forward solution does not identify PDE coefficients or verify the C19/P92 experiment; a P92 transfer FAIL does not falsify the unrelated positive-flux existence theorem. Keep the programme-wide B42 **SCIENCE NONE** verdict and all previous FAIL/INCONCLUSIVE findings.
+
 ## Standalone post-B42 fluid-history study (2026-10-25)
 
 For the numerical and analytical findings of **BIG Fluid History R0–R4.5**, including the predeclared R4.4/R4.5 comparator results, preserved failures, and limitations, cite:
