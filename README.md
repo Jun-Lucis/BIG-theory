@@ -17,6 +17,23 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## Newly published independent mathematics preprint — BIG-MATH-01 (5 November 2026)
+
+**Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry.** *Jun Lucis · Preprint v1.0 RevB · CC BY 4.0 · not peer reviewed.*
+
+- **[Version-specific DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711)** · [record and three files](https://zenodo.org/records/23969711) · [paper-specific scope and checksums](papers/BIG_MATH_01_positive_flux/README.md).
+- This **standalone BIG-MATH-01** paper concerns the corrected *positive-flux* BIG-B4.1/B4.3-type isotropic prototype: bounded weak existence, same-coefficient L¹ contraction/uniqueness, and restricted degenerate limits toward a Neumann porous-medium equation. It does **not** prove well-posedness of the historical *negative-flux* equations, general compact support, a universal BIG PDE, coefficient identifiability, or physical predictive validity. Internal proof/source QA is not independent mathematical peer review.
+- A later duplicate deposit (record 23969747) was **deleted as a duplicate**; **23969711 is the citation record**.
+
+## Newly published independent history/measurement preprint — BIG-OC3 C19–P92 (5 November 2026)
+
+**History-Dependent Response, Predictive Transfer, and Limits of Identifiability: Failure-Preserving Mathematical and Experimental Benchmarks from C19 to P92 Steel.** *Jun Lucis · Preprint v1.0 RevA · CC BY 4.0 · not peer reviewed.*
+
+- **[Version-specific DOI: 10.5281/zenodo.23965486](https://doi.org/10.5281/zenodo.23965486)** · [record and files](https://zenodo.org/records/23965486) · [paper-specific evidence and verification limits](papers/OC3_C19_P92_history_steel/README.md).
+- C19's internal history mechanism and synthetic predictions do not establish robust external readout: its noise/unknown-gain observation gate **FAILed**. On **three P92 steel specimens** (630,582 time-series rows), a conventional two-branch Maxwell model had limited within-RF holdout success (NRMSE 0.02224), but unchanged-parameter RF-to-SLR/SLC transfer **FAILed**, as did the shared-parameter joint improvement test. No BIG-specific incremental physical prediction has been established. The published Japanese PDF's *post-download SHA-256 check remains open* (size/MD5 matched; no mismatch detected).
+
+These are **distinct model families and separate independent Zenodo records**, not new B-numbers or newer versions of B4/B42. The overall B42 scientific verdict **SCIENCE NONE** and earlier FAIL/INCONCLUSIVE states are unchanged.
+
 ## Updated BIG-B5 preprint — v1.2 (1 November 2026)
 
 **Mobility-Dependent Free-Boundary Exponents in a Mixed-Gradient Numerical Field — revised source-linked replication and PDE limitations.**
