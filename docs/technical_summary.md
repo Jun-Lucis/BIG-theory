@@ -1,6 +1,8 @@
 # BIG Technical Summary — One-Page Evidence Guide
 
 
+**New standalone 5 November 2026 preprints (not B-series versions):** [BIG-MATH-01 v1.0 RevB / DOI 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711) gives source-scoped, conditional mathematical analysis for the corrected **positive +4γ flux** B4-type prototype: bounded weak existence, same-coefficient L¹ contraction/uniqueness and selected porous-medium limits. Forward uniqueness **does not** identify coefficients; strict support, historical negative-flux equations and independent physical validity remain unproved. [BIG-OC3 C19–P92 v1.0 RevA / DOI 10.5281/zenodo.23965486](https://doi.org/10.5281/zenodo.23965486) examines synthetic internal history, external readout and conventional viscoelastic comparator transfer against three P92 steel specimens. Limited conventional within-RF holdout success coexists with C19 readout **FAIL**, E9D and E9G cross-protocol **FAIL**, and no BIG-specific incremental prediction. No inference is transferred between the independent mathematical PDE and material-history models. See [paper indices](publication_map.md).
+
 **Current programme-wide synthesis (20 October 2026):** [Flagship Preprint v1.0, DOI 10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616), including an English paper, Japanese reference translation, and English technical appendix. This older technical guide remains a model-focused introduction; for later B37–B42 limitations consult the [research status pages](publication_map.md) and the flagship. The B42 overall formal scientific verdict is **NONE**; the candidate CA16 physical experiments have **not** been performed and no independently calibrated BIG-specific physical discriminator is established.
 
 
