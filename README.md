@@ -6,6 +6,8 @@ These studies are **distinct model families, not one universal governing equatio
 
 🇯🇵 [日本語での概要 / Japanese overview](docs/BIG_overview_ja.md)
 
+**Research approach (14 November 2026):** BIG uses boundaries as an *exploratory lens alongside bulk explanations*, not as a claim that every phenomenon reduces to a boundary. Cases that fit, fail, require new assumptions or remain unresolved are all part of the research record. Philosophical individuality and relational significance are distinct from mathematical observability and physical validation. [Research approach and evidence boundaries](docs/research_approach_2026_11_14.md).
+
 ## Start here — the programme-wide preprint
 
 **Boundary Information Geometry: Distinct Model Families, Preserved Failures, and a Path toward Physical Measurement**  
@@ -17,13 +19,14 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
-## Newly published independent mathematics preprint — BIG-MATH-01 (5 November 2026)
+## BIG-MATH-01 — current mathematics preprint v1.1 (13 November 2026)
 
-**Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry.** *Jun Lucis · Preprint v1.0 RevB · CC BY 4.0 · not peer reviewed.*
+**Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry.** *Jun Lucis · v1.1 · CC BY 4.0 · not externally peer reviewed.*
 
-- **[Version-specific DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711)** · [record and three files](https://zenodo.org/records/23969711) · [paper-specific scope and checksums](papers/BIG_MATH_01_positive_flux/README.md).
-- This **standalone BIG-MATH-01** paper concerns the corrected *positive-flux* BIG-B4.1/B4.3-type isotropic prototype: bounded weak existence, same-coefficient L¹ contraction/uniqueness, and restricted degenerate limits toward a Neumann porous-medium equation. It does **not** prove well-posedness of the historical *negative-flux* equations, general compact support, a universal BIG PDE, coefficient identifiability, or physical predictive validity. Internal proof/source QA is not independent mathematical peer review.
-- A later duplicate deposit (record 23969747) was **deleted as a duplicate**; **23969711 is the citation record**.
+- **[Current version-specific DOI: 10.5281/zenodo.24182121](https://doi.org/10.5281/zenodo.24182121)** · [current three-file Zenodo record](https://zenodo.org/records/24182121) · [version-scoped scope, hashes and retained v1.0 history](papers/BIG_MATH_01_positive_flux/README.md).
+- **[Original v1.0 RevB DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711)** · [all-version DOI](https://doi.org/10.5281/zenodo.23969710). The original Japanese reference translation remains in the original version; it was **not** part of the v1.1 release.
+- The corrected *positive-flux* prototype has an internal `PASS_WITH_SCOPE` mathematical audit for four principal statements. Its novelty assessment remains **one direct consequence and three applications of existing mathematics**; no new general PDE theorem or BIG-specific physical validation is claimed. Historical *negative-flux* operator well-posedness, general sharp free-support certification and coefficient identifiability do not follow. An internal audit is not external peer review.
+- The duplicate deposit `23969747` was removed; it is not a separate operative paper.
 
 ## Newly published independent history/measurement preprint — BIG-OC3 C19–P92 (5 November 2026)
 

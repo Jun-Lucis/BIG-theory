@@ -8,9 +8,17 @@ For a recent **programme-wide synthesis**, cite: **Jun Lucis (2026), *Boundary I
 This is not a substitute for model-level references. **Specific equations, parameters, numerical values, formal PASS/FAIL/INCONCLUSIVE, code corrections, and predeclared protocols require the source publication and its version-specific DOI.** The GitHub repository itself remains a living reference index and can be cited separately. The new synthesis does **not** establish a universal BIG physics law or independent physical validation.
 
 
-## Independent preprints published on 5 November 2026 — BIG-MATH-01 and BIG-OC3 C19–P92
+## Cite current BIG-MATH-01 v1.1 (13 November 2026)
 
-**For the source-scoped positive-flux mathematical PDE results**, cite:
+For the current corrected source-scoped positive-flux mathematics manuscript, cite:
+
+> Lucis, J. (2026). *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry* (Preprint v1.1). Zenodo. [DOI: 10.5281/zenodo.24182121](https://doi.org/10.5281/zenodo.24182121).
+
+**All-version/concept DOI:** [10.5281/zenodo.23969710](https://doi.org/10.5281/zenodo.23969710). **Initial historical version:** [v1.0 RevB / 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711). Cite the old version when discussing its original text or audit history. The v1.1 English document is 12 pages and has no v1.1 Japanese translation. Internal proof audit `PASS_WITH_SCOPE`; R1 novelty labels: one `DIRECT_CONSEQUENCE`, three `APPLICATION_OF_EXISTING_THEORY`. External peer review and independent physical validation are absent. See [file-level version history](../papers/BIG_MATH_01_positive_flux/README.md).
+
+## Historical 5 November 2026 v1.0 and separate BIG-OC3 C19–P92 preprint
+
+**For the original v1.0 RevB wording and historical release**, cite:
 
 > Lucis, J. (2026). *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry* (Preprint v1.0 RevB). Zenodo. [DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711).
 
