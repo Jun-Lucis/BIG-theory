@@ -1,7 +1,15 @@
 # BIG Publication Map
 
 
-## Independent mathematical preprint — BIG-MATH-01 (2026-11-05)
+## Current independent mathematical preprint — BIG-MATH-01 v1.1 (2026-11-13)
+
+**Jun Lucis**, *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry*, **Preprint v1.1**, **[version DOI: 10.5281/zenodo.24182121](https://doi.org/10.5281/zenodo.24182121)** ([record](https://zenodo.org/records/24182121)); **[concept/all-version DOI: 10.5281/zenodo.23969710](https://doi.org/10.5281/zenodo.23969710).** CC BY 4.0, not externally peer reviewed.
+
+The 12-page English main paper and its source/technical ZIP and checksum manifest form the three new public files. There is **no v1.1 Japanese translation**; the original v1.0 Japanese reference remains in the prior version. The reported post-publication three-file SHA-256 verification and exact file names are recorded in the [paper index](../papers/BIG_MATH_01_positive_flux/README.md). This GitHub documentation update has not independently re-downloaded Zenodo binaries.
+
+After source-scoped fixes, the four principal statements received an internal AI-assisted audit of `PASS_WITH_SCOPE`. The R1 novelty classification is **Proposition 3.1 `DIRECT_CONSEQUENCE`** and **Theorem 4.1, Theorem 5.1, Proposition 5.2 `APPLICATION_OF_EXISTING_THEORY`**. No independently peer-reviewed new general theorem, negative-flux well-posedness or BIG-specific physical law is established. The original v1.0 RevB release DOI **23969711** is preserved below as part of the same version history. The later duplicate deposit 23969747 remains deleted.
+
+## Historical initial BIG-MATH-01 v1.0 RevB (2026-11-05)
 
 **Jun Lucis, *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry*, Preprint v1.0 RevB.** Version-specific **[DOI: 10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711)** ([record and files](https://zenodo.org/records/23969711)) · CC BY 4.0 · unreviewed. [Paper-specific index, model scope and post-deposit checksum status](../papers/BIG_MATH_01_positive_flux/README.md).
 
