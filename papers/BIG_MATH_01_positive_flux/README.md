@@ -2,6 +2,26 @@
 
 **Jun Lucis (2026).** *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry.*
 
+## Current published version: v1.1 (13 November 2026)
+
+**Current version-specific DOI:** [10.5281/zenodo.24182121](https://doi.org/10.5281/zenodo.24182121) · **all-version/concept DOI:** [10.5281/zenodo.23969710](https://doi.org/10.5281/zenodo.23969710) · **license:** CC BY 4.0 · **status:** unreviewed preprint.
+
+The v1.1 English authoritative paper is **12 pages**. Per the author's completed publication and post-download report, the new Zenodo version contains exactly these three files, with reported SHA-256 readback matches:
+
+| v1.1 published file | Reported SHA-256 |
+| --- | --- |
+| `BIG_MATH_01_Preprint_EN_v1_1.pdf` | `a26ee95e828cac24acf92051a04904ae004fa5a41ced4f20244f1d73fe0d10cf` |
+| `BIG_MATH_01_Source_and_Technical_Supplement_v1_1.zip` | `38e4e7cc0c675c5905acc271014d22f2bd126dd90bd580ec599e2a4edce1c3ac` |
+| `BIG_MATH_01_V11_SHA256SUMS.txt` | `0d9f0a121aa456cadbe8f8e49744303f073fa5bec9e060da3e8418e336ca2d33` |
+
+This is the **author's Work publication/readback report**, not a fresh independent Zenodo binary download by this repository update. No new v1.1 Japanese translation was published; the Japanese reference version remains with the original v1.0 files.
+
+Revision scope: supplementary proof and assumptions clarifications; a Section 3 upper-solution correction resolving the `mu`-dependent branch; and Appendix D notation cleanup. The reported internal mathematical audit is `PASS_WITH_SCOPE` for four main statements. The R1 novelty review classifies Proposition 3.1 as `DIRECT_CONSEQUENCE` and Theorem 4.1, Theorem 5.1 and Proposition 5.2 as `APPLICATION_OF_EXISTING_THEORY`. Internal AI-assisted review is **not independent external mathematical peer review**.
+
+The earlier v1.0 RevB remains citable for its historical version and files, but **cite v1.1 for the current revised text**.
+
+## Historical initial release: v1.0 RevB (5 November 2026)
+
 - **Published:** 5 November 2026 · **Version:** 1.0 RevB · **Resource type:** standalone, unreviewed preprint · **License:** CC BY 4.0.
 - **Version-specific DOI:** [10.5281/zenodo.23969711](https://doi.org/10.5281/zenodo.23969711).
 - **Zenodo record:** [23969711](https://zenodo.org/records/23969711).
