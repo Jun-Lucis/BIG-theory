@@ -1,6 +1,14 @@
 # BIG Citation Policy
 
 
+## Cite the standalone BIG-MATH-02 R8 evolution preprint (20 November 2026)
+
+For the one-dimensional, source-scoped mixed-degenerate-diffusion waiting-time/slope results, cite:
+
+> Lucis, J. (2026). *Waiting-Time Boundary Slopes for a Mixed Degenerate Diffusion: Vanishing Tangents, Averaged Regularization, and an Open Classical Trace Problem* (Preprint v0.4.2). Zenodo. [DOI: 10.5281/zenodo.24387025](https://doi.org/10.5281/zenodo.24387025).
+
+[Published record](https://zenodo.org/records/24387025) · [three-file hashes, evidence levels and limits](../papers/BIG_MATH_02_R8/README.md). This is a **standalone time-evolution record**, not a new version of BIG-MATH-02's separate static-observation work or BIG-MATH-01. The **v0.4** mathematics manuscript received a scoped independent **AI** audit; **v0.4.2** is the display-only publication form and was **not** independently mathematically re-audited as a new version. The classical pressure-gradient free-tip trace remains inconclusive, priority and novelty are not established, and human specialist peer review has not occurred. Cite this DOI only for the precise mathematical scope given in the manuscript.
+
 ## Current programme-wide entry: the 2026 flagship
 
 For a recent **programme-wide synthesis**, cite: **Jun Lucis (2026), *Boundary Information Geometry: Distinct Model Families, Preserved Failures, and a Path toward Physical Measurement*, Preprint v1.0, [DOI: 10.5281/zenodo.23486616](https://doi.org/10.5281/zenodo.23486616)**. It includes English main, Japanese reference and English technical appendix.

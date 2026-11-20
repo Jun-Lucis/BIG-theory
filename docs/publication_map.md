@@ -1,6 +1,14 @@
 # BIG Publication Map
 
 
+## Independent evolution-mathematics preprint — BIG-MATH-02 R8 v0.4.2 (2026-11-20)
+
+**Jun Lucis**, *Waiting-Time Boundary Slopes for a Mixed Degenerate Diffusion: Vanishing Tangents, Averaged Regularization, and an Open Classical Trace Problem*, **unreviewed standalone Preprint v0.4.2**, **[version DOI: 10.5281/zenodo.24387025](https://doi.org/10.5281/zenodo.24387025)** ([record](https://zenodo.org/records/24387025)). CC BY 4.0, Open Access. The 20-page English manuscript, 9-page English technical appendix and public ZIP containing frozen proof/audit source materials are indexed in the [R8 record, including reported downloaded-file SHA-256 matches](../papers/BIG_MATH_02_R8/README.md).
+
+Original one-dimensional mixed-flux equation: `u_t = partial_x(u^2 u_x + 4 gamma (u_x)^3)`, `gamma > 0`. Within the specified special nonnegative weak-solution/approximation class, the manuscript assembles U01 periodic positive approximants and class nonemptiness, U03 vanishing quadratic tangents, U07 time-integrated natural-weight curvature dissipation, and U08 strictly positive-interior regularity. The **frozen v0.4 manuscript** received an independent **AI** source-scoped final audit `MANUSCRIPT_FINAL_AUDIT_PASS_WITH_SCOPE`; the released v0.4.2 has **display-only revisions** and no new independent mathematical audit. The classical vacuum-tip pressure-gradient trace is **INCONCLUSIVE**; a positive-time nonconvergence counterexample was **NOT FOUND**; novelty and priority are **NOT ESTABLISHED / UNRESOLVED**; external human specialist peer review has **NOT** occurred. No physical BIG-specific superiority or revision of B42 **SCIENCE NONE** follows.
+
+This R8 time-evolution paper is a **new independent record**, not a version of the separate BIG-MATH-02 static-observation study, BIG-MATH-01, or the B-series.
+
 ## Current independent mathematical preprint — BIG-MATH-01 v1.1 (2026-11-13)
 
 **Jun Lucis**, *Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry*, **Preprint v1.1**, **[version DOI: 10.5281/zenodo.24182121](https://doi.org/10.5281/zenodo.24182121)** ([record](https://zenodo.org/records/24182121)); **[concept/all-version DOI: 10.5281/zenodo.23969710](https://doi.org/10.5281/zenodo.23969710).** CC BY 4.0, not externally peer reviewed.
