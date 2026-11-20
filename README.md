@@ -19,6 +19,14 @@ These studies are **distinct model families, not one universal governing equatio
 
 The flagship is a synthesis and a source guide; it does not supersede the model-specific equations, frozen protocols, corrections, or citable original papers.
 
+## BIG-MATH-02 R8 — new independent evolution preprint v0.4.2 (20 November 2026)
+
+**Waiting-Time Boundary Slopes for a Mixed Degenerate Diffusion: Vanishing Tangents, Averaged Regularization, and an Open Classical Trace Problem.** *Jun Lucis · v0.4.2 · CC BY 4.0 · not externally peer reviewed.*
+
+- **[Version-specific DOI: 10.5281/zenodo.24387025](https://doi.org/10.5281/zenodo.24387025)** · [Zenodo record and three files](https://zenodo.org/records/24387025) · [R8 paper index, scope and reported post-publication SHA-256 checks](papers/BIG_MATH_02_R8/README.md).
+- **One-dimensional original mixed-flux PDE:** `u_t = partial_x(u^2 u_x + 4 gamma (u_x)^3)`, `gamma > 0`. Restricted U01/Definition 3.1, U03, U07 and U08 proof chains have **source-scoped AI mathematical audit results**; the frozen v0.4 manuscript received `MANUSCRIPT_FINAL_AUDIT_PASS_WITH_SCOPE`. v0.4.2 only updates publication display, **not mathematics**, and has no separate new math audit.
+- **Limitations:** the classical vacuum-tip pressure-gradient trace remains `INCONCLUSIVE`; an actual positive-time PDE nonconvergence counterexample is `COUNTEREXAMPLE_NOT_FOUND`; novelty `NOT_ESTABLISHED`, priority `PRIORITY_UNRESOLVED`, human peer review `NOT_DONE`. No BIG-specific physical-law validation. This **standalone evolution record** is distinct from the separate BIG-MATH-02 static-observation record and from BIG-MATH-01.
+
 ## BIG-MATH-01 — current mathematics preprint v1.1 (13 November 2026)
 
 **Well-posedness and Degenerate Limits of a Positive-Flux Boundary-Formation Prototype: A Source-Scoped Mathematical Analysis within Boundary Information Geometry.** *Jun Lucis · v1.1 · CC BY 4.0 · not externally peer reviewed.*
